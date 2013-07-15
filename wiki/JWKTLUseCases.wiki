@@ -9,15 +9,18 @@ This page focuses on use cases for accessing a certain kind of information type 
 
 (TODO)
 
-== Iterating over all Pages, Entries, Senses, Relations ==
+== Iterating over pages, entries, senses, relations ==
 
 (TODO)
 
-== Extracting Glosses, Examples and Quotations ==
+== Extracting sense definitions, examples, and quotations ==
 
 (TODO)
 
-== Extracting Translations ==
+
+== Extracting semantic relations ==
+
+== Extracting translations ==
 
 Wiktionary encodes a large number of translations, which are represented as a hyperlink from one article to another. The German translation of the English word _boat_ can, for instance, be accessed using the following code:
 
@@ -67,10 +70,10 @@ Again, translations that could not be associated to a specific word sense are ga
   wkt.close();
 }}}
 
-== Extracting Related Words ==
+== Extracting related words ==
 
 (TODO)
 
-== Extracting Links ==
+== Extracting links ==
 
 (TODO)
