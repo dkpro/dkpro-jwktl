@@ -24,12 +24,12 @@ To achieve that, create a new Java project and add JWKTL to your classpath as de
     File outputDirectory = new File(TARGET_DIRECTORY);
     boolean overwriteExisting = OVERWRITE_EXISTING_FILES;
       
-    Wiktionary.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
+    JWKTL.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
   }
 }}}
 
 Make sure to set the following parameters:
-  * `PATH_TO_DUMP_FILE`: The path to the Wiktionary dump file as downloaded in the preceding step.
+  * `PATH_TO_DUMP_FILE`: The path to the Wiktionary dump file as downloaded in the preceding step. The dump file can be either an uncompressed XML file (fast) or a bz2 archive of the XML file (a bit slower).
   * `TARGET_DIRECTORY`: The name of the output folder, where the parsed Wiktionary database should be placed (needs to be a valid directory).
   * `OVERWRITE_EXISTING_FILES`: An existing Wiktionary database in the target directory will only be overwritten if this parameter is set to `true`.
 
