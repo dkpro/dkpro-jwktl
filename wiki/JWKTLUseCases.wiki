@@ -18,12 +18,62 @@ For brevity, we won't be able to describe the information types in detail, which
 
 == Extracting semantic relations ==
 
+Two words (word senses) can be related in their meaning, for example, by describing the same or an opposite meaning. This is modeled by what is called semantic relations pointing from one word sense to a certain target article. The following example code shows how to extract all synonyms of the noun _boat_:
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  for (IWiktionaryEntry entry : page.getEntries())
+    if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
+     for (IWiktionaryRelation relation : entry.getRelations(RelationType.SYNONYM))
+       System.out.println(relation.getTarget());
+  wkt.close();
+}}}
+
+Accordingly, all semantic relations can be extracted:
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  for (IWiktionaryEntry entry : page.getEntries())
+    if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
+      for (IWiktionaryRelation relation : entry.getRelations())
+        System.out.println(relation.getRelationType() + ": " + relation.getTarget());
+  wkt.close();
+}}}
+
+So far, we have accessed all semantic relations of a lexical entry regardless of the word senses. This is achieved by selecting the `IWiktionarySense` in question and essentially invoking the same methods as for the `IWiktionaryEntry`:
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  IWiktionaryEntry entry = page.getEntry(0);
+  IWiktionarySense sense = entry.getSense(1);
+  for (IWiktionaryRelation relation : sense.getRelations(RelationType.SYNONYM))
+    System.out.println(relation.getTarget());
+  wkt.close();
+}}}
+
+Semantic relations that could not be associated to a specific word sense are gathered within the unassigned sense:
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  IWiktionaryEntry entry = page.getEntry(0);
+  IWiktionarySense unassigned = entry.getUnassignedSense();
+  for (IWiktionaryRelation relation : unassigned.getRelations(RelationType.SYNONYM))
+    System.out.println(relation.getTarget());
+  wkt.close();
+}}}
+
+
+
 == Extracting translations ==
 
 Wiktionary encodes a large number of translations, which are represented as a hyperlink from one article to another. The German translation of the English word _boat_ can, for instance, be accessed using the following code:
 
 {{{
-  IWiktionaryEdition wkt = Wiktionary.open(WIKTIONARY_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
     if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
@@ -35,7 +85,7 @@ Wiktionary encodes a large number of translations, which are represented as a hy
 Accordingly, it is easy to print a list of all translations encoded for the noun _boat_:
 
 {{{
-  IWiktionaryEdition wkt = Wiktionary.open(WIKTIONARY_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
     if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
@@ -47,21 +97,21 @@ Accordingly, it is easy to print a list of all translations encoded for the noun
 For the semantic relations, we have seen that many of them are associated with a certain word sense. This also applies to the translations. The following sample code extracts the German translations of the first word sense of _boat_ (i.e., the meaning of a water vessel):
 
 {{{
-  IWiktionaryEdition wkt = Wiktionary.open(WIKTIONARY_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
-  IWiktionaryEntry entry1 = page.getEntry(0);
-  IWiktionarySense sense1 = entry1.getSense(0);
-  for (IWiktionaryTranslation translation : sense1.getTranslations(Language.GERMAN))
+  IWiktionaryEntry entry = page.getEntry(0);
+  IWiktionarySense sense = entry.getSense(1);
+  for (IWiktionaryTranslation translation : sense.getTranslations(Language.GERMAN))
       System.out.println(translation.getTranslation());
   wkt.close();
 }}}
 
-Again, translations that could not be associated to a specific word sense are gathered within the dummy sense:
+Again, translations that could not be associated to a specific word sense are gathered within the unassigned sense:
 
 {{{
-  IWiktionaryEdition wkt = Wiktionary.open(WIKTIONARY_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
-  IWiktionaryEntry entry1 = page.getEntry(0);
+  IWiktionaryEntry entry = page.getEntry(0);
   IWiktionarySense unassigned = entry.getUnassignedSense();
   for (IWiktionaryTranslation translation : unassigned.getTranslations(Language.GERMAN))
       System.out.println(translation.getTranslation());
