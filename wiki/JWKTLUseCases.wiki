@@ -13,8 +13,44 @@ For brevity, we won't be able to describe the information types in detail, which
 
 == Extracting sense definitions, examples, and quotations ==
 
-(TODO)
+The meaning of a word sense is described in a sense definition giving a brief paraphrase or usage note of a word sense (often called a "gloss"). Code example:
 
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  IWiktionaryEntry entry = page.getEntry(0);
+  IWiktionarySense sense = entry.getSense(1);
+  System.out.println(sense.getGloss().getText());
+  wkt.close();
+}}}
+
+The sense definition is encoded using the Wiki markup language. JWKTL represents such strings using the `IWikiString` interface. This facilitates accessing the original text including all markup (`getText()`) and accessing a more reader-friendly version without most of the wiki markup (`getPlainText()`).
+
+In addition to that, the usage of a word sense might be illustrated by example sentences or quotations. Note that for the sake of memory consumption, many information types are set to `null` if no Wiktionary information is provided for this article position. Remember to check for `null` if the information type might be missing. Code example:
+
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  IWiktionaryPage page = wkt.getPageForWord("boat");
+  IWiktionaryEntry entry = page.getEntry(0);
+  IWiktionarySense sense = entry.getSense(1);
+
+  // Example sentences.
+  if (sense.getExamples() != null)
+    for (IWikiString example : sense.getExamples())
+      System.out.println(example.getText());
+
+  // Quotations.
+  if (sense.getQuotations() != null)
+    for (IQuotation quotation : sense.getQuotations()) {
+      for (IWikiString line : quotation.getLines())
+        System.out.println(line.getText());
+      System.out.println("--" + quotation.getSource().getText());
+    }
+
+  wkt.close();
+}}}
+	  
 
 == Extracting semantic relations ==
 
@@ -118,12 +154,7 @@ Again, translations that could not be associated to a specific word sense are ga
   wkt.close();
 }}}
 
-== Extracting related words ==
-
-(TODO)
-
-== Extracting links ==
-
-(TODO)
 
 == Multilingual processing ==
+
+(TODO)
