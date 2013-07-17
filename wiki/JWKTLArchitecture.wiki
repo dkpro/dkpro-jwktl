@@ -41,9 +41,31 @@ Each combination of language and part of speech described on an article page yie
   // Query by word form (case insensitive).
   entries = wkt.getEntriesForWord("rom", true);
   for (IWiktionaryEntry entry : entries)
-			System.out.println(WiktionaryFormatter.instance().formatHeader(entry));
+    System.out.println(WiktionaryFormatter.instance().formatHeader(entry));
 }}}
 
 == Word senses ==
 
-(TODO)
+Finally, each lexical entry can distinguish multiple word senses, which are represented in JWKTL as `IWiktionarySense` instances. This class allows accessing the sense definition (gloss), example sentences, quotations, semantic relations, translations, and references. The senses are associated with a running index in the order of their definition within a Wiktionary entry. Since there are often information items that are not associated to any word sense, there is also an unassiged sense containing all of this information. This sense has the running index 0. Code example:
+
+{{{
+  IWiktionaryEntry entry = entries.get(0);
+
+  // Enumerate senses.
+  for (IWiktionarySense sense : entry.getSenses())
+    System.out.println(WiktionaryFormatter.instance().formatHeader(sense));	
+
+  // Access first sense.
+  IWiktionarySense sense = entry.getSense(1);
+  System.out.println(WiktionaryFormatter.instance().formatHeader(sense));
+
+  // Access second sense.
+  sense = entry.getSense(2);
+  System.out.println(WiktionaryFormatter.instance().formatHeader(sense));
+
+  // Access unassigned semantic information.
+  sense = entry.getUnassignedSense();
+  System.out.println(WiktionaryFormatter.instance().formatHeader(sense));
+}}}
+
+Having understood this general architecture, you can now take a look at specific [JWKTLUseCases JWKTL use cases] to extract a certain kind of information type. In addition to that, the Javadoc documentation gives further information on using the API and its different methods.
