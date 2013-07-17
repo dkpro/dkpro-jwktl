@@ -3,9 +3,24 @@
 
 = JWKTL Use Cases =
 
-This page focuses on use cases for accessing a certain kind of information type from Wiktionary using JWKTL. Before taking a look at this page, make sure that JWKTL is correctly installed and follow the [GettingStarted getting started] guide.
+This page focuses on use cases for accessing a certain kind of information type from Wiktionary using JWKTL. Before taking a look at this page, make sure that JWKTL is correctly installed and follow the [GettingStarted getting started] guide. This should equip you with an instance of `IWiktionaryEdition`, JWKTL's representation of a single parsed Wiktionary language edition (e.g., the English Wiktionary). In the following sections, we focus on accessing the individual information types encoded in Wiktionary. For brevity, we won't be able to describe the information types in detail, which is why we refer you to the publications mentioned on the project homepage.
 
-== Printing information on a certain word ==
+
+== Accessing the parsed information ==
+
+The primary building blocks of Wiktionary are article pages, which contain lexicographic information on a specific word form (e.g., "boat"). This can include multiple parts of speech (e.g., the noun and the verb "plant") and multiple languages (e.g., "fog" in English and Hungarian). JWKTL makes use of the `IWiktionaryPage` interface to represent these article pages. They may be queried either by their unique ID or the described word form. For each page, the title (i.e., the word form), the date, revision ID, and author of the last revision, the language of the embracing Wiktionary language edition, the set of language codes occuring as interwiki-links, and the target of a possible redirection. Code example:
+
+{{{
+  WiktionaryFormatter formatter = WiktionaryFormatter.instance();
+
+  // Query by ID.
+  IWiktionaryPage page = wkt.getPageForId(7377);
+  System.out.println(formatter.formatHeader(page));
+
+  // Query by word form.
+  page = wkt.getPageForWord("boat");
+  System.out.println(formatter.formatHeader(page));
+}}}
 
 (TODO)
 
