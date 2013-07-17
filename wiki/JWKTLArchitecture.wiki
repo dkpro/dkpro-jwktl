@@ -3,6 +3,8 @@
 
 = JWKTL Architecture =
 
+http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png
+
 == Article pages ==
 
 The primary building blocks of Wiktionary are article pages, which contain lexicographic information on a specific word form (e.g., "boat"). This can include multiple parts of speech (e.g., the noun and the verb "plant") and multiple languages (e.g., "fog" in English and Hungarian). JWKTL makes use of the `IWiktionaryPage` interface to represent these article pages. They may be queried either by their unique ID or the described word form. For each page, the title (i.e., the word form), the date, revision ID, and author of the last revision, the language of the embracing Wiktionary language edition, the set of language codes occuring as interwiki-links, and the target of a possible redirection. Code example:
