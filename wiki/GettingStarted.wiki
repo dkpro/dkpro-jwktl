@@ -35,13 +35,14 @@ Make sure to set the following parameters:
 
 If you everything worked fine until now, run your code and get yourself a coffee -- parsing a dump file usually requires between five minutes and two hours, depending on the language edition and your hardware. It might be necessary to grant some additional heap space to the Java virtual machine. Use the `Xmx` parameter to to that (e.g., `java -Xmx1200m ...`). Please refer to the Java documentation for more information. Once the parsing process has terminated, you should find a number of Berkeley DB files in your target directory. This is your parsed Wiktionary data.
 
+
 == Accessing the data ==
 
 Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database connection and start querying the data you need. The basic code is:
 
 {{{
   // Connect to the Wiktionary database.
-  IWiktionaryEdition wkt = Wiktionary.open(WIKTIONARY_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   
   //TODO: Query the data you need.
 
