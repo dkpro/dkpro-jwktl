@@ -3,7 +3,9 @@
 
 = JWKTL Architecture =
 
-http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png
+The main entry point is the `JWKTL` class, which facilitates parsing an XML dump file and accessing the parsed data. On this page, we discuss the most important classes used by JWKTL to model the different information types encoded in Wiktionary and how they can be accessed. The following class diagram shows an overview these classes:
+
+[http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png]
 
 == Article pages ==
 
