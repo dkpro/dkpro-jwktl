@@ -9,7 +9,42 @@ For brevity, we won't be able to describe the information types in detail, which
 
 == Iterating over pages, entries, senses, relations ==
 
-(TODO)
+In addition to querying a specific dictionary article by its lemma (which we describe below), JWKTL facilitates iterating over all encoded entries. The corresponding methods make use of Java's iterable interface and can hence be easily used in a for loop. Note that iterating over all entries is computationally far more expensive than querying for a few individual entries, since querying is based on efficient database indexes. Below is some example code for iterating over all pages, entries, and senses and counting them.
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  int pageCount = 0;
+  int entryCount = 0;
+  int senseCount = 0;
+  for (IWiktionaryPage page : wkt.getAllPages()) {
+    for (IWiktionaryEntry entry : page.getEntries()) {
+      senseCount += entry.getSenseCount();
+      entryCount++;
+    }
+    pageCount++;
+  }
+  System.out.println("Pages: " + pageCount);
+  System.out.println("Entries: " + entryCount);
+  System.out.println("Senses: " + senseCount);
+  wkt.close();
+}}}
+
+JWKTL also supports using filters that facilitate skipping unwanted entries during iteration. Imagine you want to compile a list of all German adjectives encoded in a Wiktionary language edition. The source code for extracting this list and printing its size could, for example, look like this:
+
+{{{
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  WiktionaryEntryFilter filter = new WiktionaryEntryFilter();
+  filter.setAllowedWordLanguages(Language.GERMAN);
+  filter.setAllowedPartsOfSpeech(PartOfSpeech.ADJECTIVE);
+  int deAdjectiveCount = 0;
+  for (IWiktionaryEntry entry : wkt.getAllEntries(filter)) {
+    System.out.println(entry.getWord());
+    deAdjectiveCount++;
+  }
+  System.out.println("German adjectives: " + deAdjectiveCount);
+  wkt.close();
+}}}
+
 
 == Extracting sense definitions, examples, and quotations ==
 
@@ -157,4 +192,20 @@ Again, translations that could not be associated to a specific word sense are ga
 
 == Multilingual processing ==
 
-(TODO)
+JWKTL allows processing and combining information from multiple Wiktionary language editions using the same code and API. That is to say, An `IWiktionaryCollection` may be created which is basically a list of `IWiktionaryEdition`s. The collection offers largely the same methods for querying and iterating the encoded information. The following code example extracts, for instance, all entries for the word form <i>arm</i> encoded in the two given Wiktionary databases (e,g., the English and German false friends):
+
+{{{
+  IWiktionaryCollection wktColl = JWKTL.openCollection(WIKTIONARY_DIRECTORY1, WIKTIONARY_DIRECTORY2);
+  for (IWiktionaryEntry entry : wktColl.getEntriesForWord("arm")) {
+    // Print the language of the defining language edition.
+    System.out.println(entry.getPage().getEntryLanguage() + ":");
+
+    // Print the word and its language and part of speech.
+    System.out.println("  " + entry.getWord() 
+        + "/" + entry.getPartOfSpeech() 
+        + "/" + entry.getWordLanguage());
+  }
+  wkt.close();
+}}}
+
+Remember that each Wiktionary language edition encodes entries from multiple different languages. Use `getEntryLanguage()` to identify the language of the language edition encoding an entry (e.g., the English Wiktionary - this is the language used for describing the lexicographic information), and use `getWordLanguage()` to obtain the language of the actual word (e.g., a German noun). Take a look at our publications for more information on this distinction.
