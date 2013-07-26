@@ -1,0 +1,118 @@
+== Wisent ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+{{Substantiv-Tabelle
+|Bild=Wisent.jpg|210px|1|ein männlicher ''Wisent''
+|Wer oder was? (Einzahl)=der Wisent
+|Wer oder was? (Mehrzahl)=die Wisente
+|Wessen? (Einzahl)=des Wisents
+|Wessen? (Mehrzahl)=der Wisente
+|Wem? (Einzahl)=dem Wisent
+|Wem? (Mehrzahl)=den Wisenten
+|Wen? (Einzahl)=den Wisent
+|Wen? (Mehrzahl)=die Wisente
+}}
+
+{{Silbentrennung}} 
+:Wi·sent, {{Pl.}} Wi·sen·te
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|ˈviːzɛnt}}, {{Pl.}} {{Lautschrift|ˈviːzɛntə}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutung}}
+:[1] eine europäische Bisonart (''Bison bonasus'')
+
+{{Abkürzungen}}
+:[1] ''(wissenschaftlich)'' B. bonasus
+
+{{Herkunft}}
+:[1] bezeugt im [[Mittelhochdeutsch]]en ''wisent'', im [[Althochdeutsch]]en ''wisunt'', ''wisant''; entstammt seinerseits dem [[Germanisch]]en ''*wisand'', ''*wisund'', ''*wisunt'', möglicherweise in der [[Bedeutung]] „[[stinken]]d“, nach dem [[Moschus]][[Geruch|geruch]], den Wisente während der Brunftzeit verströmen
+
+{{Synonyme}}
+:[1] [[Europäischer Bison]]
+
+{{Gegenworte}}
+:[1] [[Büffel]]
+
+{{Oberbegriffe}}
+:[1] [[Landsäugetier]], [[Paarhufer]], [[Wiederkäuer]], [[Hornträger]], [[Wildrind]], [[Bison]]
+
+{{Unterbegriffe}}
+:[1] [[Bergwisent]] ''(Bison bonasus caucasicus)'', [[Flachlandwisent]] ''(Bison bonasus bonasus)'', [[Ungarischer Wisent]] ''(Bison bonasus hungarorum)'', [[Karpatenwisent]] ''(Bison bonasus hungarorum)'', [[Kaukasuswisent]] ''(Bison bonasus caucasicus)''
+
+'''Verwandte Begriffe'''
+:[1] [[Bisent]]: Hybrid aus Wisent und [[Bison|Bison [2]]]
+:[1] [[Zubron]]: Hybrid aus Wisent und [[Hausrind]]
+
+{{Beispiele}}
+:[1] Der ''Wisent'' ist Europas schwerstes und größtes Landsäugetier und zudem der letzte Vertreter der Wildrindarten des europäischen Kontinents. 
+
+{{Redewendungen}}
+:
+
+{{Charakteristische Wortkombinationen}}
+:
+
+{{Abgeleitete Begriffe}}
+:[1] ~[[Herde|herde]], ~[[Kuh|kuh]], ~[[Stier|stier]], ~[[Bulle|bulle]], ~[[Kalb|kalb]], ~[[Gehege|gehege]], ~[[Bestand|bestand]], ~[[Horn|horn]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{af}}: [1] {{Ü|ar|europese buffel}}
+*{{bg}}: [1] {{Üxx|bg|zubăr|зубър}}
+*{{zh-cn}}: [1] {{Üxx|zh|ōuzhōuyěniú|欧洲野牛}}
+*{{zh-tw}}: [1] {{Üxx|zh|ōuzhōuyěniú|歐洲野牛}}
+*{{da}}: [1] {{Ü|da|visent}}
+*{{en}}: [1] {{Ü|en|wisent}}
+*{{eo}}: [1] {{Ü|eo|visento}}
+*{{fi}}: [1] {{Ü|fi|visentti}}
+*{{fr}}: [1] {{Ü|fr|bison d'Europe}} {{m}}
+*{{ka}}: [1] {{Üxx|ka|domba|დომბა}}
+*{{he}}: [1] {{Üxx|he||ביזון}}, {{Üxx|he||ביזון אירופי}}
+*{{ia}}: [1] {{Ü|ia|bisonte europee}} {{m}}
+*{{it}}: [1] {{Ü|it|bisonte europeo}} {{m}}
+*{{ja}}: [1] {{Ü|ja|ヨーロッパバイソン}} (よーろっぱばいそん, yōroppa baison) 
+{{Ü-Abstand}}
+*{{lt}}: [1] {{Ü|lt|stumbras}}
+*{{nl}}: [1] {{Ü|nl|wisent}}
+*{{no}}: [1] {{Ü|no|visent}}
+*{{pl}}: [1] {{Ü|pl|żubr}}
+*{{pt}}: [1] {{Ü|pt|wisent}}, {{Ü|pt|bisonte-europeu}}, {{Ü|pt|bisâo-europeu}}
+*{{ro}}: [1] {{Ü|ro|zimbru}}
+*{{ru}}: [1] {{Üxx|ru|zubr|зубр}}
+*{{sv}}: [1] {{Ü|sv|visent}}
+*{{sk}}: [1] {{Ü|sk|zubor}}
+*{{dsb}}: [1] {{Ü|dsb|wizent}} {{m}}
+*{{hsb}}: [1] {{Ü|hsb|zubr}} {{m}}
+*{{es}}: [1] {{Ü|es|bisonte europeo}} {{m}}
+*{{cs}}: [1] {{Ü|cs|zubr}}
+*{{hu}}: [1] {{Ü|hu|bölény}}
+{{Ü-rechts}} <!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters -->
+
+{{Dialektausdrücke (Deutsch)|
+*Alemannisch: 
+*Bairisch: 
+|
+*{{nds}}: 
+*Ostmitteldeutsch: 
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Wisent}}
+:[1] {{Ref-Grimm|Wisent|GW22764}}
+:[1] {{Ref-DWDS|Wisent}}
+:[1] {{Ref-Canoo|Wisent}}
+:[1] {{Ref-UniLeipzig|Wisent}}
+:[1] Friedrich Kluge: Etymologisches Wörterbuch der deutschen Sprache. Berlin 1975.
+:[1] The American Heritage Dictionary of the English Language. Hrsg. von William Morris. Boston u.a. 1980.
+
+{{Ähnlichkeiten}}
+:[[Wiesent]], [[Wiesn]], [[wissend]], [[Bisent]]
+
+[[en:Wisent]]
+[[fr:Wisent]]
+[[io:Wisent]]
+[[lt:Wisent]]
+[[pl:Wisent]]
+[[ro:Wisent]]
+

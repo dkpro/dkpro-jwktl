@@ -1,0 +1,92 @@
+==English==
+
+===Etymology===
+Prefix ''[[a-]]'' + ''[[breast]]''
+
+===Pronunciation===
+* {{audio|en-us-abreast.ogg|Audio (US)}}
+
+===Adverb===
+{{en-adv}}
+
+# Informed, well-informed, familiar, acquainted
+# Side by side, facing forward, with breasts in a line; as,
+#:* Two men could hardly walk '''abreast'''. - [[w:Thomas Babington Macaulay|Thomas Babington Macaulay]]
+# {{nautical}} Side by side; also, opposite; over against; on a line with the [[vessel]]'s beam; – with ''of''.
+# Up to a certain level or line; [[equally]] advanced; as, to keep '''abreast''' of [or with] the present state of science.
+# {{obsolete}}: At the same time; [[simultaneously]]
+#:* '''Abreast''' [[therewith]] began a [[convocation]]. - [[w:Thomas Fuller|Thomas Fuller]]
+
+====Synonyms====
+* {{sense|informed}} {{l|en|apprised}}, {{l|en|up to date}}/{{l|en|up-to-date}}
+
+====Translations====
+{{trans-top|informed}}
+* Dutch: [[op de hoogte]], [[bekend]], [[goed ingelicht]], [[welingelicht]]
+* Estonian: {{t|et|kursis}}
+* Finnish: [[tietoinen]], [[ajan tasalla]]
+* French: {{t+|fr|au courant}}
+* German: [[auf dem Laufenden]]
+{{trans-mid}}
+* Italian: [[essere aggiornato]], [[stare al passo]] (con i [[tempi]], con le [[notizie]]), [[mantenersi al corrente]]
+* Portuguese: [[bem]] [[informado]]
+* Spanish: [[al corriente]]
+{{trans-bottom}}
+
+{{trans-top|side by side}}
+* Bulgarian: [[редом]], [[един до друг]], [[на един ред]], [[рамо до рамо]]
+* Dutch: [[zij aan zij]]
+* Finnish: [[rinnakkain]], [[rinnatusten]]
+* French: {{t+|fr|côte à côte}}
+* German: [[beieinander]]
+{{trans-mid}}
+* Italian: [[affiancato]], [[di pari passo]]
+* Polish: [[obok siebie]]
+* Portuguese: [[lado a lado]]
+* Russian: {{t|ru|в ряд}}, {{t|ru|на одной линии}}
+* Spanish: [[de lado a lado]]
+{{trans-bottom}}
+
+{{trans-top|nautical: side by side; also, opposite; over against; on a line with the vessel's beam}}
+* Finnish: {{t-|fi|kyljittäin}}
+* Italian: [[al traverso]]
+{{trans-mid}}
+* Russian: {{t|ru|на одной линии}}, {{t|ru|на траверзе}}, {{t|ru|борт о борт}}
+{{trans-bottom}}
+
+{{trans-top|up to a certain level or line}}
+* Finnish: {{t-|fi|tasalla}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{checktrans}}
+* {{ttbc|ia}}: [[in fila lateral]] (2)
+* {{ttbc|vi}}: [[đi sóng hàng với nhau]], [[theo kịp thời đại]]
+
+===Anagrams===
+* {{alphagram|aaberst}}
+* [[abaters#English|abaters]]
+
+[[am:abreast]]
+[[ar:abreast]]
+[[et:abreast]]
+[[fa:abreast]]
+[[hi:abreast]]
+[[io:abreast]]
+[[kn:abreast]]
+[[ka:abreast]]
+[[hu:abreast]]
+[[ml:abreast]]
+[[my:abreast]]
+[[pl:abreast]]
+[[pt:abreast]]
+[[simple:abreast]]
+[[fi:abreast]]
+[[sv:abreast]]
+[[ta:abreast]]
+[[te:abreast]]
+[[th:abreast]]
+[[tr:abreast]]
+[[uk:abreast]]
+[[vi:abreast]]
+[[zh:abreast]]

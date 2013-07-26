@@ -1,0 +1,321 @@
+==English==
+{{wikisource1911Enc|Abated}}
+
+===Pronunciation===
+* {{a|RP}}
+** {{IPA|/əˈbeɪt/}}
+** {{SAMPA|/@&quot;beIt/}}
+* {{rhymes|eɪt}}
+
+===Etymology 1===
+From {{etyl|enm|en}}, from {{etyl|fro|en}} {{term|abatre||to beat down|lang=fro}}, from {{etyl|LL.}} {{term|abbatto|lang=la}}, from {{term|ab-|lang=la||away}} + {{term|batto||lang=la}}, from {{etyl|la|en}} {{term|battuere||lang=la|to beat}}. [[cognate|Cognates]]: French ''[[abattre]]''
+
+====Verb====
+{{en-verb|abat|ing}}
+
+# {{transitive}} To [[bring down]] or [[reduce]] to a lower state, number, degree or estimation.
+#: ''Legacies are liable to be '''abated''' entirely or in proportion, upon a deficiency of assets.''
+#* '''1597''', [[w:Francis Bacon|Francis Bacon]], ''[http://www.gutenberg.org/ebooks/575 Essays or Counsels, Civil and Morall]'':
+#*: Not that they feel it so, but only to '''abate''' the edge of envy.
+#* '''1605''', [[w:William Shakespeare|William Shakespeare]], ''King Lear'', II.ii:
+#*: She hath '''abated''' me of half my train
+#* {{RQ:Authorized Version|Deuteronomy|34|7}}
+#*: His eye was not dim, nor his natural force '''abated'''.
+# {{intransitive}} To [[diminish]] in force or [[intensity]].
+#: ''The pain '''abates'''.''
+#: ''Order restrictions and prohibitions to '''abate''' an emergency situation.''
+#* '''c. 1719''', [[w:Daniel Defoe|Daniel Defoe]], ''[[w:Robinson Crusoe|Robinson Crusoe]]'':
+#*: {{...}} in the morning, the wind having '''abated''' overnight, the sea was calm, {{...}}
+#* '''1855''', [[w:Thomas Babington Macaulay|Thomas Babington Macaulay]], ''History of England from the Accession of James II, Part 3'', [http://books.google.com/books?id=MN5CNdgbSTYC&amp;pg=PA267 page 267]:
+#*: The fury of Glengarry{{...|, not being inflamed by any fresh provocation,}} rapidly '''abated'''.
+# {{transitive}} To [[deduct]] or [[omit]].
+#: ''We will '''abate''' this price from the total.''
+#* '''1845''', [[w:Thomas Fuller|Thomas Fuller]], ''The Church History of Britain'', Volume 3, [http://books.google.com/books?id=OfefAAAAMAAJ&amp;pg=PA100 page 100]:
+#*: Allowing nine thousand parishes ('''abating''' the odd hundreds) in England and Wales {{...}}
+# {{transitive}} To [[bar]] or [[except]].
+# {{transitive}} To bring someone down physically or mentally.
+# {{transitive|legal}} To put an end to; to [[do away]] with.
+#: ''to '''abate''' a nuisance''
+#: ''to '''abate''' a writ''
+# {{intransitive|legal}} To be [[defeat]]ed or come to [[naught]].
+#: ''The writ has '''abated'''.''
+# {{archaic}} To [[destroy]], or [[level]] to the ground
+#* '''1542''', [[w:Edward Hall|Edward Hall]], ''The Union of the Noble and Illustre Famelies of Lancastre and York'':
+#*: The kynge of Scottes planted his siege before the castell of Norham, and sore '''abated''' the walls.
+
+=====Synonyms=====
+* {{sense|bring down or reduce}} [[lessen]]; [[diminish]]; [[contract]]; [[moderate]]; [[cut short]]; [[decrease]]
+* {{sense|diminish in force or intensity}} [[diminish]]; [[subside]]; [[decline]]
+* {{sense|bring someone down}} [[humble]]; [[depress]]
+* {{sense|come to naught}} [[fall through]]; [[fail]]
+
+=====Derived terms=====
+* [[abatable]]
+* [[abatement]]
+* [[abater]]
+* [[unabated]]
+* [[abate of]]
+
+=====Related terms=====
+* [[abator]]
+* [[abattoir]]
+* [[abatis]]
+
+=====Translations=====
+{{trans-top|to bring down or reduce to a lower state}}
+* Chinese:
+*: Mandarin: {{t|zh|減弱|sc=Hani}}, {{t|zh|减弱|tr=jiǎnruò|sc=Hani}}, {{t|zh|減輕|sc=Hani}}, {{t|zh|减轻|tr=jiǎnqīng|sc=Hani}}
+* Dutch: {{t+|nl|verlagen}}, {{t+|nl|reduceren}}, {{t+|nl|verminderen}}
+* Finnish: {{t+|fi|alentaa}}, {{t+|fi|vähentää}}
+* French: {{l|fr|réduire}}, {{t+|fr|ralentir}}
+* German: [[verringern]], [[mindern]]
+* Irish: [[laghdaigh]], [[laghdú]]
+{{trans-mid}}
+* Norwegian: {{t|no|forringe}}
+* Portuguese: {{t+|pt|reduzir}}, {{t+|pt|suprimir}}
+* Russian: {{t+|ru|уменьшать|tr=umen’šát’}} {{impf}}, {{t+|ru|уменьшить|tr=umén’šit’}} {{pf.}}
+* Spanish: {{t-|es|reducir}}, {{t-|es|suprimir}}, {{t+|es|menguar}}
+* Vietnamese: {{l|vi|làm}} {{l|vi|dịu}} {{t+|vi|đi|xs=Vietnamese}}, làm {{l|vi|yếu}} đi, (làm) {{t|vi|giảm bớt|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|to bring down a person physically or mentally}}
+* Chinese:
+*: Mandarin: {{t|zh|打敗|sc=Hani}}, {{t|zh|打败|tr=dǎbài|sc=Hani}}, {{t|zh|擊倒|sc=Hani}}, {{t|zh|击倒|tr=jídǎo|sc=Hani}}
+* Dutch: {{t+|nl|neerslaan}} (physically), {{t-|nl|vernederen}} (mentally)
+* Finnish: {{t-|fi|nöyryyttää}}
+* French: [[abattre]] (physically), [[humilier]], [[déprimer]] (mentally)
+{{trans-mid}}
+* German: {{t+|de|nachlassen}}, {{t+|de|zurückgehen}}
+* Norwegian: {{t|no|slå ned}} (physically), {{t|no|ydmyke}} (mentally)
+* Portuguese: [[abater]] (physically), [[humilhar]], [[deprimir]] (mentally)
+* Spanish: {{t+|es|abatir}}, {{t+|es|humillar}}
+* Vietnamese: {{l|vi|làm}} {{t|vi|nhụt|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|to decrease or become less in strength}}
+* Chinese:
+*: Mandarin: {{t|zh|減輕|sc=Hani}}, {{t|zh|减轻|tr=jiǎnqīng|sc=Hani}}, {{t|zh|減弱|sc=Hani}}, {{t|zh|减弱|tr=jiǎnruò|sc=Hani}}
+* Dutch: {{t+|nl|afnemen}}, {{t+|nl|verminderen}}
+* Finnish: {{t-|fi|hellittää}}, {{t-|fi|lauhtua}}, {{t-|fi|laantua}}, {{t-|fi|vähentyä}}, {{t+|fi|alentua}}
+* French: {{t+|fr|amoindrir}}, {{t+|fr|diminuer}}, {{t+|fr|descendre}}
+* German: [[nachlassen]], sich [[legen]] {{gloss|storm}}
+{{trans-mid}}
+* Norwegian: {{t|no|forminske}}, {{t|no|avta}}, {{t|no|minke}}, {{t|no|løye (about wind)}}
+* Portuguese: {{t+|pt|diminuir}}, {{t+|pt|descer}}, {{t+|pt|declinar}}
+* Russian: {{t+|ru|уменьшаться|tr=umen’šát’sja}} {{impf}}, {{t+|ru|уменьшиться|tr=umén’šit’sja}} {{pf.}}
+* Vietnamese: {{l|vi|dịu}} {{t+|vi|đi|xs=Vietnamese}}, {{l|vi|yếu}} đi, {{l|vi|nhụt}} đi, {{t+|vi|ram|xs=Vietnamese}}, {{t|vi|đỡ|xs=Vietnamese}}, {{t+|vi|bớt|xs=Vietnamese}}, {{t|vi|ngớt|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|to deduct, to omit}}
+* Chinese:
+*: Mandarin: {{t|zh|減少|sc=Hani}}, {{t|zh|减少|tr=jiǎnshǎo|sc=Hani}}, {{t|zh|省略|tr=shěnglüè|sc=Hani}}
+* Dutch: {{t+|nl|aftrekken}}, {{t+|nl|overslaan}}
+* Finnish: {{t+|fi|vähentää}}
+{{trans-mid}}
+* French: {{t+|fr|déduire}}, {{t+|fr|retrancher}}
+* Portuguese: {{t+|pt|deduzir}}
+* Vietnamese: {{t+|vi|hạ|xs=Vietnamese}}, {{t+|vi|bớt|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|to bar, to except}}
+* Chinese:
+*: Mandarin: {{t|zh|阻止|tr=zǔzhǐ|sc=Hani}}, {{t|zh|除去|tr=chùqú|sc=Hani}}
+{{trans-mid}}
+* Dutch: {{t+|nl|uitsluiten}}
+* Portuguese: {{t+|pt|excluir}}, {{t+|pt|barrar}}
+{{trans-bottom}}
+
+{{trans-top|obsolete: to bring entirely down or put an end to}}
+* Chinese:
+*: Mandarin: {{t|zh|撤銷|sc=Hani}},  {{t|zh|撤销|tr=chèxiāo|sc=Hani}}
+* French: {{t+|fr|cesser}}
+* German: {{t+|de|einstellen}}
+{{trans-mid}}
+* Portuguese: {{t+|pt|cessar}}
+* Vietnamese: {{t|vi|thanh toán|xs=Vietnamese}}, {{l|vi|làm}} {{t|vi|mất hết|xs=Vietnamese}}, {{t|vi|huỷ bỏ|xs=Vietnamese}}, {{t|vi|hủy bỏ|xs=Vietnamese}}, {{t|vi|thủ tiêu|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|to be defeated}}
+* Chinese:
+*: Mandarin: {{t|zh|廢除|sc=Hani}},  {{t|zh|废除|tr=fèichú|sc=Hani}}
+{{trans-mid}}
+* Finnish: {{t-|fi|raueta}}
+* Portuguese: {{t-|pt|derrotar}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|bg}}: [[събарям]] (1), [[стихвам]] (1), [[утихвам]] (1), [[провалям се]] (2),[[понижавам]] (2), [[намалявам]] (2,7),[[притъпявам]] (4), [[прекратявам]] (6)
+* {{ttbc|fr}}: [[rabattre]], [[dévaloriser]]
+* {{ttbc|no}}: [[slå ned]], [[forminske]], [[redusere]]
+* {{ttbc|pt}}: [[abater]], [[embotar]], [[deprivar]], [[desprover]], [[reduzir]], [[diminuir]], [[cortar]]
+* {{ttbc|tr}}: [[azaltmak]] (1)
+* {{ttbc|vi}}: {{l|vi|làm}} {{l|vi|cùn}}
+{{trans-bottom}}
+
+====Noun====
+{{en-noun}}
+
+# {{obsolete}} [[abatement]]. - [[w:Sir Thomas Browne|Sir Thomas Browne]]
+
+====External links====
+* {{R:OneLook}}
+* {{R:Webster 1913}}
+
+===Etymology 2===
+From {{etyl|it}} {{term|abate|lang=it}}, from {{etyl|la}} {{term|abbas|abbās, abbātis|lang=la}}, from {{etyl|grc}} {{term|ἀββᾶς|tr=abbas|lang=grc|sc=polytonic}}, from {{etyl|arc}} {{term|אבא||father|lang=arc|tr=’abbā|sc=Hebr}}.
+
+====Noun====
+{{en-noun}}
+
+# An Italian [[abbot]].
+
+====Shorthand====
+* Gregg (Version: [http://en.wikipedia.org/wiki/Gregg_Shorthand#Centennial_Gregg_Shorthand Centennial],[http://en.wikipedia.org/wiki/Gregg_Shorthand#Series_90_Gregg_Shorthand Series 90],[http://en.wikipedia.org/wiki/Gregg_Shorthand#Diamond_Jubilee_Gregg_Shorthand  DJS],[http://en.wikipedia.org/wiki/Gregg_Shorthand#Simplified_Gregg_Shorthand Simplified],[http://en.wikipedia.org/wiki/Gregg_Shorthand#Anniversary_Gregg_Shorthand Anniversary],[http://en.wikipedia.org/wiki/Gregg_Shorthand#Pre-Anniversary_Gregg_Shorthand Pre-Anniversary]): a - b - a - t
+
+----
+
+==Italian==
+
+===Etymology===
+From {{etyl|la|it}} {{term|abbas|abbās, abbātis|lang=la}}, from {{etyl|grc|it}} {{term|ἀββᾶς|tr=abbas|lang=grc|sc=polytonic}}, from {{etyl|arc|it}} {{term|אבא||father|lang=arc|tr=’abbā|sc=Hebr}}.
+
+===Pronunciation===
+* {{IPA|/a'bate/|lang=it}}
+* {{audio|It-abate.ogg|audio}}
+
+===Noun===
+{{it-noun|abat|m|e|i}}
+
+# [[abbot]]
+
+====Related terms====
+* [[abbazia]]
+* [[badia]]
+* [[badessa]]
+
+===Anagrams===
+* [[beata#Italian|beata]]
+
+----
+
+==Novial==
+
+===Etymology===
+From {{etyl|it|nov}} {{term|abate|lang=it}}, from {{etyl|la|nov}} {{term|abbas|abbās, abbātis|lang=la}}, from {{etyl|grc|nov}} {{term|ἀββᾶς|tr=abbas|lang=grc|sc=polytonic}}, from {{etyl|arc|nov}} {{term|אבא||father|lang=arc|tr=’abbā|sc=Hebr}}.
+
+===Noun===
+{{head|nov|noun}}
+
+# [[abbot]] or [[abbess]]
+
+====Related terms====
+* {{l|nov|abato}}
+* {{l|nov|abata}}
+* {{l|nov|abatia}}
+
+----
+
+==Romanian==
+
+===Etymology 1===
+From {{etyl|LL.|ro}} ''[[abbattere]]'', present active infinitive of ''[[abbatto|abbattō]]'', from {{etyl|la|ro}} {{term|battuo|battuō|lang=la}}.
+
+====Verb====
+{{ro-verb|conj=3|abate|abătut}}
+
+# to [[stray]] (often figuratively in a moral sense), [[derogate]], [[deviate]], [[divert]] from, [[digress]]
+# to [[change]] paths, [[swerve]] from, [[wander]] from
+# {{context|reflexive|lang=ro}} to [[stop]] (going a certain way)
+# to [[dissuade]]
+# to [[knock]] down
+
+=====Conjugation=====
+{{ro-conj-2
+|type=3
+|ger=abătând
+|past=abătut
+|1s=abat
+|2s=abați
+|3s=abate
+|1p=abatem
+|2p=abateți
+|3p=abat
+|3sub=abată
+|perf=abătu
+|3perf=abătu
+|imp=abăte
+|3imp=abătea
+|2imp=abate}}
+
+=====Synonyms=====
+* {{sense|deviate}} [[devia]], [[îndepărta]]
+* {{sense|stop}} [[opri]]
+* {{sense|knock down}} [[dărâma]], [[da]] jos
+
+=====Related terms=====
+* {{l|ro|bate}}
+
+===Etymology 2===
+From {{etyl|it|ro}} {{term|abate|lang=it}}, from {{etyl|la|ro}} {{term|abbas|abbās, abbātis|lang=la}}, from {{etyl|grc|ro}} {{term|ἀββᾶς|tr=abbas|lang=grc|sc=polytonic}}, from {{etyl|arc|ro}} {{term|אבא||father|lang=arc|tr=’abbā|sc=Hebr}}.
+
+====Noun====
+{{head|ro|noun|g=m|plural|abați}}
+
+# [[abbot]]
+
+----
+
+==Spanish==
+
+===Verb===
+{{es-verb-form|abatir}}
+
+# {{es-verb form of|person=third-person|number=singular|tense=present|mood=indicative|ending=ir|verb=[[abatir]]}}
+# {{es-verb form of|formal=no|person=second-person|number=singular|sense=affirmative|mood=imperative|ending=ir|verb=[[abatir]]}}
+
+[[am:abate]]
+[[ar:abate]]
+[[cs:abate]]
+[[de:abate]]
+[[et:abate]]
+[[el:abate]]
+[[es:abate]]
+[[fa:abate]]
+[[fr:abate]]
+[[gl:abate]]
+[[ko:abate]]
+[[hy:abate]]
+[[hi:abate]]
+[[io:abate]]
+[[it:abate]]
+[[kn:abate]]
+[[lt:abate]]
+[[li:abate]]
+[[hu:abate]]
+[[mg:abate]]
+[[ml:abate]]
+[[my:abate]]
+[[fj:abate]]
+[[nl:abate]]
+[[ne:abate]]
+[[ja:abate]]
+[[no:abate]]
+[[oc:abate]]
+[[ps:abate]]
+[[pl:abate]]
+[[pt:abate]]
+[[ro:abate]]
+[[ru:abate]]
+[[fi:abate]]
+[[sv:abate]]
+[[tl:abate]]
+[[ta:abate]]
+[[te:abate]]
+[[th:abate]]
+[[chr:abate]]
+[[tr:abate]]
+[[uk:abate]]
+[[vi:abate]]
+[[vo:abate]]
+[[wa:abate]]
+[[zh:abate]]

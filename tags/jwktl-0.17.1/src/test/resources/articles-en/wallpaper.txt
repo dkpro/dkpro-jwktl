@@ -1,0 +1,117 @@
+{{wikipedia}}
+==English==
+
+===Pronunciation===
+* {{audio|en-us-wallpaper.ogg|Audio (US)}}
+
+===Etymology===
+From {{term|wall|lang=en}} + {{term|paper||lang=en}}
+
+===Noun===
+{{en-noun|s|-}}
+
+# {{uncountable}} Decorative [[paper]]-like material used to cover the inner [[wall]]s of buildings.
+# {{countable}} A [[style]] or [[design]] of such material or image.
+#: ''He is letting her select the '''wallpapers''' for the whole house.''
+# {{computing|[[Windows]]}} An image or [[tiled]] pattern used as a [[background]] to [[personalize]] a computer [[desktop]].
+
+====Synonyms====
+* {{sense|computing: background image}} desktop image {{qualifier|Mac OS, untiled}}, desktop pattern {{qualifier|Mac OS, tiled}}
+
+====Derived terms====
+* [[ingrain wallpaper]]
+* [[woodchip wallpaper]]
+
+====Translations====
+{{trans-top|decorative paper for walls}}
+* Bosnian: {{t-|bs|tapeta|f}}
+* [[Breton]]: [[paper-moger]] {{m}}
+* [[Catalan]]: paper {{m}}, [[paper pintat]], [[paper d'empaperar]]
+* Chinese:
+*: Mandarin: {{zh-ts|壁紙|壁纸}} ([[bìzhǐ]])
+* Czech: {{t-|cs|tapeta|f}}
+* Danish: {{t+|da|tapet|n}}
+* Dutch: [[behang]] {{n}}, [[behangpapier]] {{n}}, [[behangselpapier]] {{n}}
+* Estonian: [[tapeet]]
+* Finnish: {{t-|fi|tapetti}}
+* French: {{t+|fr|papier peint|m}}
+* German: {{t+|de|Tapete|f}}
+* Greek: {{t+|el|ταπετσαρία|f}} (tapetsaría)
+* Hebrew: [[טפט]] (ta'pet) {{m}}, [[טפיטי נייר]] (tapiti nyar), [[נייר־קיר|נְייָר־קִיר]] (nyar-kir)
+* Hungarian: {{t+|hu|tapéta}}
+* Italian: {{t-|it|carta da parati|f}}
+{{trans-mid}}
+* Japanese: {{t-|ja|壁紙|tr=kabegami}}
+* [[Macedonian]]: {{t|mk|тапет|m|tr=tapét}}
+* Persian: {{t|fa|کاغذدیواری|tr=kâqazdivâri|xs=Persian}}
+* Polish: {{t+|pl|tapeta|f}}
+* Portuguese: {{t+|pt|papel}} de {{t+|pt|parede|m}}
+* Romanian: {{t-|ro|tapet|n}}
+* Russian: {{t+|ru|обои|m|p|tr=obói}}
+* Serbian:
+*: Cyrillic: {{t-|sr|тапета|f|sc=Cyrl}}
+*: Roman: [[tapeta#Serbian|tapeta]] {{f}}
+* Slovak: {{t-|sk|tapeta|f}}
+* Spanish: {{t-|es|papel pintado|m}}, {{t-|es|papel tapiz|m}}
+* Swedish: {{t+|sv|tapet|c}}
+* Turkish: {{t+|tr|duvar kâğıdı}}
+* Ukrainian: [[шпалери]] (špaléry) {{p}}
+* Welsh: {{t|cy|papur wal|m|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|computing: image used to cover a desktop}}
+* Czech: {{t-|cs|tapeta|f}}
+* Finnish: {{t-|fi|taustakuva}}
+* French: {{t|fr|fond d'écran}}, {{t|fr|papier-peint}} {{qualifier|Windows}}, {{t|fr|image de bureau}} {{qualifier|Mac OS, untiled}}, {{t|fr|motif de bureau}} {{qualifier|Mac OS, tiled}}
+* German: {{t|de|Hintergrundbild|n}}, {{t|de|Wallpaper}}
+{{trans-mid}}
+* Greek: {{t+|el|ταπετσαρία|f}} (tapetsaría), {{t|el|φόντο|n}} (fóndo)
+* Japanese: {{t-|ja|壁紙|tr=kabegami}}
+* [[Macedonian]]: {{t-|mk|позадина|f|tr=pozádina}}
+* Persian: {{t|fa|کاغذدیواری|tr=kâqazdivâri|xs=Persian}}
+* Swedish: {{t|sv|skrivbordsbakgrund|c}}, {{t|sv|skrivbordsbild|c}}
+{{trans-bottom}}
+
+===Verb===
+{{en-verb}}
+
+# {{transitive}} To cover (a wall, a room, ''etc'') with wallpaper.
+
+====Synonyms====
+* {{sense|cover with wallpaper}} [[paper]]
+
+====Translations====
+{{trans-top|to cover with wallpaper}}
+* Chinese:
+*: Mandarin: {{zh-ts|貼壁紙|贴壁纸}} (tiē bìzhǐ)
+* Dutch: {{t+|nl|behangen}}
+* Estonian: {{t|et|tapetseerima}}, {{t|et|tapeetima}}, [[tapeet|tapeediga]] {{t|et|katma}}
+* Finnish: {{t+|fi|tapetoida}}
+* French: (''wall'') {{t+|fr|tapisser}}; (''room'') {{t+|fr|tapisser}}
+* German: {{t-|de|tapezieren}}
+{{trans-mid}}
+* Japanese: {{t|ja|壁紙をはる|tr=kabegami o haru}}
+* [[Macedonian]]: {{t|mk|тапетира|tr=tapetíra}}
+* Persian: {{t|fa|کاغذدیواری کردن|tr=kâqazdivâri kardan|xs=Persian}}
+* Polish: {{t|pl|tapetować}}
+* Slovak: {{t|sk|tapetovať}}
+* Spanish: {{t-|es|empapelar}}
+* Swedish: {{t|sv|tapetsera}}
+{{trans-bottom}}
+
+[[et:wallpaper]]
+[[el:wallpaper]]
+[[es:wallpaper]]
+[[fa:wallpaper]]
+[[fr:wallpaper]]
+[[ko:wallpaper]]
+[[io:wallpaper]]
+[[it:wallpaper]]
+[[hu:wallpaper]]
+[[my:wallpaper]]
+[[pl:wallpaper]]
+[[pt:wallpaper]]
+[[fi:wallpaper]]
+[[ta:wallpaper]]
+[[vi:wallpaper]]
+[[zh:wallpaper]]

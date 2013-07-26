@@ -1,0 +1,619 @@
+==English==
+
+===Pronunciation===
+* {{a|RP}} {{IPA|/plɑːnt/|/plænt/}}
+* {{a|US}} {{IPA|/plænt/}}
+* {{audio|en-us-plant.ogg|Audio (US)}}
+* {{rhymes|ɑːnt}}
+
+{{ picdic
+| image=Ranunculus asiaticus4LEST.jpg
+| width=250
+| height=400
+| detail1=
+{{ picdicimg | image=Eukaryota diversity 2.jpg | link=organism }}
+| detail2=
+{{ picdicimg | image=Birnbaum am Lerchenberg retouched.jpg | link=tree }}
+{{ picdicimg | image=Starr 071024-9913 Unknown cupressaceae.jpg | link=conifer }}
+{{ picdicimg | image=Brunfelsia pauciflora shrub.jpg | link=bush }}
+{{ picdicimg | image=Red rose.jpg | link=flower }}
+}}
+
+===Etymology 1===
+From {{etyl|la}} {{term|planta|lang=la}}, later influenced by French {{term|plante}}.
+
+====Noun====
+{{en-noun|pl2=plantæ}}
+
+# An [[organism]] that is not an animal, especially an organism capable of photosynthesis. Typically a small or herbaceous organism of this kind, rather than a [[tree]].
+#: ''The garden had a couple of trees, and a cluster of colourful '''plants''' around the border.''
+# {{botany}} An [[organism]] of the kingdom ''Plantae''; now specifically, a living organism of the ''Embryophyta'' (land plants) or of the ''Chlorophyta'' (green algae), a [[eukaryote]] that includes double-membraned [[chloroplasts]] in its cells containing [[chlorophyll]] ''a'' and ''b'', or any organism closely related to such an organism.
+# {{context|ecology}} Now specifically, a multicellular [[eukaryote]] that includes [[chloroplast]]s in its [[cell]]s, which have a cell wall.
+# {{context|proscribed|_|as biologically inaccurate}} Any creature that [[grow]]s on [[soil]] or similar [[surface]]s, including plants and [[fungi]].
+# A [[factory]] or other industrial or institutional [[building]] or [[facility]].
+# An object placed surreptitiously in order to cause suspicion to fall upon a person.
+#: ''That gun's not mine!  It's a '''plant'''!  I've never seen it before!''
+# Anyone assigned to behave as a member of the [[public]] during a covert operation (as in a police investigation).
+# A person, placed amongst an [[audience]], whose role is to cause confusion, laughter etc.
+# {{context|snooker}} A play in which the [[cue ball]] knocks one (usually red) ball onto another, in order to pot the second; a [[set]].
+#* '''2008''', Phil Yates, ''The Times'', April 28 2008:
+#*: ''O’Sullivan risked a '''plant''' that went badly astray, splitting the reds.''
+# A large piece of [[machinery]], such as used in [[earthmoving]] or [[construction]].
+
+=====Usage notes=====
+The scientific definition of what organisms should be considered plants changed dramatically during the 20th century. Bacteria, algae, and fungi are no longer considered plants by those who study them. Many textbooks do not reflect the most current thinking on classification.
+
+=====Derived terms=====
+{{rel-top|terms derived from ''plant'' (noun)}}
+* [[houseplant]]
+* [[planter]]
+* [[plantlet]]
+* [[plant-pot]]
+{{rel-mid}}
+* [[pot-plant]]
+* [[power plant]]
+* [[plant room]]
+{{rel-bottom}}
+
+=====Translations=====
+{{trans-top|organism capable of photosynthesis}}
+* Abkhaz: {{t|ab|аҵиаа|tr=atsiaa|sc=Cyrl}}
+* Acholi: {{tø|ach|yat}}, {{tø|ach|yadi|p}}
+* Afrikaans: {{t|af|Plant|xs=Afrikaans}}, {{t|af|Plante|p|xs=Afrikaans}}
+* Albanian: {{t+|sq|bimë|f|xs=Albanian}}
+* Amharic: {{t|am|ተክል|tr=täkələ|sc=Ethi}}
+* Arabic: {{t|ar|نبات|m|tr=nabaat}}
+* Aragonese: {{t-|an|mata|xs=Aragonese}}, {{t-|an|matas|p|xs=Aragonese}}
+* Armenian: {{t+|hy|բույս|tr=buys}}
+* Assamese: {{t|as|গছ-গছনি|sc=Beng|xs=Assamese}}
+* Asturian: {{t-|ast|planta|xs=Asturian}}, {{t-|ast|plantes|p|xs=Asturian}}
+* Azeri: {{t+|az|bitki|sc=Arab|xs=Azeri}}, {{t|az|bitkilər|p|sc=Arab|xs=Azeri}}
+* Baluchi: {{tø|bal|نهال}}, {{tø|bal|جر|tr=jarr}}
+* Banjarese: {{tø|bjn|tumbuhan}}
+* Bashkir: {{tø|ba|үҫемлек|tr=üşemlek|sc=Cyrl}}, {{tø|ba|үҫемлектәр|p|tr=üşemlektär|sc=Cyrl}}
+* Basque: {{t|eu|landare|xs=Basque}}, {{t|eu|landareak|p|xs=Basque}}
+* Belarusian: {{t|be|расьліна|tr=ras'lina|xs=Belarusian}}, {{t|be|расьліны|p|tr=ras'liny|xs=Belarusian}}
+* Bengali: {{t-|bn|গাছ|sc=Beng|xs=Bengali}}
+* Bikol Central: {{tø|bcl|pananom}}
+* Bishnupriya Manipuri: {{tø|bpy|চারা}}
+* Breton: {{t|br|plantenn}}, {{t|br|plant|p}}
+* Bulgarian: {{t+|bg|растение|n|tr=rastenie}}, {{t|bg|растения|p|tr=rasteniya}}
+* Burmese: {{t|my|အပင်|sc=Mymr|xs=Burmese}}
+* Capiznon: {{tø|cps|tanum}}
+* Catalan: [[planta]] {{f}}
+* Cebuano: [[tanum]]
+* Chamorro: {{t|ch|tinanom}}
+* Chechen: {{tø|ce|орамат|tr=oramat|sc=Cyrl}}
+* Chichewa: {{tø|ny|chomera}}, {{tø|ny|zomera|p}}
+* Chidigo: {{tø|dig|muhi}}, {{tø|dig|mihi|p}}
+* Chinese:
+*: Mandarin: {{t-|cmn|植物|tr=zhíwù|sc=Hani}}
+*: [[Min Nan]]: {{tø|nan|植物|tr=si̍t-bu̍t|sc=Hans}}
+* Chuvash: {{tø|cv|ӳсентăран|sc=Cyrl}}
+* Crimean Tatar: {{tø|crh|bitki}}
+* Croatian: {{t+|hr|biljka|f}}
+* Czech: {{t+|cs|rostlina|f}}
+* Danish: {{t+|da|plante|c}}
+* Dhivehi: {{t|dv|ގަސް|sc=Thaa|xs=Dhivehi}}
+* Dutch: {{t+|nl|plant|m}}
+* Dzongkha: {{t|dz|ཤིང་།|sc=Tibt|xs=Dzongkha}}
+* Erzya: {{tø|myv|касыкс|tr=kasiks}}
+* Esperanto: {{t-|eo|planto|xs=Esperanto}}
+* Estonian: {{t|et|taim}}, {{t|et|taimed|p}}
+* Evenki: {{qualifier|from Russian}} {{tø|evn|растение|tr=rasténije|sc=Cyrl}}
+* Faroese: {{t|fo|plantur|p|xs=Faroese}}, {{t|fo|planta}}
+* Finnish: {{t+|fi|kasvi}}
+* French: {{t+|fr|plante|f}}
+* Galician: {{t+|gl|planta|m|xs=Galician}}, {{t-|gl|vexetal|m|xs=Galician}}
+* Gawwada: {{tø|gwd|kaarko}}
+* Georgian: {{t|ka|მცენარე|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Pflanze|f}}
+* Greek: {{t+|el|φυτό}}, {{t|el|φυτά}}
+* Greenlandic: {{t-|kl|naasoq|xs=Greenlandic}}
+* Guaraní: [[ka'a]]
+* Guernésiais: {{tø|roa-grn|pllante|f}}
+* Gujarati: {{t|gu|છોડ|sc=Gujr|xs=Gujarati}}
+* Gusii: {{tø|guz|ekemeria}}, {{tø|guz|ebimeria|p}}
+* Harari: {{tø|har|ነባት|tr=näbatə|sc=Ethi}}
+* Hausa: {{t|ha|shuka}}
+* Hawaiian: {{tø|haw|mea kanu}}
+* Hebrew: {{t+|he|צמח|m}}
+* Hiligaynon: {{tø|hil|tanum}}
+* Hindi: {{t+|hi|पौधा|tr=paudhā|xs=Hindi}}
+* Hmong Daw: {{tø|mww|nroj tshuag}}
+* Hungarian: {{t+|hu|növény}}
+* Hupdë: {{tø|jup|yúm}}
+* Icelandic: {{t+|is|jurt|f}}, {{t+|is|planta|f}}
+* Ido: [[planto]]
+* Igbo: {{tø|ig|osisi}}
+* Ilocano: {{tø|ilo|mula}}
+* Imbabura Highland Quichua: {{tø|qvi|yura}}
+* Indonesian: [[tumbuh-tumbuhan]]
+* Interlingua: [[planta]]
+* Inuktitut: {{t|iu|ᐱᕈᖅᑐᖅ|tr=piruqtuq|sc=Cans}}
+* Inupiak: {{t|ik|nautchiaq}}, {{t|ik|nautchiiruq}}
+* Iraqw: {{tø|irk|hatlit}}
+* Irish: {{t|ga|lus|m}}, {{t|ga|lusanna|p}}
+* Italian: {{t+|it|pianta|f}}
+* Japanese: {{t+|ja|植物|tr=しょくぶつ, shokubutsu}}
+* Javanese: {{t|jv|tanduran|xs=Javanese}}
+* Kabyle: {{tø|kab|ⵉⵎⵖⵉ|tr=imɣi|sc=Tfng}}
+* Kalmyk: {{tø|xal|урһмл|tr=urghml|sc=Cyrl}}
+* Kamba: {{tø|kam|mumea}}, {{tø|kam|mimea|p}}, {{tø|kam|muti}}, {{tø|kam|miti|p}}
+* Karachay-Balkar: {{tø|krc|ёсюмлюк|tr=ösümlük|sc=Cyrl}}, {{tø|krc|ёсюмлюкле|p|tr=ösümlükle|sc=Cyrl}}
+* Karaim: {{tø|krd|биткэи|tr=bitkei|sc=Cyrl}}
+* Karakalpak: {{tø|kaa|өсимлик|tr=o'simlik|sc=Cyrl}}, {{tø|kaa|өсимликлер|p|tr=o'simlikler|sc=Cyrl}}
+* Kashubian: {{t|csb|roscëna|xs=Kashubian}}, {{t|csb|roscënë|p|xs=Kashubian}}
+* Kazakh: {{t|kk|өсімдік|tr=Ösimdik|sc=Cyrl|xs=Kazakh}}, {{t|kk|وسىمدىك|tr=ösimdik|sc=Arab|xs=Kazakh}}, {{t|kk|өсімдіктер|p|tr=ösimdikter|sc=Cyrl|xs=Kazakh}}, {{t|kk|وسىمدىكتەر|p|tr=ösimdikter|sc=Arab|xs=Kazakh}}
+* Khmer: {{t|km|ដើម|sc=Khmr}}
+* Kikuyu: {{tø|ki|mũmera}}, {{tø|ki|mĩmera|p}}, {{tø|ki|muti}}, {{tø|ki|miti|p}}
+* Kinaray-a: {{tø|krj|tanum}}
+* Kinyarwanda: {{t|rw|ikimera|xs=Kinyarwanda}}, {{t|rw|ibimera|p|xs=Kinyarwanda}}
+* Kipsigis: {{tø|sgc|minutiet}}, {{tø|sgc|minutik|p}}
+* Korean: {{t+|ko|식물|tr=sikmul|sc=Hang}} ({{t+|ko|植物|sc=Hani}})
+* Koronadal Blaan: {{tø|bpr|fale}}, {{tø|bpr|dad fale|p}}
+* Kumyk: {{tø|kum|оьсюмлюк|tr=ösümlük|sc=Cyrl}}, {{tø|kum|оьсюмлюклер|p|tr=ösümlükler|sc=Cyrl}}
+* Kurdish: {{t|ku|nebat|sc=ku-Arab}} {{t|ku|nebat|sc=ku-Arab}}
+*: Sorani: {{t|ku|دره‌خت|tr=drakht|sc=ku-Arab}}, {{t|ku|ڕووه‌ک|tr=Roowak|sc=ku-Arab}}
+* Kyrgyz: {{t|ky|өсүмдүк|tr=ösümdük|sc=Cyrl|xs=Kyrgyz}}, {{t|ky|ۅسۉمدۉك|tr=ösümdük|sc=Arab|xs=Kyrgyz}}, {{t|ky|өсүмдүктөр|p|tr=ösümdüktör|sc=Cyrl|xs=Kyrgyz}}, {{t|ky|ۅسۉمدۉكتۅر|p|tr=ösümdüktör|sc=Arab|xs=Kyrgyz}}
+* Lak: {{tø|lbe|ххяххия}}
+* Lao: {{t|lo|ຕົ້ນ​ພືດ|sc=Laoo}}
+{{trans-mid}}
+* Latgalian: {{tø|ltg|auguojs}}
+* Latin: {{t+|la|planta|f}}
+* Latvian: {{t|lv|augs|xs=Latvian}}
+* Lezgi: {{tø|lez|набатат|tr=nabatat|sc=Cyrl}}
+* Lithuanian: {{t+|lt|augalas|m|xs=Lithuanian}}
+* Lojban: [[spati]]
+* Lozi: {{tø|loz|simela}}, {{tø|loz|limela|p}}
+* Luganda: {{tø|lg|ekimera}}, {{tø|lg|ebimera|p}}
+* Luo: {{tø|luo|yien}}, {{tø|luo|yiende|p}}
+* Luxembourgish: {{t|lb|Planz|f}}
+* Maasai: {{tø|maa|icheni}}
+* Macedonian: {{t-|mk|растение|n|tr=rasténie}}
+* Maguindanao: {{tø|mdh|pamulan}}, {{tø|mdh|mga pamulan|p}}
+* Malay: {{t|ms|تومبوهن|sc=Arab|xs=Malay}}, {{t|ms|tumbuhan|sc=Arab|xs=Malay}}, {{t|ms|tumbuh-tumbuhan|p|sc=Arab|xs=Malay}}
+* Maori: {{t|mi|otaota|xs=Maori}}
+* Mapudungun: {{tø|arn|anümka}}
+* Mara Chin: {{tø|mrh|chicheipa}}, {{tø|mrh|chicheipazy|p}}
+* Marathi: {{t|mr|रोपे|sc=Deva|xs=Marathi}}
+* Mari:
+*: [[Western Mari]]: {{tø|mrj|кушкыш}}
+* Mauritian Creole: {{tø|mfe|plant}}
+* Meru: {{tø|mer|mumera}}, {{tø|mer|imera|p}}, {{tø|mer|muti}}, {{tø|mer|miti|p}}
+* Minangkabau: {{tø|min|tanaman}}, {{tø|min|tumbuah}}
+* Moksha: {{tø|mdf|касыкс|tr=kasiks}}
+* Mongolian: {{t|mn|ургамал|sc=Cyrl|xs=Mongolian}}
+* Navajo: {{tø|nv|chʼil}}
+* Nepali: {{t|ne|बिरूवा|sc=Deva|xs=Nepali}}
+* Ngaju: {{tø|nij|taluh belum}}
+* Nogai: {{tø|nog|оьсимлик|tr=ösimlik|sc=Cyrl}}, {{tø|nog|оьсимликлер|p|tr=ösimlikler|sc=Cyrl}}
+* Norwegian: {{t|no|plante|f}}
+* Occitan: {{t|oc|planta}}, {{t|oc|plantas|p}}
+* Oriya: {{t|or|ଉଦ୍ଭିଦ|sc=Orya|xs=Oriya}}
+* Oromo: {{t|om|biqila}}
+* Pashto: {{t|ps|نبات|sc=ps-Arab|xs=Pashto}}, {{t|ps|نباتات|p|sc=ps-Arab|xs=Pashto}}
+* Persian: {{t-|fa|بوته|tr=bute|xs=Persian}}, {{t|fa|گياه}}
+* Polish: {{t+|pl|roślina|f}}, {{t+|pl|roślina}}, {{t|pl|rośliny|f|p}}
+* Portuguese: {{t+|pt|planta|f}}, {{t+|pt|plantas|f|p}}
+* Punjabi: {{t|pa|ਪੌਦਾ|sc=Guru|xs=Punjabi}}, {{t|pa|ਪੌਦੇ|p|sc=Guru|xs=Punjabi}}
+* Romani: {{tø|rom|drab}}, {{tø|rom|draba|p}}
+* Romanian: {{t+|ro|plantă|f}}, {{t|ro|plante|f|p}}
+* Romansch: {{t-|rm|planta|xs=Romansch}}, {{t-|rm|plantas|p|xs=Romansch}}
+* Russia Buryat: {{tø|bxr|ургамал}}
+* Russian: {{t+|ru|растение|n|tr=rasténije}}
+* Rusyn: {{tø|rue|ростлина}}, {{tø|rue|ростлины|p}}
+* Sakha: {{tø|sah|үүнээйи|sc=Cyrl}}, {{tø|sah|үүнээйилэр|p|sc=Cyrl}}
+* Saramaccan: {{tø|srm|uwíi}}
+* Sardinian: [[pranta]] {{f}}
+* Serbian: [[raslina]] {{f}}, [[biljka]] {{f}}
+* Seychellois Creole: {{tø|crs|laplant}}
+* Shona: {{t|sn|mbesa|xs=Shona}}
+* Sinhalese: {{t|si|පැළය|sc=Sinh|xs=Sinhalese}}
+* Slovak: {{t-|sk|rastlina|f}}, {{t|sk|rastliny|p}}
+* Slovene: {{t+|sl|rastlina|f}}
+* Somali: {{t|so|dhir}}
+* Sorbian:
+*: [[Lower Sorbian]]: {{tø|dsb|rostlina}}, {{tø|dsb|rostliny|p}}
+*: [[Upper Sorbian]]: {{t+|hsb|rostlina|xs=Upper Sorbian}}, {{t|hsb|rostliny|p|xs=Upper Sorbian}}
+* Sotho: {{t|st|semela}}, {{t|st|dimela|p}}
+* South Azerbaijani: {{tø|azb|بیتکی|tr=bitki|sc=Arab}}, {{tø|azb|بیتکی‌لر|p|tr=bitkilər|sc=Arab}}
+* Southern Hindko: {{tø|hnd|پودا}}, {{tø|hnd|پودے|p}}
+* Southern Zazaki: {{tø|diq|nebat}}
+* Spanish: {{t+|es|planta|f}}, {{t+|es|mata|f}}
+* Sranan Tongo: {{tø|srn|prani}}, {{tø|srn|pranies|p}}
+* Sundanese: {{t|su|pepelakan|xs=Sundanese}}, {{t|su|tutuwuhan|xs=Sundanese}}
+* Surigaonon: {{tø|sgd|tanom}}
+* Swahili: {{t+|sw|mmea|xs=Swahili}}, {{t|sw|mimea|p}}
+* Swedish: {{t-|sv|planta|c}}, {{t|sv|växt}}
+* Tagabawa: {{tø|bgs|pamula}}, {{tø|bgs|mga pamula|p}}
+* Tagalog: [[halaman]]
+* Tajik: {{t|tg|ниҳол|sc=Cyrl|xs=Tajik}}, {{t|tg|ниҳолҳо|p|sc=Cyrl|xs=Tajik}}, {{t|tg|نحال|sc=Arab|xs=Tajik}}, {{t|tg|نحال‌ها|p|sc=Arab|xs=Tajik}}
+* Tamil: {{t|ta|செடி |tr=sedi|sc=Taml}}
+* Tatar: {{t|tt|үсемлек|tr=üsemlek|sc=Cyrl|xs=Tatar}}, {{t|tt|үсемлекләр|p|tr=üsemleklär|sc=Cyrl|xs=Tatar}}
+* Telugu: {{t|te|మొక్క}} (mokka)
+* Thai: {{t+|th|พืช}} (pêut)
+* Tibetan: {{tø|bo|རྩི་ཤིང་།|sc=Tibt|xs=Tibetan}}
+* Tigrinya: {{t|ti|ተኽሊ|tr=tähəli|sc=Ethi|xs=Tigrinya}}, {{t|ti|ኣትክልቲ|p|sc=Ethi|xs=Tigrinya}}
+* Tonga: {{tø|tog|vwakume}}
+* Tumbuka: {{tø|tum|chakumera}}, {{tø|tum|vyakumera|p}}
+* Tupinambá: [[ka'a]]
+* Turkish: {{t+|tr|bitki}}, {{t|tr|bitkiler|p}}
+* Turkmen: {{t|tk|ösümlik|xs=Turkmen}}, {{t|tk|ösümlikler|p|xs=Turkmen}}
+* Tuvan: {{tø|tyv|үнүш|tr=ünüš|sc=Cyrl}}, {{tø|tyv|үнүштер|p|tr=ünüšter}}
+* Twi: {{t|tw|dua}}, {{t|tw|ndua|p}}
+* Uab Meto: {{tø|aoz|hau}}, {{tø|aoz|hauhonês}}, {{tø|aoz|hau’amoni}}
+* Udmurt: {{tø|udm|будос|tr=budos}}
+* Ukrainian: [[рослина]] (roslyna) {{f}}, {{t|uk|рослина|tr=roslina|xs=Ukrainian}}, {{t|uk|рослини|p|tr=roslini|xs=Ukrainian}}
+* Urdu: {{t|ur|نبات|xs=Urdu}}, {{t|ur|نباتات|p|xs=Urdu}}
+* Urum: {{tø|uum|ӧсӱмлӱк|tr=ösümlük|sc=Cyrl}}
+* Uyghur: {{t|ug|ئۆسۈملۈك|tr=ösümlük|sc=ug-Arab|xs=Uyghur}}, {{t|ug|ئۆسۈملۈكلەر|p|tr=ösümlükler|sc=ug-Arab|xs=Uyghur}}
+* Uzbek: {{t|uz|o‘simlik|xs=Uzbek}}, {{t|uz|ўсимлик|tr=o‘simlik|sc=Cyrl|xs=Uzbek}}
+* Venetian: {{tø|vec|pianta}}, {{tø|vec|piante|p}}
+* Vietnamese: {{t+|vi|thực vật|xs=Vietnamese}},  {{t+|vi|cây|xs=Vietnamese}}
+* Welsh: {{t|cy|planhigyn|xs=Welsh}}, {{t+|cy|planhigion|p|xs=Welsh}}
+* Western Panjabi: {{tø|pnb|پودا}}, {{tø|pnb|پودے|p}}
+* Wichí Lhamtés Nocten: {{tø|mtp|wichí}}
+* Xhosa: {{t|xh|isityalo}}, {{t|xh|izityalo|p}}
+* Yaqui: {{tø|yaq|juya}}
+* Yoruba: {{t|yo|ohun ọ̀gbìn|xs=Yoruba}}
+* Zarma: {{tø|dje|turize}}, {{tø|dje|turizey|p}}
+* Zulu: {{t|zu|isitshalo}}, {{t|zu|izitshalo|p}}
+{{trans-bottom}}
+
+{{trans-top|organism of the kingdom ''Plantae''}}
+* Finnish: {{t+|fi|kasvi}}
+* French: {{t|fr|végétal|m}}
+* Galician: {{t-|gl|plants|m|xs=Galician}}, {{t-|gl|vexetal|m|xs=Galician}}
+* Kabyle: {{tø|kab|ⵉⵎⵖⵉ|tr=imɣi|sc=Tfng}}
+* Macedonian: {{t-|mk|растение|n|tr=rasténie}}
+* Scottish Gaelic: {{t-|gd|luibh|m|f|xs=Scottish Gaelic}},  {{t-|gd|lus|m|xs=Scottish Gaelic}}
+{{trans-mid}}
+* Spanish: {{t+|es|vegetal|m}}
+* Swahili: {{t+|sw|mmea|xs=Swahili}}
+* Telugu: {{t|te|మొక్క}} (mokka)
+* Thai: {{t+|th|พืช}} (pêut)
+* Uab Meto: {{tø|aoz|hauhonês}}, {{tø|aoz|hau’amoni}}
+{{trans-bottom}}
+
+{{trans-top|ecology: multicellular eukaryote that includes chloroplasts in its cells}}
+* Finnish: {{t+|fi|kasvi}}
+* Swahili: {{t+|sw|mmea|xs=Swahili}}
+{{trans-mid}}
+* Telugu: {{t|te|మొక్క}} (mokka)
+* Thai: {{t+|th|พืช}} (pêut)
+{{trans-bottom}}
+
+{{trans-top|factory or industrial facility}}
+* Armenian: {{t-|hy|գործարան|tr=gorçaran}}
+* Breton: [[labouradeg]] {{f}}, [[greanti]] {{m}}
+* Cebuano: [[planta]]
+* Chinese: [[工廠]], [[工厂]] (gōngchǎng)
+*: [[Min Nan]]: {{tø|nan|工廠|tr=kang-chhiúⁿ|sc=Hans}}
+* Czech: {{t+|cs|továrna}}, {{t-|cs|fabrika}}
+* Danish: {{t|da|virksomhed|c}}, {{t|da|anlæg|n}}, {{t|da|fabrik|c}}
+* Dutch: {{t+|nl|fabriek|f}}
+* Finnish: {{t+|fi|tehdas}}, {{t+|fi|laitos}}
+* French: {{t+|fr|fabrique|f}}, {{t+|fr|usine|f}}, {{t+|fr|manufacture|f}}
+* German: {{t+|de|Fabrik|f}}, {{t+|de|Werk|n}}, {{t+|de|Anlage|f}}
+* Hebrew: {{t-|he|מפעל|f|tr=mif'al}}
+* Hungarian: {{t+|hu|gyár}}, {{t+|hu|üzem}}
+* Indonesian: [[pabrik]]
+* Interlingua: [[installation]]; [[fabrica]]; [[machineria]]
+{{trans-mid}}
+* Italian: {{t+|it|impianto|m}},  {{t+|it|fabbrica|f}}
+* Japanese: [[工場]] (こうじょう, kōjō)
+* Korean: [[공장]] ([[工場]], gongjang)
+* Lithuanian: [[gamykla]] {{f}}, sometimes [[fabrikas]] {{m}}
+* Lojban: [[fanri]], [[molki]]
+* Luxembourgish: {{t|lb|Fabréck|f}}, {{t|lb|Fabrik|f}}
+* Macedonian: {{t-|mk|погон|m|tr=pógon}}
+* Polish: {{t+|pl|fabryka|f}}, {{t+|pl|zakład|m}}
+* Portuguese: {{t+|pt|fábrica|f}}, {{t+|pt|usina|f}}
+* Romanian: {{t-|ro|fabrică|f}}, {{t-|ro|uzină|f}}
+* Russian: {{t+|ru|завод|m|tr=zavód}}, {{t+|ru|фабрика|f|tr=fábrika}}
+* Slovak: {{t|sk|továreň}}, {{t-|sk|fabrika}}
+* Spanish: {{t-|es|maquinaria|f}}, {{t+|es|fábrica|f}},  {{t+|es|planta|f}}
+* Thai: {{t+|th|โรงงาน}} (rohng ngaan)
+* Turkish: {{t+|tr|fabrika}}, {{t+|tr|tesis}}
+{{trans-bottom}}
+
+{{trans-top|object placed to incriminate}}
+* Finnish: {{t-|fi|lavaste}}
+* Macedonian: {{t|mk|подметка|f|tr=pódmtka}},  {{t|mk|подвала|f|tr=pódvala}}
+{{trans-mid}}
+* Romanian: {{t-|ro|înscenare}}
+* Spanish: {{t+|es|fabricación|f}}
+{{trans-bottom}}
+
+{{trans-top|person behaving as a member of the public during a covert operation}}
+* Hungarian: {{t|hu|tégla}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|person hidden in audience}}
+* Romanian: {{t-|ro|interpus}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|snooker shot}}
+* German: {{t+|de|Kombination|f}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|large piece of machinery}}
+* Finnish: {{t+|fi|kone}}
+* French: {{t+|fr|matériel|m}}
+{{trans-mid}}
+* Hungarian: {{t|hu|berendezés}}, {{t|hu|gépállomány}}, {{t|hu|géppark}}
+* Macedonian: {{t|mk|постројка|f|tr=póstrojka}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|zh}}: [[組裝]], [[组装]] (zǔzhuāng)
+* {{ttbc|nl}}: {{t-|nl|site|m}}, {{t+|nl|bedrijf|n}}, {{t-|nl|centrale|f}}
+* {{ttbc|pt}}: {{t+|pt|aparelhagem|f}}, {{t+|pt|instalação|f}}
+* {{ttbc|es}}: {{t+|es|planta|f}}
+{{trans-bottom}}
+
+====See also====
+* {{pedia}}
+
+===Etymology 2===
+{{etyl|la}} {{term|plantare|lang=la}}, later influenced by Old French {{term|planter}}.
+
+====Verb====
+{{en-verb}}
+
+# {{transitive}} To place (a seed or plant) in [[soil]] or other [[substrate]] in order that it may live and grow.
+# {{transitive}} To place (an [[object]], or sometimes a person), often with the implication of intending deceit.
+#: ''That gun's not mine! It was '''planted''' there by the real murderer!''
+# {{transitive}} To place or set something firmly or with conviction.
+#: '''''Plant''' your feet firmly and give the rope a good tug.''
+#* {{quote-news
+|year=2011
+|date=January 15
+|author=Sam Sheringham
+|title=Chelsea 2 - 0 Blackburn Rovers
+|work=BBC
+|url=http://news.bbc.co.uk/sport2/hi/football/eng_prem/9358426.stm
+|page=
+|passage=First Anelka curled a shot wide from just outside the box, then Lampard '''planted''' a header over the bar from Bosingwa's cross. }}
+# To place in the ground.
+#* '''2007''', Richard Laymon, ''Savage'', page 118:
+#*: Sarah, she kissed each of her grandparents on the forehead. They were '''planted''' in a graveyard behind the church.
+
+=====Derived terms=====
+* [[faceplant]], [[handplant]]
+* [[plant out]]
+
+=====Related terms=====
+* [[plantation]]
+
+=====Translations=====
+{{trans-top|place in soil or other substrate in order that it may live and grow}}
+* Arabic: {{Arab|[[زرع]]}} {{IPAchar|(záraʕa)}}, {{Arab|[[يزرع]]}}
+* Armenian: {{t|hy|տնկել|tr=tnkel}}
+* Breton: [[plantañ]]
+* Cebuano: [[tanum]]
+* Chinese:
+*: Mandarin: {{t|zh|種|sc=Hani}}, {{t|zh|种|tr=[[zhòng]]|sc=Hani}}, {{t|zh|種稙|sc=Hani}}, {{t|zh|种植|tr=[[zhòngzhí]]|sc=Hani}}
+*: [[Min Nan]]: {{tø|nan|種|tr=chióng|sc=Hans}}
+* Danish: {{t+|da|så}}, {{t+|da|plante}}
+* Dutch: {{t+|nl|planten}}, {{t+|nl|poten}}
+* Esperanto: {{t-|eo|planti|xs=Esperanto}}
+* Finnish: {{t+|fi|istuttaa}},  {{t+|fi|kylvää}}
+* French: {{t+|fr|planter}}
+* {{trreq|Georgian}}
+* German: {{t+|de|pflanzen}}
+* Guaraní: [[ñoty]]
+* Hungarian: {{t-|hu|letelepít}}, {{t+|hu|ültet}}
+* Ido: [[plantacar]]
+* Indonesian: {{t-|id|tanam|xs=Indonesian}}
+* Interlingua: [[plantar]]
+* Italian: {{t+|it|piantare}}
+* Japanese: [[植える]] (うえる, ueru)
+{{trans-mid}}
+* Korean: [[심다]] (simda)
+* Kurdish:
+*: Sorani: {{t|ku|شینکردن|tr=sheen kirdin|sc=ku-Arab}}, {{t|ku|چانکردن|tr=chAn kirdin|sc=ku-Arab}}, {{t|ku|ڕواندن|tr=Rwandin|sc=ku-Arab}}
+* Lojban: [[sombo]]
+* Macedonian: {{t|mk|сади|tr=sádi}},  {{t|mk|засадува|tr=zasáduva}},  {{t|mk|посадува|tr=posáduva}},  {{t|mk|насадува|tr=nasáduva}}
+* Malay: {{t|ms|tanam}}
+* Persian: {{t|fa|کاشتن|sc=fa-Arab}}
+* Polish: [[sadzić]] {{impf}}, [[zasadzić]] {{pf.}}
+* Portuguese: {{t+|pt|plantar}}
+* Romanian: {{t-|ro|a planta}}
+* Russian: [[сажать]] (sažát’) {{impf}}, [[посадить]] (posadít’) {{pf.}}
+* Sicilian: {{t+|scn|chiantari|xs=Sicilian}}, [[ghiantari]]
+* Spanish: {{t+|es|plantar}}, {{t+|es|sembrar}}
+* Swedish: {{t-|sv|plantera}}
+* Tamil: {{t|ta|நடு|tr=nadu|sc=Taml}}
+* Telugu: {{t+|te|నాటు}} (naaTu)
+* Thai: {{t+|th|ปลูก}} (bplòok)
+* Tupinambá: [[tym]]
+* Turkish: {{t+|tr|ekmek}}
+{{trans-bottom}}
+
+{{trans-top|to place (an object, or sometimes a person), often with the implication of intending deceit}}
+* Cebuano: [[tanum]]
+* Danish: {{t+|da|placere}}, {{t+|da|plante}}
+* Finnish: {{t+|fi|asettaa}}, {{t+|fi|sijoittaa}}, {{t-|fi|ujuttaa}}
+* German: {{t+|de|platzieren}}
+* Interlingua: [[plantar]]
+{{trans-mid}}
+* Italian: {{t+|it|piantare}}
+* Korean: [[이식하다]] ([[移植]]-, isikhada)
+* Macedonian: {{t-|mk|мести|tr=mésti}},  {{t|mk|подметнува|tr=podmétnuva}},  {{t|mk|подвалува|tr=podváluva}}
+* Portuguese: {{t+|pt|plantar}}
+{{trans-bottom}}
+
+{{trans-top|to place or set something firmly or with conviction}}
+* Finnish: {{t+|fi|asettaa}}
+* Macedonian: {{t|mk|забива|tr=zábiva}}
+{{trans-mid}}
+* Spanish: {{t+|es|plantar}}, {{t+|es|colocar}}
+{{trans-bottom}}
+
+[[Category:1000 English basic words]]
+
+----
+
+==Danish==
+
+===Verb===
+{{head|da|verb form}}
+
+# {{form of|imperative|plante|lang=da}}
+
+----
+
+==Dutch==
+
+===Pronunciation===
+* {{IPA|/plɑnt/|lang=nl}}
+* {{audio|Nl-plant.ogg|audio}}
+
+===Etymology===
+{{etyl|fr|nl}} ''[[plante]]'', from {{etyl|la|nl}} ''[[planta]]''
+
+===Noun===
+{{nl-noun|m|planten|plantje}}
+
+# plant (''organism'')
+# [[cabbage]], [[vegetable]] (''person with severe brain damage'')
+
+====Derived terms====
+* [[plantensoort]]
+
+===Verb===
+{{head|nl}}
+
+# {{nl-verb-form|p=123|n=sg|t=pres|m=ind|planten}}
+# {{nl-verb-form|m=imp|planten}}
+# {{nl-verb-form|p=23|n=sg|t=pres|m=ind|plannen}}
+# {{nl-verb-form|n=pl|m=imp|plannen}}
+
+----
+
+==German==
+
+===Verb===
+{{head|de}}
+
+# {{de-verb form of|planen|3|s|g}}
+# {{de-verb form of|planen|2|p|g}}
+# {{de-verb form of|planen|i|p}}
+
+----
+
+==Haitian Creole==
+<!-- This section was created using Template:new ht entry. -->
+
+===Etymology===
+From {{etyl|fr|ht}} {{term|plante||plant|lang=fr}}.
+
+===Noun===
+{{head|ht|noun}}
+
+# [[#English|plant]] (organism)
+
+----
+
+==Old Welsh==
+
+===Etymology===
+From {{etyl|la|owl}} {{term|planta|lang=la}}.
+
+===Noun===
+{{head|owl|noun}} {{g|Old Welsh}}
+
+# [[children]]
+
+====Descendants====
+* Old Irish: {{l|sga|cland}}
+** Irish: {{l|ga|clann}}
+** Manx: {{l|gv|cloan}}
+** Scottish Gaelic: {{l|gd|clann}}
+* Welsh: {{l|cy|plant}}
+
+----
+
+==Swedish==
+
+===Adjective===
+{{head|sv|adjective form}}
+
+# {{sv-adj-form-abs-indef-n|plan}}
+
+----
+
+==Welsh==
+
+===Etymology===
+From {{etyl|owl|cy}} {{term|plant|lang=owl}}, from {{etyl|la|cy}} {{term|planta|lang=la}}.
+
+===Pronunciation===
+* {{IPA|/plant/|lang=cy}}
+* {{audio|Cy-plant.ogg|Audio}}
+
+===Noun===
+{{head|cy|noun|g=m|singulative|plentyn}}
+
+# [[children]]
+
+====Mutation====
+{{cy-mut-p|lant}}
+
+[[ar:plant]]
+[[zh-min-nan:plant]]
+[[ca:plant]]
+[[cs:plant]]
+[[cy:plant]]
+[[da:plant]]
+[[de:plant]]
+[[et:plant]]
+[[el:plant]]
+[[es:plant]]
+[[eo:plant]]
+[[eu:plant]]
+[[fa:plant]]
+[[fr:plant]]
+[[fy:plant]]
+[[ga:plant]]
+[[ko:plant]]
+[[hy:plant]]
+[[hr:plant]]
+[[io:plant]]
+[[id:plant]]
+[[zu:plant]]
+[[it:plant]]
+[[kn:plant]]
+[[kk:plant]]
+[[sw:plant]]
+[[ku:plant]]
+[[ky:plant]]
+[[lt:plant]]
+[[li:plant]]
+[[hu:plant]]
+[[mg:plant]]
+[[ml:plant]]
+[[my:plant]]
+[[fj:plant]]
+[[nl:plant]]
+[[ja:plant]]
+[[no:plant]]
+[[pl:plant]]
+[[pt:plant]]
+[[ru:plant]]
+[[simple:plant]]
+[[sr:plant]]
+[[fi:plant]]
+[[sv:plant]]
+[[ta:plant]]
+[[te:plant]]
+[[th:plant]]
+[[tr:plant]]
+[[vi:plant]]
+[[vo:plant]]
+[[zh:plant]]

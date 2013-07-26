@@ -1,0 +1,187 @@
+== Januar ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Substantiv-Tabelle|
+Bild=Les Très Riches Heures du duc de Berry Janvier.jpg|160px|1|Allegorische Darstellung des ''Januars:'' Der blau gekleidete Zeremonienmeister ruft die Geladenen zum Neujahrsempfang herbei.
+|Wer oder was? (Einzahl)=der Januar
+|Wer oder was? (Mehrzahl)=die Januare
+|Wessen? (Einzahl)=des Januars
+|Wessen? (Mehrzahl)=der Januare
+|Wem? (Einzahl)=dem Januar
+|Wem? (Mehrzahl)=den Januaren
+|Wen? (Einzahl)=den Januar
+|Wen? (Mehrzahl)=die Januare
+}}
+
+{{Silbentrennung}} 
+:Ja·nu·ar, {{Pl.}} Ja·nu·a·re
+
+{{Aussprache}} 
+:{{IPA}} {{Lautschrift|ˈjanu̯aːɐ̯}}, {{Pl.}} {{Lautschrift|ˈjanu̯aːʀə}}
+:{{Hörbeispiele}} {{Audio|De-Januar.ogg|Januar}}, {{Pl.}} {{Audio|De-Januare.ogg|Januare}}
+
+{{Bedeutungen}}
+:[1] der [[erste]], 31[[-tägig]]e [[Monat]] im [[Kalenderjahr]]
+
+{{Abkürzungen}}
+:[1] [[Jan.]], 1., 01., I.
+
+{{Herkunft}} 
+:[1] von ''lateinisch:'' [[Ianuarius]] - Januar
+
+{{Synonyme}} 
+:[1] [[Jänner]], ''veraltet:'' [[Hartung]], [[Eismonat]], [[Schneemonat]], [[Wintermonat]]; ''in [[Osteuropa]], veraltet:'' [[Wolfsmonat]]
+
+{{Gegenwörter}}
+:[1] [[Februar]] / [[Feber]] ; [[März]]; [[April]]; [[Mai]]; [[Juni]]; [[Juli]]; [[August]]; [[September]]; [[Oktober]]; [[November]]; [[Dezember]];
+
+{{Oberbegriffe}} 
+:[1] [[Wintermonat]], [[Monat]]
+
+{{Unterbegriffe}}
+:[[erster]] bis [[einunddreißigster]] Januar; [[Januarwoche]], [[Januartag]]
+
+{{Beispiele}}
+:[1] Der ''Januar'' ist der erste Monat im Jahr.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{af}}: [1] {{Ü|af|Januarie}}
+*{{sq}}: [1] {{Ü|sq|janar}}
+*{{ang}}: [1] {{Ü|ang|æfterra Gēola}}
+*{{ar}}: [1]  {{Üxx|ar|kānūn ath-thānī|كانون الثاني}}, {{Üxx|ar|yanāyir|يناير}}
+*{{an}}: [1] {{Ü|an|chinero}}
+*{{hy}}: [1]  {{Üxx|hy|hunwar|հունվար}}
+*{{ast}}: [1] {{Ü|ast|xineru}}
+*{{eu}}: [1] {{Ü|eu|urtarril}}
+*{{bs}}: [1]  {{Ü|bs|januar}}, {{Ü|bs|siječanj}}
+*{{br}}: [1] {{Ü|br|Genver}}
+*{{bg}}: [1] {{Ü|bg|януари}} {{m}}
+*{{da}}: [1]  {{Ü|da|januar}}, {{Ü|da|glugmåned}} 
+*{{en}}: [1] {{Ü|en|January}}
+*{{eo}}: [1] {{Ü|eo|januaro}}
+*{{et}}: [1] {{Ü|et|jaanuar}}
+*{{fo}}: [1]  {{Ü|fo|januar}}
+*{{fi}}: [1] {{Ü|fi|tammikuu}}
+*{{fr}}: [1] {{Ü|fr|janvier}} {{m}}
+*{{fur}}: [1] {{Ü|fur|genâr}} {{m}}
+*{{ka}}: [1] {{Üxx|ka|ianvari|იანვარი}}
+*{{el}} : [1] {{Üxx|el|Ianuarios|Ιανουάριος}} {{m}}, {{Üxx|el|Jenaris|Γενάρης}} {{m}}
+*{{he}}: [1] {{Ü|he|ינואר}}
+*{{ga}}: [1] {{Ü|ga|Eanáir}}
+*{{gv}}: [1] {{Ü|gv|Jerrey Geuree}}
+*{{is}}: [1] {{Ü|is|janúar}}
+*{{it}}: [1] {{Ü|it|gennaio}} {{m}}
+*{{ja}}: [1] {{Üxx|ja|いちがつ, ichigatsu|一月}}
+*{{kn}}: [1] {{Ü|kn|ಜನವರಿ}}
+*{{csb}}: [1] {{Ü|csb|stëcznik}}
+*{{ca}}: [1] {{Ü|ca|gener}} {{m}}
+*{{ko}}: [1] {{Üxx|ko|ilwol|일월}}, {{Üxx|ko|jongwol|정월}}
+*{{kw}}: [1] {{Ü|kw|Mys Genver}}
+*{{co}}: [1] {{Ü|co|ghjennaghju}}, {{Ü|co|ghjinnaghju)}}
+*{{hr}}: [1]  {{Ü|hr|siječanj}} {{m}}, {{Ü|hr|januar}} {{m}}
+*{{la}}: [1] {{Ü|la|Ianuarius}} {{m}}
+*{{lv}}: [1] {{Ü|lv|janvāris}} {{m}}
+*{{lt}}: [1] {{Ü|lt|sausis}}
+*{{mt}}: [1] {{Ü|mt|Jannar}} {{m}}
+*{{mi}}: [1] {{Ü|mi|Hānuere}}, {{Ü|mi|Kohi tātea}}, {{Ü|mi|Hiringa a nuku}}
+*{{mr}}: [1] {{Ü|mr|जानेवारी}}
+{{Ü-Abstand}}
+*{{nl}}: [1] {{Ü|nl|januari}} {{m}}, {{Ü|nl|louwmaand}} {{m}}, {{Ü|nl|ijsmaand}} {{m}}, {{Ü|nl|wolfsmaand}} {{m}}, {{Ü|nl|hardmaand}} {{m}}
+*{{no}}: [1] {{Ü|no|januar}}
+*{{nov}}: [1] {{Ü|nov|januare}}
+*{{pa}}: [1] {{Ü|pa|ਜਨਵਰੀ}}
+*{{fa}}: [1] {{Üxx|fa|žānwiye|ژانویه}}
+*{{no}}: [1] {{Ü|no|januar}}
+*{{dsb}}: [1] {{Ü|dsb|januar}}
+*{{hsb}}: [1] {{Ü|hsb|wulki róžk}} {{m}}, {{Ü|hsb|januar}} {{m}}
+*{{oc}}: [1] {{Ü|oc|genièr}} {{m}}
+*{{pl}}: [1] {{Ü|pl|styczeń}} {{m}}
+*{{pt}}: [1] {{Ü|pt|janeiro}} {{m}}
+*{{rm}}: [1] {{Ü|rm|schaner}} {{m}}
+*{{ro}}: [1] {{Ü|ro|ianuarie}} {{m}}, ''umgangssprachlich:'' {{Ü|ro|gerar}} {{m}}, {{Ü|ro|cărindar}} {{m}}
+*{{ru}}: [1] {{Üxx|ru|janwar|январь}}, {{m}}
+*{{sc}}: [1] {{Ü|sc|jannarzu}} {{m}}, {{Ü|sc|ghennàrgiu}} {{m}}
+*{{sv}}: [1] {{Ü|sv|januari}}, {{Ü|sv|torsmånad}} (veraltet)
+*{{gd}}: [1] {{Ü|gd|Faoilleach}}
+*{{sr}}: [1] {{Üxx|sr|[[januar]]|јануар}} {{m}}
+*{{sk}}: [1] {{Ü|sk|január}} {{m}}
+*{{sl}}: [1] {{Ü|sl|prosinec}} {{m}}, {{Ü|sl|januar}} {{m}}
+*{{es}}: [1] {{Ü|es|enero}} {{m}} 
+*{{st}}: [1] {{Ü|st|Pherekgong}}
+*{{tl}}: [1] {{Ü|tl|Enero}}
+*{{ta}}: [1] {{Ü|ta|ஜனவரி}}
+*{{te}}: [1] {{Ü|te|జనవర}}
+*{{th}}: [1] {{Ü|th|มกราคม}}
+*{{cs}}: [1] {{Ü|cs|leden}} {{m}}
+*{{cv}}: [1] {{Ü|cv|кăрлач}}
+*{{tr}}: [1] {{Ü|tr|ocak}}
+*{{tyv}}: [1] {{Üxx|tyv||январь}}
+*{{uk}}: [1] {{Ü|uk|січень}} {{m}}
+*{{hu}}: [1] {{Ü|hu|január}}
+*{{ur}}: [1] {{Ü|ur|جنوری}}
+*{{cy}}: [1] {{Ü|cy|ionawr}}
+*{{wa}}: [1] {{Ü|wa|djanvî}}
+*{{be}}: [1] {{Ü|be|студзень}} {{m}}
+*{{xh}}: [1] {{Ü|xh|Januwari|uJanuwari}}
+*{{zu}}: [1] {{Ü|zu|Januwari|uJanuwari}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*Berlinerisch:
+*Elsässisch:
+|
+*Pfälzisch: [1] [[Jannewa]], [[Jonnewa]], [[Jennewa]]
+*Schwäbisch: [1] [[Jenner]]
+}}
+
+
+{{Referenzen}}
+:[1] {{Wikipedia|Januar}}
+:[1] {{Ref-Grimm|Januar|GJ00660}}
+:[1] {{Ref-DWDS|Januar}}
+:[1] {{Ref-Canoo|Januar}}
+:[1] {{Ref-UniLeipzig|Januar}}
+
+{{Monate (Deutsch)}}
+
+[[ang:Januar]]
+[[ast:Januar]]
+[[br:Januar]]
+[[cs:Januar]]
+[[csb:Januar]]
+[[da:Januar]]
+[[el:Januar]]
+[[en:Januar]]
+[[et:Januar]]
+[[eu:Januar]]
+[[fi:Januar]]
+[[fr:Januar]]
+[[fy:Januar]]
+[[ga:Januar]]
+[[gl:Januar]]
+[[hr:Januar]]
+[[hu:Januar]]
+[[hy:Januar]]
+[[io:Januar]]
+[[it:Januar]]
+[[ja:Januar]]
+[[ko:Januar]]
+[[lb:Januar]]
+[[ln:Januar]]
+[[lo:Januar]]
+[[lt:Januar]]
+[[my:Januar]]
+[[nl:Januar]]
+[[no:Januar]]
+[[oc:Januar]]
+[[om:Januar]]
+[[pl:Januar]]
+[[pt:Januar]]
+[[ro:Januar]]
+[[ru:Januar]]
+[[sv:Januar]]
+[[th:Januar]]
+[[tr:Januar]]
+[[uk:Januar]]
+[[zh:Januar]]

@@ -1,0 +1,40 @@
+== robber baron ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{Englisch Substantiv Übersicht
+|Singular=the robber baron
+|Plural=the robber barons
+}}
+
+{{Worttrennung}}
+: rob·ber bar·on, {{Pl.}} rob·ber bar·ons
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|…}}, {{Pl.}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] Angehörige eines ritterlichen Standes im Spätmittelalter, die ihre schlechte finanzielle Lage durch Straßenraub, [[Fehde]]n und Plünderungszüge verbessern wollten
+:[2] ein [[skrupellos]]er [[Kapitalist]], [[Industrielle]]r oder [[Geschäftsmann]] des späten 19. Jahrhunderts
+
+{{Beispiele}}
+:[1] 
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{de}}: [1] [[Raubritter]]; [2] [[skrupellos]]er [[Kapitalist]]; ([[Räuber-Baron]])
+{{Ü-Abstand}}
+*{{fr}}: [1] {{Ü|fr|}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|robber baron}}
+:[1] {{Ref-Leo|en|robber+baron}}
+:[1] {{Ref-Pons|en|robber+baron}}
+:[1] {{Ref-MWD|robber+baron}}
+:[1, 2] {{Ref-Dictionary|robber+baron}}
+:[1] {{Ref-dictcc|en|robber+baron}}
+
+{{Referenzen prüfen|Englisch}}
+
+[[en:robber baron]]

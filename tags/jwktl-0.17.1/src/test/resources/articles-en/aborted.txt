@@ -1,0 +1,45 @@
+==English==
+
+===Etymology===
+Derivative of [[abort]]
+
+===Adjective===
+{{en-adj|-}}
+
+# Brought forth [[prematurely]].
+# {{biology}} Rendered [[abortive]] or [[sterile]]; [[undeveloped]]; checked in normal development at a very early stage; as, spines are ''aborted'' branches.
+#:''&quot;The eyes of the cirripeds are more or less '''aborted''' in their mature state.&quot;''  -[[w:Richard Owen|Richard Owen]].
+
+====Translations====
+* [[Catalan]]: [[avortat]]
+* French: {{t+|fr|avorté}}
+* [[Interlingua]]: [[abortate]]
+* Italian: {{t-|it|terminato}}
+* Portuguese: {{t-|pt|abortado}}
+* Spanish: {{t-|es|abortado}}
+* Swedish: {{t|sv|aborterad}}
+
+===Verb===
+'''aborted'''
+
+# {{past of|[[abort]]}}
+
+===Anagrams===
+* {{alphagram|abdeort}}
+* [[borated#English|borated]]
+
+
+[[Category:English adjectives]]
+
+[[de:aborted]]
+[[fr:aborted]]
+[[it:aborted]]
+[[hu:aborted]]
+[[mg:aborted]]
+[[ml:aborted]]
+[[my:aborted]]
+[[pt:aborted]]
+[[ru:aborted]]
+[[fi:aborted]]
+[[ta:aborted]]
+[[vi:aborted]]

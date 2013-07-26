@@ -1,0 +1,47 @@
+{{wikipedia}}
+{{also|Abele|ābele}}
+==English==
+
+===Etymology===
+Dutch ''[[abeel]]'' (''abeel-boom''), Old French ''[[abel]]'', ''[[aubel]]'', from a diminutive of Latin ''[[albus]]'', white
+[[Image:Czajecice tree 20060812 1401.jpg|thumb|Abele; White poplar]]
+
+===Noun===
+{{en-noun}}
+
+# The [[white poplar]] (''[[Populus]] [[alba]]'').
+#* Six '''abeles''' i' the churchyard grow - [[Mrs. Browning]]
+
+====See also====
+* {{pedialite|Populus alba}}
+* {{commonslite|Populus alba}}
+* {{specieslite|Populus alba}}
+
+====Translations====
+{{trans-top|the white poplar, Populus alba}}
+* Bulgarian: {{t|bg|бяла топола }}
+* Dutch: {{t+|nl|abeel|m}}
+{{trans-mid}}
+* Estonian: [[hõbepappel]]
+{{trans-bottom}}
+
+[[Category:Trees]]
+
+----
+
+==[[Novial]]==
+
+===Noun===
+'''abele'''
+
+# [[bee]]
+
+[[lt:abele]]
+[[hu:abele]]
+[[ro:abele]]
+[[ru:abele]]
+[[fi:abele]]
+[[uk:abele]]
+[[vi:abele]]
+[[wa:abele]]
+[[zh:abele]]

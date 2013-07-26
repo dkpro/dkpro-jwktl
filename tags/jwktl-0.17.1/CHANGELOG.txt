@@ -1,0 +1,195 @@
+JWKTL-0.1.0 (2009-01-12)
+- Initial Release
+
+JWKTL-0.11.0 (2009-01-26)
+- Added: Included a missing file that caused an exception when parsing English dump files.
+
+JWKTL-0.12.0 (2009-02-21)
+- Modified: Improved parsing of synonyms for English.
+
+JWKTL-0.13.0 (2009-03-18)
+- Modified: Some changes in the parser to solve problems with current dump files.
+
+JWKTL-0.13.1 (2010-02-14) INTERNAL RELEASE
+- Modified: Migration to Maven.
+- Fixed: Unintended article merge in DeInflectionTableReader.
+- Fixed: Missing section end marker in DEFactoryManager.
+- Fixed: Sense superscripts in hyponym section in WordListProcessor.
+- Fixed: Inline literature references in WordListProcessor.
+- Fixed: Html-style comments in Wiki text in PageParser.
+- Fixed: Bug with section ends in DeTranslationWorker.
+
+JWKTL-0.13.2 (2010-02-14) INTERNAL RELEASE
+- Modified: Upgraded Berkeley DB to version 4.0.92.
+
+JWKTL-0.14.0a (2010-05-11) INTERNAL RELEASE
+- Modified: Performance boost for parsing Wiktionary dump files.
+
+JWKTL-0.14.0 (2010-06-07)
+
+JWKTL-0.14.1 (2010-07-12)
+- Fixed: Problem with newer Berkeley DB versions.
+
+JWKTL-0.14.2 (2010-10-28) INTERNAL RELEASE
+- Added: Support for Wiktionary page ID: stable IDs for pages throughout different dump dates.
+- Added: WordEntry.getPartsOfSpeech(), which returns a list of part of speech tags (useful where more than one is given).
+- Fixed: FixedNameWorkerFactory removes HTML fragments and trims leading and trailing white space, which improves the quality of recognizing section boundaries.
+- Fixed: Read part of speech property file using UTF-8 encoding.
+
+JWKTL-0.14.3 (2010-11-01 / 2012-03-28) INTERNAL RELEASE
+- Added: IWiktionaryEntry.getGender().
+- Added: IWiktionaryEntry.getEntryLink() for entries whose definitions can be found in another entry, e.g., DE:Autobiographie, which links to DE:Autobiografie.
+- Added: IWiktionaryPage.getRedirectTarget(), which contains the title of a redirect's target.
+- Added: Part of speech tag for Kanji characters and for inflected word forms.
+- Added: Maven assembly plugin for packaging release versions.
+- Added: IWiktionaryEntry.getPronunciations().
+- Added: IWiktionaryEntry.getEntryLink().
+- Added: Stub for Russian parser (works in conjunction with com.googlecode.wikokit).
+- Modified: New XML parser with a merged parsing&transformation step (about twice as fast).
+- Modified: Removed DbProperties (replaced with Java's Properties).
+- Modified: Removed unused imports.
+- Modified: Introduced new API: IWiktionary{Page,Entry,Sense}.
+- Modified: Refactored test cases.
+- Modified: Redirected old Wiktionary API (Wiktionary,WordEntry) to new API.
+- Modified: Commit handler for reducing memory load.
+- Modified: Entries can have multiple part of speech tags (as enum items); removed corresponding string representation.
+- Modified: Ignoring ":" characters after block headers (DE).
+- Modified: Limit Berkeley DB's cache size.
+- Fixed: Sense glosses for word entries with subsenses are now also correctly recognized (but not yet the subsenses themselves) in the German Wiktioanry.
+- Fixed: Removed redundant section boundary check from DeFixedNameBlockWorker.
+- Fixed: Senses without sense marker are now recognized (DE).
+- Fixed: DeInflectionTableReader did not correctly stop reading the table.
+- Fixed: Several part of speech tags have not been recognized.
+- Removed: POSCollectWorker and POSCollector, which have not been used anymore.
+
+JWKTL-0.14.4 (2010-11-01 / 2012-09-10) INTERNAL RELEASE
+- Modified: updated Wikokit dependency.
+
+JWKTL-0.15.0 (2010-11-01)
+- Modified: updated Wikokit dependency.
+- Fixed: Preparing for next major release.
+
+JWKTL-0.15.1 (2011-02-09) INTERNAL RELEASE
+- Modified: Reindexing of entries (sorted by title) is only performed if explicitly set, which makes parsing the dump files a lot faster, but might break old implementations. New param should be true for those.
+- Modified: Transformed new part of speech tags of the German Wiktionary into the common scheme.
+- Modified: IWiktionaryTranslation again uses the Language interface to represent languages (rather than String).
+- Fixed: Catched internal exception of Wikokit in order to allow parsing the Russian Wiktionary although the API still contains errors.
+- Fixed: GettingStarted checked for the wrong number of arguments.
+- Removed: Marked old interface in Wiktionary as deprecated.
+
+JWKTL-0.15.2 (2011-04-11)
+- Added: JWKTL version can be obtained using the new JWTKL main interface.
+- Added: IWiktionarySense.getRelations(RelationType) as a convenience method.
+- Added: Entry parser test cases from old 0.14.0 releases.
+- Added: Additional test cases for the entry parser.
+- Added: Worker for German related terms (label: "Sinnverwandte Wörter").
+- Modified: JWKTL version is saved in the parsed dump's property file. 
+- Modified: New language-specific base class for workers of the entry parser.
+- Modified: Translation extraction also covers template-based encoding.
+- Modified: New WordListProcessor for extracting semantic relations more accurately.
+- Modified: Updated to SuperPOM 1.0.15.
+- Fixed: NumeratedListProcessor rejected sense markers containing spaces.
+- Fixed: Alternative label for German antonyms "Gegenwörter" was not recognized.
+- Fixed: Invalid substring indices in ENWordProcessor, which caused dropping relations.
+- Fixed: Integrated Apache Lucene version of xercesimpl 2.9.1 in order to fix a buffer overflow when parsing dump files newer than April 2011.
+
+JWKTL-0.15.3 (2012-07-09) INTERNAL RELEASE
+- Added: Prepared support for Wikisaurus relations.
+- Added: Target sense and relation type for sense relations.
+- Added: Test cases for Russian parser.
+- Added: Part of speech type Contraction.
+- Added: IPronunciation interface.
+- Modified: Use Language interface instead of Language_Impl.
+- Modified: Update of German part of speech table.
+- Modified: Update of Russian parser and Wikokit adapter.
+- Modified: wiktionary.properties provides more details on the parsed Wiktionary.
+- Modified: Refactored WiktionaryDB.
+- Modified: Interwiki links are now stored as a SortedSet.
+- Modified: Categories are ordered as they appear in the wiki text.
+- Fixed: Etymology is now processed at the level of Wiktionary entries.
+- Fixed: Processing of literature references in German translation tables.
+
+JWKTL-0.15.4 (2012-10-11) INTERNAL RELEASE
+- Added: transliteration and notes for translations.
+- Modified: Revised WikiString implementation; plain text is no longer stored in the database.
+- Modified: Revised translation parsing to be more robust and precise.
+- Modified: Revised language infrastructure.
+- Modified: Updated Berkeley DB library.
+- Fixed: Corrected English pronunciation extraction.
+- Removed: ExternalLink (does not work properly).
+- Removed: Descendent (does not work properly).
+- Removed: EnTemplateLinkWorker (does not work properly).
+
+JWKTL-0.16.1 (2012-10-18)
+- Fixed open bugs from 0.15.4; public release preparations.
+
+JWKTL-0.16.2 (2013-02-21) INTERNAL RELEASE
+- Added: Additional language codes.
+- Added: Support for inflected word forms (IWiktionaryWordForm) for the English and German Wiktionary editions.
+- Added: Part of speech mapping with customized maps.
+- Added: String representation of Wiktionary data objects.
+- Added: Interfaces for filtering pages, entries, and senses.
+- Added: IWiktionaryCollection for processing multiple IWiktionaryEdition:s at once.
+- Added: Additional test cases.
+- Modified: Switched to dkpro-parent-pom:3.
+- Modified: Separated API and parser code.
+- Modified: Refactored BlockHandler structure.
+- Modified: Moved api.Gender to api.util.GrammaticalGender.
+- Modified: Unspecified genders are now "null" rather than a separate enum value.
+- Modified: api.IWikiString.getTextIncludingWikiMarkup() is now deprecated (use IWikiString.getText()).
+- Modified: api.Language is now deprecated (use api.util.ILanguage).
+- Modified: api.WordEntry.getExternalLinks() and getExtendedForms() are now deprecated (use IWiktionaryEntry.getReferences() and getWordForms()).  
+- Modified: api.util.TemplateParser supports named and numbered params.
+- Modified: Improved namespace support for article parser.
+- Modified: Fully revised parsing components.
+- Modified: Homonymous entries are now separated for the English Wiktionary.
+- Modified: Separated out BerkeleyDB-specific operations.
+- Modified: Sense indices start at 1 in accordance to their internal IDs.
+- Modified: Parser and API use the same data structures.
+- Modified: Replaced Context with ParsingContext (which uses explicit attributes).
+- Modified: Separated out WiktionaryPageParser from WiktionaryArticleParser.
+- Fixed: Images are removed from Wiki text.
+- Fixed: Sense assignments with number range are now processed in the German Wiktionary.
+- Fixed: Processing of references in the English and German Wiktionary editions.
+- Fixed: Subsenses are now correctly processed as a single IWiktionarySense (rather than incomplete entries).
+- Fixed: Processing of sections with spelling errors in the English Wiktionary.
+- Fixed: Entry assignment for pronunciations in the English Wiktionary.
+- Fixed: Sense assignment for relations and translations in the English Wiktionary.
+- Fixed: Processing of part of speech headers with uncommon formats.
+- Fixed: Reset of context parameters on language change.
+- Fixed: Parsing of sense definitions with link prefix but without sense marker.
+- Removed: WordEntry.getExtendedForms() and WordEntry.getExternalLinks() are no longer supported.
+- Removed: Part of speech tags UNKNOWN and UNSPECIFIED (now represented by null). 
+- Removed: Old LanguageFactory and unnecessary resources. 
+- Removed: Closable interface (no longer needed).
+- Removed: Unused parsing components and data objects.
+- Removed: Outdated resources.
+
+JWKTL-0.16.3 (2013-07-16) INTERNAL RELEASE
+- Added: Preparations for open source release.
+- Added: DumpInfo as a new context object for the Wiktionary parsers.
+- Added: IWiktionaryEntry.entryLinkType.
+- Modified: Multiple WiktionaryPageParsers may now be registered for a WiktionaryDumpParser.
+- Modified: Separated out database functions from WiktionaryArticle Parser.   
+- Modified: Removed references from item texts.
+- Modified: ENSenseIndexedBlockHandler.findMatchingSense is now public.
+- Modified: Fully revised WikisaurusArticleParser.
+- Modified: Simplified ENWordFormHandler.
+- Modified: Switched to com.sleepycat:je:5.0.73.
+- Fixed: WiktionaryArticleParser skips pages from non-default namespaces.
+- Fixed: Test files are expected in UTF-8 encoding.
+- Fixed: Parsing of information items with subsense markers.
+
+JWKTL-0.17.0 (2013-07-26) INTERNAL RELEASE
+- Added: Formatter for major data classes.
+- Added: Additional documentation.
+- Modified: New main entry "JWKTL".
+- Modified: Refactored EntryFactory.
+- Modified: Removed deprecated code.
+- Modified: Revised example code.
+- Modified: Switched to dkpro-parent-pom 4.
+- Modified: Changed package name and artifact ID.
+- Modified: Integrated Wikokit code.
+- Modified: Preparations for open source release.
+- Fixed: Definition for binary distribution.
+ 

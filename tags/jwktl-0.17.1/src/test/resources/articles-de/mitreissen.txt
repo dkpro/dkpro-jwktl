@@ -1,0 +1,63 @@
+== mitreißen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}}, ''unregelmäßig'' ===
+
+{{Verb-Tabelle
+|Gegenwart_ich=reiße mit
+|Gegenwart_du=reißt mit
+|Gegenwart_er, sie, es=reißt mit
+|1.Vergangenheit_ich=riss mit
+|Partizip II=mitgerissen
+|Konjunktiv II_ich=risse mit
+|Befehl_du=reiß mit!
+|Befehl_ihr=reißt mit!
+|Hilfsverb=haben
+|Weitere_Konjugationen= mitreißen (Konjugation)
+}}
+
+{{Alternative Schreibweisen}}
+:''[[Hilfe:Schweiz und Liechtenstein|Schweiz und Liechtenstein]]:'' [[mitreissen]]
+
+{{Worttrennung}}
+:mit·rei·ßen, {{Prät.}} riss mit, {{Part.}} mit·ge·ris·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈmɪtˌʀaɪ̯sn̩}}, {{Prät.}} {{Lautschrift|ˌʀɪs ˈmɪt}}, {{Part.}} {{Lautschrift|ˈmɪtɡəˈʀɪsn̩}}
+:{{Hörbeispiele}} {{fehlend}}, {{Prät.}} {{fehlend}}, {{Part.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] jemanden/etwas mit sich zerren
+:[2] Enthusiasmus verbreiten
+
+{{Sinnverwandte Wörter}}
+:[1] [[fortreißen]], [[wegreißen]]
+:[2] [[begeistern]]
+
+{{Oberbegriffe}}
+:[1] [[reißen]]
+:[2] [[beeindrucken]]
+
+{{Beispiele}}
+:[1] Der Felssturz ''riss'' sie ''mit'' in die Tiefe.
+:[2] Er ''riss'' die Menschenmenge ''mit.'' Der Enthusiasmus war groß.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{eu}}: [2] {{Ü|eu|poztu}}
+*{{en}}: [2] {{Ü|en|fill with enthusiasm}}
+*{{fr}}: {{in lateinischer Schrift}}[2] {{Ü|fr|enthousiasmer}}
+{{Ü-Abstand}}
+*{{no}}: {{Ü|no|dra}}/{{Ü|no|trekke}} {{Ü|no|med}} {{Ü|no|seg}}; [2] {{Ü|no|rive}} {{Ü|no|med}}, {{Ü|no|begeistre}}
+*{{sv}}: [1] ''refl.:'' {{Ü|sv|dra med sig}}, {{Ü|sv|svepa med sig}}; [1, 2] ''refl.:'' {{Ü|sv|rycka med sig}}
+*{{es}}: [2] {{Ü|es|apasionar}}, {{Ü|es|arrebatar}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1, 2] {{Ref-DWDS|mitreißen}}
+:[2] {{Ref-Canoo|mitrei%DFen}}
+:[2] {{Ref-UniLeipzig|mitrei%DFen}}
+:[1, 2] {{Ref-FreeDictionary|mitreißen}}
+
+{{Ähnlichkeiten}}
+:[[mitreisen]]
+
+[[ko:mitreißen]]
