@@ -1,0 +1,65 @@
+== Gynoeceum ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Bild=Hegi apocarpous gynoeceum.png|250px|1|Apokarpe ''Gynoeceen'' vom Brennenden Hahnenfuß (a) und vom Igelkolben (b)
+|Nominativ Singular=das Gynoeceum
+|Nominativ Plural=die Gynoeceen
+|Genitiv Singular=des Gynoeceums
+|Genitiv Plural=der Gynoeceen
+|Dativ Singular=dem Gynoeceum
+|Dativ Plural=den Gynoeceen
+|Akkusativ Singular=das Gynoeceum
+|Akkusativ Plural=die Gynoeceen
+}}
+
+{{Alternative Schreibweisen}}
+:[[Gynözeum]], [[Gynaeceum]], [[Gynäzeum]]
+
+{{Worttrennung}}
+:Gy·noe·ce·um, {{Pl.}} Gy·noe·ce·en
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡynøˈʦeːʊm}}, {{Pl.}} {{Lautschrift|ɡynøˈʦeːən}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] ''[[Botanik]]:'' die [[Gesamtheit]] der [[weiblich]]en [[Teil]]e ([[Fruchtblatt|Fruchtblätter]]) einer [[Blüte]]
+
+{{Herkunft}}
+:[[lateinisch]]e Angleichung [[gynoeceum]] von [[altgriechisch]] [[γυναικεῖον]] (''gynaikeíon'') (deutsch: die „Frauenwohnung“)<ref>{{Lit-Duden: Großes Fremdwörterbuch|A=4}}, Seite 533, Eintrag „Gynoeceum“</ref>
+:Die neulateinischen Termini "gynoeceum" und "androeceum" wurden 1826 durch den Botaniker [[w:Johannes Roeper|Johannes Roeper (1801 1885)]]<ref>Johannes Roeper: Observationes aliquot in florum inflorescentiarumque naturam - Linnaea 1, 1826, Seite 438</ref>eingeführt.<ref>{{Lit-Wagenitz: Wörterbuch der Botanik|A=1}}, Seite 166, Eintrag "Gynoeceum"</ref>
+:Unter anderem hat G. Kraus 1907 wegen der Herkunft des Terminus von dem altgriechischen [[γυναικεῖον]] (''gynaikeíon'') dessen Umbenennung von "Gynoeceum" in "Gynaeceum" vorgeschlagen.<ref>G. Kraus: Gynaeceum oder Gynoeceum? und anderes Sprachliches, in: Verh. Phys.-Med. Gesellschaft, Würzburg, N. F. 39, Seite 9 - 14</ref>
+
+{{Gegenwörter}}
+:[1] [[Androeceum]]
+
+{{Unterbegriffe}}
+:[1] [[Karpell]]
+
+{{Oberbegriffe}}
+:[1] [[Blüte]]
+
+{{Beispiele}}
+:[1] Das ''Gynoeceum'' in der ursprünglichen Form besteht aus einzelnen, nicht miteinander verwachsenen Fruchtblättern.
+:[1] Die Stellung des ''Gynoeceums'' ist für das Aussehen der Blüten von besonderer Bedeutung.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}<ref>Alle englischen Übersetzungen/Schreibvarianten nach: {{Lit-Wagenitz: Wörterbuch der Botanik|A=1}}, Seite 166, Eintrag "Gynoeceum"</ref>: [1] {{Ü|en|gynoecium}}, {{Ü|en|gynaecium}}, {{Ü|en|gynaeceum}}, {{Ü|en|gynecium}}
+*{{fr}}: [1] {{Ü|fr|gynécée}}
+*{{la}}: [1] {{Ü|la|gynoeceum}},  {{Ü|la|gynaeceum}}
+*{{oc}}: [1] {{Ü|oc|gineceu}}
+{{Ü-Abstand}}
+*{{sv}}: [1] {{Ü|sv|gynoeceum}}
+*{{es}}: [1] {{Ü|es|gineceo}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Gynoeceum}}
+:[1] {{Ref-DWDS|Gynoeceum}}
+:[1] {{Lit-Wagenitz: Wörterbuch der Botanik|A=1}}, Seite 166, Eintrag "Gynoeceum"
+
+{{Quellen}}
+
+[[ko:Gynoeceum]]

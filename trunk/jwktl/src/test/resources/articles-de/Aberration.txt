@@ -1,0 +1,82 @@
+== Aberration ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+{{Deutsch Substantiv f schwach
+|SINGULAR=Aberration
+|PLURAL=Aberrationen
+}}
+
+{{Silbentrennung}} 
+:Ab·er·ra·ti·on, {{Pl.}} Ab·er·ra·ti·o·nen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|apˌʔɛʀaˈʦɪ̯oːn}}, {{Pl.}} {{Lautschrift|apˌʔɛʀaˈʦɪ̯oːnən}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] [[Astronomie]]: [[scheinbar]]e [[Ortsveränderung]] eines [[Gestirn]]s aufgrund der [[Erdbewegung]] und der Endlichkeit der [[Lichtgeschwindigkeit]]
+::*[[jährlich]]e ''Aberration'': aufgrund des [[Erdumlauf]]s um die [[Sonne]]
+::*[[täglich]]e ''Aberration'': aufgrund der [[Erdrotation]]
+:[2] ''[[Optik]]'': [[Abbildungsfehler]] von [[Linse]]n:
+::*[[chromatisch]]e ''Aberration'': [[Strahl]]en unterschiedlicher [[Wellenlänge]] werden unterschiedlich stark gebrochen
+::*[[sphärisch]]e ''Aberration'': [[Randstrahl]]en werden stärker gebrochen als [[achsennah]]e Strahlen
+:[3] ''[[Biologie]]:'' [[Abweichung]] von den [[Artmerkmal]]en
+:[4] ''[[Psychologie]]:'' eine leichte psychische Störung
+
+{{Herkunft}}
+:Von lateinisch [[aberratio]] „Entfernung, Abweichung“ zu lateinisch  [[aberrare]] „abirren, abweichen“ einer Zusammensetzung von lateinisch [[ab]] „weg“ und [[errare]] „irren, schwanken“.
+
+{{Synonyme}}
+:[1–3] [[Aberratio]]
+:[4] [[geistig]]e [[Verwirrung]]
+
+{{Gegenwörter}}
+:[2] [[Achromat]]
+
+{{Oberbegriffe}}
+:[2] [[Abbildungsfehler]]
+:[3] [[Abweichung]]
+:[4] psychische Störung
+
+{{Beispiele}}
+:[4] „Jedenfalls scheint mir die These von den psychosozialen Wurzeln der mit großer Konsequenz sich entwickelnden gesamtgesellschaftlichen ''Aberration'', je mehr von diesem Lebensberichten ich lese, desto einleuchtender.“<ref>W. G. Seebald: ''Luftkrieg und Literatur. 5. Auflage.'' Fischer Taschenbuch Verlag, Frankfurt/M. 2005, S. 90. ISBN  3-596-14863-4</ref>
+
+{{Charakteristische Wortkombinationen}}
+:[[jährlich]]e ~, [[kosmisch]]e ~, [[chromatisch]]e ~, [[sphärisch]]e ~, [[strukturell]]e ~ 
+
+{{Abgeleitete Begriffe}}
+:[[Aberrationskonstante]], [[Aberrationszeit]], [[Chromosomenaberration]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [] [[]]
+*{{zh}}: [] [[]]
+*{{en}}: [1–3] {{Ü|en|aberration}}
+*{{fr}}: [1–3] {{Ü|fr|aberration}} {{f}}
+*{{is}}: [1] {{Ü|is|ljósvilla}}, [2] {{Ü|is|myndskekkja}} (bei Spiegeln: {{Ü|is|spegilskekkja}}, bei Linsen: {{Ü|is|linsuskekkja}}), [3] {{Ü|is|frávik}}
+{{Ü-Abstand}}
+*{{ca}}: [1] {{Ü|ca|aberració}} {{f}}
+*{{pl}}: [1, 2, 4] {{Ü|pl|aberracja}} {{f}}, [1] {{Ü|pl|aberracja światła}} {{f}}, [2] {{Ü|pl|aberracja optyczna}} {{f}}
+*{{ru}}: [1–3] {{Üxx|ru|aberrázija|аберрация}} {{f}}, [1–4] {{Üxx|ru|otklonénije|отклонение}} {{f}}
+*{{sv}}: [1–4] {{Ü|sv|aberration}}
+*{{es}}: [1–3] {{Ü|es|aberración}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1–4] {{Wikipedia|Aberration}}
+:[1] {{Ref-DWDS|Aberration}}
+:[1] {{Ref-Canoo|Aberration}}
+
+{{Quellen}}
+
+[[Kategorie:Fremdwort]]
+
+[[ar:Aberration]]
+[[en:Aberration]]
+[[fr:Aberration]]
+[[hu:Aberration]]
+[[io:Aberration]]
+[[lt:Aberration]]
+[[pl:Aberration]]
+[[ro:Aberration]]
+[[sv:Aberration]]
+[[zh:Aberration]]

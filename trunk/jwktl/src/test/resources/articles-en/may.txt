@@ -1,0 +1,298 @@
+{{wikipedia|May (disambiguation)}}
+{{also|May|máy|mấy}}
+==English==
+
+{{rank|very|upon|man|70|may|about|its|time}}
+
+===Pronunciation===
+* {{enPR|mā}}, {{IPA|/meɪ/}}, {{SAMPA|/meI/}}
+* {{audio|en-us-May.ogg|Audio (US)}}
+* {{rhymes|eɪ}}
+
+===Etymology 1===
+{{etyl|ang|en}} {{term|magan||lang=ang}}, from Germanic.  Cognate with Dutch {{term|mogen}}, German {{term|mögen}}, Icelandic {{term|mega|lang=is}}.
+
+====Verb====
+{{en-verb|inf=-|may|-|might|-}}
+
+# {{context|modal auxiliary verb|defective}} To have [[permission]] to. Used in granting permission and in questions to make polite requests.
+#: ''You '''may''' smoke outside.''
+#: '''''May''' I sit there?''
+# {{context|modal auxiliary verb|defective}} [[possibly|Possibly]], [[but]] not [[certain]]ly.
+#: ''He '''may''' be lying.''
+# {{context|subjunctive present|defective}} Expressing something that is possibly true.
+#: ''come what '''may'''''
+# {{context|subjunctive present|defective}} Expressing [[wish|wish]] or blessing.
+#: '''''May''' you win.'' '''''May''' the weather be sunny.''
+
+=====Usage notes=====
+* {{term|may|May}} is a [[defective verb]].  It has no infinitive, no past participle, and no future tense.  Forms of {{term|to be allowed to}} are used to replace these missing tenses.
+* The simple past (both indicative and subjunctive) of {{term|may}} is {{term|might}}
+* The present tense is negated as {{term|may}} {{term|not}}, which can be contracted to {{term|mayn't}}, although this is old-fashioned; the simple past is negated as {{term|might}} {{term|not}}, which can be contracted to {{term|mightn't}}.
+* {{term|may|May}} has archaic second-person singular present indicative forms {{term|mayest}} and {{term|mayst}}.
+* Usage of this word in the sense of {{term|possibly}} is considered incorrect by some speakers and writers, as it blurs the meaning of the word in the sense ''have permission to''. These speakers and writers prefer to use the word {{term|might}} instead.
+* Usage of this word in the sense of {{term|wish}} is often unstated, as in ''(may you) Have a great day!.''
+
+=====Synonyms=====
+* {{sense|have permission to}} [[can]], [[could]], [[might]]
+* {{sense|possibly}} [[could]], [[might]]
+* {{sense|in subjunctive}} [[might]]
+
+=====Derived terms=====
+{{rel-top3|term derived from &quot;may&quot;}}
+* [[as the case may be]]
+* [[be it as it may]], [[be that as it may]], [[be this as it may]]
+* [[come what may]]
+* [[devil-may-care]]
+* [[if I may]]
+* [[I may not but]]
+* [[it may well with]], [[may well with]]
+* [[let the chips fall where they may]]
+{{rel-mid3}}
+* [[may as well]]
+* [[maybe]]
+* [[may chance]]
+* [[may-fall]]
+* [[may-fortune]]
+* [[mayhap]]
+* [[mayhappen]]
+* [[may I]]?
+{{rel-mid3}}
+* [[may-issue]]
+* [[mayn't]]
+* [[may you live in interesting times]]
+* [[that is as may be]], [[that's as may be]]
+* [[those who will not when they may, when they will they shall have nay]]
+* [[what-you-may-call-it]]
+{{rel-bottom}}
+
+====See also====
+* [[Appendix:English tag questions]]
+
+=====Translations=====
+{{trans-top|have permission to}}
+* [[American Sign Language]]: {{tø|ase|S@Sternumhigh-PalmDown-S@Sternumhigh-PalmDown S@Chesthigh-PalmDown-S@Chesthigh-PalmDown}}
+* Arabic: {{Arab|[[استطاع]]}} {{IPAchar|(istaṭāʻa)}}, {{Arab|[[ممكن]]}} (múmkin) ''lit.: possible''
+* Chinese: [[可以]] ([[kěyǐ]])
+* Czech: {{t-|cs|smět}}
+* Danish: {{t+|da|må}}
+* Dutch: {{t+|nl|mogen}}
+* Finnish: {{t+|fi|voida}}, {{t+|fi|saada}}
+* French: {{t+|fr|pouvoir}}
+* German: {{t+|de|dürfen}}, {{t+|de|mögen}}, {{t+|de|könnten}}
+* Greek: [[μπορώ]] (boró), [[επιτρέπεται]] (epitrépete)
+* Hungarian: {{t+|hu|szabad}}
+* Icelandic: [[mega]], [[mátt]]
+{{trans-mid}}
+* Indonesian: [[boleh]] / [[dapat]] / [[bisa]]
+* Italian: {{t+|it|potere}}
+* Japanese: [[してもいい]] (shité mo íi)
+* Korean: [[할 수 있다]] (hal su itda)
+* Norwegian: {{t+|no|kan}}, {{t-|no|får}},  {{t+|no|må}}
+* Persian: {{fa-Arab|[[توانستن|تَوانِستَن]]}} (tævānestæn)
+* Polish: {{t+|pl|móc}}
+* Portuguese: {{t+|pt|poder}}
+* Russian: {{t+|ru|мочь|tr=moč’}}, {{t+|ru|можно|tr=móžno}} (''predicative'')
+* Spanish: {{t+|es|poder}}
+* Swedish: {{t+|sv|få}}, {{t+|sv|kunna}}, {{t+|sv|kan}}
+* [[Tagalog]]: [[maaari]], [[puwede]]
+{{trans-bottom}}
+
+{{trans-top|possibly, but not certainly}}
+* [[American Sign Language]]: {{tø|ase|S@Sternumhigh-PalmDown-S@Sternumhigh-PalmDown S@Chesthigh-PalmDown-S@Chesthigh-PalmDown}}
+* Chinese: [[可能]] (kěnéng) ''may be, possible''
+* Czech: [[moci]] ([[moct]])
+* Danish: {{t-|da|måske}}
+* Dutch: [[misschien]] ''may be''; He may be lying — ''Hij liegt misschien''
+* Finnish: {{t+|fi|voida}}, {{t+|fi|saattaa}}
+* French: [[peut-être]], [[il se peut que]] + ''subjunctive''; He may be lying — ''Il ment peut-être'', ''Il se peut qu’il mente.''
+* Greek: {{t+|el|ίσως}}, {{t+|el|μάλλον}}
+* Hungarian: {{t+|hu|lehet}}
+* Icelandic: {{t+|is|geta}}
+{{trans-mid}}
+* Indonesian: [[mungkin]] / [[barangkali]] / [[bisa jadi]] / [[bisa saja]]
+* Italian: [[forse]], [[può essere che]] + ''subjunctive''; He may be lying — ''Forse sta mentendo'', ''Può essere che stia mentendo''
+* Japanese: [[多分]] ([[たぶん]], tábun), [[かも知れない]] (かもしれない, kamo shirenai)
+* Norwegian: [[kan være]], also expressed with adv. [[kanskje]]; He may be lying - Det kan være han lyver/Kanskje han lyver
+* Persian: {{t+|fa|شاید|alt=شایَد|tr=šāyæd|xs=Persian}}
+* Polish: {{t+|pl|móc}}
+* Portuguese: {{t+|pt|poder}}
+* Russian: [[может быть]] (móžet bytʹ) ''may be'', [[мочь]] (moč’)
+* Swedish: {{t+|sv|kan}}, {{t+|sv|kanske}}
+* [[Tagalog]]: [[maaari]], [[puwede]]
+{{trans-bottom}}
+
+{{trans-top|subjunctive}}
+* Dutch: {{t+|nl|mogen}}; come what may  - ''komen wat komen moge''
+* French: ''use subjunctive of'' [[pouvoir]]
+{{trans-mid}}
+* Italian: ''use subjunctive of'' [[potere]]
+* Swedish: [[må]]'', or rarely, ''[[-e]]
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|Hungarian}}: [[lehet]]; You may smoke outside — ''Kivul dohányozhat.''; May I sit there? — ''Oda ülhetnék?''; He may be lying — '' Lehet, hogy hazudik.''
+* {{ttbc|Ido}}: [[forsan]] (4, 5), [[darfas]] (1, 2)
+* {{ttbc|Polish}}: [[możliwe, że]] (2); He may be lying - ''Możliwe, że on kłamie.''
+* {{ttbc|Romanian}}: [[putea]]
+* {{ttbc|Spanish}}: [[poder]]
+{{checktrans-bottom}}
+
+===Etymology 2===
+{{etyl|fr}} {{term|mai|lang=fr}}, so called because it blossoms in {{term|May}}.
+
+====Noun====
+{{en-noun}}
+
+# The [[hawthorn]] bush or its [[blossom]]s.
+
+=====Derived terms=====
+* [[Italian may]]
+* [[mayhaw]]
+
+=====Translations=====
+{{trans-top|the hawthorn bush or its blossom}}
+* Bulgarian: {{t+|bg|глог|m|tr=glog}}
+* Finnish: {{t-|fi|orapihlaja}}
+* French: {{t+|fr|aubépine|f}}
+* German: [[Weißdornblüte]] {{f}}
+* Greek: [[λευκάκανθα]] (lefkákantha) {{f}}
+{{trans-mid}}
+* Italian: {{t-|it|biancospino|m}}
+* [[Ojibwe]]: [[miinensagaawanzh]], [[miinensagaawanzhiig]] {{p}}
+* Portuguese: [[pirilteiro]] {{m}}, [[estrepeiro]] {{m}}
+* Russian: {{t|ru|боярышник|m|tr=bojáryšnik}}
+* Spanish: [[espino]] {{m}}, [[marzoleto]] {{m}}
+{{trans-bottom}}
+
+====Verb====
+{{en-verb}}
+
+# To [[gather]] may.
+#* '''1922''', [[w:A. E. Housman|A. E. Housman]], ''[[:w:Last Poems|Last Poems]]'', VII, lines 1-2
+#*: In valleys green and still / Where lovers wander '''maying'''
+
+===Anagrams===
+* {{alphagram|[[Amy#English|Amy]]}}
+* [[Mya#English|Mya]], [[MYA#English|MYA]]; [[yam#English|yam]]
+
+[[Category:100 English basic words]]
+[[Category:English auxiliary verbs]]
+[[Category:English defective verbs]]
+[[Category:English irregular verbs]]
+[[Category:English words with multiple etymologies]]
+[[Category:Trees]]
+
+----
+
+==[[Crimean Tatar]]==
+
+===Noun===
+{{infl|crh|noun}}
+
+# [[butter]], [[oil]]
+
+====Declension====
+{{crh-latin-noun|nıñ|ğa|nı|da|dan}}
+
+====Synonyms====
+* [[yağ]]
+
+----
+
+==Kurdish==
+
+===Noun===
+{{infl|ku|noun|g=m}}
+
+# [[intervention]]
+
+====Derived terms====
+* [[may tê dan|mayê xwe tê dan]]
+* [[maytêder]]
+* [[maytêderî]]
+* [[maytêker]]
+* [[maytêkerî]]
+* [[may tê kirin|mayê xwe tê kirin]]
+
+----
+
+==Mapudungun==
+
+===Adverb===
+{{infl|arn|adverb|using Raguileo Alphabet}}
+
+# [[yes]]
+
+----
+
+==Tagalog==
+
+===Verb===
+{{infl|tl|verb}}
+
+# there [[is]]
+
+----
+
+==Tatar==
+
+===Alternative spellings===
+* [[май]]
+
+===Noun===
+{{infl|tt|noun}}
+
+# [[May]] (''Month of the Year)
+
+====Declension====
+{{tt-latin-noun|nıñ|ga|nı|da|dan}}
+
+====See also====
+* Previous: [[äpril]]. * Next: [[yün#Tatar|yün]]
+
+[[Category:tt:Months|5]]
+
+[[ar:may]]
+[[az:may]]
+[[zh-min-nan:may]]
+[[da:may]]
+[[de:may]]
+[[et:may]]
+[[es:may]]
+[[fa:may]]
+[[fr:may]]
+[[fy:may]]
+[[ko:may]]
+[[io:may]]
+[[it:may]]
+[[kn:may]]
+[[kk:may]]
+[[sw:may]]
+[[ku:may]]
+[[lo:may]]
+[[lt:may]]
+[[li:may]]
+[[hu:may]]
+[[ml:may]]
+[[nl:may]]
+[[ja:may]]
+[[no:may]]
+[[km:may]]
+[[pl:may]]
+[[pt:may]]
+[[ro:may]]
+[[ru:may]]
+[[simple:may]]
+[[fi:may]]
+[[tl:may]]
+[[ta:may]]
+[[te:may]]
+[[th:may]]
+[[tr:may]]
+[[uk:may]]
+[[vi:may]]
+[[wa:may]]
+[[wo:may]]
+[[yi:may]]
+[[zh:may]]

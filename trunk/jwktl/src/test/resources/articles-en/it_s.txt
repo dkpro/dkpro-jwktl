@@ -1,0 +1,69 @@
+==English==
+
+===Etymology===
+[[contraction|Contraction]] of ‘[[it]] [[is]]’ or ‘it [[has]]’.
+
+===Pronunciation===
+* {{IPA|/ɪts/}}, {{SAMPA|/Its/}}
+* {{audio|en-us-it's.ogg|Audio (US)}}
+* {{rhymes|ɪts}}
+* {{homophones|its}}
+
+===Contraction===
+{{en-cont}}
+ 
+# It [[is]].
+#: '''''It’s''' coming right for us!''
+# It [[has]].
+#: '''''It’s''' been a long time since I’ve had cheesecake.''
+
+====Usage notes====
+* See [[its#Usage notes|Usage under &quot;its&quot;]]
+
+====Translations====
+{{trans-top|it is}}
+* [[Catalan]]: [[ell]] [[és]]
+* Dutch: [[’t]] [[is]]
+* Finnish: [[se]] [[on]]
+* French: {{t-|fr|c'est}}
+{{trans-mid}}
+* Greek: {{t+|el|είναι}}
+* Italian: {{t+|it|è}}
+* Portuguese: {{t+|pt|é}}
+* Spanish: {{t-|es|es}}
+* Swedish: [[det]] [[är]], [[den]] är
+{{trans-bottom}}
+
+{{trans-top|it has}}
+* [[Catalan]]: [[ell]] [[té]]
+* Dutch: [[’t]] [[heeft]], ’t [[is]]
+* Greek: {{t|el|έχει}}
+* Italian: {{t+|it|ha}}
+{{trans-mid}}
+* Portuguese: {{t|pt|tem}}
+* Spanish: {{t+|es|ha}}
+* Swedish: det [[har]], den har
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|Latvian}}: [[tas]] [[ir]], [[tā]] ir
+* {{ttbc|Lithuanian}}: [[tai]] [[yra]]
+{{trans-mid}}
+* {{ttbc|Swedish}}
+{{trans-bottom}}
+
+===Anagrams===
+* {{alphagram|[[IST#English|IST]]}} [[sit#English|sit]], [[STI#English|STI]], [['tis#English|'tis]], [[TIS#English|TIS]]
+
+[[Category:English terms spelled with ']]
+
+[[es:it's]]
+[[fr:it's]]
+[[ko:it's]]
+[[ja:it's]]
+[[no:it's]]
+[[pl:it's]]
+[[simple:it's]]
+[[fi:it's]]
+[[tr:it's]]
+[[vi:it's]]

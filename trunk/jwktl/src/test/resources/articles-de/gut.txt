@@ -1,0 +1,242 @@
+{{Wort der Woche|30|2008}}
+== gut ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Deutsch Adjektiv Übersicht
+|Positiv=gut
+|Komparativ=besser
+|Superlativ=am besten
+}}
+
+{{Anmerkungen|zur Schulnote}}
+:In Österreich gebraucht man in diesem Zusammenhang vornehmlich die nominalisierte Form „das Gut“, die der Note 2 entspricht
+
+{{Worttrennung}}
+:''Neue Rechtschreibung:'' gut, {{Komp.}} bes·ser, {{Sup.}} am bes·ten
+:''Alte Rechtschreibung:'' gut, {{Komp.}} bes·ser, {{Sup.}} am be·sten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡuːt}}, {{Komp.}} {{Lautschrift|ˈbɛsɐ}}, {{Sup.}} {{Lautschrift|ˈbɛstən}}, {{Lautschrift|ˈbɛstn̩}}
+:{{Hörbeispiele}} {{Audio|De-gut.ogg|gut}}, {{Audio|De-at-gut.ogg|gut (österreichisch)}}, {{Komp.}} {{Audio|De-besser.ogg|besser}}, {{Sup.}} {{Audio|De-ambesten.ogg|am besten}}
+
+{{Bedeutungen}}
+:[1] vom Menschen her [[positiv]] [[bewerten|bewertet]], [[empfinden|empfunden]], [[fühlen|gefühlt]] und dergleichen
+::[a] ''prädikativ oder attributiv gebraucht''
+::[b] ''adverbiell gebraucht''
+:[2] eine Schulnote
+::[a] ''(Deutschland)'' entspricht der Note 2
+::[b] ''(Schweiz)'' entspricht der Note 5
+:[3] reichlich bemessen
+:[4] jemandem [[freundlich]] gesinnt, jemandem zugetan
+:[5] für besonders [[feierlich]]e Anlässe gedacht
+:[6] ohne größere Mühen zu erledigen seiend, leicht machbar seiend
+
+{{Herkunft}}
+:entstammt dem [[Germanisch]]en ''*[[gōda]]'' (Adjektiv); bezeugt im [[Althochdeutsch]]en sowie im [[Mittelhochdeutsch]]en ''[[guot]]''
+
+{{Synonyme}}
+:[1] [[schön]], [[fein]], [[O. K.]], [[okay]]
+:[1b] [[wohl]]
+:[2] (österreichisch) [[Gut]]
+
+{{Gegenwörter}}
+:[1] [[schlecht]], [[negativ]], [[böse]], [[übel]]
+
+{{Beispiele}}
+:[1] Es geht mir ''gut.''
+:[1] Das hast du ''gut'' gemacht!
+:[1a] „Das Gute, dieser Satz steht fest / Ist stets das Böse, was man lässt.“<ref>Wilhelm Busch, Die fromme Helene</ref>
+:[1b] „Gut gebrüllt, Löwe!“<ref>William Shakespeare, Ein Sommernachtstraum, Übersetzung von Schlegel/Tieck</ref>
+:[2] Seine Leistungen sind durchwegs ''gut.''
+:[3] Seine Ankunft wird in einer ''guten'' Stunde erwartet.
+:[4] Er ist ein ''guter'' Freund von mir.
+:[4] Auf ''gute'' Nachbarschaft!
+:[5] Susi hat heute extra ihr ''gutes'' Kleid angezogen.
+:[6] Du hast ''gut'' lachen.
+:[6] Dein neuer Roman liest sich ''gut.''
+:[6] Es kann ''gut'' sein, dass Bruno mal wieder verschlafen hat.
+
+{{Redewendungen}}
+:[[bei jemandem gut angeschrieben sein]]
+:[[gut beieinander sein]]
+:[[gut Holz]]
+:[[gute Karten haben]]
+:[[es gut getroffen haben]]
+:[[es mit etwas gut sein lassen]]
+:[[für etwas gut sein]]
+:[[gut daran tun, etwas zu tun]]
+:[[kein gutes Haar an etwas lassen]]/[[kein gutes Haar an jemandem lassen]]
+:[[so gut wie]]
+
+{{Sprichwörter}}
+:[[Ende gut, alles gut]]
+:[[Gut Ding will Weile haben]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] ein ''guter'' [[Mensch]], ''gut'' und [[gern]]e, so ''gut'' [[wie]], im Guten
+
+{{Abgeleitete Begriffe}}
+:[[Gut]], [[Gutachten]], [[gutachten]], [[Gutachter]], [[Gutachterin]], [[gutachterlich]], [[gutachtlich]], [[gutartig]], [[gutausgebaut]], [[gutaussehend]], [[gutbeleumdet]], [[gutbetucht]], [[gutbezahlt]], [[Gutbringen]], [[gutbringen]], [[gutbringend]], [[gutbürgerlich]], [[gutdotiert]], [[Gutdünken]], [[Güte]], [[Gutenachtgruss]], [[Gutenachtgruß]], [[Gutenachtkuss]], [[Gutenachtkuß]], [[Gutenachtlied]], [[Gutenberg]], [[Gutenmorgengruss]], [[Gutenmorgengruß]], [[Gutfinden]], [[gutfundiert]], [[gutgebaut]], [[gutgebracht]], [[gutgeheißen]], [[Gutgehen]], [[gutgehen]], [[gutgehend]], [[gutgekleidet]], [[gutgelaunt]], [[gutgelungen]], [[gutgemacht]], [[gutgemeint]], [[gutgeordnet]], [[gutgepflegt]], [[gutgesinnt]], [[gutgläubig]], [[Gutgläubigkeit]], [[Guthaben]], [[guthaben]], [[guthabend]], [[Gutheißen]], [[gutheißen]], [[gutheißend]], [[Gutheit]], [[gutheißen]], [[gutheißend]], [[gutherzig]], [[gütig]], [[gutklassig]], [[Gutleuthaus]], [[gutmachen]], [[Gutmensch]], [[gutmütig]], [[gutnachbarlich]], [[Gutpunkt]], [[Gutsagen]], [[gutsagen]], [[gutsagend]], [[Gutschein]], [[gutschreiben]], [[Gutschrift]], [[Guttempler]], [[Guttemplerorden]], [[guttuend]], [[Guttun]], [[guttun]], [[gutunterrichtet]], [[gutverdienend]], [[gutwillig]], [[Gutwilligkeit]], [[herzensgut]], [[vergüten]], [[wiedergutmachen]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{af}}: [1] {{Ü|af|goed}}
+*{{ar}}: [1] {{Üxx|ar|dschéyyid|جيّد}}, {{Üxx|ar|t&#803;áyyib|طيّب}}, {{Üxx|ar|‎h&#803;ásan|حسن}}
+*{{az}}: [1] {{Ü|az|yaxşı}}
+*{{bs}}: [1] {{Ü|bs|dobar}}, [1b] {{Ü|bs|dobro}}
+*{{br}}: [1] {{Ü|br|mat}}
+*{{bg}}: [1a] {{Üxx|bg|dobăr|добър}}
+*{{zh}}: [1] {{Üxx|zh|hǎo|好}}
+*{{da}}: [1] {{Ü|da|god}}
+*{{en}}: [1a] {{Ü|en|good}}, [1b] {{Ü|en|well}}
+*{{eo}}: [1] {{Ü|eo|bona}}
+*{{fi}}: [1a] {{Ü|fi|hyvä}}, [1b] {{Ü|fi|hyvin}}
+*{{fr}}: [1a] {{Ü|fr|bon}}, [1b] {{Ü|fr|bien}}
+**{{ka}}: [1a] {{Üxx|ka|kargi|კარგი}}, [1b] {{Üxx|ka|kargad|კარგად}}
+*{{he}}: [1] {{Üxx|he|tov|טוב}}
+*{{hi}}: [1] {{Ü|hi|अच्छा}}
+*{{id}}: [1] {{Ü|id|baik}}, {{Ü|id|bagus}}
+*{{is}}: [1] {{Ü|is|góður}}
+*{{it}}: [1a] {{Ü|it|buono}}, [1b] {{Ü|it|bene}}
+*{{ja}}: [1] {{Üxx|ja|いい, ii|良い}}, {{Üxx|ja|よい, yói|善い}}
+{{Ü-Abstand}}
+*{{ca}}: [1a] {{Ü|ca|bo}} ({{Ü|ca|bon}} {{m}}, vor dem Substantiv), [1b] {{Ü|ca|bé}}
+*{{hr}}: [1a] {{Ü|hr|dobar}}, [1b] {{Ü|hr|dobro}}
+*{{la}}: [1a] {{Ü|la|bonus}}, [1b] {{Ü|la|bene}}
+*{{lus}}:[1a] {{Ü|lus|ṭha}}
+*{{ne}}: [1] {{Üxx|ne|rāmro|राम्रो}}
+*{{nl}}: [1] {{Ü|nl|goed}}
+*{{oc}}: [1a] {{Ü|oc|bon}}
+*{{pl}}: [1a] {{Ü|pl|dobry}}, [1b] {{Ü|pl|dobrze}}
+*{{pt}}: [1a] {{Ü|pt|bom}}, [1b] {{Ü|pt|bem}}
+*{{ru}}: [1a] {{Üxx|ru|choróschi|хороший}}, [1b] {{Üxx|ru|choroschó|хорошо}}
+*{{sk}}: [1a] {{Ü|sk|dobrý}}, [1b] {{Ü|sk|dobre}}
+*{{es}}: [1a] {{Ü|es|bueno}}, [1b] {{Ü|es|bien}}
+*{{sv}}: [1] {{Ü|sv|bra}}; [1a] {{Ü|sv|god}}; [1b] {{Ü|sv|väl}}, {{Ü|sv|bra}}; [3] {{Ü|sv|dryg}}; [4] {{Ü|sv|god}}; [5] {{Ü|sv|fin}}; [6] {{Ü|sv|mycket möjligt}}
+*{{dsb}}: [1] {{Ü|dsb|dobry}}
+*{{hsb}}: [1] {{Ü|hsb|dobry}}
+*{{th}}: [1] {{Üxx|th|dee|ดี}}
+*{{cs}}: [1a, 2] {{Ü|cs|dobrý}}, [1b] {{Ü|cs|dobře}}
+*{{tr}}: [1] {{Ü|tr|iyi}}
+*{{hu}}: [1–5] {{Ü|hu|jó}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*Berlinisch: ''jut''
+*Bairisch: ''guat,'' ''[[pfundig]]''
+**Wienerisch: ''[[leiwand]]''
+*Kölnisch: ''joot''
+|
+*Obersächsisch: ''gudd''
+*Schwäbisch: ''guat''
+*Schwyzerdütsch: ''guet''
+}}
+
+{{Referenzen}}
+:[2] {{Wikipedia|gut}}
+:[?] {{Ref-Grimm|gut|GG27807}}
+:[1–6] {{Ref-DWDS|gut}}
+:[1, 2] {{Ref-Canoo|gut}}
+:[1, 2, 4] {{Ref-UniLeipzig}}
+:[3–6] {{Lit-Duden: Universalwörterbuch|A=4}}, Seite 691
+
+{{Schulnoten (Deutschland)}}
+
+{{Quellen}}
+
+{{2x----}}
+
+== gut ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{erweitern|Beispiel|Englisch}}
+
+{{Englisch Substantiv Übersicht
+|Singular=the gut
+|Plural=the guts
+}}
+
+{{Worttrennung}}
+:gut, {{Pl.}} guts
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡʌt}}, {{Pl.}} {{Lautschrift|…}}
+:{{Hörbeispiele}} {{Audio|En-us-inlandnorth-gut.ogg|amerik}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] der Darm
+:[2] ''nur Plural:'' Gedärm, Innereien
+:[3] {{ugs.}}, ''nur Plural:'' Mut, [[Schneid]]
+:[4] {{ugs.}}, Bauchgefühl, [[Instinkt]]
+
+{{Beispiele}}
+:[2] Today we dissected a frog and looked at its ''guts.''
+::Heute haben wir einen Frosch seziert und seine Innereien betrachtet.
+:[3] This step took some ''guts.''
+::Für diesen Schritt hat es Mut gebraucht.
+
+{{Redewendungen}}
+:to [[have a gut feeling]] - ein [[Bauchgefühl haben]], eine [[Ahnung haben]]
+:to [[have guts]] - Mut haben, mutig sein
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{de}}: [1] der [[Darm]], [2] [[Gedärm]], [[Innereien]], [3] [[Mut]], [4] [[Instinkt]]
+{{Ü-Abstand}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1–3] {{Wikipedia|spr=en|gut (disambiguation)}}
+:[1] {{Ref-Leo|en|gut}}
+:[1–3] {{Ref-MWD|gut}}
+:[1–3] {{Ref-MWT|gut}}
+:[1–3] {{Ref-Dictionary|gut}}
+:[1] {{Ref-dictcc|en|gut}}
+{{Referenzen prüfen|Englisch}}
+
+{{Ähnlichkeiten}}
+:[[goutieren]], [[Gut]]
+
+[[af:gut]]
+[[ar:gut]]
+[[br:gut]]
+[[cs:gut]]
+[[el:gut]]
+[[en:gut]]
+[[eo:gut]]
+[[es:gut]]
+[[et:gut]]
+[[eu:gut]]
+[[fa:gut]]
+[[fi:gut]]
+[[fj:gut]]
+[[fo:gut]]
+[[fr:gut]]
+[[hr:gut]]
+[[hu:gut]]
+[[hy:gut]]
+[[io:gut]]
+[[it:gut]]
+[[ja:gut]]
+[[kn:gut]]
+[[ko:gut]]
+[[ku:gut]]
+[[la:gut]]
+[[li:gut]]
+[[lt:gut]]
+[[mg:gut]]
+[[ml:gut]]
+[[my:gut]]
+[[nl:gut]]
+[[no:gut]]
+[[pl:gut]]
+[[pt:gut]]
+[[ru:gut]]
+[[simple:gut]]
+[[sv:gut]]
+[[ta:gut]]
+[[te:gut]]
+[[tr:gut]]
+[[vi:gut]]
+[[vo:gut]]
+[[zh:gut]]

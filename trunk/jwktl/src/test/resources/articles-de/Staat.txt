@@ -1,0 +1,157 @@
+{{Wort der Woche|35|2009}}
+== Staat ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Staat
+|Nominativ Plural=die Staaten
+|Nominativ Plural 2=die Stäte
+|Nominativ Plural 3=die Staat
+|Nominativ Plural 4=die Staate
+|Genitiv Singular=des Staates&lt;br /&gt;des Staats
+|Genitiv Plural=der Staaten
+|Genitiv Plural 2=der Stäte
+|Genitiv Plural 3=der Staat
+|Genitiv Plural 4=der Staate
+|Dativ Singular=dem Staate&lt;br /&gt;dem Staat
+|Dativ Plural=den Staaten
+|Dativ Plural 2=den Stäten
+|Dativ Plural 3=den Staaten
+|Dativ Plural 4=den Staaten
+|Akkusativ Singular=den Staat
+|Akkusativ Plural=die Staaten
+|Akkusativ Plural 2=die Stäte
+|Akkusativ Plural 3=die Staat
+|Akkusativ Plural 4=die Staate
+}}
+
+&lt;gallery perrow=&quot;1&quot; widths=&quot;260&quot; heights=&quot;280&quot; class=&quot;float-right&quot;&gt;
+  Datei:Europe countries map de.png|[2] die ''Staaten'' Europas
+  Datei:Map of USA without state names.svg|[3] die ''Staaten''
+  Datei:Louis XIV of France.jpg|[6] Ludwig XIV. in prächtigem ''Staat''
+&lt;/gallery&gt;
+
+{{Anmerkung|zu alten Pluralformen}}
+:Die starke Form ''Stäte'',&lt;ref&gt;{{Ref-Grimm|Staat|GS37804}}&lt;/ref&gt; die Form ''Staat'' und die bis ins 18. Jahrhundert gebräuchliche Form ''Staate''&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 35&lt;/ref&gt; sind veraltet und heute gänzlich ungebräuchlich.
+
+{{Worttrennung}}
+:Staat, {{Pl.1}} Staa·ten, {{Pl.2}} Stä·te, {{Pl.3}} Staat, {{Pl.4}} Staa·te
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ʃtaːt}}, {{Pl.1}} {{Lautschrift|ˈʃtaːtn̩}}, {{Lautschrift|ˈʃtaːtən}}, {{Pl.2}} {{Lautschrift|ˈʃtɛːtə}}, {{Pl.3}} {{Lautschrift|ʃtaːt}}, {{Pl.4}} {{Lautschrift|ˈʃtaːtə}}
+:{{Hörbeispiele}} {{Audio|De-Staat.OGG‎‎‎|Staat‎}}, {{Pl.1}} {{Audio|De-Staaten.OGG‎|Staaten}}, {{Pl.2}} {{fehlend}}, {{Pl.3}} {{fehlend}}, {{Pl.4}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] Gesamtheit der Einrichtungen, die dazu dienen, das [[Zusammenleben]] der auf einem abgegrenzten [[Territorium]] lebenden [[Mensch]]en mithilfe von [[Gesetzgebung]], [[Rechtsprechung]] und vollziehender [[Gewalt]] dauerhaft sicherzustellen
+:[2] Gebiet, auf dem ein Staat liegt
+:[3] ''{{ugs.}}, nur Plural:'' die [[Vereinigte Staaten von Amerika|Vereinigten Staaten von Amerika]]
+:[4] ''in der [[Schweiz]]:'' ein Kanton
+:[5] ''[[Zoologie]]:'' Insektenstaat
+:[6] ''[[ohne]] [[Plural]]; [[umgangssprachlich]] [[veraltend]]:'' [[festlich]]e Bekleidung
+:[7] ''[[ohne]] [[Plural]]; {{veraltet|:}}'' Gesamtheit der Personen, die das [[Gefolge]] einer höherstehenden Persönlichkeit bilden
+:[8] ''nur in festen Wendungen:'' [[Aufwand]], [[Pracht]], guter [[Eindruck]]
+
+{{Herkunft}}
+:''Staat'' leitet sich über das (nicht sicher belegte) [[mittelhochdeutsch]]e ''stat'' ([[Ausstattung]], rechtlicher [[Zustand]]), das [[mittelniederdeutsch]]e ''stāt'' ([[Lage]], [[Umstand|Umstände]], [[Klasse]], [[Ansehen]], [[Standesvertreter]]) und das ab dem 15. Jahrhundert verbreitete [[frühneuhochdeutsch]]e ''Stat'' ([[Stellung]] in der Gesellschaft, [[Rang]], [[Aufwand]], [[Prunk]]) vom [[lateinisch]]en ''[[status]]'' ab.&lt;ref&gt;{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „Staat“, Seite 1337&lt;/ref&gt; Während der Spätantike bezeichnete man mit ''status'' [[Zustand]], [[Form]] und das Gefüge des Gemeinwesens sowie einen festen, gesicherten und unerschütterlichen Stand.&lt;ref name=&quot;Meyer 230&quot;&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 230&lt;/ref&gt; In dieser Verwendungsweise erforderte ''status'' stets einen Genitiv, um zu bezeichnen, um wessen Zustand oder Stand es ging. Solange dies anhielt, konnte das Wort noch nicht im heutigen Sinne gebraucht werden.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 9&lt;/ref&gt; Im [[Mittelalter]] gab es in sämtlichen germanischen Sprachen keine Bezeichnung, die einen Oberbegriff für [[Königreich]], [[Herzogtum]], [[Republik]] und so weiter darstellte.&lt;ref&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 229&lt;/ref&gt; Man benutzte dann im ausgehenden Mittelalter normalerweise ''[[res publica]], [[civitas]]'' oder ''[[regnum]]''. Mit Ableitungen von ''status'' wurde wie oben erwähnt zu dieser Zeit eher (rechtlicher) [[Stand]] oder [[Verfassung]] bezeichnet&lt;ref name=&quot;Meyer 230&quot;&gt;&lt;/ref&gt; und im 15. Jahrhundert [[Zustand]], [[Lage]], ferner [[Stellung]], [[Rang]], [[Amt]].&lt;ref name=&quot;Meyer 232&quot;&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 232&lt;/ref&gt; Nach Deutschland kam das Lehnwort ''staet'' etwa im 14. Jahrhundert und etablierte sich insbesondere im [[Niederdeutsch]]en, wo es im [[politisch]]-[[rechtlich]]en Kontext in Bezug auf Zustände zwischen zwei Parteien (zum Beispiel eines Vertrages oder Konflikts) bereits als allein stehendes Wort gebraucht wurde.&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 70&lt;/ref&gt; Die Verbindung des lateinischen Wortes mit einem Genitiv hielt allerdings an: „status reipublicae“, „status imperii“ und „status regni“ kamen vor. Folglich bestand noch immer keine Beziehung zum heutigen Anwendungsbereich.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 9f.&lt;/ref&gt; Jedoch veränderte sich allmählich der Bedeutungsaspekt ''Stand'' vom rechtlichen Stand zum gehobenen Stand,&lt;ref name=&quot;Krüger 10&quot;&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 10&lt;/ref&gt; da das Wort in die [[ständisch]]e Sphäre vordrang.&lt;ref name=&quot;Weinacht 234&quot;&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 234&lt;/ref&gt; Umfasst wurde dabei das [[Dekor]] der höhergestellten Gesellschaft, woher die noch heute übliche Wendung ''[[mit etwas keinen Staat machen können]]'' stammt.&lt;ref name=&quot;Krüger 10&quot;&gt;&lt;/ref&gt; Weitere Bedeutungen in diesem Kontext waren ‚[[Aufwendung]]‘ und ‚[[Ausstattung]]‘.&lt;ref name=&quot;Weinacht 234&quot;&gt;&lt;/ref&gt; Das Wort stand bisweilen auch für [[Hofstaat]] oder seltener für [[Regiment]]. Zusätzlich entwickelte sich im 16. Jahrhundert die Bedeutung [[Staatshaushalt]], [[Finanzen]].&lt;ref name=&quot;Meyer 232&quot;&gt;&lt;/ref&gt;&lt;br /&gt; Auch in der [[Neuzeit]] lebten die mittelalterlichen Bedeutungen von ''status'' (Zustand, gehobener Stand und dessen Dekor) fort.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 11&lt;/ref&gt; Ganz allmählich entstand aber auch ein Gebrauch, der der modernen [[Staatlichkeit]] näherkam. Im Altfranzösischen wurde ''l’{{Ü|fr|estat}}'' als ''ars bene regendi multitudinem'' (die [[Kunst]], die Menge gut zu lenken) aufgefasst. Eine andere Beschreibung des ''status'' kennzeichnet ihn als „nichts anderes als einen Teil der öffentlichen [[Sache]], durch den die Verfassung und die öffentliche [[Ordnung]] der gesamten [[Bürgerschaft]] zusammengehalten wird“. Obwohl der Sprachgebrauch noch einige Zeit schwankend blieb, lässt sich zu Beginn des 17. Jahrhunderts bei einigen Autoren bereits nachweisen, dass ''status'' mit der gleichen Bedeutung wie ''res publica'' verwendet wurde.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 12&lt;/ref&gt; Hintergrund für diese Entwicklung dürfte die Herausbildung erster „Staaten“ im heutigen Sinne in [[Oberitalien]] gewesen sein. Diese beruhten auf einer herrschaftlichen Familie, deren treue Anhänger als ''Staat'' bezeichnet wurden. [[w:Niccolò Machiavelli|Niccolò Machiavelli]] benutzte ''lo {{Ü|it|stato}}'' entsprechend in den Bedeutungen ‚[[Anhänger]] eines Partei- oder Cliquenobersten‘, ‚Machtbesitz‘ und ‚[[Inhaberschaft]] der öffentlichen [[Amtsgewalt]]‘.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 13&lt;/ref&gt; Der Prozess der „Verstaatung“ des menschlichen Gemeinwesens, der bei relativ kleinen Gruppen begann, hat sich immer weiter ausgebreitet und schließlich jeden Einzelnen eingeschlossen. Zur Verbreitung des neuen Terminus trug wiederum Macchiavelli mit seiner „Theorie der Staatsräson“ bei, welche sich der ''ratio statūs'' widmete. Hier nun ist ''status'' selbst zum Genitiv geworden und stellt endlich einen konkreten und eigenständigen Inhalt dar.&lt;ref&gt;Herbert Krüger: ''Allgemeine Staatslehre'', 2. Auflage, Stuttgart, Berlin, Köln, Mainz 1966, Seite 14&lt;/ref&gt;&lt;br /&gt;Endgültig zur Entstehung des heutigen Bedeutungsinhalts des Wortes kam es in der Mitte des 17. Jahrhunderts, als der absolute Staat geschaffen wurde und die Macht des Herrschers insbesondere auf der vereinheitlichten Finanzverwaltung, den Regimentern und den obersten Regierungsbehörden beruhte.&lt;ref&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 236&lt;/ref&gt; In der Folge entstand das Bedürfnis, für diese Summierung der Hoheitsrechte und Machtansprüche des Herrschers ein Wort zu haben, woraufhin der Begriff ''Staat'' auf die Bedeutungen [[Staatsgebiet]] und [[Staatsmacht]] als Bestandteile des ''Staates'' ausgeweitet wurde,&lt;ref&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 236f.&lt;/ref&gt; wodurch eine seit dem 17. Jahrhundert bestehende Entwicklung ihren Abschluss fand.&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 237&lt;/ref&gt; Daneben stand ''Staat'' bis in die zweite Hälfte des 18. Jahrhunderts auch noch für die gestuften Lebensverhältnisse in der Ständegesellschaft,&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 236&lt;/ref&gt; woraufhin zu Beginn des 19. Jahrhunderts die gesellschaftliche Komponente des Begriffs in die Wörter ''[[Volk]]'', ''[[Nation]]'' und ''[[Gesellschaft]]'' überging und der ''Staat'' nur noch den [[anstaltlich]]en Aspekt abdeckte.&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 238&lt;/ref&gt;&lt;br /&gt; Im frühen 16. Jahrhundert ging die starke Pluralform des Wortes ''Staat'' verloren. Bis Mitte des 17. Jahrhunderts existierte das Wort als [[Singularetantum]], bevor die neue schwache Pluralform ''Staaten'' unter [[niederländisch]]em Einfluss ab 1650 zunächst in der Bedeutung ''Republik der Vereinigten Niederlande'' beziehungsweise ''Generalstaaten'' aufkam. Jahrzehntelang stand ''Staat'' daraufhin für die Niederlande und für ''res publica''.&lt;ref&gt;Arnold Oskar Meyer: ''Zur Geschichte des Wortes Staat'' in: Die Welt als Geschichte — Eine Zeitschrift für Universalgeschichte, Zehnter Jahrgang, 1950, Seite 233&lt;/ref&gt;&lt;br /&gt; Die Schreibung des Wortes ''Staat'' ist von den Anfängen bis ins 18. Jahrhundert hinein uneinheitlich, sogar regellos, so dass schließlich das Bedürfnis bestand, den Staat hinsichtlich der Schreibweise von ''stat'', einer Vorform von ''[[Statt]]''&lt;ref&gt;{{Lit-Pfeifer: Etymologisches Wörterbuch|A=8}}, „Statt“, Seite 1346 &lt;/ref&gt;, abzugrenzen, was zur Schreibung mit Doppel-A führte, die Zeitgenossen zunächst „exotisch“ vorkam. Diese Schreibweise entsprach indes der aus der Zeit des [[Spätmittelhochdeutsch]]en stammenden Längung des Vokals A, welcher im Ursprungswort ''status'' noch kurz ausgesprochen worden war.&lt;ref&gt;Paul-Ludwig Weinacht: ''Staat — Studien zur Bedeutungsgeschichte des Wortes von den Anfängen bis ins 19. Jahrhundert'', Berlin, 1968, Seite 33&lt;/ref&gt;
+
+{{Synonyme}}
+:[4] [[Kanton]]
+:[7] [[Hofstaat]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Land]], [[Nation]], [[Gemeinwesen]]
+
+{{Unterbegriffe}}
+:[1] [[ABC-Staaten]], [[Agrarstaat]], [[Alpenstaat]], [[Ameisenstaat]], [[Anliegerstaat]], [[Antipodenstaat]], [[Aufnahmestaat]], [[Ausbeuterstaat]], [[Beamtenstaat]], [[Betriebsstättenstaat]], [[Bienenstaat]], [[Binnenstaat]], [[Bundesstaat]], [[Duodezstaat]], [[Einheitsstaat]], [[Einparteienstaat]], [[Einzelstaat]], [[Feudalstaat]], [[Freistaat]], [[Frontstaat]], [[Gesamtstaat]], [[Gläubigerstaat]], [[Gliedstaat]], [[Gottesstaat]], [[Handelsstaat]], [[Industriestaat]], [[Inselstaat]], [[Kastenstaat]], [[Kirchenstaat]], [[Kleinstaat]], [[Kontinentalstaat]], [[Kulturstaat]], [[Küstenstaat]], [[Marionettenstaat]], [[Mehrvölkerstaat]], [[Militärstaat]], [[Mitgliedsstaat]], [[Nachbarstaat]], [[Nachtwächterstaat]], [[Nationalstaat]], [[Obrigkeitsstaat]], [[Partnerstaat]], [[Polizeistaat]], [[Pufferstaat]], [[Randstaat]], [[Rechtsstaat]], [[Satellitenstaat]], [[Schurkenstaat]], [[Schutzstaat]], [[Siegerstaat]], [[Signatarstaat]], [[Sklavenhalterstaat]], [[Sozialstaat]], [[Stadtstaat]], [[Teilstaat]], [[Teilnehmerstaat]], [[Uferstaat]], [[Unterzeichnerstaat]], [[Ursprungsstaat]], [[Vasallenstaat]], [[Vertragsstaat]], [[Vielvölkerstaat]] [[Wohlfahrtsstaat]], [[Zentralstaat]], [[Zwergstaat]]
+:[5] [[Ameisenstaat]], [[Bienenstaat]]
+
+{{Beispiele}}
+:[1] In der Not rufen Banken wieder nach dem ''Staat.''
+:[2] Liechtenstein ist ein sehr kleiner ''Staat.''
+:[3] Meine Schwester Heidelore ist schon vor dreißig Jahren in die ''Staaten'' gezogen.
+:[4] Im ''Staat'' Uri stehen wieder Abstimmungen an.
+:[5] Ich beobachte seit drei Monaten den ''Staat'' der Ameisen am Waldweg.
+:[6] Heimerich betrat den Ballsaal in vollem ''Staat.''
+:[7] Der ''Staat'' des Kaisers konnte in den Räumlichkeiten des Schlosses kaum Platz finden.
+:[8] Mit diesem Kleid kannst du nicht viel ''Staat'' machen.
+
+{{Redewendungen}}
+:[1] [[etwas ist faul im Staate Dänemark]]
+:[6] [[sich in Staat werfen]]
+:[8] [[ein wahrer Staat sein]], [[viel Staat machen]], [[mit jemandem keinen Staat machen können]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[Vater Staat]]
+:[8] [[zum Staat]]
+
+{{Abgeleitete Begriffe}}
+:[1] [[staatenbildend]], [[Staatenbund]], [[Staatenbündnis]], [[Staatengemeinschaft]], [[staatenlos]], [[Staatenloser]], [[Staatensukzession]], [[Staatensystem]], [[Staatenwelt]], [[staatlich]], [[Staatlichkeit]], [[Staatsaffäre]], [[Staatsakt]], [[Staatsaktion]], [[Staatsamt]], [[Staatsangehöriger]], [[Staatsangehörigkeit]], [[Staatsangestellter]], [[Staatsanleihe]], [[Staatsanwalt]], [[Staatsapparat]], [[Staatsarchiv]], [[Staatsaufsicht]], [[Staatsausgabe]], [[Staatsbank]], [[Staatsbankett]], [[Staatsbankrott]], [[Staatsbeamter]], [[Staatsbediensteter]], [[Staatsbesuch]], [[Staatsbürger]], [[Staatsbürgerschaft]], [[Staatschef]], [[Staatsdiener]], [[Staatsdienst]], [[staatseigen]], [[Staatseigentum]], [[Staatsempfang]], [[Staatsexamen]], [[Staatsfeind]], [[Staatsfinanzen]], [[Staatsform]], [[Staatsfrau]], [[Staatsführung]], [[Staatsgast]], [[Staatsgebiet]], [[staatsgefährdend]], [[Staatsgefangener]], [[Staatsgefängnis]], [[Staatsgeheimnis]], [[Staatsgeschäft]], [[Staatsgewalt]], [[Staatsgrenze]], [[Staatsgut]], [[Staatshaushalt]], [[Staatskanzlei]], [[Staatskapitalismus]], [[Staatskarosse]], [[Staatskasse]], [[Staatskirche]], [[Staatskosten]], [[Staatskunst]], [[Staatskrise]], [[Staatskutsche]], [[Staatslehre]], [[Staatsmacht]], [[Staatsmann]], [[Staatsmännin]], [[staatsmännisch]], [[Staatsminister]], [[Staatsnotstand]], [[Staatsoberhaupt]], [[Staatsoper]], [[Staatsorgan]], [[Staatsorganisation]], [[Staatspartei]], [[Staatsphilosoph]], [[Staatspolitik]], [[Staatspolizei]], [[Staatspräsident]], [[Staatspreis]], [[Staatsprüfung]], [[Staatsraison]], [[Staatsrat]], [[Staatsrecht]], [[staatsrechtlich]], [[Staatsregierung]], [[Staatsschatz]], [[Staatsschuld]], [[Staatsschutz]], [[Staatssekretär]], [[Staatssicherheit]], [[Staatssklave]], [[Staatssprache]], [[Staatsstreich]], [[Staatssystem]], [[Staatstheater]], [[Staatstheoretiker]], [[Staatstrauer]], [[Staatsverbrechen]], [[Staatsvermögen]], [[Staatsverschuldung]], [[Staatsvertrag]], [[Staatsverwaltung]], [[Staatsvolk]], [[Staatswappen]], [[Staatswesen]], [[Staatswirtschaft]], [[Staatswissenschaft]], [[Staatswohl]], [[Staatsziel]], [[Staatszweck]], [[verstaatlichen]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [1] {{Ü|ar|ولاية}}, {{Ü|ar|دولة}}
+*{{hy}}: [1] {{Ü|hy|պետություն}} &lt;small&gt;petutjun&lt;/small&gt;
+*{{eu}}: [1] {{Ü|eu|estatu}}
+*{{bg}}: [1] {{Ü|bg|държава}}
+*{{en}}: [1] {{Ü|en|state}}
+*{{eo}}: [1] {{Ü|eo|lando}}, {{Ü|eo|parado}}, {{Ü|eo|regno}}, {{Ü|eo|ŝtato}}
+*{{et}}: [1] {{Ü|et|riik}}
+*{{fi}}: [1] {{Ü|fi|valtio}}
+*{{fr}}: [1–2, 4] {{Ü|fr|État}} {{m}}, [3] {{Ü|fr|USA}} {{mPl.}}, [4] {{Ü|fr|canton}} {{m}}, [6] {{Ü|fr|tenue}} {{f}}, {{Ü|fr|toilette}} {{f}}, [7] {{Ü|fr|suite}} {{f}}, [8] {{Ü|fr|impression}} {{f}}
+*{{ka}}: [1] {{Üxx|ka|sakhelmtsipho|სახელმწიფო}}
+*{{it}}: [1] {{Ü|it|stato}}
+*{{ja}}: [1] {{Üxx|ja|こっか, kokka|国家}}
+*{{ca}}: [1, 2] {{Ü|ca|estat}} {{m}}, {{Ü|ca|país}} {{m}}
+*{{ku}}: [1] {{Ü|ku|dewlet}}, [2] {{Ü|ku|welat}}
+{{Ü-Abstand}}
+*{{la}}: [1] {{Ü|la|res publica}} {{f}}
+*{{lt}}: [1] {{Ü|lt|valstybė}}
+*{{nl}}: [1] {{Ü|nl|staat}}
+*{{no}}: [1] {{Ü|no|stat}} {{m}}
+*{{oc}}: [1, 2] {{Ü|oc|estat}} {{m}}
+*{{pl}}: [1, 2] {{Ü|pl|państwo}} {{n}} [3] {{Ü|pl|Stany}} ''Pl.'', {{Ü|pl|Stany Zjednoczone}} ''Pl.'' [4] {{Ü|pl|kanton}} {{m}}, [5] {{Ü|pl|społeczeństwo}} {{n}}, ''Bienen, Wespen, Hummeln:'' {{Ü|pl|rój}} {{m}}, [7] {{Ü|pl|dwór}} {{m}}
+*{{pt}}: [1] {{Ü|pt|estado}}
+*{{rm}}: [1] {{Ü|rm|stadi}}
+*{{ro}}: [1] {{Ü|ro|stat}}
+*{{ru}}: [1] {{Üxx|ru|gosudarstwo|государство}}  {{n}}
+*{{sv}}: [1] {{Ü|sv|stat}} {{n}}
+*{{es}}: [1] {{Ü|es|estado}} {{m}}
+*{{cs}}: [1, 2] {{Ü|cs|stát}} {{m}}, [3] {{Ü|cs|Spojené státy}}
+*{{tr}}: [1] {{Ü|tr|devlet}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Staat}}
+:[1] {{Ref-Grimm|Staat|GS37804}}
+:[1] {{Ref-DWDS|Staat}}
+:[1] {{Ref-Canoo|Staat}}
+:[1] {{Ref-UniLeipzig|Staat}}
+:[1–8] {{Lit-Duden: Universalwörterbuch|A=4}}, „Staat“, Seite 1497f.
+
+{{Referenzen prüfen|Deutsch}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Saat]], [[Stadt]], [[Start]], [[statt]]
+
+[[cs:Staat]]
+[[en:Staat]]
+[[et:Staat]]
+[[fi:Staat]]
+[[fr:Staat]]
+[[hu:Staat]]
+[[io:Staat]]
+[[ko:Staat]]
+[[ku:Staat]]
+[[lo:Staat]]
+[[lt:Staat]]
+[[mg:Staat]]
+[[no:Staat]]
+[[pl:Staat]]
+[[pt:Staat]]
+[[ru:Staat]]
+[[sv:Staat]]
+[[tr:Staat]]
+[[uk:Staat]]
+[[zh:Staat]]

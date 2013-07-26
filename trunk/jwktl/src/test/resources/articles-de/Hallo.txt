@@ -1,0 +1,70 @@
+{{Siehe auch|[[hallo]]}}
+== Hallo ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=das Hallo
+|Nominativ Plural=die Hallos
+|Genitiv Singular=des Hallos
+|Genitiv Plural=der Hallos
+|Dativ Singular=dem Hallo
+|Dativ Plural=den Hallos
+|Akkusativ Singular=das Hallo
+|Akkusativ Plural=die Hallos
+}}
+
+{{Worttrennung}}
+:Hal·lo, {{Pl.}} Hal·los
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|haˈloː}}, {{Pl.}} {{Lautschrift|haˈloːs}}
+:{{Hörbeispiele}} {{Audio|De-Hallo.ogg|Hallo}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] {{ugs.|:}} große, auf eine Person gerichtete [[Aufmerksamkeit]]
+
+{{Herkunft}}
+:Substantivierung des Grußworts [[hallo]]
+
+{{Synonyme}}
+:[1] [[Hallihallo]], [[Trubel]], [[Jubel]], [[Aufstand]], [[Heiterkeit]]
+
+{{Beispiele}}
+:[1] Als er die Treppe hinaufkam, wurde er mit großem ''Hallo'' empfangen.
+
+{{Charakteristische Wortkombinationen}}
+:[1] großes ''Hallo''
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|uproar}}
+*{{fr}}: [1] {{Ü|fr|animaton}}
+{{Ü-Abstand}}
+*{{pt}}: [1] {{Ü|pt|olá}}
+*{{sv}}: [1] {{Ü|sv|hallå}}, {{Ü|sv|ståhej}}
+*{{es}}: [1] {{Ü|es|barullo}} {{m}}, {{Ü|es|jaleo}} {{m}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+*Süddeutsch: Grüß´ Gott oder Servus
+|
+*Schwäbisch: Hallöle (langes ö)
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Hallo}}
+:[1] {{Ref-DWDS|Hallo}}
+:[*] {{Ref-Canoo|Hallo}}
+:[1] {{Ref-UniLeipzig|Hallo}}
+:[1] {{Ref-FreeDictionary|Hallo}}
+
+{{Ähnlichkeiten}}
+:[[Hall]], [[Halle]], [[halle]], [[Halo]], [[holla]], [[Holle]]
+
+[[fr:Hallo]]
+[[hu:Hallo]]
+[[io:Hallo]]
+[[it:Hallo]]
+[[mg:Hallo]]
+[[ru:Hallo]]
+[[zh:Hallo]]

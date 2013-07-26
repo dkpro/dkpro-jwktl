@@ -1,0 +1,264 @@
+{{wikipedia}}
+==English==
+[[Image:ORŁ 0033 ubt.JPEG|thumb|250px|A '''boat''' kept on land]]
+
+===Etymology===
+From {{etyl|enm}} {{term|boot|lang=enm}}, {{term|bot|lang=enm}}, {{term|boet|lang=enm}}, {{term|boyt||boatlang=enm}} < {{etyl|ang}} {{term|bat|bāt|boat|lang=ang}} < {{proto|Germanic|baitaz||baitan|boat, small ship|lang=en}} < {{proto|Indo-European|bheid-|to break, split|lang=en}}. Cognate with {{etyl|non|-}} {{term|beit||boat|lang=non}}.
+
+{{etyl|non|-}} {{term|bátr|bātr|lang=non}} (whence {{etyl|is|-}} {{term|bátur|lang=is}}, {{etyl|no|-}} {{term|båt|lang=no}}),  {{etyl|nl|-}} {{term|boot|lang=nl}}, {{etyl|de|-}} {{term|Boot|lang=de}}, and {{etyl|fr|-}} {{term|bateau|lang=fr}} are all ultimately borrowings from the {{ang}} word.
+
+===Pronunciation===
+* {{a|RP}} {{enPR|bōt}}, {{IPA|/bəʊt/}}, {{SAMPA|/b@Ut/}}
+*: {{rhymes|əʊt}}
+* {{a|GenAm}} {{enPR|bōt}}, {{IPA|/boʊt/}}, {{SAMPA|/boUt/}}
+*: {{rhymes|oʊt}}
+*: {{audio|en-us-boat.ogg|Audio (US)}}
+
+===Noun===
+{{en-noun}}
+
+# A [[craft]] used for [[transportation]] of goods, fishing, racing, recreational cruising, or military use on or in the [[water]], [[propelled]] by [[oar]]s or [[outboard motor]] or inboard [[motor]] or by [[wind]].
+# {{context|poker slang}} A [[full house]].
+# {{chemistry}} One of two possible [[conformer]]s of [[cyclohexane]] rings (the other being [[chair]]), shaped roughly like a boat.
+
+====Synonyms====
+* {{sense|A craft on or in water}} [[craft]], [[ship]], [[vessel]]
+
+====Hyponyms====
+* {{sense|A craft on or in water}} [[ark]], [[bangca]], [[barge]], [[canoe]], [[catamaran]], [[caravel]], [[carrack]], [[coracle]], [[cruiser]], [[cutter]], [[dhow]], [[dinghy]], [[dory]], [[dragon boat]], [[Dutch barge]], [[East Indiaman]], [[felucca]], [[ferry]], [[ferryboat]], [[fishing boat]], [[flatboat]], [[folding boat]], [[galley]], [[galleon]], [[gig]], [[go-fast boat]], [[gondola]], [[guardboat]], [[gunboat]], [[houseboat]], [[hovercraft]], [[hydrofoil]], [[hydroplane]], [[iceboat]], [[inflatable boat]], [[inflatable raft]], [[jetboat]], [[jetski]], [[junk]], [[caïque|caik/kaiki]]/[[kayık]], [[kayak]], [[keelboat]], [[ketch]], [[lifeboat]], [[log boat]], [[longboat]], [[luxemotor]], [[mackinaw boat]], [[mailboat]], [[motorboat]], [[motorsailer]], [[narrowboat]], [[Norfolk wherry]], [[outrigger canoe]], [[paddleboat]], [[peniche]], [[pinnace]], [[policeboat]], [[powerboat]], [[raft]], [[rigid-hulled inflatable boat]] ([[RIB]]), [[riverboat]], [[rowboat]], [[sailboat]], [[schooner]], [[scow]], [[seaboat]], [[sealship]], [[Seiner]], [[ship of the line]], [[skiff]], [[sloop]], [[steamboat]], [[submarine]], [[surfboat]], [[swan boat]], [[tender]], [[tjalk]], [[trawler]], [[trireme]], [[trimaran]], [[troller]], [[tug]], [[tugboat]], [[U-boat]], [[wangkang]], [[water taxi]], [[whaleboat]], [[yacht]], [[yawl]]
+
+====Derived terms====
+{{top3}}
+* [[boatable]]
+* [[boatage]]
+* [[boatbill]]
+* [[boatbuilder]]
+* [[boatel]], [[botel]]
+* [[boater]]
+* [[boatful]]
+* [[boathook]]
+* [[boathouse]]
+* [[boatie]]
+* [[boating]]<!--noun and adjective-->
+{{mid3}}
+* [[boatless]]
+* [[boatlift]]
+* [[boatload]]
+* [[boatman]], [[boatsman]]
+* [[boatmanship]], [[boatsmanship]]
+* [[boatneck]]
+* [[boatslip]]
+* [[boatswain]]
+* [[boatswainbird]]
+* [[boattail]]
+* [[boatwoman]]
+{{mid3}}
+* [[boatwright]]
+* [[boatyard]]
+* [[burn one's boats]]
+* [[gravy boat]]
+* [[houseboat]]
+* [[in the same boat]]
+* [[miss the boat]]
+* [[push the boat out]]
+* [[rock the boat]]
+* [[speedboat]]
+{{bottom}}
+
+====Translations====
+{{trans-top|water craft}}
+* [[Afrikaans]]: {{t-|af|boot|xs=Afrikaans}}
+* Albanian: {{t-|sq|varkë|f|xs=Albanian}}
+* [[Aleut]]: [[ayxaasix]]
+* [[Ancient Greek]]: [[ναύς]]
+* Arabic: {{t|ar|قارب|m|tr=qaarib|sc=Arab}}
+*: Morocco: {{tø|arexpectedy|فلوكة|tr=felūka|sc=Arab}}
+* Armenian: {{t-|hy|նավակ|tr=navak}}
+* Bengali: {{t|bn|নৌকা|tr=nouka|sc=Beng}}
+* Bosnian: {{t-|bs|čamac|m}}
+* [[Breton]]: [[bag#Breton|bag]] {{f}}, bigi / bagoù {{p}}
+* Bulgarian: {{t+|bg|лодка|f|tr=lódka}}
+* [[Catalan]]: [[vaixell]] {{n}}
+* [[Chamicuro]]: {{tø|ccc|wapori}}
+* Chinese:
+*: Mandarin: {{t|zh|船|tr=chuán|sc=Hani}}, {{t|zh|小船|tr=xiǎochuán|sc=Hani}}, {{t|zh|舟|tr=zhōu|sc=Hani}}
+* [[Coptic]]: {{tø|cop|ϫⲟⲓ|tr=ǧoi|sc=Copt}}
+* Croatian: {{t+|hr|čamac|m}}, {{t-|hr|brodica|f}}
+* Czech: {{t+|cs|loď|f}}, {{t-|cs|člun|m}}
+* Danish: {{t|da|båd|c}}; {{t|da|skib|n}}
+* Dutch: {{t+|nl|boot|m}}, {{t+|nl|schip|n}}
+* [[Egyptian]]: {{tø|egy|dpt|sc=Egyp}}
+*: <hiero>d:p*t-P1</hiero>
+* [[Erzya]]: [[венч]] (vench)
+* Esperanto: {{t|eo|boato}}
+* Estonian: [[paat]]
+* Finnish: {{t+|fi|vene}}
+* French: {{t+|fr|bateau|m}} <!--this does not take a circumflex-->
+* Georgian: {{t-|ka|ნავი|tr=navi|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Boot|n}}, {{t+|de|Schiff|n}}
+* Greek: {{t+|el|βάρκα|f}}, {{t+|el|λέμβος|f}}, {{t+|el|καΐκι|n}}
+* Hebrew: {{t|he|סירה|f|tr=sirá|sc=Hebr}}
+* Hindi: {{t|hi|कश्ती|f|tr=kaśtī|sc=Deva}}, {{qualifier|larger}} {{t|hi|नाव|f|tr=nāv|sc=Deva}}
+* Hungarian: {{t+|hu|csónak}}
+* Icelandic: {{t+|is|bátur|m}}
+* [[Ido]]: [[batelo]]
+* [[Inari Sami]]: [[käärbis]]
+* Indonesian: {{t+|id|perahu|xs=Indonesian}}
+* Irish: {{t+|ga|bád|m|xs=Irish}}
+* Italian: {{t+|it|barca|f}}, {{t+|it|nave|f}}, {{t+|it|battello|m}}
+* Japanese: {{t|ja|舟|tr=[[ふね]], fúne|sc=Jpan}}, {{t|ja|ボート|tr=bōto|sc=Jpan}}
+* Kazakh: {{t|kk|қайық|tr=qayıq|sc=Cyrl|xs=Kazakh}}
+* Korean: {{t|ko|배|tr=bae|sc=Kore}}
+{{trans-mid}}
+* Kurdish: {{ku-Arab|[[پاپۆڕ]]}}
+* [[Lao]]: {{t|lo|ເຮືອ|tr=hyya|sc=Laoo}}
+* Latin: {{t+|la|navis|f}}
+* Latvian: {{t-|lv|laiva|f|xs=Latvian}}
+* Lithuanian: {{t|lt|valtis|f|xs=Lithuanian}}
+* [[Macedonian]]: {{t|mk|чамец|m|tr=čámec}},  {{t|mk|кајче|n|tr=kájče}}
+* [[Malayalam]]: [[വഞ്ചി]] (vanchi), [[വള്ളം]] (vallam)
+* [[Mandinka]]: {{tø|mnk|kuluŋo|xs=Mandinka}}
+* Maori: {{t-|mi|waka|xs=Maori}}
+* Navajo: {{tø|nv|tsin naaʼeeł}}
+* [[North Frisian]]: {{tø|frr|böötj }}
+* [[Northern Sami]]: [[fanas]]
+* Norwegian: {{t+|no|båt|m}}
+* [[Old English]]: {{t-|ang|bat|m|alt=bāt|xs=Old English}}, {{t+|ang|scip|n|xs=Old English}}, {{t-|ang|naca|m|xs=Old English}}
+* Persian: {{t|fa|قایق|tr=qayeq|sc=fa-Arab}}, {{t|fa|کشتی|tr=kašti|sc=fa-Arab}}
+* Polish: {{t+|pl|łódź|m}}, {{t+|pl|łódka|f}}
+* Portuguese: {{t+|pt|barco|m}}
+* Romanian: {{t+|ro|barcă|f}}, {{t-|ro|luntre|f}}
+* [[Romansch]]: {{t|rm|bartga|f}}
+* Russian: {{t+|ru|лодка|f|tr=lódka}}, {{t|ru|шлюпка|f|tr=šljúpka|sc=Cyrl}}, {{qualifier|large}} {{t|ru|корабль|m|tr=korábl’|sc=Cyrl}}
+* [[Scottish Gaelic]]: [[bàta]] {{m}}/{{f}}
+* Serbian:
+*: Cyrillic: [[чамац#Serbian|чамац]] {{m}}, [[чун]] {{m}}
+*: Roman: [[čamac#Serbian|čamac]] {{m}}, [[čun]] {{m}}
+* Slovak: {{t-|sk|čln}}
+* Slovene: {{t+|sl|čoln|m}}, {{t-|sl|barka|f}}
+* [[Sotho]]: {{t|st|seketswana|xs=Sotho}}
+* Spanish: {{t+|es|barca|f}}, {{t+|es|bote|m}}, {{t+|es|barco|m}}
+* Swedish: {{t+|sv|båt|c}}
+* [[Tamil]]: [[நவாடா]] (nvāṭā), [[படகு]] (pṭku)
+* [[Taos]]: [[łòthə́na]]
+* [[Telugu]]: [[పడవ]] (paDava), [[నావ]] (naava)
+* Thai: {{t|th|เรือ|tr=reua|sc=Thai}}
+* Turkish: {{t+|tr|kayık}}, {{t+|tr|sandal}}
+* Ukrainian: [[човен]] (čóven) {{m}}
+* Urdu: {{t|ur|کشتی|f|tr=kaśtī|sc=ur-Arab}}, {{t|ur|ناو|f|tr=nāv|sc=ur-Arab}}
+* [[Uyghur]]: {{t|ug|قېيىق|sc=ug-Arab}}
+* Welsh: [[cwch]], [[bad]] {{m}}
+* [[West Frisian]]: {{t+|fy|boat|c|xs=West Frisian}}
+* Yiddish: [[שיף]] (shif)
+{{trans-bottom}}
+
+====See also====
+* [[:Category:Watercraft]]
+
+====References====
+* Weisenberg, Michael (2000) ''[http://www.poker1.com/mcu/pokerdictionary/mculib_dictionary_info.asp The Official Dictionary of Poker].''  MGI/Mike Caro University.  ISBN 978-1880069523
+
+===Verb===
+{{en-verb}}
+
+# To travel by boat.
+
+====Translations====
+{{trans-top|travel by boat}}
+* Icelandic: {{t|is|fara á báti}}, {{t|is|flytja á báti}}
+{{trans-mid}}
+{{trans-bottom}}
+
+===Statistics===
+* {{rank|due|Henry|society|797|boat|heaven|v.|difficult}}
+
+===Anagrams===
+* {{alphagram|abot}}
+* [[Tabo#English|Tabo]]
+
+[[Category:1000 English basic words]]
+[[Category:Poker]]
+[[Category:Watercraft]]
+
+----
+
+==Finnish==
+
+===Noun===
+'''boat'''
+
+# {{plural of|[[boa]]|lang=fi}}
+
+===Anagrams===
+* [[abot#Finnish|abot]]
+
+----
+
+==Latin==
+
+===Verb===
+{{la-verb-form|boat}}
+
+# {{conjugation of|boo|boō|3|s|pres|act|ind|lang=la}}
+
+----
+
+==West Frisian==
+
+===Pronunciation===
+
+* {{IPA|/boət/|lang=fy}}
+
+===Noun===
+{{infl|fy|noun|g=n}} ({{p}} '''boaten''')
+
+# '''boat'''
+
+[[ang:boat]]
+[[ar:boat]]
+[[zh-min-nan:boat]]
+[[ca:boat]]
+[[cs:boat]]
+[[cy:boat]]
+[[da:boat]]
+[[de:boat]]
+[[et:boat]]
+[[el:boat]]
+[[es:boat]]
+[[fa:boat]]
+[[fr:boat]]
+[[fy:boat]]
+[[gv:boat]]
+[[gl:boat]]
+[[ko:boat]]
+[[hy:boat]]
+[[io:boat]]
+[[id:boat]]
+[[it:boat]]
+[[kn:boat]]
+[[kk:boat]]
+[[ku:boat]]
+[[lo:boat]]
+[[li:boat]]
+[[hu:boat]]
+[[mg:boat]]
+[[ml:boat]]
+[[my:boat]]
+[[nl:boat]]
+[[ja:boat]]
+[[oc:boat]]
+[[pl:boat]]
+[[pt:boat]]
+[[ro:boat]]
+[[ru:boat]]
+[[simple:boat]]
+[[fi:boat]]
+[[sv:boat]]
+[[ta:boat]]
+[[te:boat]]
+[[th:boat]]
+[[tr:boat]]
+[[uk:boat]]
+[[vi:boat]]
+[[vo:boat]]
+[[zh:boat]]
