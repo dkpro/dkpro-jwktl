@@ -1,0 +1,156 @@
+== Kiefer ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+{{Substantiv-Tabelle
+|Bild=Pinus syluestriformis (Takenouchi)T.Wang ex Cheng.JPG|250|1|Kiefern
+|Wer oder was? (Einzahl)=die Kiefer
+|Wer oder was? (Mehrzahl)=die Kiefern
+|Wessen? (Einzahl)=der Kiefer
+|Wessen? (Mehrzahl)=der Kiefern
+|Wem? (Einzahl)=der Kiefer
+|Wem? (Mehrzahl)=den Kiefern
+|Wen? (Einzahl)=die Kiefer
+|Wen? (Mehrzahl)=die Kiefern
+}}<!-- /Flexionstabelle
+/-->
+
+{{Silbentrennung}} 
+:Kie·fer, {{Pl.}} Kie·fern 
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|'kiːfɐ}}, {{Pl.}} {{Lautschrift|'kiːfɐn}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] [[Nadelbaum]] der Gattung ''Pinus'' (zum Beispiel ''Pinus sylvestris'', Kiefer oder Föhre)
+:[2] [[Holz]] aus Kiefern
+
+{{Abkürzungen}}
+:[[Ki]]
+
+{{Herkunft}}
+:von ''[[Kien]]'' und [[Föhre]]
+
+{{Synonyme}}
+:[1] [[Föhre]]
+ 
+{{Gegenwörter}}
+:[1, 2] [[Fichte]], [[Tanne]], [[Eibe]]
+
+{{Oberbegriffe}}
+:[1] [[Nadelbaum]], [[Baum]]
+:[2] [[Holzart]], [[Holz]]
+
+{{Unterbegriffe}}
+:[1] [[Latsche]] ''(P. mugo)'', [[Pinie]] ([[Schirmkiefer]], ''P. pinea''), [[Schwarzkiefer]] ''(P. nigra)''
+
+{{Beispiele}}
+:[1] 
+
+{{Abgeleitete Begriffe}}
+:[1] [[Kiefernnadel]], [[Kiefernzapfen]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{bg}}: [1] {{Ü|bg|бор}}
+*{{da}}: [1] {{Ü|da|fyr}}
+*{{en}}: [1] {{Ü|en|pine}}
+*{{fo}}: [1] {{Ü|fo|furuviður}}, {{Ü|fo|fura}}
+*{{fi}}: [1] {{Ü|fi|mänty}}
+*{{fr}}: [1] {{Ü|fr|pin}}
+*{{el}}: [1] {{Üxx|el|peúkē, pévki|πεύκη}}
+*{{is}}: [1] {{Ü|is|fura}}
+*{{ja}}: [1] {{Üxx|ja|マツ, matsu|松}}
+*{{ko}}: [1] {{Üxx|ko|sonamu|소나무}}
+{{Ü-Abstand}}
+*{{ca}}: [1] {{Ü|ca|pi roig}} {{m}}, {{Ü|ca|pi rojal}} {{m}}, {{Ü|ca|pi rojalet}} {{m}}
+*{{lv}}: [1] {{Ü|lv|priede}} 
+*{{lt}}: [1] {{Ü|lt|pušis}}
+*{{nl}}: [1] {{Ü|nl|pijn}}
+*{{pl}}: [1, 2] {{Ü|pl|sosna}} {{f}}, [2] {{Ü|pl|sośnina}} {{f}}
+*{{ru}}: [1] {{Üxx|ru|sosná|сосна}}
+*{{sv}}: [1] {{Ü|sv|tall}}
+*{{sl}}: [1] {{Ü|sl|bor}}, {{Ü|sl|borovec}} {{m}}
+*{{es}}: [1, 2] {{Ü|es|pino}} {{m}}
+*{{cs}}: [1] {{Ü|cz|borovice}}
+*{{tr}}: [1] {{Ü|tr|çam}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Kiefer}}
+:[1] {{Ref-Grimm|Kiefer|GK04311}}
+:[1] {{Ref-DWDS|Kiefer}}
+:[1] {{Ref-Canoo|Kiefer}}
+:[1] {{Ref-UniLeipzig|Kiefer}}
+
+{{----}}
+
+=== {{Wortart|Substantiv}}, {{m}} ===
+{{Deutsch Substantiv m stark
+|SINGULAR=Kiefer
+|PLURAL=Kiefer
+|GENITIV-E=0
+}}
+
+{{Silbentrennung}} 
+:Kie·fer, {{Pl.}} Kie·fer
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈkiːfɐ}}, {{Pl.}} {{Lautschrift|ˈkiːfɐ}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] ''[[Anatomie]]:'' zum [[kauen|Kauen]] dienender [[knöchern]]er Teil des [[Gesichtschädel]]s, Träger der [[Zahn|Zähne]]
+
+{{Synonyme}}
+:[1] [[Kieferknochen]]
+
+{{Oberbegriffe}}
+:[1] [[Schädelknochen]], [[Knochen]], [[Körperteil]]
+
+{{Unterbegriffe}}
+:[1] [[Oberkiefer]], [[Unterkiefer]]
+
+{{Beispiele}}
+:[1] Ich bin am ''Kiefer'' operiert worden.
+
+{{Abgeleitete Begriffe}}
+:[[Kieferanomalie]], [[Kieferchirurgie]], [[Kiefergelenk]], [[Kieferhöhle]], [[Kieferklemme]], [[Kieferknochen]], [[Kieferorthopädie]], [[Kieferspalte]], [[Kiefersprerre]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|jaw}}, {{Ü|en|jowl}}
+*{{fr}}: [1] {{Ü|fr|mâchoire}} {{m}}
+*{{ca}}: [1] {{Ü|ca|mandíbula}} {{f}}
+*{{ko}}: [1] {{Üxx|ko|toek|턱}}
+{{Ü-Abstand}}
+*{{pl}}: [1] {{Ü|pl|szczęka}} {{f}}
+*{{ru}}: [1] {{Üxx|ru|tschéljust’|челюсть}} {{f}}
+*{{es}}: [1] {{Ü|es|mandíbula}} {{f}}, {{Ü|es|maxilar}} {{m}}
+*{{tr}}: [1] {{Ü|tr|çene}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] Wikipedia-Artikel „[[w:Kiefer|Kiefer]]“
+:[1] {{Ref-Grimm|Kiefer|GK04309}}
+:[1] {{Ref-DWDS|Kiefer}}
+:[1] {{Ref-Canoo|Kiefer}}
+:[1] {{Ref-UniLeipzig|Kiefer}}
+
+{{2x----}}
+
+{{Ähnlichkeiten}}
+:[[Kiffer]]
+
+[[cs:Kiefer]]
+[[el:Kiefer]]
+[[en:Kiefer]]
+[[fi:Kiefer]]
+[[fr:Kiefer]]
+[[gl:Kiefer]]
+[[hu:Kiefer]]
+[[id:Kiefer]]
+[[pl:Kiefer]]
+[[pt:Kiefer]]
+[[ru:Kiefer]]
+[[sr:Kiefer]]
+[[zh:Kiefer]]

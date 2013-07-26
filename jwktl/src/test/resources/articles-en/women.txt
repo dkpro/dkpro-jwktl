@@ -1,0 +1,166 @@
+==English==
+
+{{rank|speak|land|why|357|women|cried|general|king}}
+
+===Etymology===
+From {{etyl|ang}} {{term|wifmenn|wīfmenn}}, from {{term|wif|wīf|xs=ang}} + {{term|menn||xs=ang}}.
+
+===Pronunciation===
+* {{a|RP}} {{IPA|/ˈwɪmɪn/}}
+* {{a|US}} {{IPA|/ˈwɪmən/}}
+* {{audio|en-uk-women.ogg|Audio (UK)}}
+* {{rhymes|ɪmɪn}}
+* {{hyphenation|wom|en}}
+
+===Noun===
+'''women''' {{p}}
+
+# {{irregular plural of|woman#English|woman}}
+#: ''Three '''women''' went for a walk.''
+
+====Quotations====
+{{seecites}}
+
+====Synonyms====
+* [[females]]
+* [[ladies]]
+
+====Antonyms====
+* [[men]]
+
+====Related terms====
+{{rel-top3|Related terms}}
+* [[womenhood]]
+{{rel-mid3}}
+* [[women's lib|women’s lib]]
+{{rel-mid3}}
+* [[womenfolk]]
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|Plural of woman}}
+* Albanian: {{t-|sq|gra|xs=Albanian}}
+* Arabic: {{t+|ar|نساء|f|p}}
+* [[Aymara]]: [[palla]]
+* Czech: {{t+|cs|ženy}}
+* Danish: {{t-|da|damer}}
+* Dutch: {{t+|nl|vrouwen}}
+* Esperanto: {{t+|eo|virinoj|xs=Esperanto}}
+* Estonian: {{t|et|naised}}
+* Finnish: {{t-|fi|naiset}}
+* French: {{t+|fr|femmes}}
+* German: {{t+|de|Frauen}}
+* [[Gilbertese]]: [[aine]]
+* Greek: {{t|el|γυναίκες|f|p|tr=gynaíkes}}
+* [[Greenlandic]]: {{t-|kl|arnat|xs=Greenlandic}}
+* Hebrew: {{t-|he|נשים}}
+* Hungarian: {{t+|hu|nők}}
+* Icelandic: {{t-|is|konur}}
+* Indonesian: {{t+|id|wanita|xs=Indonesian}}
+* [[Interlingua]]: [[feminas]]
+* [[Inuktitut]]: [[ᐊᕐᓀᑦ]]
+* Irish: {{t+|ga|mná|xs=Irish}}
+{{trans-mid}}
+* Italian: {{t+|it|donne}}
+* Latin: {{t-|la|feminae}}
+* Latvian: {{t-|lv|damas|xs=Latvian}}
+* [[Malagasy]]: [[vehivavy]]
+* Maltese: {{t-|mt|mara|xs=Maltese}}
+* [[Ngarrindjeri]]: {{tø|nay|miminar}}
+* Norwegian: {{t|no|kvinner}}
+* [[Novial]]: [[femas]]
+* Polish: {{t|pl|kobiety}}
+* Portuguese: {{t+|pt|mulheres}}
+* [[Quechua]]: [[warmi]]
+* Romanian: [[femei]], {{f|p}}, [[doamne]] {{f|p}}
+* Russian: {{t-|ru|женщины|tr=žénščiny}}
+* Serbian: {{t|sr|женe|tr=žene|sc=Cyrl}}
+* Slovak: {{t-|sk|ženy}}
+* Spanish: {{t-|es|mujeres}}
+* Swahili: {{t+|sw|wanawake|xs=Swahili}}
+* Swedish: {{t+|sv|kvinnor}}
+* [[Tswana]]: basadi
+* Turkish: {{t-|tr|bayanlar}},  {{t-|tr|kadınlar}}
+* Welsh: {{t|cy|menywod|f|p|xs=Welsh}}
+{{trans-bottom}}
+
+[[Category:English plurals ending in &quot;-en&quot;]]
+
+----
+
+==Mandarin==
+{{zh-forms|[[我们]]|[[我們]]}}
+
+===Etymology===
+{{suffix|lang=cmn|wo|men}}
+
+===Pronunciation===
+* {{audio|zh-wǒmen.ogg|audio}}
+* {{IPA|[ wo˨˩mən ]|lang=cmn}}
+
+===Pronoun===
+{{cmn-pronoun|p|pin=[[wǒmen]] / [[wo3men5]] / [[women]]|pint=wo3men5|tra=我們|sim=我们}}
+
+# {{Beginning Mandarin|lang=zh-cn|skey=wo3men}} [[we]]; [[us]]
+#* [[women]] [[shi]] [[pengyou]]''.
+#: '''We''' are friends.
+#* [[women]] [[xuexiao]] [[de]] [[jianshenfang]] [[you]] [[hen]] [[duo]] [[tiyu]] [[qixie]].
+#: There are many items of sports apparatus in the gymnasium of '''our''' school.
+#* [[suiran]] [[juli]] [[hen]] [[yuan]], [[danshi]] [[Internet]] [[shi|shǐ]] [[women]] [[kaojin]].
+#: suīrán jùlí hěn yuǎn, dànshì Internet shǐ wǒmen kàojìn.
+#: 虽然距离很远, 但是Internet使我们靠近.
+#: '''We''' are close with each other through the Internet, though far apart.
+{{rel-top|More example sentences (we; us)}}
+#* [[women]] [[shangliang]][[le]] [[xujiu]].
+#: '''We''' talked it over for a long time.
+#* [[women]] [[fandui]] [[zhege]] [[jihua]].
+#: '''We''' oppose the plan.
+#* [[tongshi]], [[women]] [[xuyao]] [[xiyin]] [[touzizhe]].
+#: Meanwhile, '''we''' needed to attract investors.
+#* [[ta]] [[shi]] [[women]] [[gongsi]] [[bumen]] [[de]] [[zhuren|zhǔrèn]].
+#: she/he is the supervisor of a department of '''our''' company.
+#* [[women]] [[jihua]] [[zai]] [[bujiu]] [[de]] [[jianglai]] [[jiehun]].
+#: '''we''' plan on getting married in the near future.
+{{rel-bottom}}
+
+====Derived terms====
+* [[women de]]
+* [[womenziji]]
+
+===See also===
+* (''Min Nan'') [[阮]] ([[gún]] or [[góan]]) (we: not including you)
+* (''Min Nan'') [[咱]] ([[lán]]) (we: including you)
+
+[[Category:Mandarin entries with audio links|wo3men]]
+[[Category:zh-cn:Beginning Mandarin|wo3men]]
+
+[[af:women]]
+[[de:women]]
+[[es:women]]
+[[fa:women]]
+[[fr:women]]
+[[fy:women]]
+[[ko:women]]
+[[io:women]]
+[[id:women]]
+[[it:women]]
+[[kk:women]]
+[[sw:women]]
+[[ku:women]]
+[[hu:women]]
+[[ml:women]]
+[[nl:women]]
+[[ja:women]]
+[[no:women]]
+[[oc:women]]
+[[pl:women]]
+[[pt:women]]
+[[ru:women]]
+[[simple:women]]
+[[fi:women]]
+[[sv:women]]
+[[ta:women]]
+[[te:women]]
+[[tr:women]]
+[[vi:women]]
+[[zh:women]]

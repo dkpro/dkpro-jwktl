@@ -1,0 +1,177 @@
+==English==
+{{wikipedia}}
+
+===Etymology===
+Transliteration of {{etyl|de}} {{term|X-Strahl|lang=de}}, coined by [[w:Wilhelm Conrad Röntgen|Wilhelm Conrad Röntgen]] upon his discovery of the rays in 1895, {{term|x}} signifying their [[unknown]] nature.
+
+===Pronunciation===
+* {{audio|en-us-X-ray.ogg|Audio (US)}}
+
+===Noun===
+{{en-noun|sg=[[X]]-[[ray]]}}
+
+# Short [[wavelength]] [[electromagnetic]] [[radiation]] usually produced by [[bombard]]ing a metal target in a vacuum. Used to create [[image]]s of the [[internal]] structure of objects; this is possible because X-rays pass through most objects and can [[expose]] [[photographic]] [[film]].
+#: '''''X-rays''' are light with a wavelength between 0.1 and 10 nm.''
+# A [[radiograph]]: a [[photograph]] made with X-rays.
+#: '' "The doctor ordered some '''X-rays''' of my injured wrist." ''
+# An X-ray [[machine]].
+# The letter ''X'' in the [[ICAO spelling alphabet]].
+
+====Translations====
+{{trans-top|short wavelength electromagnetic radiation}}
+* Arabic: {{t|ar|أشعة إكس|m|p|tr='ashi33at 'eks}},  {{t|ar|أشعة سينية|m|p|tr='ashi33a siniyya}}
+* {{trreq|hy}}
+* [[Catalan]]: {{t|ca|raig X|m}}
+* Chinese:
+*: Mandarin: {{t|cmn|艾克斯射線|sc=Hani}}, {{t|cmn|艾克斯射线|tr=àikèsī-shèxiàn|sc=Hani}}, {{t|cmn|愛克斯射線|sc=Hani}}, {{t|cmn|爱克斯射线|tr=àikèsī-shèxiàn|sc=Hani}}, {{t|cmn|X射線|sc=Hani}}, {{t|cmn|X射线|tr=eks-shèxiàn|sc=Hani}}, {{t-|cmn|X光|tr=eks-guāng|sc=Hani}}
+* Czech: {{t-|cs|rentgen|m}}
+* Danish: {{t-|da|røntgenstråling}}
+* Dutch: [[röntgenstraal]] {{f}}
+* Finnish: {{t-|fi|röntgensäteily}}
+* French: {{t+|fr|rayon X|m}}, {{t|fr|rayon Röntgen|m}}
+* Georgian: {{t|ka|რენტგენის სხივი|tr=rentgenis sxivi|sc=Geor}}
+* German: {{t|de|Röntgenstrahl|m}}
+{{trans-mid}}
+* Greek: {{t|el|ακτίνα Χ|f|tr=aktína CH}}, {{t|el|ακτινοβολία Χ|f|tr=aktinovolía CH}}
+* Hebrew: {{t|he|קרני רנטגן|קַרנֵי רֶנְטְגֶן|f|tr=qārney rentgen}}
+* Hindi: {{t|hi|एक्स-रे|tr=eks-rē|xs=Hindi}}
+* Hungarian: {{t|hu|röntgensugárzás}}
+* Indonesian: {{t|id|ronsen|xs=Indonesian}}, {{t|id|rontgen|xs=Indonesian}}
+* [[Interlingua]]: {{t|ia|rayos röntgen|xs=Interlingua}}
+* Japanese: {{t+|ja|X線|tr=ekkusu-sen}}, {{t+|ja|エックス線|tr=ekkusu-sen}}, {{t|ja|レントゲン|tr=rentogen}}
+* Persian: {{t|fa|پرتوی ایکس|sc=fa-Arab}}
+* {{trreq|ro}}
+* Russian: {{t|ru|рентгеновский луч|m|tr=rentgénovskij luč}}, {{t|ru|рентген|m|tr=rentgén}}
+* Spanish: {{t-|es|rayo X|m}}
+* Swedish: {{t|sv|röntgenstråle|c}}
+* {{trreq|tr}}
+* [[Volapük]]: {{t|vo|räyastrals|xs=Volapük}}
+{{trans-bottom}}
+
+{{trans-top|photograph made with X-rays}}
+* [[Catalan]]: {{t-|ca|radiografia|f}}
+* Chinese:
+*: Mandarin: {{t|cmn|X光照片|tr=eks-guāngzhàopiàn|sc=Hani}}
+* Czech: {{t-|cs|RTG|n}}
+* Danish: {{t-|da|røntgenbillede|n}}
+* Dutch: {{t+|nl|röntgenfoto|f}}
+* Finnish: {{t-|fi|röntgenkuva}}
+* French: {{t+|fr|radiographie|f}}
+* Georgian: {{t|ka|რენტგენოგრამა|tr=rentgenograma|sc=Geor}}
+* German: {{t|de|Röntgenbild|n}}
+* Greek: {{t|el|ακτινογραφία|f|tr=aktinografía}}
+{{trans-mid}}
+* Hebrew: {{t|he|צילום רנטגן|m|tr=tsilum rentgen}}
+* Hungarian: {{t-|hu|röntgen}}
+* Indonesian: {{t|id|sinar-X|xs=Indonesian}}
+* [[Interlingua]]: {{t|ia|röntgenogramma|xs=Interlingua}}
+* Italian: {{t-|it|radiografia|f}}
+* Japanese: {{t+|ja|レントゲン写真|tr=rentogen-shashin}}
+* Russian: {{t|ru|рентген|m|tr=rentgén}}, {{t|ru|рентгенограмма|f|tr=rentgenográmma}}
+* Spanish: {{t+|es|radiografía|f}}
+* Swedish: {{t|sv|röntgenbild|c}}
+* [[Volapük]]: {{t|vo|räyöf|xs=Volapük}}
+{{trans-bottom}}
+
+{{trans-top|X-ray machine}}
+* Czech: {{t-|cs|rentgen|m}}
+* Dutch: {{t-|nl|röntgenapparaat|n}}
+* Finnish: {{t|fi|röntgenlaite}}
+* German: {{t|de|Röntgenapparat|m}}
+* Greek: {{t|el|ακτινογράφος|m|tr=aktinográfos}}
+* Hebrew: {{t|he|מכונת רנטגן|f|tr=meḥonāt rentgen}}
+* Hungarian: {{t|hu|röntgenberendezés}}
+{{trans-mid}}
+* Japanese: {{t+|ja|レントゲン撮影装置|tr=rentogen-satsueisochi}}, {{t+|ja|エックス線撮影装置|tr=ekkusu-sensatsueisōchi}}
+* Navajo: {{tø|nv|beeʼaghádaʼdildlaadí}}
+* Russian: {{t|ru|рентген|m|tr=rentgén}}
+* Swedish: {{t|sv|röntgenapparat|c}}
+* [[Volapük]]: {{t|vo|räyöm|xs=Volapük}}
+{{trans-bottom}}
+
+{{trans-top|the letter "X" in ICAO spelling alphabet}}
+* Estonian: {{t|et|Iks}}
+{{trans-mid}}
+* Finnish: {{t+|fi|äksä}}
+{{trans-bottom}}
+
+====Synonyms====
+* {{sense|radiation}} [[Röntgen radiation]] / [[Rontgen radiation]] / [[Roentgen radiation]]
+* {{sense|radiation}}  [[Röntgen rays]] / [[Rontgen rays]] / [[Roentgen rays]]
+* {{sense|radiation}}  [[X-ray radiation]]
+
+====Derived terms====
+* [[X-ray astronomy]]
+* [[X-ray crystallography]]
+* [[X-ray diffraction]]
+* [[X-ray fluorescence]]
+* [[X-ray microscope]]
+* [[X-ray spectrometry]]
+* [[X-ray telescope]]
+* [[X-ray tube]]
+* [[soft X-ray]]
+* [[hard X-ray]]
+
+====Related terms====
+* [[T-ray]]
+* [[gamma ray]]
+
+===Verb===
+{{en-verb}}
+
+# {{transitive|informal}} To take a [[radiograph]] of; to obtain an image of using X-ray [[radiation]], ''especially'' for the purpose of [[medical]] [[diagnostic]] [[evaluation]].
+#: ''Of course there was nothing wrong with my left wrist. They '''X-rayed''' the wrong arm!''
+
+====Translations====
+{{trans-top|to take a radiograph of}}
+* Dutch: {{t|nl|doorlichten}}, {{t+|nl|bestralen}}, {{t|nl|röntgenen}}, {{t|nl|met röntgenstralen onderzoeken}}
+* Finnish: {{t|fi|ottaa röntgenkuva}}, {{t|fi|röntgenkuvata}}
+* French: {{t+|fr|radiographier}}, {{t|fr|soumettre à un examen radiographique}}
+* German: {{t+|de|röntgen}}
+* Greek: {{t|el|ακτινοσκοπώ|tr=aktinoskopó}}
+{{trans-mid}}
+* Hungarian: {{t|hu|röntgenez}}
+* Italian: {{t-|it|radiografare}}
+* Japanese: {{t|ja|レントゲンを撮る|tr=rentogen wo toru}}
+* Russian: {{t|ru|просвечивать|tr=prosv'éčivat'}}{{impf}}, {{t|ru|просветить|tr=prosv'etít'}} {{pf.}}
+* Spanish: {{t-|es|radiografiar}}
+{{trans-bottom}}
+
+===Adjective===
+{{en-adj|-}}
+
+# Of or having to do with X-rays.
+#: ''I had to put my bags through an '''X-ray''' scanner at the airport.''
+
+====Translations====
+{{trans-top|of or having to do with X-rays}}
+* Hungarian: {{t-|hu|röntgen}}
+* Italian: {{t-|it|radiografico}}
+{{trans-mid}}
+* Russian: {{t|ru|рентгеновский|tr=r'entg'énovskij}}
+{{trans-bottom}}
+
+===External links===
+* [http://www.onlinetelemedicine.com/html/product/sam_images/X-Ray.jpg A picture of an X-ray photograph.]
+* [http://www.iuk.edu/~koalhe/img/Equipment/xray.jpg A picture of an X-ray machine]
+
+[[Category:Energy]]
+[[Category:Medicine]]
+
+[[ar:X-ray]]
+[[de:X-ray]]
+[[et:X-ray]]
+[[fr:X-ray]]
+[[io:X-ray]]
+[[id:X-ray]]
+[[hu:X-ray]]
+[[ml:X-ray]]
+[[ja:X-ray]]
+[[pl:X-ray]]
+[[pt:X-ray]]
+[[ru:X-ray]]
+[[simple:X-ray]]
+[[fi:X-ray]]
+[[sv:X-ray]]
+[[th:X-ray]]
+[[zh:X-ray]]

@@ -1,0 +1,190 @@
+<!--
+        Copyright 2013
+        Ubiquitous Knowledge Processing (UKP) Lab
+        Technische Universität Darmstadt
+
+        Licensed under the Apache License, Version 2.0 (the "License");
+        you may not use this file except in compliance with the License.
+        You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+        Unless required by applicable law or agreed to in writing, software
+        distributed under the License is distributed on an "AS IS" BASIS,
+        WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+        See the License for the specific language governing permissions and
+        limitations under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>de.tudarmstadt.ukp.jwktl</groupId>
+	<artifactId>jwktl</artifactId>
+	<name>Java-based Wiktionary Library (JWKTL)</name>
+	<version>0.17.1-SNAPSHOT</version>
+	<parent>
+		<artifactId>dkpro-parent-pom</artifactId>
+		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+		<version>4</version>
+	</parent>
+
+	<description>JWKTL (Java Wiktionary Library) is a Java-based API that enables efficient and structured access to the information encoded in the English and the German Wiktionary edition, including sense definitions, part of speech tags, etymology, example sentences, translations, semantic relations and many other lexical information types.</description>
+	<url>https://code.google.com/p/jwktl/</url>
+	<organization>
+		<name>Ubiquitous Knowledge Processing (UKP) Lab</name>
+		<url>http://www.ukp.tu-darmstadt.de/</url>
+	</organization>
+	<developers>
+        <developer>
+            <name>Yevgen Chebotar</name>
+        </developer>
+		<developer>
+			<id>chmeyer.de</id>
+			<name>Christian M. Meyer</name>
+			<email>chmeyer.de@googlemail.com</email>
+		</developer>
+        <developer>
+            <name>Christof Müller</name>
+        </developer>
+        <developer>
+            <name>Lizhen Qu</name>
+        </developer>
+		<developer>
+			<id>torsten.zesch</id>
+			<name>Torsten Zesch</name>
+			<email>torsten.zesch@googlemail.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<developerConnection>scm:svn:https://jwktl.googlecode.com/svn/trunk/jwktl</developerConnection>
+        <connection>scm:svn:https://jwktl.googlecode.com/svn/trunk/jwktl</connection>
+        <url>http://code.google.com/p/jwktl/source/browse/</url>		
+	</scm>
+
+	<build>
+		<filters>
+			<filter>src/main/filter/jwktl-version-filter.properties</filter>
+		</filters>
+		<resources>
+			<resource>
+				<directory>src/main/filter</directory>
+				<filtering>true</filtering>
+				<includes>
+					<include>META-INF/jwktl-version.properties</include>
+				</includes>
+			</resource>
+			<resource>
+				<directory>src/main/resources</directory>
+			</resource>
+		</resources>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-javadoc-plugin</artifactId>
+				<executions>
+					<execution>
+						<id>generate-javadoc</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>javadoc</goal>
+						</goals>
+						<inherited>false</inherited>
+					</execution>
+				</executions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<executions>
+					<execution>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<descriptors>
+						<descriptor>src/main/resources/assemblies/dist.xml</descriptor>
+					</descriptors>
+				</configuration>
+			</plugin>
+		</plugins>
+		<testResources>
+		</testResources>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-webdav</artifactId>
+				<version>1.0-beta-2</version>
+			</extension>
+		</extensions>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.sleepycat</groupId>
+			<artifactId>je</artifactId>
+			<version>5.0.73</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.ant</groupId>
+			<artifactId>ant</artifactId>
+			<version>1.7.1</version>
+		</dependency>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.10</version>
+			<scope>test</scope>
+		</dependency>
+		<dependency>
+			<groupId>xerces</groupId>
+			<artifactId>xercesImpl</artifactId>
+			<version>2.9.1-lucene</version>
+			<type>jar</type>
+			<scope>compile</scope>
+		</dependency>
+	</dependencies>
+
+	<profiles>
+		<profile>
+			<id>rat-check</id>
+			<activation>
+				<file>
+					<exists>src/main/java</exists>
+				</file>
+			</activation>
+			<build>
+				<plugins>
+					<plugin>
+						<groupId>org.apache.rat</groupId>
+						<artifactId>apache-rat-plugin</artifactId>
+						<executions>
+							<execution>
+								<id>default</id>
+								<phase>verify</phase>
+								<goals>
+									<goal>check</goal>
+								</goals>
+								<configuration>
+									<excludes>
+										<!-- maven config files -->
+										<exclude>src/main/filter/**/*</exclude>
+										<!-- release generated artifact -->
+										<exclude>release.properties</exclude>
+										<exclude>CHANGELOG.txt</exclude>
+										<exclude>README.txt</exclude>
+										<exclude>license/**/*</exclude>
+                                        <exclude>src/main/resources/**/*</exclude>
+										<exclude>src/test/resources/**/*</exclude>
+									</excludes>
+								</configuration>
+							</execution>
+						</executions>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

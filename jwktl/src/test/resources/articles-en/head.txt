@@ -1,0 +1,774 @@
+{{also|-head|head-|Head}}
+==English==
+{{wikipedia|dab=Head (disambiguation)|Head}}
+{{rfc|still missing some basic dictionary definitions: see talk page}}
+
+===Etymology===
+{{etyl|enm}} {{term|hed|lang=enm}}, from {{etyl|ang}} {{term|heafod|hēafod}}, from {{proto|Germanic|haubiþan}} (compare Dutch {{term|hoofd}}, German {{term|Haupt}}, Swedish {{term|huvud}}), from {{proto|Indo-European|káput}} 'head' (compare {{etyl|ga|-}} {{term|ceann|lang=ga}}, {{etyl|la|-}} {{term|caput|lang=la}}, Sanskrit ''kabúc''chala 'nape hair, shorthairs'), variant of {{proto|Indo-European|kapōlo}} 'head, bowl' (compare {{etyl|ang|-}} {{term|hafola|lang=ang}} 'head', Sanskrit ''kapāla'' 'cup, bowl, skull').
+
+===Pronunciation===
+* {{enPR|hĕd}}, {{IPA|/hɛd/}}, {{SAMPA|/hEd/}}
+* {{audio|en-us-head.ogg|Audio (US)}}
+* {{audio|En-uk-head.ogg|Audio (UK)}}
+*: {{rhymes|ɛd}}
+
+===Noun===
+{{ picdic
+| image=Human head and brain diagram.svg
+| width=310
+| labels=
+{{ picdiclabel | color=black | fontsize=12 | posx=150 | posy=  3 | link=skull }}
+{{ picdiclabel | color=black | fontsize=18 | posx=170 | posy= 90 | link=brain }}
+{{ picdiclabel | color=black | fontsize=12 | posx= 80 | posy=160 | link=eye | align=left }}
+{{ picdiclabel | color=black | fontsize=12 | posx= 15 | posy=190 | link=nose | align=left }}
+{{ picdiclabel | color=black | fontsize=12 | posx= 50 | posy=230 | link=mouth | align=left }}
+{{ picdiclabel | color=black | fontsize=12 | posx= 35 | posy=285 | link=chin }}
+{{ picdiclabel | color=black | fontsize=12 | posx= 90 | posy=270 | link=jaw }}
+{{ picdiclabel | color=black | fontsize=12 | posx=175 | posy=205 | link=ear | align=right }}
+{{ picdiclabel | color=black | fontsize=12 | posx=120 | posy=140 | link=temple }}
+{{ picdiclabel | color=black | fontsize=12 | posx=185 | posy=290 | link=neck }}
+| detail1=Click on labels in the image
+| detail2=
+{{ picdicimg | image=Human body features-nb.svg | link=body }}
+}}
+{{wikipedia}}
+{{en-noun|s|-}}
+
+# {{countable}} The part of the [[body]] of an animal or human which contains the [[brain]], [[mouth]]{{,}} and main [[sense]] [[organs]].
+#: ''Be careful when you pet that dog on the '''head'''; it may bite.''
+# {{uncountable}} [[mental|Mental]] or [[emotional]] [[aptitude]] or [[skill]].
+#: ''The company is looking for somebody with a good '''head''' for business.''
+#: ''He has no '''head''' for heights.''
+# {{countable}} [[mind|Mind]]; one's own [[thought]]s.
+#: ''This song keeps going through my '''head'''.''
+# {{countable}} The [[topmost]], [[foremost]], or [[leading]] part.
+#: ''What does it say on the '''head''' of the page?''
+# The end of a rectangular [[table]] furthest from the entrance; traditionally considered a seat of honor.
+#: ''During meetings, the supervisor usually sits at the '''head''' of the table.''
+# {{billiards}} The end of a [[pool]] table opposite the end where the balls have been [[rack]]ed.
+# {{countable}} The [[principal]] [[operative]] part of a machine.
+## The end of a [[hammer]], [[axe]], {{soplink|golf|club}}{{,}} or similar [[implement]] used for striking other objects.
+## The end of a [[nail]], [[screw]], [[bolt]]{{,}} or similar [[fastener]] which is opposite the [[point]]; usually [[blunt]] and relatively [[wide]].
+##: ''Hit the nail on the '''head'''!''
+## The [[sharp]] end of an [[arrow]], [[spear]]{{,}} or [[pointer]].
+##: ''The '''head''' of the compass needle is pointing due north.''
+## {{lacrosse}} The top part of a [[lacrosse stick]] that holds the [[ball]].
+# The [[source]] of a [[river]]; the end of a [[lake]] where a river flows into it.
+#: ''The expedition followed the river all the way to the '''head'''.''
+# {{rfc-sense}} The front, as of a [[queue]].
+#: ''Because you got them all right, you can go to the '''head'''.''
+# [[headway|Headway]]; [[progress]].
+#: ''We are having a difficult time making '''head''' against this wind.''
+# The foam that forms on top of [[beer]] or other carbonated [[beverage]]s.
+#: ''Pour me a fresh beer; this one has no '''head'''.''
+# {{countable}} [[leader|Leader]]; [[chief]]; [[mastermind]].
+#: ''I'd like to speak to the '''head''' of the department.''
+#: ''Police arrested the '''head''' of the gang in a raid last night.''
+# A [[headmaster]] or [[headmistress]].
+#: ''I was called into the '''head''''s office to discuss my behaviour.''
+# A [[headache]]; especially one resulting from [[intoxication]].
+#* '''1888''', Rudyard Kipling, ‘Thrown Away’, ''Plain Tales from the Hills'', Folio Society 2005 edition, page 18,
+#*: he took them seriously, too, just as seriously as he took the ‘'''head'''’ that followed after drink.
+# A clump of [[leave]]s or [[flower]]s; a [[capitulum]].
+#: ''Give me a '''head''' of lettuce.''
+# {{anatomy}} The rounded part of a bone fitting into a depression in another bone to form a ball-and-socket [[joint]].
+# An individual [[person]].
+#: ''Admission is three dollars a '''head'''.''
+# {{uncountable|[[w:Measure word|measure word]] for [[livestock]] and [[game]]}} A single [[animal]].
+#: ''200 '''head''' of cattle and 50 '''head''' of horses''
+#: ''12 '''head''' of big cattle and 14 '''head''' of branded calves''
+#: ''At five years of age this '''head''' of cattle is worth perhaps $40''
+#: ''a reduction in the assessment per '''head''' of sheep''
+#: ''they shot 20 '''head''' of quail''
+# The population of [[game]].
+#: ''we have a heavy '''head''' of deer this year''
+#: ''planting the hedges increased the '''head''' of quail and doves''
+# Topic; [[subject]].
+#: ''We will consider performance issues under the '''head''' of future improvements.''
+# {{linguistics}} A [[morpheme]] that determines the category of a [[compound]] or the word that determines the [[syntactic]] type of the [[phrase]] of which it is a member.
+# {{jazz}} The principal [[melody]] or [[theme]] of a piece.
+# {{British|geology}} Deposits near the top of a [[geological]] [[succession]].
+# {{medicine}} The end of an [[abscess]] where [[pus]] collects.
+# {{uncountable}} [[denouement]]; [[crisis]]
+#: ''These isses are going to come to a '''head''' today.''
+# A [[machine]] element which reads or writes [[electromagnetic]] signals to or from a storage medium.
+#: ''The '''heads''' of your tape player need to be cleaned.''
+# {{music}} The [[headstock]] of a [[guitar]].
+# {{music}} A [[drum head]], the [[membrane]] which is hit to produce [[sound]].
+#: ''Tap the '''head''' of the drum for this roll.''
+# {{engineering}} The end cap of a cylindrically-shaped [[pressure vessel]].
+# {{automotive}} The [[cylinder head]], a platform above the [[cylinder]]s in an [[internal combustion engine]], containing the [[valve]]s and [[spark plug]]s.
+# A buildup of [[fluid]] [[pressure]], often quantified as [[pressure head]].
+#: ''Let the engine build up a good '''head''' of steam.''
+# {{fluid dynamics}} The difference in [[elevation]] between two points in a [[column]] of fluid, and the resulting [[pressure]] of the fluid at the lower point.
+# {{fluid dynamics}} More generally, [[energy]] in a mass of fluid divided by its [[weight]].
+# {{nautical}} The [[top]] edge of a [[sail]].
+# {{nautical}} The [[bow]] of a nautical vessel.
+# {{nautical}} The [[toilet]] of a [[ship]].
+#: ''I've got to go to the '''head'''.''
+# {{uncountable|slang}} [[fellatio|Fellatio]] or [[cunnilingus]]; [[oral sex]].
+#: ''She gave great '''head'''.''
+# {{slang}} The [[glans penis]].
+# {{countable|slang}} A heavy or [[habitual]] user of [[illicit]] [[drug]]s.
+#* '''2005''',  Martin Torgoff, ''Can't Find My Way Home'', Simon & Schuster, page 177,
+#*: The hutch now looks like a “Turkish bath,” and the '''heads''' have their arms around one another, passing the pipe and snapping their fingers as they sing Smokey Robinson's “Tracks of My Tears” into the night.
+# {{British}} A [[headland]].
+
+====Quotations====
+* {{seeCites}}
+
+====See also====
+<gallery>
+Image:Human head and brain diagram.svg|The human '''head'''.
+Image:Milk thistle flowerhead.jpg|A flower '''head'''.
+Image:Ikeya-zhang-comet-by-rhemann.png|'''Head''' of a comet.
+Image:MUO GTMO 2003.png|'''Head''' of the line.
+Image:Arrow and spear heads - from-DC1.jpg|Arrow and spear '''heads'''.
+Image:Head of a hammer.jpg|'''Head''' of a hammer.
+Image:Meetpunt.jpg|'''Head''' of a metal spike.
+Image:Hip_replacement_Image_3684-PH.jpg|'''Head''' of the hip bone.
+Image:MV Doulos in Keelung-2.jpg|'''Head''' of a ship.
+Image:Mainsail-edges.png|'''Head''' of a sail.
+Image:Diffuser Head.jpg|'''Head''' of a pressurized cylinder.
+Image:Malossi 70cc Morini cylinder head.jpg|'''Head''' of a two-stroke engine.
+Image:Hydraulic head.PNG|Hydraulic '''head''' between two points.
+Image:Floppy disk drive read-write head.jpg|A read-write '''head'''.
+Image:Fender Telecaster Head.jpg|'''Head''' of a guitar.
+Image:Drumhead.jpg|'''Head''' of a drum.
+Image:Threesome2.jpg|Giving and getting '''head'''.
+</gallery>
+
+====Synonyms====
+* {{sense|part of the body}} [[caput]]; (slang) [[noggin]], {{slang}} [[loaf]], (slang) [[nut]], (slang) [[noodle]], (slang) [[bonce]]
+* {{sense|mental aptitude or talent}} [[mind]]
+* {{sense|mental or emotional control}} [[composure]], [[poise]]
+* {{sense|topmost part of anything}} [[top]]
+* {{sense|leader}} [[boss]], [[chief]], [[leader]]
+* {{sense|headmaster|headmistress}} [[headmaster]] (''male''), [[headmistress]] (''female''), [[principal]] (''US'')
+* {{sense|toilet of a ship}} [[lavatory]], [[toilet]]
+* {{sense|top of a sail}}
+* {{sense|foam on carbonated beverages}}
+* {{sense|fellatio}} [[blowjob]], [[blow job]], [[fellatio]], [[oral sex]]
+* {{sense|end of tool used for striking}}
+* {{sense|blunt end of fastener}}
+* See also [[Wikisaurus:head]]
+
+====Antonyms====
+* {{sense|topmost part of anything}} [[base]], [[bottom]], [[underside]]
+* {{sense|leader}} [[subordinate]], [[underling]]
+* {{sense|blunt end of fastener}} [[point]], [[sharp]] end, [[tip]]
+
+====Usage notes====
+* To {{term|give something its head}} is to allow it to run freely. This is used for horses, and, sometimes, figuratively for vehicles.
+
+====Derived terms====
+{{rel-top3|Terms derived from the noun ''head''}}
+* [[-head]]
+* [[bed head]]
+* [[big head]], [[bighead]]
+* [[by a head]]
+* [[crackhead]] or [[crack head]]
+* [[crosshead]]
+* [[deadhead]]
+* [[deaths-head]]
+* [[death's-head|death’s-head]]
+* [[dickhead]]
+* [[do someone's head in]]
+* [[drum head]]
+* [[dunderhead]]
+* [[get one's head around]]
+* [[give head]]
+* [[go to someone's head]]
+* [[hard head]]
+* [[have a head for]]
+* [[head and shoulders]]
+* [[headache]]
+* [[headbang]]
+* [[head bang]]
+* [[headbanger]]
+* [[headboard]]
+* [[headbutt]]
+* [[headcase]]
+* [[headcase|head case]]
+* [[head cold]]
+{{rel-mid3}}
+* [[headcount]]
+* [[head down, bum up]]
+* [[headdress]]
+* [[header]]
+* [[headfirst]]
+* [[headgear]]
+* [[headhunt]]
+* [[heading]]
+* [[headlight]]
+* [[headless]]
+* [[headlock]]
+* [[headlong]]
+* [[head up]]
+* [[heads up]]
+* [[head off]]
+* [[head over heels]]
+* [[headphone]]
+* [[headpiece]]
+* [[headquarter]]
+* [[headquarters]]
+* [[headrest]]
+* [[headroom]]
+* [[heads]]
+* [[headshunt]]
+* [[headscarf]]
+* [[headstand]]
+{{rel-mid3}}
+* [[head start|headstart]]
+* [[headstone]]
+* [[headstrong]]
+* [[heads will roll]]
+* [[head to head]]
+* [[head to wind]]
+* [[headwear]]
+* [[head wind]]
+* [[hit the head]]
+* [[hold one's head high|hold one’s head high]]
+* [[hophead]]
+* [[keep one's head|keep one’s head]]
+* [[keep one's head above water]]
+* [[level-headed]]
+* [[lose one's head]]
+* [[lose one's head if it wasn't attached]]
+* [[overhead]]
+* [[pinhead]]
+* [[print head]]
+* [[rail head]]
+* [[redhead]]
+* [[shake one's head]]
+* [[showerhead]]
+* [[snap someone's head off]]
+* [[turk's head|turk’s head]]
+* [[turn heads]]
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|part of the body}}
+* [[Afrikaans]]: {{t+|af|kop|xs=Afrikaans}}
+* [[Ainu]]: [[サパ]] (sapa), [[パケ]] (pake)
+* [[Alabama]]: [[isbakko]]
+* Albanian: {{t-|sq|kokë|f|xs=Albanian}}
+* Arabic: {{t|ar|رأس|f|tr=ra’s|sc=Arab}}
+* Armenian: {{t-|hy|գլուխ|tr=glux}}
+* [[Aromanian]]: {{tø|rup|cap}}
+* [[Azeri]]: {{t+|az|baş|xs=Azeri}}
+* [[Bashkir]]: {{tø|ba|баш|tr=baş|sc=Cyrl|xs=Bashkir}}
+* [[Basque]]: [[buru]], [[kasko]],  {{t|eu|gazta|xs=Basque}}
+* Belarusian: {{t-|be|галава|f|tr=halavá|xs=Belarusian}}
+* Bengali: {{t|bn|মাথা|tr=matha|sc=Beng}}
+* Bosnian: {{t-|bs|glava|f}}
+* [[Breton]]: {{t+|br|penn|m|xs=Breton}}, pennoù {{p}}
+* Bulgarian: {{t+|bg|глава|f|tr=glavá}}
+* [[Catalan]]: {{t+|ca|cap|m}}
+* [[Chamicuro]]: {{tø|ccc|kashki}}
+* [[Chechen]]: {{tø|ce|корта|tr=korta|sc=Cyrl}}
+* Cherokee: {{t|chr|ᎠᏍᎪᎵ|tr=asgoli|sc=Cher|xs=Cherokee}}
+* [[Chickasaw]]: [[ishkobo]]
+* Chinese:
+*: Mandarin: {{t|zh|頭|sc=Hani}}, {{t|zh|头|tr=tóu|sc=Hani}}, {{t|zh|頭腦|sc=Hani}}, {{t|zh|头脑|tr=tóunǎo|sc=Hani}}
+* [[Chuvash]]: {{tø|cv|пуҫ|tr=puś|sc=Cyrl}}
+* [[Coptic]]: {{tø|cop|ⲁⲡⲉ|tr=ape|sc=Copt}}
+* [[Corsican]]: {{t+|co|capu|xs=Corsican}}
+* [[Crimean Tatar]]: [[baş#Crimean Tatar|baş]]
+* Croatian: {{t+|hr|glava|f}}
+* Czech: {{t+|cs|hlava|f}}
+* [[Darkinjung]]: {{tø|aus-dar|kamburung}}
+* [[Dolgan]]: {{tø|dlg|бас|tr=bas|sc=Cyrl}}
+* Dutch: {{qualifier|of person or horse}} {{t+|nl|hoofd|n}}, {{qualifier|of an animal}} {{t+|nl|kop|m}}
+* [[Egyptian]]: {{tø|egy|ḏȝḏȝ|alt=ḏḏ|sc=Egyp}}
+*: <hiero>DA-DA-D1-Z1</hiero>
+* Estonian: {{t-|et|pea}}
+* [[Evenki]]: {{tø|evn|дыл|tr=dyl|sc=Cyrl}}
+* [[Ewe]]: {{tø|ee|ta}}
+* Finnish: {{t+|fi|pää}}
+* French: {{t+|fr|tête|f}}
+* [[Gagauz]]: {{tø|gag|baş}}
+* Georgian: {{t-|ka|თავი|tr=t’avi|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Kopf|m}}, {{t+|de|Haupt|n}} {{qualifier|rarely used}}
+* Greek: {{t+|el|κεφάλι|n|tr=kefáli}}, {{t+|el|κεφαλή|f|tr=kefalí}}
+*: [[Ancient Greek]]: {{t|grc|κεφαλή|f|tr=kefáli|sc=polytonic}}
+* [[Guaraní]]: [[akã]]
+* [[Guugu Yimidhirr]]: [[ngaabaay]], [[gambuugu]], [[gudyiir]]
+* [[Haitian Creole]]: {{tø|ht|tèt}}
+* Hawaiian: {{tø|haw|poʻo|xs=Hawaiian}}
+* Hebrew: {{t+|he|ראש|m|tr=rosh}}
+* Hindi: {{t|hi|सिर|m|tr=sir|sc=Deva}}
+* Hungarian: {{t+|hu|fej}}
+* Icelandic: {{t|is|höfuð|n}}, {{qualifier|less formal}} {{t|is|haus|m}}
+* [[Ido]]: [[kapo]]
+* [[Ilocano]]: [[ulo]]
+* Indonesian: {{t+|id|kepala|xs=Indonesian}}, {{t-|id|hulu|xs=Indonesian}}
+* [[Interlingua]]: [[capite]]
+* Irish: {{t-|ga|ceann|m|xs=Irish}}
+* Italian: {{t+|it|testa|f}}, {{t+|it|capo|m}}
+* Japanese: {{t+|ja|頭|tr=[[あたま]], atama}}
+* [[Kalmyk]]: {{tø|xal|толһа|tr=tolgha|sc=Cyrl}}
+* [[Karachay-Balkar]]: {{tø|krc|баш|tr=baş|sc=Cyrl}}
+* [[Kashubian]]: {{t-|csb|głowa|f|xs=Kashubian}}
+* Kazakh: {{t+|kk|бас|tr=bas|sc=Cyrl|xs=Kazakh}}, {{t|kk|кәллә|tr=källä|sc=Cyrl|xs=Kazakh}}
+* [[Khakas]]: {{tø|kjh|пас|tr=pas|sc=Cyrl}}
+* [[Kikuyu]]: {{tø|ki|kyongo}}
+* Korean: {{t|ko|머리|tr=meori|sc=Kore}}
+* [[Koryak]]: {{tø|kpy|лэвʼыт|tr=lewət|sc=Cyrl}}
+* [[Kumyk]]: {{tø|kum|баш|tr=baş|sc=Cyrl}}
+* Kurdish: {{t+|ku|ser}}, {{t-|ku|سه‌ر|sc=ku-Arab}}
+* [[Kyrgyz]]: {{t+|ky|баш|tr=baş|sc=Cyrl|xs=Kyrgyz}}
+* [[Lao]]: {{t-|lo|ຫົວ|tr=hua|sc=Laoo|xs=Lao}}
+* Latin: {{t+|la|caput|n}}
+* Latvian: {{t+|lv|galva|f|xs=Latvian}}
+* Lithuanian: {{t+|lt|galva|f|xs=Lithuanian}}
+* [[Low Saxon]]: [[kopp]]
+* [[Lower Sorbian]]: {{tø|dsb|głowa|f|xs=Lower Sorbian}}
+* [[Luhya]]: {{tø|luy|kumurwe}}
+* [[Luo]]: {{tø|luo|wich|xs=Luo}}
+* [[Macedonian]]: {{t-|mk|глава|f|tr=gláva}}
+* Malay: {{t+|ms|kepala|xs=Malay}}
+* [[Malayalam]]: [[തല]] (thala)
+{{trans-mid}}
+* Maltese: {{t+|mt|ras|xs=Maltese}}
+* [[Mandinka]]: {{tø|mnk|kuŋo|xs=Mandinka}}
+* [[Manx]]: {{t-|gv|kione|m|xs=Manx}}
+* Maori: [[māhunga]], [[māhuna]], [[mātenga]], [[pane]], [[upoko]], [[uru]]
+* [[Mapudungun]]: [[longko]], [[logko]]
+* [[Miyako]]: {{tø|mvi|カナマい|tr=kanamay}}
+* Mongolian: {{t-|mn|толгой|tr=tolgoj|sc=Cyrl|xs=Mongolian}}
+* [[Nahuatl]]: {{t|nah|cuaitl}}
+* [[Nanticoke]]: {{tø|nnt|neelahammon}}
+* Navajo: {{tø|nv|bitsiiʼ}}
+* [[Neapolitan]]: [[capuzzèlla]], [[capucchióne]], [[càpa]] {{f}}
+* [[Nogai]]: {{tø|nog|бас|tr=bas}}
+* Norwegian: {{t+|no|hode|n}}
+* [[Nottoway-Meherrin]]: {{tø|nwy|setarake}}
+* [[Occitan]]: {{t+|oc|cap|m|xs=Occitan}}, {{t+|oc|tèsta|f|xs=Occitan}}
+* [[Ojibwe]]: {{tø|oj|oshtigwaan}}
+* [[Okinawan]]: {{tø|ryu|ちぶる|tr=ciburu}}
+* [[Old Church Slavonic]]:
+*: Cyrillic: {{tø|cu|глава|f|tr=glava|sc=Cyrs|xs=Old Church Slavonic}}
+*: Glagolitic: {{tø|cu|ⰃⰎⰀⰂⰀ|f|tr=glava|sc=Glag|xs=Old Church Slavonic}}
+* [[Old English]]: {{t-|ang|heafod|n|alt=hēafod|xs=Old English}}, {{t-|ang|hafela|m|xs=Old English}}
+* [[Old French]]: {{tø|fro|teste}}, {{tø|fro|chief}}
+* [[Old Irish]]: {{tø|sga|cenn|n}}
+* [[Old Prussian]]: {{tø|prg|gallū|f|xs=Old Prussian}}, {{tø|prg|galwo|f|xs=Old Prussian}}
+* Persian: {{t|fa|سر|tr=sar|alt=سَر|sc=fa-Arab}}, {{t|fa|کله|tr=kalla/kalle|xs=Persian}} (abusive)
+* [[Pitjantjatjara]]: [[kata]]
+* [[Polabian]]: {{tø|pox|glåvă|f|xs=Polabian}}
+* Polish: {{t+|pl|głowa|f}}
+* Portuguese: {{t+|pt|cabeça|f}}
+* [[Powhatan]]: {{tø|pim|mendabuccah}}
+* [[Quechua]]: {{t+|qu|uma|xs=Quechua}}
+* [[Rohingya]]: [[matá]]
+* Romanian: {{t+|ro|cap|m}}
+* [[Russia Buryat]]: {{tø|bxr|толгай|tr=tolgaj|sc=Cyrl}}
+* Russian: {{t+|ru|голова|f|tr=golová}}
+* [[Sardinian]]: [[conca]] {{f}}
+* [[Scots]]: [[heid]], [[pow#Scots|pow]]
+* [[Scottish Gaelic]]: {{t-|gd|ceann|m|xs=Scottish Gaelic}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|глава|f|sc=Cyrl}}
+*: Roman: {{t|sh|glava|f}}
+* [[Shor]]: {{tø|cjs|паш|tr=paş|sc=Cyrl}}, {{tø|cjs|пас|tr=pas|sc=Cyrl}}
+* [[Sicilian]]: {{tø|scn|testa|f}}, {{tø|scn|capa|f}}
+* [[Sinhalese]]: {{t|si|ඔළුව|tr=ollūva|sc=Sinh}}
+* Slovak: {{t-|sk|hlava|f}}
+* Slovene: {{t+|sl|glava|f}}, {{t+|sl|buča}}
+* [[Sotho]]: {{t|st|hlooho|xs=Sotho}}
+* [[Southern Altai]]: {{tø|alt|баш|tr=baş|sc=Cyrl}}
+* Spanish: {{t+|es|cabeza|f}}
+* Swahili: [[kichwa]] ''(nc 7/8)''
+* Swedish: {{t+|sv|huvud|n}}, {{t+|sv|skalle|c}}
+* [[Tagalog]]: [[ulo]]
+* [[Tajik]]: {{t-|tg|сар|tr=sar|sc=Cyrl|xs=Tajik}}, {{t|tg|калла|tr=kalla|sc=Cyrl|xs=Tajik}}
+* [[Tamil]]: {{t|ta|தலை|tr=talai|xs=Tamil}}
+* [[Taos]]: [[p’ínemą]]
+* [[Tatar]]: {{t+|tt|баш|sc=Cyrl|xs=Tatar}}, {{t+|tt|baş|xs=Tatar}}
+* [[Telugu]]: {{t+|te|తల|tr=tala}}
+* Thai: {{t|th|หัว|tr=hŭa|sc=Thai}}
+* [[Tofa]]: {{tø|kim|баъш|tr=bàş|sc=Cyrl}}
+* [[Tupinambá]]: [[akanga]]
+* Turkish: {{t+|tr|baş}}, {{t+|tr|kafa}}
+* [[Turkmen]]: {{t+|tk|baş|xs=Turkmen}}
+* [[Tutelo]]: {{tø|tta|pasui}}
+* [[Tuvan]]: {{tø|tyv|баш|tr=bàş|sc=Cyrl}}
+* Ukrainian: {{t+|uk|голова|f|tr=holová|xs=Ukrainian}}
+* [[Upper Sorbian]]: {{tø|hsb|hłowa|f|xs=Upper Sorbian}}
+* Urdu: {{t|ur|سر|m|tr=sir|sc=ur-Arab}}
+* [[Uyghur]]: {{t|ug|باش|tr=bash|sc=ug-Arab}}
+* Uzbek: {{t-|uz|bosh|xs=Uzbek}}, {{t-|uz|kalla|xs=Uzbek}}
+* Vietnamese: {{t+|vi|đầu|xs=Vietnamese}} ({{t|vi|頭}})
+* [[Volapük]]: {{t|vo|kap}}
+* [[Walloon]]: {{t|wa|tiesse|xs=Walloon}}
+* [[Warlpiri]]: [[walu]]
+* Welsh: {{t+|cy|pen|m|xs=Welsh}}
+* [[West Frisian]]: {{t-|fy|holle|c|xs=West Frisian}},  {{t-|fy|kop|c|xs=West Frisian}}
+* [[Xhosa]]: [[intloko]]
+* [[!Xóõ]]: [[ǀnàn]]
+* [[Yakut]]: {{tø|sah|бас|tr=bas|sc=Cyrl}}, {{tø|sah|тебе|tr=tebe|sc=Cyrl}}
+* Yiddish: {{t-|yi|קאפ|m|alt=קאָפּ|tr=kop|sc=Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|mental aptitude or skill}}
+* [[Basque]]: {{t|eu|buru}}
+* Finnish: {{t+|fi|pää}}; {{t+|fi|nenä}}, {{t-|fi|vainu}}
+* Greek: [[κεφάλι]] (kefáli) {{n}}, [[μυαλό]] (mialó) {{n}}
+{{trans-mid}}
+* Japanese: {{t+|ja|頭|tr=あたま, atama}}, {{t-|ja|頭脳|tr=ずのう, zunō}}
+* Norwegian: {{t+|no|hode|n}}, {{t+|no|evne|m}}
+* Swedish: {{t+|sv|huvud|n}}, {{t+|sv|förmåga|c}}
+{{trans-bottom}}
+
+{{trans-top|mental or emotional control}}
+* Greek: [[αυτοκυριαρχία]] (aftokiriarkhia) {{f}}
+* Japanese: {{t+|ja|頭|tr=あたま, atama}}
+{{trans-mid}}
+* Swedish: {{t+|sv|huvud|n}}, {{t+|sv|fattning|c}}
+{{trans-bottom}}
+
+{{trans-top|topmost or leading part}}
+* Arabic: {{Arab|[[رأس]]}} (ra’s) {{m|f}}
+* Armenian: {{t-|hy|գլուխ|tr=glux}}
+* Dutch: {{t+|nl|hoofd}}
+* Finnish: {{t-|fi|yläosa}}, {{t|fi|etuosa}}, {{t+|fi|kärki}}, {{t-|fi|keula}}
+* German: {{t+|de|Spitze|f}}, {{t-|de|Oberende|n}}, {{t+|de|Kopf|m}}, {{t+|de|Dach|n}} (''fig.'')
+* Greek: {{t+|el|κεφαλή|f|tr=kefalí}}, {{t+|el|κεφάλι|n|tr=kefáli}}
+{{trans-mid}}
+* Japanese: {{t+|ja|頭|tr=あたま, atama}}, {{t|ja|冒頭|tr=ぼうとう, bōtō}}
+* Norwegian: {{t+|no|topp|m}}
+* Persian: {{t+|fa|سر|tr=sar|xs=Persian}}, {{t|fa|فراز|tr=farâz|xs=Persian}}, {{t-|fa|نوک|tr=nok|xs=Persian}}
+* Spanish: {{t+|es|punta|f}}
+* Swedish: {{t|sv|spets|c}}, {{t|sv|topp|c}}, {{t|sv|övre}} {{t|sv|ända|c}}, {{t|sv|huvud|n}}
+* [[Telugu]]: [[శీర్షము]] (Seershamu)
+{{trans-bottom}}
+
+{{trans-top|leader or chief}}
+* Arabic: {{Arab|[[رئيس]]}} (ra’īs) {{m}}
+* Armenian: [[գլխավոր]] (glxavor), [[ղեկավար]] (ġekavar), [[պետ]] (pet), {{t-|hy|գլուխ|tr=glux}}
+* [[Basque]]: [[buruzagi]], [[buru]], [[nagusi]]
+* [[Breton]]: [[penn]] {{m}}, pennoù {{p}}
+* [[Crimean Tatar]]: [[baş#Crimean Tatar|baş]]
+* Czech: {{t+|cs|hlava|f}}
+* Dutch: {{t+|nl|hoofd|n}}, {{t+|nl|baas|m}}, {{t-|nl|bazin|f}}, {{t+|nl|leider|m}}, {{t-|nl|leidster|f}}, {{t+|nl|chef|m}}, {{t-|nl|cheffin|f}} (''not used often'')
+* Finnish: {{t+|fi|päällikkö}}
+* French: {{t+|fr|chef|m}}
+* German: {{t+|de|Oberhaupt|n}}, {{t+|de|Haupt|n}}, {{t+|de|Kopf|m}}
+* Greek: [[κεφαλή]] (kefalí) {{f}}, [[κεφάλι]] (kefáli) {{n}}, [[αρχηγός]] (arkhigos) {{m}}
+* [[Guaraní]]: [[mburuvicha]]
+* Hindi: {{t|hi|मुखिया|tr=mukhiyā|sc=Deva}}
+* Indonesian: {{t+|id|kepala|xs=Indonesian}}, {{t-|id|pimpin|alt=pemimpin|xs=Indonesian}}
+* [[Interlingua]]: [[chef]], [[leader]]
+* Japanese: [[指導者]] (しどうしゃ, shidōsha), [[頭]] ([[かしら]], kashira)
+* Kurdish: [[serok]], {{ku-Arab|[[سه‌رۆک]]}}, {{ku-Arab|[[سه‌رگه‌وره‌]]}}
+* Lithuanian: [[galva]] {{f}}; [[vadovas]] {{m}}, [[vadovė]] {{f}}
+{{trans-mid}}
+* [[Low Saxon]]: [[baas]] {{m|f}}
+* Maltese: {{t-|mt|kap|m|xs=Maltese}}, {{t-|mt|kapa|f|xs=Maltese}}
+* [[Meru]]: {{tø|mer|munene}}
+* Norwegian: {{t+|no|leder|m}}, {{t+|no|sjef|m}}
+* Persian: {{t+|fa|رهبر|tr=rahbar|xs=Persian}}, {{t|fa|سالار|tr=sâlâr|xs=Persian}}, {{t+|fa|سر|tr=sar|xs=Persian}}
+* Polish: {{t+|pl|kierownik|m}}, {{t-|pl|kierowniczka|f}}
+* Portuguese: {{t+|pt|chefe|m|f}}, {{t+|pt|cabeça|m}}, {{t+|pt|líder|m|f}}
+* Romanian: {{t-|ro|şef|m}}, {{t|ro|cap|m}}, {{t|ro|lider|m}}, {{t|ro|căpetenie|f}}
+* Russian: {{t+|ru|глава|m|f|tr=glavá}}
+* Slovene: {{t+|sl|poglavar}}, {{t+|sl|vodja|m}}
+* Spanish: {{t+|es|cabeza|f}}, {{t+|es|jefe|m}}, {{t+|es|líder|m}},
+* Swahili: [[mkuu]] ''(nc 1/2)''
+* Swedish: {{t+|sv|ledare|c}}, {{t+|sv|chef|c}}, {{t+|sv|direktör|c}}, {{t-|sv|föreståndare|c}}
+* [[Tamil]]: {{t|ta|தலைவர்|tr=talaivar|xs=Tamil}}
+* [[Tatar]]: [[баш]]
+* [[Telugu]]: [[నాయకుడు]] (naayakuDu)
+* [[Tupinambá]]: [[porubixaba]], [[ubixaba]] (t-)
+* Welsh: {{t+|cy|pen|m|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|headmaster, headmistress}}
+* Arabic: {{Arab|[[رئيس]]}} (ra’īs) {{m}}
+* [[Crimean Tatar]]: [[baş#Crimean Tatar|baş]]
+* Dutch: {{t|nl|hoofdmeester}}
+* Finnish: {{t+|fi|rehtori}}, {{t-|fi|johtajaopettaja}}
+* German: {{t+|de|Leiter|m}}, {{t-|de|Leiterin|f}}, {{t+|de|Rektor|m}}, {{t-|de|Rektorin|f}}, {{t+|de|Direktor|m}}, {{t-|de|Direktorin|f}}
+* Greek: [[διευθυντής]] (diefthintis) {{m}}, [[διευθύντρια]] (diefthintria) {{f}}
+* Japanese: {{t+|ja|校長|tr=こうちょう, kōchō}}, {{t+|ja|監督|tr=かんとく, kantoku}}
+* Kurdish: {{t+|ku|serperişt}}
+* Maltese: {{t|mt|surmast|m|xs=Maltese}}, {{t-|mt|madam|f|xs=Maltese}}
+{{trans-mid}}
+* Norwegian: {{t-|no|rektor|m}}
+* Polish: {{t|pl|dyrektor|m}}, {{t|pl|dyrektorka|f}}
+* Portuguese: {{t+|pt|director|m}}, {{t-|pt|directora|f}}, {{qualifier|Brazilian Portuguese}} {{t|pt|diretor|m}}, {{qualifier|Brazilian Portuguese}} {{t|pt|diretora|f}}
+* Spanish: {{t+|es|director|m}}, {{t-|es|directora|f}},
+* Swedish: {{t+|sv|rektor|c}}
+* [[Tamil]]: {{t|ta|தலைமை ஆசிரியர்|tr=talaimai aasiriyar|xs=Tamil}}, {{t|ta|தலைவர்|tr=talaivar|xs=Tamil}}
+* [[Telugu]]: [[ప్రధానోపాధ్యాయుడు]] (pradhaanOpaadhyaayuDu), [[ప్రధానోపాధ్యాయురాలు]] (pradhaanOpaadhyaayuraalu)
+{{trans-bottom}}
+
+{{trans-top|toilet of a ship}}
+* German: {{t|de|Abtritt|m}} ''(military)''
+{{trans-mid}}
+* Russian: {{t|ru|гальюн|m|tr=gal’jún}}
+{{trans-bottom}}
+
+{{trans-top|top of a sail}}
+* German: {{t-|de|Top|n}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|foam on carbonated beverages}}
+* Dutch: {{t+|nl|schuim|n}}
+* Finnish: {{t+|fi|vaahto}}
+* German: {{t+|de|Blume|f}}, {{t+|de|Krone|f}}, {{t-|de|Schaumkrone|f}}
+* Japanese: {{t+|ja|泡|tr=あわ, awa}}
+{{trans-mid}}
+* Norwegian: {{t+|no|skum|n}}
+* Portuguese: {{t|pt|colarinho|m}}
+* Swedish: {{t-|sv|bornyr|c}}, {{t-|sv|fradga|c}}, {{t+|sv|skum|n}}
+{{trans-bottom}}
+
+{{trans-top|end of hammer, etc.}}
+* [[Basque]]: {{t|eu|buru}}
+* Finnish: {{t+|fi|hamara}}
+* German: {{t+|de|Kopf|m}}
+* Japanese: {{t+|ja|頭|tr=あたま, atama}}
+* Kurdish: {{t+|ku|ser}}
+* Lithuanian: {{t+|lt|galva|f|xs=Lithuanian}}
+{{trans-mid}}
+* Norwegian: {{t+|no|hode|n}}
+* Polish: {{t|pl|główka|f}}
+* Russian: {{t+|ru|головка|f|tr=golóvka}}
+* Spanish: {{t+|es|cabeza|f}}
+* Swedish: {{t+|sv|huvud|n}}
+{{trans-bottom}}
+
+{{trans-top|the blunt end of a nail, etc.}}
+* Czech: {{t+|cs|hlava|f}}
+* Finnish: {{t+|fi|kanta}}, {{t+|fi|pää}}
+* German: {{t+|de|Kopf|m}}
+* Japanese: {{t+|ja|頭|tr=あたま, atama}}
+* Kurdish: {{t+|ku|ser}}
+* Lithuanian: [[galvutė]] {{f}}
+{{trans-mid}}
+* Norwegian: {{t+|no|hode|n}}
+* Romanian: {{t|ro|cap|n}}
+* Russian: {{t+|ru|головка|f|tr=golóvka}}
+* Spanish: {{t+|es|cabeza|f}}
+* Swedish: {{t+|sv|huvud|n}}
+{{trans-bottom}}
+
+{{trans-top|capitulum}}
+* Dutch: {{t+|nl|krop}}
+{{trans-mid}}
+* Japanese: {{t|ja|頭状花|tr=とうじょうか, tōjōka}}
+{{trans-bottom}}
+
+{{trans-top|linguistics: morpheme that determines the category of a compound}}
+* Finnish: {{t-|fi|perusosa}}
+* German: {{t|de|Kopf|m}}
+{{trans-mid}}
+* Japanese: {{t|ja|主要部|tr=しゅようぶ, shuyōbu}}
+{{trans-bottom}}
+
+===Adjective===
+{{en-adj|-}}
+
+# Of, relating to, or intended for the head.
+# Foremost in rank or importance.
+#: ''The '''head''' cook.''
+# Placed at the top or the front.
+# Coming from in front.
+#: '''''head''' sea''
+#: '''''head''' wind''
+
+====Synonyms====
+* {{sense|foremost in rank or importance}} [[chief]], [[principal]]
+* {{sense|placed at the top or the front}} [[first]], [[top]]
+
+====Antonyms====
+* {{sense|coming from in front}} [[tail]]
+
+====Translations====
+{{trans-top|of, relating to, or intended for the head}}
+* German: [[Kopf]]-
+* Greek: [[κεφαλο]]- (kefalo)
+* Italian: di [[testa#Italian|testa]]
+* Japanese: {{t|ja|頭の|tr=あたまの, atama no}}
+{{trans-mid}}
+* Norwegian: {{t|no|hode-}}
+* Russian: {{t+|ru|головной|tr=golovnój}}
+* Swedish: compounds with {{t|sv|huvud}}
+* Turkish: [[kafa]]-
+{{trans-bottom}}
+
+{{trans-top|foremost in rank or importance}}
+* [[Ancient Greek]]: [[ἀρχι-]] (archi)
+* Finnish: {{t+|fi|pää-}}
+* German: [[Haupt]]-
+* Hebrew: [[ראש]] (rosh)
+* Japanese: {{t|ja|チーフ|tr=chīfu}}
+{{trans-mid}}
+* Norwegian: {{t|no|hoved-}}
+* Russian: {{t+|ru|главный|tr=glávnyj}}
+* Slovene: {{t-|sl|glaven|alt=gláven}}
+* Swedish: {{t+|sv|främst}}, {{t+|sv|först}}, compounds with {{t|sv|huvud}} and {{t|sv|topp}}
+{{trans-bottom}}
+
+{{trans-top|placed at the top or the front}}
+* Hebrew: [[ראש]] (rosh)
+* Japanese: {{t|ja|先頭の|tr=せんとうの, sentō no}}
+* Norwegian: {{t|no|leder-}}, {{t+|no|første}}
+{{trans-mid}}
+* Russian: {{t+|ru|передний|tr=p'er'édnij}}, {{t+|ru|верхний|tr=v'érχnij}}
+* Slovene: {{t-|sl|glaven|alt=gláven}}
+* Swedish: {{t+|sv|främst}}, {{t+|sv|först}}
+{{trans-bottom}}
+
+{{trans-top|coming from in front}}
+* Finnish: {{t-|fi|vasta-}}
+* Japanese: {{t|ja|向かい|tr=むかい, mukai-}}
+* Polish: {{t|pl|czołowy}}
+{{trans-mid}}
+* Russian: {{t+|ru|встречный|tr=vstr'éčnyj}}
+* Swedish: {{t|sv|mot}}-
+{{trans-bottom}}
+
+{{trans-top|''slang'': of, relating to, or for drugs or drug users}}
+{{trans-mid}}
+{{trans-bottom}}
+
+===Verb===
+{{en-verb}}
+
+# {{transitive}} To be in command of. - see also [[head up]]
+#: ''Who '''heads''' the board of trustees?''
+# {{transitive}} To strike with the head; as in soccer, ''to head the ball''
+# {{intransitive}} To move in a specified [[direction]]. ''heading towards something''
+#: ''We are going to '''head up''' North for our holiday. We will '''[[head off]]''' tomorrow. Next holiday we will '''head out''' West, or '''head to''' Chicago. Right now I need to '''head into''' town to do some shopping.''
+#: ''I'm fed up working for a boss. I'm going to '''head out''' on my own, [[set up]] my own business.''
+# {{fishing}} To [[remove]] the head from a fish.
+#: ''The salmon are first '''headed''' and then scaled.''
+
+====Derived terms====
+* [[head for the hills]]
+
+====Translations====
+{{trans-top|(transitive) be in command of}}
+* [[Basque]]: [[zuzendu]]
+* [[Breton]]: [[ren]]
+* Dutch: {{t+|nl|leiden}}, {{t+|nl|aanvoeren}}
+* Finnish: {{t+|fi|johtaa}}
+* French: {{t+|fr|commander}}, {{t+|fr|diriger}}, {{t|fr|chapeauter}}
+* German: {{t+|de|führen}}, {{t+|de|leiten}}
+* Hebrew: [[עמד בראש]] (amad b’rosh)
+* Indonesian: {{t-|id|pimpin|alt=memimpin|xs=Indonesian}}
+* [[Interlingua]]: [[commandar]], [[diriger]], [[leaderar]]
+{{trans-mid}}
+* Japanese: [[指導する]] (しどうする, shidō-surú)
+* Kurdish: {{t+|ku|birêvebirin}}
+* [[Low Saxon]]: [[kommandeern]], dat Seggen hebben
+* Polish: {{t+|pl|kierować}}
+* Portuguese: {{t+|pt|comandar}}, {{t+|pt|dirigir}}, {{t+|pt|liderar}}
+* Russian: {{t+|ru|возглавлять|tr=vozglavl'át'}} {{impf}}, {{t|ru|возглавить|tr=vozglávit'}} {{pf.}}
+* Spanish: {{t-|es|encabezar}}, {{t+|es|dirigir}}, {{t-|es|liderar}}
+* Swedish: {{t+|sv|leda}}
+{{trans-bottom}}
+
+{{trans-top|(transitive) to strike with the head}}
+* French: {{t|fr|faire une tête}}
+* German: {{t+|de|köpfen}}
+* Japanese: {{t|ja|ヘディングする|tr=hedingu suru}}
+{{trans-mid}}
+* Spanish: {{t+|es|cabecear}}
+* Swedish: {{t+|sv|nicka}}, {{t+|sv|skalla}}
+{{trans-bottom}}
+
+{{trans-top|(intransitive) move in a specified direction}}
+* [[Basque]]: [[zuzendu]]
+* [[Breton]]: [[skeiñ]] war-du
+* Dutch: ergens naar toe [[gaan]], een richting op [[gaan]]
+* Finnish: {{t+|fi|suunnata}}, {{t+|fi|johtaa}}
+* French: [[se diriger]] (''towards:'' [[vers]])
+* German: [[ansteuern]], in eine [[Richtung]] [[gehen]], auf etwas [[zusteuern]]
+* Indonesian: {{t-|id|tuju|alt=menuju|xs=Indonesian}}
+* [[Interlingua]]: [[diriger se]]
+{{trans-mid}}
+* Japanese: [[向かう]] ([[むかう]], mukau)
+* Kurdish: [[ber]]ê xwe dan derekê, ber bi derekê ve [[çûn]]
+* [[Low Saxon]]: op to stüürn
+* Polish: {{t+|pl|kierować się}}
+* Portuguese: {{t-|pt|dirigir-se}}, {{t-|pt|encaminhar-se}}, {{t+|pt|rumar}}
+* Russian: {{t|ru|направляться|tr=napravl'át's'a}} {{impf}}, {{t+|ru|направиться|tr=naprávit's'a}} {{pf.}}
+* Spanish: {{t-|es|dirigirse}}
+* Swedish: {{t+|sv|åka}}
+{{trans-bottom}}
+
+===Related terms===
+* [[ahead]]
+* [[knucklehead]]
+* [[railhead]]
+
+===Statistics===
+* {{rank|seemed|house|looked|184|head|called|p|Lord}}
+
+===Anagrams===
+* {{alphagram|adeh}}
+* [[DHEA#English|DHEA]]
+* [[hade#English|hade]]
+
+[[Category:1000 English basic words]]
+[[Category:Anatomy]]
+
+[[ang:head]]
+[[ar:head]]
+[[zh-min-nan:head]]
+[[br:head]]
+[[bg:head]]
+[[ca:head]]
+[[cs:head]]
+[[cy:head]]
+[[de:head]]
+[[et:head]]
+[[el:head]]
+[[es:head]]
+[[fa:head]]
+[[fr:head]]
+[[gl:head]]
+[[ko:head]]
+[[hy:head]]
+[[hr:head]]
+[[io:head]]
+[[id:head]]
+[[it:head]]
+[[kn:head]]
+[[kk:head]]
+[[ky:head]]
+[[sw:head]]
+[[ku:head]]
+[[la:head]]
+[[lv:head]]
+[[lt:head]]
+[[li:head]]
+[[hu:head]]
+[[ml:head]]
+[[my:head]]
+[[nl:head]]
+[[ja:head]]
+[[no:head]]
+[[oc:head]]
+[[pl:head]]
+[[pt:head]]
+[[ru:head]]
+[[sq:head]]
+[[simple:head]]
+[[sr:head]]
+[[fi:head]]
+[[sv:head]]
+[[ta:head]]
+[[te:head]]
+[[th:head]]
+[[tr:head]]
+[[uk:head]]
+[[ug:head]]
+[[vi:head]]
+[[vo:head]]
+[[zh:head]]

@@ -1,0 +1,648 @@
+==English==
+
+===Pronunciation===
+* {{enPR|drĭngk}}, {{IPA|/dɹɪŋk/}}, {{SAMPA|/drINk/}}
+* {{audio|en-us-drink.ogg|Audio (US)}}
+* {{rhymes|ɪŋk}}
+
+===Etymology 1===
+From {{etyl|enm}} {{term|drinken|lang=enm}}, from {{etyl|ang}} {{term|drincan||to drink, swallow up, engulf|lang=ang}}, from {{proto|Germanic|drinkanan|to drink|lang=en}}, from {{proto|Indo-European|dhrengh-|to draw into one's mouth, sip, gulp|lang=en}}, nasalised variant of {{proto|Indo-European|title=|dhregh-|to draw, glide|lang=en}}. Cognate with {{etyl|fry|-}} {{term|drinke||to drink|lang=fry}}, {{etyl|nl|-}} {{term|drinken||to drink|lang=nl}}, {{etyl|de|-}} {{term|trinken||to drink|lang=de}}, {{etyl|da|-}} {{term|drikke||to drink|lang=da}}.
+
+====Verb====
+{{en-verb|drinks|drinking|drank|'''[[drunk]]''' (or '''[[drank]]''')}}
+
+# {{transitive}} To consume (a liquid) through the mouth.
+#: ''He '''drank''' the water I gave him.''
+# {{intransitive}} To [[consume]] [[liquid]] through the [[mouth]].
+#: ''You can lead a horse to water but you can't make him '''drink'''.''
+# {{intransitive}} To [[consume]] [[alcoholic]] [[beverage]]s.
+#: ''You've been '''drinking''', haven't you?''
+#: ''No thanks, I don't '''drink'''.''
+
+=====Synonyms=====
+* {{sense|consume (liquid) through the mouth}} [[gulp]], [[imbibe]], [[quaff]], [[sip]], ''see also'' [[Wikisaurus:drink]]
+* {{sense|consume alcoholic beverages}} drink [[alcohol]]
+
+=====Derived terms=====
+* [[drinkable]]
+* [[drink and drive]]
+* [[drinker]]
+* [[drinking]]<!--noun, adjective-->
+* [[drink like a fish]]
+* [[drink under the table]]
+* [[drink up]]
+
+=====Related terms=====
+* [[drunken]], [[drunk]]
+
+=====Translations=====
+{{trans-top|consume liquid through the mouth}}
+* [[Afrikaans]]: [[drink#Afrikaans|drink]]
+* [[Akkadian]]: {{t|akk|𒅘|tr=[[Image:B064ellst.png|40px]], ''šatû'', NAG}}
+* Albanian: {{t-|sq|pi|xs=Albanian}}
+* [[American Sign Language]]: {{tø|ase|C@NearMouth-TipForward C@NearMouth-TipUp}}
+* [[Amharic]]: {{tø|am|መጠጣት|tr=mäṭäṭat|sc=Ethi}}
+* Arabic: {{t-|ar|شرب|tr=sháriba}}
+*: Egyptian Arabic: {{tø|arz|شرب|tr=shirib|sc=Arab|xs=Egyptian Arabic}}
+* Armenian: [[խմել]] (xmel)
+* [[Basque]]: {{t+|eu|edan|xs=Basque}}
+* Belarusian: {{t|be|піць|tr=pic’|xs=Belarusian}}
+* [[Breton]]: [[eva]]
+* Bulgarian: {{t+|bg|пия|tr=píja}}
+* Burmese: {{t-|my|သောက်|tr=thauk|sc=Mymr|xs=Burmese}}
+* [[Catalan]]: {{t+|ca|beure}}
+* [[Cebuano]]: {{tø|ceb|inum}}
+* Chinese:
+*: Cantonese: {{tø|yue|飲|sc=Hant}},  {{tø|yue|饮|tr=yam2|sc=Hant}}, {{tø|yue|喝|tr=hot3|sc=Hant}} {{qualifier|formal}}
+*: Mandarin: {{t-|cmn|喝|tr=hē|sc=Hani}}, {{t-|cmn|飲|sc=Hani}}, {{t-|cmn|饮|tr=yǐn|sc=Hani}}
+*: Min Nan: {{tø|nan|啉|tr=lim|sc=Hans}}
+* Czech: {{t+|cs|pít}}
+* Danish: {{t+|da|drikke}}
+* Dutch: {{t+|nl|drinken}}
+* Esperanto: {{t-|eo|trinki|xs=Esperanto}}
+* Estonian: {{t-|et|jooma}}
+* Filipino: {{tø|fil|inom|xs=Filipino}}
+* Finnish: {{t+|fi|juoda}}
+* French: {{t+|fr|boire}}
+* [[Galician]]: {{t+|gl|beber|xs=Galician}}
+* Georgian: {{t|ka|სმა|tr=sma|sc=Geor}}
+* German: {{t+|de|trinken}}
+* [[Gothic]]: {{tø|got|𐌳𐍂𐌹𐌲𐌺𐌰𐌽|tr=drigkan|sc=Goth}}
+* Greek: {{t|el|πίνω|tr=píno}} {{qualifier|used for animals also}}, {{t|el|απορροφώ|tr=aporrofó}} {{qualifier|used for plants}}
+* [[Haitian Creole]]: [[bwè]]
+* Hebrew: {{t-|he|לשתות|tr=lishtot}}
+* Hindi: {{t+|hi|पीना|tr=pīnā|xs=Hindi}}, {{t|hi|सोखना|tr=sokhnā|xs=Hindi}}
+* Hungarian: {{t+|hu|iszik}}
+* Icelandic: {{t+|is|drekka}}
+* [[Ido]]: [[drinkar]]
+* Indonesian: {{t+|id|minum|xs=Indonesian}}
+* [[Interlingua]]: [[biber]]
+* [[Inuktitut]]: [[ᐃᒥᖅᑐᖅ]]
+* Irish: {{t-|ga|ól|xs=Irish}}
+* [[Isthmus Zapotec]]: [[reʼ]]
+* Italian: {{t+|it|bere}}
+* Japanese: {{t+|ja|飲む|tr=のむ, nomu}}, {{t-|ja|召し上がる|tr=めしあがる, meshi-agaru}} {{qualifier|honorific}}, {{t-|ja|頂く|tr=いただく, itadaku}} {{qualifier|humble}}
+* Kazakh: {{t+|kk|ішу|tr=işu|sc=Cyrl|xs=Kazakh}}
+* Korean: {{t+|ko|마시다|tr=masida|sc=Hang}}
+* [[!Kung]]: {{tø|knw|čiŋ}}
+* Kurdish:
+*: [[Kurmanji]]: [[vexwarin]]
+*: [[Sorani]]: [[xwardinewe]]
+* [[Lao]]: {{t-|lo|ດື່ມ|tr=dyym|sc=Laoo|xs=Lao}}
+{{trans-mid}}
+* Latin: {{t+|la|bibo}}, {{t|la|poto}}
+* Latvian: {{t+|lv|dzert|xs=Latvian}}
+* Lithuanian: {{t-|lt|gerti|xs=Lithuanian}}
+* [[Lojban]]: [[pinxe]]
+* [[Luxembourgish]]: {{t|lb|drénken}}
+* [[Macedonian]]: {{t-|mk|пие|tr=píe}}
+* [[Malayalam]]: [[കുടിയ്ക്കുക]] (kutikkuka)
+* Maltese: {{l|mt|xorob}}
+* [[Manx]]: {{t|gv|oyl|xs=Manx}}
+* [[Marathi]]: [[पिणे]], ([[द्रव]]) [[पान]]
+* [[Middle High German]]: [[trinken]]
+* Mongolian: {{t|mn|шингээх|tr=šingeekh|sc=Cyrl|xs=Mongolian}},  {{t|mn|сорох|tr=sorokh|sc=Cyrl|xs=Mongolian}}
+* Norwegian: {{t+|no|drikke}}
+* [[Novial]]: [[drinka]]
+* [[Occitan]]: [[beure]]
+* [[Old Church Slavonic]]: {{tø|cu|пити|tr=piti|sc=Cyrs}}
+* [[Old English]]: {{t-|ang|drincan|xs=Old English}}
+* [[Old High German]]: [[trinkan]]
+* [[Old Irish]]: {{tø|sga|ibid}}
+* Persian: {{t+|fa|نوشیدن|tr=nušidan|xs=Persian}}, {{t+|fa|آشامیدن|xs=Persian}}
+* Polish: {{t+|pl|pić}}
+* Portuguese: {{t+|pt|beber}}, {{t+|pt|tomar}}
+* Romanian: {{t+|ro|bea}}
+* [[Romansch]]: {{t|rm|baiver|xs=Romansch}}
+* Russian: {{t+|ru|пить|tr=pit’}}
+* [[Scottish Gaelic]]: {{t-|gd|òl|xs=Scottish Gaelic}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|пити|alt=п̏ити|sc=Cyrl|xs=Serbo-Croatian}} {{impf}}, {{t|sh|попити|alt=по̀пити|sc=Cyrl|xs=Serbo-Croatian}} {{pf.}}, {{t|sh|ispiti|alt=ѝsпити|xs=Serbo-Croatian}} {{pf.}}
+*: Roman: {{t|sh|piti|alt=pȉti|xs=Serbo-Croatian}} {{impf}}, {{t|sh|popiti|alt=pòpiti|xs=Serbo-Croatian}} {{pf.}}, {{t|sh|ispiti|alt=ìspiti|xs=Serbo-Croatian}} {{pf.}}
+* [[Sicilian]]: {{t+|scn|bìviri|xs=Sicilian}},  {{t+|scn|vìviri|xs=Sicilian}}
+* Slovak: {{t-|sk|piť}}
+* Slovene: {{t+|sl|piti}}
+* Spanish: [[beber]], [[tomar]] {{qualifier|Latin America}}
+* Swahili: {{t|sw|kunywa}}
+* Swedish: {{t+|sv|dricka}}
+* [[Tagalog]]: {{t-|tl|inom|xs=Tagalog}}
+* [[Tajik]]: {{t-|tg|нӯшидан|tr=nūšidan|sc=Cyrl|xs=Tajik}}
+* [[Telugu]]: [[తాగు]]
+* Thai: {{t+|th|ดื่ม}} (dèum)
+* Turkish: {{t+|tr|içmek}}
+* [[Ugaritic]]: {{t|uga|𐎌𐎚𐎊|tr=šty}}
+* Ukrainian: {{t-|uk|пити|tr=pýty|xs=Ukrainian}}
+* Urdu: {{t-|ur|پینا|tr=pīnā|xs=Urdu}}
+* Vietnamese: {{t+|vi|uống|xs=Vietnamese}}
+* [[West Frisian]]: {{t-|fy|drinke|xs=West Frisian}}
+* [[!Xóõ]]: [[kxʻāhã]]
+* Yiddish: {{t+|yi|טרינקען|tr=trinken|sc=Hebr|xs=Yiddish}}
+* [[Zazaki]]: {{tø|zza|şımıtene}}
+* [[Zulu]]: [[phuza]], [[gwinya]]
+{{trans-bottom}}
+
+{{trans-top|consume alcoholic beverages}}
+* [[Afrikaans]]: [[drink#Afrikaans|drink]]
+* Armenian: [[խմել]] (xmel)
+* [[Basque]]: {{t+|eu|edan|xs=Basque}}, {{t|eu|zurrut egin|xs=Basque}}, {{t|eu|txurrut egin|xs=Basque}}
+* Bosnian: {{t-|bs|piti}}
+* Bulgarian: {{t+|bg|пия}}
+* [[Catalan]]: [[beure]]
+* Chinese:
+*: Mandarin: {{t-|cmn|喝|sc=Hani}}{{t-|cmn|酒|tr=hē jiǔ|sc=Hani}}
+* Croatian: {{t+|hr|piti|alt=pȉti}}, {{t-|hr|lokati|alt=lòkati}}, {{t|hr|pijančevati|alt=pìjānčevati}}
+* Czech: {{t+|cs|pít}}
+* Danish: {{t+|da|drikke}}
+* Dutch: {{t+|nl|drinken}}
+* Esperanto: {{t-|eo|drinki|xs=Esperanto}}
+* Estonian: {{t-|et|jooma}}
+* Filipino: {{tø|fil|inom|xs=Filipino}},  {{tø|fil|tagay}},  {{tø|fil|toma}}
+* Finnish: {{t+|fi|juoda}}, {{t+|fi|ottaa}},  {{t+|fi|ryypätä}}
+* French: {{t+|fr|boire}}
+* German: {{t+|de|saufen}}
+* Greek: {{t|el|πίνω|tr=píno}}
+* Hebrew: {{t-|he|לשתות|tr=lishtot}}
+* Hindi: शराब पीना (pīnā)
+* Hungarian: {{t+|hu|iszik}}
+* Icelandic: {{t+|is|drekka}}
+* [[Ido]]: [[drinkar]]
+* [[Interlingua]]: [[biber]]
+* Italian: [[bere]], bere [[alcolico|alcolici]]
+* Japanese: {{t+|ja|飲む|tr=のむ, nomu}}, {{t-|ja|召し上がる|tr=めしあがる, meshi-agaru}} {{qualifier|honorific}}, {{t-|ja|頂く|tr=いただく, itadaku}} {{qualifier|humble}}
+{{trans-mid}}
+* Latin: {{t+|la|bibo}}, {{t|la|poto}}
+* Latvian: {{t+|lv|dzert|xs=Latvian}}
+* Lithuanian: {{t|lt|gerti}}
+* [[Luxembourgish]]: {{t|lb|saufen}}
+* [[Macedonian]]: {{t-|mk|пие|tr=píe}}
+* [[Malayalam]]: [[കുടിയ്ക്കുക]] (kutikkuka)
+* [[Marathi]]: [[मदिरा]] वा [[दारू]] पिणे, [[अपेयपान]]
+* Norwegian: {{t+|no|drikke}}
+* [[Novial]]: [[drinka]]
+* Polish: {{t+|pl|pić}}
+* Portuguese: {{t+|pt|beber}}, {{t|pt|tomar}}
+* Romanian: {{t+|ro|bea}}
+* Russian: {{t+|ru|пить|tr=pit’}}; {{t+|ru|выпивать|tr=vypivát'}} {{impf}}, {{t+|ru|выпить|tr=výpit'}} {{pf.}}
+* Serbian:
+*: Cyrillic: [[пити#Serbian|пити]]
+*: Roman: [[piti#Serbian|piti]]
+* Slovene: {{t+|sl|piti}}
+* Spanish: [[beber]], [[tomar]] {{qualifier|especially Latin America}}
+* Swedish: {{t+|sv|dricka}}, {{t+|sv|supa}}
+* [[Tagalog]]: {{t-|tl|inom|xs=Tagalog}},  {{t|tl|tagay|xs=Tagalog}},  {{t-|tl|toma|xs=Tagalog}}
+* [[Telugu]]: [[తాగు]]
+* Thai: {{t+|th|ดื่ม}} (dèum)
+* Turkish: [[içki içmek]],  {{t|tr|içki içmek|c}}
+* Vietnamese: [[uống]] [[rượu]], uống [[say#Vietnamese|say]]
+* [[Zulu]]: [[qhafa]]
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|af}}: drink
+* {{ttbc|Binisayâ}}: [[pag-inóm]], [[paglag-ab]]
+* {{ttbc|br}}: [[evañ]]
+* {{ttbc|gn}}: (''vt'') [['u]]; (''vi'') [[y'u]]
+* {{ttbc|haw}}: [[inu]], [[inumia]], [[pā]]
+* {{ttbc|ia}}: [[biber]]
+* {{ttbc|kn}}: [[ಕುಡಿ]] (kuḍi), [[ಹೀರು]] (hīru)
+* {{ttbc|km}}: {{Khmr|[[ផឹក]]}} (phek), {{Khmr|[[ទទួលទាន]]}} (to-tuel-tien)
+{{trans-mid}}
+* {{ttbc|nds}}: [[drinken]], [[supen]]
+* {{ttbc|fa}}: {{fa-Arab|[[نوشیدن]]}} (nushidan)
+* {{ttbc|sa}}: [[पानम्]] (pānam)
+* {{ttbc|sk}}: [[piť]]
+* {{ttbc|sw}}: [[kunywa]]
+* {{ttbc|ta}}: [[குடி]] (kuṭi)
+* {{ttbc|tpn}}: (''vt'') [['u]]; (''vi'') [[y'u]]
+* {{ttbc|vo}}: [[dlinön]], [[drinön]]
+* {{ttbc|cy}}: [[yfed]]
+* {{ttbc|xh}}: [[ukusela]]
+* {{ttbc|yi}}: [[טרינקען]] (trinken)
+{{trans-bottom}}
+
+===Etymology 2===
+{{etyl|ang}} {{term|drync|lang=ang}}
+
+====Noun====
+{{en-noun}}
+
+# A [[serve]]d [[beverage]].
+#: ''I’d like another '''drink''' please''.
+# A [[serve]]d alcoholic [[beverage]].
+#: ''Can I buy you a '''drink'''?''
+# The action of drinking, especially with the verbs ''take'' or ''have''.
+#: ''He was about to take a '''drink''' from his root beer''.
+# A type of [[beverage]] (usually mixed)
+#: ''My favourite '''drink''' is the White Russian''.
+# Alcohol beverages in general.
+#: ''It’s enough to drive you to '''drink'''.''
+#: ''She has a problem with the '''drink'''.''
+# ('''the drink'''; ''colloquial'') Any body of water.
+#: ''If he doesn't pay off the mafia, he’ll wear cement shoes to the bottom of the '''drink'''!''
+
+=====Usage notes=====
+Plainer than more elevated {{term|beverage}}. '''Beverage''' is of French origin, while ''drink'' is of Old English origin, and this stylistic difference by origin is common; see {{w|list of English words with dual French and Anglo-Saxon variations}}.
+
+=====Synonyms=====
+* (''served beverage''): [[beverage]], ''see also'' [[Wikisaurus:beverage]]
+* (''served alcoholic beverage''): [[beverage]], ''see also'' [[Wikisaurus:alcoholic beverage]]
+* (''action of drinking''): [[gulp]], [[sip]], [[swig]]
+* (''type of beverage''): [[beverage]]
+* (''alcoholic beverages in general''): [[alcohol]]
+
+=====Derived terms=====
+* the [[big drink]]<!--nickname for various bodies of water-->
+* [[drink-driver]]
+* [[drink-driving]]
+* [[drive to drink]]
+* [[in the drink]]
+* [[take to drink]]
+
+=====Translations=====
+{{trans-top|served beverage}}
+* Armenian: {{t-|hy|խմիչք|tr=xmichk}}
+* [[Basque]]: {{t+|eu|edan|xs=Basque}}, {{t|eu|edari|xs=Basque}}, {{t|eu|edateko|xs=Basque}}
+* Bosnian: {{t-|bs|napitak|m}}, {{t-|bs|piće|n}}
+* Bulgarian: {{t+|bg|питие|n}}, {{t+|bg|напитка|f}}
+* [[Catalan]]: [[beguda]] {{f}}, [[glop]] {{m}}
+* [[Cebuano]]: {{tø|ceb|imnunon}}
+* [[Chamicuro]]: {{tø|ccc|lajpa'sachi}}
+* Chinese:
+*: Mandarin: {{zh-ts|[[飲料]]|[[饮料]]}} (yǐnliào)
+*: Min Nan: {{zh-ts|[[飲料]]|[[饮料]]}} (ím-liāu)
+* Croatian: {{t-|hr|napitak|m}}, {{t-|hr|piće|n}}
+* Czech: {{t+|cs|pití|n}}, {{t+|cs|nápoj|m}}
+* Danish: {{t-|da|drink}}
+* Dutch: {{t+|nl|drank|m}}, {{t+|nl|drankje|n}}, {{t+|nl|drankske|n}} (Flemish)
+* Esperanto: [[trinkaĵo]]
+* Estonian: {{t-|et|jook}}
+* Filipino: {{tø|fil|inumin}}
+* Finnish: {{t+|fi|juoma}}, {{t+|fi|juotava}}
+* French: {{t+|fr|verre|m}},  {{t+|fr|boisson|f}}
+* German: {{t+|de|Getränk|n}}
+* Greek: {{t+|el|ποτό|n|tr=potó}}
+* [[Haitian Creole]]: {{tø|ht|bwason}}
+* Hebrew: {{t+|he|משקה|m|tr=mashqe}}
+* Hungarian: {{t+|hu|ital}}
+* [[Ido]]: {{t+|io|drinkajo|xs=Ido}}
+* Indonesian: {{t+|id|minum|alt=minuman|xs=Indonesian}}
+* Irish: {{t+|ga|deoch|f|xs=Irish}}
+* Italian: {{t+|it|bevanda|m}}, {{t+|it|bibita|f}}
+* Japanese: [[飲み物]] (nomimono)
+{{trans-mid}}
+* {{trreq|ko}}
+* Latin: {{t|la|potus|m}}, {{t|la|potio|f}}
+* Latvian: [[dzēriens]] {{m}}
+* Lithuanian: {{t|lt|gėrimas|m}}, {{t|lt|gėralas|m}}
+* [[Luxembourgish]]: {{t|lb|Gedrénks|n}}
+* [[Macedonian]]: {{t|mk|пијалок|m|tr=píjalok}}, {{t|mk|пијачка|f|tr=píjačka}}
+* [[Novial]]: [[drinke]]
+* [[Old Church Slavonic]]: {{tø|cu|пиво|n|tr=pivo|sc=Cyrs}}
+* [[Old English]]: {{t-|ang|drenc|m|xs=Old English}}, {{t-|ang|wæt|n|alt=wǣt|xs=Old English}}
+* Persian: {{t|fa|نوشیدنی|tr=nōšidani|xs=Persian}}
+* Polish: {{t+|pl|napój|m}}
+* Portuguese: {{t|pt|bebida|f}}
+* Romanian: {{t+|ro|băutură|f}}
+* Russian: {{t+|ru|напиток|m|tr=napítok}}
+* Serbian:
+*: Cyrillic: {{t-|sr|напитак|m|sc=Cyrl}}, {{t-|sr|пиће|n|sc=Cyrl}}, {{t|sr|напoj|m|sc=Cyrl}}
+*: Roman: [[napitak#Serbian|napitak]] {{m}}, [[piće#Serbian|piće]] {{n}}, [[napoj]] {{m}}
+* [[Sicilian]]: {{t+|scn|vìppita|f|xs=Sicilian}}
+* Slovene: {{t+|sl|pijača|f}}
+* Spanish: {{t+|es|bebida|f}}
+* Swahili: {{t+|sw|kinywaji|xs=Swahili}}
+* Swedish: {{t+|sv|dryck|c}}, {{t+|sv|dricka|c}}
+* [[Tagalog]]: {{t|tl|inumin|xs=Tagalog}}
+* [[Telugu]]: [[పానీయం]] (paaneeyam)
+* Turkish: [[içecek]], [[meşrubat]] ''(without alcohol)''
+* Vietnamese: {{t+|vi|ly|xs=Vietnamese}} (glass), {{t+|vi|cốc|xs=Vietnamese}} (glass), {{t+|vi|chai|xs=Vietnamese}} (bottle or can)
+* [[Volapük]]: {{t|vo|dlin}}
+* [[!Xóõ]]: [[kxʻāhã]]
+{{trans-bottom}}
+
+{{trans-top|served alcoholic beverage}}
+* Armenian: {{t-|hy|խմիչք|tr=xmichk}}
+* [[Basque]]: {{t+|eu|edan|xs=Basque}}, {{t|eu|edari|xs=Basque}}
+* Bosnian: {{t-|bs|piće|n}}
+* Bulgarian: {{t+|bg|питие|n}}
+* [[Catalan]]: {{t+|ca|beguda|f}}, {{t+|ca|glop|m}}
+* Croatian: {{t-|hr|piće|n}}
+* Czech: {{t-|cs|drink|m}}, {{t+|cs|pití|n}}
+* Danish: {{t-|da|drink}}
+* Dutch: {{t+|nl|drank|m}}, {{t+|nl|drankje|n}}, {{t+|nl|drankske|n}} (Flemish)
+* Esperanto: [[drinkaĵo]]
+* Estonian: {{t-|et|jook}}, {{t+|et|drink}}
+* [[Ewe]]: [[aha]] {{n}}
+* Filipino: {{tø|fil|inumin}}
+* Finnish: {{t+|fi|juoma}}, {{t+|fi|drinkki}}
+* French: {{t+|fr|verre|m}}
+* German: {{t-|de|Trunk|m}}
+* Greek: {{t|el|οινοπνευματώδες ποτό|tr=oinopnevmatódes potó}}, {{t|el|αλκοολούχο ποτό|tr=alkooloúcho potó}}, {{t+|el|ποτό|n|tr=potó}}
+* Hebrew: {{t+|he|משקה|m|tr=mashqe}}
+* Hungarian: {{t+|hu|ital}}
+* Indonesian: [[minuman keras]]
+* Italian: {{t+|it|bevanda|f}}
+{{trans-mid}}
+* Japanese: [[お酒]] (osake)
+* {{trreq|ko}}
+* Latin: {{t|la|potus|m}}, {{t|la|potio|f}}
+* Latvian: [[dzēriens]] {{m}}
+* Lithuanian: {{t|lt|gėrimas|m}}
+* [[Macedonian]]: {{t|mk|пијалок|m|tr=píjalok}}, {{t|mk|пијачка|f|tr=píjačka}}
+* [[Novial]]: [[drinke]]
+* [[Old English]]: {{t-|ang|drenc|m|xs=Old English}}, {{t-|ang|liþ|n|alt=līþ|xs=Old English}}
+* Persian: {{t|fa|نوشیدنی الکلی|tr=nōšidaniye alkoli|xs=Persian}}, {{t+|fa|باده|tr=bāda|xs=Persian}}
+* Polish: {{t+|pl|drink|m}}
+* Portuguese: {{t+|pt|bebida|f}}, {{t|pt|drinque|m}}
+* Romanian: {{t+|ro|băutură|f}}
+* Russian: {{t+|ru|напиток|m|tr=napítok}}
+* Serbian:
+*: Cyrillic: {{t-|sr|пиће|n|sc=Cyrl}}
+*: Roman: [[piće#Serbian|piće]] {{n}}
+* Slovene: {{t+|sl|pijača|f}}
+* Swahili: {{t+|sw|kinywaji|xs=Swahili}}
+* Swedish: {{t+|sv|drink|c}}, {{t+|sv|dricka}}
+* [[Tagalog]]: {{t|tl|inumin|xs=Tagalog}}
+* [[Telugu]]: [[పానీయం]] (paaneeyam)
+* Turkish: [[alkollü içecek]], [[içki]]
+* Vietnamese: [[ly]] [[rượu]], [[cốc]] rượu
+{{trans-bottom}}
+
+{{trans-top|action of drinking}}
+* Bulgarian: {{t-|bg|пиене|n}}
+* Czech: {{t+|cs|pití|n}}
+* Danish: {{t+|da|tår|c}}
+* Dutch: {{t+|nl|drinken|n}}
+* Estonian: [[joomine]], [[jooming]]
+* [[Ewe]]: [[nunono]] {{n}}
+* Filipino: {{tø|fil|pag-inom}}
+* Finnish: {{t-|fi|kulaus}}
+* French: {{t|fr|boire}}
+* German: {{t+|de|trinken}}
+* Greek: {{t+|el|πόση|f|tr=pósi}}
+* Hebrew: [[שתייה]] (shti'a) {{f}}
+* Irish: {{t+|ga|deoch|f|xs=Irish}}
+* Japanese: [[飲用]] (いんよう, in'yō)
+* Latin: {{t|la|potio|f}}, {{t|la|potus|m}}
+* Latvian: [[malks]] {{m}}, {{t|lv|dzeršana|f}}
+{{trans-mid}}
+* Lithuanian: {{t|lt|gėrimas|f}}, {{t|lt|išgėrimas|m}}
+* [[Marathi]]: [[पिणे]], [[पान]], पिण्याची क्रिया
+* [[Novial]]: [[drinko]]
+* [[Old English]]: {{t-|ang|drync|m|xs=Old English}}
+* Persian: {{t+|fa|نوشیدن|tr=nōšidan|xs=Persian}}
+* Polish: {{t+|pl|picie|n}}
+* Portuguese: {{t+|pt|bebida|f}}
+* Russian: {{t+|ru|питьё|n|tr=pit’jó}}
+* Slovene: {{t|sl|požirek|m}}
+* Swahili: {{t-|sw|kunywa|xs=Swahili}}
+* Swedish: {{t|sv|drickande|n}}, {{t|sv|klunk|c}}
+* [[Tagalog]]: {{t|tl|pag-inom|xs=Tagalog}}
+* Turkish: {{t+|tr|içmek}}
+* Vietnamese: {{t+|vi|uống|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|type of beverage}}
+* [[Basque]]: {{t|eu|edari|xs=Basque}}
+* Bulgarian: {{t+|bg|напитка|f}}
+* Czech: {{t+|cs|nápoj|m}}, {{t-|cs|drink|m}} (alcohol), {{t+|cs|pití|n}}
+* Danish: {{t-|da|drink|c}}
+* Dutch: {{t+|nl|drank|m}}, {{t+|nl|drankje|n}}, {{t+|nl|drankske|n}} (Flemish)
+* Esperanto: [[trinkaĵo]] (any beverage), [[drinkaĵo]] (alcohol)
+* Estonian: {{t-|et|jook}}, {{t+|et|drink}}
+* [[Ewe]]: [[nunono]] {{n}}
+* Filipino: {{tø|fil|inumin}}
+* Finnish: {{t+|fi|juoma}}, {{t+|fi|drinkki}}
+* French: {{t+|fr|boisson|f}}
+* German: {{t+|de|Getränk|n}}
+* Greek: {{t+|el|ποτό|n|tr=potó}}
+* Irish: {{t+|ga|deoch|f|xs=Irish}}
+* Japanese: [[飲料]] (いんりょう, in'ryō)
+* Latin: {{t|la|potio|f}}, {{t|la|potus|m}}
+* Latvian: [[dzēriens]] {{m}}
+{{trans-mid}}
+* [[Macedonian]]: {{t|mk|пијалок|m|tr=píjalok}}, {{t|mk|пијачка|f|tr=píjačka}}
+* [[Marathi]]: {{t-|mr|पेय|sc=Deva|xs=Marathi}}
+* [[Novial]]: [[drinke]]
+* [[Old English]]: {{t-|ang|drenc|m|xs=Old English}}, {{t-|ang|wæt|n|alt=wǣt|xs=Old English}}
+* Persian: {{t+|fa|نوشابه|tr=nōšāba|xs=Persian}}
+* Polish: {{t+|pl|napój|m}}
+* Portuguese: {{t+|pt|bebida|f}}, {{t+|pt|coquetel|m}}
+* Serbian:
+*: Cyrillic: {{t-|sr|напитак|m|sc=Cyrl}}, {{t-|sr|пиће|n|sc=Cyrl}}
+*: Roman: [[napitak#Serbian|napitak]] {{m}}, [[piće#Serbian|piće]] {{n}}
+* Swahili: {{t+|sw|kinywaji|xs=Swahili}}
+* Swedish: {{t+|sv|dryck|c}}
+* [[Tagalog]]: {{t|tl|inumin|xs=Tagalog}}
+* Turkish: {{t+|tr|içecek}}, {{t|tr|meşrubat}} ''(without alcohol)''
+* Vietnamese: {{t|vi|đồ uống|xs=Vietnamese}}, {{t|vi|thức uống|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|alcoholic beverages in general}}
+* [[Basque]]: {{t-|eu|alkohol|xs=Basque}}
+* Bulgarian: {{t|bg|алкохолни напитки|p}}
+* Danish: {{t+|da|alkohol}}, {{t-|da|spiritus}}
+* [[Ewe]]: [[aha]] {{n}}
+* Finnish: {{t+|fi|alkoholijuoma}}
+* Greek: {{t+|el|ποτό|n|tr=potó}}
+* Japanese: [[酒]] (さけ, sake), [[お酒]] (おさけ, osake)
+* [[Macedonian]]: {{t|mk|пијалок|m|tr=píjalok}},  {{t|mk|пијачка|f|tr=píjačka}}
+* [[Marathi]]: [[अपेयपेय]], [[दारू]], [[मदिरा]]
+{{trans-mid}}
+* Persian: {{t+|fa|می|tr=may|xs=Persian}}, {{t|fa|مشروب|tr=mašrōb|xs=Persian}}
+* Polish: {{t|pl|trunki|p}}
+* Serbian:
+*: Cyrillic: {{t-|sr|пиће|n|sc=Cyrl}}
+*: Roman: [[piće#Serbian|piće]] {{n}}
+* Swahili: {{t+|sw|kinywaji|xs=Swahili}}
+* Swedish: {{t+|sv|dricka}}, {{t+|sv|sprit}}, {{t+|sv|alkohol}}
+* Vietnamese: {{t+|vi|rượu|xs=Vietnamese}}
+{{trans-bottom}}
+
+{{trans-top|"the drink"- colloquially, any body of water}}
+* Swahili: {{t+|sw|kinywaji|xs=Swahili}}
+{{trans-mid}}
+* Swedish: {{t+|sv|dricka|n}}, {{t-|sv|spad|n}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|br}}: {{t+|br|died|f|xs=Breton}}, {{t|br|evaj|m|xs=Breton}}
+* {{ttbc|ca}}: {{t+|ca|beguda|f}}
+* {{ttbc|gn}}: [[jey'urã]]
+* {{ttbc|ia}}: [[bibita]], [[biberage]]
+* {{ttbc|nds}}: [[drinken]] {{n}}
+* {{ttbc|ang}}: [[drync]]
+* {{ttbc|goh}}: [[trunch]]
+* {{ttbc|non}}: [[drykkr]] {{m}}
+* {{ttbc|fa}}: {{fa-Arab|[[نوشابه]]}} (nušabe)
+* {{ttbc|es}}: {{t+|es|bebida|f}}
+* {{ttbc|tpn}}: [[embi'u]] (t-)
+{{trans-bottom}}
+
+[[Category:1000 English basic words]]
+[[Category:English irregular verbs]]
+
+----
+
+==Afrikaans==
+
+===Etymology===
+{{etyl|nl|af}} {{term|drinken|lang=nl}}.
+
+===Verb===
+'''drink'''
+
+# to [[#English|drink]]
+
+[[Category:Afrikaans verbs]]
+
+----
+
+==Czech==
+
+===Noun===
+'''drink'''
+
+# [[#English|drink]]; a (mixed) alcoholic beverage
+
+----
+
+==Danish==
+
+===Noun===
+{{da-noun|en|s}}
+
+# [[drink#English|drink]]; a (mixed) alcoholic beverage
+
+====Synonyms====
+* [[sjus]] {{c}}
+
+====Inflection====
+{{da-noun-infl|en|drinks|drinksene|||drinks'}}
+
+----
+
+==Dutch==
+
+===Verb===
+{{infl|nl}}
+
+# {{nl-verb-form|p=1|n=sg|t=pres|m=ind|drinken}}
+# {{nl-verb-form|m=imp|drinken}}
+
+----
+
+==French==
+
+===Etymology===
+{{etyl|en|fr}} {{term|drink|lang=en}}
+
+===Pronunciation===
+* {{IPA|/dʁiŋk/|lang=fr}}
+
+===Noun===
+{{fr-noun|m}}
+
+# A [[reception]] or after party where alcohol is served.
+
+----
+
+==Italian==
+{{wikipedia|lang=it}}
+
+===Etymology===
+From {{etyl|en|it}}
+
+===Noun===
+'''drink''' {{m|inv}}
+
+# [[#English|drink]]  (''served beverage and mixed beverage'')
+
+====Synonyms====
+* [[bevanda]]
+
+[[Category:Italian nouns]]
+
+----
+
+==[[Low Saxon]]==
+
+===Verb===
+'''drink'''
+
+# [[drink]]; first person singular of [[drinken]]
+
+[[Category:nds:Food and drink]]
+
+----
+
+==Swedish==
+
+===Pronunciation===
+* {{audio|Sv-en drink.ogg|audio}}
+
+===Noun===
+{{sv-noun|g=c}}
+
+# [[drink#English|drink]]; a (mixed) alcoholic beverage
+
+====Declension====
+{{sv-noun-reg-ar}}
+
+====Related terms====
+* [[drinkare]]
+
+[[Category:Food and drink]]
+[[Category:Liquids]]
+[[Category:sv:Alcoholic beverages]]
+
+[[ar:drink]]
+[[zh-min-nan:drink]]
+[[ca:drink]]
+[[cs:drink]]
+[[cy:drink]]
+[[de:drink]]
+[[et:drink]]
+[[el:drink]]
+[[es:drink]]
+[[eo:drink]]
+[[eu:drink]]
+[[fa:drink]]
+[[fr:drink]]
+[[gl:drink]]
+[[ko:drink]]
+[[hy:drink]]
+[[hr:drink]]
+[[io:drink]]
+[[id:drink]]
+[[it:drink]]
+[[kn:drink]]
+[[kk:drink]]
+[[sw:drink]]
+[[ku:drink]]
+[[lo:drink]]
+[[lv:drink]]
+[[lt:drink]]
+[[li:drink]]
+[[hu:drink]]
+[[ml:drink]]
+[[my:drink]]
+[[nl:drink]]
+[[ja:drink]]
+[[no:drink]]
+[[oc:drink]]
+[[pl:drink]]
+[[pt:drink]]
+[[ru:drink]]
+[[sq:drink]]
+[[simple:drink]]
+[[sr:drink]]
+[[fi:drink]]
+[[sv:drink]]
+[[ta:drink]]
+[[te:drink]]
+[[th:drink]]
+[[tr:drink]]
+[[uk:drink]]
+[[vi:drink]]
+[[zh:drink]]

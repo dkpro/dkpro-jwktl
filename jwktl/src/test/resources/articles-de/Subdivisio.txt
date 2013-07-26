@@ -1,0 +1,41 @@
+== Subdivisio ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Substantiv-Tabelle|
+ Wer oder was? (Einzahl)=die Subdivisio
+|Wer oder was? (Mehrzahl)=die Subdivisiones
+|Wessen? (Einzahl)=der Subdivisio
+|Wessen? (Mehrzahl)=der Subdivisiones
+|Wem? (Einzahl)=der Subdivisio
+|Wem? (Mehrzahl)=den Subdivisiones
+|Wen? (Einzahl)=die Subdivisio
+|Wen? (Mehrzahl)=die Subdivisiones
+}}
+
+{{Silbentrennung}}
+: Sub·di·vi·si·o, {{Pl.}} Sub·di·vi·si·o·nes
+
+{{Aussprache}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+:{{IPA}} {{Lautschrift|...}}, {{Pl.}} {{Lautschrift|...}}
+
+{{Bedeutungen}}
+:[1] [[Biologie]]: Die hierarchische Gliederungsstufe der [[Divisio]] (dt.: [[Abteilung]]) im Reich der Pflanzen und der Pilze kann weiter in '''Subdivisiones''' (dt.: [[Untterabteilung|Unterabteilungen]]) differenziert werden.
+    
+{{Synonyme}}
+:[1] Unterabteilung (in der Biologie)
+
+{{Beispiele}}
+:[1]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{fr}}: [1] [[sub-division]]
+{{Ü-Abstand}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Abteilung (Biologie)}}
+
+[[fr:Subdivisio]]
+[[ru:Subdivisio]]

@@ -1,0 +1,260 @@
+==English==
+
+===Pronunciation===
+* {{IPA|/paʊnd/}}
+* {{audio|en-us-pound.ogg|Audio (US)}}
+* {{rhymes|aʊnd}}
+
+===Etymology 1===
+From {{etyl|ang|en}} {{term|pund|lang=ang}}, from {{proto|Germanic|punda-|lang=en}}, an early borrowing from {{etyl|la|en}} {{term|pondo|pondō|lang=la|by weight}}, an ablative form of {{term|pondus|lang=la||weight}}, especially of a {{term|libra||lang=la|Roman unit of weight}}. Cognate with Dutch {{term|pond|lang=nl}}, German {{term|Pfund|lang=de}}, Swedish {{term|pund|lang=sv}}.
+
+====Noun====
+{{en-noun}}
+
+# Short for [[pound-force]], a unit of force/weight.
+# A [[unit]] of [[mass]] equal to 16 [[avoirdupois]] ounces (= 453.592 37 g)
+# A unit of [[mass]] equal to 12 [[troy weight|troy ounce]]s (≈ 373.242 g).
+# {{US}} The symbol {{unsupported|#}} ([[octothorpe]], [[hash]]) <!--isn't this "pound sign" rather than "pound"?-->
+# The unit of currency of used in the United Kingdom and its [[dependency|dependencies]].
+# Any of various units of [[currency]] used in Cyprus; Egypt; Lebanon; and formerly in the Republic of Ireland and Israel.
+
+=====Usage notes=====
+* Internationally, the "pound" has most commonly referred to the UK pound. The other currencies were usually distinguished in some way, e.g., the "Irish pound" or the "punt".
+* In the vicinity of each other country calling its currency the pound among English speakers the local currency would be the "pound", with all others distinguished, e.g., the "British pound".
+
+=====Synonyms=====
+* {{sense|16 avoirdupois ounces}} [[lb]]
+* {{sense|12 troy ounces}} [[lb t]]
+* {{sense|UK unit of currency}} <big>[[£]]</big>, [[pound sterling]]
+* {{sense|Other units of currency}} [[punt]] (''the former Irish currency'')
+* {{sense|# symbol}} [[hash]] (''UK''), [[sharp]]
+
+=====Derived terms=====
+* [[pack on the pounds]]
+* [[take care of the pennies and the pounds will take care of themselves]]
+
+=====See also=====
+* {{pedia|Pound|Pound (the unit of mass)}}
+* {{pedia|Pound_Sterling|Pound (the UK unit of currency)}}
+* {{sense|UK unit of currency}} [[sterling]]
+
+=====Translations=====
+{{trans-see|pound-force}}
+{{trans-top|unit of mass (16 ounces avoirdupois)}}
+* Arabic: {{Arab|[[باوند]]}} {{IPAchar|(baund)}} {{m}},  {{t|ar|منا|f|tr=mannah}}
+* Armenian: {{t|hy|ֆունտ|tr=funt|sc=Armn}}
+* [[Basque]]: [[libra]]
+* Bosnian: {{t-|bs|funta|f}}
+* Bulgarian: {{t-|bg|фунт|m}}
+* [[Catalan]]: [[lliura]] {{f}}
+* Chinese: [[磅]] (bàng)
+* Czech: {{t-|cs|libra|f}}
+* Danish: {{t-|da|pund|n}}
+* Dutch: {{t+|nl|pond|n}}
+* Esperanto: {{t-|eo|funto|xs=Esperanto}}
+* Finnish: {{t+|fi|naula}}, {{t-|fi|pauna}}
+* French: {{t+|fr|livre|f}}
+* German: {{t+|de|Pfund|n}}
+* Greek: {{t+|el|λίβρα|f}},  {{t|el|μνα|f|tr=mnah}}
+* Hungarian: {{t+|hu|font}}
+* Irish: {{t-|ga|punt|m|xs=Irish}}
+* Italian: {{t+|it|libbra|f}}
+* Japanese: {{t+|ja|ポンド|tr=pondo}}
+* Korean: [[파운드]] (paundeu)
+{{trans-mid}}
+* Latin: {{t-|la|libra|f}}
+* Lithuanian: {{t+|lt|svaras|m}}
+* [[Luxembourgish]]: [[Pond]]
+* [[Macedonian]]: {{t|mk|либра|f|tr=líbra}},  {{t-|mk|фунта|f|tr=fúnta}}
+* Maltese: {{t-|mt|libra|f|xs=Maltese}}
+* Norwegian: {{t+|no|pund|n}}
+* Polish: {{t+|pl|funt|m}}
+* Portuguese: {{t+|pt|libra|f}}
+* Romanian: {{t|ro|livră|f}},  {{t-|ro|pfund|m}}
+* Russian: {{t+|ru|фунт|m|tr=funt}}
+* [[Scottish Gaelic]]: {{t-|gd|punnd|m|xs=Scottish Gaelic}}
+* Serbian: {{t-|sr|фунта|f|tr=funta|sc=Cyrl}}
+* Slovak: {{t-|sk|libra|f}}
+* Slovene: {{t+|sl|funt|m}}
+* Spanish: {{t+|es|libra|f}}
+* Swahili: [[ratili]] ''(noun 9/10)''
+* Swedish: {{t+|sv|pund|n}}
+* Turkish: {{t+|tr|libre}}
+* Yiddish: [[פונט]] (punt) {{n}}
+{{trans-bottom}}
+
+{{trans-see|US: symbol #|pound sign}}
+
+{{trans-top|unit of currency}}
+* Armenian: {{t|hy|ֆունտ|tr=funt|sc=Armn}}
+* Czech: {{t-|cs|libra|f}}
+* Dutch: {{t+|nl|pond|n}}
+* Esperanto: {{t|eo|pundo}}
+* Finnish: {{t+|fi|punta}}
+* French: {{t+|fr|livre|f}}
+* German: {{t+|de|Pfund|n}}
+* Greek: {{t+|el|λίρα|f}}
+* Hungarian: {{t+|hu|font}}
+* Irish: {{t-|ga|punt|m|xs=Irish}}
+* Italian: {{t+|it|lira|f}},  {{t|it|lira sterlina}},  {{t+|it|sterlina}}
+* Japanese: {{t+|ja|ポンド|tr=pondo}}
+{{trans-mid}}
+* Lithuanian: {{t|lt|svaras|m}}
+* [[Macedonian]]: {{t-|mk|фунта|f|tr=fúnta}}
+* Maltese: {{t-|mt|lira|f|xs=Maltese}}
+* Polish: {{t+|pl|funt|m}}
+* Romanian: {{t|ro|liră|f}}
+* Russian: {{t+|ru|фунт|m|tr=funt}}
+* [[Scottish Gaelic]]: {{t-|gd|not|m|xs=Scottish Gaelic}},  {{t-|gd|punnd|m|xs=Scottish Gaelic}},  {{t-|gd|nota|m|xs=Scottish Gaelic}}
+* Serbian: {{t-|sr|фунта|f|tr=funta|sc=Cyrl}}
+* Spanish: {{t+|es|libra|f}}
+* Swedish: {{t+|sv|pund|n}}
+{{trans-bottom}}
+
+===Etymology 2===
+From {{etyl|enm|en}} {{term|pounde|lang=enm}}, from {{etyl|ang|en}} {{term|pyndan||to enclose, impound|lang=ang}}.
+
+====Noun====
+{{en-noun}}
+
+# A place for the detention of stray or wandering [[animal]]s.
+# A place for the detention of automobiles that have been illegally parked, abandoned, etc.
+# The part of a [[canal]] between two [[lock]]s, and therefore at the same water level.
+
+=====Usage notes=====
+* [[w:Manx English|Manx English]] uses this word uncountably.
+
+=====Translations=====
+{{trans-top|place for the detention of stray animals}}
+* Finnish: {{t|fi|eläinkoti}}
+* French: {{t+|fr|fourrière|f}}
+* German: {{t|de|Zwinger|m}}, {{t+|de|Tierheim|n}}
+* Greek: {{t+|el|μαντρί|n}}
+{{trans-mid}}
+* Italian: {{t+|it|canile|m}},  {{t+|it|recinto}}
+* [[Macedonian]]: {{t|mk|кафилерија|f|tr=kafilérija}}
+* [[Scottish Gaelic]]: {{t-|gd|punnd|m|xs=Scottish Gaelic}}
+* Spanish: {{t-|es|perrera|f}}
+{{trans-bottom}}
+
+{{trans-top|place for detention of automobiles}}
+* Finnish: {{t|fi|takavarikkoalue}}
+* French: {{t+|fr|fourrière|f}}
+* German: {{t+|de|Verwahrstelle|f}}
+{{trans-mid}}
+* Greek: {{t+|el|μάντρα|f}}
+* Italian: {{t-|it|autoparco}},  {{t|it|deposito auto}}
+{{trans-bottom}}
+
+{{trans-top|hard blow}}
+* Finnish: {{t+|fi|isku}}
+{{trans-mid}}
+* Italian: {{t+|it|botta}},  {{t|it|colpo forte}},  {{t-|it|tonfo}},  {{t-|it|martellio}}
+{{trans-bottom}}
+
+{{trans-top|part of canal}}
+* Finnish: {{t|fi|sulkuallas}}
+{{trans-mid}}
+* Italian: {{t|it|bacino idrico}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Danish: {{t-|da|pund|n}}
+* Esperanto: [[funto]] (1), [[pundo]] (2), [[gardejo]] (3), [[frapego]] (4)
+* French: {{t+|fr|fourrière|f}} (3)
+{{trans-mid}}
+* Polish: {{t+|pl|funt|m}}
+* Slovak: [[funt]] {{m}} (1), [[libra]] {{f}} (2)
+{{trans-bottom}}
+
+===Etymology 3===
+From {{etyl|enm|en}} {{term|pounden|lang=enm}}, alteration of {{term|pounen|lang=enm}}, from {{etyl|ang|en}} {{term|punian|pūnian|lang=ang}}. Likely influenced by '''Etymology 2''' {{etyl|enm|en}} {{term|pounde|lang=enm}}, from {{etyl|ang|en}} {{term|pyndan||to enclose, impound|lang=ang}}, in relation to the hollow [[mortar]] for pounding with the [[pestle]].
+
+====Verb====
+{{en-verb}}
+
+# {{transitive}} To strike (something or someone) hard repeatedly.
+# {{transitive}} To [[crush]] to pieces; to [[pulverize]].
+# {{transitive|slang}} To eat or drink very quickly.
+#: ''You really '''pounded''' that beer!''
+# {{transitive|baseball|slang}} To [[pitch]] consistently to a certain location.
+#: ''The pitcher has been '''pounding''' the outside corner all night.''
+
+=====Synonyms=====
+* {{sense|drink quickly}} [[Wikisaurus:drink]]
+
+=====Derived terms=====
+* [[pounding]]
+* [[pound down]]
+* [[pound the table]]
+* [[pound sand]]
+
+=====Translations=====
+{{trans-top|to strike hard repeatedly}}
+* Czech: [[bušit]]
+* [[Ewe]]: [[to]]
+* Finnish: {{t-|fi|takoa}}, {{t-|fi|rusikoida}}
+* Icelandic: {{t-|is|banga}}
+* Italian: {{t+|it|battere}}
+* Lithuanian: {{t|lt|daužyti}}
+{{trans-mid}}
+* [[Old Norse]]: [[banga]]
+* Romanian: {{t-|ro|pisa}},  {{t-|ro|bate}}
+* [[Scottish Gaelic]]: {{t|gd|buail}}
+* Spanish: {{t+|es|pilar}}
+* [[!Xóõ]]: {{tø|nmn|!qhāã}}
+{{trans-bottom}}
+
+{{trans-top|crush to pieces}}
+* [[Ewe]]: [[to]]
+* Finnish: {{t-|fi|murskata}}
+* Icelandic: {{t-|is|banga}}
+{{trans-mid}}
+* Italian: {{t-|it|frantumare}},  {{t-|it|tritare}},  {{t-|it|triturare}},  {{t-|it|polverizzare}}
+* Korean: ([[방아]])[[찧다]] ((bang-a-)jjihda), [[빻다]] (ppahda)
+* [[Old Norse]]: [[banga]]
+{{trans-bottom}}
+
+{{trans-top|slang: eat or drink quickly}}
+* Finnish: {{t-|fi|imaista}}
+{{trans-mid}}
+* Italian: {{t-|it|ingurgitare}}
+{{trans-bottom}}
+
+=====See also=====
+* [[bang]]
+
+====Noun====
+{{en-noun}}
+
+# A hard blow.
+
+[[Category:Canal]]
+[[Category:Currency]]
+[[Category:Units of measure]]
+
+[[et:pound]]
+[[el:pound]]
+[[es:pound]]
+[[fa:pound]]
+[[fr:pound]]
+[[ko:pound]]
+[[io:pound]]
+[[it:pound]]
+[[kn:pound]]
+[[ku:pound]]
+[[lo:pound]]
+[[hu:pound]]
+[[ml:pound]]
+[[my:pound]]
+[[ja:pound]]
+[[pl:pound]]
+[[ru:pound]]
+[[simple:pound]]
+[[fi:pound]]
+[[ta:pound]]
+[[tt:pound]]
+[[te:pound]]
+[[tr:pound]]
+[[vi:pound]]
+[[zh:pound]]

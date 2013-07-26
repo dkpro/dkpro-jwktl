@@ -1,0 +1,210 @@
+{{wikipedia}}
+==English==
+
+===Verb===
+<!--not an interjection: see the definitions below-->
+{{en-verb|inf=to [[shut]] [[up]]|shuts up|shutting up|shut up|shut up}}
+
+# {{transitive}} To [[close]] (a building) so that no one can enter.
+# {{transitive}} To [[terminate]] (a business).
+# {{transitive}} To [[enclose]] (a person, animal or thing) in a room or other place so that it cannot leave.
+#* '''1886''', {{w|Robert Louis Stevenson}}, {{w|Strange Case Of Dr Jekyll And Mr Hyde}}
+#*: "You know the doctor's ways, sir," replied Poole, "and how he '''shuts himself up'''. Well, he's '''shut up''' again in the cabinet; and I don't like it, sir--I wish I may die if I like it. Mr. Utterson, sir, I'm afraid."
+# {{transitive}} To [[put]] (an object) in a secure enclosed place.
+# {{transitive}} To stop (a person) from [[talk]]ing or (a person or thing) making noise.
+# {{intransitive}} Of a person, to stop [[talk]]ing or (of a person or thing) making noise.<!--Note: "Shut up!" is not an interjection: it is just the imperative form of the verb in this sense.-->
+#: ''You are talking so loud that I can't hear the music &mdash; would you mind '''shutting''' up?''
+# {{context|intransitive|slang|used only in the [[imperative]]}} I don't believe it!, [[no way]]!
+
+====Usage notes====
+When used in the imperative to tell someone to be quiet or to stop making a noise, this expression is considered forceful or impolite. A neutral alternative is "be quiet".
+
+====Synonyms====
+* {{sense|close (a building)}} [[close off]], [[seal up]]
+* {{sense|terminate (a business)}} [[end]], [[terminate]], [[wind up]]
+* {{sense|enclose (a person, animal or thing) in a room so that it cannot leave}} [[lock]] in, [[seal]] in
+* {{sense|put (an object) in a secure enclosed place}} [[lock up]], [[stash]], stash away
+* {{sense|to stop (a person) from talking or (a person or thing) making noise}} [[hush]], [[quieten]], [[shush]], [[silence]]
+* {{sense|to stop talking or making noise}} be [[quiet]], be [[silent]], [[fall]] silent, [[hush]], [[quieten]] down, [[shush]]; (''in the imperative''): be quiet!, [[can it]]!, [[hush]]!, [[put a sock in it]]!, quiet!, [[sh]]!, [[shush]]!, [[shut it]]!, [[shut your face]]! {{italbrac|impolite}}, [[shaddap]], [[silence]]!, [[st]]!, [[STFU]]
+* {{sense|I don't believe it}} [[get out]]!, [[never]]!, [[no]]!, [[no way]]!, [[yeah right]]!, [[you don't say]]!
+
+====Antonyms====
+* {{sense|close (a building)}} [[open]], [[open up]], [[reopen]]
+* {{sense|terminate (a business)}} [[establish]], [[set up]], [[start]], [[start up]]
+* {{sense|enclose (a person, animal or thing) in a room so that it cannot leave}} [[release]]
+
+====Translations====
+{{trans-top|close (a building) so that no one can enter}}
+* Filipino: {{tø|fil|sara|alt=isara}}
+* Finnish: {{t+|fi|sulkea}}, {{t+|fi|lukita}}
+* French: {{t+|fr|fermer}}
+* [[Hiligaynon]]: {{tø|hil|saradhi}}
+* Hungarian: {{t-|hu|becsuk}},  {{t+|hu|becsap}}
+* Japanese: {{t|ja|封鎖する|tr=fūsa suru}}
+{{trans-mid}}
+* Polish: {{t|pl|zamknąć}}
+* Spanish: {{t+|es|cerrar}}
+* Swedish: {{t+|sv|stänga}}, {{t+|sv|låsa}}
+* [[Tagalog]]: {{t-|tl|sara|alt=isara|xs=Tagalog}}
+* Turkish: {{t+|tr|kilitlemek}}, {{t+|tr|kapatmak}}
+{{trans-bottom}}
+
+{{trans-top|terminate (a business)}}
+* Finnish: [[sulkea]], [[lopettaa]] ([[toiminta]])
+* Hungarian: {{t+|hu|bezár}}
+* Japanese: {{t|ja|たたむ|tr=tatamu}}
+* Polish: {{t|pl|zamknąć}}
+{{trans-mid}}
+* Russian: {{t+|ru|запереть}} ''(=[[lock up]])''
+* Spanish: {{t+|es|cerrar}}, {{t-|es|clausurar}}
+* Swedish: {{t+|sv|stänga}}, {{t|sv|slå igen}}
+{{trans-bottom}}
+
+{{trans-top|enclose (a person, animal or thing) in a room or other place so that it cannot leave}}
+* Filipino: {{tø|fil|kulong|alt=ikulong}},  {{tø|fil|lagay|alt=ilagay}},  {{tø|fil|tago|alt=itago}}
+* Finnish: {{t+|fi|sulkea}}, {{t-|fi|teljetä}}, {{t+|fi|vangita}}
+* French: {{t+|fr|enfermer}},  {{t+|fr|renfermer}}
+* Hungarian: {{t+|hu|bezár}}
+* Japanese: {{t|ja|監禁する|tr=kankin suru}}
+* Polish: {{t|pl|zamknąć}}
+{{trans-mid}}
+* Spanish: {{t-|es|encerrar}}
+* Swedish: {{t|sv|låsa in}}, {{t|sv|bura in}}
+* [[Tagalog]]: {{t|tl|kulong|alt=ikulong|xs=Tagalog}},  {{t|tl|lagay|alt=ilagay|xs=Tagalog}},  {{t-|tl|tago|alt=itago|xs=Tagalog}}
+* Turkish: {{t|tr|hapsetmek}}, {{t+|tr|kapatmak}}
+{{trans-bottom}}
+
+{{trans-top|put (an object) in a secure enclosed place}}
+* Finnish: [[laittaa]] [[talteen]]
+* French: {{t+|fr|enfermer}},  {{t+|fr|renfermer}}
+* Hungarian: {{t|hu|elzár}}
+* Japanese: {{t|ja|封印する|tr=fūin suru}}
+{{trans-mid}}
+* Polish: {{t|pl|zamknąć}}
+* Spanish: {{t-|es|encerrar}}, {{t+|es|guardar}}, {{t-|es|resguardar}}
+* Swedish: {{t|sv|låsa in}}
+* Turkish: {{t+|tr|kapatmak}}, {{t+|tr|kilitlemek}}
+{{trans-bottom}}
+
+{{trans-top|transitive: to stop (a person) from talking or (a person or thing) from making noise}}
+* Finnish: [[hiljentää]], [[vaientaa]], [[tehdä]] [[hiljainen|hiljaiseksi]], [[sulkea]] [[suu]]
+* French: [[faire]] [[taire]],  {{t+|fr|taire}}
+* Hungarian: {{t|hu|elhallgattat}}
+* Japanese: {{t|ja|黙らせる|tr=damaraseru}}
+* Polish: {{t|pl|zamknąć}}
+{{trans-mid}}
+* Portuguese: {{t+|pt|calar}}
+* Russian: {{t|ru|заткнуть|tr=zatknút'}} {{pf.}} {{qualifier|rude}}
+* Spanish: {{t+|es|callar}}
+* Swedish: {{t+|sv|tysta}}, {{t|sv|kväsa}}
+* Turkish: {{t|tr|susturmak}}, {{t|tr|çenesini kapatmak}}
+{{trans-bottom}}
+
+{{trans-top|intransitive: to stop talking or making noise}}
+* Finnish: [[hiljetä]], [[vaieta]], [[sulkea]] [[suu|suunsa]]
+* French: {{t-|fr|se taire}}
+* German: {{t|de|den Mund halten}}
+* Hungarian: {{t|hu|kussol}},  {{t|hu|elkussol}},  {{t|hu|bekussol}},  {{t|hu|befogja a száját}},  {{t|hu|befogja a pofáját}}
+* Italian: [[fare#Italian|fare]] [[silenzio]], [[stare#Italian|star]] [[zitto]], [[tacere]]
+* Japanese: {{t|ja|静かにする|tr=shizuka ni suru}}
+{{trans-mid}}
+* Persian: {{t|fa|خفه شو|sc=fa-Arab}}
+* Polish: {{t+|pl|zamknąć się}}
+* Portuguese: {{t|pt|calar-se}},  {{t-|pt|calar a boca}}
+* Russian: {{t+|ru|заткнуться|tr=zatknútsja'}} {{pf.}} {{qualifier|rude}}
+* Spanish: {{t-|es|callarse}}, {{t-|es|cerrar la boca}}
+* Swedish: {{t+|sv|tiga}}
+* Turkish: {{t+|tr|susmak}}
+{{trans-bottom}}
+
+{{trans-top|-- imperative: "Shut up!"}}
+* [[Afrikaans]]: {{t|af|bly stil|xs=Afrikaans}}
+* Albanian: {{t|sq|shët|xs=Albanian}}!,  {{t|sq|qetësi|xs=Albanian}}!,  {{t|sq|mbylle gojën|xs=Albanian}}!
+* Arabic: {{t+|ar|صه|tr=Sah}},  {{t|ar|اسكت|tr=úskut}},  {{t|ar|إخرس|tr='íkhras}},  {{t|ar|سكر تمك|tr=sákkir túmmak}}
+* Belarusian: {{t|be|заткніцеся|tr=zatkniciesia|xs=Belarusian}}!
+* Bulgarian: {{t+|bg|млъкни|tr=mlakni!}}
+* Cantonese: {{tø|zh-yue|收聲|sc=Hani}}
+* Chinese:
+*: Mandarin: {{t|cmn|閉嘴|sc=Hani}},  {{t|cmn|闭嘴|tr=bìzuǐ|sc=Hani}},  {{t|cmn|住口|tr=zhùkǒu|sc=Hani}}
+* Czech: {{t|cs|mlč}}!,  {{t|cs|drž hubu}}
+* Danish: {{t|da|hold kæft}}
+* Estonian: {{t|et|suu kinni}}!
+* Filipino: {{tø|fil|tumahimik ka|alt=tumahimik ka}}!
+* Finnish: [[ole]] [[hiljaa]]  {{s}} / [[olkaa]] [[hiljaa]] {{p}}, [[hiljaa]], [[suu]] [[tukko|tukkoon]] {{qualifier|impolite}}, [[turpa]] [[kiinni]] {{qualifier|rude}}
+* French: [[tais-toi]]! ''informal'', [[taisez-vous]]! ''formal or plural''; [[ferme-la]]! ''informal and impolite'', [[boucle-la]]! ''informal and impolite'', [[ta gueule]]! ''informal and very impolite''
+* German: {{t|de|halt den Mund}},  {{t|de|halt dein Maul}},  {{t|de|halt die Fresse}},  {{t|de|halt die Klappe}} {{qualifier|sg.}},  {{t|de|halt's Maul}}, {{t|de|halt den Rand}}
+* Greek: [[σκασμός]] (skasmós), [[σκάσε]] (skáse), [[βούλωσέ το]] (vulosé to), [[ησυχία]] (isikhía) ''informal'', [[πάψε]] (pápse) ''informal''
+{{trans-mid}}
+* Hebrew: {{t|he|שתוק|tr=shtók}},  {{t|he|סתום|tr=stóm}},  {{t|he|סתום ת'פה|tr=stóm tapé}}
+* [[Hiligaynon]]: {{tø|hil|hipus|alt=hipus!}}
+* Hungarian: {{t-|hu|kuss}},  {{t|hu|pofa be}}
+* Italian: [[stai zitto]], [[taci]], [[zitto]] ''informal and singular'', [[state zitti]], [[tacete]], [[zitti]] {{p}}, [[silenzio]]
+* Japanese: {{qualifier|impolite|stop talking}} {{t-|ja|だまれ|tr=damare}}; {{qualifier|impolite|noisy}} {{t+|ja|うるさい|tr=urusai}}; {{qualifier|polite}} {{t|ja|お静かに|tr=o-shizuka ni}}; {{qualifier|polite and rude}} {{t|ja|お黙り|tr=o-damari}}
+* Norwegian: {{t|no|hold kjeft}}, {{t|no|hold tåta}}, {{t|no|kjeften}}, {{t|no|kjeft}}, {{t|no|hold munn}}
+* Polish: {{t|pl|zamknij się}}
+* Portuguese: [[cala a boca]], [[cale-se]], [[cale a boca]], [[cala-te]]
+* Romanian: {{t|ro|taci din gură}},  {{t-|ro|taci}}
+* Russian: {{t|ru|заткнись|tr=zatknís'}} {{qualifier|sg.}},  {{t|ru|заткнитесь|tr=zatknítes'}} {{qualifier|pl.}},  {{t|ru|замолчи|tr=zamolčí}} {{qualifier|sg.}},  {{t|ru|замолчите|tr=zamolčíte}} {{qualifier|pl.}},  {{t|ru|закрой рот|tr=zakrój rot}} {{qualifier|sg.}}, {{t|ru|закройте рот|tr=zakrójte rot}} {{qualifier|pl.}}
+* [[Scots]]: {{tø|sco|haud|xs=Scots}} {{tø|sco|yer|xs=Scots}} {{tø|sco|wheesht|xs=Scots}}
+* Spanish: {{t-|es|cállate}}, {{t-|es|cierra la boca}}, {{t-|es|callad}}, {{t-|es|cállanse}}, {{t-|es|cállese}}, {{t+|es|silencio}}
+* Swedish: {{t|sv|håll tyst}}, {{t|sv|håll käften}}, {{t+|sv|tig}}
+* [[Tagalog]]: {{t|tl|tumahimik ka|alt=tumahimik ka!|xs=Tagalog}}
+* Turkish: {{t|tr|kapa çeneni}},  {{t+|tr|sus}}, {{t|tr|kes sesini}}
+* Welsh: [[cau dy geg]]
+{{trans-bottom}}
+
+{{trans-top|"I don't believe it!"}}
+* Dutch: [[ga weg]]!, [[dat meen je niet]]!, [[nooit]]!
+* Filipino: {{tø|fil|hindi nga|alt=hindi nga!}}
+* Finnish: [[älä]] [[sanoa|sano]]!, [[höpö-höpö]]!
+* Greek: [[έλα]] (éla), [[άντε]] (ánte)
+* Hungarian: {{t|hu|nem mondod}},  {{t+|hu|micsoda}}
+{{trans-mid}}
+* Italian: {{t|it|ma va|alt=ma va!}}
+* Polish: {{t|pl|nie gadaj!}}
+* Swedish: {{t|sv|vad säger du}}
+* [[Tagalog]]: {{t|tl|hindi nga|alt=hindi nga!|xs=Tagalog}}
+* Turkish: {{t|tr|ne diyorsun}}, {{t|tr|inanmıyorum}}
+{{trans-bottom}}
+
+<!--previous content:
+* ([[Informal]]) {{idiom}} Said to people to stop them talking or making noise. Generally used to insult, to command attention, or to convey urgency, but is sometimes used lightheartedly by teens or among close friends.
+*: ''Would you please '''shut up''' about it?  Screaming won't help.''
+* ([[Informal]]) {{idiom}} Indicating disbelief.
+*: ''Did she really ask him out? '''Shut up'''!''
+-->
+<!-- =====Translations to be checked=====
+
+NOTE:
+
+Most or all of these translations are of the imperative form of the sense "to be quiet". Please provide translations of the infinitive, where appropriate, followed by translations of the imperative. See the French and Italian translations above for an example of the suggested format.
+
+-->
+{{checktrans-top}}
+'''said to people to stop them talking or making noise'''
+* {{ttbc|nl}}: [[ophouden]], [[mond houden]], [[bek dicht]], [[klep dicht]], [[hou je muil]]
+* {{ttbc|id}}: [[diam]]
+* {{ttbc|ku}}: {{ku-Arab|[[ده‌مت داخه‌]]}}
+* {{ttbc|ms}}: [[Diam]]
+* {{ttbc|pt}}: {{italbrac|Brazil}} [[cala a boca]], {{italbrac|Portugal}} [[cala-te]]
+* {{ttbc|ro}}: [[gura]], [[taci din gurã]]
+{{trans-bottom}}
+
+===Anagrams===
+* {{alphagram|hpstuu}}
+* [[Pushtu#English|Pushtu]]
+
+[[Category:English imperative sentences]]
+[[Category:English phrasal verbs]]
+[[Category:Talking]]
+
+[[ang:shut up]]
+[[et:shut up]]
+[[fr:shut up]]
+[[hr:shut up]]
+[[hu:shut up]]
+[[io:shut up]]
+[[ja:shut up]]
+[[pl:shut up]]
+[[sv:shut up]]
+[[ta:shut up]]

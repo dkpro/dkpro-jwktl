@@ -1,0 +1,224 @@
+{{Wort der Woche|40|2008}}
+== Kartoffel ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Bild 1=Potato flowers.jpg|250px|1|Blüten der ''Kartoffel''
+|Bild 2=Potatoes.jpg|250px|2|''Kartoffeln''
+|Nominativ Singular=die Kartoffel
+|Nominativ Plural=die Kartoffeln
+|Genitiv Singular=der Kartoffel
+|Genitiv Plural=der Kartoffeln
+|Dativ Singular=der Kartoffel
+|Dativ Plural=den Kartoffeln
+|Akkusativ Singular=die Kartoffel
+|Akkusativ Plural=die Kartoffeln
+}}
+
+{{Worttrennung}}
+:Kar·tof·fel, {{Pl.}} Kar·tof·feln
+
+{{Anmerkung}}
+:In einigen deutschen Dialekten ist „Kartoffel“ maskulin, da heißt es dann „der Kartoffel“.
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|kaʁˈtɔfl̩}}, {{Pl.}} {{Lautschrift|kaʁˈtɔfl̩n}}
+:{{Hörbeispiele}} {{Audio|De-at-Kartoffel.ogg|Kartoffel (Österr.)}}, {{Pl.}} {{Audio|De-at-Kartoffeln.ogg|Kartoffeln (Österr.)}}
+
+{{Bedeutungen}}
+:[1] ''[[Botanik]]:'' eine Nutzpflanze mit weiß-bläulichen Blüten und grünen Beeren
+:[2] ''[[Botanik]]:'' eine essbare Knolle von der gleichnamigen Pflanze
+:[3] ''scherzhaft:'' [[Knollennase]]
+:[4] ''ironisch, scherzhaft:'' [[Taschenuhr]]
+:[5] ''ironisch, scherzhaft:'' großes [[Loch]] im [[Strumpf]]
+
+{{Herkunft}}
+: über die noch im 18. Jahrhundert verbreiteten Bezeichnungen ''Tartuffel'' und ''Tartüffel'' abgeleitet vom [[italienisch]]en ''{{Ü|it|tartufolo}}'', der Verkleinerungsform von {{Ü|it|tartufo}} ([[Trüffel]]); zu diesem Namen kam die Kartoffel, da sie mit dem ebenfalls unterirdisch wachsenden Trüffel verwechselt wurde&lt;ref&gt;{{Lit-Gutknecht: Pustekuchen}}, „Kartoffel“, Seite 122&lt;/ref&gt;
+
+{{Synonyme}}
+:[2] meist regional/dialektal: [[Arpern]], [[Bramburi]], [[Bulwe]], [[Erdapfel]], [[Erdbirne]], [[Erdbirne]], [[Grundbeere]],  [[Grundbirne]], [[Knolle]], [[Pudel]]<!-- hier nur die Grundworte --> — siehe unten: Dialektausdrücke
+:[3] [[Kartoffelnase]], [[Knollennase]]
+:[4] [[Zwiebel]]
+:[5] [[Kuhloch]]
+
+{{Oberbegriffe}}
+:[1] [[Nachtschattengewächs]]
+:[2] [[Nahrungsmittel]]
+
+{{Unterbegriffe}}
+:[2] [[Annakartoffel]], [[Bratkartoffel]], [[Frühkartoffel]], [[Futterkartoffel]], [[Haushofkartoffel]], [[Herzoginkartoffel]], [[Industriekartoffel]], [[Konsumkartoffel]], [[Lagerkartoffel]], [[Mastkartoffel]], [[Ofenkartoffel]], [[Pellkartoffel]], [[Pflanzkartoffel]], [[Saatkartoffel]], [[Salzkartoffel]], [[Schweinekartoffel]], [[Schnürsenkelkartoffel]], [[Spätkartoffel]], [[Speisekartoffel]], [[Streichhölzerkartoffel]], [[Süßkartoffel]]
+
+{{Beispiele}}
+:[1] Man pflanzet die ''Kartoffel'' nicht, / Damit sie Blatt und Blüten bringe / Doch ist das, was sie treibt ans Licht, / Bedingung, daß sie selbst gelinge.&lt;ref&gt;Gustav Theodor Fechner, Fürs Tischlein ein Wischlein, zitiert nach Projekt Gutenberg&lt;/ref&gt;
+:[2] Dennoch erinnere ich mich gar wohl, daß ich erst volle vierzig Jahre später, also 1785 etwa, bei Stargard zu meiner Verwunderung die ersten ''Kartoffeln'' im freien Felde ausgesetzt gefunden habe.&lt;ref&gt;Joachim Nettelbeck, Des Seefahrers Joachim Nettelbeck höchst erstaunliche Lebensgeschichte, zitiert nach Projekt Gutenberg&lt;/ref&gt;
+:[3] Er besaß auch nicht die Nase Lord Henrys, jene berühmte rötliche ''Kartoffel'', welche nach der Versicherung eines frivolen Franzosen einzig und allein von der großen Erdäpfelseuche des Jahres 1845 verschont geblieben sein soll – nein, der Buchhalter Lenz besaß seine eigene Nase, er konnte sich bei seiner eigenen Nase ziehen.&lt;ref&gt;Georg Weerth, Humoristische Skizzen aus dem deutschen Handelsleben, III, zitiert nach Projekt Gutenberg&lt;/ref&gt;
+:[4] Wirf mal einen Blick auf deine ''Kartoffel!''
+:[5] So eine ''Kartoffel'' kann doch kein Mensch mehr stopfen!
+
+{{Redewendungen}}
+:[[jemanden wie eine heiße Kartoffel fallen lassen]] - sich [[unloyal]] verhalten; sich plötzlich von jemandem abwenden
+:[[sich die Kartoffeln von unten ansehen]]
+:[[rein in die Kartoffeln, raus aus den Kartoffeln]], ''norddeutsch und teils mitteldeutsch:'' [[rin in die Kartoffeln, raus aus die Kartoffeln]]
+
+{{Sprichwörter}}
+:[[Die dümmsten Bauern ernten die größten Kartoffeln]]
+
+{{Charakteristische Wortkombinationen}}
+:Kartoffeln [[anbauen]], Kartoffeln [[ernten]], Kartoffeln [[pflanzen]], Kartoffeln [[essen]], Kartoffeln [[kochen]], Kartoffeln [[schälen]], Kartoffeln [[schneiden]], Kartoffeln [[servieren]], Kartoffeln [[zubereiten]], [[frisch]]e Kartoffeln, [[kochen|gekochte]] Kartoffeln
+
+{{Abgeleitete Begriffe}}
+:[1] [[Kartoffelacker]], [[Kartoffelanbau]], [[Kartoffelblüte]], [[Kartoffelfäule]], [[Kartoffelfeld]], [[Kartoffelkäfer]], [[Kartoffelkrankheit]], [[Kartoffelkraut]], [[Kartoffelpflanze]], [[Kartoffelseuche]], [[Kartoffelsorte]], [[Kartoffelstaude]],
+:[2] [[Kartoffelauge]], [[Kartoffelbrei]], [[Kartoffelbovist]], [[Kartoffelbrot]], [[Kartoffelchips]], [[Kartoffeldiät]], [[Kartoffeldruck]], [[Kartoffelernte]], [[Kartoffelfäule]], [[Kartoffelfeuer]], [[Kartoffelgericht]], [[Kartoffelgratin]], [[Kartoffelkeller]], [[Kartoffelkloß]], [[Kartoffelknödel]], [[Kartoffelkroketten]], [[Kartoffelmehl]], [[Kartoffelnase]], [[Kartoffelpuffer]], [[Kartoffelpüree]], [[Kartoffelreibe]], [[Kartoffelrösti]], [[Kartoffelsack]], [[Kartoffelsaft]], [[Kartoffelsalat]], [[Kartoffelschale]], [[Kartoffelschäler]], [[Kartoffelschnaps]], [[Kartoffelstampfer]], [[Kartoffelstärke]], [[Kartoffelstempel]], [[Kartoffelstock]], [[Kartoffelsuppe]], [[Kartoffelwasser]], [[Marzipankartoffel]], [[Stampfkartoffeln]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{af}}:[1] {{Ü|af|aartappel}}, {{Ü|af|ertappel}}
+*{{sq}}: [1] {{Ü|sq|patate}} {{f}}, {{Ü|sq|kërtollë}} {{f}}
+*{{ar}}: [1] {{Üxx|ar|bat&amp;#803;āt&amp;#803;ā|بطاطا}}
+*{{hy}}: [1, 2] {{Üxx|hy|getnachəndsor|գետնախնձոր}}, {{Üxx|hy|kartofil|կարտոֆիլ}}
+*{{bg}}: [1] {{Üxx|bg|kartóf|картоф}}
+*{{zh}}: [1] {{Üxx|zh|tǔdòu|土豆}}
+*{{zh-cn}}: [1] {{Üxx|zh|mǎlíngshǔ|马铃薯}}
+*{{zh-tw}}: [1] {{Üxx|zh|mǎlíngshǔ|馬鈴薯}}
+*{{da}}: [1] {{Ü|da|kartoffel}}
+*{{en}}: [1] {{Ü|en|potato}}
+*{{eo}}: [1] {{Ü|eo|terpomo}}
+*{{et}}: [1] {{Ü|et|kartul}}
+*{{fi}}: [1] {{Ü|fi|peruna}}
+*{{fr}}: [1, 2] {{Ü|fr|pomme de terre}} {{f}}, ''{{ugs.}} oder landschaftlich (z.B. im Kanada):'' {{Ü|fr|patate}} {{f}}, [3] ''Argot:'' {{Ü|fr|patate}} {{f}}, [4] ''volkstümlich:'' {{Ü|fr|tocante}} {{f}}, {{Ü|fr|toquante}} {{f}}, [5] ''volkstümlich:'' {{Ü|fr|patate}} {{f}}
+*{{fur}}: [1] {{Ü|fur|patate}} {{f}}
+*{{fy}}: [1] {{Ü|fy|ierappel}}
+*{{el}}: [1] {{Üxx|el|patáta|πατάτα}}, {{Üxx|el|geómilo|γεώμηλο}}
+*{{hi}}: [1] {{Üxx|hi|ālū|आलू}}
+*{{id}}: [1] {{Ü|id|kentang}}
+*{{is}}: [1] {{Ü|is|kartafla}}
+*{{it}}: [1] {{Ü|it|patata}} {{f}}
+*{{ja}}: [1, 2] {{Üxx|ja|じゃがいも, jagaimo|ジャガイモ}}, {{Üxx|ja|じゃがいも, jagaimo|じゃが芋}}, {{Üxx|ja|じゃがいも, jagaimo|ジャガ芋}}, {{Üxx|ja|じゃがたらいも, jagataraimo|ジャガタラ薯}}, ''(englische Entlehnung)'' {{Üxx|ja|ぽてと, poteto|ポテト}}, {{Üxx|ja|ばれいしょ, bareisho|馬鈴薯}}
+*{{ca}}: [1, 2] {{Ü|ca|patata}} {{f}}, {{Ü|ca|trumfa}} {{f}}
+*{{ko}}: [1] {{Üxx|ko|gamja|감자}}
+*{{ku}}: [1] {{Ü|ku|kartol}} {{f}}
+*{{crh}}: [1] {{Ü|crh|qartop}}
+*{{hr}}: [1] {{Ü|hr|krumpir}} {{m}}
+*{{lv}}: [1] {{Ü|lv|kartupelis}} {{m}}, [2] {{Ü|lv|tupenis}}
+*{{li}}: [1] {{Ü|li|irpel}}
+*{{lt}}: [1] {{Ü|lt|bulvė}} {{f}}
+*{{lb}}: [1] {{Ü|lb|Gromper}} {{f}}
+{{Ü-Abstand}}
+*{{mt}}: [1] {{Ü|mt|patata}} {{f}}
+*{{mn}}: [1] {{Üxx|mn|töms|төмс}}
+*{{nds}}: [1, 2] {{Ü|nds|Kartuffel}} {{f}}, [2] {{Ü|nds|Eerdappel}} {{m}}
+*{{nl}}: [1] {{Ü|nl|aardappel}}, {{Ü|nl|pieper}}, {{Ü|nl|patat}}
+*{{no}}: [1] {{Ü|no|potet}}
+*{{oc}}: [1, 2] {{Ü|oc|patana}} {{f}}, {{Ü|oc|trufa}} {{f}},  {{Ü|oc|truha}} {{f}} ([[aranesisch]])
+*{{pap}}: [1] {{Ü|pap|batata}}
+*{{pl}}: [1, 2] {{Ü|pl|ziemniak}} {{m}}, {{Ü|pl|kartofel}} {{m}}
+*{{pt}}: [1] {{Ü|pt|batata}} {{f}}, {{Ü|pt|batatinha}} {{f}}
+*{{qu}}: [1] {{Ü|qu|papa}}
+*{{rm}}: [1, 2] {{Ü|rm|tartuffel}}; ''Surmeirisch:'' [1, 2] {{Ü|rm|tiffel}}; ''Surselvisch:'' [1, 2] {{Ü|rm|truffel}}; ''Sutselvisch:'' [1, 2] {{Ü|rm|hardefel}}; ''Oberengadinisch:'' [1, 2] {{Ü|rm|ardöffel}}; ''Unterengadinisch:'' [1, 2] {{Ü|rm|mailinterra}} {{f}}
+*{{ro}}: [1] {{Ü|ro|cartof}} {{m}}
+*{{ru}}: [1, 2] {{Üxx|ru|kartófel’|картофель}} {{m}}
+*{{sv}}: [1, 2] {{Ü|sv|potatis}}; [2] ''[[Grundbirne]]:'' {{Ü|sv|jordpäron}} (regional); [3] {{Ü|sv|potatisnäsa}}; [4] {{Ü|sv|rova}}
+*{{sco}}: [1] {{Ü|sco|tatty}}
+*{{sr}}: [1, 2] {{Üxx|sr|krompir|кромпир}} {{m}}
+*{{sk}}: [1] {{Ü|sk|zemiak}}
+*{{sl}}: [1] {{Ü|sl|krompir}} {{m}}
+*{{dsb}}: [1, 2] {{Ü|dsb|kulka}} {{f}}, {{Ü|dsb|knydel}} {{m}}
+*{{hsb}}: [1, 2] {{Ü|hsb|běrna}}; ''(landschaftlich)'' {{Ü|hsb|nepl}}, {{Ü|hsb|nepla}}, {{Ü|hsb|kulka}}
+*{{es}}: [1] {{Ü|es|patata}}, {{Ü|es|papa}}
+*{{sva}}: [1] {{Ü|sva|kartebil}}
+*{{tl}}: [1] {{Ü|tl|patatas}}
+*{{th}}: [1] {{Üxx|th|man farang|มันฝรั่ง}}
+*{{cs}}: [1, 2] {{Ü|cs|brambor}} {{m}}, {{Ü|cs|brambora}} {{f}}
+*{{tr}}: [1] {{Ü|tr|patates}}
+*{{uk}}: [1] {{Üxx|uk|kartóplja|картопля}} {{f}}
+*{{hu}}: [1–3] {{Ü|hu|burgonya}}, [1–3] {{ugs.|:}} {{Ü|hu|burgonyacsucsorka}}, {{Ü|hu|földi alma}}, {{Ü|hu|kartifli}}, {{Ü|hu|kolompér}}, {{Ü|hu|krumpér}}, {{Ü|hu|krumpli}}, {{Ü|hu|kutyatök}}, {{Ü|hu|pityóka}}, {{Ü|hu|sváb-tök}}, az {{Ü|hu|ördög eledele}}, a {{Ü|hu|szegények eledele}}
+*{{ur}}: [1] {{Üxx|ur|ālū|آلو}}
+*{{cy}}: [1] {{Ü|cy|taten}} {{f}}
+*{{be}}: [1, 2] {{Üxx|be|bul'ba|бульба}} {{f}}
+{{Ü-rechts}}&lt;!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters --&gt;
+
+{{Dialektausdrücke (Deutsch)|
+*Westmitteldeutsch:
+**Mittelfränkisch:
+***Moselfränkisch: [1, 2] [[Grumber]]
+****Luxemburgisch: [1, 2] [[Gromper]]
+****Eifelisch: [1, 2] [[Ärpel]], [[Grompere]], [[Schrumpern]]
+****[[Hunsrückisch]]: [1, 2] [[Grumbeer]]
+****[[Koblenzisch]] [1, 2] [[Krombier]]
+****Siegerländer Platt: [1, 2] [[Doffel]], [[Duffel]]
+***Ripuarisch:
+****[[Kölsch]]: [1, 2] [[Äpel]], [[Erdäpel]]
+**Rheinfränkisch: [1, 2] [[Grumber]]
+***Pfälzisch: [1, 2] [[Grumbeer]], [[Kadoffl]]
+***Hessisch: [1, 2] Kardoffel
+*Ostmitteldeutsch:
+**Berlin-Brandenburgisch:
+**Berlinisch: [1, 2] Bodenäppel
+**Lausitzisch:
+**Oberlausitzisch: [1, 2] [[Arber]]
+*Westoberdeutsch ({{als}}):
+**Schwäbisch: [1, 2] [[Bodabirra]], [[Grombiere]], [[Erdepfel]], [[Aidepfl]], [[Äbirre]]
+**Hochalemannisch, Höchstalemannisch, Niederalemannisch: [1, 2] [[Grandbere]], [[Guml]], [[Häpärä]], [[Härdöpfel]], [[Hääbi]], [[Herdäpfel]], [[Herdöpfel]]; ''(in Schale gekocht)'' [[Gschwellti]]
+***Westallgäuisch &lt;small&gt;(Niederalemannisch)&lt;/small&gt;: [1, 2] Grumpre
+***Vorarlbergisch &lt;small&gt;(Niederalemannisch)&lt;/small&gt;: [1, 2] [[Grumpara]], [[Grumbira]]
+***Walserdeutsch &lt;small&gt;(Höchstalemannisch)&lt;/small&gt;: [1, 2] [[Härpfl]]
+|
+*Bairisch: [1, 2] [[Erdäpfe]], [[Kartoffe]]
+**Nordbairisch:
+**Bayrischer Wald: Krumbern
+**Wienerisch: [1, 2] [[Erdapfel]]
+*Ostfränkisch: [1, 2] [[Grumber]]
+**Nürnbergerisch: [1] [[Potaggn]]
+**Oberfränkisch: [1, 2] [[Erpfl]]
+*Westniederdeutsch:
+**Kleverländisch &lt;small&gt;(Niederrheinisch)&lt;/small&gt;: [[Pipper]]
+**Holsteinisch: [1, 2] [[Kantüffel]]
+**Sauerländisch: [1, 2] [[Ärpel]]
+*Ostniederdeutsch:
+**Märkisch-Brandenburgisch:
+**Uckermärkisch: [1, 2] [[Nudel]]
+**Mecklenburgisch: [1, 2] [[Tüfte]]
+**Vorpommersch: [1, 2] [[Tüfte]]
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Kartoffel}}
+:[2] {{Ref-Grimm|Kartoffel|GK02117}}
+:[1–5] {{Ref-DWDS|Kartoffel}}
+:[*] {{Ref-Canoo|Kartoffel}}
+:[1, 2] {{Ref-UniLeipzig|Kartoffel}}
+:[1, 2] {{Ref-FreeDictionary|Kartoffel}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Pantoffel]]
+
+[[bs:Kartoffel]]
+[[cs:Kartoffel]]
+[[da:Kartoffel]]
+[[el:Kartoffel]]
+[[en:Kartoffel]]
+[[fi:Kartoffel]]
+[[fr:Kartoffel]]
+[[fy:Kartoffel]]
+[[hr:Kartoffel]]
+[[hu:Kartoffel]]
+[[id:Kartoffel]]
+[[io:Kartoffel]]
+[[it:Kartoffel]]
+[[ko:Kartoffel]]
+[[ku:Kartoffel]]
+[[lb:Kartoffel]]
+[[lt:Kartoffel]]
+[[mg:Kartoffel]]
+[[nl:Kartoffel]]
+[[pl:Kartoffel]]
+[[pt:Kartoffel]]
+[[ro:Kartoffel]]
+[[ru:Kartoffel]]
+[[sv:Kartoffel]]
+[[th:Kartoffel]]
+[[tr:Kartoffel]]
+[[vi:Kartoffel]]
+[[zh:Kartoffel]]

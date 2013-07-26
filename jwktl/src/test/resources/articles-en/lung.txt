@@ -1,0 +1,175 @@
+{{also|lừng}}
+==English==
+{{wikipedia}}
+
+===Etymology===
+From {{etyl|enm}}, from {{etyl|ang}} {{term|lungen|lang=ang|sc=Latinx}}, from {{proto|Germanic|lungw-|the light organ|lang=en}}, from {{proto|Indo-European|lengwh-|not heavy, agile, nimble|lang=en}}. Cognate with West Frisian {{term|long|lang=fy}}, Dutch {{term|long|lang=nl}}, German {{term|Lunge|lang=de}}, Danish {{term|lunge|lang=da}}, Swedish {{term|lunga|lang=sv}} and also Russian {{term|лёгкое|lang=ru|sc=Cyrl|tr=lёgkoe}} (''lung''), Greek {{term|||tr=elaphros|light in weight|lang=gr}}. Compare Latin {{term|levis|lang=la}} and Old English {{term|leoht|lēoht|lang=ang}} (Modern English {{term|light|lang=en}}).
+
+===Pronunciation===
+* {{enPR|lŭng}}, {{IPA|/lʌŋ/}}, {{SAMPA|/lVN/}}
+* {{audio|En-us-lung.ogg|Audio (US)}}
+* {{rhymes|ʌŋ}}
+
+===Noun===
+{{en-noun}}
+
+# A [[biological]] [[organ]] that [[extract]]s [[oxygen]] from the [[air]].
+
+====Synonyms====
+* {{sense|organ}} {{italbrac|in plural}} [[bellows]] {{italbrac|informal or archaic}}, {{italbrac|in plural}} [[lights]] {{italbrac|of an animal, used as food}}
+
+====Derived terms====
+{{rel-top3|Terms derived from ''lung''}}
+* [[aqualung]]
+* [[iron lung]]
+{{rel-mid3}}
+* [[leather-lunged]]
+* [[lungfish]]
+{{rel-mid3}}
+* [[lungful]]
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|organ that extracts oxygen from the air}}
+* Arabic: {{t|ar|رئة|f|tr=rí'a}}
+* Armenian: {{t-|hy|թոք|tr=t’ok’}}
+* [[Azeri]]: {{t|az|ağciyər|xs=Azeri}}
+* [[Bambara]]: [[fogonfogon]]
+* [[Basque]]: {{t|eu|birika}}
+* [[Catalan]]: {{t|ca|pulmó|m}}
+* [[Central Atlas Tamazight]]: [[turin]] {{f|p}}{{rfscript|Tamazight}}
+* Chinese:
+*: Mandarin: {{t|cmn|肺臟|sc=Hani}},  {{t|cmn|肺脏|tr=fèizàng|sc=Hani}},  {{t-|cmn|肺|tr=fèi|sc=Hani}}
+* Croatian: {{t-|hr|pluća|n|alt=plúća}}
+* Czech: {{t+|cs|plíce|f}}
+* Danish: {{t-|da|lunge|c}}
+* Dutch: {{t+|nl|long|f}}
+* Esperanto: {{t-|eo|pulmo|xs=Esperanto}}
+* Finnish: {{t+|fi|keuhko}}
+* French: {{t+|fr|poumon|m}}
+* Georgian: {{t-|ka|ფილტვი|tr=p’iltvi|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Lunge|f}}
+* Greek: {{t+|el|πνεύμονας|m|tr=pnévmonas}}
+* Hebrew: {{t+|he|ריאה|tr=reiah}}
+* Hungarian: {{t+|hu|tüdő}}
+* [[Ilocano]]: [[bara]]
+* Italian: {{t+|it|polmone|m}}
+* Japanese: {{t|ja|肺臓|tr=はいぞう, haizō}},  {{t+|ja|肺|tr=はい, hai}}
+* Korean: [[부아]] (bua), [[허파]] (heopa)
+{{trans-mid}}
+* Latin: {{t-|la|pulmo|m}}
+* [[Luhya]]: {{tø|luy|embafu}}
+* [[Luo]]: {{tø|luo|obo|xs=Luo}}
+* [[Macedonian]]: {{t-|mk|бел дроб|m}} (bel drob)
+* Maltese: [[pulmun]] {{m}}
+* Maori: [[pūkahukahu]]
+* [[Meru]]: {{tø|mer|mauri}}
+* [[Northern Sami]]: [[geahpis]]
+* Norwegian: {{t-|no|lunge|c}}, {{t-|no|lunga|f}}
+* Polish: {{t+|pl|płuco|n}}
+* Portuguese: {{t+|pt|pulmão|m}}
+* Romanian: {{t+|ro|plămân|m}},  {{t+|ro|pulmon}}
+* [[Romansch]]: [[lom]] {{m}}
+* Russian: {{t+|ru|лёгкое|n|tr=ljógkoje}} (pronounced: ljóxkoje)
+* [[Santali]]: {{tø|sat|ᱵᱳᱠᱳ|tr=boko|sc=Olck}} {{p}}
+* Serbian: [[pluće]] {{n}}, [[pluća]] {{n|p}}
+* Slovene: {{t+|sl|pljuča|n|p}}
+* Spanish: {{t+|es|pulmón|m}}
+* Swahili: [[pafu]] ''(nc 5/6)''
+* Swedish: {{t+|sv|lunga|c}}
+* [[Taos]]: [[hǫ́luną]]
+* [[Telugu]]: [[ఊపిరితిత్తి]] (oopirititti)
+* Turkish: {{t+|tr|akciğer}}
+* [[Volapük]]: {{t|vo|lueg}}
+* [[West Frisian]]: {{t+|fy|long|xs=West Frisian}}
+{{trans-bottom}}
+
+----
+
+==Anglo-Norman==
+
+===Etymology===
+From the {{etyl|la|xno}} adjective {{term|longus||long}}.
+
+===Adjective===
+{{infl|xno|adjective}}
+
+# [[long]]
+
+====Derived terms====
+* [[lungement]]
+
+----
+
+==Romanian==
+
+===Etymology===
+From the {{etyl|la|ro}} adjective {{term|longus||long}}.
+
+===Adjective===
+{{ro-adj|3}}
+
+# [[long]]
+#: ''[[ăsta|Asta]] [[e]] [[o]] [[stradă]] [[foarte]] '''lungă'''!''
+#:: This is a really long street!
+
+====Declension====
+{{ro-adj-3|lung}}
+
+====Derived terms====
+* [[lungi]]
+
+====Related terms====
+* [[alunga]]
+* [[prelung]]
+
+====See also====
+* [[alungi]]
+
+----
+
+==Romansch==
+
+===Etymology===
+From {{etyl|la|rm}} {{term|longus|lang=la}}.
+
+===Adjective===
+{{rm-adj}}
+
+# [[long]]
+
+[[zh-min-nan:lung]]
+[[ca:lung]]
+[[et:lung]]
+[[el:lung]]
+[[es:lung]]
+[[eo:lung]]
+[[fr:lung]]
+[[fy:lung]]
+[[ko:lung]]
+[[hy:lung]]
+[[hr:lung]]
+[[io:lung]]
+[[zu:lung]]
+[[kn:lung]]
+[[kk:lung]]
+[[sw:lung]]
+[[lo:lung]]
+[[li:lung]]
+[[hu:lung]]
+[[ml:lung]]
+[[my:lung]]
+[[nl:lung]]
+[[ja:lung]]
+[[oc:lung]]
+[[pl:lung]]
+[[pt:lung]]
+[[ro:lung]]
+[[ru:lung]]
+[[simple:lung]]
+[[fi:lung]]
+[[ta:lung]]
+[[te:lung]]
+[[tr:lung]]
+[[vi:lung]]
+[[zh:lung]]

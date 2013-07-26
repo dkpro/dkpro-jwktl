@@ -1,0 +1,66 @@
+== boulder ({{Sprache|Englisch}}) ==
+=== {{Wortart|Substantiv|Englisch}} ===
+
+{{erweitern| Beispiel(e) einfügen |Englisch}}
+
+{{Englisch Substantiv|s
+|Bild1=Ffionphort cracked granite boulder.jpg|BBezug1=1|BBeschreibung1=Cracked granite ''boulder''}}
+
+{{Alternative Schreibweisen}}
+:[[bowlder]]
+
+{{Worttrennung}}
+:boul·der, {{Pl.}} boul·ders
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈbəʊldəʳ}}, {{Pl.}} {{Lautschrift|ˈbəʊldəʳs}}
+:{{Hörbeispiele}} {{Audio|En-us-boulder.ogg|boulder (amerikanisch)}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] einzelner Felsbrocken/Felsblock, theoretisch beweglich, mehr oder weniger rund
+:[2] Geröll
+
+{{Beispiele}}
+:[1]
+
+{{Abgeleitete Begriffe}}
+:[[boulders]], [[bouldered]], [[bouldery]], [[boulder period]], [[boulder clay]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{de}}: [1] [[Felsbrocken]], [[Felsblock]], [[Stein]] {{m}}; [2] [[Geröll]] {{n}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|spr=en|boulder}}
+:[1] {{Ref-Oxford|boulder}}
+:[1] {{Ref-Macmillan|boulder}}
+:[1] {{Ref-MWD|boulder}}
+:[1] {{Ref-MWT|boulder}}
+:[1] {{Ref-Dictionary|boulder}}
+:[1] {{Ref-Pons|en|boulder}}
+:[1] {{Ref-dictcc|en|boulder}}
+:[1] {{Ref-Leo|en|boulder}}
+
+[[cy:boulder]]
+[[el:boulder]]
+[[en:boulder]]
+[[eo:boulder]]
+[[es:boulder]]
+[[et:boulder]]
+[[fa:boulder]]
+[[fr:boulder]]
+[[hu:boulder]]
+[[io:boulder]]
+[[it:boulder]]
+[[kn:boulder]]
+[[ko:boulder]]
+[[mg:boulder]]
+[[ml:boulder]]
+[[nl:boulder]]
+[[pl:boulder]]
+[[simple:boulder]]
+[[sv:boulder]]
+[[ta:boulder]]
+[[vi:boulder]]
+[[zh:boulder]]
