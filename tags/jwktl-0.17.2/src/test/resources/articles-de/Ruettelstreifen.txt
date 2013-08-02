@@ -1,0 +1,51 @@
+== Rüttelstreifen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Rüttelstreifen
+|Nominativ Plural=die Rüttelstreifen
+|Genitiv Singular=des Rüttelstreifens
+|Genitiv Plural=der Rüttelstreifen
+|Dativ Singular=dem Rüttelstreifen
+|Dativ Plural=den Rüttelstreifen
+|Akkusativ Singular=den Rüttelstreifen
+|Akkusativ Plural=die Rüttelstreifen
+}}
+
+{{Worttrennung}}
+:Rüt·tel·strei·fen, {{Pl.}} Rüt·tel·strei·fen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʀʏtl̩ˌʃtʀaɪ̯fn̩}}, {{Lautschrift|ˈʀʏtl̩ˌʃtʀaɪ̯fm̩}}, {{Pl.}} {{Lautschrift|ˈʀʏtl̩ˌʃtʀaɪ̯fn̩}}, {{Lautschrift|ˈʀʏtl̩ˌʃtʀaɪ̯fm̩}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] in den Straßenbelag [[einlassen|eingelassene]] oder [[einfräsen|eingefräste]] Markierung am Fahrbahnrand, welche durch [[haptisch]]e und [[akustisch]]e [[Signal]]e den [[Fahrer]] darauf aufmerksam machen, dass er von der [[Fahrbahn]] abkommt
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus dem Stamm "rüttel" des Verbs ''[[rütteln]]'' und dem Substantiv ''[[Streifen]]''
+
+{{Synonyme}}
+:[1] [[Rubbelstreifen]]
+
+{{Oberbegriffe}}
+:[1] [[Streifen]]
+
+{{Beispiele}}
+:[1] „Eine wirksame Maßnahme die Verkehrssicherheit zu steigern, sind z.B.: profilierte Fahrbahnmarkierungen oder ''Rüttelstreifen'' auf der Standspur.“<ref>Marcel Wiggert: Risikomanagement von Betreiber- und Konzessionsmodellen, Band 29 von Schriftenreihe des Instituts für Baubetrieb und Bauwirtschaft, Institut für Baubetrieb und Bauwirtschaft Graz, Seite 85, 2009, ISBN 3851250737</ref>
+:[1] „''Rüttelstreifen'' am Fahrbahnrand von Autobahnen können die Zahl übermüdungsbedingter Verkehrsunfälle deutlich reduzieren.“<ref>Focus Online, vom 19.01.2009, Artikel: „Rüttelstreifen verhindern Übermüdungs-Unfälle“
+[http://www.focus.de/auto/news/forschung-ruettelstreifen-verhindern-uebermuedungs-unfaelle_aid_363440.html Internetbeleg hier]“</ref>
+:[1] „Schwere Autobahn-Unfälle können mit Hilfe von sogenannten ''Rüttelstreifen'' deutlich verringert werden.“<ref>Auto - Motor – Sport, 19.01.2009 [http://www.auto-motor-und-sport.de/news/autobahn-unfaelle-ruettelstreifen-senken-unfallrisiko-942330.html Internetbeleg hier]</ref>
+
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|rumble strip}}
+{{Ü-Abstand}}
+*{{fr}}: [1] {{Ü|fr|}}
+{{Ü-rechts}} <!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] Markus Lerner: Sicherheitswirkung eingefräster ''Rüttelstreifen'' an Autobahnen, Band 20 von Info, Bundesanstalt für Strassenwesen Bergisch Gladbach, 2009 (Wirtschaftsverl. NW, Verl. für Neue Wiss.)
+
+{{Quellen}}

@@ -1,0 +1,236 @@
+{{slim-wikipedia|Bass (disambiguation)}}
+{{also|bas}}
+==English==
+
+===Etymology 1===
+{{etyl|it}} {{term|basso||low|lang=it}}, from {{etyl|la}} {{term|bassus||low|lang=la}}.
+
+====Pronunciation====
+* {{enPR|bās}}, {{IPA|/beɪs/}}, {{SAMPA|/beIs/}}
+* {{audio|en-us-bass-low.ogg|Audio (US)}}
+* {{homophones|base}}
+
+====Adjective====
+{{en-adj}}
+
+# Of sound, a voice or an instrument, [[low]] in [[pitch]] or [[frequency]].
+#: ''The giant spoke in a deep, '''bass''', rumbling voice that shook me to my boots.''
+
+=====Translations=====
+{{trans-top|low in pitch}}
+* Esperanto: {{t-|eo|basa|xs=Esperanto}}
+* French: {{t+|fr|bas}}, {{t+|fr|grave}}
+* German: {{t+|de|bass}}
+* Greek: [[μπάσος]] (basos) {{m}}, [[ήχος χαμηλής κλίμακας]] (ikhos khamilis klimakas) {{m}}
+* Hungarian: {{t+|hu|basszus}}
+* Italian: {{t+|it|basso}}
+* Japanese: {{t+|ja|ベース|tr=bēsu}}, {{t+|ja|バス|tr=basu}}
+{{trans-mid}}
+* Latin: {{t-|la|bassus}}
+* Polish: [[basowy]]
+* Portuguese: {{t+|pt|baixo}}, {{t+|pt|grave}}
+* Russian: [[басовый]] /básovyj/
+* Spanish: {{t+|es|bajo}}
+* Swedish: {{t+|sv|bas}}
+* Turkish: {{t+|tr|bas}}
+{{trans-bottom}}
+
+====Noun====
+{{en-noun|es}}
+{{examples-right|sense=a '''bass''' voice singing a soprano part|examples={{audio|Lord is in his holy temple.ogg}}}}
+
+# A low spectrum of [[sound]] tones.
+#: ''Peter adjusted the equalizer on his audio equipment to emphasize the '''bass'''.''
+# A section of musical group that produces low-pitched sound, lower than [[tenor]].
+#: ''The conductor preferred to situate the '''bass''' in the middle rear, rather than to one side of the orchestra.''
+# A male [[singer]] who sings in the bass range.
+#: ''Halfway through middle school, Edgar morphed from a soprano to a '''bass''', much to the amazement and amusement of his fellow choristers.''
+# An [[instrument]] that plays in the bass range, in particular a [[double bass]], [[bass guitar]], [[electric bass]] or bass [[synthesiser]].
+#: ''The musician swung the '''bass''' over his head like an axe and smashed it into the amplifier, creating a discordant howl of noise.''
+# The [[clef]] sign that indicates that the pitch of the notes is below middle C; a [[bass clef]].
+#: ''The score had been written without the treble and '''bass''', but it was easy to pick out which was which based on the location of the notes on the staff.''
+
+=====Synonyms=====
+* {{sense|singer}} [[basso]]
+* {{sense|clef}} [[F clef]]
+
+=====Coordinate terms=====
+* {{sense|voice types}} [[soprano]], [[mezzo-soprano]], [[alto]], [[contralto]] {{a|female}}; [[countertenor]], [[tenor]], [[baritone]], [[bass]] {{a|male}}
+
+=====Derived terms=====
+{{top2}}
+* [[bass clef]]
+* [[bass drum]]
+* [[bass guitar]]
+* [[bassline]]
+* [[bass music]]
+* [[bass note]]
+{{mid2}}
+* [[booty bass]]
+* [[double bass]]
+* [[electric bass]]
+* [[figured bass]]
+* [[Miami bass]]
+{{bottom}}
+
+=====Translations=====
+{{trans-top|low spectrum of sound}}
+* Bulgarian: {{t+|bg|бас}}
+* [[Crimean Tatar]]: [[bas#Crimean Tatar|bas]]
+* Dutch: {{t+|nl|bas|m|f}}
+* Finnish: {{t+|fi|basso}}
+* German: {{t+|de|Baß|m}}, {{t+|de|Bass|m}}
+* Greek: [[μπάσος]] (basos) {{m}}, [[μπάσα]] (basa) {{f}}, [[μπάσο]] (baso) {{n}}
+{{trans-mid}}
+* Hungarian: {{t+|hu|basszus}}
+* Polish: {{t+|pl|bas|m}}
+* Russian: [[бас]] /bas/ {{m}}
+* Slovene: {{t+|sl|bas|m}}
+* Spanish: {{t+|es|bajo|m}}
+{{trans-bottom}}
+
+{{trans-top|section of musical group}}
+* Bulgarian: {{t+|bg|бас}}
+* [[Crimean Tatar]]: [[bas#Crimean Tatar|bas]]
+* Dutch: {{t+|nl|bas|m|f}}
+* Finnish: {{t+|fi|basso}}
+* German: [[Baß]] {{m}}, [[Bass]] {{m}}
+{{trans-mid}}
+* Greek: [[μπάσο]] (baso) {{n}}
+* Hungarian: {{t+|hu|basszus}}
+* Russian: [[бас]] /bas/ {{m}}
+* Slovene: {{t+|sl|bas|m}}
+{{trans-bottom}}
+
+{{trans-top|singer}}
+* Bulgarian: {{t+|bg|бас}}
+* [[Crimean Tatar]]: [[bas#Crimean Tatar|bas]]
+* Dutch: {{t+|nl|bas|m}}
+* Finnish: {{t+|fi|basso}}
+* German: [[Baß]] {{m}}, [[Bass]] {{m}}
+* Greek: {{t+|el|βαρύτονος|m|tr=varitonos}}
+{{trans-mid}}
+* Hungarian: {{t+|hu|basszus}}
+* Italian: {{t+|it|basso|m}}
+* Japanese: {{t+|ja|バス|tr=basu}}
+* Russian: [[бас]] /bas/ {{m}}
+* Slovene: {{t+|sl|bas|m}}
+* Spanish: {{t+|es|bajo|m}}
+{{trans-bottom}}
+
+{{trans-top|musical instrument}}
+* Bulgarian: {{t+|bg|бас}}
+* [[Crimean Tatar]]: [[bas#Crimean Tatar|bas]]
+* Czech: {{t-|cs|basa|f}}
+* Dutch: {{t|nl|basgitaar|m|f}}, {{t+|nl|bas|m|f}}
+* Finnish: {{t+|fi|basso}}
+* German: [[Baß]] {{m}}, [[Bass]] {{m}}
+* Greek: [[μπάσο]] (baso) {{n}}
+* Hungarian: {{t-|hu|basszusgitár}}
+{{trans-mid}}
+* Italian: {{t+|it|basso|m}}
+* Mandarin: {{t|cmn|贝思|tr=bèisī|sc=Hani}}
+* Polish: {{t+|pl|bas|m}}
+* Portuguese: {{t+|pt|baixo|m}}
+* Russian: [[бас]] /bas/ {{m}}
+* Slovene: {{t+|sl|bas|m}}
+* Spanish: {{t+|es|bajo|m}}
+{{trans-bottom}}
+
+{{trans-top|clef sign}}
+* German: [[Baßschlüssel]] {{m}}, [[Bassschlüssel]] {{m}}
+* Hungarian: {{t|hu|basszuskulcs}}
+* Italian: {{t|it|chiave di basso|f}}
+{{trans-mid}}
+* Polish: [[klucz basowy]] {{m}}
+* Russian: [[басовый ключ]] /básovyj kl'uč/ {{m}}
+* Slovene: {{t+|sl|bas|m}}
+{{trans-bottom}}
+
+====See also====
+* {{pedia}}
+
+===Etymology 2===
+[[Image:Smallmouth_bass.jpg|thumb|right|200px|a smallmouth bass (''Micropterus dolomieu'')]]
+From {{etyl|enm}} {{term|bas|lang=enm}}, alteration of {{term|bars|lang=enm}}, from {{etyl|ang}} {{term|bærs||a fish, perch|lang=ang}}, from {{proto|Germanic|barsaz|perch", literally "prickly fish|lang=en}}, from {{proto|Indo-European|bhars-||bharst-|prickle, thorn, scale|lang=en}}. Cognate with {{etyl|nl|-}} {{term|baars||baars|perch, bass|lang=nl}}, {{etyl|de|-}} {{term|Barsch||perch|lang=de}}. More at {{l|en|barse}}.
+
+====Pronunciation====
+* {{enPR|băs}}, {{IPA|/bæs/}}, {{SAMPA|/b{s/}}
+* {{audio|en-us-bass.ogg|Audio (US)}}
+
+====Noun====
+{{en-noun|es|pl2=bass}}
+
+# The [[perch]]; any of various marine and freshwater fish resembling the perch, all within the order of [[Perciformes]].
+
+=====Usage notes=====
+The plural '''bass''' refers to multiple fish of a single variety or species, whereas '''basses''' refers to multiple varieties or species.
+
+=====Derived terms=====
+{{top2}}
+* [[black bass]]
+* [[black sea bass]]
+* [[largemouth bass]]
+* [[sea bass]]
+{{mid2}}
+* [[smallmouth bass]]
+* [[spotted bass]]
+* [[striped bass]]
+* [[white bass]]
+{{bottom}}
+
+=====Translations=====
+{{trans-top|perch}}
+* Bulgarian: {{t+|bg|костур}}
+* Cherokee: {{t-|chr|ᎤᏃᎦ|sc=Cher|xs=Cherokee}}
+* Croatian: {{t-|hr|grgeč|m}}
+* Dutch: {{t+|nl|baars|m}}
+* French: {{t+|fr|perche|m}}
+* German: {{t+|de|Barsch|m}}
+{{trans-mid}}
+* Greek: {{t+|el|πέρκα|f|tr=perka}}
+* Hungarian: {{t+|hu|sügér}}
+* Italian: {{t+|it|branzino|m}},  {{t-|it|spigola|m}}
+* Russian: {{t+|ru|окунь|m|tr=ókun'}}
+* Spanish: [[róbalo]] {{m}}, [[lubina]] {{f}}; [[perca]] {{f}} {{italbrac|freshwater}}
+{{trans-bottom}}
+
+[[Category:English heteronyms]]
+[[Category:English words with multiple etymologies]]
+[[Category:Fish]]
+[[Category:Musical instruments]]
+
+----
+
+==Romansch==
+
+===Alternative forms===
+* {{qualifier|Vallader}} {{l|rm|bas}}
+
+===Etymology===
+From {{etyl|LL.|rm}} {{term|bassus|lang=la}}.
+
+===Adjective===
+{{infl|rm|adjective|g=m|f|bassa|m pl|bass|f pl|bassas}}
+
+# {{context|Rumantsch Grischun|Sursilvan|Sutsilvan|Surmiran|Puter|Vallader|lang=rm}} [[deep]], [[low]]
+
+[[ca:bass]]
+[[cs:bass]]
+[[de:bass]]
+[[fr:bass]]
+[[gl:bass]]
+[[io:bass]]
+[[lb:bass]]
+[[hu:bass]]
+[[my:bass]]
+[[pl:bass]]
+[[pt:bass]]
+[[ru:bass]]
+[[fi:bass]]
+[[sv:bass]]
+[[ta:bass]]
+[[te:bass]]
+[[tr:bass]]
+[[vi:bass]]
+[[zh:bass]]

@@ -1,0 +1,160 @@
+== Tun ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} === 
+{{Deutsch Substantiv m stark
+|SINGULAR=Tun
+|PLURAL=Tune
+}}
+{{Alternative Schreibweisen}} Thun
+
+{{Silbentrennung}} Tun, {{Pl.}} Tu·ne 
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|tuːn}}, {{Pl.}} {{Lautschrift|ˈtuːnə}}
+:[[Wiktionary:Hörbeispiele|Hörbeispiele]]: {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+<!-- Bedeutung [1], andere Bedeutung [2],... angeben - möglichst kurze Erklärung-->
+:[1] großer und schneller, als Speisefisch beliebter Meeresfisch ''(Thunnus)''
+
+<!--{{Abkürzungen}}-->
+<!--{{Alternative Schreibweisen}}-->
+
+{{Herkunft}}
+:
+
+{{Synonyme}}
+<!-- für Bedeutung [1], andere Bedeutung [2], usw. -->
+:[1] [[Thunfisch]]
+
+<!--
+{{Gegenworte}}
+{{Oberbegriffe}}
+{{Unterbegriffe}}
+-->
+
+{{Beispiele}}
+<!-- für Bedeutung [1], andere Bedeutung [2], usw. -->
+:[1] Das ist ein ''Tun.''
+
+<!--{{Redewendungen}}-->
+
+{{Charakteristische Wortkombinationen}}
+
+{{Abgeleitete Begriffe}}
+:Tunfang<!--bewusst nicht wikifiziert-->
+
+====Übersetzungen====
+:siehe [[Thunfisch]]
+<!--
+{{Ü-links}}
+{{Ü-Abstand}}
+{{Ü-rechts}}
+{{Dialektausdrücke (Deutsch)|
+|
+}}
+-->
+{{Referenzen}}
+:[1] {{Wikipedia|Thunfische}}
+<!--:[1] {{Ref-Duden|...}}-->
+:[1] {{Ref-Grimm|thun, ''m.''|GT04053}}
+:[1] {{Ref-Canoo|Tun}}
+:[1] {{Ref-UniLeipzig|Thun}}
+
+{{----}}<!-- Trennlinie zwischen unterschiedlichen Homonymen -->
+
+=== {{Wortart|Substantiv}}, {{n}} === 
+{{Substantiv-Tabelle|
+Wer oder was? (Einzahl)=das Tun
+|Wer oder was? (Mehrzahl)=<center>-</center>
+|Wessen? (Einzahl)=des Tuns
+|Wessen? (Mehrzahl)=<center>-</center>
+|Wem? (Einzahl)=dem Tun
+|Wem? (Mehrzahl)=<center>-</center>
+|Wen? (Einzahl)=das Tun
+|Wen? (Mehrzahl)=<center>-</center>
+}}
+{{Silbentrennung}} Tun, {{Pl.}} {{fehlend}}
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|tuːn}}
+:[[Wiktionary:Hörbeispiele|Hörbeispiele]]: {{fehlend}}
+
+{{Bedeutungen}}
+:[1] absichtliche Ausführung oder Unterlassung 
+
+<!--{{Abkürzungen}}-->
+<!--{{Alternative Schreibweisen}}-->
+ 
+{{Herkunft}}
+:[[Substantivierung]] des Verbs [[tun]] (=[[Konversion]])
+        
+{{Synonyme}}
+:[1] [[Handlungsweise]]
+
+{{Gegenworte}}
+:[1] ''andere Substantivierungen von [[tun]]:'' [[Tätigkeit]], [[Tat]]
+
+{{Oberbegriffe}}
+:[1] [[Handlung]]
+
+{{Unterbegriffe}}
+
+{{Beispiele}}
+:[1] Dein ''Tun'' wird nicht ohne Folgen bleiben.
+
+{{Redewendungen}}
+:[[]] ~ und Lassen, sinnvolles ~
+
+{{Charakteristische Wortkombinationen}}
+
+{{Abgeleitete Begriffe}}
+:
+
+<!--{{Verkleinerungsformen}}
+: -->
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [] {{Ü|ar|}} (<!--x-->)
+*{{zh}}: [] {{Ü|zh|}} ()
+<!-- oder wenn Langzeichen und Kurzzeichen zu unterscheiden sind:
+*Chinesisch (traditionell): [] {{Ü|zh|}} ()
+*Chinesisch (vereinfacht): [] {{Ü|zh|}} () -->
+*{{en}}: [1] {{Ü|en|doings}}
+{{Ü-Abstand}}
+*{{fr}}: [] {{Ü|fr|}}
+*{{ru}}: [] {{Ü|ru|}} ()
+*{{es}}: [1] {{Ü|es|actividades}}
+{{Ü-rechts}}
+
+{{Dialektausdrücke (Deutsch)|
+<!-- Bitte nur deutschsprachige Dialekte! Ggf. spezifizieren! (Ost/West/Ober/Unter/Nord/Süd/usw.) -->
+*Berlinerisch:
+*Elsässisch:
+|
+*Rheinisch: 
+*Schwäbisch:
+}}
+{{Referenzen}}
+:[1] {{Wikipedia|Tun}}
+<!--:[1] {{Ref-Duden|...}}-->
+:[1] {{Ref-Grimm|thun, ''n.''|GT04053}}
+:[1] {{Ref-DWDS|Tun}}
+:[1] {{Ref-Canoo|Tun}}
+:[1] {{Ref-UniLeipzig|Tun}}
+
+{{Ähnlichkeiten}}<!-- barsch beim Eintrag von Barsch, und umgekehrt -->
+[[tun]]
+
+<!--{{----}}-->
+<!-- Trennlinie zwischen unterschiedlichen Sprachen/Wortarten/Homonymen nur wenn wirklich gebraucht sonst ganz streichen -->
+<!-- <nowiki> Weitere(s) Sprache/Wortart/Homonym durch "{{subst:Formatvorlage}}" einfügen.
+Wird ein weiteres Homonym in der selben Sprache angefügt, dann bitte die überzählige Überschrift "== {Sprache} ==" löschen! </nowiki> -->
+<!------------------------------------------------------------->
+
+[[fi:Tun]]
+[[fr:Tun]]
+[[pl:Tun]]
+[[ru:Tun]]
+[[tr:Tun]]
+

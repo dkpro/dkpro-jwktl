@@ -1,0 +1,12 @@
+<dump_parser_test>
+  <header>
+    <param name="param1" value="value1" />
+    <param name="param1" value="value2" />
+  </header>
+  <element id="1">
+    Some text content
+  </element>
+  <element id="2">
+    Some text content
+  </element>
+</dump_parser_test>

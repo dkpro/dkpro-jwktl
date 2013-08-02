@@ -1,0 +1,21 @@
+de dump:
+
+3 Parameter (GERMAN, NOUN)
+2 Mönch (GERMAN, NOUN)
+0 França (CATALAN, NOUN)
+1 França (OCCITAN, NOUN)
+4 Platz (GERMAN, NOUN)
+
+
+
+en dump:
+
+0 parameter (ENGLISH, NOUN)
+1 place (ENGLISH, NOUN)
+2 place (ENGLISH, VERB)
+3 place (FRENCH, NOUN)
+4 place (FRENCH, VERB)
+5 place (POLISH, NOUN)
+6 place (ROMANIAN, VERB)
+7 place (SPANISH, VERB)
+

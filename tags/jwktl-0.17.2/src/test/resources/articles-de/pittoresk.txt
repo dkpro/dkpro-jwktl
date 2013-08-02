@@ -1,0 +1,62 @@
+== pittoresk ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}} ===
+
+{{Adjektiv-Tabelle (Deklination)
+|Grundform=pittoresk
+|1. Steigerung=pittoresker
+|2. Steigerung=am pittoreskesten
+}}
+
+{{Worttrennung}}
+:pit·to·resk, {{Komp.}} pit·to·res·ker, {{Sup.}} pit·to·res·kes·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌpɪtoˈʀɛsk}}, {{Komp.}} {{Lautschrift|ˌpɪtoˈʀɛskɐ}}, {{Sup.}} {{Lautschrift|ˌpɪtoˈʀɛskəstn̩}}, {{Lautschrift|ˌpɪtoˈʀɛskəstən}}
+:{{Hörbeispiele}} {{Audio|De-at-pittoresk.ogg|pittoresk (österreichisch)}}
+
+{{Bedeutungen}}
+:[1] [[malerisch]]
+
+{{Herkunft}}
+:abgeleitet von {{lat.}} ''{{Ü|la|pictus}}'' „gemalt“, zu [[italienisch]] ''{{Ü|it|pittoresco}}''&lt;ref&gt;[http://www.zeno.org/Brockhaus-1837/A/Pittoresk?hl=pittoresk Brockhaus Bilder-Conversations-Lexikon, Band 3. Leipzig 1839., Seite 507.]&lt;/ref&gt;; zu [[französisch]] ''{{Ü|fr|pittoresque}}''&lt;ref&gt;[http://www.zeno.org/Brockhaus-1809/B/Pittoresk?hl=pittoresk Brockhaus Conversations-Lexikon Bd. 8. Leipzig 1811, Seite 251.]&lt;/ref&gt;
+
+{{Sinnverwandte Wörter}}
+:[1] [[bildschön]], [[hübsch]], [[malerisch]]
+
+{{Beispiele}}
+:[1] Die kleine Stadt mit ihrem Labyrinth enger Straßen und ihren alten Häusern macht einen ''pittoresken'' Eindruck.
+:[1] Wir waren in dem ''pittoreskesten'' Dorf der ganzen Umgebung gelandet.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|picturesque}}
+*{{fr}}: [1] {{Ü|fr|pittoresque}} {{mf}}
+*{{it}}: [1] {{Ü|it|pittoresco}}, {{Ü|it|suggestivo}}
+*{{nl}}: [1] {{Ü|nl|#pittoresk (Niederländisch)|pittoresk}}, {{Ü|nl|schilderachtig}}
+*{{no}}: [1] {{Ü|no|#pittoresk (Norwegisch)|pittoresk}}
+*{{pl}}: [1] {{Ü|pl|malowniczy}}
+{{Ü-Abstand}}
+*{{pt}}: [1] {{Ü|pt|pitoresco}}
+*{{ru}}: [1] {{Üxx|ru|shiwopisnyj|живописный}}
+*{{sk}}: [1] {{Ü|sk|pitoreskný}}
+*{{sl}}: [1] {{Ü|sl|pitoresken}}, {{Ü|sl|razgiban}}, {{Ü|sl|slikovit}}
+*{{es}}: [1] {{Ü|es|pintoresco}} {{m}}, {{Ü|es|pintoresca}} {{f}}
+*{{cs}}: [1] {{Ü|cs|pitoreskní}}, {{Ü|cs|malebný}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Ref-DWDS|pittoresk}}
+:[1] {{Ref-Canoo|pittoresk}}
+:[1] {{Ref-UniLeipzig|pittoresk}}
+
+{{Quellen}}
+
+[[en:pittoresk]]
+[[fi:pittoresk]]
+[[fr:pittoresk]]
+[[hu:pittoresk]]
+[[io:pittoresk]]
+[[ko:pittoresk]]
+[[pl:pittoresk]]
+[[sv:pittoresk]]
+[[zh:pittoresk]]

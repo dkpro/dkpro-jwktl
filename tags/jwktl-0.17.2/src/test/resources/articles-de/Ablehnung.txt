@@ -1,0 +1,77 @@
+== Ablehnung ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Substantiv-Tabelle
+|Wer oder was? (Einzahl)=die Ablehnung
+|Wer oder was? (Mehrzahl)=die Ablehnungen
+|Wessen? (Einzahl)=der Ablehnung
+|Wessen? (Mehrzahl)=der Ablehnungen
+|Wem? (Einzahl)=der Ablehnung
+|Wem? (Mehrzahl)=den Ablehnungen
+|Wen? (Einzahl)=die Ablehnung
+|Wen? (Mehrzahl)=die Ablehnungen
+}}
+
+{{Silbentrennung}}
+:Ab·leh·nung, {{Pl.}} Ab·leh·nun·gen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈapˌleːnʊŋ}}, {{Pl.}} {{Lautschrift|ˈapˌleːnʊŋən}}
+:{{Hörbeispiele}} {{Audio|De-at-Ablehnung.ogg|Ablehnung (österreichisch)}}, {{Pl.}} {{Audio|De-at-Ablehnungen.ogg|Ablehnungen (österreichisch)}}
+
+{{Bedeutungen}}
+:[1] [[Reiz]] (vor allem bei Mensch oder Tier), der [[Unlust]] auslöst
+:[2] [[zwischenmenschlich]]e [[Zurückweisung]] oder Nicht-[[Annahme]] einer anderen [[Person]]
+:[3] [[negativ]]e [[Reaktion]] auf eine [[Bitte]], ein [[Gesuch]], eine [[Aufforderung]], einen [[Antrag]] oder Ähnliches; [[Verweigerung]] einer Reaktion auf ein [[Schriftstück]], einen [[Brief]], einen [[Eid]], einer [[Zahlung]]; [[Verweigerung]] der Annahme eines Gegenstandes, ein [[abschlägig]]er [[Bescheid]], eine [[Missbilligung]], eine [[Verurteilung]]
+
+{{Herkunft}}
+:''substantiviertes Verb'' [[ablehnen]] und ''Suffix'' [[-ung]]
+
+{{Sinnverwandte Wörter}}
+:[1] [[Aversion]]
+:[1, 2] [[Abscheu]], [[Unbehagen]]
+:[2] [[Antipathie]], [[Groll]]
+:[3] [[Abfuhr]], [[Absage]], [[Negativbescheid]], [[Missbilligung]], [[Schlappe]]
+
+{{Gegenwörter}}
+:[1] [[Appetit]], [[Begierde]], [[Lust]]
+:[2] [[Aufnahme]], [[Akzeptanz]], [[Sympathie]]
+:[2, 3] [[Annahme]] 
+
+{{Beispiele}}
+:[1] Dieser Lärm, den du Musik nennst, stößt bei mir auf ''Ablehnung''.
+:[2] Gegen ihn habe ich eine ''Ablehnung''.
+:[3] Er vernahm ihre ''Ablehnung'' mit Bitterkeit.
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [3] {{Ü|en|refusal}}, {{Ü|en|rejection}} (einer Stelle, eines Angebotes)
+*{{fr}}: [2] {{Ü|fr|rejet}} {{m}}; [3] {{Ü|fr|refus}} {{m}} 
+*{{eo}}: [2] {{Ü|eo|naŭzo}}; [3] {{Ü|eo|rifuzo}}
+*{{ja}}: [3] {{Üxx|ja|ひてい, hitei|否定}}
+{{Ü-Abstand}}
+*{{ru}}: [1] {{Ü|ru|отвращение}}, [2] {{Ü|ru|неприязнь}}, [3] {{Ü|ru|отказ}}, 
+*{{sv}}: [1] {{Ü|sv|inge olust}}; [2] {{Ü|sv|känna olust}}; [3] {{Ü|sv|avslag}}, {{Ü|sv|avvisande}}
+*{{es}}: [1] {{Ü|es|repudio}} {{m}}; [3] {{Ü|es|rechazo}} {{m}}
+*{{hu}}: [1] {{Ü|hu|lemondás}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Literaturliste|Wahrig, Gerhard, Wörterbuch|sup=1986}}
+:[1] {{Wikipedia|Ablehnung}}
+:[1–3] {{Ref-DWDS|Ablehnung}}
+:[2, 3] {{Ref-Canoo|Ablehnung}}
+:[1–3] {{Ref-UniLeipzig|Ablehnung}}
+
+{{Ähnlichkeiten}}
+:[[ablehnen]], [[Anlehnung]]
+
+[[cs:Ablehnung]]
+[[en:Ablehnung]]
+[[fr:Ablehnung]]
+[[io:Ablehnung]]
+[[is:Ablehnung]]
+[[it:Ablehnung]]
+[[pl:Ablehnung]]
+[[ru:Ablehnung]]
+[[zh:Ablehnung]]

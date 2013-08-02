@@ -1,0 +1,71 @@
+== Verbalsubstantiv ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Substantiv-Tabelle|
+ Wer oder was? (Einzahl)=das Verbalsubstantiv
+|Wer oder was? (Mehrzahl)=die Verbalsubstantive
+|Wessen? (Einzahl)=des Verbalsubstantivs
+|Wessen? (Mehrzahl)=der Verbalsubstantive
+|Wem? (Einzahl)=dem Verbalsubstantiv
+|Wem? (Mehrzahl)=den Verbalsubstantiven
+|Wen? (Einzahl)=das Verbalsubstantiv
+|Wen? (Mehrzahl)=die Verbalsubstantive
+}} 
+
+{{Silbentrennung}} Ver·bal·sub·stan·tiv, {{Pl.}} Ver·bal·sub·stan·ti·ve
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|vɛʁˈbaːlzʊpstanˌtiːf}}, {{Pl.}} {{Lautschrift|vɛʁˈbaːlzʊpstanˌtiːvə}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] [[Linguistik]]: Sammelbegriff für verschiedene Klassen von [[Substantiv]]en, die durch [[Substantivierung]] von [[Verbform]]en enstanden sind oder noch entstehen
+
+{{Abkürzungen}}
+
+{{Herkunft}}
+: [[Determinativkompositum]] aus dem Adjektiv [[verbal]] und [[Substantiv]]
+    
+{{Synonyme}}
+:[1] 
+
+{{Gegenworte}}
+:
+
+{{Oberbegriffe}}
+:[1] [[Substantiv]], [[Wortart]], [[Grammatik]]
+
+{{Unterbegriffe}}
+:[1] [[Gerundium]], [[Gerundiv]]/ [[Gerundivum]], [[Nomen actionis]] <ref> Helmut Glück (Hrsg.), unter Mitarbeit von Friederike Schmöe: ''Metzler Lexikon Sprache.'' Dritte, neubearbeitete Auflage. Metzler, Stuttgart/ Weimar 2005. ISBN 978-3-476-02056-7 </ref>
+
+
+{{Beispiele}}
+:[1] Die Wortwurzel von ''Verbalsubstantiven'' ist ein [[Verb]].
+
+<!--{{Charakteristische Wortkombinationen}}-->
+<!-- Einträge üblicher Nachbarworte insbesondere gebräuchlicher Kombinationen (was man sofort damit verbindet)-->
+:
+{{Abgeleitete Begriffe}}
+<!-- Abgeleitete Begriffe alphabetisch sortiert (z.B. Wörterbuch, wortgewandt) -->
+:[1] 
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+{{Ü-Abstand}}
+*{{ru}}: [1] {{Ü|ru|}}
+*{{es}}: [1] {{Ü|es|}}
+{{Ü-rechts}}<!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] {{Wikipedia|Verbalsubstantiv}}
+:[1] {{Ref-DWDS|Verbalsubstantiv}}
+:[1] {{Ref-Canoo|Verbalsubstantiv}}
+:[1] {{Ref-UniLeipzig|Verbalsubstantiv}}
+<references/>
+
+{{Ähnlichkeiten}}
+
+[[Kategorie:Fremdwort]]
+
