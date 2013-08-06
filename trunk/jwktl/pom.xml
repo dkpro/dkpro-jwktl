@@ -35,7 +35,9 @@
 	</organization>
 	<developers>
         <developer>
+            <id>yevgen.chebotar</id>
             <name>Yevgen Chebotar</name>
+            <email>yevgen.chebotar@gmail.com</email>
         </developer>
 		<developer>
 			<id>chmeyer.de</id>

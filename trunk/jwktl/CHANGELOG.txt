@@ -192,4 +192,12 @@ JWKTL-0.17.0 (2013-07-26) INTERNAL RELEASE
 - Modified: Integrated Wikokit code.
 - Modified: Preparations for open source release.
 - Fixed: Definition for binary distribution.
- 
+
+JWKTL-0.17.1 (2013-07-26) TEST RELEASE
+- Test: Open source release.
+
+JWKTL-0.17.2 (2013-08-02) TEST RELEASE
+- Test: Maven Central release.
+
+JWKTL-1.0.0 (2013-08-06)
+- First official open source release.
