@@ -1,0 +1,1174 @@
+{{wikipedia}}
+{{also|Appendix:Variations of &quot;be&quot;|Appendix:ISO 639-1 language codes}}
+==English==
+
+===Pronunciation===
+* {{a|UK}} {{IPA|/biː/}}, {{SAMPA|/bi:/}}
+* {{a|US}} {{IPA|/bi/}}, {{SAMPA|/bi/}}
+* {{audio|en-us-be.ogg|Audio (US)}}
+* {{audio|En-uk-to be.ogg|Audio (UK)}}
+* {{rhymes|iː}}
+* {{homophones|bee}}
+
+===Etymology===
+From {{etyl|enm}} {{term|been||to be|lang=enm}}, from {{etyl|ang}} {{term|beon|bēon|to be, become|lang=ang}}, from {{proto|Germanic|beunan|to be, exist, come to be, become|lang=en}}, from {{proto|Indo-European|bheu-|to grow, become, come into being, appear|lang=en}}. Cognate with {{etyl|fry|-}} {{term|binne||are|lang=fry}}, {{etyl|nl|-}} {{term|ben||am|lang=nl}}, Low German ''bün'' (&quot;am&quot;), {{etyl|de|-}} {{term|bin||am|lang=de}}, {{etyl|ang|-}} {{term|buan|būan|to live, wone|lang=ang}}. Irregular forms are inherited from the {{etyl|ang}} compound verb {{term|beon-wesan|bēon-wesan|lang=ang}}.
+
+===Verb===
+{{infl|en|verb|[[#Inflection|highly irregular]]}}
+
+# {{intransitive}} To [[occupy]] a [[place]].
+#: ''The cup '''is''' on the table.''
+# {{intransitive}} To [[occur]], to take place.
+#: ''When will the meeting '''be'''?''
+# {{intransitive|without [[predicate]]}} To [[exist]].
+#* '''1526''', ''Bible'', tr. William Tyndale, Matthew 2:
+#*: Rachel wepynge ffor her chyldren, and wolde nott be comforted because they '''were''' not.
+#* '''c. 1600''', [[w:William Shakespeare|William Shakespeare]], ''[[s:Hamlet|Hamlet]]'':
+#*: ''To '''be''' or not to '''be''', that is the question.''
+# {{intransitive|without predicate}} {{non-gloss definition|[[elliptical]] form of &quot;be here&quot;, &quot;go to and return from&quot; or similar}}.
+#: ''The postman has '''been''' today, but my tickets have still not yet come.''
+#: ''I have '''been''' to Spain many times.''
+# {{transitive|copulative}} {{non-gloss definition|Used to indicate that the subject and object are the same}}.
+#: ''Ignorance '''is''' bliss.''
+# {{transitive|copulative|mathematics}} {{non-gloss definition|Used to indicate that the values on either side of an equation are the same}}.
+#: ''3 times 5 '''is''' fifteen.''
+# {{transitive|copulative}} {{non-gloss definition|Used to indicate that the subject plays the role of the predicate nominal}}.
+#: ''François Mitterrand '''was''' president of France from 1981 to 1995.''
+# {{transitive|copulative}} {{non-gloss definition|Used to connect a noun to an adjective that describes it}}.
+#: ''The sky '''is''' blue.''
+# {{transitive|copulative}} {{non-gloss definition|Used to indicate that the subject has the qualities described by a noun or noun phrase}}.
+#: ''The sky '''is''' a deep blue today.''
+# {{transitive|auxiliary}} {{non-gloss definition|Used to form the [[passive voice]]}}.
+#: ''The dog '''was''' drowned by the boy.''
+#* {{quote-book|year=1995|author=C. K. Ogden|title=Psyche: An Annual General and Linguistic Psychology 1920-1952|pageurl=http://books.google.com.br/books?id=43QCzKUXkBYC&amp;pg=PA13#v=onepage&amp;q&amp;f=false|isbn=9780415127790|page=13|publisher=C. K. Ogden|passage=Study courses of Esperanto and Ido have '''been''' broadcast.}}
+# {{transitive|auxiliary}} {{non-gloss definition|Used to form the continuous forms of various tenses}}.
+#: ''The woman '''is''' walking.''
+#: ''I shall '''be''' writing to you soon.''
+#: ''We liked to chat while we '''were''' eating.''
+#* {{quote-book|year=1995|author=C. K. Ogden|title=Psyche: An Annual General and Linguistic Psychology 1920-1952|pageurl=http://books.google.com.br/books?id=43QCzKUXkBYC&amp;pg=PA13#v=onepage&amp;q&amp;f=false|isbn=9780415127790|page=13|publisher=C. K. Ogden|passage=In the possibility of radio uses of a constructed language — and such experiments '''are''' proving successful — vast sums of money and untold social forces may be involved.}}
+# {{archaic}} {{non-gloss definition|Used to form the perfect aspect with certain intransitive verbs. Often still used for ''to [[go]]''}}
+#: ''They '''are''' not yet come back.'' ([[wikisource:The_Tragedy_of_Macbeth/Act_I#SCENE_IV._Forres._The_palace.|Macbeth]] by [[w:William Shakespeare|William Shakespeare]]) (instead of ''They '''have''' not yet come back.'')
+#* '''1850''', [[w:Dante Gabriel Rossetti|Dante Gabriel Rossetti]], ''The Blessed Damozel'', lines 67-68
+#*: ‘I wish that he '''were''' come to me, / For he will come,’ she said.
+#* '''1922''', [[w:A. E. Housman|A. E. Housman]], [[w:Last Poems|Last Poems]] XXV, line 13
+#*: ''The King with half the East at heel '''is''' marched from lands of morning;''
+#: ''He is gone''.
+# {{transitive|auxiliary}} {{non-gloss definition|Used to form future tenses, especially the future subjunctive}}.
+#: ''I '''am''' to leave tomorrow.''
+#: ''I would drive you, '''were''' I to obtain a car.''
+# {{rfd-redundant}} {{non-gloss definition|Used to indicate [[age]]}}.
+#: ''This building '''is''' three hundred years old.''
+#: ''He looks twelve, but '''is''' actually thirteen, and will turn fourteen next week.''
+# {{rfd-redundant}} {{non-gloss definition|Used to indicate [[height]]}}.
+#: ''He '''was''' five-eight.''
+# {{rfd-redundant}} {{non-gloss definition|Used to indicate [[time]] of [[day]], day of the [[week]], or [[date]]}}.
+#: ''It '''is''' almost eight.''
+#: ''Today '''is''' the second, so I guess next Tuesday must '''be''' the tenth.''
+# {{context|With ''[[since]]''}} {{non-gloss definition|used to indicate passage of [[time]] since the occurrence of an [[event]]}}.
+#: ''It has ''''been''' three years since my grandmother died.'' (similar to ''My grandmother died three years ago,'' but emphasizes the intervening period)
+#: ''It had '''been''' six days since his departure, when I received a letter from him.''
+# {{often|impersonal}} {{non-gloss definition|Used to indicate [[weather]], [[air]] [[quality]], or the like}}.
+#: ''It '''is''' hot in Arizona, but it '''is''' not usually humid.''
+#: ''Why '''is''' it so dark in here?''
+# {{rfd-redundant}} {{non-gloss definition|Used to indicate temperature.}}
+#: ''It '''is''' in the eighties outside, and next week it '''is''' expected to '''be''' in the nineties!'' (Fahrenheit degrees)
+
+====Quotations====
+{{seeCites}}
+
+====Inflection====
+* The verb {{term||be|lang=en}} is the most irregular non-defective verb in Standard English. Unlike other verbs, which distinguish at most five forms (as in {{term||do|lang=en}}–{{term||does|lang=en}}–{{term||doing|lang=en}}–{{term||did|lang=en}}–{{term||done|lang=en}}), {{term||be|lang=en}} distinguishes eight:
+** {{term||Be|lang=en}} itself is the plain form, used as the infinitive, as the imperative, and as the present subjunctive.
+**: ''I want to '''be''' a father someday.'' (infinitive)
+**: ''That '''be''' the only reason.'' (infinitive)
+**: ''Let the truth '''be''' heard!'' (infinitive)
+**: ''Please '''be''' here by eight o'clock.'' (imperative)
+**: ''The librarian asked that the rare books not '''be''' touched.'' (present subjunctive)
+** {{term|am|Am|lang=en}}, {{term|are|lang=en}}, and {{term|is|lang=en}} are the forms of the present indicative. {{term||Am|lang=en}} is the first-person singular (used with {{term||I|lang=en}}); {{term||is|lang=en}} is the third-person singular (used with {{term||he|lang=en}}, {{term||she|lang=en}}, {{term||it|lang=en}} and other subjects that would be used with {{term||does|lang=en}} rather than {{term||do|lang=en}}); and {{term||are|lang=en}} is both the second-person singular and the plural (used with {{term||we|lang=en}}, {{term||you|lang=en}}, {{term||they|lang=en}}, and any other plural subjects).
+**: '''''Am''' I in the right place?'' (first-person singular present indicative)
+**: ''You '''are''' even taller than your brother!'' (second-person singular present indicative)
+**: ''Where '''is''' the library?'' (third-person singular present indicative)
+**: ''These '''are''' the biggest shoes we have.'' (plural present indicative)
+** {{term|was|Was|lang=en}} and {{term|were|lang=en}} are the forms of the past indicative and past subjunctive (like {{term||did|lang=en}}). In the past indicative, {{term||was|lang=en}} is the first– and third-person singular (used with {{term||I|lang=en}}, as well as with {{term||he|lang=en}}, {{term||she|lang=en}}, {{term||it|lang=en}} and other subjects that would be used with {{term||does|lang=en}} rather than {{term||do|lang=en}}), and {{term||were|lang=en}} is both the second-person singular and the plural (used with {{term||we|lang=en}}, {{term||you|lang=en}}, {{term||they|lang=en}}, and any other plural subjects). In the traditional past subjunctive, {{term||were|lang=en}} is used with all subjects, though many speakers do not actually distinguish the past subjunctive from the past indicative, and therefore use {{term||was|lang=en}} with first– and third-person singular subjects even in cases where other speakers would use {{term||were|lang=en}}.
+**: ''I '''was''' out of town.'' (first-person singular past indicative)
+**: ''You '''were''' the first person here.'' (second-person singular past indicative)
+**: ''The room '''was''' dirty.'' (third-person singular past indicative)
+**: ''We '''were''' angry at each other.'' (plural past indicative)
+**: ''I wish I '''were''' more sure.'' (first-person singular past subjunctive; ''was'' is also possible)
+**: ''If she '''were''' here, she would know what to do.'' (third-person singular past subjunctive; ''was'' is also possible)
+** {{term|being|Being|lang=en}} is the gerund-participle, used in noun-like constructions, in the progressive aspect, and after various verbs (like {{term||doing|lang=en}}). (It's also used as an actual noun; for those senses, see the entry for {{term|being|lang=en}} itself.)
+**: ''I don't like '''being''' here.''
+**: ''All of a sudden, he's '''being''' nice to everyone.''
+**: ''It won't stop '''being''' a problem until someone does something about it.''
+** {{term|been|Been|lang=en}} is the past participle, used in the perfect aspect.
+**: ''It's '''been''' that way for a week and a half.''
+* The forms {{term||am|lang=en}}, {{term||is|lang=en}}, and {{term||are|lang=en}} can contract with preceding subjects: {{term|I'm|I’m|I am|lang=en}}, {{term|'s|’s|is|lang=en}}, {{term|'re|’re|are|lang=en}}. The form {{term||are|lang=en}} most commonly contracts with personal pronouns ({{term|we're|we’re|we are|lang=en}}, {{term|you're|you’re|you are|lang=en}}, {{term|they're|they’re|they are|lang=en}}), but contractions with other subjects is possible; the form {{term||is|lang=en}} contracts quite freely with a variety of subjects. These contracted forms, however, are possible only when there is an explicit, non-preposed complement, and they cannot be stressed; therefore, contraction does not occur in sentences such as the following:
+**: ''Who's here? —I '''am'''.''
+**: ''I wonder what it '''is'''.''
+**: ''I don't want to be involved. —But you '''''are''''' involved, regardless.''
+* Several of {{term||be|lang=en}}’s finite forms have special negative forms, containing the suffix {{term|-n't|-n’t|lang=en}}, that can be used instead of adding the adverb {{term|not|lang=en}}. Specifically, the forms {{term||is|lang=en}}, {{term||are|lang=en}}, {{term||was|lang=en}}, and {{term||were|lang=en}} have the negative forms {{term|isn't|isn’t|lang=en}}, {{term|aren't|aren’t|lang=en}}, {{term|wasn't|wasn’t|lang=en}}, and {{term|weren't|weren’t|lang=en}}. The form {{term||be|lang=en}} itself does not, even in finite uses, with “not be” being used in the present subjunctive and “do not be” or “don’t be” (or, in dated use, “be not”) being used in the imperative. The form {{term||am|lang=en}} has the negative forms {{term|aren't|aren’t|lang=en}}, {{term|amn't|amn’t|lang=en}}, and arguably {{term|ain't|ain’t|lang=en}}, but all of these are in restricted use; see their entries for details.
+* Outside of Standard English, there is some variation in usage of some forms; some dialects, for example, use {{term||is|lang=en}} or {{term||’s|lang=en}} throughout the present indicative (supplanting, in whole or in part, {{term||am|lang=en}} and {{term||are|lang=en}}), and/or {{term||was|lang=en}} throughout the past indicative and past subjunctive (supplanting {{term||were|lang=en}}).
+
+{{rft}}
+
+====Translations====
+'''Note:''' ''This verb has many irregularities in both form and usage in many languages. Use translations with caution.''
+
+{{trans-top|occupy a place}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* Armenian: {{t+|hy|լինել|tr=linel}}
+* [[Basque]]: {{t-|eu|egon|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc’|xs=Belarusian}} {{qualifier|seldom used in present}}
+* [[Breton]]: {{t+|br|bezañ|xs=Breton}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|在|tr=zài|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}, {{t+|nl|staan}}, {{t+|nl|zitten}}, {{t+|nl|liggen}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Estonian: {{t-|et|olema}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t|el|είμαι|tr=eímai}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Hungarian: {{t+|hu|lenni}}
+* Icelandic: {{t+|is|vera}}
+* [[Ido]]: {{t|io|esar}}, {{t|io|esar}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t+|ja|有る|tr=[[ある]], aru}}, {{t+|ja|在る|tr=[[ある]], aru}} {{qualifier|for non-creatures}}, {{t+|ja|居る|tr=[[いる]], iru}} {{qualifier|for creatures}}
+* [[Khmer]]: {{t-|km|ជា|tr=jīa|sc=Khmr|xs=Khmer}}, {{t-|km|គឺ|tr=geu|sc=Khmr|xs=Khmer}}
+* Korean: {{t+|ko|있다|tr=itda|sc=Hang}}
+* [[Lao]]: {{t-|lo|ຢູ່|tr=juu|sc=Laoo|xs=Lao}}
+* Latin: {{t+|la|sum}}
+{{trans-mid}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* [[Macedonian]]: {{t-|mk|сум|tr=sum}}, {{t|mk|се наоѓа|tr=se náoǵa}}
+* [[North Frisian]]: {{tø|frr|weese}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t-|fa|هست|tr=hast|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|estar}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}, {{t+|ru|находиться|tr=naxodít’sja}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}, {{t|sh|налазити|alt=налазити се|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|nalaziti|alt=nalaziti se|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|estar}}
+* Swahili: {{t|sw|kuwa|xs=Swahili}}
+* Swedish: {{t+|sv|vara}}, {{t+|sv|ligga}}, {{t+|sv|stå}}, {{t+|sv|sitta}}, {{t+|sv|finnas}}
+* Thai: {{t+|th|อยู่|tr=yòo}}
+* Turkish: {{t+|tr|bulunmak}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}} {{qualifier|seldom used in present}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|ở|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+* [[West Frisian]]: {{t+|fy|wêze|xs=West Frisian}}
+* [[!Xóõ]]: {{tø|nmn|ǀîi}}
+* Yiddish: {{t-|yi|זײַן|tr=zayn|sc=Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|occur, take place}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* Armenian: {{t+|hy|լինել|tr=linel}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc’|xs=Belarusian}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|在|tr=zài|sc=Hani}}, {{t-|cmn|有|tr=yǒu|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t|da|finde sted}}, {{t+|da|ske}}
+* Dutch: {{t+|nl|zijn}}, {{t+|nl|plaatsvinden}}
+* Esperanto: {{t-|eo|okazi|xs=Esperanto}}
+* Estonian: {{t-|et|olema}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|stattfinden}}
+* Greek: {{t+|el|γίνομαι|tr=gínomai}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Hungarian: {{t|hu|lenni}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t+|ja|有る|tr=[[ある]], aru}}
+* [[Javanese]]: {{t-|jv|ana|xs=Javanese}}
+* Korean: {{ko-inline|일어나다|ireonada}}, {{ko-inline|생기다|saenggida}}
+* [[Lao]]: {{t+|lo|ເກີດ|tr=kəət|sc=Laoo|xs=Lao}}, {{t|lo|ບັງເກີດ|tr=bang-kəət|sc=Laoo|xs=Lao}}
+* Latin: {{t|la|sum}}
+{{trans-mid}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* [[Macedonian]]: {{t-|mk|сум|tr=sum}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t+|fa|بود|tr=bud|xs=Persian}}, {{t-|fa|باش|tr=bāš|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}}; {{t+|ru|происходить|tr=proisxodít’}}, {{t+|ru|произойти|tr=proizojtí}} (''[[pf.]]'')
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}, {{t+|sv|ske}} {{qualifier|about actions}}
+* [[Tamil]]: {{t+|ta|நட|tr=naṭa|xs=Tamil}}
+* [[Telugu]]: {{t|te|అగు|tr=agu}}
+* Thai: {{t|th|เกิดขึ้น|tr=gèrt kêun}}
+* Turkish: {{t+|tr|olmak}}, {{t+|tr|var olmak}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|có|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|exist}}
+* Albanian: {{t|sq|të}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* Armenian: {{t+|hy|լինել|tr=linel}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}}
+* Bengali: {{t-|bn|হওয়া|tr=hôoẇa|sc=Beng|xs=Bengali}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* [[Catalan]]: {{t+|ca|ésser}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}, {{t-|cmn|有|tr=yǒu|sc=Hani}}
+* Croatian: {{t|hr|biti}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t|da|være}}, {{t|da|være til}}
+* Dutch: {{t+|nl|zijn}}, {{t+|nl|bestaan}}
+* Esperanto: {{t-|eo|ekzisti|xs=Esperanto}}, {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla|tr=olemassa}}
+* French: {{t+|fr|être}}
+* [[Galician]]: {{t|gl|ser}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|υπάρχω|tr=ypárcho}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Icelandic: {{t+|is|vera}}
+* Indonesian: {{t|id|menjadi}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t+|ja|在る|tr=aru}}, {{t-|ja|存在する|tr=sonzai suru}}
+* [[Khmer]]: {{t-|km|ជា|tr=jīa|sc=Khmr|xs=Khmer}}, {{t-|km|គឺ|tr=geu|sc=Khmr|xs=Khmer}}
+* Korean: {{ko-inline|있다|itda}}, {{ko-inline|존재하다|jonjaehada}}
+{{trans-mid}}
+* [[Lao]]: {{t-|lo|ຢູ່|tr=juu|sc=Laoo|xs=Lao}}
+* Latin: {{t+|la|sum}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* [[Macedonian]]: {{t-|mk|сум|tr=sum}}
+* Malay: {{t|ms|menjadi}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}, {{t+|ro|exista}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}, {{t+|ru|существовать|tr=suščestvovát’}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}, {{t|sh|постојати|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|postojati|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}, {{t+|sv|existera}}, {{t+|sv|finnas}}, {{t|sv|finnas till}}
+* Thai: {{t|th|มีอยู่|tr=mee yòo}}
+* Turkish: {{t+|tr|var}}
+* Ukrainian: {{t+|uk|бути|tr=buty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|có|xs=Vietnamese}}
+* [[Volapük]]: {{t|vo|binön}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|elliptical form of &quot;be here&quot;, or similar}}
+* [[Basque]]: {{t-|eu|egon|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}, {{t-|cmn|有|tr=yǒu|sc=Hani}}, {{t-|cmn|在|tr=zài|sc=Hani}}, {{t-|cmn|來|sc=Hani}}, {{t-|cmn|来|tr=lái|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t|da|være}}, {{t|da|være her}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t-|eo|veni|xs=Esperanto}}, {{t+|eo|iri|xs=Esperanto}}, {{t+|eo|iri|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|aller}}, {{t+|fr|venir}}
+* German: {{t+|de|sein}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|andare}}, {{t+|it|venire}}
+* Japanese: {{t|ja|行って来る|tr=itte kuru}}
+* Latin: {{t+|la|venio|veniō}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+{{trans-mid}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|estar}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}, {{t+|ru|приходить|tr=prixodít'}}, {{t+|ru|прийти|tr=prijtí}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|estar}}
+* Swedish: {{t+|sv|vara}}
+* Thai: {{t+|th|มา|tr=mā}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|đến|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate that the subject and object are the same}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Cantonese: {{tø|yue|是|tr=si4}} {{qualifier|formal and written}}, {{tø|yue|係|tr=hai6}} {{qualifier|vernacular}}
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t|el|είμαι|tr=eímai}}
+* [[Haitian Creole]]: {{tø|ht|se}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t+|ga|is|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}, {{t|ja|である|tr=dearu|sc=Jpan}}, {{t|ja|だ|tr=da|sc=Jpan}}
+* [[Khmer]]: {{t-|km|ជា|tr=jīa|sc=Khmr|xs=Khmer}}, {{t-|km|គឺ|tr=geu|sc=Khmr|xs=Khmer}}
+* Korean: {{ko-inline|이다|ida}}
+{{trans-mid}}
+* [[Lao]]: {{t-|lo|ແມ່ນ|tr=mëën|sc=Laoo}}
+* Latin: {{t+|la|sum}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}, {{t+|ru|являться|tr=javlját’sja}} {{impf}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}
+* Thai: {{t-|th|เป็น|tr=bpen}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|là|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+* Yiddish: {{t-|yi|זײַן|tr=zayn|sc=Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate that the values on either side of an equation are the same}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t|da|være}}, {{t|da|være lig med}}
+* Dutch: [[gelijk]] [[zijn]]
+* Esperanto: {{t-|eo|egali|xs=Esperanto}}, {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}} ([[yhtä]] [[suuri]] [[kuin]])
+* French: {{t+|fr|faire}}
+* German: {{t+|de|sein}}
+* Greek: {{t|el|ίσον|tr=íson}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}} {{t-|ga|cothrom|xs=Irish}} {{t+|ga|le|xs=Irish}}
+* Italian: [[essere]] [[uguale]]
+* Japanese: {{t|ja|である|tr=dearu|sc=Jpan}}
+* [[Khmer]]: {{t-|km|ជា|tr=jīa|sc=Khmr|xs=Khmer}}
+* Korean: {{ko-inline|같다|gatda}}
+* Latin: {{t+|la|sum}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+{{trans-mid}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}} ''or'' være lik
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}} ''or'' vera/vere lik
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}, {{t|pl|równać się}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}, {{t-|ro|egala}}
+* Russian: {{t|ru|равняться|tr=равняется, ravnjájets’a}}, {{t+|ru|равно|tr=ravnó}}, {{t+|ru|быть|tr=byt'}}, (e.g. a future tense is used: {{t+|ru|будет|tr=búdet}}), {{t|ru|получиться|tr=polúčit’sja}}, {{t|ru|составить|tr=sostávit'}}, {{t+|ru|это|tr=éto}}, {{term|—||long dash}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: [[ser]] [[igual]] [[a]]
+* Swedish: {{t+|sv|vara}}, {{t|sv|vara lika med}}
+* Thai: {{t|th|เท่ากับ|tr=tâo gàp}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|là|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+* Yiddish: {{t-|yi|זײַן|tr=zayn|sc=Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate that the subject plays the role of the predicate nominative}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}} {{qualifier|seldom used in present}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}, ''absent with adjectives''.
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|είμαι|tr=eímai}}
+* [[Haitian Creole]]: {{tø|ht|se}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t+|ga|is|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t|ja|である|tr=dearu|sc=Jpan}}, [[を]][[やる]] (o yaru)
+* Korean: {{ko-inline|이다|ida}}
+{{trans-mid}}
+* Latin: {{t+|la|sum}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}, {{t+|ru|являться|tr=javlját’s’a}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}
+* Thai: {{t-|th|เป็น|tr=bpen}}, ''absent with adjectives''.
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|là|xs=Vietnamese}}, ''absent with adjectives''.
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to connect a noun to an adjective that describes it}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}, {{t-|eu|egon|xs=Basque}}
+* Belarusian: {{t-|be|быць|tr=byc'|xs=Belarusian}} {{qualifier|seldom used in present}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|είμαι|tr=eímai}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{not used|ja}}
+* Korean: {{not used|ko}}
+* Latin: {{t+|la|sum}}
+* Latvian: {{t+|lv|būt|xs=Latvian}}
+{{trans-mid}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}, {{t+|pt|estar}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}} {{qualifier|seldom used in present}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}, {{t+|es|estar}}
+* Swedish: {{t+|sv|vara}}
+* Thai: ''absent with adjectives''
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{not used|vi}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+* Yiddish: {{t-|yi|זײַן|tr=zayn|sc=Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate that the subject has the qualities described by a noun or noun phrase}}
+* Arabic: {{t-|ar|كان|tr=kaana}} {{qualifier|seldom used in present}}
+* [[Basque]]: {{t-|eu|izan|xs=Basque}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|είμαι|tr=eímai}}
+* Hindi: {{t+|hi|होना|tr=honā|xs=Hindi}}
+* Irish: {{t+|ga|is|xs=Irish}}
+* Italian: {{t+|it|essere}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}, {{t|ja|である|tr=dearu|sc=Jpan}}, {{t|ja|だ|tr=da|sc=Jpan}}
+* Korean: {{ko-inline|이다|ida}}
+* Latin: {{t+|la|sum}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+{{trans-mid}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}, {{t+|pt|estar}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovak: {{t+|sk|byť}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}
+* Thai: {{t-|th|เป็น|tr=bpen}}
+* Ukrainian: {{t+|uk|бути|tr=búty|xs=Ukrainian}}
+* Urdu: {{t-|ur|ہونا|tr=honā|xs=Urdu}}
+* Vietnamese: {{t+|vi|là|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to form the passive voice}}
+* Bulgarian: {{t-|bg|съм|tr=sǎm}}
+* Chinese:
+*: Mandarin: [[被]] (bèi) + verb {{qualifier|particle}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|blive}}
+* Dutch: {{t+|nl|worden}}
+* Esperanto: (passive form of the verb) -{{t-|eo|iĝi|xs=Esperanto}}, {{t+|eo|esti|xs=Esperanto}} + ''passive participle'' [-ata, -ita, -ota]
+* Finnish: ''active tense used''
+* French: {{t+|fr|être}}
+* German: {{t+|de|werden}}
+* Greek: ''usually translated using the passive form of the active verb''
+* Icelandic: {{t+|is|vera}}
+* Irish: ''specific form of each verb must be used''
+* Italian: {{t+|it|essere}}
+* Japanese: {{t|ja|れる|tr=reru|sc=Jpan}}, {{t|ja|られる|tr=rareru|sc=Jpan}}
+* Korean: (passive form of the verb) -{{ko-inline|기다|gida}}, –{{ko-inline|당하다|danghada}}, -{{ko-inline|되다|doeda}}, -{{ko-inline|리다|rida}}, -{{ko-inline|받다|batda}}, -{{ko-inline|이다|ida}}, -{{ko-inline|지다|jida}}, -{{ko-inline|히다|hida}}
+* Latin: {{t+|la|sum}}
+* Lithuanian: {{t+|lt|būti|xs=Lithuanian}}
+{{trans-mid}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|bli}}
+*: Norwegian Nynorsk: {{t-|nn|verta|xs=Norwegian Nynorsk}}, {{t-|nn|verte|xs=Norwegian Nynorsk}}, {{t-|nn|bli|xs=Norwegian Nynorsk}}
+* [[Old Church Slavonic]]: {{tø|cu|бꙑти|tr=byti|sc=Cyrs|xs=Old Church Slavonic}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|ser}}
+* Romanian: {{t+|ro|fi}}
+* Russian: {{t+|ru|быть|tr=byt’}}
+* Serbo-Croatian: {{t|sh|бити|sc=Cyrl|xs=Serbo-Croatian}}, {{t|sh|biti|xs=Serbo-Croatian}}
+* Slovene: {{t+|sl|biti}}
+* Spanish: (reflexive form of the verb) -{{t+|es|se}}, (passive form of the verb) {{t+|es|ser}} [...ado/ido]
+* Swedish: {{t+|sv|bli}}, {{t+|sv|-s}} {{qualifier|suffix used on the verb}}
+* Thai: {{t-|th|ถูก|tr=thūk}}, {{t-|th|โดน|tr=dohn}}
+* Vietnamese: {{qualifier|positive outcome}} {{t+|vi|được|xs=Vietnamese}}, {{qualifier|negative outcome}} {{t+|vi|bị|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+* [[West Frisian]]: {{t+|fy|wurde|xs=West Frisian}}
+{{trans-bottom}}
+
+{{trans-top|used to form the continuous forms of various tenses}}
+* Chinese:
+*: Mandarin: {{t-|cmn|在|tr=zài|sc=Hani}}, {{t-|cmn|正在|tr=zhèngzài|sc=Hani}}; verb + {{t-|cmn|著|sc=Hani}} / {{t-|cmn|着|tr=zhe|sc=Hani}}
+* Czech: {{not used|cs}}
+* Danish: {{not used|da}}
+* Dutch: [[zijn]] aan het + ''infinitive'' ''(or a simple tense without [[zijn]] when not stressing the continuousness of an action)''
+* Esperanto: {{t+|eo|esti|xs=Esperanto}} + ''active participle'' [-anta, -inta, -onta]
+** ''Note: Oftenest, the simple tense would be used unless the speaker wishes to emphasize the continuity of the action.''
+* Finnish: [[olla]] ([[tehdä|tekemässä]] [[jotakin]]) (''sometimes, normally active tense'')
+* French: ''(not translated; use the equivalent simple tense, or the imperfect in the past)''
+* German: {{t+|de|sein}}
+* Greek: {{qualifier|use imperfective verb form of the appropriate tense}}
+* [[Haitian Creole]]: {{tø|ht|ap}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Italian: {{t+|it|stare}}
+{{trans-mid}}
+* Japanese: {{t|ja|ている|tr=teiru|sc=Jpan}}
+* Korean: -{{ko-inline|어/아 [[가다]]|gada}}, -{{ko-inline|고 [[있다]]|go itda}}, -{{ko-inline|는다|neunda}}, -{{ko-inline|ㄴ다|nda}}, -{{ko-inline|ㅆ다|tda}}
+* Latin: {{not used|la}}
+* Norwegian: {{not used|no}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|być}}
+* Portuguese: {{t+|pt|estar}} + ''gerund'' [-ndo]
+* Romanian: ''(not translated; use the equivalent simple tense, or the imperfect in the past)''
+* Russian: {{qualifier|use imperfective verb form of the appropriate tense}}
+* Spanish: {{t+|es|estar}} [...ndo]
+* Swedish: ''(rarely translated; use the equivalent simple tense or possibly {{t|sv|hålla på att}} + infinitive)''
+* Thai: {{t-|th|กำลัง|tr=gam-lang}}
+* Vietnamese: {{t+|vi|đang|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|(archaic) used to form the perfect aspect with certain intransitive verbs}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Esperanto: {{not used|eo}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|avoir}}
+* German: {{t+|de|sein}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{qualifier|rendered by verb form}}
+* Japanese: {{t|ja|ている|tr=teiru|sc=Jpan}}
+{{trans-mid}}
+* Latin: {{t+|la|sum}}, {{qualifier| (not translated; use the equivalent simple tense, or the imperfect in the past)}} {{t|la|Videsne quis venit? |tr=Do you see who is coming?}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Portuguese: {{t+|pt|ser}} {{qualifier|archaic}}, {{t+|pt|ter}} {{qualifier|modern}}
+* Russian: {{not used|ru}}
+* Swedish: {{t+|sv|vara}}, {{t+|sv|ha}}
+* Vietnamese: {{t|vi|từng|xs=Vietnamese}}
+* Welsh: {{qualifier|rendered by verb form}}
+{{trans-bottom}}
+
+{{trans-top|used to form future tenses, especially the future subjunctive}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|být}}, {{t+|cs|mít}}
+* Danish: {{t+|da|ville}}
+* Esperanto: ''(not translated; use the future tense [-os])''
+* Finnish: {{t+|fi|tulla}}
+* French: {{not used|fr}}
+* German: {{t+|de|sein}}
+* Greek: ''(for future subjunctive, use θα + imperfective past verb form)''
+{{trans-mid}}
+* Irish: {{qualifier|rendered by verb form}}
+* Japanese: {{t|ja|だろう|tr=darō|sc=Jpan}}
+* Latin: {{qualifier|not translated; use a future tense}} {{t|la|ibo|tr=i'm to go}}, {{qualifier|not translated; use a future tense}} {{t|la|ivero|tr=i'm to go}}
+* Portuguese: ''use the future subjunctive tense''
+* Russian: {{t+|ru|быть|tr=byt’}}
+* Swedish: {{qualifier|for indicative: use present tense or {{t|sv|kommer att}} + infinitive; for subjunctive: use {{t|sv|om}} ... {{t|sv|skulle}} + infinitive or (archaically) use past subjunctive}}
+* Welsh: {{qualifier|rendered by verb form}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate age}}
+* Arabic: {{qualifier|no verb to indicate age in present}} {{t-|ar|عمر|alt=عمر-|tr=3umr-}} {{qualifier|+ eclitic pronoun or subject + number of years}} {{t+|ar|سنة|alt=سنة/سنوات|tr=sana/sanawaat}} {{qualifier|the form depends on the number of years}}
+* Chinese:
+*: Mandarin: (''no verb to indicate age: subject + number of years + '') + {{t-|cmn|歲|sc=Hani}}, {{t-|cmn|岁|tr=suì|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t-|eo|aĝi|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|avoir}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|είμαι|tr=eímai}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}} {{t-|ga|d'|xs=Irish}}{{t+|ga|aois|xs=Irish}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}
+{{trans-mid}}
+* Latin: {{t+|la|natus|nātus}}
+* [[Macedonian]]: {{t-|mk|има|tr=íma}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Polish: {{t+|pl|mieć}}
+* Portuguese: {{t+|pt|ter}}
+* Russian: (''subject in dative case + number of years'' + [[год]], [[год|года]], [[лето|лет]] (''god, góda , let''))
+* Spanish: {{t+|es|tener}}
+* Swedish: {{t+|sv|vara}}
+* Thai: (''no verb to indicate age: subject + number of years + '') + {{t|th|ปี|tr=bpee}}
+* Vietnamese: (''no verb to indicate age: subject + number of years + '') + {{t|vi|tuổi|xs=Vietnamese}} ({{t-|vi|歲|sc=Hani|xs=Vietnamese}})
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate height}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|mít}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|faire}}, {{t+|fr|mesurer}}
+* German: {{t+|de|sein}}
+* Greek: {{t|el|έχω ύψος||tr=écho ýpsos}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}
+{{trans-mid}}
+* Latin: {{t+|la|sum}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Portuguese: {{t+|pt|ter}}
+* Russian: ''instrumental of ''{{t+|ru|рост}} + {{t+|ru|в}} + ''dimension in accusative''
+* Spanish: {{t+|es|tener}}
+* Swedish: {{t+|sv|vara}}
+* Vietnamese: {{t+|vi|cao|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate time of day, day of the week, or date}}
+* [[Catalan]]: {{t|ca|ser}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|être}}
+* German: {{t+|de|sein}}
+* Greek: {{t+|el|είναι|tr=eínai}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}}
+{{trans-mid}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}
+* Latin: {{t|la|sum}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Portuguese: {{t+|pt|ser}}
+* Russian: {{t+|ru|быть|tr=byt’}}
+* Spanish: {{t+|es|ser}}
+* Swedish: {{t+|sv|vara}}
+* Vietnamese: {{t+|vi|là|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate weather, air quality, or the like}}
+* [[Catalan]]: {{t|ca|fer}}
+* Chinese:
+*: Mandarin: {{not used|cmn}}
+* Czech: {{t+|cs|být}}
+* Danish: {{t+|da|være}}
+* Dutch: {{t+|nl|zijn}}
+* Esperanto: {{t+|eo|esti|xs=Esperanto}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|faire}}
+* German: {{t+|de|sein}}
+* Greek: {{t-|el|κάνει|tr=kánei}}, {{t|el|έχει|tr=échei}}
+* Icelandic: {{t+|is|vera}}
+* Irish: {{t-|ga|bí|xs=Irish}}, {{t+|ga|is|xs=Irish}}
+{{trans-mid}}
+* Japanese: {{t|ja|だ|tr=da|sc=Jpan}}
+* Latin: {{t|la|sum}}
+* Norwegian:
+*: Norwegian Bokmål: {{t+|no|være}}
+*: Norwegian Nynorsk: {{t+|nn|vera|xs=Norwegian Nynorsk}}, {{t+|nn|vere|xs=Norwegian Nynorsk}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Portuguese: {{t+|pt|fazer}}, {{t+|pt|estar}}
+* Russian: {{qualifier|adverbs}} (e.g. темно, холодно, жарко)
+* Spanish: {{t+|es|hacer}}
+* Swedish: {{t+|sv|vara}}
+* Vietnamese: {{t+|vi|có|xs=Vietnamese}}
+* Welsh: {{t-|cy|bod|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|used to indicate temperature}}
+* [[Catalan]]: {{t|ca|fer}}
+* Chinese:
+*: Mandarin: {{t-|cmn|是|tr=shì|sc=Hani}}
+* Czech: {{t+|cs|být}}
+* Dutch: {{t+|nl|zijn}}
+* Finnish: {{t+|fi|olla}}
+* French: {{t+|fr|faire}}
+* Icelandic: {{t+|is|vera}}
+{{trans-mid}}
+* Japanese: {{t|ja|です|tr=desu|sc=Jpan}}
+* Latin: {{t|la|sum}}
+* Persian: {{t-|fa|است|tr=ast|xs=Persian}}, {{t+|fa|بودن|tr=budan|xs=Persian}}
+* Portuguese: {{t+|pt|fazer}}
+* Russian: {{t+|ru|быть|tr=byt’}}
+* Spanish: {{t+|es|hacer}}
+* Swedish: {{t+|sv|vara}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|br}}: [[bezañ]]
+* {{ttbc|bg}}: [[съм]] (sǎm)
+* {{ttbc|ca}}: [[ser]], [[estar]]
+* Chinese:
+* {{ttbc|yue}}: [[係]] (hai6)
+* {{ttbc|fo}}: [[vera]]
+* {{ttbc|got}}: [[𐍅𐌹𐍃𐌰𐌽]]
+* {{ttbc|grc}}: [[εἰμί]]
+* {{ttbc|hi}}: [[होना]] (honā)
+* {{ttbc|io}}: [[esar]], [[existar]]
+* {{ttbc|ia}}: [[esser]], [[ser#Interlingua|ser]]
+* {{ttbc|kn}}: [[ಇರ]] (iru, eru)
+{{trans-mid}}
+* {{ttbc|ku}}: [[bûn]]
+* {{ttbc|mt}}: [[nkun]], [[tkun]]
+* {{ttbc|gv}}: [[bee#Manx|bee]]
+* {{ttbc|nov}}: [[es#Novial|es]]
+* {{ttbc|oc}}: [[èsser]]
+* {{ttbc|ang}}: [[beon-wesan|bēon-wesan]]
+* {{ttbc|non}}: [[vera#Old Norse|vera]]
+* {{ttbc|fa}}: {{fa-Arab|[[بودن]]}} (budan)
+* {{ttbc|rm}}: {{t-|rm|esser|xs=Romansch}}, {{t-|rm|star|xs=Romansch}}
+* {{ttbc|sk}}: [[byť]]
+* {{ttbc|ur}}: {{ur-Arab|[[ہونا]]}} (honā)
+* {{ttbc|vi}}: [[là#Vietnamese|là]] {{qualifier|usually omitted when intransitive}}
+{{trans-bottom}}
+
+===References===
+* {{R:American Heritage 2000|be}}
+* {{R:Dictionary.com|be}}
+* {{R:WordNet 2003|be}}
+
+===Statistics===
+* {{rank|had|you|not|19|be|at|by|on}}
+
+===Anagrams===
+* {{alphagram|be}}
+* [[EB#English|EB]]
+
+[[Category:100 English basic words]]
+[[Category:Behaviour]]
+[[Category:English auxiliary verbs]]
+[[Category:English copulative verbs]]
+[[Category:English suppletive verbs]]
+[[Category:English two-letter words]]
+[[Category:English verbs]]
+
+----
+
+==Albanian==
+
+===Noun===
+{{infl|sq|noun}}
+
+# [[oath]]
+
+----
+
+==Amuzgo==
+
+===Adjective===
+{{infl|amu|adjective}}
+
+# [[red]]
+
+----
+
+==Balinese==
+
+===Noun===
+{{infl|ban|noun}}
+
+# [[fish]]
+# [[meat]], [[fish]], [[tofu]], [[egg]] {{qualifier|everything that is eaten with rice except vegetables}}
+
+----
+
+==Catalan==
+
+===Etymology 1===
+
+====Noun====
+{{ca-noun|f}}
+
+# The [[Appendix:Latin script|Latin]] letter [[B]] (lowercase [[b]]).
+
+=====Derived terms=====
+* {{l|ca|be alta}}
+
+=====Usage notes=====
+In some dialects of Catalan, the sounds associated with the letter ''b'' and the letter ''v'' are the same: {{IPAchar|[β]}}. In order to differentiate ''be'' and {{term|lang=ca|ve}} in those dialects, the letters are often called {{term|lang=ca|be alta||high B}} and {{term|lang=ca|ve baixa||low V}}.
+
+===Etymology 2===
+Onomatopoeic from the sound of a lamb.
+
+====Noun====
+{{ca-noun|m|pl=bens}}
+
+# [[sheep]], [[ram]], [[ewe]], [[lamb]]; an individual of the species [[Ovis aries]]
+
+[[Category:ca:Agriculture]]
+[[Category:ca:Latin letter names]]
+[[Category:ca:Sheep]]
+
+----
+
+==Hungarian==
+
+===Pronunciation===
+* {{IPA|/ˈbɛ/|lang=hu}}
+* {{audio|Hu-be.ogg|Audio}}
+
+===Adverb===
+{{infl|hu|adverb}}
+
+# [[in]]
+
+====Derived terms====
+* [[befelé]]
+
+===See also===
+* [[be-]], [[benn]], [[bent]], [[bél]], [[belső]]
+
+[[Category:Hungarian two-letter words]]
+
+----
+
+==Lithuanian==
+
+===Pronunciation===
+* {{IPA|[bɛ]|lang=lt}}
+
+===Preposition===
+{{lt-prep|g}}
+
+# {{context|shows absence of something}} [[without]]
+# [[besides]]; [[but]], [[except]]
+
+====Antonyms====
+* {{l|lt|su}}
+
+----
+
+==Lojban==
+
+===Particle===
+{{jbo-cmavo}}&lt;!--{{infl|jbo|particle|Cmavo}}--&gt;
+
+# Connects the following ''[[sumti]]'' to the previous ''sumti'' as an internal ''sumti'' (subordinate clause); by default as the x2 argument
+#: ''le [[klama#Lojban|klama]] '''be''' la paris.''
+#:: ''the one going to Paris''
+#: ''le klama '''be''' fo la paris.''
+#:: ''the one travelling via Paris''
+
+====Related terms====
+* [[bei#Lojban|bei]]
+* [[be'o#Lojban|be'o]]
+
+----
+
+==Norwegian==
+
+===Etymology===
+From {{etyl|non|no}} {{term|biðja|lang=non}}
+
+===Verb===
+{{infl|nb|verb|present tense|ber|past tense|ba|or|bad|present passive|bes|past participle|bedt|present participle|bedende|imperative|be}} (Bokmål)&lt;br /&gt;
+{{infl|nn|verb|present tense|ber|or|bed|or|beder|past tense|bad|past participle|bede|or|bedi|or|bedd|or|bedt|present participle|bedande|imperative|be}} (Nynorsk)
+
+# To [[pray]].
+# To [[ask]] something of someone.
+
+====Synonyms====
+* [[bede]]
+
+====Derived terms====
+* [[beding]]
+
+====Related terms====
+* [[bøn]] / [[bønn]]
+
+====References====
+* {{R:Dokumentasjonsprosjektet}}
+* {{R:Ordnett}}
+
+[[Category:Norwegian irregular verbs]]
+
+----
+
+==Old Prussian==
+
+===Conjunction===
+{{infl|prg|conjunction}}
+
+# [[and]]
+#: ''[[wāiklis]] '''be''' [[mērgā]] '' - ''a boy '''and''' a girl''
+
+===Preposition===
+{{infl|prg|preposition}}
+
+# [[without]]
+
+----
+
+==Polish==
+
+===Pronunciation===
+* {{IPA|[bɛ]|lang=pl}}
+
+===Noun===
+{{infl|pl|noun|g=n|indeclinable}}
+
+# The name of the letter [[B]]/[[b]].
+
+===Adjective===
+{{infl|pl|adjective|indeclinable}}
+
+# (childish) [[bad]], [[not]] [[suitable]], [[not]] [[eatable]]
+
+===Interjection===
+{{infl|pl|interjection}}
+
+# (onomatopoeia) A sound of a [[sheep]]
+
+----
+
+==Scots==
+
+===Etymology===
+{{etyl|ang|sco}} {{term|beon-wesan|bēon-wesan|lang=ang}}.
+
+===Verb===
+{{infl|sco|verb|head=tae be}}
+
+# To [[#English|be]].
+
+====Conjugation====
+In most dialects:
+{{top2}}
+* A [[am#Scots|am]] (emphatic same, negative [[amna]])
+* ye [[are#Scots|are]] (emphatic same, negative [[arena]]), thoo [[art#Scots|art]] (emphatic same, negative [[artna]]) {{qualifier|archaic}}
+* he/she/it [[is#Scots|is]] (emphatic same, negative [[isna]])
+* we [[are#Scots|are]] (emphatic same, negative [[arena]])
+* ye [[are#Scots|are]] (emphatic same, negative [[arena]])
+* they [[are#Scots|are]] (emphatic same, negative [[arena]])
+{{mid2}}
+* [[present participle]]: [[bein#Scots|bein]]
+* [[past participle]]: [[been#Scots|been]]
+* [[past tense]]: [[wis#Scots|wis]] (''with singular pronouns &amp; plural nouns''); [[wis#Scots|wis]] or [[wir#Scots|wir]] {{qualifier|with plural pronouns}}
+{{bottom}}
+
+In South Scots:
+{{top2}}
+* A [[im#Scots|im]] (emphatic [[em]] or [[um]], negative [[imni]])
+* ee [[ir#Scots|ir]] (emphatic [[er]] or [[ur]], negative [[irni]])
+* hei/shi/it [[is#Scots|is]] (emphatic [[es]], negative [[isni]])
+* oo [[ir#Scots|ir]] (emphatic [[er]] or [[ur]], negative [[irni]])
+* yow yins [[is#Scots|is]] (emphatic [[es]], negative [[isni]])
+* they [[ir#Scots|ir]] (emphatic [[er]] or [[ur]], negative [[irni]])
+{{mid2}}
+* [[present participle]]: [[bein#Scots|bein]]
+* [[past participle]]: [[been#Scots|been]]
+* [[past tense]]: [[wuz#Scots|wuz]] or [[wur#Scots|wur]] (usually used as in English, except with &quot;ee&quot;, which can take either)
+{{bottom}}
+
+----
+
+==Spanish==
+
+===Etymology 1===
+
+====Noun====
+{{es-noun-f|p=be}}
+
+# Name of the letter {{term|b}}.
+
+===Etymology 2===
+Echoic
+
+====Noun====
+{{es-noun-m}}
+
+# [[baa]] (bleating of a sheep)
+
+[[Category:es:Latin letter names]]
+
+----
+
+==Swedish==
+
+===Pronunciation===
+* {{audio|Sv-be.ogg|audio}}
+
+===Alternative forms===
+* [[bedja]] (dated)
+
+===Verb===
+{{infl|sv|verb}}
+
+# to [[ask]] for, request someone else to do something
+# to [[pray]]
+# to [[beg]], to plead with someone for help or for a favor
+
+====Conjugation====
+{{sv-conj-wk|end=vw|past=bad}}
+{{sv-conj-wk|head=bedja|bed|past=bad|sup=bett|end=dj|definitions=(dated)}}
+
+====Related terms====
+* [[bedjare]]
+* [[bön]]
+* [[ombe]]
+* [[tillbe]]
+
+[[ar:be]]
+[[br:be]]
+[[cs:be]]
+[[de:be]]
+[[et:be]]
+[[el:be]]
+[[es:be]]
+[[fa:be]]
+[[fr:be]]
+[[fy:be]]
+[[gl:be]]
+[[ko:be]]
+[[hy:be]]
+[[hi:be]]
+[[hr:be]]
+[[io:be]]
+[[it:be]]
+[[kk:be]]
+[[ku:be]]
+[[lo:be]]
+[[la:be]]
+[[lv:be]]
+[[lb:be]]
+[[lt:be]]
+[[li:be]]
+[[hu:be]]
+[[ml:be]]
+[[my:be]]
+[[nl:be]]
+[[ja:be]]
+[[no:be]]
+[[oc:be]]
+[[pl:be]]
+[[pt:be]]
+[[ro:be]]
+[[ru:be]]
+[[sq:be]]
+[[simple:be]]
+[[sl:be]]
+[[fi:be]]
+[[sv:be]]
+[[ta:be]]
+[[te:be]]
+[[th:be]]
+[[tr:be]]
+[[tk:be]]
+[[uk:be]]
+[[vi:be]]
+[[zh:be]]

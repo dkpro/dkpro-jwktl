@@ -1,0 +1,54 @@
+==English==
+
+===Etymology===
+Unknown. Perhaps from {{etyl|grc|en}} {{term|κατά||lang=grc|tr=cata|against}} and {{term|δόξα||tr=doxa|lang=grc|opinion, expectation}}, but see Etymology in [[:Citations:rain cats and dogs#Etymology|Citations]]
+
+===Verb===
+{{en-verb|inf=to [[rain]] [[cat]]s and [[dog]]s|rains cats and dogs|raining cats and dogs|rained cats and dogs}}
+
+# {{idiomatic}} To [[rain]] very [[heavily]].
+
+====Synonyms====
+* {{sense|to rain very heavily}} [[bucket]], [[bucket down]], [[chuck it down]], [[rain buckets]], [[rain pitchforks]], [[pelt]], [[piss down]] {{italbrac|coarse slang}}, [[pour]], [[stream]], [[teem]]
+
+====Translations====
+{{trans-top|to rain very heavily}}
+* [[Catalan]]: [[ploure a bots i barrals]]
+* Chinese:
+*: Mandarin: {{t|cmn|傾盆大雨|sc=Hani}},  {{t|cmn|倾盆大雨|tr=qīngpéndàyǔ|sc=Hani}}
+* Czech: {{t-|cs|lít jako z konve}}
+* Dutch: [[pijpenstelen regenen]], regenen dat het giet
+* Finnish: {{t-|fi|sataa kaatamalla}}, {{t-|fi|sataa äkäisiä ämmiä äkeet selässä}}, {{t-|fi|sataa kuin saavista kaataen}}
+* French: {{t+|fr|pleuvoir des cordes}}, {{t+|fr|pleuvoir à verse}}, {{t+|fr|pleuvoir des hallebardes}}, {{t+|fr|pleuvoir comme vache qui pisse}}, {{qualifier|Québec}} {{t+|fr|pleuvoir à boire debout}}, {{qualifier|Belgium}} {{t+|fr|dracher}}
+* German: {{t+|de|Bindfäden regnen}}, {{t+|de|in Strömen regnen}}, {{t-|de|aus allen Kannen gießen}}, {{t-|de|aus allen Kannen schütten}}
+* Greek: {{t+|el|βρέχει καρεκλοπόδαρα}},  {{t|el|ρίχνει καρεκλοπόδαρα}},  {{t|el|βρέχει με το τουλούμι}}
+* Icelandic: {{t|is|vera mígandi rigning}}, {{t|is|rigna eldi og brennisteini}}
+{{trans-mid}}
+* [[Interlingua]]: [[pluver]] [[torrentialmente]]
+* Italian: {{t-|it|piovere a catinelle}}
+* Japanese: {{t|ja|土砂降りになる|tr=どしゃぶりになる, doshaburi-ni naru}}
+* Norwegian: {{t+|no|høljeregne}}
+* Polish: {{t-|pl|leje jak z cebra}}
+* Portuguese: {{qualifier|Portugal}} {{t+|pt|chover a cântaros}}, {{qualifier|Portugal}} {{t-|pt|chover a potes}}, [[chover]] [[torrencialmente]], {{qualifier|Brazil}} [[cair]] [[um]] [[toró]]
+* Romanian: {{t-|ro|a ploua cu găleata}}
+* Russian: {{t-|ru|лить как из ведра|tr=lit’ kak iz v'edrá}}
+* Spanish: {{t-|es|llover a cántaros}}
+* Swedish: {{t+|sv|ösregna}}, {{t+|sv|spöregna}}, {{t-|sv|stå som spön i backen}}
+* Turkish: {{t|tr|bardaktan boşanırcasına yağmak}}
+* Vietnamese: [[trời]] [[mưa]] [[như]] [[trút]]
+{{trans-bottom}}
+
+===Anagrams===
+* {{alphagram|aaacddginnorsst}}
+* [[rain dogs and cats#English|rain dogs and cats]]
+
+[[de:rain cats and dogs]]
+[[et:rain cats and dogs]]
+[[es:rain cats and dogs]]
+[[fr:rain cats and dogs]]
+[[gl:rain cats and dogs]]
+[[ja:rain cats and dogs]]
+[[no:rain cats and dogs]]
+[[pl:rain cats and dogs]]
+[[sv:rain cats and dogs]]
+[[zh:rain cats and dogs]]

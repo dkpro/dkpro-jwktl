@@ -1,0 +1,36 @@
+==English==
+
+===Prepositional phrase===
+{{en-PP|[[for]] [[good]] [[measure]]}}
+
+# {{idiomatic}} In excess of the minimum required; Added as an [[extra]]
+#: ''He tossed in a couple of extra shirts '''for good measure''' and closed the suitcase.''
+
+====Translations====
+{{trans-top|in excess of the required minimum}}
+* {{trreq|ar}}:
+* Chinese:
+:* Mandarin: {{zh-tsp||额外补充|}}, {{zh-tsp||保险起见|}}
+*: {{trreq|cmn}}:
+* {{trreq|cs}}:
+* {{trreq|nl}}:
+* Finnish: {{t-|fi|kaiken varalta}},  {{t+|fi|varmuuden vuoksi}},  {{t-|fi|varoiksi}}
+* French: [[pour]] {{t+|fr|faire bonne mesure}}
+{{trans-mid}}
+* German: {{t-|de|noch dazu}}
+* {{trreq|hi}}:
+* {{trreq|it}}:
+* {{trreq|ja}}:
+* {{trreq|ko}}:
+* {{trreq|pl}}:
+* Portuguese: {{t-|pt|por precaução}}
+* Russian: [[на всякий случай]] ''(for any case)''
+* Spanish: {{t-|es|por si acaso}}, {{t-|es|por precaución}}
+* {{trreq|vi}}:
+{{trans-bottom}}
+{{checktrans-top}}
+* {{ttbc|ro}}: [[pentru]] [[orice]] [[eventualitate]]
+{{trans-bottom}}
+
+[[et:for good measure]]
+[[my:for good measure]]

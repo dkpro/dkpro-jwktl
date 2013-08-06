@@ -1,0 +1,63 @@
+>== Brathähnchen ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Bild=Roast chicken.jpg|250px|1|Brathähnchen
+|Nominativ Singular=das Brathähnchen
+|Nominativ Plural=die Brathähnchen
+|Genitiv Singular=des Brathähnchens
+|Genitiv Plural=der Brathähnchen
+|Dativ Singular=dem Brathähnchen
+|Dativ Plural=den Brathähnchen
+|Akkusativ Singular=das Brathähnchen
+|Akkusativ Plural=die Brathähnchen
+}}
+
+{{Worttrennung}}
+:Brat·hähn·chen, {{Pl.}} Brat·hähn·chen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈbʀaːthɛːnçən}}, {{Lautschrift|ˈbʀaːthɛːnçn̩}}, {{Pl.}} {{Lautschrift|ˈbʀaːthɛːnçən}}, {{Lautschrift|ˈbʀaːthɛːnçn̩}}
+
+{{Aussprache}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] ein am [[Grill]] oder im [[Backofen]] gebratenes [[Huhn]]
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus dem Stamm des Verbs [[braten]] und [[Hähnchen]]
+
+{{Synonyme}}
+:[1] [[Brathendl]], [[Brathuhn]], [[Brathühnchen]], [[Broiler]], [[Grillhähnchen]], [[Gummiadler]]
+
+{{Oberbegriffe}}
+:[1] [[Fleischgericht]], [[Lebensmittel]]
+
+{{Unterbegriffe}}
+:[1] [[Huhn]], [[Hähnchen]], [[Hühnchen]]
+
+{{Beispiele}}
+:[1] Das ''Brathähnchen'' bitte mit Salat.
+
+{{Charakteristische Wortkombinationen}}
+:[1] ein ''Brathähnchen'' mit [[Brötchen]], [[Pommes frites]], [[Salat]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|roast chicken}}
+*{{fr}}: [1] {{Ü|fr|poulet rôti}} {{m}}
+*{{it}}: [1] {{Ü|it|}}
+{{Ü-Abstand}}
+*{{sv}}: [1] ''Grill:'' {{Ü|sv|grillad kyckling}}, ''Backofen:'' {{Ü|sv|ungsstekt kyckling}}
+*{{es}}: [1] {{Ü|es|pollo asado}}
+*{{hu}}: [1] {{Ü|hu|sültcsirke}}, {{Ü|hu|grillcsirke}}
+{{Ü-rechts}} &lt;!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters --&gt;
+
+{{Referenzen}}
+:[1] {{Wikipedia|Brathähnchen}}
+:[*] {{Ref-DWDS|Brathähnchen}}
+:[1] {{Ref-Canoo|Brath%E4hnchen}}
+:[1] {{Ref-UniLeipzig|Brath%E4hnchen}}
+
+[[ko:Brathähnchen]]

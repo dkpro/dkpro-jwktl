@@ -1,0 +1,84 @@
+{{Periodensystem}}
+== Thulium ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+{{Substantiv-Tabelle|
+ Bild=Tm-TableImage.png|210px|1|Thulium im Periodensystem
+|Wer oder was? (Einzahl)=das Thulium
+|Wer oder was? (Mehrzahl)=<center>—</center>
+|Wessen? (Einzahl)=des Thuliums
+|Wessen? (Mehrzahl)=<center>—</center>
+|Wem? (Einzahl)=dem Thulium
+|Wem? (Mehrzahl)=<center>—</center>
+|Wen? (Einzahl)=das Thulium
+|Wen? (Mehrzahl)=<center>—</center>
+}}
+{{Silbentrennung}} Thu·li·um, {{Pl.}} ''kein Plural''
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|'tuːli̯ʊm}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{fehlend}}
+
+{{Bedeutungen}}
+:[1] [[chemisch]]es [[Element]] mit der Ordnungszahl 69, das zu den [[Lanthanoid]]en gehört
+
+{{Abkürzungen}}
+:[1] [[Tm]] ''(chemisches Zeichen)''
+
+{{Herkunft}}
+:[1] nach Thule, dem mythischen Namen für Skandinavien
+<!--
+{{Synonyme}}
+:[1]
+
+{{Gegenworte}}
+:[1]-->
+
+{{Oberbegriffe}}
+:[1] [[Lanthanoid]], [[Metall]], chemisches [[Element]]
+<!--
+{{Unterbegriffe}}
+:[1]-->
+
+{{Beispiele}}
+:[1] In der [[Natur]] kommt '''Thulium''' nur in [[Verbindung]]en vor.
+
+{{Charakteristische Wortkombinationen}}
+
+{{Abgeleitete Begriffe}}
+:[1]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{ar}}: [1] {{Ü|ar|ثليوم}}
+*{{hy}}: [1] {{Ü|hy|թուլիում}} (tulium)
+*{{zh}}: [1] {{Ü|zh|铥}}
+*{{en}}: [1] {{Ü|en|thulium}}
+*{{fr}}: [1] {{Ü|fr|thulium}} ''m''
+*{{he}}: [1] {{Ü|he|תוליום}} (tulium)
+*{{it}}: [1] {{Ü|it|tulio}}
+{{Ü-Abstand}}
+*{{lt}}: [1] {{Ü|lt|tulis}}
+*{{nl}}: [1] {{Ü|nl|thulium}}
+*{{pl}}: [1] {{Ü|pl|tul}}
+*{{pt}}: [1] {{Ü|pt|túlio}}
+*{{ru}}: [1] {{Ü|ru|тулий}} (tulij)
+*{{sv}}: [1] {{Ü|sv|tulium}}
+*{{es}}: [1] {{Ü|es|tulio}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Thulium}}
+:[1] {{Ref-DWDS|Thulium}}
+:[1] {{Ref-Canoo|Thulium}} 
+:[1] {{Ref-UniLeipzig|Thulium}} 
+
+[[Kategorie:Illustration]]
+
+[[cs:Thulium]]
+[[en:Thulium]]
+[[fr:Thulium]]
+[[lt:Thulium]]
+[[pl:Thulium]]
+[[ro:Thulium]]
+[[ru:Thulium]]
+

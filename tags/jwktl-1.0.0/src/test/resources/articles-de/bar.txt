@@ -1,0 +1,187 @@
+{{Siehe auch|[[Bar]], [[-bar]]}}
+== bar ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Adjektiv|Deutsch}}, {{Wortart|Adverb|Deutsch}} ===
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|ˈbaːɐ̯}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{Audio|De-bar.OGG‎|bar‎}} 
+
+{{Bedeutungen}}
+:[1] [[nackt]]
+:[2] mit [[Geld]]
+
+{{Abkürzungen}}
+:[1] 
+
+{{Herkunft}}
+:[1] mhd./ahd. ''bar'' aus germ. ''*baza-'' ("bar, bloß"), dieses aus indogerm. ''*b<sup>h</sup>oso-'' mit der gleichen Bedeutung. Zahlreiche verwandte Wörter in anderen indogerm. Sprachen. Man nimmt an, dass ein indogerm. Verb ''*b<sup>h</sup>es-/ *b<sup>h</sup>sā/ *psā-'' mit der Bedeutung "reiben, abreiben" zugrundeliegt. Die Bedeutung entwickelt sich demnach von "abgerieben" zu "nackt, bloß". Daraus entstehen die Bedeutungen "ohne etwas" (wie in ''bar jeder Einsicht'') und "offen vor Augen liegend" (schon im Mhd. auf Geld bezogen).
+
+{{Synonyme}}
+:[1] [[bloß]], [[nackt]], [[unbedeckt]] 
+
+{{Gegenworte}}
+:[1] [[angezogen]], [[bedeckt]], [[bekleidet]]
+:[2] [[unbar]]
+
+{{Oberbegriffe}}
+:[1] 
+
+{{Unterbegriffe}}
+:[2] in [[Hartgeld]], in kleiner [[Münze]]
+
+{{Beispiele}}
+:[1] Er kam ''baren'' Hauptes.
+:[2] Wir zahlen ''bar''.
+
+{{Abgeleitete Begriffe}} 
+:[1] [[barbusig]], [[barfuß]], [[barhäuptig]] 
+:[2] [[Bareinlage]], [[Bares]], [[Barzahlung]]
+
+{{Redewendungen}}
+:[1] baren Hauptes, barer Unsinn
+:[2] Nur Bares ist Wahres; in, gegen ~ ; er bekam es ~ auf die Hand (derb: auf die Klaue)
+:[2] metaphorisch: [[etwas für bare Münze nehmen]]
+
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|bare}}
+*{{fr}}: [1] {{Ü|fr|}}
+{{Ü-Abstand}}
+*{{ru}}: [1] {{Ü|ru|}}
+*{{es}}: [1] {{Ü|es|}}
+{{Ü-rechts}}<!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters -->
+
+{{Referenzen}}
+:[1] {{Wikipedia|bar}}
+:[1] {{Ref-DWDS|}}
+:[1] {{Ref-Canoo|}}
+:[1] {{Ref-UniLeipzig|}}
+
+{{----}}
+
+=== {{Wortart|Präposition|Deutsch}}, auch Postposition, ''<small>Genitiv</small>'' ===
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|ˈbaːɐ̯}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{Audio|De-bar.OGG‎|bar‎}} 
+
+{{Bedeutungen}}
+:[1] [[ohne]]
+
+{{Abkürzungen}}
+:[1] o. [für „ohne“]
+
+{{Herkunft}}
+:[1] wie oben Adjektiv ''bar''
+
+{{Synonyme}}
+:[1] [[ohne]]
+
+{{Gegenworte}}
+:[1] [[einschließlich]], [[inklusive]], [[mit]], [[samt]]
+
+{{Oberbegriffe}}
+:[1] 
+
+{{Unterbegriffe}}
+
+{{Beispiele}}
+:[1] ''Bar'' jeder Vernunft, jeden Anstandes ''bar''
+
+{{Abgeleitete Begriffe}} 
+:[1] 
+
+{{Redewendungen}}
+:[1] 
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|}}
+{{Ü-Abstand}}
+{{Ü-rechts}} <!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters -->
+
+{{Vorlage:Präpositionen}}
+
+{{2x----}}
+
+== bar ({{Sprache|Italienisch}}) ==
+=== {{Wortart|Substantiv|Italienisch}}, {{m}} ===
+{{Italienisch Substantiv Übersicht
+|Singular=il bar
+|Plural=i bar
+}}
+
+{{Silbentrennung}}
+:bar, {{Pl.}} bar
+
+{{Aussprache}}
+:[[Hilfe:IPA|IPA]]: {{Lautschrift|}}, {{Pl.}} {{Lautschrift|}}
+:[[Hilfe:Hörbeispiele|Hörbeispiele]]: {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] die [[Bar]]
+:[2] das [[Café]], das [[Straßencafé]]
+:[3] die [[Hausbar]]
+:[4] ''Physik'': das [[Bar]]: Maßeinheit für den Druck
+
+{{Unterbegriffe}}
+:[1] [[barista#Substantiv.2C_m|barista]] {{m}} ([[Barmann]]) 
+
+{{Beispiele}}
+:[1]
+
+==== Übersetzungen ====
+{{Ü-links}}
+:{{Übersetzungen umleiten|1|Bar}}
+:{{Übersetzungen umleiten|2|Café}}, {{Übersetzungen umleiten||Straßencafé}}
+:{{Übersetzungen umleiten|3|Hausbar}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] Italienischer {{Wikipedia2|it|Bar (pubblico esercizio)}}
+:[2-4] {{Ref-PonsIt|bar}}
+:[1,2] {{Ref-LeoIt|bar}}
+
+{{Ähnlichkeiten}}
+
+[[ar:bar]]
+[[cs:bar]]
+[[el:bar]]
+[[en:bar]]
+[[es:bar]]
+[[fa:bar]]
+[[fi:bar]]
+[[fr:bar]]
+[[gl:bar]]
+[[hu:bar]]
+[[io:bar]]
+[[is:bar]]
+[[it:bar]]
+[[ja:bar]]
+[[kk:bar]]
+[[ko:bar]]
+[[ku:bar]]
+[[la:bar]]
+[[li:bar]]
+[[lt:bar]]
+[[nl:bar]]
+[[no:bar]]
+[[pl:bar]]
+[[pt:bar]]
+[[ro:bar]]
+[[ru:bar]]
+[[simple:bar]]
+[[sq:bar]]
+[[sv:bar]]
+[[sw:bar]]
+[[ta:bar]]
+[[te:bar]]
+[[tk:bar]]
+[[tr:bar]]
+[[tt:bar]]
+[[vi:bar]]
+[[vo:bar]]
+[[wo:bar]]
+[[zh:bar]]
+

@@ -1,0 +1,48 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="fi">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://de.wiktionary.org/wiki/Wiktionary:Hauptseite</base>
+    <generator>MediaWiki 1.16alpha-wmf</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="0" />
+      <namespace key="1">Diskussion</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Page 1</title>
+    <id>9</id>
+    <revision>
+      <id>10763</id>
+      <timestamp>2004-09-17T08:23:57Z</timestamp>
+      <contributor>
+        <username>TJ</username>
+        <id>10</id>
+      </contributor>
+      <text xml:space="preserve">Text 1</text>
+    </revision>
+  </page>
+  <page>
+    <title>Page 2</title>
+    <id>10</id>
+    <revision>
+      <id>10764</id>
+      <timestamp>2004-09-17T08:34:29Z</timestamp>
+      <contributor>
+        <username>TJ</username>
+        <id>10</id>
+        <ignored-1/>
+      </contributor>
+      <text xml:space="preserve">Text 2
+
+      Test Test</text>
+      <ignored-2>
+        <ignored-3/>
+      </ignored-2>
+    </revision>
+    <ignored-4/>
+  </page>
+  <ignored-5>
+    <ignored-6/>
+  </ignored-5>
+</mediawiki>

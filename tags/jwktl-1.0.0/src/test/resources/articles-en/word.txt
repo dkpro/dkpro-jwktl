@@ -1,0 +1,430 @@
+{{also|-word|Word}}
+==English==
+{{wikipedia|dab=word (disambiguation)|word}}
+{{rank|does|Gutenberg|best|245|word|light|felt|since}}
+
+===Etymology===
+From {{etyl|enm|en}} &lt; {{etyl|ang|en}} {{term|lang=ang|word}} &lt; {{proto|Germanic|wurða-|lang=en}} &lt; {{proto|Indo-European|werə-|to speak|lang=en}}.
+
+===Pronunciation===
+{{wikipedia}}
+* {{a|RP}} {{IPA|/wɜːd/}}, {{SAMPA|/w3:d/}}
+* {{a|US}} {{enPR|wûrd}}, {{IPA|/wɝd/}}, {{SAMPA|/w3`d/}}
+*: {{audio|en-us-word.ogg|Audio (US)}}
+*: {{rhymes|ɜː(r)d}}
+
+===Noun===
+{{en-noun}}
+
+# {{linguistics}} A distinct unit of language (sounds in speech or written letters) with a particular meaning, composed of one or more [[morpheme]]s, and also of one or more [[phoneme]]s that determine its sound pattern.
+#* {{RQ:Shakespeare Hamlet}}, II.ii
+#*: Polonius: What do you read, my lord?
+#*: Hamlet: '''Words''', '''words''', '''words'''.
+# A distinct unit of language which is approved by some authority.
+#* '''1896''', [[w:Israel Zangwill|Israel Zangwill]], ''Without Prejudice'', p21
+#*: “Ain’t! How often am I to tell you ain’t ain’t a '''word'''?”
+#* '''1999''', Linda Greenlaw, ''The Hungry Ocean'', Hyperion, p11
+#*: ''Fisherwoman'' isn’t even a '''word'''. It’s not in the dictionary.
+# Something [[promise]]d, (as in a [[contract]] or [[oath]]).
+#: ''I give you my '''word''' that I will be there on time.''
+# [[news|News]]; [[tidings]].
+#: ''Have you had any '''word''' from John yet?''
+# A [[discussion]].
+#: ''I want to have a '''word''' with you.''
+# {{telegraphy}} A unit of [[text]] equivalent to five [[character]]s and one [[space]].
+# {{computer science}} A finite [[string]] which is not a [[command]] or [[operator]].
+# {{computing}} A fixed-size group of [[bit]]s handled as a unit by a machine. On many 16-bit machines a word is 16 bits or two [[byte]]s.
+# {{group theory}} A group [[element]], expressed as a [[product]] of group elements.
+# {{theology|sometimes '''[[Word]]'''}} [[God]].
+#* See [[s:Bible (King James)/1 John|Bible, King James, John 1]]
+# {{theology|sometimes '''[[Word]]'''}} The [[bible|Bible]].
+
+====Usage notes====
+* {{sense|distinct unit of language}} In English and other space-delimited languages, it is customary to treat &quot;word&quot; as referring to any sequence of characters delimited by spaces. However, this is not applicable to languages such as Chinese and Japanese, which are normally written without spaces, or to languages such as Vietnamese, which are written with a space between each syllable.
+
+{{wikipedia|word (computing)}}
+* {{sense|computing}} The size (length) of a word, while being fixed in a particular machine or processor family design, can be different in different designs, for many reasons. See [[Wikipedia:Word_(computing)]] for a full explanation.
+
+====Synonyms====
+* {{sense|distinct unit of language}} [[vocable]]
+* {{sense|something promised}} [[promise]]
+* {{sense|God}} [[God]], [[logos|Logos]]
+* {{sense|Bible}} [[word of God]], [[Bible]]
+* See also [[Wikisaurus:word]]
+
+====Translations====
+{{trans-top|unit of language}}
+* [[Afrikaans]]: [[woord]]
+* Albanian: [[fjalë]] {{f}}, [[llaf]] {{m}}
+* [[Amuzgo]]: [[jñ'o]]
+* Arabic: {{t+|ar|كلمة|f|alt=كَلِمة|tr=kálima(t)}}
+*: Egyptian Arabic: {{tø|arz|كلمة|f|tr=kilma(t)|sc=Arab|xs=Egyptian Arabic}}
+* Aramaic:
+*: Syriac: [[ܡܠܬܐ]] (melthā, meltho) {{c}}
+*: Hebrew: [[מלתא]] (melthā, meltho) {{c}}
+* Armenian: {{t+|hy|բառ|tr=baṙ}}
+* [[Aromanian]]: [[zbor]]
+* [[Basque]]: [[hitz]], [[berba]]
+* Belarusian: {{t|be|слова|n|tr=slóva|xs=Belarusian}}
+* Bengali: {{t+|bn|শব্দ|tr=shôbdô|sc=Beng|xs=Bengali}}
+* [[Breton]]: [[ger]] {{m}}, gerioù {{p}}
+* Bulgarian: {{t+|bg|дума|f|tr=duma}}
+* {{trreq|Burmese}}
+* [[Catalan]]: {{t+|ca|paraula|f}}, {{t-|ca|mot|m}}
+* [[Chamicuro]]: {{tø|ccc|nachale}}
+* [[Chechen]]: {{tø|ce|дош}}
+* Chinese:
+*: CJKV Characters: {{t||字|tr=ji/ja/cì/dziH/chữ|sc=Hani}}
+*: Mandarin: {{t-|cmn|詞|tr=cí|sc=Hant}}, {{t-|cmn|词|tr=cí|sc=Hans}}, {{t-|cmn|單詞|tr=dāncí|sc=Hant}}, {{t-|cmn|单词|tr=dāncí|sc=Hans}}
+* Croatian: {{t+|hr|riječ|f}}
+* Czech: {{t+|cs|slovo|n}}
+* Danish: {{t+|da|ord|n}}
+* Dutch: {{t+|nl|woord|n}}
+* [[Erzya]]: [[вал]] (val)
+* Esperanto: {{t+|eo|vorto|xs=Esperanto}}
+* Estonian: {{t+|et|sõna}}
+* Faroese: {{t-|fo|orð|n|xs=Faroese}}
+* Finnish: {{t+|fi|sana}}
+* French: {{t+|fr|mot|m}}
+* [[Galician]]: {{t-|gl|palabra|f|xs=Galician}}, {{t-|gl|vocábulo|m|xs=Galician}}
+* Georgian: {{t-|ka|სიტყვა|tr=sit'qva|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Wort|n}}
+* Greek: {{t+|el|λέξη|f|tr=léxē}}
+* [[Greenlandic]]: {{t-|kl|oqaaseq|xs=Greenlandic}}
+* Hawaiian: [[hua#Hawaiian|hua]] [[ʻōlelo]]
+* Hebrew: {{t+|he|מלה|f|alt=מִלָּה|tr=mîllá}}
+* Hindi: {{t+|hi|शब्द|m|tr=śabd|xs=Hindi}},  {{t-|hi|बात|f|tr=bāt|xs=Hindi}}
+* Hungarian: {{t+|hu|szó}}
+* Icelandic: {{t+|is|orð|n}}
+* [[Ido]]: [[vorto]]
+* {{trreq|Ilocano}}
+* Indonesian: {{t+|id|kata|xs=Indonesian}}
+* [[Interlingua]]: {{t+|ia|parola|xs=Interlingua}}, {{t-|ia|vocabulo|xs=Interlingua}}
+* Irish: {{t+|ga|focal|m|xs=Irish}}
+* Italian: {{t+|it|parola|f}}, {{t+|it|vocabolo|m}}, {{t+|it|termine|m}}
+* Japanese: {{t+|ja|言葉|tr=kotoba}}, {{t+|ja|単語|kana=たんご|tr=tango}}
+* {{trreq|Kannada}}
+* [[Khmer]]: {{t-|km|ពាក្យ|tr=bpīək|sc=Khmr|xs=Khmer}},  {{t-|km|ពាក្យសំដី|tr=bpīək somdēi|sc=Khmr|xs=Khmer}}
+* Korean: {{t+|ko|말|tr=mal|sc=Hang}}, {{t+|ko|낱말|tr=natmal|sc=Hang}}, {{t+|ko|단어|hanja=單語|tr=dan-eo|sc=Hang}}
+* Kurdish: {{ku-Arab|[[وشه‌]]}}
+* [[Ladino]]: {{tø|lad|palavra|f|xs=Ladino}}
+{{trans-mid}}
+* [[Lao]]: {{t-|lo|ຄໍາ|tr=kham|sc=Laoo|xs=Lao}}
+* Latin: {{t-|la|vocabulum|n}}, {{t+|la|verbum|n}}
+* Latvian: {{t+|lv|vārds|m|xs=Latvian}}
+* Lithuanian: {{t+|lt|žodis|m|xs=Lithuanian}}
+* [[Lower Sorbian]]: {{l|dsb|słowo}} {{n}}
+* [[Macedonian]]: {{t|mk|збор|m|tr=zbór}}
+* {{trreq|Malay}}
+* [[Malayalam]]: {{t|ml|വാക്ക്|tr=vaakku|sc=Mlym|xs=Malayalam}}
+* Maltese: {{t-|mt|kelma|xs=Maltese}}
+* {{trreq|Maori}}
+* [[Marathi]]: {{t-|mr|शब्द|tr=śabd|sc=Deva|xs=Marathi}}
+* [[Mari]]: [[мут]]
+* {{trreq|Mongolian}}
+* [[Nauruan]]: {{t-|na|dorer|xs=Nauruan}}
+* Navajo: {{tø|nv|saad}}
+* {{trreq|Nepali}}
+* Norwegian: {{t+|no|ord|n}}
+* Old Norse: {{tø|non|orð|n|xs=Old Norse}}
+* {{trreq|Oriya}}
+* Persian: {{t+|fa|واژه|tr=vâže|xs=Persian}}, {{t+|fa|کلمه|tr=kalame|xs=Persian}}
+* Polish: {{t+|pl|słowo|n}}
+* Portuguese: {{t+|pt|palavra|f}}, {{t+|pt|vocábulo|m}}
+* [[Punjabi]]: [[ਸ਼ਬਦ]] (šabad)
+* Romanian: {{t+|ro|cuvânt|n}}
+* Russian: {{t+|ru|слово|n|tr=slóvo}}
+* {{trreq|Samoan}}
+* Sanskrit: {{t-|sa|शब्द|m|tr=śábda|xs=Sanskrit}}
+* [[Santali]]: {{tø|sat|ᱨᱳᱲ|tr=rorr|sc=Olck}}
+* [[Scottish Gaelic]]: [[facal]] {{m}}, [[briathar]] {{m}}
+* Serbian:
+*: Cyrillic: {{t-|sr|реч|f|sc=Cyrl}}
+*: Roman: {{t-|sr|reč|f}}
+* {{trreq|Sinhalese}}
+* Slovak: {{t-|sk|slovo|n}}
+* Slovene: {{t+|sl|beseda|f}}
+* [[Sotho]]: {{t|st|lentswe|xs=Sotho}}
+* Spanish: {{t+|es|palabra|f}}
+* Swahili: {{t+|sw|neno|xs=Swahili}}
+* Swedish: {{t+|sv|ord|n}}
+* [[Tagalog]]: [[salita]]
+* [[Tahitian]]: [[parau]]
+* [[Tajik]]: {{t+|tg|калима|sc=Cyrl|xs=Tajik}}
+* [[Tamil]]: {{t|ta|வார்த்தை|tr=vaarththai|xs=Tamil}},  {{t+|ta|சொல்|tr=col|xs=Tamil}}
+* [[Telugu]]: {{t|te|పదము|tr=padamu}}
+* Thai: {{t+|th|คำ|tr=kam}}
+* {{trreq|Tongan}}
+* [[Tswana]]: {{t-|tn|lefoko|xs=Tswana}}
+* Turkish: {{t+|tr|sözcük}}, {{t+|tr|kelime}}
+* Ukrainian: {{t+|uk|слово|n|tr=slóvo|xs=Ukrainian}}
+* Urdu: {{t-|ur|شبد|m|tr=śabd|xs=Urdu}},  {{t-|ur|بات|f|tr=bāt|xs=Urdu}}
+* Vietnamese: {{t|vi|lời|xs=Vietnamese}},  {{t|vi|những lời|xs=Vietnamese}},  {{t|vi|nhời|xs=Vietnamese}},  {{t+|vi|từ|xs=Vietnamese}},  {{t+|vi|tiếng|xs=Vietnamese}}
+* Welsh: {{t+|cy|gair|xs=Welsh}}
+* [[West Frisian]]: {{t+|fy|wurd|n|xs=West Frisian}}
+* Yiddish: {{t-|yi|װאָרט|n|tr=vort|sc=yi-Hebr|xs=Yiddish}}
+{{trans-bottom}}
+
+{{trans-top|something promised}}
+* [[Afrikaans]]: {{t|af|erewoord|xs=Afrikaans}}
+* Albanian: [[sharje]] {{f}}
+* Armenian: {{t-|hy|խոսք|tr=xosk'}}, {{t-|hy|խոստում|tr=xostum}}
+* [[Breton]]: [[ger]] {{m}}, gerioù {{p}}
+* Czech: {{t+|cs|slovo|n}}, {{t+|cs|slib|m}}
+* Dutch: {{t|nl|erewoord|n}}
+* Finnish: {{t+|fi|sana}}
+* French: {{t+|fr|parole|f}}
+* [[Galician]]: {{t-|gl|palabra|f|xs=Galician}}
+* German: {{t+|de|Ehrenwort|n}}
+* Greek: {{t+|el|λόγος|m|tr=lógos}}
+* Hungarian: {{t+|hu|szó}}
+* [[Interlingua]]: [[parola]]
+* Italian: {{t+|it|parola|f}}
+{{trans-mid}}
+* Japanese: {{t|ja|言質|tr=genchi}}
+* Korean: {{t+|ko|말|tr=mal|sc=Hang}}
+* Lithuanian: {{t+|lt|žodis|m|xs=Lithuanian}}
+* [[Macedonian]]: {{t|mk|збор|m|tr=zbór}}
+* [[Malayalam]]: [[വാക്ക്]] (vaakku)
+* Norwegian: {{t+|no|ord|n}}, {{t|no|lovnad|m}}
+* Persian: {{t+|fa|پیمان|tr=peymân|xs=Persian}}, {{t-|fa|قول|tr=qol|xs=Persian}}
+* Portuguese: {{t+|pt|palavra}}
+* Russian: {{t+|ru|слово|n|tr=slóvo}}
+* Slovak: {{t|sk|čestné slovo|n}}
+* Slovene: {{t+|sl|častna beseda|f}}, {{t+|sl|beseda|f}}
+* Swedish: {{t+|sv|ord|n}}
+* [[Telugu]]: {{t|te|మాట}} (māṭa)
+{{trans-bottom}}
+
+{{trans-top|computing sense}}
+* [[Afrikaans]]: {{t+|af|woord|xs=Afrikaans}}
+* Finnish: {{t+|fi|sana}}
+* French: {{t+|fr|mot|m}}
+* [[Interlingua]]: [[parola]]
+* Italian: {{t+|it|word|m}}
+* Japanese: {{t+|ja|言語|kana=げんご|tr=gengo}}
+* [[Macedonian]]: {{t|mk|збор|m|tr=zbór}}
+{{trans-mid}}
+* Norwegian: {{t+|no|ord|n}}
+* Persian: {{t+|fa|واژه|tr=vâže|xs=Persian}}
+* Portuguese: {{t+|pt|palavra|f}}
+* Russian: {{t+|ru|слово|n|tr=slóvo}}
+* Slovak: {{t-|sk|slovo|n}}
+* Swedish: {{t+|sv|ord|n}}
+{{trans-bottom}}
+
+{{trans-top|God}}
+* French: {{t+|fr|verbe|m}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|the word of God}}
+* Armenian: {{t+|hy|բան|tr=ban}}
+* Czech: {{t|cs|slovo boží}}
+* Finnish: {{t+|fi|sana}}
+* French: {{t+|fr|parole|f}}
+* German: {{t+|de|Wort|n}}
+* Greek: {{t+|el|λόγος|m|tr=lógos}}
+* [[Interlingua]]: {{t+|ia|parola|xs=Interlingua}}, {{t-|ia|verbo|xs=Interlingua}}
+* Italian: {{t+|it|parola|f}}, {{t+|it|verbo|m}}
+* Japanese: {{t+|ja|福音|kana=ふくいん|tr=fukuin}}
+{{trans-mid}}
+* Korean: {{t-|ko|말씀|tr=malsseum|sc=Hang}}
+* [[Macedonian]]: {{t|mk|божја реч|f|tr=bóžja reč}}
+* Norwegian: {{t+|no|ord|n}}
+* Persian: {{t+|fa|گفتار|tr=goftâr|xs=Persian}}
+* Polish: {{t|pl|słowo boże}}
+* Portuguese: {{t+|pt|verbo}}
+* Romanian: {{t+|ro|cuvânt|n}}
+* Slovak: {{t|sk|slovo božie}}, {{t|sk|božie slovo}}
+* [[Telugu]]: {{t|te|వాణి}} (vāṇi)
+{{trans-bottom}}
+
+===Verb===
+{{en-verb}}
+
+# {{transitive}} To [[say]] or [[write]] (something) using particular words.
+#: ''I’m not sure how to '''word''' this letter to the council.''
+
+====Synonyms====
+* {{sense|say or write using particular words}} [[express]], [[phrase]], [[put into words]], [[state]]
+
+====Translations====
+{{trans-top|say or write using particular words}}
+* Dutch: {{t-|nl|verwoorden}}, {{t|nl|onder woorden brengen}}
+* Greek: {{t+|el|διατυπώνω|tr=diatypóno}}, {{t+|el|συντάσσω|tr=syntásso}}
+* [[Macedonian]]: {{t|mk|изразува|tr=izrázuva}}, {{t|mk|формулира|tr=formulíra}}
+{{trans-mid}}
+* Russian: {{t|ru|формулировать|tr=formulírovat’}}
+* Spanish: {{t-|es|redactar}}
+{{trans-bottom}}
+
+===Interjection===
+{{en-intj}}.; {{en-intj}}!
+
+# {{slang|urban}} {{term|truth}}, {{term|to tell the truth}} or to speak the truth; the shortened form of the statement, &quot;My word is my bond,&quot; an expression eventually shortened to &quot;Word is bond,&quot; before it finally got cut to just &quot;Word,&quot; which is its most commonly used form.
+#* &quot;Yo, that movie was epic!&quot; / &quot;'''Word'''?&quot; (&quot;You speak the truth?&quot;) / &quot;'''Word'''.&quot; (&quot;I speak the truth.&quot;)
+# {{slang|emphatic|stereotypically urban}} An abbreviated form of {{term|word up}}; a statement of the acknowledgment of fact with a hint of nonchalant approval.
+#* '''2004''', Shannon Holmes, ''Never Go Home Again: A Novel'', page 218
+#*: &quot;{{...}} Know what I'm sayin'?&quot; / &quot;'''Word'''!&quot; the other man strongly agreed. &quot;Let's do this — &quot;
+#* '''2007''', Gabe Rotter, ''Duck Duck Wally: A Novel'', page 105
+#*: &quot;{{...}} Not bad at all, man. Worth da wait, dawg. '''Word'''.&quot; / &quot;You liked it?&quot; I asked dumbly, stoned still, and feeling victorious. / &quot;Yeah, man,&quot; said Oral B. &quot;'''Word''' up. {{...}}&quot;
+#* '''2007''', Relentless Aaron ''The Last Kingpin'', page 34
+#*: &quot;{{...}} I mean, I don't blame you... '''Word'''! {{...}}&quot;
+
+===Derived terms===
+{{rel-top3|Terms derived from the noun or verb &quot;word&quot;}}
+* [[buzzword]]
+* [[catchword]]
+* [[codeword]]
+* [[content word]]
+* [[crossword]]
+* [[dirty word]]
+* [[dword]]
+* [[empty word]]
+* [[fighting word]] / [[fighting words]]
+* [[foreword]]
+* [[function word]]
+* [[hard word]]
+* [[headword]]
+* [[in so many words]]
+{{rel-mid3}}
+* [[keyword]]
+* [[last word]] / [[last words]]
+* [[mince words]]
+* [[nonce word]]
+* [[oword]]
+* [[password]]
+* [[qword]]
+* [[reword]]
+* [[stopword]]
+* [[swear word]]
+* [[watchword]]
+* [[word-building]]
+* [[word for word]]
+* [[word game]]
+* [[wordless]]
+{{rel-mid3}}
+* [[word order]]
+* [[word of god]]
+* [[word of mouth]]
+* [[word processor]]
+* [[wordsmith]]
+* [[word square]]
+* [[word to the wise]]
+* [[word up]]
+* [[word wrap]]
+* [[word-wheeling]]
+* [[wordplay]]
+* [[wordpool]]
+* [[wordy]]
+{{rel-bottom}}
+
+===See also===
+* [[allomorph]]
+* [[compound word]]
+* [[grapheme]]
+* [[idiom]]
+* [[lexeme]]
+* [[listeme]]
+* [[morpheme]]
+* [[orthographic]]
+* [[phrase]]
+* [[set phrase]]
+* [[syllable]]
+* [[term]]
+
+===Anagrams===
+* {{alphagram|dorw}}
+* [[drow#English|drow]]
+
+[[Category:1000 English basic words]]
+[[Category:English autological terms]]
+
+----
+
+==Dutch==
+
+===Pronunciation===
+* {{audio|Nl-word.ogg|audio}}
+
+===Verb===
+{{infl|nl}}
+
+# {{nl-verb-form|p=1|n=sg|t=pres|m=ind|worden}}
+# {{nl-verb-form|m=imp|worden}}
+
+----
+
+==Old English==
+
+===Etymology===
+From {{proto|Germanic|wurða-|lang=ang}} &lt; {{proto|Indo-European|werdho-|word|lang=ang}} &lt; {{proto|Indo-European|wer-|speak|lang=ang}}; cognate with Old Frisian {{term||word}}, Old Saxon {{term||word}} (Dutch {{term|woord}}), Old High German {{term|wort}} (German {{term|Wort}}), Old Norse {{term|orð}} (Icelandic {{term|orð|lang=is}}, Swedish {{term|ord|lang=sv}}), Gothic {{term|sc=Goth|𐍅𐌰𐌿𐍂𐌳|tr=waurd}}. The Proto-Indo-European root is also the source of Latin {{term|verbum}}, Lithuanian {{term|vardas}}, and, more distantly, of Ancient Greek {{term|sc=polytonic|εἴρω|tr=eirō||I say}} and Old Slavonic {{term||rotiti sę|to swear}} (Russian {{term|sc=Cyrl|ротиться|tr=rotit’cja||to vow}}).
+
+===Pronunciation===
+* {{IPA|lang=ang|/word/}}
+
+===Noun===
+{{infl|ang|noun|gender=n|plural|word}}
+
+# [[#English|word]]
+# [[speech]], [[utterance]], [[statement]]
+# {{context|Grammar}} [[verb]]
+# [[news]], [[information]], [[rumour]]
+# [[command]], [[request]]
+
+[[Category:Communication]]
+[[Category:Semantics]]
+[[Category:ang:Grammar]]
+
+[[am:word]]
+[[ang:word]]
+[[ar:word]]
+[[ca:word]]
+[[cs:word]]
+[[de:word]]
+[[dv:word]]
+[[et:word]]
+[[el:word]]
+[[es:word]]
+[[eo:word]]
+[[fa:word]]
+[[fr:word]]
+[[gd:word]]
+[[ko:word]]
+[[hy:word]]
+[[io:word]]
+[[id:word]]
+[[is:word]]
+[[it:word]]
+[[ka:word]]
+[[kn:word]]
+[[kk:word]]
+[[ky:word]]
+[[sw:word]]
+[[ku:word]]
+[[lo:word]]
+[[la:word]]
+[[lt:word]]
+[[li:word]]
+[[hu:word]]
+[[ml:word]]
+[[nl:word]]
+[[ja:word]]
+[[oc:word]]
+[[pl:word]]
+[[pt:word]]
+[[ro:word]]
+[[ru:word]]
+[[si:word]]
+[[simple:word]]
+[[sr:word]]
+[[fi:word]]
+[[sv:word]]
+[[ta:word]]
+[[te:word]]
+[[th:word]]
+[[tr:word]]
+[[uk:word]]
+[[vi:word]]
+[[zh:word]]

@@ -1,0 +1,96 @@
+{{also|Abalone}}
+==English==
+{{was wotd|2006|December|30}}
+[[Image:Pinkabalone_300.jpg|thumb|right|Pink abalone.]]
+
+===Etymology===
+From American {{etyl|es|en}} {{term|abulón}}, from {{etyl|css|en}} ([[Rumsen]]) {{term|aulón}}. Used in English since the 19th Century.
+
+===Pronunciation===
+* {{IPA|/æbəˈləʊni/}}
+* {{audio|en-us-abalone.ogg|Audio (US)}}
+
+===Noun===
+{{en-noun}}
+
+# {{US|Australia}} An edible [[univalve]] [[mollusc]] of the genus ''[[Haliotis]]'', having a shell lined with [[mother-of-pearl]].
+
+====Synonyms====
+* {{qualifier|UK}} [[ear-shell]],
+* {{qualifier|Guernsey}} [[ormer]]
+* {{qualifier|New Zealand}} [[pāua]], [[pawa]]
+* {{qualifier|South Africa}} [[perlemoen]]
+
+====Translations====
+{{trans-top|edible univalve mollusc}}
+* [[Breton]]: [[ourmel]] ''collective noun'' [[ourmelenn]] ''singular f''
+* [[Central Sierra Miwok]]: [[hásˑyny-]]
+* Chinese:
+** Mandarin: {{t-|cmn|鮑魚|sc=Hani}}, {{t-|cmn|鲍鱼|tr=bàoyú|sc=Hani}}
+* Dutch: {{t|nl|zeeoor}}
+* Finnish: {{t-|fi|abaloni}}, {{t-|fi|punamerikorva}}
+* French: {{t+|fr|ormeau|m}}, {{t+|fr|haliotide|f}}
+* German: {{t|de|Abalone|f}}, {{t|de|Meerohr|n}}, {{t|de|Seeohr|n}}
+* Irish: {{t|ga|cluas mhara|f|xs=Irish}}
+{{trans-mid}}
+* Italian: {{t-|it|abalone}}
+* Japanese: {{t|ja|鮑|tr=[[あわび]], awabi|sc=Jpan}}, {{t|ja|アワビ|tr=awabi|sc=Jpan}}
+* Malay: [[abalon]]
+* Maori: [[pāua]]
+* Polish: {{t|pl|słuchotka|f}}, {{t|pl|ucho morskie|n}}
+* Russian: {{t|ru|абалон|m|tr=abalón|sc=Cyrl}}, {{t|ru|галиотис|m|tr=galiótis|sc=Cyrl}}, {{t|ru|морское ушко|n|tr=morskóje úško|sc=Cyrl}}
+* Spanish: {{t|es|oreja de mar|f}}, {{t|es|abulón|m}},  {{t+|es|loco|m}}
+* Vietnamese: [[bào ngư]]
+{{trans-bottom}}
+
+===See also===
+* [[paua]] {{pos_n}}
+
+===References===
+{{wikisource1911Enc|Abalone}}
+* {{pedialite|Abalone}}
+* {{R:American Heritage 2000|abalone}}
+* {{R:Dictionary.com|abalone}}
+* {{R:WordNet 2003|abalone}}
+
+[[Category:en:Mollusks]]
+
+----
+
+==French==
+
+===Etymology===
+From {{etyl|en|fr}}, borrowed in the mid-20th century.
+
+===Pronunciation===
+* {{IPA|lang=fr|/abalɔn/}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{context|gastronomy|uncommon|lang=fr}} The abalone.
+
+====Synonyms====
+* {{sense|more usual terms for &quot;abalone&quot;}} [[ormeau]], [[haliotis]], [[haliotide]], [[oreille de mer]]
+
+[[Category:fr:Mollusks]]
+
+[[ar:abalone]]
+[[da:abalone]]
+[[de:abalone]]
+[[eo:abalone]]
+[[fr:abalone]]
+[[ko:abalone]]
+[[id:abalone]]
+[[ms:abalone]]
+[[my:abalone]]
+[[ja:abalone]]
+[[pl:abalone]]
+[[ru:abalone]]
+[[fi:abalone]]
+[[tl:abalone]]
+[[ta:abalone]]
+[[tr:abalone]]
+[[uk:abalone]]
+[[vi:abalone]]
+[[zh:abalone]]

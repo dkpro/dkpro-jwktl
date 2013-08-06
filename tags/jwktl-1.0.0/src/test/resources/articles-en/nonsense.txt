@@ -1,0 +1,138 @@
+==English==
+
+===Etymology===
+[[non-]] + [[sense]]
+
+===Pronunciation===
+* {{audio|en-us-nonsense.ogg|Audio (US)}}
+
+===Noun===
+{{wikipedia}}
+{{en-noun}}
+
+# Letters or words, in writing or speech, that have no meaning or seem to have no meaning.
+#: ''bhgjkkjklhjhkkuiii8uijuikiu989i989i890o0-0opjuijkjkjk''
+# An untrue statement.
+#: ''He says that I stole his computer, but that's just '''nonsense'''.''
+# Something foolish.
+#* '''2008''', &quot;Nick Leeson has some lessons for this collapse&quot;, Telegraph.co.uk, Oct 9, 2008
+#*: and central banks lend vast sums against marshmallow backed securities, or other '''nonsenses''' creative bankers dreamed up.
+# {{literature}} A type of poetry that contains strange or surreal ideas, as, for example, that written by [[w:Edward Lear|Edward Lear]].
+# {{biology}} A damaged DNA sequence whose products are not biologically active, that is, that does nothing.
+
+====Synonyms====
+: See [[WikiSaurus:nonsense]]
+* {{sense|something that lacks meaning or absurd statement}}
+** {{sense|mostly [[colloquialism]]s or [[slang]]}} [[balderdash]], [[baloney]], [[bull]], [[bulldust]], [[bunk]], [[codswallop]], [[drivel]], [[gibberish]], [[hogwash]], [[hooey]] {{qualifier|US}}, [[horse hockey]], [[malarkey]], [[manure]], [[poppycock]], [[prattle]], [[rhubarb]] {{qualifier|chiefly Brit.}}, [[rubbish]], [[twaddle]]
+** {{sense|vulgar slang}} [[bollocks]] {{qualifier|British}}, [[bullshit]], [[crap]], [[horseshit]] {{qualifier|US}}
+
+====Derived terms====
+{{rel-top3|Terms derived from the noun &quot;nonsense&quot;}}
+* [[nonsensical]]
+{{rel-mid3}}
+* [[nonsensification]]
+{{rel-mid3}}
+* [[nonsensify]]
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|meaningless words}}
+* Arabic: {{t|ar|هراء|m|tr=huraa'}},  {{t-|ar|لغو|m|tr=laghw}},  {{t|ar|تفاهة|f|tr=tafaaha}}
+* Bulgarian: {{t+|bg|абсурдност|f|tr=absúrdnost}}
+* [[Catalan]]: [[bajanada]] {{f}}, [[bestiesa]] {{f}}
+* Chinese:
+*: Mandarin: {{t-|cmn|廢話|sc=Hani}},  {{t-|cmn|废话|tr=fèihuà|sc=Hani}},  {{t|cmn|胡說|sc=Hani}},  {{t|cmn|胡说|tr=húshuō|sc=Hani}},  {{t|cmn|胡言|tr=húyán|sc=Hani}},  {{qualifier|vulgar}} {{t|cmn|狗屁|tr=gǒupì|sc=Hani}}
+* Czech: {{t-|cs|nesmysl|m}}
+* Danish: {{t+|da|nonsens|n}}
+* Dutch: {{t+|nl|nonsens|m}}, {{t-|nl|onzin|m}}, {{t-|nl|flauwekul|m}}
+* Finnish: {{t-|fi|hölynpöly}}
+* French: {{t+|fr|bêtise|f}} (s), {{t+|fr|absurdité|f}} (s),
+* German: [[Blödsinn]] {{m}}, [[Nonsens]] {{m}}, [[Quatsch]] {{m}} {{qualifier|colloquial}}, [[Unsinn]] {{m}},
+* Hebrew: {{t+|he|שטויות}} [shtuyot], in old slang {{t+|he|חנטריש}} [hantarish]
+* Hungarian: {{t+|hu|képtelenség}}
+* Icelandic: [[rugl]] {{n}}, [[bull (icelandic)|bull]] {{n}}
+* Indonesian: {{t|id|omong kosong|xs=Indonesian}}
+{{trans-mid}}
+* Italian: {{t+|it|sciocchezza|f}}
+* Japanese: {{t+|ja|無意味|tr=むいみ, muimi}},  {{t|ja|ナンセンス|tr=nansensu}},  {{t|ja|馬鹿げた事|tr=bakageta koto}}
+* Korean: [[어리석은 소리]] (eoriseokeun sori), [[헛소리]] (heotsori)
+* Kurdish: {{ku-Arab|[[قسه‌ی هیچوپوچ]]}}
+* Polish: {{t+|pl|nonsens|m}}
+* Portuguese: {{t+|pt|besteira|f}}
+* Russian: {{t+|ru|вздор|m|tr=vdor}}, {{t+|ru|ерунда|f|tr=jerundá}}, {{t+|ru|нонсенс|m|tr=nónsens}},  {{t+|ru|бессмыслица|f|tr=bessmýslica}},  {{t+|ru|ахинея|f|tr=axinéja}},  {{t+|ru|абсурд|m|tr=absúrd}}
+* [[Scottish Gaelic]]: [[sgudal]] {{m}},  {{t-|gd|amaideas|m|xs=Scottish Gaelic}}
+* Spanish: {{t-|es|tonterías|f|p}}, {{t+|es|disparate|m}}
+* Swedish: {{t+|sv|nonsens|n}}
+* Turkish: {{t+|tr|saçma}},  {{t+|tr|saçmalık}}
+* Urdu: {{t|ur|بکواس|xs=Urdu}}
+* Welsh: {{t-|cy|lol|f|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|untrue statement}}
+* Chinese:
+*: Mandarin: {{t-|cmn|廢話|sc=Hani}},  {{t-|cmn|废话|tr=fèihuà|sc=Hani}},  {{t|cmn|胡說|sc=Hani}},  {{t|cmn|胡说|tr=húshuō|sc=Hani}},  {{t|cmn|胡言|tr=húyán|sc=Hani}}, {{t|cmn|狗屁|tr=gǒupì|sc=Hani}} {{qualifier|vulgar}}
+* Czech: {{t-|cs|nesmysl|m}}
+* Danish: {{t+|da|nonsens|n}}
+* Finnish: {{t-|fi|hölynpöly}}
+* French: {{t+|fr|sottise|m}} (s)
+{{trans-mid}}
+* Japanese: {{t|ja|でたらめ|tr=detarame}}
+* Russian: {{t+|ru|вздор|m|tr=vdor}}, {{t+|ru|ерунда|f|tr=jerundá}}, {{t+|ru|нонсенс|m|tr=nónsens}},  {{t+|ru|бессмыслица|f|tr=bessmýslica}},  {{t+|ru|ахинея|f|tr=axinéja}}
+* [[Scottish Gaelic]]: [[sgudal]] {{m}},  {{t-|gd|amaideas|m|xs=Scottish Gaelic}}
+* Spanish: {{t-|es|tonterías|f|p}}, {{t+|es|estupidez|f}}
+* Swedish: {{t+|sv|nonsens|n}}
+* Welsh: {{t-|cy|lol|f|xs=Welsh}}
+{{trans-bottom}}
+
+{{trans-top|type of poetry}}
+* Czech: {{t-|cs|nonsens|m}}
+{{trans-mid}}
+* Korean: [[난센스]] (nansenseu)
+{{trans-bottom}}
+
+{{trans-top|damaged DNA sequence}}
+* Finnish: {{t|fi|toimimaton}} {{t+|fi|jakso}}
+{{trans-mid}}
+* Korean: [[무의미]] (muuimi)
+{{trans-bottom}}
+
+===See also===
+* {{sense|biology}} [[missense]]
+
+===Verb===
+{{en-verb|nonsens|es}}
+
+# To make nonsense of
+#* {{ante|1909}}, Bernard Shaw, &quot;The Red Robe&quot;, in James Huneker ed., ''Dramatic Opinions and Essays by G. Bernard Shaw'', volume II, page 73:
+#*: At the Haymarket all this is '''nonsensed''' by an endeavor to steer between Mr. Stanley Weyman's rights as author of the story and the prescriptive right of the leading actor to fight popularly and heroically against heavy odds.
+# To attempt to dismiss as nonsense.
+#* '''1997''', &quot;Rockies respond to whip&quot;, ''Denver Post'', Jun 3, 1997:
+#*: &quot;They haven't '''nonsensed''' these workouts. They've taken them and used them very well. I didn't know how they'd respond, but they've responded.&quot;
+#* '''2000''', Leon Garfield, Jason Cockcroft, ''Jack Holborn'', page 131:
+#*: Very commanding: very much 'end of this '''nonsensing'''&lt;nowiki/&gt;'. Mister Fared spread his hands and shook his thin head imperceptibly, as if to say he understood
+#* '''2006''', ''Sierra Leone: Petroleum Unit Calls for Auditing'', AllAfrica.com, Mar 17, 2006:
+#*: He further '''nonsensed''' press suggestions that the Petroleum Unit was set up to assist in the administration of sporting activities.
+# {{intransitive}} To joke around, to waste time
+#* '''1963''', C. F. Griffin, ''The Impermanence of Heroes'', page 170:
+#*: When he meant &quot;go and get one&quot; he said to go and get one, with no '''nonsensing''' around about &quot;liking&quot; to get one.
+
+====Synonyms====
+* [[pooh-pooh]], [[rubbish]]
+
+[[fr:nonsense]]
+[[ko:nonsense]]
+[[io:nonsense]]
+[[id:nonsense]]
+[[it:nonsense]]
+[[kn:nonsense]]
+[[sw:nonsense]]
+[[ku:nonsense]]
+[[hu:nonsense]]
+[[ml:nonsense]]
+[[nl:nonsense]]
+[[simple:nonsense]]
+[[fi:nonsense]]
+[[ta:nonsense]]
+[[te:nonsense]]
+[[vi:nonsense]]
+[[zh:nonsense]]

@@ -1,0 +1,59 @@
+== Kunsttherapie ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular= die Kunsttherapie
+|Nominativ Plural=die Kunsttherapien
+|Genitiv Singular=der Kunsttherapie
+|Genitiv Plural=der Kunsttherapien
+|Dativ Singular=der Kunsttherapie
+|Dativ Plural=den Kunsttherapien
+|Akkusativ Singular=die Kunsttherapie
+|Akkusativ Plural=die Kunsttherapien
+}}
+
+{{Worttrennung}}
+:Kunst·the·ra·pie, {{Pl.}} Kunst·the·ra·pien
+
+{{Aussprache}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+:{{IPA}} {{Lautschrift|ˈkʊnstteʀapiː}}, {{Pl.}} {{Lautschrift|ˈkʊnstteʀapiːən}}
+
+{{Bedeutungen}}
+:[1] Therapie mit bildnerischen Medien
+
+{{Bedeutungen}}
+:[[Determinativkompositum]] aus ''[[Kunst]]'' und ''[[Therapie]]''
+
+{{Oberbegriffe}}
+:[1] [[Therapie]]
+
+{{Unterbegriffe}}
+:[1] [[Maltherapie]], [[Gestaltungstherapie]]
+
+{{Beispiele}}
+:[1] Die ''Kunsttherapie'' wird zu den ''Künstlerischen Therapien'' gezählt. Sie ist eine u. a. in der [[Psychiatrie]] und [[Psychosomatik]] verbreitete therapeutische Disziplin.
+
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|art therapy}}
+*{{fr}}: [1] {{Ü|fr|Art-thérapie}}
+*{{he}}: [1] {{Ü|he|תרפיה בהבעה ויצירה}}
+*{{ca}}: [1] {{Ü|ca|Artteràpia}}
+{{Ü-Abstand}}
+*{{pl}}: [1] {{Ü|pl|Arteterapia}}
+*{{pt}}: [1] {{Ü|pt|Arte terapia}}
+*{{sv}}: [1] {{Ü|sv|konstterapi}}
+*{{sr}}: [1] {{Ü|sr|Арт терапија}}
+*{{sk}}: [1] {{Ü|sk|Arte terapia}}
+*{{es}}: [1] {{Ü|es|Arteterapia}}
+{{Ü-rechts}} &lt;!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters --&gt;
+
+{{Referenzen}}
+:[1] {{Wikipedia|Kunsttherapie}}
+:[1] {{Ref-DWDS|Kunsttherapie}}
+:[1] {{Ref-Canoo|Kunsttherapie}}
+:[1] {{Ref-UniLeipzig|Kunsttherapie}}
+
+[[pl:Kunsttherapie]]

@@ -1,0 +1,132 @@
+==English==
+
+===Etymology===
+Compare French ''abdominal''.
+
+===Pronunciation===
+* {{audio|en-us-abdominal.ogg|Audio (US)}}
+
+===Adjective===
+{{en-adj}}
+
+# Of or pertaining to the abdomen.
+#: '''''abdominal''' muscles''
+#: '''''abdominal''' cavity''
+# {{zoology|obsolete}} Belonging to the [[abdominales|Abdominales]]; as, ''abdominal'' fishes.
+
+====Synonyms====
+* {{sense|of or pertaining to the abdomen}} [[ventral]]
+
+====Translations====
+{{trans-top|of or pertaining to the abdomen}}
+* Bulgarian: {{t-|bg|коремен}}
+* Czech: {{t-|cs|břišní}}
+* Finnish: [[vatsa-]] (in compounds)
+* French: {{t+|fr|abdominal}}
+* German: abdominal, also: den Unterleib betreffend
+* [[Interlingua]]: abdominal
+{{trans-mid}}
+* Irish: [[bolgach]] ''a1''
+* Italian: {{t+|it|addominale}}
+* Portuguese: {{t+|pt|abdominal}}
+* Spanish: {{t+|es|abdominal}}
+* Turkish: {{t|tr|karın ile ilgili}}
+{{trans-bottom}}
+
+{{trans-top|having abdominal fins}}
+{{trans-mid}}
+{{trans-bottom}}
+
+====Derived terms====
+* [[abdominal ring]]: ''(Anatomy):'' a [[fancied]] [[ringlike]] opening on each side of the abdomen, external and superior to the ''[[pubes]]''; -- called also ''[[inguinal]] ring''
+
+===Noun===
+{{en-noun}}
+
+# {{zoology|obsolete}} A fish of the order [[abdominales|Abdominales]].
+# {{context|usually|_|plural}} An abdominal muscle
+
+====Synonyms====
+* {{sense|fish}} [[Cypriniformes]].
+
+----
+
+==French==
+
+===Pronunciation===
+* {{IPA|/ab.dɔ.mi.nal/|lang=fr}}
+* {{audio|Fr-abdominal.ogg|Audio}}
+* {{homophones|abdominale|abdominales|lang=fr}}
+
+===Adjective===
+{{fr-adj-al|abdomin}}
+
+# [[#English|Abdominal]]; of the abdomen.
+
+----
+
+==Portuguese==
+
+===Adjective===
+{{pt-adj|abdomina|l|comp=no}}
+
+# [[#English|abdominal]]
+
+===Noun===
+{{pt-noun-m|plural=abdominais}}
+
+# [[sit-up]]
+
+===Related terms===
+* [[abdómen]]
+
+----
+
+==Spanish==
+
+===Adjective===
+{{es-adj|pl=abdominales}}
+
+# [[#English|abdominal]]
+
+===Noun===
+{{es-noun-m|pl=abdominales}}
+
+# [[sit-up]]
+
+===Related terms===
+* [[abdomen]]
+
+[[am:abdominal]]
+[[ar:abdominal]]
+[[cs:abdominal]]
+[[de:abdominal]]
+[[el:abdominal]]
+[[es:abdominal]]
+[[et:abdominal]]
+[[fa:abdominal]]
+[[fr:abdominal]]
+[[gl:abdominal]]
+[[ko:abdominal]]
+[[hi:abdominal]]
+[[io:abdominal]]
+[[id:abdominal]]
+[[it:abdominal]]
+[[hu:abdominal]]
+[[ml:abdominal]]
+[[my:abdominal]]
+[[nl:abdominal]]
+[[ja:abdominal]]
+[[no:abdominal]]
+[[oc:abdominal]]
+[[pl:abdominal]]
+[[pt:abdominal]]
+[[ru:abdominal]]
+[[fi:abdominal]]
+[[sv:abdominal]]
+[[ta:abdominal]]
+[[te:abdominal]]
+[[th:abdominal]]
+[[uk:abdominal]]
+[[vi:abdominal]]
+[[zh:abdominal]]
