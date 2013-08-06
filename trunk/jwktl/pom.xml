@@ -20,7 +20,7 @@
 	<groupId>de.tudarmstadt.ukp.jwktl</groupId>
 	<artifactId>jwktl</artifactId>
 	<name>Java-based Wiktionary Library (JWKTL)</name>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<parent>
 		<artifactId>dkpro-parent-pom</artifactId>
 		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
@@ -58,9 +58,9 @@
 	</developers>
 
 	<scm>
-		<developerConnection>scm:svn:https://jwktl.googlecode.com/svn/tags/jwktl-1.0.0</developerConnection>
-        <connection>scm:svn:https://jwktl.googlecode.com/svn/tags/jwktl-1.0.0</connection>
-        <url>http://code.google.com/p/jwktl/source/browse/tags/jwktl-1.0.0</url>		
+		<developerConnection>scm:svn:https://jwktl.googlecode.com/svn/trunk/jwktl</developerConnection>
+        <connection>scm:svn:https://jwktl.googlecode.com/svn/trunk/jwktl</connection>
+        <url>http://code.google.com/p/jwktl/source/browse/</url>		
 	</scm>
 
 	<build>
