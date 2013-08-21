@@ -80,6 +80,8 @@ public class WiktionaryPageFilter implements IWiktionaryPageFilter {
 	protected boolean acceptEntryLanguage(final IWiktionaryPage page) {
 		if (allowedEntryLanguages.size() == 0)
 			return true;
+		if (page.getEntryLanguage() == null)
+			return false;
 		
 		return (allowedEntryLanguages.contains(page.getEntryLanguage()));
 	}
