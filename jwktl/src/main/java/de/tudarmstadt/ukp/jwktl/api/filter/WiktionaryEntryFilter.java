@@ -99,6 +99,8 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	protected boolean acceptWordLanguage(final IWiktionaryEntry entry) {
 		if (allowedWordLanguages.size() == 0)
 			return true;
+		if (entry.getWordLanguage() == null)
+			return false;
 		
 		return (allowedWordLanguages.contains(entry.getWordLanguage()));
 	}
@@ -137,6 +139,8 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	protected boolean acceptPartOfSpeech(final IWiktionaryEntry entry) {
 		if (allowedPartsOfSpeech.size() == 0)
 			return true;
+		if (entry.getPartOfSpeech() == null)
+			return false;
 		
 		return (allowedPartsOfSpeech.contains(entry.getPartOfSpeech()));
 		//TODO: multiple POS?
