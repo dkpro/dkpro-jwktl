@@ -201,3 +201,7 @@ JWKTL-0.17.2 (2013-08-02) TEST RELEASE
 
 JWKTL-1.0.0 (2013-08-06)
 - First official open source release.
+
+JWKTL-1.0.1
+- Modified: Switched to dkpro-parent-pom 9.
+- Fixed: Removed missing dependency xerces:xercesImpl:2.9.1-lucene; no longer needed (#7).

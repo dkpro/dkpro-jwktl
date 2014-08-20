@@ -1,5 +1,5 @@
 <!--
-        Copyright 2013
+        Copyright 2014
         Ubiquitous Knowledge Processing (UKP) Lab
         Technische Universität Darmstadt
 
@@ -24,11 +24,18 @@
 	<parent>
 		<artifactId>dkpro-parent-pom</artifactId>
 		<groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
-		<version>4</version>
+		<version>9</version>
 	</parent>
 
 	<description>JWKTL (Java Wiktionary Library) is a Java-based API that enables efficient and structured access to the information encoded in the English and the German Wiktionary edition, including sense definitions, part of speech tags, etymology, example sentences, translations, semantic relations and many other lexical information types.</description>
 	<url>https://code.google.com/p/jwktl/</url>
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 	<organization>
 		<name>Ubiquitous Knowledge Processing (UKP) Lab</name>
 		<url>http://www.ukp.tu-darmstadt.de/</url>
@@ -140,13 +147,6 @@
 			<version>4.10</version>
 			<scope>test</scope>
 		</dependency>
-		<dependency>
-			<groupId>xerces</groupId>
-			<artifactId>xercesImpl</artifactId>
-			<version>2.9.1-lucene</version>
-			<type>jar</type>
-			<scope>compile</scope>
-		</dependency>
 	</dependencies>
 
 	<profiles>
@@ -176,7 +176,8 @@
 										<!-- release generated artifact -->
 										<exclude>release.properties</exclude>
 										<exclude>CHANGELOG.txt</exclude>
-										<exclude>README.txt</exclude>
+										<exclude>NOTICE.txt</exclude>
+                                        <exclude>README.txt</exclude>
 										<exclude>license/**/*</exclude>
                                         <exclude>src/main/resources/**/*</exclude>
 										<exclude>src/test/resources/**/*</exclude>
