@@ -1,0 +1,91 @@
+{{also|Did}}
+==Translingual==
+
+===Alternative forms===
+* {{sense|roman numeral}} [[DID]], [[CMXCIX]], [[cmxcix]]
+{{wikipedia|DID}}
+
+===Number===
+'''did'''
+
+# {{informal}} A [[Roman numeral]] representing [[nine hundred and ninety-nine]] ([[999]]).
+
+====See also====
+* Previous: [[diid]] ([[nine hundred and ninety-eight]], [[998]])
+* Next: [[dd]] ([[one thousand]], [[1000]])
+
+----
+
+==English==
+
+===Etymology===
+From {{etyl|enm}} {{term|didde|lang=enm}}, {{term|dude|lang=enm}}, from {{etyl|ang}} {{term|dyde|lang=ang}}, {{recons|diede|diede|lang=ang}}, from {{etyl|gem-pro|en}} {{recons|dedǭ|lang=gem-pro}}, first and third person singular past indicative of {{etyl|gem-pro|en}} {{recons|dōnan||to do|lang=gem-pro}}. Cognate with {{etyl|sco|-}} {{term|did||did|lang=sco}}, {{etyl|fy|-}} {{term|die||did|lang=fy}}, {{etyl|nl|-}} {{term|deed||did|lang=nl}}, {{etyl|de|-}} {{term|tat||did|lang=de}}.
+
+===Pronunciation===
+* {{IPA|/dɪd/}}, {{X-SAMPA|/dId/}}
+* {{audio|En-ca-did.ogg|Audio (CA)}}
+* {{rhymes|ɪd}}
+
+===Verb===
+'''did'''
+
+# {{simple past of|do}}
+#* '''1590''', Edmund Spenser, ''The Faerie Queene'', II.vi:
+#*: she with liquors strong his eyes '''did''' steepe, / That nothing should him hastily awake [...].
+#* '''1590''', Edmund Spenser, ''The Faerie Queene'', II.v:
+#*: The wearie Traueiler, wandring that way, / Therein '''did''' often quench his thristy heat, / And then by it his wearie limbes display, / Whiles creeping slomber made him to forget / His former paine [...].
+#* '''1590''', Edmund Spenser, ''The Faerie Queene'', II.v:
+#*: He made him stoup perforce vnto his knee, / And do vnwilling worship to the Saint, / That on his shield depainted he '''did''' see [...].
+
+===Statistics===
+* {{rank|should|can|made|83|did|such|great|must}}
+
+===Anagrams===
+* [[DDI#English|DDI]]
+* [[idd#English|idd]]
+
+[[Category:English irregular simple past forms]]
+[[Category:English palindromes]]
+
+----
+
+==Old Welsh==
+
+===Etymology===
+From {{etyl|cel-pro|owl}} {{recons|dīyo-||day|lang=cel-pro}}.
+
+===Noun===
+{{head|owl|noun|g=m}}
+
+# [[day]]
+
+====Descendants====
+* Welsh: {{l|cy|dydd}}
+
+[[ang:did]]
+[[de:did]]
+[[et:did]]
+[[el:did]]
+[[es:did]]
+[[fa:did]]
+[[fr:did]]
+[[ko:did]]
+[[id:did]]
+[[it:did]]
+[[kk:did]]
+[[ku:did]]
+[[li:did]]
+[[hu:did]]
+[[ml:did]]
+[[my:did]]
+[[nl:did]]
+[[ja:did]]
+[[pa:did]]
+[[pl:did]]
+[[pt:did]]
+[[simple:did]]
+[[fi:did]]
+[[sv:did]]
+[[te:did]]
+[[tr:did]]
+[[zh:did]]

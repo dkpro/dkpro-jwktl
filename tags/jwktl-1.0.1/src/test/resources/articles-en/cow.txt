@@ -1,0 +1,434 @@
+[[Image:Koe in weiland bij Gorssel.JPG|thumb|A cow (sense 1)]]
+==English==
+
+===Pronunciation===
+* {{enPR|kou}}, {{IPA|/kaʊ/}}, {{SAMPA|/kaU/}}
+* {{audio|en-us-cow.ogg|Audio (US)}}
+* {{rhymes|aʊ}}
+
+===Etymology 1===
+From {{etyl|enm}} {{term|cou|lang=enm}}, from {{etyl|ang|en}} {{term|cu|cū|lang=ang}}, from {{proto|Germanic|kūz|lang=en}} (compare West Frisian {{term|ko|lang=fy}}, Dutch {{term|koe|lang=nl}}, German {{term|Kuh|lang=de}}), from {{proto|Indo-European|gʷōus|lang=en}} (compare Irish {{term|bó|lang=ga}}, Latin {{term|bos|bōs|lang=la}} 'head of cattle', Tocharian ''ko/keu'', Latvian {{term|govs|lang=lv}}, Russian {{term|говядо|tr=govjado|lang=ru|sc=Cyrl}}, Albanian ''gak'' 'boar', Ancient Greek {{term|βοῦς|tr=boûs|lang=grc|sc=polytonic}}, Armenian {{term|կով|tr=kov|lang=hy|sc=Armn}}, Persian {{term|گاو|tr=gāv|lang=fa|sc=fa-Arab}}, Hindi {{term|गाय|tr=gāy|lang=hi}}).
+
+====Noun====
+{{wikipedia}}
+{{en-noun|pl='''[[cows]]''', '''[[cattle]]''' ''or'' '''[[kine]]''' (''archaic'')}}
+
+# A female domesticated [[ox]] or other [[bovine]], especially an adult after she has had a [[calf]].
+# More generally, any domestic bovine regardless of sex or age.
+# The [[meat]] ([[beef]]) of such animals, used as [[food]] for [[human]]s.
+# The [[female]] of larger species of [[mammal]], including bovines, [[moose]], [[whale]]s, [[seal]]s, [[hippo]]s, [[rhino]]s, [[manatee]]s, and [[elephant]]s.
+# {{context|British|derogatory|informal}} A [[woman]] who is considered despicable in some way, especially one considered to be fat, lazy, ugly, argumentative, mean or spiteful.
+# {{informal}} Anything that is annoyingly difficult, [[awkward]] or [[graceless]].
+#: ''That website is a real '''cow''' to navigate.''
+# {{informal}} A [[conniption fit]] or [[hissy fit]]; a state of [[agitation]] {{context|only in the phrase '''have a cow'''}}.
+
+=====Synonyms=====
+* {{sense|derogatory: despicable woman}} [[bitch]]
+* {{sense|informal: anything annoyingly difficult}} [[bastard]], [[bitch]], [[bugger]] {{qualifier|UK}}
+
+=====Antonyms=====
+* {{sense|female domesticated ox or other bovine}} [[bull]] {{qualifier|male, uncastrated}}, [[ox]] or [[steer]] {{qualifier|male, castrated}}, [[heifer]] {{qualifier|female, immature}}
+
+=====See also=====
+* {{sense|meat}} [[chicken]], [[pig]], [[pork]], [[goat]], [[lamb]], [[mutton]]
+
+=====Derived terms=====
+{{rel-top|terms derived from "cow"}}
+* [[cowboy]]
+* [[cow catcher]], [[cowcatcher]]
+* [[cow corner]]
+* [[cowgirl]]
+* [[cowherd]]
+* [[cowpoke]]
+* [[cowpuncher]]
+* [[cowshed]]
+{{rel-mid}}
+* [[cow shot]]
+* [[cow tipping]]
+* [[cash cow]]
+* [[fat as a cow]]
+* [[have a cow]]
+* [[holy cow]]
+* [[sacred cow]]
+{{rel-bottom}}
+
+=====Translations=====
+{{trans-top|female domesticated ox or other bovine}}
+* [[Afrikaans]]: {{t-|af|koei|xs=Afrikaans}}
+* [[Ancient Greek]]: {{tø|grc|βοῦς|f|tr=bous|sc=polytonic}}
+* Arabic: {{Arab|[[بقرة]]}} (báqara) {{f}}
+* [[Aragonese]]: {{t-|an|baca|f|xs=Aragonese}}
+* Aramaic:
+*: Syriac: [[ܬܘܪܬܐ]] (tōrtā, tōrto) {{f}}
+*: Hebrew: [[תורתא]] (tōrtā, tōrto) {{f}}
+* Armenian: {{t-|hy|կով|tr=kov}}
+* [[Asturian]]: {{t+|ast|vaca|f|xs=Asturian}}
+* [[Azeri]]: {{t+|az|inək|xs=Azeri}}
+* [[Basque]]: {{t|eu|behi|f}}
+* Belarusian: {{t+|be|карова|f|xs=Belarusian}}
+* [[Bemba]]: [[nañ-ñombe]]
+* Bosnian: {{t-|bs|krava|f}}
+* [[Breton]]: {{t+|br|buoc'h|f|xs=Breton}}
+* Bulgarian: {{t+|bg|крава|f|tr=krava}}
+* [[Catalan]]: [[vaca]] {{f}}
+* [[Cebuano]]: [[baka]]
+* [[Chamicuro]]: {{tø|ccc|waka}}
+* [[Chamorro]]: [[guäkä]]
+* Cherokee: {{t+|chr|ᏩᎦ|tr=waga|sc=Cher|xs=Cherokee}}
+* Chinese:
+*: Mandarin: {{zh-ts|[[母]][[牛]]|[[母]][[牛]]}} (mǔníu)
+* [[Cornish]]: {{t-|kw|bugh|f|xs=Cornish}}
+* [[Crimean Tatar]]: [[sığır]], [[tuvar]], [[sıyır]]
+* Croatian: {{t+|hr|krava|f}}
+* Czech: {{t+|cs|kráva|f}}
+* Danish: {{t+|da|ko|c}}
+* Dutch: {{t+|nl|koe|f}}
+* [[Eshtehardi]]: {{tø|esh|گاو|f|alt=گاوَ|tr=gâva|sc=fa-Arab}}
+* Esperanto: {{t-|eo|bovino|xs=Esperanto}}
+* Estonian: {{t+|et|lehm|f}}
+* Faroese: {{t+|fo|kúgv|f|xs=Faroese}}
+* Finnish: {{t+|fi|lehmä}}
+* French: {{t+|fr|vache|f}}
+* [[Galician]]: {{t+|gl|vaca|f|xs=Galician}}
+* Georgian: {{t-|ka|ძროხა|tr=jroxa|sc=Geor|xs=Georgian}}
+* German: {{t+|de|Kuh|f}}
+* Greek: {{t+|el|αγελάδα|f}} (ageláda)
+* [[Haitian Creole]]: {{tø|ht|vach}}
+* Hebrew: {{t|he|פרה|f|tr=pará}}
+* Hindi: {{t-|hi|गाय|f|tr=gāy|xs=Hindi}}
+* Hungarian: {{t+|hu|tehén}}
+* Icelandic: {{t|is|kýr|f}}, {{t|is|belja|f}} {{qualifier|informal}}
+* Indonesian: {{t|id|sapi}}
+*: [[Acehnese]]: {{tø|ace|leumo}}
+*: [[Javanese]]: {{t|jv|lembu}}
+*: [[Minangkabau]]: {{tø|min|jawi}}
+* [[Interlingua]]: {{t|ia|vacca}}
+* Irish: {{t+|ga|bó|f|xs=Irish}}
+* Italian: {{t+|it|vacca|f}}, {{t+|it|mucca|f}}
+* Japanese: {{t-|ja|雌牛|tr=[[めうし]], meushi}}
+* [[Kabyle]]: {{tø|kab|tafunast|f|xs=Kabyle}}
+* Kazakh: {{t|kk|сиыр|tr=síır|sc=Cyrl|xs=Kazakh}}
+* [[Khasi]]: {{tø|kha|masi}}
+* [[Kinyarwanda]]: [[inka#Kinyarwanda|inka]]
+* [[Kongo]]: [[ngombe]]
+* Kurdish: {{ku-Arab|[[مانگا]]}}, {{ku-Arab|[[چێڵ]]}}
+* [[Lao]]: {{Laoo|[[ງົວ]]}} (ngua)
+* Latin: {{t+|la|vacca}}, {{t+|la|bos|f|alt=bōs}}
+* Latvian: {{t-|lv|govs|f|xs=Latvian}}
+{{trans-mid}}
+* [[Lower Sorbian]]: {{tø|dsb|krowa|f|xs=Lower Sorbian}}
+* [[Luo]]: {{tø|luo|dhiang'|xs=Luo}}
+* [[Macedonian]]: {{t-|mk|крава|f|tr=kráva}}
+* Malay: {{t|ms|lembu}}
+* Maltese: {{t-|mt|baqra|f|xs=Maltese}}
+* [[Manx]]: {{t-|gv|booa|f|xs=Manx}}
+* Maori: {{t-|mi|kau|xs=Maori}}
+* [[Marathi]]: {{t+|mr|गाय|f|tr=gāy|sc=Deva|xs=Marathi}}
+* Mongolian: {{tø|mn|үнээ|tr=ünêê|sc=Cyrl}}
+* [[Nahuatl]]: {{tø|nah|vaca}}
+* [[Northern Sotho]]: {{tø|nso|kgômogadi}}
+* Norwegian: {{t+|no|ku|f}}
+* [[Nottoway-Meherrin]]: {{tø|nwy|toskerung}}
+* [[O'odham]]: [[haiwani]]
+* [[Occitan]]: {{tø|oc|vaca|f}}
+* [[Old English]]: {{t-|ang|cu|f|alt=cū|xs=Old English}}
+* [[Old Irish]]: {{tø|sga|bó|f}}
+* [[Ossetian]]:
+*: Digor: {{tø|os|гъог|tr=g”og|sc=Cyrl|xs=Ossetian}}
+*: Iron: {{tø|os|хъуг|tr=x”ug|sc=Cyrl|xs=Ossetian}}
+* Persian: {{fa-Arab|[[ماده گاو]]}} (mādagāv), {{t+|fa|گاو|tr=gāv|xs=Persian}}
+* Polish: {{t+|pl|krowa|f}}
+* Portuguese: {{t+|pt|vaca|f}}
+* [[Quechua]]: {{t|qu|wuakra|xs=Quechua}}
+* [[Rohingya]]: {{tø|rhg|gai}}
+* [[Romagnolo]]: [[munghèna]] {{f}}
+* [[Romani]]: [[गूरूव्नी#Romani|गूरूव्नी]] (gūrūvnī)
+* Romanian: {{t+|ro|vacă|f}}
+* [[Romansch]]: {{tø|rm|vatga}}, {{t|rm|vacha|f}}
+* Russian: {{t+|ru|корова|f|tr=koróva}}
+* [[Samoan]]: {{t-|sm|povi|xs=Samoan}}
+* [[Santali]]: {{tø|sat|ᱜᱟᱤ|tr=gaai|sc=Olck}}
+* [[Scots]]: [[coo]], [[kye]]
+* [[Scottish Gaelic]]: {{t-|gd|bò|f|xs=Scottish Gaelic}}, {{t-|gd|bó|f|xs=Scottish Gaelic}}
+* Serbian:
+*: Cyrillic: {{t-|sr|крава|f|sc=Cyrl}}
+*: Roman: {{t-|sr|krava|f}}
+* [[Shona]]: [[mhóu#Shona|mhóu]]
+* [[Sicilian]]: {{t+|scn|vacca|f|xs=Sicilian}}
+* Slovak: {{t-|sk|krava|f}}
+* Slovene: {{t+|sl|krava|f}}
+* Somali: {{tø|so|sac}}
+* Spanish: {{t+|es|vaca|f}}
+* Swahili: {{t+|sw|ng'ombe|xs=Swahili}}
+* [[Swati]]: [[ín-khomâti]]
+* Swedish: {{t+|sv|ko|c}}, {{t+|sv|kossa|c}}
+* [[Tamil]]: [[பசு]]
+* [[Taos]]: [[kòsi’ína]]
+* [[Tatar]]: {{t+|tt|сыер|sc=Cyrl|xs=Tatar}}
+* [[Telugu]]: [[ఆవు]]
+* [[Tok Pisin]]: {{tø|tpi|bulmakau meri}}
+* [[Tongan]]: [[pulu fefine]]
+* Turkish: {{t+|tr|inek}}
+* [[Turkmen]]: {{t-|tk|sygyr|xs=Turkmen}}
+* Ukrainian: {{t+|uk|корова|f|tr=koróva|xs=Ukrainian}}
+* [[Upper Sorbian]]: {{tø|hsb|kruwa|f|xs=Upper Sorbian}}
+* [[Volapük]]: {{t+|vo|kun|xs=Volapük}}, {{t|vo|jibub}}
+* Welsh: {{t+|cy|buwch|f|xs=Welsh}}
+* [[West Frisian]]: {{t-|fy|ko|xs=West Frisian}}
+* Yiddish: [[קו]] (ku)
+* Yucatec: [[wakax]]
+{{trans-bottom}}
+
+{{trans-top|any domestic bovine regardless of sex or age}}
+* Arabic: {{t|ar|بقرة|s|tr=baqara}}, {{t|ar|بقر|tr=baqar}} ''(collective)'', {{t|ar|ابقار|p|tr=abqaar}}
+* Bosnian: {{t-|bs|krava|f}}
+* Chinese:
+*: Mandarin: {{zh-ts|牛|牛}} (níu)
+* Croatian: {{t+|hr|krava|f}}
+* Czech: {{t-|cs|tur|f}}, {{t-|cs|skot|m}}
+* Danish: {{t+|da|ko|c}}
+* Dutch: {{t+|nl|rund|n}}
+* Finnish: {{t+|fi|nauta}}
+* French: {{t+|fr|bovin|m}}, {{t+|fr|vache|f}}
+* German: {{t+|de|Kuh|f}}
+* Hebrew: {{t|he|פרה|f|tr=pará}}
+* Icelandic: {{t|is|nautgripur|m}}, {{t|is|kýr|f}} (''in plural only'')
+* Irish: {{t+|ga|bó|f|xs=Irish}}
+* Italian: {{t-|it|bovino|m}}
+* Japanese: {{t+|ja|牛|tr=[[うし]], ushi}}
+* [[Khasi]]: {{tø|kha|masi}}
+{{trans-mid}}
+* Kurdish: {{ku-Arab|[[مانگا]]}}
+* [[Macedonian]]: {{t-|mk|крава|f|tr=kráva}}
+* Navajo: {{tø|nv|béégashii}}
+* Norwegian: {{t+|no|ku|f}}
+* [[Old English]]: {{t-|ang|cu|f|alt=cū|xs=Old English}}
+* Persian: {{t+|fa|گاو|tr=gāv|xs=Persian}}
+* Russian: {{t+|ru|корова|f|tr=koróva}}
+* [[Scottish Gaelic]]: {{t-|gd|mart|m|xs=Scottish Gaelic}}
+* Serbian:
+*: Cyrillic: [[крава]] {{f}}
+*: Roman: [[krava]] {{f}}
+* Slovene: {{t+|sl|krava|f}}
+* Swahili: {{t+|sw|ngombe|xs=Swahili}}
+* Swedish: {{t+|sv|nötkreatur|n}}
+* [[Tswana]]: {{t-|tn|kgomo|xs=Tswana}} (9/10)
+* [[Volapük]]: {{qualifier|male or female}} {{t|vo|bub}}
+{{trans-bottom}}
+
+{{trans-top|female of various species of mammal}}
+<!--note: give multiple translations with glosses, as need be-->
+* Chinese:
+*: Mandarin: {{zh-ts|[[母]][[獸]]|[[母]][[兽]]}} (mǔshòu)
+* Czech: {{t+|cs|kráva|f}}
+* Danish: {{t|da|ko|c}} (''of any bovine and manatees''), {{t|da|hun|c}} (''of whales, seals, elephant etc.)
+* Dutch: {{t+|nl|koe|f}}
+* Estonian: {{t+|et|lehm|f}}
+* Finnish: {{t+|fi|lehmä}}
+* French: [[vache]] {{f}} (''of any bovine''), [[femelle]] {{f}} (''of the whale, seal, manatee, elephant, etc'')
+* German: {{t+|de|Kuh|f}}
+{{trans-mid}}
+* Hungarian: {{t|hu|tehén}}
+* Icelandic: {{t|is|kýr|f}} (''of bovines, manatees, whales; also of reindeer and elk/moose'')
+* Irish: {{t+|ga|bó|f|xs=Irish}}
+* Italian: [[vacca]] {{f}}, [[mucca]] {{f}} (''of any bovine''), [[femmina]] {{f}} (''of the seal, whale, manatee, etc''), [[elefantessa]] {{f}} (''of the elephant'')
+* Japanese: [[雌]] ([[めす]] mesu)
+* [[Macedonian]]: {{t-|mk|женка|f|tr=žénka}}
+* Slovene: {{t+|sl|krava|f}}
+* Swahili: {{t+|sw|ngombe|xs=Swahili}}
+* Swedish: {{t|sv|ko|c}} (''of bovines and elk/moose'')
+{{trans-bottom}}
+
+{{trans-top|derogatory: despicable woman}}
+* Armenian: {{t-|hy|կով|tr=kov}}
+* Bosnian: {{t-|bs|krava|f}}
+* [[Catalan]]: [[vaca]], [[bruixa]], [[foca]]
+* Chinese:
+*: Mandarin: {{zh-ts|[[卑]][[劣]]的|[[卑]][[劣]]的}} (bēiliè de)
+* Croatian: {{t+|hr|krava|f}}
+* Czech: {{t+|cs|kráva|f}}
+* Danish: {{t+|da|ko|c}}
+* Dutch: [[domme]] [[koe]] {{f}}
+* Estonian: {{t+|et|lehm|f}}
+* Finnish: {{t+|fi|lehmä}}
+* French: {{t+|fr|garce|f}}, {{t+|fr|chipie|f}}
+* German: {{t+|de|Kuh|f}}
+* Hebrew: {{t|he|פרה|f|tr=pará}}
+* Hungarian: {{t+|hu|tehén}}
+{{trans-mid}}
+* Icelandic: {{t+|is|belja|f}}
+* Italian: {{t+|it|stronza|f}}, {{t+|it|bastarda|f}}
+* Latvian: {{t-|lv|govs|f|xs=Latvian}}
+* [[Macedonian]]: {{t-|mk|крава|f|tr=kráva}}
+* Polish: {{t+|pl|krowa|f}}
+* Russian: {{t+|ru|корова|f|tr=koróva}}
+* Serbian:
+*: Cyrillic: [[крава]] {{f}}
+*: Roman: [[krava]] {{f}}
+* Slovene: {{t+|sl|krava|f}}
+* Spanish: {{t+|es|bruja|f}}
+* Swahili: {{t+|sw|ngombe|xs=Swahili}}
+* Swedish: {{t+|sv|kossa|c}}
+* [[West Frisian]]: {{t-|fy|ko|c|xs=West Frisian}}
+{{trans-bottom}}
+
+{{trans-top|informal: anything annoyingly difficult}}
+* [[Catalan]]: [[marró]], [[pedra]]
+{{trans-mid}}
+* Swahili: {{t+|sw|ngombe|xs=Swahili}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|af}}: [[koei]]
+* {{ttbc|sq}}: [[lopë]] {{f}}, [[kau i egër]]
+* {{ttbc|eu}}: [[behi]]
+* {{ttbc|be}}: [[жывела]] (žyvela) {{f}}
+* {{ttbc|br}}: [[buoc’h]] {{f}}, buoc’hed {{p}}, [[saout]] {{p}}
+* {{ttbc|chr}}: [[ᏩᎦ]] (waga)
+* {{ttbc|cho}}: [[wak]]
+* {{ttbc|com}}: [[nʉmʉ]]
+* {{ttbc|eo}}: [[bovino]] ([[bovo|bov]]´ in´o)
+* {{ttbc|fa}}: [[kúgv]]
+* {{ttbc|fur}}: [[vacje]]
+* {{ttbc|gl}}: [[vaca]] {{f}}
+* {{ttbc|grc}}: [[βοῦς]] (boūs)
+* {{ttbc|io}}: [[bovino]] ([[bovo|bov]]´ in´o)
+* {{ttbc|id}}: [[lembu]]
+* {{ttbc|ia}}: [[vacca#Interlingua|vacca]]
+* {{ttbc|roa-jer}}: [[vaque]] {{f}}
+* {{ttbc|ko}}: [[소]] (so); [[암소]] (amso)
+* {{ttbc|ku}}: [[çêl]] {{f}}, [[çêlek]] {{f}}, [[mange]] {{f}}, [[mang]] {{f}}
+* {{ttbc|lld}}: [[vacia]]
+* {{ttbc|la}}: [[vacca#Latin|vacca]] {{f}}, [[bos]] {{m|f}}
+* {{ttbc|lt}}: [[karvė]] {{f}} (1, 3)
+* {{ttbc|mk}}: [[крава]] (krava) {{f}}
+* {{ttbc|ml}}: [[പശു]] (paSu)
+* {{ttbc|gut}}: [[teptep]]
+{{trans-mid}}
+* {{ttbc|mt}}: [[baqra]]
+* {{ttbc|moh}}: [[tyonnhonhskwaron]]
+* {{ttbc|nv}}: [[béégashii]]
+* {{ttbc|no}}: [[ku]] {{f}}
+* {{ttbc|oc}}: [[vaca]] {{f}}
+* {{ttbc|oj}}: [[bižiki]]
+* {{ttbc|non}}: [[ko]], [[ku]]
+* {{ttbc|fa}}: {{fa-Arab|[[گاو]]}} (gāv)
+* {{ttbc|rom}}: [[gurumni]] {{f}}
+* {{ttbc|Sami}}: [[burru]], [[vuoksá]]; [[gussa]] (cow)
+* {{ttbc|sc}}: [[bulu]], [[óinu]], [[bàcchinu]], [[bóinu]], [[bacca]], [[vacca]]
+* {{ttbc|gd}}: [[bó]] {{f}}
+* {{ttbc|sei}}: [[ziix cooha]], [[heen]], [[hant csii]] {{qualifier|archaic}}
+* {{ttbc|sk}}: [[krava]] {{f}}
+* {{ttbc|Sorbian}}: [[krowa]] {{f}}, [[howjado]], [[kruwa]] {{f}}
+* {{ttbc|sux}}: [[gu]]
+* {{ttbc|tzm}}: [[ⵜⴰⴼⵓⵏⴰⵙⵜ]] (tafunast) {{f}}
+* {{ttbc|te}}: [[ఆవు]] (aavu), [[గోవు]] (goovu)
+* {{ttbc|bo}}: [[བ་]] (pa)
+* {{ttbc|tpi}}: [[bulmakau]] (1), [[bulmakau]] [[meri]] (2)
+* {{ttbc|tr}}: [[sığır]], [[inek]]
+* {{ttbc|uk}}: [[корова]] (korova) {{f}}, [[худоба]] (ḥudoba) {{f}}, [[бидло]] (bydlo) {{n}}
+* {{ttbc|ur}}: {{ur-Arab|[[گای]]}} (gāy) {{f}}
+* {{ttbc|wa}}: [[vatche]]
+* {{ttbc|cy}}: [[buwch]] {{f}}
+* {{ttbc|Yavapai}}: [['qwaaka]]
+* {{ttbc|Yucatec}}: [[wakaš]]
+{{trans-bottom}}
+
+=====See also=====
+{{top2}}
+* [[beef]]
+* [[bovine]]
+* [[bull]]
+* [[calf]]
+* [[cattle]]
+{{mid2}}
+* [[heifer]]
+* [[steer]]
+* [[ox]]
+* [[veal]]
+{{bottom}}
+
+===Etymology 2===
+Probably from {{etyl|non|en}} {{term|kúga||to oppress|lang=non}} ( > Danish {{term|kue|lang=da}}, Swedish {{term|kuva|lang=sv}}), compare Icelandic {{term|kúfa||to set on top}}.
+
+====Verb====
+{{en-verb}}
+
+# {{transitive}} To [[intimidate]]. {{non-gloss definition|Found primarily in the passive voice.}}
+#: ''Con artists are not '''cowed''' by the law.''
+
+=====Translations=====
+{{trans-top|to intimidate}}
+* Bulgarian: {{t|bg|сплашвам}}, {{t|bg|укротявам}}
+* Chinese:
+*: Mandarin: {{zh-ts|恐嚇|恐吓}} ([[kǒng]][[hè]])
+* Finnish: {{t-|fi|pelottaa}}
+{{trans-mid}}
+* Hebrew: {{t-|he|הפחיד|tr=hifkhíd}}
+* Hungarian: {{t|hu|megfélemlít}}
+* Norwegian: {{t-|no|kue}}, {{t|no|underkue}}
+{{trans-bottom}}
+
+===Anagrams===
+* {{alphagram|cow}}
+* [[CWO#English|CWO]]
+
+[[Category:1000 English basic words]]
+[[Category:Cattle]]
+[[Category:English nouns with irregular plurals]]
+[[Category:Mammals]]
+
+[[ar:cow]]
+[[ast:cow]]
+[[zh-min-nan:cow]]
+[[bg:cow]]
+[[ca:cow]]
+[[cs:cow]]
+[[cy:cow]]
+[[da:cow]]
+[[de:cow]]
+[[et:cow]]
+[[el:cow]]
+[[es:cow]]
+[[fa:cow]]
+[[fr:cow]]
+[[gv:cow]]
+[[gl:cow]]
+[[ko:cow]]
+[[hy:cow]]
+[[hr:cow]]
+[[io:cow]]
+[[it:cow]]
+[[kn:cow]]
+[[kk:cow]]
+[[rw:cow]]
+[[sw:cow]]
+[[ku:cow]]
+[[lo:cow]]
+[[la:cow]]
+[[lt:cow]]
+[[li:cow]]
+[[hu:cow]]
+[[my:cow]]
+[[nl:cow]]
+[[ja:cow]]
+[[no:cow]]
+[[oc:cow]]
+[[pl:cow]]
+[[pt:cow]]
+[[ro:cow]]
+[[ru:cow]]
+[[sq:cow]]
+[[simple:cow]]
+[[sr:cow]]
+[[fi:cow]]
+[[sv:cow]]
+[[ta:cow]]
+[[te:cow]]
+[[th:cow]]
+[[chr:cow]]
+[[tr:cow]]
+[[uk:cow]]
+[[ug:cow]]
+[[vi:cow]]
+[[zh:cow]]

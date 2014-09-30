@@ -1,0 +1,98 @@
+{{wikipedia|dab=termination}}
+==English==
+
+===Etymology===
+From {{etyl|la}} ''[[terminationem]]'' (accusative of ''[[terminatio]]'').
+
+===Noun===
+{{en-noun}}
+
+# The process of [[terminating]] or the state of being [[terminate]]d.
+# The process of firing an employee; ending one's employment at a business for any reason.
+# An [[end]] in [[time]]; a [[conclusion]].
+# An end in [[space]]; an [[edge]] or [[limit]].
+# An [[outcome]] or [[result]].
+# The last part of a [[word]]; a [[suffix]].
+# {{medical}} An induced [[abortion]].
+
+====Synonyms====
+* (''process of terminating''): [[conclude|concluding]], [[end]]ing, [[finish]]ing, [[stop]]ing, [[terminate|terminating]]
+* (''state of being termined''):
+* (''end in time''): [[close]], [[conclusion]], [[end]], [[finale]], [[finish]], [[stop]]
+* (''end in space''): [[border]], [[edge]], [[end]], [[limit]], [[lip]], [[rim]], [[tip]]
+* (''outcome''): [[consequence]], [[outcome]], [[result]], [[upshot]]
+* {{qualifier|medical}}: [[abortion]], [[induced abortion]]
+
+====Translations====
+{{trans-top|The process of terminating or the state of being terminated}}
+* Finnish: [[lopettaminen]]
+{{trans-mid}}
+* Romanian: {{t|ro|terminare|f}}, {{t|ro|sfârșire}}; [[sfârșit]] {{n}}
+{{trans-bottom}}
+
+{{trans-top|The process of firing an employee}}
+* Finnish: {{t-|fi|irtisanominen}}
+{{trans-mid}}
+* Portuguese: {{t|pt|rescisão}}
+{{trans-bottom}}
+
+{{trans-top|An end in time; a conclusion}}
+* French: {{t+|fr|fin|f}}
+{{trans-mid}}
+* Romanian: {{t|ro|încheiere|f}}
+{{trans-bottom}}
+
+{{trans-top|An end in space; an edge or limit}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|An outcome or result}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|The last part of a word; a suffix}}
+* Dutch: {{t+|nl|uitgang}}
+* Finnish: {{t+|fi|pääte}}
+* French: {{t+|fr|terminaison|f}}
+{{trans-mid}}
+* Portuguese: {{t|pt|terminação}},  {{t|pt|desinência}}
+* Romanian: {{t|ro|terminație|f}}, {{t|ro|sufix|n}}
+{{trans-bottom}}
+
+{{trans-top|An induced abortion}}
+* Finnish: {{t+|fi|raskaudenkeskeytys}}, {{t+|fi|abortti}}
+{{trans-mid}}
+* Portuguese: {{t+|pt|aborto}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|nl}}: [[afloop]]
+{{trans-mid}}
+* {{ttbc|es}}: [[terminación]]
+{{trans-bottom}}
+
+====Derived terms====
+* [[extermination]]
+* [[terminative]]
+* [[terminative case]]
+
+[[Category:Death]]
+[[Category:English nouns]]
+
+[[et:termination]]
+[[fr:termination]]
+[[ko:termination]]
+[[io:termination]]
+[[id:termination]]
+[[it:termination]]
+[[hu:termination]]
+[[ml:termination]]
+[[pl:termination]]
+[[ru:termination]]
+[[simple:termination]]
+[[fi:termination]]
+[[ta:termination]]
+[[te:termination]]
+[[tr:termination]]
+[[vi:termination]]
+[[zh:termination]]

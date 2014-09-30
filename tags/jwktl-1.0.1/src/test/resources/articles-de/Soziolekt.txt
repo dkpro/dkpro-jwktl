@@ -1,0 +1,66 @@
+== Soziolekt ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+{{Substantiv-Tabelle|
+ Wer oder was? (Einzahl)=der Soziolekt
+|Wer oder was? (Mehrzahl)=die Soziolekte
+|Wessen? (Einzahl)=des Soziolekt(e)s
+|Wessen? (Mehrzahl)=der Soziolekte
+|Wem? (Einzahl)=dem Soziolekt
+|Wem? (Mehrzahl)=den Soziolekten
+|Wen? (Einzahl)=den Soziolekt
+|Wen? (Mehrzahl)=die Soziolekte
+}}
+
+{{Silbentrennung}}
+:So·zi·o·lekt, {{Pl.}} So·zi·o·lek·te
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|zoʦi̯oˈlɛkt}}, {{Pl.}} {{Lautschrift|zoʦi̯oˈlɛktə}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] ''[[Linguistik]]'', speziell ''[[Soziolinguistik]]'': besondere Sprachform, charakteristische Sprachverwendung einer durch soziale Eigenschaften wie Geschlecht, Einkommen etc. definierten Menge von Mitgliedern einer Sprachgemeinschaft
+
+{{Herkunft}}
+:in Analogie zu ''[[Dialekt]]'' gebildet mit den [[lexikalisches Morphem|lexikalischen Morphemen]] ''[[sozio-]]'' und ''[[-lekt]]''
+
+{{Synonyme}}
+:[1] [[Gruppensprache]] 
+
+{{Oberbegriffe}}
+:[1] [[Lekt]]/[[Sprachvarietät]]/[[Varietät]]
+
+{{Unterbegriffe}}
+:[1] [[elaborierter Code]], [[restringierter Code]], [[Jugendsprache]], [[Schülersprache]]
+
+{{Beispiele}}
+:[1] ''Soziolekte'' sind z.B. die Gruppensprachen von Mitgliedern der Mittel- oder der Oberschicht, der jungen und der alten Menschen, etc. 
+:[1] „Auch die Sprache einer sozialen Klasse (''Soziolekt'') ist eine Gruppensprache.“<ref> http://s2.ned.univie.ac.at/Publicaties/taalgeschiedenis/dt/soziolekte.htm </ref>
+:[1] „Als solche Varietäten können die historisch gebundenen, die Historiolekte, und die ''Soziolekte'' als regional und historisch bestimmte Varietäten aufgefaßt werden.“<ref>Thea Schippan: ''Lexikologie der deutschen Gegenwartssprache.'' Niemeyer, Tübingen 1992, S. 11. ISBN 3-484-73002-1.</ref>
+:[1] „Die Existenz von ''Soziolekten'' (und anderen Varietäten) hat unmittelbare Bedeutung für den Sprachwandel, denn diese Subsysteme sind Ausdruck genereller Merkmale der Sprache und der sprachlichen Kommunikation...“<ref>Karl-Ernst Sommerfeldt (Hrsg.): ''Entwicklungstendenzen in der deutschen Gegenwartssprache.'' VEB Bibliographisches Institut, Leipzig 1988, S. 17. ISBN 3-323-00169-9.</ref>
+
+{{Abgeleitete Begriffe}}
+:[1] [[soziolektal]]
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: {{Ü|en|sociolect}}, {{Ü|en|social dialect}} 
+*{{fi}}: {{Ü|fi|}}
+{{Ü-Abstand}}
+*{{fr}}: {{Ü|fr|sociolecte}} {{m}}
+*{{no}}: {{Ü|no|sosiolekt}} {{m}}
+*{{pt}}: {{Ü|pt|}}
+{{Ü-rechts}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Soziolekt}}
+:[*] {{Ref-Canoo|Soziolekt}}
+:[1] {{Ref-UniLeipzig|Soziolekt}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}} 
+:
+
+[[fr:Soziolekt]]
+[[zh:Soziolekt]]

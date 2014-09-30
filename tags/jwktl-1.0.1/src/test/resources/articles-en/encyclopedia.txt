@@ -1,0 +1,134 @@
+{{wikipedia}}
+{{also|encyclopaedia}}
+==English==
+
+===Alternative spellings===
+* [[encyclopædia]]
+* {{qualifier|chiefly British}} [[encyclopaedia]]
+
+===Etymology===
+From {{etyl|la|en}} {{term|encyclopaedia|lang=la}} &lt; {{etyl|grc|en}} {{term|ἐγκύκλιος παιδεία||lang=grc|the circle of arts and sciences&quot;, &quot;curriculum}} &lt; {{term|ἐγκύκλιος|tr=enkyklios||lang=grc|circular, rounded, round}} &lt; {{term|κύκλος||lang=grc|tr=kyklos|circle}} + {{term|παιδεία||lang=grc|tr=paideia|the rearing of a child&quot;, &quot;education}}, from {{term|παιδίον||lang=grc|tr=paidion|child}}
+
+===Pronunciation===
+* {{ipacregion|Canada}} {{ipac|ənˌsəɪkləˈpidiə|en-ca-synth-encyclopedia.ogg|CA synth}}
+* {{audio|en-us-encyclopedia.ogg|Audio (US)}}
+
+===Noun===
+[[Image:PWN Encyclopedia.jpg|thumb|right|The National Scientific Publishers encyclopedia (Polish)]]
+{{en-noun}}
+
+# A [[comprehensive]] [[reference work]] with articles on a range of [[subjects]].
+#: ''I only use the library for the '''encyclopedia''', we've got most other books here.''
+
+====Usage notes====
+The spelling ''encyclopedia'' is standard in American English, preferred in Canadian English, accepted in Australian and International English, and also very common in British English. It is more common than ''encyclopaedia'', for example, in UK newspapers on Google News in 2009 by a 7:3 margin.
+
+====Related terms====
+* [[encyclopedic]]
+* [[encyclopedic fiction]]
+* [[encyclopedist]]
+* [[encyclopedic dictionary]]
+
+====See also====
+* [[dictionary]]
+
+====Translations====
+{{trans-top|comprehensive reference with articles on a range of topic}}
+* [[Afrikaans]]: [[ensiklopedie]]
+* Alsatian: [[Enzyklopädie]]
+* Arabic: {{Arab|[[موسوعة]]}} {{unicode|(mausú:ʕa)}} {{f}}
+* Armenian: {{t-|hy|հանրագիտարան|tr=hanragitaran}}
+* [[Basque]]: [[entziklopedia]]
+* Bosnian: {{t-|bs|enciklopedija|f}}
+* Bulgarian: [[енциклопедия]] (entsiklopédija) {{f}}
+* [[Catalan]]: [[enciclopèdia]]
+* Chinese: [[百科全書]], [[百科全书]] (bǎikē quánshū)
+* Croatian: {{t-|hr|enciklopedija|f|alt=enciklopédija}}
+* Czech: {{t+|cs|encyklopedie|f}}
+* Danish: {{t-|da|encyklopædi}}
+* Dutch: {{t+|nl|encyclopedie|m}}
+* Esperanto: {{t+|eo|enciklopedio|xs=Esperanto}}
+* Estonian: [[entsüklopeedia]]
+* Faroese: [[Alfrøðibók]]
+* Finnish: {{t+|fi|tietosanakirja}}, {{t+|fi|ensyklopedia}}
+* French: {{t+|fr|encyclopédie|f}}
+* German: {{t+|de|Enzyklopädie|f}}
+* [[Gothic]]: (einkeiklopeidya)?
+* Greek: {{t+|el|εγκυκλοπαίδεια|f}} (egkyklopaídeia)
+* [[Haitian Creole]]: {{tø|ht|ansiklopedi}}
+* Hebrew: [[אנציקלופדיה|אֶנְצִיקְלוֹפֶּדְיָה]] (entsiklopedya) {{f}}
+* Hindi: [[ज्ञानकोष]] (gyānkoś)
+* Hungarian: {{t+|hu|enciklopédia}}, {{t+|hu|lexikon}}
+* Icelandic: {{t+|is|alfræðiorðabók|f}}
+* [[Ido]]: [[enciklopedio]]
+* Indonesian: {{t+|id|ensiklopedia|xs=Indonesian}}
+* [[Interlingua]]: encyclopedia
+* Italian: {{t+|it|enciclopedia|f}}
+{{trans-mid}}
+* Japanese: [[百科事典]]　(ひゃっかじてん), [[大事典]] (だいじてん, dai-jiten)
+* Korean: [[백과사전]] (百科事典, baekkwasajeon)
+* Latin: {{t-|la|encyclopaedia}},  {{t-|la|pandectes|m|alt=pandectēs}}
+* Latvian: [[enciklopēdija]] {{f}}
+* [[Limburgish]]: [[encyklopedie]]
+* Lithuanian: {{t+|lt|enciklopedija|f|xs=Lithuanian}}
+* [[Low Saxon]]: [[nokieksel]]
+* [[Luxembourgish]]: [[encyklopedie]]
+* [[Malayalam]]: {{t|ml|(സര്‍വ)വിജ്ഞാനകോശം|tr=(sarva)vijñānakōśam|sc=Mlym|xs=Malayalam}}
+* Navajo: {{tø|nv|ínsadoobíídiiya}}
+* Norwegian: {{t+|no|encyklopedi}}
+* Persian: {{t-|fa|دانشنامه|tr=daneshnameh|xs=Persian}}
+* Polish: {{t+|pl|encyklopedia|f}}
+* Portuguese: {{t+|pt|enciclopédia|f}}
+* Romanian: {{t+|ro|enciclopedie|f}}
+* Russian: [[энциклопедия]] (entsiklopédija) {{f}}
+* Serbian:
+*: Cyrillic: [[енциклопедија#Serbian|енциклопедија]] {{f}}
+*: Roman: [[enciklopedija#Serbian|enciklopedija]] {{f}}
+* Slovak: {{t-|sk|encyklopédia}}
+* Slovene: {{t+|sl|enciklopedija}}
+* Spanish: {{t+|es|enciclopedia|f}}
+* Swedish: [[encyklopedi]] {{c}}, [[konversationslexikon]] {{n}}, [[uppslagsverk]] {{n}}
+* [[Tagalog]]: [[ensiklopedya]]
+* Thai: {{Thai|[[สารานุกรม]]}} (saranukrom)
+* Turkish: {{t+|tr|ansiklopedi}}
+* Ukrainian: [[енциклопедія]] (entsyklopédija) {{f}}
+* Urdu: {{ur-Arab|[[جامع]]}} (jāme), {{ur-Arab|[[قاموس]]}} (qāmus)
+* Vietnamese: [[sách bách khoa]] (冊百科)
+{{trans-bottom}}
+
+===Anagrams===
+* {{alphagram|accdeeilnopy}} [[encylopædic#English|encylopædic]]
+[[Category:Greek derivations]]
+[[Category:Reference works]]
+
+[[af:encyclopedia]]
+[[ar:encyclopedia]]
+[[zh-min-nan:encyclopedia]]
+[[et:encyclopedia]]
+[[el:encyclopedia]]
+[[es:encyclopedia]]
+[[fa:encyclopedia]]
+[[fr:encyclopedia]]
+[[ko:encyclopedia]]
+[[io:encyclopedia]]
+[[id:encyclopedia]]
+[[it:encyclopedia]]
+[[kn:encyclopedia]]
+[[lo:encyclopedia]]
+[[lt:encyclopedia]]
+[[hu:encyclopedia]]
+[[ml:encyclopedia]]
+[[nl:encyclopedia]]
+[[ja:encyclopedia]]
+[[no:encyclopedia]]
+[[pl:encyclopedia]]
+[[ro:encyclopedia]]
+[[ru:encyclopedia]]
+[[simple:encyclopedia]]
+[[fi:encyclopedia]]
+[[ta:encyclopedia]]
+[[tt:encyclopedia]]
+[[te:encyclopedia]]
+[[tr:encyclopedia]]
+[[vi:encyclopedia]]
+[[zh:encyclopedia]]

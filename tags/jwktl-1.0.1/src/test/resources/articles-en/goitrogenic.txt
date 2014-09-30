@@ -1,0 +1,18 @@
+==English==
+
+===Adjective===
+{{en-adj}}
+
+# Of or pertaining to a [[goitrogen]]
+#* '''1968''' July, G. A. Bray, “Increased sensitivity of the thyroid in iodine-depleted rats to the '''goitrogenic''' effects of thyrotropin,” in ''The Clinical Journal of Investigation'' 47(7): 1640–1647,
+#*: The present studies demonstrate that iodine depletion increases the sensitivity of the thyroid to the '''goitrogenic''' effects of thyrotropin.
+#*'''1948''' J. Seifter and W. E. Ehrich, “Goitrogenic Compounds: Pharmacological and Pathological Effects,” ''Journal of Pharmacology and Experimental Therapeutics'' 92(3): 303-314
+#*: Seventy-eight compounds were screened for '''goitrogenic''' action. Of these, 12 were found to be effective, but only thiouracil, propylthiouracil, 2-amino-thiazole and Dithane were found to be markedly active.
+
+====Synonyms====
+* {{italbrac|of or pertaining to that which reduces the production or effects of thyroid hormones}}: [[antithyroid]]
+
+====Usage notes====
+See usage note at [[antithyroid]].
+
+[[zh:goitrogenic]]

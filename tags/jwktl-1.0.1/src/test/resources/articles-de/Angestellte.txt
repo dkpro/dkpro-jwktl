@@ -1,0 +1,65 @@
+{{Siehe auch|[[angestellte]]}}
+== Angestellte ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, adjektivische Deklination, {{f}} ===
+
+{{Deutsch adjektivische Deklination f|Angestellte}}
+
+{{Worttrennung}}
+:An·ge·stell·te, {{Pl.}} An·ge·stell·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈanɡəʃtɛltə}}, {{Pl.}} {{Lautschrift|ˈanɡəʃtɛltn̩}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Bedeutungen}}
+:[1] Frau, die gegen Bezahlung ihre Arbeitskraft zu Verfügung stellt (nicht-körperliche Arbeit)
+
+{{Abkürzungen}}
+:[1] [[Angest.]]
+
+{{Gegenwörter}}
+:[1] [[Arbeiterin]], [[Beamte]]
+
+{{Männliche Wortformen}}
+:[1] [[Angestellter]]
+
+{{Oberbegriffe}}
+:[1] [[Arbeitnehmerin]]
+
+{{Beispiele}}
+:[1] Die sogenannten Markteinkommen von Arbeitern und ''Angestellten'' sind in den vergangenen Jahren deutlich gesunken.
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1] {{Ü|en|employee}}
+*{{fr}}: [1] {{Ü|fr|employée}} {{f}}
+*{{nl}}: [1] {{Ü|nl|werknemer}}
+{{Ü-Abstand}}
+*{{sv}}: [1] {{Ü|sv|anställd}}
+*{{sk}}: [1] {{Ü|sk|zamestnanec}}
+*{{es}}: [1] {{Ü|es|empleado}}
+*{{hu}}: [1] {{Ü|hu|alkalmazott}}
+{{Ü-rechts}} &lt;!-- für weitere Sprachkürzel siehe den Link rechts unterhalb des Editierfensters --&gt;
+
+{{Referenzen}}
+:[1] {{Wikipedia|Angestellte}}
+:[1] {{Ref-DWDS|Angestellte}}
+:[1] {{Ref-Canoo|Angestellte}}
+:[1] {{Ref-UniLeipzig|Angestellte}}
+:[1] {{Ref-FreeDictionary|Angestellte}}
+
+{{Ähnlichkeiten}}
+:[[eingestellt]]
+
+[[el:Angestellte]]
+[[en:Angestellte]]
+[[fi:Angestellte]]
+[[fr:Angestellte]]
+[[hu:Angestellte]]
+[[id:Angestellte]]
+[[io:Angestellte]]
+[[it:Angestellte]]
+[[ko:Angestellte]]
+[[sv:Angestellte]]
+[[zh:Angestellte]]

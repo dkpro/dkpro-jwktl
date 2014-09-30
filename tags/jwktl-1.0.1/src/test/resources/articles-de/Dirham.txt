@@ -1,0 +1,80 @@
+== Dirham ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Dirham
+|Nominativ Plural=die Dirhams
+|Genitiv Singular=des Dirhams
+|Genitiv Plural=der Dirhams
+|Dativ Singular=dem Dirham
+|Dativ Plural=den Dirhams
+|Akkusativ Singular=den Dirham
+|Akkusativ Plural=die Dirhams
+}}
+
+{{Anmerkung}}
+:Der Plural in Verbindung mit Zahlwörtern lautet ''Dirham'', z. B. 10 Dirham.
+
+{{Worttrennung}}
+:Dir·ham, {{Pl.}} Dir·hams
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|...}}, {{Pl.}} {{Lautschrift|...}}
+:{{Hörbeispiele}} {{fehlend}}, {{Pl.}} {{fehlend}}
+
+{{Alternative Schreibweisen}}
+:[[Direm]], [[Dirhem]]
+
+{{Bedeutungen}}
+:[1] Währungseinheit in verschiedenen arabischen Ländern
+::[1a] in den [[Vereinigte Arabische Emirate|Vereinigten Arabische Emiraten]] (siehe [[VAE-Dirham]])
+::[1b] in [[Marokko]] (siehe [[marokkanischer Dirham]])
+::[1c] in [[Katar]] (kleinere Einheit des [[Katar-Riyal|Katar-Riyals]])
+::[1d] in [[Libyen]] (kleinere Einheit des [[libyscher Dinar|libyschen Dinars]])
+::[1e] in [[Tadschikistan]] (kleinere Einheit des [[Somoni]])
+::[1f] früher in [[Jordanien]] (kleinere Einheit des [[jordanischer Dinar|jordanischen Dinars]])
+:[2] frühere Gewichtseinheit in verschiedenen islamischen Ländern
+
+{{Abkürzungen}}
+:[1] [[Dh]]
+
+{{Herkunft}}
+:aus dem Arabischen, eigentlich [[Drachme]]
+
+{{Oberbegriffe}}
+:[1] [[Währungseinheit]], [[Währung]]
+::[1c] [[Riyal]]
+::[1d] [[Dinar]]
+::[1e] [[Somoni]]
+::[1f] [[Dinar]]
+:[2] [[Gewichtseinheit]], [[Gewicht]]
+
+{{Unterbegriffe}}
+:[1a] [[Fils]]
+:[1b] [[Centime]]
+
+{{Beispiele}}
+:[1] „Junge Burschen streunen umher und verkaufen Zigaretten zu einem ''Dirham'' das Stück.“&lt;ref&gt;Wortschatz-Lexikon Uni Leipzig, Quelle: spiegel.de vom 17.04.2006&lt;/ref&gt;
+
+==== Übersetzungen ====
+{{Ü-links}}
+*{{en}}: [1, 2] {{Ü|en|dirham}}
+*{{fr}}: [1] {{Ü|fr|dirham}} {{m}}
+*{{it}}: [1] {{Ü|it|dirham}} {{m}}
+{{Ü-Abstand}}
+*{{nl}}: [1] {{Ü|nl|dirham}}
+*{{sv}}: [1] {{Ü|sv|dirham}}
+*{{es}}: [1] {{Ü|es|dirham}} {{m}}
+{{Ü-rechts}} &lt;!-- für weitere Sprachkürzel siehe den Link unterhalb des Editierfensters --&gt;
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Dirham}}
+:[1] {{Ref-Canoo|Dirham}}
+:[1] {{Ref-UniLeipzig|Dirham}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Direm]], [[Dirhem]]
+
+[[ko:Dirham]]

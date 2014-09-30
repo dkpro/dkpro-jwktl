@@ -1,0 +1,24 @@
+==English==
+===Etymology===
+[[sea]] + [[water]]
+===Noun===
+{{en-noun|-}}
+
+#The saltwater of a [[sea]] or [[ocean]].
+
+====Translations====
+{{top}}
+* Finnish: {{t-|fi|merivesi}}
+* French: [[eau de mer]] {{f}}
+* German: {{t+|de|Meerwasser|n}}, {{t+|de|Salzwasser|n}}
+{{mid}}
+* Japanese: [[海水]] ([[かいすい]], kaisui)
+* Spanish: {{t-|es|agua salada|f}}
+{{bottom}}
+
+[[et:seawater]]
+[[fr:seawater]]
+[[ko:seawater]]
+[[lo:seawater]]
+[[hu:seawater]]
+[[ja:seawater]]

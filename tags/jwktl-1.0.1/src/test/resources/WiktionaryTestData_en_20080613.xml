@@ -1,0 +1,543 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.3/ http://www.mediawiki.org/xml/export-0.3.xsd" version="0.3" xml:lang="de">
+  <siteinfo>
+    <sitename>Wiktionary</sitename>
+    <base>http://en.wiktionary.org/wiki/Wiktionary:Main_Page</base>
+    <generator>MediaWiki 1.16alpha-wmf</generator>
+    <case>case-sensitive</case>
+    <namespaces>
+      <namespace key="-2">Media</namespace>
+      <namespace key="-1">Special</namespace>
+      <namespace key="0" />
+      <namespace key="1">Talk</namespace>
+      <namespace key="2">User</namespace>
+      <namespace key="3">User talk</namespace>
+      <namespace key="4">Wiktionary</namespace>
+      <namespace key="5">Wiktionary talk</namespace>
+      <namespace key="6">File</namespace>
+      <namespace key="7">File talk</namespace>
+      <namespace key="8">MediaWiki</namespace>
+      <namespace key="9">MediaWiki talk</namespace>
+      <namespace key="10">Template</namespace>
+      <namespace key="11">Template talk</namespace>
+      <namespace key="12">Help</namespace>
+      <namespace key="13">Help talk</namespace>
+      <namespace key="14">Category</namespace>
+      <namespace key="15">Category talk</namespace>
+      <namespace key="100">Appendix</namespace>
+      <namespace key="101">Appendix talk</namespace>
+      <namespace key="102">Concordance</namespace>
+      <namespace key="103">Concordance talk</namespace>
+      <namespace key="104">Index</namespace>
+      <namespace key="105">Index talk</namespace>
+      <namespace key="106">Rhymes</namespace>
+      <namespace key="107">Rhymes talk</namespace>
+      <namespace key="108">Transwiki</namespace>
+      <namespace key="109">Transwiki talk</namespace>
+      <namespace key="110">Wikisaurus</namespace>
+      <namespace key="111">Wikisaurus talk</namespace>
+      <namespace key="114">Citations</namespace>
+      <namespace key="115">Citations talk</namespace>
+    </namespaces>
+  </siteinfo> 
+  
+  <page>
+    <title>place</title>
+    <id>11094</id>
+    <revision>
+      <id>809517</id>
+      <timestamp>2008-05-28T22:19:25Z</timestamp>
+      <contributor>
+        <username>Stillgrinz</username>
+        <id>8633</id>
+      </contributor>
+      <comment>/* Übersetzungen */  torg is a Marktplatz</comment>
+      <text xml:space="preserve">
+      {{wikipedia}}
+==English==
+
+{{rank|eyes|hand|young|153|place|give|ever|saw}}
+
+===Etymology===
+From {{OE.}} {{term|plæce|lang=ang||open space}}, from {{F.}} {{term|place|lang=fr}}, from {{L.}} {{term|lang=la|platea||[[plaza]], wide street}}, from {{Gr.}} {{term|sc=Grek|πλατεία|tr=plateía}}, from {{term|sc=Grek|πλατύς|tr=platýs||wide, broad}}, from {{PIE.}} *{{term||plat}}
+
+===Pronunciation===
+* {{enPR|plās}}, {{IPA|/pleɪs/}}, {{SAMPA|/pleIs/}}
+
+* {{audio|en-us-place.ogg|Audio (US)}}
+* Rhymes: [[Rhymes:English:-eɪs|-eɪs]]
+
+====Homophones====
+* [[plaice]]
+
+===Noun===
+{{en-noun}}
+
+# An open [[space]], courtyard, market square.
+# A group of [[house]]s.
+#: ''They live in Westminster '''Place'''.''
+# A [[location]] or [[position]].
+# A [[region]] of a land.
+#: ''He is going back to his native '''place''' on vacation.''
+# Somewhere for a person to sit.
+#: ''We asked the restaurant to give us a table with three '''places'''.''
+# A frame of [[mind]].
+#: ''I'm in a strange '''place''' at the moment.''
+# {{informal}} A [[house]] or [[home]].
+#: ''Do you want to come over to my '''place''' later?''
+# A [[role]] or [[purpose]]; a [[station]].
+#: ''It is really not my '''place''' to say what is right and wrong in this case.''
+# Numerically, the [[column]] counting a certain quantity.
+#: ''three decimal '''places'''''
+#: ''the hundreds '''place'''''
+
+====Synonyms====
+* {{sense|open space, courtyard, market square}} [[courtyard]], [[piazza]], [[plaza]], [[square]]
+* {{sense|location}} [[location]], [[position]], [[situation]], [[spot]]
+* {{sense|somewhere to sit}} [[seat]]
+* {{sense|frame of mind}} [[frame of mind]], [[mindset]], [[mood]]
+
+====Derived terms====
+* [[abiding place]]
+* [[all over the place]]
+* [[decimal place]]
+* [[dwelling place]]
+* [[hiding place]]
+* [[in the first place]]
+* [[out of place]]
+* [[place of articulation]]
+* [[place of decimals]]
+* [[place card]]
+* [[place-kick]]
+* [[place mat]]
+* [[place name]]
+* [[resting place]]
+* [[sticking-place]]
+* [[the other place]]
+* to [[give place]]
+* to [[place on a pedestal]]
+* to [[take place]]
+* [[workplace]]
+
+====Translations====
+{{trans-top|open space, courtyard, market square}}
+* Finnish: {{t+|fi|aukio}}
+* French: {{t+|fr|place|f}}
+* German: {{t+|de|Platz|m}}
+* Greek: {{t+|el|πλατεία|f|sc=Grek}}
+* Italian: {{t+|it|piazza|f}}
+* Japanese: {{t|ja|広場|tr=hiroba|sc=Jpan}}, {{t+|ja|場|tr=ba|sc=Jpan}}; {{qualifier|market square}} {{t+|ja|市場|tr=basho|sc=Jpan}}
+* Korean: {{t+|ko|곳|tr=got|sc=Hang}}, {{t+|ko|장소|tr=jangso|sc=Hang}}
+* Kurdish:
+*: Sorani: {{t|ku|شوێن|tr=shwaen|sc=KUchar}}
+{{trans-mid}}
+* Polish: {{t+|pl|plac|m}}
+* Portuguese: {{t+|pt|lugar}}, {{t+|pt|local}}
+* Romanian: {{t-|ro|pătrat|n}}, {{t-|ro|piaţă|f}}
+* [[Romansch]]: [[plaz]] {{m}}, [[plazza]] {{f}}
+* Russian: [[площадь]] (plóščad’) {{f}}
+* Slovene: {{t+|sl|trg|m}}
+* Spanish: {{t+|es|plaza|f}}
+* Swedish: {{t-|sv|gård|c}}, {{t+|sv|plats|c}}, {{t+|sv|torg|n}}
+* [[Telugu]]: [[స్థలము]] (sthalamu)
+{{trans-bottom}}
+
+{{trans-top|group of houses}}
+* Japanese: {{t|ja|団地|tr=danchi|sc=Jpan}}
+{{trans-mid}}
+* Swedish: {{t-|sv|gård|c}}
+{{trans-bottom}}
+
+{{trans-top|location, position}}
+* Albanian: {{t-|sq|vend|xs=Albanian}}
+* Arabic: {{Arab|[[مكان]]}} (makān) {{m}}
+* [[Catalan]]: [[lloc]] {{m}}
+* Chinese: [[地方]] (dìfang)
+* Croatian: {{t-|hr|mjesto|n}}
+* Czech: {{t+|cs|místo|n}}
+* Dutch: {{t+|nl|plaats|f}}
+* Finnish: {{t+|fi|paikka}}
+* French: {{t+|fr|lieu|m}}
+* German: {{t+|de|Platz|m}}, {{t+|de|Ort|m}}, {{t+|de|Stelle|f}}, {{t+|de|Position|f}}
+* Hebrew: {{he-translation|מקום|makóm}} {{m}}
+* Hindi: [[जगह]] (jagah) {{f}}
+* Hungarian: {{t+|hu|hely}}
+* Irish: {{t-|ga|áit|f|xs=Irish}}
+* Italian: {{t+|it|luogo|m}}, {{t+|it|posto|m}}, {{t+|it|posizione|f}}
+* Japanese: {{t+|ja|場所|tr=basho|sc=Jpan}}, {{t+|ja|位置|tr=ichi|sc=Jpan}}, {{t+|ja|所|tr=tokoro|sc=Jpan}}; {{qualifier|space}} {{t+|ja|空間|tr=kūkan|sc=Jpan}}; {{qualifier|room}} {{t|ja|余地|tr=yochi|sc=Jpan}}
+{{trans-mid}}
+* Korean: {{t+|ko|장소|tr=jangso|sc=Hang}}
+* Kurdish:
+*: Sorani: {{t|ku|جێگه|tr=jaega|sc=KUchar}}, {{t|ku|شوێن|tr=shwaen|sc=KUchar}}
+* Latin: {{t-|la|locus|m}}
+* Mongolian: [[газар]] (gazar)
+* Old English: {{t-|ang|log|alt=lōg|xs=Old English}}
+* Portuguese: {{t+|pt|lugar|m}}, {{t+|pt|local|m}}, {{t+|pt|posição|f}}
+* Romanian: {{t-|ro|loc|n}}
+* [[Romansch]]: [[lieu]] {{m}}
+* Russian: {{t+|ru|место|n|tr=mésto|sc=Cyrl}}
+* [[Scottish Gaelic]]: [[àite]] {{m}}
+* Slovene: {{t+|sl|kraj|m}}, {{t+|sl|mesto|n}}
+* Spanish: {{t+|es|lugar|m}}, {{t-|es|sitio|m}}
+* Swedish: [[plats]] {{c}}, [[placering]] {{c}}, [[post]] {{c}}, [[säte]] {{n}}, [[ställe]] {{n}}
+* [[Telugu]]: [[స్థానము]] (sthaanamu)
+* Urdu: {{ur-Arab|[[جگہ]]}} (jagah) {{f}}
+{{trans-bottom}}
+
+{{trans-top|region of a land}}
+* Japanese: {{t+|ja|地方|tr=chihō|sc=Jpan}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|somewhere to sit}}
+* Finnish: {{t+|fi|paikka}}
+* German: [[Platz]] {{m}}, [[Sitzplatz]] {{m}}, [[Sitz]] {{m}}
+* Hebrew: {{he-translation|מקום|makóm}} {{m}}
+* Japanese: {{qualifier|sheet}} {{t+|ja|席|tr=seki|sc=Jpan}}
+* Kurdish:
+*: Sorani: {{t|ku|جێگه|tr=jaega|sc=KUchar}}
+{{trans-mid}}
+* Slovene: [[sedež]] {{m}}
+* Spanish: {{t-|es|asiento|m}}
+* Swedish: [[plats]] {{c}}, [[sittplats]] {{c}}, [[säte]] {{n}}
+* [[Telugu]]: [[చోటు]] (chOTu), [[జాగా]] (jaagaa)
+{{trans-bottom}}
+
+{{trans-top|frame of mind}}
+* Finnish: {{t+|fi|paikka}}
+{{trans-mid}}
+* Japanese: {{t-|ja|感覚|tr=kankaku|sc=Jpan}}
+{{trans-bottom}}
+
+{{trans-top|informal: house or home}}
+* Hebrew: {{he-translation|בית|báyit}} {{m}}
+{{trans-mid}}
+* Japanese: {{t+|ja|家|tr=ie|sc=Jpan}}, {{t+|ja|家|tr=uchi|sc=Jpan}}
+{{trans-bottom}}
+
+{{trans-top|a role or purpose, a station}}
+* Hebrew: {{he-translation|מקום|makóm}} {{m}}
+* Japanese: {{qualifier|role}} {{t|ja|役目|tr=yakume|sc=Jpan}}, {{t|ja|役割|tr=yakuwari|sc=Jpan}}; {{qualifier|station}} {{t|ja|居場所|tr=ibasho|sc=Jpan}}, {{t|ja|境遇|tr=kyōgū|sc=Jpan}}, {{t+|ja|環境|tr=kankyō|sc=Jpan}}; {{qualifier|rank of a job station}} {{t|ja|立場|tr=tachiba|sc=Jpan}}, {{t+|ja|位置|tr=ichi|sc=Jpan}}, {{t+|ja|身分|tr=mibun|sc=Jpan}}, {{t+|ja|地位|tr=chii|sc=Jpan}}, {{t|ja|役職|tr=yakushoku|sc=Jpan}}; {{qualifier|opportunity of job station}} {{t+|ja|職|tr=shoku|sc=Jpan}}, {{t+|ja|仕事|tr=shigoto|sc=Jpan}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|numeric: the column counting a certain quantity}}
+* Japanese: {{t+|ja|桁|tr=keta|sc=Jpan}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|somewhere to stand}}
+* Finnish: {{t+|fi|paikka}}
+* German: [[Platz]] {{m}}, [[Stehplatz]] {{m}}, ''for vehicles:'' [[Standplatz]] {{m}}
+{{trans-mid}}
+* Swedish: [[plats]] {{c}}, [[ståplats]] {{c}}
+* [[Telugu]]: [[చోటు]] (chOTu), [[జాగా]] (jaagaa)
+{{trans-bottom}}
+
+{{trans-top|somewhere to lay down}}
+* Finnish: {{t+|fi|paikka}}
+* German: {{t+|de|Platz|m}}
+* Japanese: [[置き場所]] (おきばしょ, okibasho)
+* Kurdish:
+*: Sorani: {{t|ku|جێ|tr=jae|sc=KUchar}}, {{t|ku|جێگه‌|tr=jaega|sc=KUchar}}
+{{trans-mid}}
+* Swedish: [[plats]] {{c}}, [[liggplats]] {{c}}
+* [[Telugu]]: [[చోటు]] (chOTu), [[జాగా]] (jaagaa)
+{{trans-bottom}}
+
+{{trans-top|somewhere to sleep}}
+* Finnish: {{t+|fi|paikka}}
+* German: [[Schlafplatz]] {{m}}, [[Quartier]] {{n}}, ''seldom:'' [[Platz]] {{m}}
+* Japanese: [[寝場所]] (nebasho)
+* Kurdish:
+*: Sorani: {{t|ku|جێ|tr=jae|sc=KUchar}}, {{t|ku|جێگه‌|tr=jaega|sc=KUchar}}
+{{trans-mid}}
+* Swedish: [[plats]] {{c}}, [[sovplats]] {{c}}
+* [[Telugu]]: [[చోటు]] (chOTu), [[జాగా]] (jaagaa)
+{{trans-bottom}}
+
+{{checktrans}}
+
+* {{ttbc|Catalan}}: [[lloc]] {{m}}
+* {{ttbc|Ido}}: [[loko]], [[placo]] (''public''), [[plaso]] (''someone'')
+* {{ttbc|Interlingua}}: [[loco]]
+* {{ttbc|Korean}}: [[자리]] (jari), [[장소]] (jangso)
+* {{ttbc|Lithuanian}}: [[aikštė]] {{f}} (1); [[vieta]] {{f}} (3)
+* {{ttbc|Spanish}}: [[lugar]] {{m}} (1, 3), [[punta]] {{f}} (1, 3)
+
+===Verb===
+{{en-verb|plac|ing}}
+
+# {{intransitive}} To [[earn]] a given spot in a competition.
+# {{transitive}} To [[put]] (an object or person) in a specific location.
+# {{transitive}} To [[remember]] [[where]] and [[when]] (an object or person) has been previously encountered.
+#: ''I've seen him before, but I can't quite '''place''' where.''
+# {{transitive|in the passive}} To [[achieve]] (a certain [[position]], often followed by an ordinal) as in a horse race.
+# {{transitive}} To [[sing]] (a note) with the correct [[pitch]].
+# {{transitive}} To arrange for or to make (a bet).
+# {{transitive}} To [[recruit]] or [[match]] an appropriate person for a [[job]].
+#: ''They phoned hoping to '''place''' her in the management team.''
+
+====Synonyms====
+* {{sense|to earn a given spot}}
+* {{sense|to put in a specific location}} [[deposit]], [[lay]], [[lay down]], [[put down]]
+* {{sense|to remember where and when something or someone was previously encountered}}
+* {{sense|passive|to achieve a certain position}} [[achieve]], [[make]]
+* {{sense|to sing (a note) with the correct pitch}} [[reach]]
+* {{sense|to arrange for, make (a bet)}}
+* {{sense|to recruit or match an appropriate person}}
+
+====Derived terms====
+* [[placement]]
+
+====Translations====
+{{trans-top|to earn a given spot in a competition}}
+* French: {{t-|fr|se placer}}, {{t+|fr|arriver}}
+* Hebrew: {{he-translation|להגיע|lehagí`a}} (''literally: to reach'')
+{{trans-mid}}
+* Japanese: {{t|ja|入賞する|tr=nyūshō suru|sc=Jpan}}
+* Swedish: [[placera]] sig
+{{trans-bottom}}
+
+{{trans-top|to put in a specific location}}
+* Arabic: {{Arab|[[وضع]]}} {{IPAchar|(wáɖaʕa)}}
+* Chinese: [[放]] (fàng)
+* Dutch: {{t+|nl|plaatsen}}
+* Finnish: {{t+|fi|panna}}, {{t+|fi|laittaa}}, {{t+|fi|asettaa}}, {{t+|fi|sijoittaa}}
+* French: {{t+|fr|mettre}}, {{t+|fr|poser}}, {{t+|fr|placer}}
+* German: [[stellen]], [[plazieren]] (''or'' [[platzieren]]), [[einordnen]]
+* Hebrew: {{he-translation|למקם|lemakém}}
+* Hungarian: {{t-|hu|tenni}}, {{t-|hu|helyezni}}
+* Italian: {{t+|it|collocare}}, {{t+|it|mettere}}, {{t+|it|posare}}
+* Japanese: {{t|ja|配置する|tr=haichi suru|sc=Jpan}}, {{t-|ja|置く|tr=oku|sc=Jpan}}, {{t-|ja|入れる|tr=ireru|sc=Jpan}}, {{t-|ja|付ける|tr=tsukeru|sc=Jpan}}, {{t|ja|収める|tr=osameru|sc=Jpan}}, {{t|ja|定める|tr=sadameru|sc=Jpan}}, {{t|ja|割り当てる|tr=wariateru|sc=Jpan}}
+{{trans-mid}}
+* Korean: {{t-|ko|두다|tr=duda|sc=Hang}}
+* Kurdish: {{KUchar|[[دانان]]}}
+* Old English: {{t-|ang|logian|alt=lōgian|xs=Old English}}
+* Portuguese: {{t+|pt|colocar}}
+* Russian: [[класть]] (klast’), [[ставить]] (stávit’)
+* Spanish: {{t-|es|colocar}}, {{t+|es|poner}}
+* Swedish: {{t+|sv|lägga}}, {{t+|sv|placera}}, {{t+|sv|ställa}}, {{t+|sv|sätta}}
+{{trans-bottom}}
+
+{{trans-top|to remember where and when something or someone was previously encountered}}
+* Hebrew: {{he-translation|למקם|lemakém}}
+* Japanese: {{t|ja|思い当たる|tr=omoi-ataru|sc=Jpan}}
+{{trans-mid}}
+* Swedish: [[erinra]] sig, [[placera]]
+{{trans-bottom}}
+
+{{trans-top|passive: to achieve (a certain position)}}
+* Finnish: [[sijoittua]]
+* Japanese: {{t+|ja|なる|tr=naru|sc=Jpan}}, {{t+|ja|つく|tr=tsuku|sc=Jpan}}, {{t-|ja|決まる|tr=kimaru|sc=Jpan}}, {{t|ja|定まる|tr=sadamaru|sc=Jpan}}
+{{trans-mid}}
+* Portuguese: {{t+|pt|lugar}}
+* Swedish: [[placera]] sig
+{{trans-bottom}}
+
+{{trans-top|to sing (a note) with the correct pitch}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|to arrange for, make (a bet)}}
+* Finnish: {{t-|fi|asettua}}
+* French: {{t+|fr|faire}}
+{{trans-mid}}
+* Japanese: {{t|ja|賭ける|tr=kakeru|sc=Jpan}}
+{{trans-bottom}}
+
+{{trans-top|to recruit or match an appropriate person for a job}}
+* Japanese: {{t-|ja|任命する|tr=ninmei suru|sc=Jpan}}, {{t|ja|配置する|tr=haichi suru|sc=Jpan}}, {{t-|ja|置く|tr=oku|sc=Jpan}}; {{qualifier|phrase}} {{t|ja|職を与える|tr=shoku wo ataeru|sc=Jpan}}, {{t|ja|就職させる|tr=shūshoku saseru|sc=Jpan}}
+{{trans-mid}}
+* Swedish: [[placera]], [[skaffa]] [[anställning]] åt, [[skaffa]] [[plats]] åt, [[utnämna]]
+{{trans-bottom}}
+
+{{checktrans}}
+
+* {{ttbc|Chinese}}: [[放置]] (fàngzhì)
+* {{ttbc|Ido}}: [[pozar]] (1), [[lok-izar]] (2), [[kolokar]] (5)
+* {{ttbc|Korean}}: [[위치하다]] (wichi-hada, from [[위치]])
+
+[[Category:200 English basic words]]
+
+----
+
+==French==
+
+===Pronunciation===
+* {{audio|Fr-place.ogg|audio}}
+* {{IPA|lang=fr|/plas/}}
+
+===Noun===
+{{fr-noun|f}}
+
+# Place, [[square]], [[plaza]], [[piazza]]
+# Place, [[space]], [[room]]
+# Place, [[seat]]
+
+===Verb form===
+{{infl|fr|verb form}}
+
+# ''first-, third-person singular indicative present of'' '''[[placer#French|placer]]'''.
+# ''first-, third-person singular sunjunctive present of'' '''placer'''.
+# ''second-person singular imperative of'' '''placer'''.
+
+----
+
+==Polish==
+
+===Pronunciation===
+* {{IPA|lang=pl|/ˈplaʦɛ/}}
+
+===Noun===
+'''place'''
+
+# {{plural of|plac}}
+
+----
+
+==Romanian==
+
+===Pronunciation===
+{{IPA|[ˈplaʧe]|lang=ro}}
+
+===Verb===
+'''place'''
+
+# {{ro-form-verb|2s|impr|plăcea}}
+# {{ro-form-verb|3s|pres|plăcea}}
+#: ''[[îţi|Îţi]] '''place''' [[ţie]] [[de]] [[el]]?''
+#:: Do you like him?
+
+----
+
+==Spanish==
+
+===Verb===
+
+{{es-verb-form|placer}}
+# {{es-verb form of|person=third-person|number=singular|tense=present|mood=indicative|ending=er|verb=[[placer]]}}
+#  The [[second-person]] [[singular]] of [[placer]] in the [[imperative]]. 
+
+{{esbot:conjugation}}
+
+
+[[ar:place]]
+[[de:place]]
+[[et:place]]
+[[el:place]]
+[[fa:place]]
+[[fr:place]]
+[[fy:place]]
+[[gl:place]]
+[[ko:place]]
+[[io:place]]
+[[it:place]]
+[[kk:place]]
+[[ku:place]]
+[[la:place]]
+[[lt:place]]
+[[hu:place]]
+[[nl:place]]
+[[ja:place]]
+[[pl:place]]
+[[pt:place]]
+[[ru:place]]
+[[simple:place]]
+[[fi:place]]
+[[ta:place]]
+[[te:place]]
+[[vi:place]]
+[[tr:place]]
+[[zh:place]]
+
+      </text>
+    </revision>
+  </page>
+
+<page>
+    <title>parameter</title>
+    <id>11095</id>
+    <revision>
+      <id>809517</id>
+      <timestamp>2008-05-28T09:04:25Z</timestamp>
+      <contributor>
+        <username>Stillgrinz</username>
+        <id>8633</id>
+      </contributor>
+      <comment>/* Übersetzungen */  torg is a Marktplatz</comment>
+      <text xml:space="preserve">
+      {{see|Parameter}}
+
+==English==
+{{wikipedia|mul=parameter|parameter (computer science)}}
+===Pronunciation===
+* {{IPA|pair a meter}}
+
+===Etymology===
+From {{NL.}}, [[para-]] + [[-meter]]
+
+===Noun===
+{{en-noun}}
+
+<!-- Note that "replaced by" is call by reference, "bound to" is call by value. -->
+# {{cattag2|Mathematics|Physics}} A variable kept constant during an experiment, calculation or similar.
+# {{complang}} A name in a [[function]] or [[subroutine]] definition that is replaced by, or [[bound]] to, the corresponding actual [[argument]] when the function or subroutine is called.
+# A [[characteristic]] or [[feature]] that distinguishes something from others
+
+====Usage notes====
+({{complang}} actual argument) This is a loose usage.  [[argument|Argument]] is more correct.
+
+====Synonyms====
+* [[argument]]
+
+====Derived terms====
+* [[actual parameter]]
+* [[formal parameter]]
+
+====Related terms====
+* [[parametric]]
+* [[variable]]
+
+====Translations====
+{{trans-top|a variable kept constant during an experiment, calculation or similar}}
+* Finnish: {{t-|fi|parametri}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|a name in a function or subroutine definition}}
+* Finnish: {{t-|fi|parametri}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* {{ttbc|Czech}}: [[parametr]] {{m}}
+* {{ttbc|French}}: [[paramètre]]
+* {{ttbc|German}}: [[Parameter]] {{m}}
+{{trans-mid}}
+* {{ttbc|Italian}}: [[parametro]] {{m}}
+* {{ttbc|Portuguese}}: parâmetro
+* {{ttbc|Spanish}}: parámetro
+* {{ttbc|Swedish}}: parameter {{c}}
+{{trans-bottom}}
+
+[[am:parameter]]
+[[el:parameter]]
+[[fa:parameter]]
+[[fr:parameter]]
+[[io:parameter]]
+[[it:parameter]]
+[[lt:parameter]]
+[[hu:parameter]]
+[[nl:parameter]]
+[[pt:parameter]]
+[[ru:parameter]]
+[[simple:parameter]]
+[[sv:parameter]]
+[[ta:parameter]]
+[[vi:parameter]]
+[[zh:parameter]]
+      </text>
+    </revision>
+  </page>
+
+</mediawiki>
