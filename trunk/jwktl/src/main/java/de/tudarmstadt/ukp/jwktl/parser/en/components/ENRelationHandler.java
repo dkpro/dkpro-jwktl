@@ -134,11 +134,12 @@ public class ENRelationHandler extends ENSenseIndexedBlockHandler {
 	 */
 	public boolean processBody(final String text, final ParsingContext context) {
 		String line = text.trim();
-		
-		
+				
 		if(!line.isEmpty() && line.startsWith("*")) {
 			String content = line.substring(1);
-			List<String> wordList = parseWordList(content);				
+			List<String> wordList = parseWordList(content);
+			if (relationType == RelationType.DESCENDANT && wordList.size() > 1)
+				wordList = fixDescendantWordList(wordList);
 			relationList.add(wordList);
 			
 			int synIndex = relationList.size() - 1;
@@ -175,5 +176,25 @@ public class ENRelationHandler extends ENSenseIndexedBlockHandler {
 	protected void updatePosEntry(final WiktionaryEntry posEntry, final IWiktionaryRelation relation) {
 		posEntry.getUnassignedSense().addRelation(relation);
 	}
-	
+
+	private List<String> fixDescendantWordList(List<String> wordList) {
+		String firstWord = wordList.get(0);
+		final int colon = (firstWord == null ? -1 : firstWord.indexOf(':'));
+		if (colon != -1) {
+			List<String> fixed = new ArrayList<String>(wordList.size());
+			fixed.add(firstWord);
+
+			String language = firstWord.substring(0, colon);
+			for (int i = 1; i < wordList.size(); i++) {
+				String word = wordList.get(i);
+				if (word.indexOf(':') == -1)
+					fixed.add(language + ": " + word);
+				else
+					fixed.add(word);
+			}
+			return fixed;
+		} else
+			return wordList;
+	}
+
 }
