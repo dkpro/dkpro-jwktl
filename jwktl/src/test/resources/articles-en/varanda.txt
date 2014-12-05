@@ -1,0 +1,28 @@
+==Portuguese==
+{{wikipedia|lang=pt}}
+[[Image:2012 Portugal 7844271368.jpg|thumb|250px|varanda]]
+
+===Etymology===
+{{unk.|lang=pt|title=Uncertain}}, but possibly related to Spanish {{term|baranda|lang=es}}.
+
+===Pronunciation===
+* {{a|PT}} {{IPA|/vɐ.ˈɾɐ̃.dɐ/|lang=pt}}
+* {{hyphenation|va|ran|da|lang=pt}}
+
+===Noun===
+{{pt-noun|f}}
+
+# [[balcony]], [[veranda]], [[terrace]]
+# [[porch]]
+
+====Descendants====
+* Hindi: {{l|hi|बरामदा|tr=barāmdā|sc=Deva}}, {{l|hi|बरण्डा|tr=baraṇḍā|sc=Deva}}
+* English: {{l|en|veranda}}, {{l|en|verandah}}
+* French: {{l|fr|véranda}}
+
+[[eo:varanda]]
+[[fr:varanda]]
+[[mg:varanda]]
+[[pt:varanda]]
+[[fi:varanda]]
+[[zh:varanda]]

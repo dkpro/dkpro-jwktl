@@ -31,6 +31,28 @@ import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
  */
 public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 
+	public void testRelationsDescendantsDid() throws Exception {
+		IWiktionaryPage page = parse("did.txt");
+		IWiktionaryEntry entry = page.getEntry(2);
+
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.DESCENDANT).iterator();
+		assertRelation(RelationType.DESCENDANT, "Welsh: dydd", iter.next());
+		assertFalse(iter.hasNext());
+	}
+
+	public void testRelationsDescendantVaranda() throws Exception {
+		IWiktionaryPage page = parse("varanda.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+
+		Iterator<IWiktionaryRelation> iter = entry.getSense(0).getRelations(RelationType.DESCENDANT).iterator();
+		assertRelation(RelationType.DESCENDANT, "Hindi: बरामदा", iter.next());
+		assertRelation(RelationType.DESCENDANT, "Hindi: बरण्डा", iter.next());
+		assertRelation(RelationType.DESCENDANT, "English: veranda", iter.next());
+		assertRelation(RelationType.DESCENDANT, "English: verandah", iter.next());
+		assertRelation(RelationType.DESCENDANT, "French: véranda", iter.next());
+		assertFalse(iter.hasNext());
+	}
+		
 	/***/
 	public void testSynonymsRainCatsAndDogs() throws Exception {
 		IWiktionaryPage page = parse("rain_cats_and_dogs.txt");

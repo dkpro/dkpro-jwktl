@@ -103,6 +103,9 @@ public class WordListProcessor {
 	 *  resulting segments are returned as a list of strings. */
 	public List<String> splitWordList(final String text) {
 		List<String> result = new ArrayList<String>();
+		if (text == null)
+			return result;
+
 		String t = text + "⁋";
 		t = t.replace('\n', '⁋');
 		t = REFERENCE_PATTERN.matcher(t).replaceAll("");
@@ -279,9 +282,10 @@ public class WordListProcessor {
 						// Link template
 						if ("l".equals(templateName)) {
 							int idx = templateText.indexOf('|', i + 1);
-							if (idx >= 0)
-								result.append(templateText.substring(idx + 1));
-							else
+							if (idx >= 0) {
+								final int closing = templateText.indexOf('|', idx + 1);
+								result.append(templateText.substring(idx + 1, closing == -1 ? templateText.length() : closing));
+							} else
 								result.append(templateText.substring(i + 1));
 						} /*else
 						if ("italbrac".equals(templateName)
