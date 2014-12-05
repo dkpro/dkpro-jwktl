@@ -24,6 +24,8 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
+import java.util.TimeZone;
 import java.util.logging.Logger;
 
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
@@ -54,7 +56,8 @@ public class WiktionaryDumpParser extends XMLDumpParser {
 	
 	/** Initializes the dump parser and registers the given page parsers. */
 	public WiktionaryDumpParser(final IWiktionaryPageParser... pageParsers) {
-		timestampFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
+		timestampFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US);
+		timestampFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
 		parserRegistry = new LinkedList<IWiktionaryPageParser>();
 		for (IWiktionaryPageParser pageParser : pageParsers)
 			register(pageParser);

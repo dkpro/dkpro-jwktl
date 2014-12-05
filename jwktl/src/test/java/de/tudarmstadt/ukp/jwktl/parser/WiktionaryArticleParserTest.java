@@ -18,9 +18,14 @@
 package de.tudarmstadt.ukp.jwktl.parser;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Iterator;
 import java.util.LinkedHashMap;
+import java.util.Locale;
 import java.util.Map;
+import java.util.TimeZone;
 
 import de.tudarmstadt.ukp.jwktl.WiktionaryTestCase;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
@@ -76,7 +81,7 @@ public class WiktionaryArticleParserTest extends WiktionaryTestCase {
 		assertEquals("Page 1", page.getTitle());
 		assertEquals(9L, page.getId());
 		assertEquals(10763, page.getRevision());
-		assertEquals("Fri Sep 17 08:23:57 CEST 2004", page.getTimestamp().toString());
+		assertEquals("2004-09-17T08:23:57Z", format8601(page.getTimestamp()));
 		assertEquals("TJ", page.getAuthor());
 		assertEquals("Text 1", parser.getPages().get(page));
 		
@@ -84,7 +89,7 @@ public class WiktionaryArticleParserTest extends WiktionaryTestCase {
 		assertEquals("Page 2", page.getTitle());
 		assertEquals(10L, page.getId());
 		assertEquals(10764, page.getRevision());
-		assertEquals("Fri Sep 17 08:34:29 CEST 2004", page.getTimestamp().toString());
+		assertEquals("2004-09-17T08:34:29Z", format8601(page.getTimestamp()));
 		assertEquals("TJ", page.getAuthor());
 		assertEquals("Text 2\n\n      Test Test", parser.getPages().get(page));
 		
@@ -178,5 +183,11 @@ public class WiktionaryArticleParserTest extends WiktionaryTestCase {
 		assertTrue(new File(parsedData, "je.info.0").exists());
 		assertTrue(new File(parsedData, "wiktionary.properties").exists());
 	}
-	
+
+	protected static String format8601(Date date) {
+		final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US);
+		dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+		return dateFormat.format(date);
+	}
+
 }
