@@ -18,11 +18,15 @@
 package de.tudarmstadt.ukp.jwktl.parser;
 
 import java.io.File;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.LinkedList;
+import java.util.Locale;
 import java.util.Queue;
+import java.util.TimeZone;
 
 import junit.framework.TestCase;
 
@@ -72,8 +76,10 @@ public class WiktionaryDumpParserTest extends TestCase {
 		}
 
 		protected void setTimestamp(Date timestamp) {
-			assertEquals(expectedValues.poll(), "setTimestamp: " 
-					+ (timestamp == null ? "null" : timestamp.toString()));
+			final DateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US);
+			dateFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
+			assertEquals(expectedValues.poll(), "setTimestamp: "
+					+ (timestamp == null ? "null" : dateFormat.format(timestamp)));
 		}
 		
 		protected void setText(String text) {
@@ -91,7 +97,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 			expectedValues.offer("setTitle: Page 1");
 			expectedValues.offer("setPageId: 9");
 			expectedValues.offer("setRevision: 10763");
-			expectedValues.offer("setTimestamp: Fri Sep 17 08:23:57 CEST 2004");
+			expectedValues.offer("setTimestamp: 2004-09-17T08:23:57Z");
 			expectedValues.offer("setAuthor: TJ");
 			expectedValues.offer("setText: Text 1");
 		expectedValues.offer("onPageEnd");
@@ -99,7 +105,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 			expectedValues.offer("setTitle: Page 2");
 			expectedValues.offer("setPageId: 10");
 			expectedValues.offer("setRevision: 10764");
-			expectedValues.offer("setTimestamp: Fri Sep 17 08:34:29 CEST 2004");
+			expectedValues.offer("setTimestamp: 2004-09-17T08:34:29Z");
 			expectedValues.offer("setAuthor: TJ");
 			expectedValues.offer("setText: Text 2\n\n      Test Test");
 		expectedValues.offer("onPageEnd");
@@ -131,6 +137,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 	public void testParseTimestamp() throws Exception {
 		Calendar expected = new GregorianCalendar(1956, Calendar.MARCH, 17,
 				21, 30, 15);
+		expected.setTimeZone(TimeZone.getTimeZone("UTC"));
 		
 		WiktionaryDumpParser parser = new MyWiktionaryDumpParser(null);
 		assertEquals(expected.getTime(), 
