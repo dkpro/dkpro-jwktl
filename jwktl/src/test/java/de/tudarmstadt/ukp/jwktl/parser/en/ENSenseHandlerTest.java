@@ -23,6 +23,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
 
@@ -100,6 +101,22 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{cricket}} Any player selected for his or her [[team]] principally to [[bat]], as opposed to a [[bowler]]", senseIter.next().getGloss().getText());
 		assertFalse(senseIter.hasNext());
 	}
+
+
+    public void testGenderPortugueseNounMasculine() throws Exception {
+        IWiktionaryPage page = parse("escritorio.txt");
+        assertEquals(GrammaticalGender.MASCULINE, page.getEntry(0).getGender());
+    }
+
+    public void testGenderGermanNeuter() throws Exception {
+        IWiktionaryPage page = parse("boot.txt");
+        assertEquals(GrammaticalGender.NEUTER, page.getEntry(0).getGender());
+    }
+
+    public void testGenderSpanishFeminine() throws Exception {
+        IWiktionaryPage page = parse("bamba.txt");
+        assertEquals(GrammaticalGender.FEMININE, page.getEntry(0).getGender());
+    }
 	
 	protected static void assertEntry(final ILanguage language, 
 			final PartOfSpeech partOfSpeech, int senseCount, 

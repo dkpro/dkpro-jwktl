@@ -1,0 +1,67 @@
+{{also|boot}}
+==German==
+{{was fwotd|2013|October|27|lang=de}}
+
+===Etymology===
+{{borrowing|enm|boot|lang=de}}; compare English {{term|boat|lang=en}}.
+
+===Pronunciation===
+* {{IPA|[boːt]|lang=de}}
+* {{audio|De-at-Boot.ogg|audio (Austria)|lang=de}}
+* {{homophones|bot|lang=de}}
+
+===Noun===
+{{de-noun|n|Boots|gen2=Bootes|Boote|Bötchen}}
+
+# [[boat]]
+#* '''1897''', [[s:de:Der Landbriefträger im Spreewalde|“Der Landbriefträger im Spreewalde”]], ''Die Gartenlaube'', vol.&nbsp;10, p.&nbsp;164:
+#*: {{lang|de|Auf dem Wasser, im geschmückten '''Boote''', fährt man den kleinen Spreewaldbürger nach Lübbenau oder Burg zur Taufe, im '''Boot''' begiebt sich der Abcschütz nach der Schule, und auf den grünen, freundlichen Spreewellen läßt man sich zur Arbeit wie zur Freude tragen.}}
+#*:: On the water, in a decorated boat, the little denizen of the {{w|Spreewald}} is taken to {{w|Lübbenau}} or {{w|Burg (Spreewald)|Burg}} to be baptized; in a boat the schoolchild goes to school; and on the friendly green waves of the {{w|Spree}} one is carried to work as if to joy.
+#* '''1929''', {{w|Kurt Tucholsky}}, [[s:de:Träumerei auf einem Havelsee|“Träumerei auf einem Havelsee”]], ''Das Lächeln der Mona Lisa'', pp.&nbsp;363–64:
+#*: {{lang|de|zwei Stunden lieg ich hier schon<br/>&emsp;und seh auf die Kiefern und in das Wasser hinein –<br/>&emsp;&emsp;auf meinem '''Boot''' ganz allein.}}
+#*:: I’ve been lying here for two hours now<br/>&emsp;looking at the pines and into the water—<br/>&emsp;&emsp;all alone on my boat.
+#* '''January 3, 1994''', [http://www.berliner-zeitung.de/archiv/namen-und-nachrichten,10810590,8798714.html “Namen und Nachrichten: 3&nbsp;656 Kubaner flüchteten 1993”], ''Berliner Zeitung'':
+#*: {{lang|de|Wie die Küstenwache in Miami mitteilte, trafen in den vergangenen zwölf Monaten 3&nbsp;656&nbsp;Kubaner mit dem '''Boot''' in Florida ein, 43&nbsp;Prozent mehr als 1992.}}
+#*:: The Coast Guard in Miami has reported that in the past twelve months, 3,656&nbsp;Cubans arrived in Florida by boat, 43&nbsp;percent more than in 1992.
+
+====Declension====
+{{de-decl-noun-n|(e)s|e}}
+
+====Derived terms====
+* {{l/de|Rettungsboot}}
+* {{l/de|Schlauchboot}}
+* {{l/de|Unterseeboot}}
+
+[[Category:de:Watercraft]]
+
+[[br:Boot]]
+[[cs:Boot]]
+[[da:Boot]]
+[[de:Boot]]
+[[et:Boot]]
+[[el:Boot]]
+[[fr:Boot]]
+[[fy:Boot]]
+[[gl:Boot]]
+[[ko:Boot]]
+[[io:Boot]]
+[[id:Boot]]
+[[it:Boot]]
+[[lo:Boot]]
+[[hu:Boot]]
+[[mg:Boot]]
+[[nah:Boot]]
+[[fj:Boot]]
+[[no:Boot]]
+[[nds:Boot]]
+[[pl:Boot]]
+[[pt:Boot]]
+[[ro:Boot]]
+[[ru:Boot]]
+[[fi:Boot]]
+[[sv:Boot]]
+[[tl:Boot]]
+[[th:Boot]]
+[[chr:Boot]]
+[[tr:Boot]]
+[[zh:Boot]]

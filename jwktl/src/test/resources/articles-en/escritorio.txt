@@ -1,0 +1,59 @@
+==Portuguese==
+{{wikipedia|lang=pt}}
+
+===Alternative forms===
+* [[escriptório]] {{qualifier|obsolete}}
+
+===Etymology===
+{{suffix|escritor|gloss1=writer|io|gloss2=ium|lang=pt}}.
+
+===Pronunciation===
+* {{a|South Brazil}} {{IPA|/ˌes.kɾi.ˈtɔ.ɾi.o/|/ˌes.kɾi.ˈtɔ.ɾjo/|lang=pt}}
+* {{a|PT}} {{IPA|/ˌiʃ.kɾi.ˈtɔ.ɾju/|lang=pt}}
+* {{hyphenation|es|cri|tó|ri|o|lang=pt}}
+
+===Noun===
+{{pt-noun|m|s}}
+
+# [[office]] (building or room)
+
+====Synonyms====
+* [[gabinete]]
+
+====Related terms====
+{{top4}}
+* [[alfabeto]]
+* [[escrevedor]]
+* [[escrever]]
+* [[escrevinhar]]
+* [[escriba]]
+{{mid4}}
+* [[escrita]]
+* [[escrito]]
+* [[escritor]]
+* [[escritura]]
+{{mid4}}
+* [[escrituração]]
+* [[escriturado]]
+* [[escriturar]]
+* [[escrituário]]
+{{mid4}}
+* [[escrivania]]
+* [[escrivaninha]]
+* [[escrivão]]
+* [[script]]
+{{bottom}}
+
+[[Category:pt:Business]]
+
+[[es:escritório]]
+[[fr:escritório]]
+[[lo:escritório]]
+[[hu:escritório]]
+[[mg:escritório]]
+[[fj:escritório]]
+[[pl:escritório]]
+[[pt:escritório]]
+[[sm:escritório]]
+[[chr:escritório]]
+[[zh:escritório]]
