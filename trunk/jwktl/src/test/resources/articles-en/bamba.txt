@@ -1,0 +1,39 @@
+==Spanish==
+
+===Etymology 1===
+onomatopoeia
+
+====Noun====
+{{es-noun|f}}
+
+# [[hit]], [[strike]] {{gloss|in a game}}
+# a Latin American dance
+
+=====Synonyms=====
+* (''hit''): [[acierto]]
+
+===Etymology 2===
+From a trademark
+
+====Noun====
+{{es-noun|f}}
+
+# [[flip-flop]], [[thong]], [[jandal]]
+# [[sneaker]]
+
+=====See also=====
+* [[chancla]]
+* [[playera]]
+* [[sandalia]]
+
+[[fr:bamba]]
+[[ko:bamba]]
+[[id:bamba]]
+[[jv:bamba]]
+[[kn:bamba]]
+[[hu:bamba]]
+[[mg:bamba]]
+[[pt:bamba]]
+[[fi:bamba]]
+[[sv:bamba]]
+[[te:bamba]]

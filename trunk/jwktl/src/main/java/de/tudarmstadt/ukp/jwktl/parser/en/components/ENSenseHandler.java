@@ -29,6 +29,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
+import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
@@ -63,11 +64,7 @@ public class ENSenseHandler extends ENBlockHandler {
 	protected boolean takeControl;
 
 	protected ENQuotationHandler quotationHandler;
-	
-//	protected ENWordFormHandler wordFormHandler;
-	
-//	protected List<IWiktionaryWordForm> wordForms
-	protected ENWordFormHandler wordFormHandler;
+	protected IWordFormHandler wordFormHandler;
 	
 	protected String lastPrefix;
 	
@@ -76,7 +73,6 @@ public class ENSenseHandler extends ENBlockHandler {
 	 */
 	public ENSenseHandler() {
 		entryFactory = new ENEntryFactory();
-//		wordFormHandler = new ENWordFormHandler();
 		quotationHandler = new ENQuotationHandler();
 	}
 		
@@ -109,20 +105,24 @@ public class ENSenseHandler extends ENBlockHandler {
 	 * Process head
 	 */
 	public boolean processHead(String text, ParsingContext context) {	
-//		context.setAttr(Context.CURRENT_POS, partOfSpeech.name());
 		context.setPartOfSpeech(partOfSpeech);
 		glossEntryList = new ArrayList<EnGlossEntry>();
-//		wordForms = new ArrayList<IWiktionaryWordForm>();
-//		quotationList = new ArrayList<Quotation_Impl>();
-		String lemma = context.getPage().getTitle();
-		wordFormHandler = new ENWordFormHandler(lemma);
+		wordFormHandler = getWordFormHandler(context);
 		takeControl = true;
 		quotationHandler.processHead(text, context);
 		lastPrefix = null;
 		return true;
 	}
 
-	/**
+    private IWordFormHandler getWordFormHandler(ParsingContext context) {
+        if (Language.ENGLISH.equals(context.getLanguage())) {
+            return new ENWordFormHandler(context.getPage().getTitle());
+        } else {
+            return new ENNonEngWordFormHandler();
+        }
+    }
+
+    /**
 	 * Extract example, gloss and in-definition quotation
 	 */
 	public boolean processBody(final String text, final ParsingContext context) {
@@ -154,29 +154,7 @@ public class ENSenseHandler extends ENBlockHandler {
 		} else 
 		if (line.startsWith("#*")) {
 			// Quotation.
-//			quotationHandler.processBody(line.substring(1), context);
 			quotationHandler.extractQuotation(line.substring(1), additionalLine, context);
-			/*int index = 2;
-			if(index < line.length()){
-				if(line.charAt(index) != ':'){
-					Quotation_Impl quotationEntry = new Quotation_Impl();
-					String quotation = line.substring(index).trim();					
-					quotationEntry.setSource(new WikiString(quotationHandler.replaceTemplate(quotation)));
-					quotationList.add(quotationEntry);
-				}else{
-					for(int i = 2 ; i < line.length() ; i++){
-						if(line.charAt(i) != ':'){
-							index = i;
-							break;
-						}
-					}
-					String quotation = line.substring(index).trim();
-					if(glossEntryList.size() > 0 && quotationList.size() > 0){
-						Quotation_Impl quotationEntry = quotationList.get(quotationList.size() - 1);
-						quotationEntry.addLine(new WikiString(quotation));
-					}
-				}
-			}*/
 			lastPrefix = "#*";
 			takeControl = false;
 			
@@ -213,17 +191,10 @@ public class ENSenseHandler extends ENBlockHandler {
 			lastPrefix = "#";
 			takeControl = false;
 			
-		} else 
-		if (line.startsWith("{{en-")) {
-			// Part of speech header.
-//			String title = (String) context.getAttr(Context.CURRENT_TITLE);
-//			String title = context.getPage().getTitle();
-//			ENWordFormHandler wordFormHandler = new ENWordFormHandler(title, wordForms);
-			wordFormHandler.parse(line.trim());
-			lastPrefix = null;
-			takeControl = true;
-		}
-		
+        } else if (wordFormHandler.parse(line)) {
+            lastPrefix = null;
+            takeControl = true;
+        }
 		return takeControl;
 	}
 	
@@ -261,14 +232,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			context.getPage().addEntry(entry);
 		}
 		
-//		ILanguage lang = (ILanguage) context.getAttr(Context.CURRENT_LANG);
-//		ILanguage language = context.getLanguage(); 
-//		WiktionaryEntry entry = entryFactory.createPosEntry(context);		
-//		entry.addPartOfSpeech(partOfSpeech);
-//		posEntry.setWordEtymology((IWikiString) context.getAttr(Context.CURRENT_ETYMOLOGY));
-//		entry.setWordEtymology(context.getEtymology());
-//		List<Pronunciation> pronunciations = (List<Pronunciation>) context.getAttr(Context.CURRENT_PRONUNCIATIONS);
-		List<IPronunciation> pronunciations = context.getPronunciations(); 
+		List<IPronunciation> pronunciations = context.getPronunciations();
 		if (pronunciations != null)
 			for (IPronunciation pronunciation : pronunciations)
 				entry.addPronunciation(pronunciation);
@@ -283,9 +247,8 @@ public class ENSenseHandler extends ENBlockHandler {
 		}
 		for (IWiktionaryWordForm wordForm : wordFormHandler.getWordForms())
 			entry.addWordForm(wordForm);
-//		word.addPosEntry(posEntry);
-		
-//		context.getPage().addEntry(entry);
+
+		entry.setGender(wordFormHandler.getGender());
 	}
 
 }

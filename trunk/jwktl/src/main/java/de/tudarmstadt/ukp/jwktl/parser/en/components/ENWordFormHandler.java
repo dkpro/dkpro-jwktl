@@ -25,6 +25,7 @@ import java.util.logging.Logger;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalTense;
@@ -38,13 +39,13 @@ import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser.Template;
  * the English Wiktionary. 
  * @author Christian M. Meyer
  */
-public class ENWordFormHandler implements ITemplateHandler {
+public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 
 	private static final Logger logger = Logger.getLogger(ENWordFormHandler.class.getName());
 	
 	protected List<IWiktionaryWordForm> wordForms;
 	protected String lemma;
-		
+
 	/** Initializes the handler for the specified lemma. The lemma is
 	 *  required since the inflection templates often defines only affixed
 	 *  that are to be added to the lemma. */
@@ -54,27 +55,17 @@ public class ENWordFormHandler implements ITemplateHandler {
 	}
 
 	public String handle(final Template template) {
-		/*System.out.println(template.getName());
-		int i = 0;
-		for (String par : template.getNumberedParams())
-			System.out.println("  " + (i++) + " = " + par);
-		for (Entry<String, String> par : template.getNamedParams())
-			System.out.println("  " + par.getKey() + " = " + par.getValue());*/
-		
-		if ("en-noun".equals(template.getName()))
-			handleNounTemplate(template);
-		else
-		if ("en-proper noun".equals(template.getName()))
-			handleProperNounTemplate(template);
-		else
-		if ("en-verb".equals(template.getName()))
-			handleVerbTemplate(template);
-		else
-		if ("en-adj".equals(template.getName()))
-			handleAdjectiveTemplate(template);
-		
-		return null;
-	}
+        if ("en-noun".equals(template.getName())) {
+            handleNounTemplate(template);
+        } else if ("en-proper noun".equals(template.getName())) {
+            handleProperNounTemplate(template);
+        } else if ("en-verb".equals(template.getName())) {
+            handleVerbTemplate(template);
+        } else if ("en-adj".equals(template.getName())) {
+            handleAdjectiveTemplate(template);
+        }
+        return null;
+    }
 	
 	protected void handleNounTemplate(final Template template) {
 		boolean hasPlural = false;
@@ -313,7 +304,7 @@ public class ENWordFormHandler implements ITemplateHandler {
 			}
 		}
 	}
-		
+
 	protected WiktionaryWordForm createWordForm(String wordForm) {
 		if (wordForm != null) {
 			wordForm = wordForm.trim();
@@ -370,19 +361,27 @@ public class ENWordFormHandler implements ITemplateHandler {
 		return result;
 	}
 	
-	/** Start parsing the specified text for inflected word forms. The 
-	 *  extracted forms can be accessed using {@link #getWordForms()}
-	 *  once all lines have been parsed. */
-	public void parse(final String line) {
-		TemplateParser.parse(line, this);
+	@Override
+    public boolean parse(final String line) {
+        if (line.startsWith("{{en-")) {
+            TemplateParser.parse(line, this);
+            return true;
+        } else {
+            return false;
+        }
 	}
 	
-	/** Returns a list of extracted word forms. */
-	public List<IWiktionaryWordForm> getWordForms() {
+	@Override
+    public List<IWiktionaryWordForm> getWordForms() {
 		return wordForms;
 	}
 
-	// TODO: Adverb!
+    @Override
+    public GrammaticalGender getGender() {
+        return null;
+    }
+
+    // TODO: Adverb!
 	// Template:en-plural noun
 	// Template:en-pron
 	
