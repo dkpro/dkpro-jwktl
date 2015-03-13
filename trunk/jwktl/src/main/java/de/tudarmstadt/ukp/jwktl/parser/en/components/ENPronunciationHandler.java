@@ -25,6 +25,7 @@ import java.util.regex.Pattern;
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation.PronunciationType;
 import de.tudarmstadt.ukp.jwktl.api.entry.Pronunciation;
+import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
@@ -35,8 +36,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 public class ENPronunciationHandler extends ENBlockHandler {	
 	
 	protected static final Pattern PRONUNCIATION_CONTEXT = Pattern.compile("\\{\\{(?:a|sense)\\|([^\\}\\|]+?)\\}\\}");
-	protected static final Pattern PRONUNCIATION_IPA = Pattern.compile("\\{\\{IPA\\|([^\\}]+?)(?:\\|lang=\\w+)?\\}\\}");
-	protected static final Pattern PRONUNCIATION_SAMPA = Pattern.compile("\\{\\{SAMPA\\|([^\\}\\|]+?)\\}\\}");
+	protected static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{(?:IPA|SAMPA)\\|.+?\\}\\}");
 	protected static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^\\}\\|]+?)(?:\\|([^\\}\\|]+?))?\\}\\}");
 	protected static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|([^\\}\\|]+?)\\}\\}");
 	
@@ -59,21 +59,25 @@ public class ENPronunciationHandler extends ENBlockHandler {
 
 	@Override
 	public boolean processBody(final String textLine, final ParsingContext context) {
-		StringBuilder ctx = new StringBuilder();
+		final StringBuilder ctx = new StringBuilder();
 		Matcher matcher = PRONUNCIATION_CONTEXT.matcher(textLine); 
 		while (matcher.find())
 			ctx.append(" ").append(matcher.group(1));
-//		System.out.println("  ctx = " + ctx.toString().trim());
-				
-		matcher = PRONUNCIATION_IPA.matcher(textLine); 
-		if (matcher.find())
-			pronunciations.add(new Pronunciation(PronunciationType.IPA, 
-					matcher.group(1), ctx.toString().trim()));
-		matcher = PRONUNCIATION_SAMPA.matcher(textLine); 
-		if (matcher.find())
-			pronunciations.add(new Pronunciation(PronunciationType.SAMPA, 
-					matcher.group(1), ctx.toString().trim()));
-		//TODO: remove lang= param from ipa and sampa text  
+
+		final Matcher pronunMatcher = PRONUNCIATION.matcher(textLine);
+		while (pronunMatcher.find()) {
+			TemplateParser.parse(pronunMatcher.group(), new TemplateParser.ITemplateHandler() {
+				@Override
+				public String handle(TemplateParser.Template template) {
+					final PronunciationType type = PronunciationType.valueOf(template.getName());
+					for (int i = 0; i<template.getNumberedParamsCount(); i++) {
+						String pronunciation = template.getNumberedParam(i);
+						pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
+					}
+					return null;
+				}
+			});
+		}
 		//TODO: english pronunciation key/AHD
 		//TODO: separate property for sense
 		matcher = PRONUNCIATION_AUDIO.matcher(textLine); 

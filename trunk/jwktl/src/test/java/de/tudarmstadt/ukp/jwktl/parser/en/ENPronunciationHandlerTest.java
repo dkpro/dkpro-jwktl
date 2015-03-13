@@ -36,7 +36,8 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testDictionary() throws Exception {
 		IWiktionaryPage page = parse("dictionary.txt");
-		Iterator<IPronunciation> iter = page.getEntry(0).getPronunciations().iterator();
+		final List<IPronunciation> pronunciations = page.getEntry(0).getPronunciations();
+		Iterator<IPronunciation> iter = pronunciations.iterator();
 		assertPronunciation(PronunciationType.IPA, "/ˈdɪkʃən(ə)ɹi/", "UK", iter.next());
 		assertPronunciation(PronunciationType.SAMPA, "/\"dIkS@n(@)ri/", "UK", iter.next());
 		assertPronunciation(PronunciationType.IPA, "/ˈdɪkʃənɛɹi/", "North America", iter.next());
@@ -96,7 +97,7 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		Iterator<IPronunciation> pronIter;
 		for (int i = 0; i < 3; i++) {
-			pronIter = entryIter.next().getPronunciations().iterator();		
+			pronIter = entryIter.next().getPronunciations().iterator();
 			assertPronunciation(PronunciationType.IPA, "/wɜːd/", "RP", pronIter.next());
 			assertPronunciation(PronunciationType.SAMPA, "/w3:d/", "RP", pronIter.next());
 //			assertPronunciation(PronunciationType.IPA, "wûrd", "US", pronIter.next()); //enPR
@@ -110,7 +111,7 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertPronunciation(PronunciationType.AUDIO, "Nl-word.ogg", "audio", pronIter.next());
 		assertFalse(pronIter.hasNext());
 		pronIter = entryIter.next().getPronunciations().iterator();
-		assertPronunciation(PronunciationType.IPA, "lang=ang|/word/", "", pronIter.next());
+		assertPronunciation(PronunciationType.IPA, "/word/", "", pronIter.next());
 		assertFalse(pronIter.hasNext());
 		assertFalse(entryIter.hasNext());		
 	}
@@ -176,27 +177,35 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertPronunciation(PronunciationType.RHYME, "ɒɡ", "", iter.next());
 		
 		//TODO: Pronunciation cannot be extracted properly yet.
-		iter.next(); //assertPronunciation(PronunciationType.IPA, "/pje/", "", iter.next());		
+		assertPronunciation(PronunciationType.IPA, "/pje/", "", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.IPA, "/ɑː/", "{{qualifier|most languages}}", iter.next());
-		
 		iter.next(); //assertPronunciation(PronunciationType.IPA, "/eɪ̯/", "RP|GenAm {{qualifier|letter name}}", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.SAMPA, "/eI/", "RP|GenAm {{qualifier|letter name}}", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.AUDIO, "en-us-a.ogg", "Audio (US) {{qualifier|letter name}}", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.IPA, "/æɪ/", "AusE {{qualifier|letter name}}", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.SAMPA, "/{I/", "AusE {{qualifier|letter name}}", iter.next());
+		assertPronunciation(PronunciationType.SAMPA, "/{I/", "AusE", iter.next());
 		assertPronunciation(PronunciationType.RHYME, "eɪ", "", iter.next());
-		
+
 		iter.next(); //assertPronunciation(PronunciationType.IPA, "/a/", "{{sense|letter name}}", iter.next());
 		iter.next(); //assertPronunciation(PronunciationType.IPA, "/a/", "{{sense|phoneme}} ", iter.next());		
 		assertFalse(iter.hasNext());
 	}
 
-	
-	protected static void assertPronunciation(final PronunciationType type, 
+	public void testFlippedLanguageParameter() {
+		ENPronunciationHandler w = new ENPronunciationHandler();
+		w.processHead("", new ParsingContext(null));
+		w.processBody("* {{a|Brazil}} {{IPA|lang=pt|/ˈfa.siw/}}", null);
+		Iterator<IPronunciation> iter = w.getPronunciations().iterator();
+		assertPronunciation(PronunciationType.IPA, "/ˈfa.siw/", "Brazil", iter.next());
+		assertFalse(iter.hasNext());
+	}
+
+	protected static void assertPronunciation(final PronunciationType type,
 			final String text, final String note, final IPronunciation actual) {
-		assertEquals(text, actual.getText());
-		assertEquals(type, actual.getType());
-		assertEquals(note, actual.getNote());
+		assertEquals("type does not match", type, actual.getType());
+		assertEquals("text does not match", text, actual.getText());
+		assertEquals("note does not match", note, actual.getNote());
 	}
 
 	protected static void printPronunciations(final IWiktionaryPage page) {
