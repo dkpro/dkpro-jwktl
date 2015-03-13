@@ -23,19 +23,23 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 
 public interface IWordFormHandler {
-    /**
-     * Start parsing the specified text for inflected word forms. The
-     * extracted forms can be accessed using {@link #getWordForms()}
-     * once all lines have been parsed.
-     *
-     * @param line a line of wikitext
-     * @return whether the handler could parse the line
-     */
-    boolean parse(String line);
+	/**
+	 * Start parsing the specified text for inflected word forms. The
+	 * extracted forms can be accessed using {@link #getWordForms()}
+	 * once all lines have been parsed.
+	 *
+	 * @param line a line of wikitext
+	 * @return whether the handler could parse the line
+	 */
+	boolean parse(String line);
 
-    /** @return a list of extracted word forms, or an empty list. */
-    List<IWiktionaryWordForm> getWordForms();
+	/**
+	 * @return a list of extracted word forms, or an empty list.
+	 */
+	List<IWiktionaryWordForm> getWordForms();
 
-    /** @return the extracted gender, or null. */
-    GrammaticalGender getGender();
+	/**
+	 * @return the extracted gender, or null.
+	 */
+	GrammaticalGender getGender();
 }

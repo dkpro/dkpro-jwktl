@@ -103,24 +103,24 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 	}
 
 
-    public void testGenderPortugueseNounMasculine() throws Exception {
-        IWiktionaryPage page = parse("escritorio.txt");
-        assertEquals(GrammaticalGender.MASCULINE, page.getEntry(0).getGender());
-    }
+	public void testGenderPortugueseNounMasculine() throws Exception {
+		IWiktionaryPage page = parse("escritorio.txt");
+		assertEquals(GrammaticalGender.MASCULINE, page.getEntry(0).getGender());
+	}
 
-    public void testGenderGermanNeuter() throws Exception {
-        IWiktionaryPage page = parse("boot.txt");
-        assertEquals(GrammaticalGender.NEUTER, page.getEntry(0).getGender());
-    }
+	public void testGenderGermanNeuter() throws Exception {
+		IWiktionaryPage page = parse("boot.txt");
+		assertEquals(GrammaticalGender.NEUTER, page.getEntry(0).getGender());
+	}
 
-    public void testGenderSpanishFeminine() throws Exception {
-        IWiktionaryPage page = parse("bamba.txt");
-        assertEquals(GrammaticalGender.FEMININE, page.getEntry(0).getGender());
-    }
-	
-	protected static void assertEntry(final ILanguage language, 
-			final PartOfSpeech partOfSpeech, int senseCount, 
-			final IWiktionaryEntry entry) {
+	public void testGenderSpanishFeminine() throws Exception {
+		IWiktionaryPage page = parse("bamba.txt");
+		assertEquals(GrammaticalGender.FEMININE, page.getEntry(0).getGender());
+	}
+
+	protected static void assertEntry(final ILanguage language,
+									  final PartOfSpeech partOfSpeech, int senseCount,
+									  final IWiktionaryEntry entry) {
 		assertEquals(language, entry.getWordLanguage());
 		assertEquals(partOfSpeech, entry.getPartOfSpeech());
 		assertEquals(senseCount, entry.getSenseCount());

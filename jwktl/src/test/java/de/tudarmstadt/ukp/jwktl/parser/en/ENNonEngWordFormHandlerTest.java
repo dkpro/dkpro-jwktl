@@ -26,42 +26,42 @@ import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.MASCULINE;
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.NEUTER;
 
 public class ENNonEngWordFormHandlerTest extends TestCase {
-    private ENNonEngWordFormHandler handler;
+	private ENNonEngWordFormHandler handler;
 
-    @Override
-    public void setUp() throws Exception {
-        super.setUp();
-        handler = new ENNonEngWordFormHandler();
-    }
+	@Override
+	public void setUp() throws Exception {
+		super.setUp();
+		handler = new ENNonEngWordFormHandler();
+	}
 
-    public void testHandleDeNoun() {
-        assertGender(NEUTER, "{{de-noun|n|Boots|gen2=Bootes|Boote|Bötchen}}");
-    }
+	public void testHandleDeNoun() {
+		assertGender(NEUTER, "{{de-noun|n|Boots|gen2=Bootes|Boote|Bötchen}}");
+	}
 
-    public void testHandlePtNoun() {
-        assertGender(MASCULINE, "{{pt-noun|m|s}}");
-    }
+	public void testHandlePtNoun() {
+		assertGender(MASCULINE, "{{pt-noun|m|s}}");
+	}
 
-    public void testHandlePtNounWithTwoGendersDashed() {
-        assertGender(MASCULINE, "{{pt-noun|m-f|s}}");
-        // TODO: need to change data model to reflect nouns having more than one gender
-    }
+	public void testHandlePtNounWithTwoGendersDashed() {
+		assertGender(MASCULINE, "{{pt-noun|m-f|s}}");
+		// TODO: need to change data model to reflect nouns having more than one gender
+	}
 
-    public void testHandlePtNounWithTwoGenders() {
-        assertGender(MASCULINE, "{{pt-noun|mf|s}}");
-        // TODO: need to change data model to reflect nouns having more than one gender
-    }
+	public void testHandlePtNounWithTwoGenders() {
+		assertGender(MASCULINE, "{{pt-noun|mf|s}}");
+		// TODO: need to change data model to reflect nouns having more than one gender
+	}
 
-    public void testHandleHead() {
-        assertGender(FEMININE, "{{head|fr|noun|g=f}}");
-    }
+	public void testHandleHead() {
+		assertGender(FEMININE, "{{head|fr|noun|g=f}}");
+	}
 
-    public void testHandleHeadWithSeparateGenderSpecifier() {
-        assertGender(FEMININE, "{{head|pt|plural}} {{g|f}}");
-    }
+	public void testHandleHeadWithSeparateGenderSpecifier() {
+		assertGender(FEMININE, "{{head|pt|plural}} {{g|f}}");
+	}
 
-    private void assertGender(GrammaticalGender expectedGender, String line) {
-        assertTrue("could not parse "+line, handler.parse(line));
-        assertEquals(expectedGender, handler.getGender());
-    }
+	private void assertGender(GrammaticalGender expectedGender, String line) {
+		assertTrue("could not parse " + line, handler.parse(line));
+		assertEquals(expectedGender, handler.getGender());
+	}
 }
