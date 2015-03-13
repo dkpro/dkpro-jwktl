@@ -245,24 +245,18 @@ public class ENTranslationHandler extends ENSenseIndexedBlockHandler {
 	}
 
 	protected String cleanText(final String text) {
+		String result = stripMarkup(text);
+		return result.trim();
+	}
+
+	private String stripMarkup(String text) {
 		String result = text;
 		result = result.replace("[[", "");
 		result = result.replace("]]", "");
 		result = result.replace("'''", "");
 		result = result.replace("''", "");
-		int startIdx = 0;
-		while (startIdx < result.length() && ":() ".indexOf(result.charAt(startIdx)) >= 0)
-			startIdx++;
-		int endIdx = result.length();
-		while (endIdx > startIdx && ":() ".indexOf(result.charAt(endIdx - 1)) >= 0)
-			endIdx--;
-		if (endIdx >= 0 && startIdx < endIdx)
-			result = result.substring(startIdx, endIdx);
-		else
-			result = "";
 		return result;
 	}
-	
 
 	/**
 	 * Add parsed translation into senseEntry. If no mapping is found, the translation is added to posEntry.
