@@ -231,7 +231,21 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("cídiǎn", trans.get(2).getTransliteration());
 		assertEquals("", trans.get(2).getAdditionalInformation());
 	}
-	
+
+	public void testAdditionalInformationExtractionDoesNotStripTooMuchContent() throws Exception {
+		IWiktionaryPage page = parse("gumbo.txt");
+
+		final List<IWiktionaryTranslation> trans = page.getEntry(0).getSense(1).getTranslations(Language.findByCode("por"));
+		assertEquals(2, trans.size());
+
+		final IWiktionaryTranslation t1 = trans.get(0);
+		final IWiktionaryTranslation t2 = trans.get(1);
+
+		assertEquals("quiabeiro", t1.getTranslation());
+		assertEquals("quiabo", t2.getTranslation());
+		assertEquals("{{g|m}} (plant)", t1.getAdditionalInformation());
+		assertEquals("{{g|m}} (pods)", t2.getAdditionalInformation());
+	}
 
 	protected static void assertTranslation(final String language,
 			final String translation, final IWiktionaryTranslation actual) {
