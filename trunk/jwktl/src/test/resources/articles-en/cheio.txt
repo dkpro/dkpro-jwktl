@@ -1,0 +1,48 @@
+==Portuguese==
+
+===Alternative forms===
+* {{l/pt|cheo}} {{qualifier|obsolete}}
+
+===Etymology===
+Earlier {{m|pt|cheo}}, from {{etyl|roa-opt|pt}} {{term|chẽo|lang=roa-opt}}, from {{etyl|la|pt}} {{term|plenus|lang=la}}, from {{etyl|itc-pro|pt}} {{m|itc-pro|*plēnos}}, from {{etyl|ine-pro|pt}} {{m|ine-pro|*pl̥h₁nós||full}}. Compare {{etyl|ca|-}} {{m|ca|ple}}, {{etyl|eo|-}} {{m|eo|plena}}, {{etyl|fr|-}} {{m|fr|plein}}, {{etyl|io|-}} {{m|io|plena}}, {{etyl|it|-}} {{m|it|pieno}}, {{etyl|ro|-}} {{m|ro|plin}}, {{etyl|sc|-}} {{m|sc|prenu}}, {{etyl|es|-}} {{m|es|lleno}}.
+
+===Pronunciation===
+* {{a|Portugal}} {{IPA|/ˈʃɐj.u/|/ˈʃej.u/|lang=pt}}
+* {{a|Brazil}} {{IPA|/ˈʃej.u/|lang=pt}}
+* {{hyphenation|chei|o|lang=pt}}
+
+===Adjective===
+{{pt-adj|chei|o}}
+
+# {{l/en|full}}, {{l/en|filled}}, {{l/en|completed}}
+#: {{usex|lang=pt|A rua está '''cheia''' de trânsito|The street is full of traffic.}}
+#: {{usex|lang=pt|Estou '''cheio'''.|I'm full (not hungry anymore).}}
+# {{l/en|covered}}
+#: {{usex|lang=pt|A rua está '''cheia''' de óleo.|The street is covered with oil.}}
+# {{context|figurative|lang=pt}} [[fed up]], [[tired]], [[annoyed]]
+#: {{usex|lang=pt|Estou '''cheio''' dele.|I'm fed up with him.}}
+
+====Inflection====
+{{pt-adj-infl|chei|o|dim=1}}
+
+====Synonyms====
+* {{sense|full}} {{l/pt|repleto}}, {{l/pt|completo}}, {{l/pt|lotado}}
+* {{sense|covered}} {{l/pt|coberto}}
+* {{sense|fed up}} {{l/pt|farto}}
+
+[[el:cheio]]
+[[es:cheio]]
+[[fr:cheio]]
+[[gl:cheio]]
+[[io:cheio]]
+[[ku:cheio]]
+[[hu:cheio]]
+[[mg:cheio]]
+[[fj:cheio]]
+[[nl:cheio]]
+[[ja:cheio]]
+[[pl:cheio]]
+[[pt:cheio]]
+[[fi:cheio]]
+[[chr:cheio]]
+[[zh:cheio]]

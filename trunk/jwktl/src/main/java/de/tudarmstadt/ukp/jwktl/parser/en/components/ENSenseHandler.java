@@ -143,10 +143,11 @@ public class ENSenseHandler extends ENBlockHandler {
 			String example = line.substring(2).trim();
 			if (!glossEntryList.isEmpty()) {
 				EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
-				if (additionalLine)
+				if (additionalLine) {
 					glossEntry.appendExample(example);
-				else
+				} else {
 					glossEntry.addExample(example);
+				}
 			}
 			lastPrefix = "#:";
 			takeControl = false;
