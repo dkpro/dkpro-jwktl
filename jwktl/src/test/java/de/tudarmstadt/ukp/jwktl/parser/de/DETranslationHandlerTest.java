@@ -195,7 +195,35 @@ public class DETranslationHandlerTest extends DEWiktionaryEntryParserTest {
 		assertTranslation("Icelandic", "linsuskekkja", trans.get(2));
 		assertEquals("bei Linsen", trans.get(2).getAdditionalInformation());
 	}
-	
+
+	/***/
+	public void testBoot() throws Exception {
+		IWiktionaryPage page = parse("Boot.txt");
+		List<IWiktionaryTranslation> trans = page.getEntry(0).getSense(1).getTranslations(Language.RUSSIAN);
+		assertEquals(1, trans.size());
+		assertTranslation("Russian", "лодка", trans.get(0));
+		assertEquals("lódka", trans.get(0).getTransliteration());
+		assertEquals("", trans.get(0).getAdditionalInformation());
+
+		trans = page.getEntry(0).getSense(1).getTranslations(Language.findByCode("fre"));
+		assertEquals(1, trans.size());
+		assertTranslation("French", "bateau", trans.get(0));
+		assertEquals(null, trans.get(0).getTransliteration());
+		assertEquals("{{m}}", trans.get(0).getAdditionalInformation());
+
+		trans = page.getEntry(0).getSense(1).getTranslations(Language.findByCode("ita"));
+		assertEquals(3, trans.size());
+		assertTranslation("Italian", "battello", trans.get(0));
+		assertEquals(null, trans.get(0).getTransliteration());
+		assertEquals("", trans.get(0).getAdditionalInformation());
+		assertTranslation("Italian", "barca", trans.get(1));
+		assertEquals(null, trans.get(1).getTransliteration());
+		assertEquals("{{f}}", trans.get(1).getAdditionalInformation());
+		assertTranslation("Italian", "imbarcazione", trans.get(2));
+		assertEquals(null, trans.get(2).getTransliteration());
+		assertEquals("{{f}}", trans.get(2).getAdditionalInformation());
+	}
+
 	protected static void assertTranslation(final String language,
 			final String translation, final IWiktionaryTranslation actual) {
 		if (actual.getLanguage() == null)

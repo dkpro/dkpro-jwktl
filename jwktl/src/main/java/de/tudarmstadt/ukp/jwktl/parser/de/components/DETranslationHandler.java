@@ -76,11 +76,15 @@ public class DETranslationHandler extends DEBlockHandler {
 		// start of a translation line		
 		text = text.trim();
 				
-		if (text.startsWith("{{Ü-links}}"))
+		if (text.startsWith("{{Ü-links}}")
+				|| text.startsWith("{{Ü-Tabelle|Ü-links=")
+				|| text.startsWith("|Ü-links="))
 			return true;
 		if (text.startsWith("{{Ü-Abstand}}"))
 			return true;
-		if (text.startsWith("{{Ü-rechts}}")) // This template indicates the end of the translation block
+		if (text.startsWith("{{Ü-rechts}}")
+				|| text.startsWith("{{Ü-Tabelle|Ü-rechts=")
+				|| text.startsWith("|Ü-rechts=")) // This template indicates the end of the translation block
 			return false;
 		if (text.startsWith("{{")) // Indicates that a new block has just started.
 			return false;
@@ -141,9 +145,12 @@ public class DETranslationHandler extends DEBlockHandler {
 				String translationText = translation;
 				if (usesTemplate) {
 					fields = StringUtils.split(translation, '|');
-					if (fields != null && fields.length > 0)
-						translationText = fields[fields.length - 1].trim();
-					else
+					if (fields != null && fields.length > 0) {
+						if ("Üt".equals(fields[0]))
+							translationText = fields[2].trim();
+						else
+							translationText = fields[fields.length - 1].trim();
+					} else
 						translationText = null;
 				} else {
 					int i = translation.indexOf('|'); // [[...|...]]
@@ -164,6 +171,8 @@ public class DETranslationHandler extends DEBlockHandler {
 
 					if (fields != null && fields.length >= 4 && fields[0].equals("Üxx"))
 						trans.setTransliteration(cleanText(fields[2]));
+					if (fields != null && fields.length >= 4 && fields[0].equals("Üt"))
+						trans.setTransliteration(cleanText(fields[3]));
 
 					// Save the translation
 					for (Integer i : indexSet) {
