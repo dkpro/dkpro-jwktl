@@ -1,0 +1,266 @@
+{{Siehe auch|boot}}
+== Boot ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular= das Boot
+|Nominativ Plural 1= die Boote
+|Nominativ Plural 2= die Böte
+|Genitiv Singular=des Boots<br />des Bootes
+|Genitiv Plural 1=der Boote
+|Genitiv Plural 2=der Böte
+|Dativ Singular=dem Boot
+|Dativ Plural 1=den Booten
+|Dativ Plural 2=den Böten
+|Akkusativ Singular=das Boot
+|Akkusativ Plural 1=die Boote
+|Akkusativ Plural 2=die Böte
+|Bild=Fishing_boat_ORL-3_Gdynia_Poland_2003_ubt.JPG|mini|1|das ''Boot'' eines Fischers
+}}
+
+{{Worttrennung}}
+:Boot, {{Pl.1}} Boo·te, {{Pl.2}} ''landschaftlich, hauptsächlich norddeutsch:'' Bö·te
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|boːt}}, {{Pl.1}} {{Lautschrift|ˈboːtə}}, {{Pl.2}} {{Lautschrift|ˈbøːtə}}
+:{{Hörbeispiele}} {{Audio|De-at-Boot.ogg|Boot (österreichisch)}}, {{Pl.1}} {{Audio|}}, {{Pl.2}} {{Audio|}}
+:{{Reime}} {{Reim|oːt|Deutsch}}
+
+{{Bedeutungen}}
+:[1] kleines [[Wasserfahrzeug]]
+:[2] ''[[Militär]]:'' seegehende Einheiten einer bestimmten Größenordnung bei der Marine
+
+{{Herkunft}}
+:im 15. Jahrhundert aus [[mittelniederdeutsch]] ''bōt'' entlehnt, das auf [[mittelenglisch]] ''bōt'', ''boot'', [[altenglisch]] ''bāt'' ‚Boot, Schiff‘ zurückgeht,<ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Boot“, Seite 140.</ref> zum [[urgermanisch]]en *''baitan'', auch [[altnordisch]] ''beit'', mittel[[niederländisch]] ''beitel'' ‚Bötchen‘, vermutlich ein von *''bītanan'' abgeleitetes [[Deverbativ]], woraus ''[[beißen]]''.<ref>Guus Kroonen: ''Etymological Dictionary of Proto-Germanic''. Brill, Leiden 2013. S. 48.</ref>
+
+{{Synonyme}}
+:[1] [[Barke]], [[Kahn]]
+
+{{Gegenwörter}}
+:[1] [[Schiff]]
+:[2] [[Batterie]], [[Inspektion]] (Ausbildungseinrichtungen), [[Kompanie]]
+
+{{Verkleinerungsformen}}
+:[1] [[Bötchen]]
+
+{{Oberbegriffe}}
+:[1] [[Wasserfahrzeug]], [[Fahrzeug]]
+:[2] [[Einheit]]
+
+{{Unterbegriffe}}
+:[1] [[Beiboot]], [[Dampfboot]], [[Drachenboot]], [[Fährboot]], [[Faltboot]], [[Fellboot]], [[Flugboot]], [[Großboot]], [[Hausboot]], [[Kajütboot]], [[Kunststoffboot]], [[Lokalboot]], [[Löschboot]], [[Lotsenboot]], [[Luftkissenboot]], [[Motorboot]], [[Paddelboot]], [[Paketboot]], [[Postboot]], [[Rennboot]], [[Rettungsboot]], [[Ruderboot]], [[Schlauchboot]], [[Schubboot]], [[Schulboot]], [[Segelboot]], [[Sportboot]], [[Tauchboot]], [[Tourenboot]], [[Tragflächenboot]], [[Tragflügelboot]], [[Tretboot]], [[Walfangboot]], [[Wohnboot]], [[Zweimannboot]]
+:[1] [[Gummiboot]], [[Holzboot]], [[Stahlboot]]
+:[1] [[Barkasse]], [[Doppelrumpfboot]], [[Einbaum]], [[Floß]], [[Gig]], [[Gondel]], [[Jacht]], [[Jolle]], [[Kanu]], [[Kanadier]], [[Kajak]], [[Katamaran]], [[Kutter]], [[Leichter]], [[Prahm]], [[Schute]]
+:[2] [[Kanonenboot]], [[Landungsboot]], [[Minenräumboot]], [[Minensuchboot]], [[Patrouillenboot]], [[Räumboot]], [[Schnellboot]], [[Torpedoboot]], [[U-Boot]], [[Unterseeboot]], [[Vorpostenboot]], [[Wikingerboot]]
+:[2] [[Minensucher]]
+:[?] [[Katboot]], [[Kielboot]], [[Kielschwerboot]], [[Klinkerboot]], [[Kraweelboo]]t, [[Perlboot]], [[Plattbodenboot]], [[Polizeiboot]], [[Rindenboot]], [[Schutzboot]], [[Schwertboot]],  [[Skullboot]], [[Starboot]], [[Stufenboot]], [[Sturmboot]], [[Suchboot]], [[Tempestboot]], [[Wachboot]]
+
+{{Beispiele}}
+:[1] Wir können mit dem ''Boot'' über den Fluss setzen.
+:[2] „Auf Schiffen hat der Kommandant die Disziplinargewalt eines Bataillonskommandeurs, der Erste Offizier die eines Kompaniechefs. Auf Booten hat der Kommandant die Disziplinargewalt eines Kompaniechefs, sein Vertreter hat keine Disziplinargewalt.“<ref>{{Wikipedia|Boot}}</ref>
+:[2] „Man hatte auf den ''Booten'' einen offenen Respekt vor dem Minensuchen, zumal es bekannt war, daß gerade Fischdampfer wegen ihres Tiefganges wenig geeignet dafür waren.“<ref>Joachim Ringelnatz: ''Als Mariner im Krieg'', Diogenes, Zürich 1994, Seite 130, ISBN 3-257-06047-5. (Der Text erschien unter dem Namen Gustav Hester im Jahr 1928.)</ref>
+
+{{Redewendungen}}
+:[1] [[im gleichen Boot sitzen]], [[das Boot ist voll]]!
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[Hafen]], [[Kai]]
+
+{{Wortbildungen}}
+:[[ausbooten]], [[Bootaxt]], [[Bootflüchtling]], [[Bootgrab]]/[[Bootsgrab]], [[Bootsanhänger]], [[Bootsausstellung]], [[Bootsbau]], [[Bootsbauer]], [[Bootsbesatzung]], [[Bootsbesitzer]], [[Bootsdeck]], [[Bootseigner]], [[Bootsfahrt]], [[Bootsflüchtling]], [[Bootsgarage]], [[Bootsgasse]], [[Bootsgast]], [[Bootshaken]], [[Bootshaus]], [[Bootsjunge]], [[Bootsklasse]], [[Bootskompass]], [[Bootslänge]], [[Bootsleck]], [[Bootsleute]], [[Bootsmann]], [[Bootsmanöver]], [[Bootsmesse]], [[Bootsmotor]], [[Bootsschleppe]], [[Bootsschuppen]], [[Bootssteg]], [[Bootstyp]], [[Bootsverleih]], [[Mondboot]] (''veraltet'')
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{sq}}: [1] {{Ü|sq|varkë}} {{f}}, {{Ü|sq|barkë}} {{f}}
+*{{ang}}: [1] {{Ü|ang|bāt}}
+*{{ar}}: [1] {{Ü|ar|قارب}}
+*{{da}}: [1] {{Ü|da|båd}}
+*{{en}}: [1] {{Ü|en|boat}}
+*{{eo}}: [1] {{Ü|eo|barko}}, {{Ü|eo|boato}}
+*{{fi}}: [1] {{Ü|fi|vene}}
+*{{fr}}: [1] {{Ü|fr|bateau}} {{m}}
+*{{fur}}: [1] {{Ü|fur|barcje}} {{f}}
+*{{el}}: [1] {{Üt|el|μπότα|mpota}}
+*{{id}}: [1] {{Ü|id|bunda}}
+*{{ga}}: [1] {{Ü|ga|bád}}
+*{{zu}}: [1] {{Ü|zu|isikebhe}}
+*{{it}}: [1] {{Ü|it|battello}}, {{Ü|it|barca}} {{f}}, {{Ü|it|imbarcazione}} {{f}}
+*{{ja}}: [1] {{Üt|ja|扁舟|へんしゅう, henshū}}
+*{{la}}: [1] {{Ü|la|scapha}} {{f}}
+*{{lv}}: [1] {{Ü|lv|laiva}} {{f}}
+*{{lt}}: [1] {{Ü|lt|valtis}}
+|Ü-rechts=
+*{{mi}}: [1] {{Ü|mi|waka}}, {{Ü|mi|poti}}
+*{{mga}}: [1] {{Ü|mga|bát}}
+*{{no}}: [1] {{Ü|no|båt}}
+*{{pl}}: [1] {{Ü|pl|łódź}} {{f}}
+*{{pt}}: [1] {{Ü|pt|barco}} {{m}}
+*{{rap}}: [1] {{Ü|rap|pahi}}
+*{{rm}}: [1] {{Ü|rm|bartga}} {{f}}
+*{{ru}}: [1] {{Üt|ru|лодка|lódka}}
+*{{sv}}: [1] {{Ü|sv|båt}}
+*{{es}}: [1] {{Ü|es|barco}} {{m}}
+*{{tl}}: [1] {{Ü|tl|awaram}}
+*{{th}}: [1] {{Üt|th|เรือ|reua}}
+*{{cs}}: [1] {{Ü|cs|člun}} {{m}}
+*{{tr}}: [1] {{Ü|tr|filika}}, {{Ü|tr|kayık}}, {{Ü|tr|sandal}}
+*{{vec}}: [1] {{Ü|vec|barca}} {{f}}, {{Ü|vec|bateo}} {{m}}
+*{{vi}}: [1] {{Ü|vi|tàu thuyền}}
+*{{cy}}: [1] {{Ü|cy|bad}} {{m}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Boot}}
+:[1] {{Ref-Grimm|Boot}}
+:[1] {{Ref-DWDS|Boot}}
+:[1] {{Ref-Duden|Boot_Wasserfahrzeug|Boot}}
+:[1] {{Ref-Canoo|Boot}}
+:[1] {{Ref-UniLeipzig|Boot}}
+:[1] {{Ref-FreeDictionary|Boot}}
+
+:[1] {{Lit-Brockhaus: Enzyklopädie in 24 Bänden|A=19|B=26}}, Seite 571, Artikel „Boot<sup>1</sup>“
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=der Boot
+|Nominativ Plural=die Boots
+|Genitiv Singular=des Boots
+|Genitiv Plural=der Boots
+|Dativ Singular=dem Boot
+|Dativ Plural=den Boots
+|Akkusativ Singular=den Boot
+|Akkusativ Plural=die Boots
+|Bild 1=Derbyboot GRENSON Huntingdon.JPG|mini|1|zwei verschiedene Derby''boots''
+|Bild 2=Engineer2.jpg|mini|1|ein rechter Engineer''boot''
+}}
+
+{{Worttrennung}}
+:Boot, {{Pl.}} Boots
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|buːt}}, {{Pl.}} {{Lautschrift|buːts}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] über die Knöchel reichende [[Lederstiefel]]
+
+{{Herkunft}}
+:von englisch ''{{Ü|en|boot}}'' „Stiefel“ entlehnt, das auf mittelfranzösisch {{Ü|fr|bote}} zurückgeht<ref>{{Lit-Duden: Universalwörterbuch|A=6}}, Stichwort „Boot“.</ref>
+
+{{Synonyme}}
+:[1] [[Stiefel]]
+
+{{Gegenwörter}}
+:[1] [[Halbschuh]]
+
+{{Oberbegriffe}}
+:[1] [[Kleidung]], [[Schuh]]
+
+{{Unterbegriffe}}
+:[1] [[Lederboot]], [[Moonboot]], [[Softboot]]
+
+{{Beispiele}}
+:[1] Du solltest dir noch die ''Boots'' anziehen.
+
+{{Charakteristische Wortkombinationen}}
+:[1] ''Boots'' [[anziehen]]
+
+{{Wortbildungen}}
+:[[booten]], [[Bootleg]]
+
+{{Absatz}}
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|boot}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Boot (Begriffsklärung)}}
+:[1] {{Ref-Duden|Boot_Schuh|Boot}}
+:[*] {{Ref-Canoo|Boot}}
+
+:[1] {{Lit-Brockhaus: Enzyklopädie in 24 Bänden|A=19|B=26}}, Seite 571, Artikel „Boot<sup>2</sup>“
+
+{{Quellen}}
+
+=== {{Wortart|Substantiv|Deutsch}}, {{mf}}, {{Wortart|Nachname|Deutsch}} ===
+
+{{Deutsch Substantiv Übersicht
+|Nominativ Singular=Boot
+|Nominativ Plural=(die) Boots</small>
+|Genitiv Singular=Boots
+|Genitiv Plural=<small>(der) Boots</small>
+|Dativ Singular=Boot
+|Dativ Plural=<small>(den) Boots</small>
+|Akkusativ Singular=Boot
+|Akkusativ Plural=<small>(die) Boots</small>
+}}
+
+{{Worttrennung}}
+:Boots, {{Pl.}} Boo·ts
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|boːt}}, {{Pl.}} {{Lautschrift|boːʦ}}
+:{{Hörbeispiele}} {{Audio|}}, {{Pl.}} {{Audio|}}
+:{{Reime}} {{Reim|oːt|Deutsch}}
+
+{{Bedeutungen}}
+:[1] deutscher Familienname
+
+{{Beispiele}}
+:[1] „Jaap ''Boot'' (eigentlich: Jan Jacobus Boot; * 1. März 1903 in Wormerveer; † 14. Juni 1986 in Dordrecht) war ein niederländischer Leichtathlet.“ <ref>[https://de.wikipedia.org/wiki/Jaap_Boot Jan Jacobus ''Boot''] ''de.wikipedia.org'', abgerufen am 20. Juli 2014</ref>
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Boot}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten}}
+:[[Bot]], [[Boom]], [[Bote]], [[Brot]], [[foot]], [[root]]
+
+[[Kategorie:Anglizismus]]
+
+[[br:Boot]]
+[[chr:Boot]]
+[[cs:Boot]]
+[[da:Boot]]
+[[el:Boot]]
+[[en:Boot]]
+[[et:Boot]]
+[[fi:Boot]]
+[[fj:Boot]]
+[[fr:Boot]]
+[[fy:Boot]]
+[[gl:Boot]]
+[[hu:Boot]]
+[[id:Boot]]
+[[io:Boot]]
+[[it:Boot]]
+[[ko:Boot]]
+[[lo:Boot]]
+[[mg:Boot]]
+[[na:Boot]]
+[[nah:Boot]]
+[[nds:Boot]]
+[[no:Boot]]
+[[pl:Boot]]
+[[pt:Boot]]
+[[ro:Boot]]
+[[ru:Boot]]
+[[sv:Boot]]
+[[th:Boot]]
+[[tl:Boot]]
+[[tr:Boot]]
+[[zh:Boot]]
