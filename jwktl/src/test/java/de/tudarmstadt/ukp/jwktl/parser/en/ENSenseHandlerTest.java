@@ -18,7 +18,9 @@
 package de.tudarmstadt.ukp.jwktl.parser.en;
 
 import java.util.Iterator;
+import java.util.List;
 
+import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
@@ -33,7 +35,6 @@ import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
  */
 public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 
-	/***/
 	public void testHead() throws Exception {
 		IWiktionaryPage page = parse("head.txt");
 		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
@@ -84,7 +85,6 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertFalse(senseIter.hasNext());
 	}
 
-	/***/
 	public void testForGoodMeasure() throws Exception {
 		IWiktionaryPage page = parse("for_good_measure.txt");
 		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
@@ -92,7 +92,6 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertFalse(senseIter.hasNext());
 	}
 
-	/***/
 	public void testBatsman() throws Exception {
 		IWiktionaryPage page = parse("batsman.txt");
 		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
@@ -101,7 +100,6 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{cricket}} Any player selected for his or her [[team]] principally to [[bat]], as opposed to a [[bowler]]", senseIter.next().getGloss().getText());
 		assertFalse(senseIter.hasNext());
 	}
-
 
 	public void testGenderPortugueseNounMasculine() throws Exception {
 		IWiktionaryPage page = parse("escritorio.txt");
@@ -116,6 +114,28 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testGenderSpanishFeminine() throws Exception {
 		IWiktionaryPage page = parse("bamba.txt");
 		assertEquals(GrammaticalGender.FEMININE, page.getEntry(0).getGender());
+	}
+
+	public void testGetExamples() throws Exception {
+		IWiktionaryPage page = parse("cheio.txt");
+		final IWiktionaryEntry entry = page.getEntry(0);
+
+		final List<IWikiString> examples = entry.getExamples();
+		assertEquals(4, examples.size());
+
+		final IWiktionarySense senseFull = entry.getSense(1);
+		final IWiktionarySense senseCovered = entry.getSense(2);
+		final IWiktionarySense senseFedUp = entry.getSense(3);
+
+		assertEquals(2, senseFull.getExamples().size());
+		assertEquals(1, senseCovered.getExamples().size());
+		assertEquals(1, senseFedUp.getExamples().size());
+
+		assertEquals("{{usex|lang=pt|A rua está '''cheia''' de trânsito|The street is full of traffic.}}", senseFull.getExamples().get(0).getText());
+		assertEquals("{{usex|lang=pt|Estou '''cheio'''.|I'm full (not hungry anymore).}}", senseFull.getExamples().get(1).getText());
+
+		assertEquals("{{usex|lang=pt|A rua está '''cheia''' de óleo.|The street is covered with oil.}}", senseCovered.getExamples().get(0).getText());
+		assertEquals("{{usex|lang=pt|Estou '''cheio''' dele.|I'm fed up with him.}}", senseFedUp.getExamples().get(0).getText());
 	}
 
 	protected static void assertEntry(final ILanguage language,
