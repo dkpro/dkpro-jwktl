@@ -17,6 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api;
 
+import java.io.Closeable;
 import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.filter.IWiktionaryEntryFilter;
@@ -29,7 +30,7 @@ import de.tudarmstadt.ukp.jwktl.api.util.IWiktionaryIterator;
  * common methods for querying and iterating over the encoded entries.
  * @author Christian M. Meyer
  */
-public interface IWiktionary {
+public interface IWiktionary extends Closeable {
 
 	// -- Pages --
 	
@@ -350,6 +351,7 @@ public interface IWiktionary {
 	 *  closing the connection, so this should be done prior to terminating
 	 *  the application. Nothing happens on calling the method more than 
 	 *  once. */
+	@Override
 	public void close();
 
 	/** Returns <code>true</code> if the database connection has already been 
