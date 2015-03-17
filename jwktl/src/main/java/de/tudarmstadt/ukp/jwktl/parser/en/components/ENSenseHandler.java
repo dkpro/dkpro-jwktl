@@ -38,7 +38,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author  Lizhen Qu
  */
 public class ENSenseHandler extends ENBlockHandler {
-		
+	protected static final Pattern EXAMPLE_PATTERN = Pattern.compile("#+:+");
 	protected static final Pattern POS_PATTERN = Pattern.compile(
 			"^====?\\s*(?:" 
 			+ "\\{\\{([^\\}\\|]+)(?:\\|[^\\}\\|]*)?\\}\\}|"
@@ -137,22 +137,10 @@ public class ENSenseHandler extends ENBlockHandler {
 			line = lastPrefix + line;
 			additionalLine = true;
 		}
-		
-		if (line.startsWith("#:")){
-			// Example sentence.
-			String example = line.substring(2).trim();
-			if (!glossEntryList.isEmpty()) {
-				EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
-				if (additionalLine) {
-					glossEntry.appendExample(example);
-				} else {
-					glossEntry.addExample(example);
-				}
-			}
-			lastPrefix = "#:";
-			takeControl = false;
-			
-		} else 
+		final Matcher exampleMatcher = EXAMPLE_PATTERN.matcher(line);
+		if (exampleMatcher.find()) {
+			processExampleLine(line, exampleMatcher.group(), additionalLine);
+		} else
 		if (line.startsWith("#*")) {
 			// Quotation.
 			quotationHandler.extractQuotation(line.substring(1), additionalLine, context);
@@ -165,13 +153,6 @@ public class ENSenseHandler extends ENBlockHandler {
 			String subsense = line.substring(2).trim();
 			if (!glossEntryList.isEmpty()) {
 				EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
-				if (subsense.startsWith(":")) {
-					if (additionalLine)
-						glossEntry.appendExample(subsense.substring(1).trim());
-					else
-						glossEntry.addExample(subsense.substring(1).trim());
-					lastPrefix = "##:";
-				} else
 				if (subsense.startsWith("*")) {
 					quotationHandler.extractQuotation(subsense, additionalLine, context);
 					lastPrefix = "##*";
@@ -198,7 +179,7 @@ public class ENSenseHandler extends ENBlockHandler {
         }
 		return takeControl;
 	}
-	
+
 	protected void saveQuotations() {
 		List<Quotation> quotations = quotationHandler.getQuotations();
 		if (quotations.size() == 0 || glossEntryList.size() == 0)
@@ -252,4 +233,24 @@ public class ENSenseHandler extends ENBlockHandler {
 		entry.setGender(wordFormHandler.getGender());
 	}
 
+	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {
+		final String example = line.substring(currentPrefix.length()).trim();
+		if (!glossEntryList.isEmpty()) {
+			EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
+			final boolean translatedExample =
+					lastPrefix != null &&
+					EXAMPLE_PATTERN.matcher(lastPrefix).matches() &&
+					currentPrefix.length() > lastPrefix.length();
+
+			if (additionalLine) {
+				glossEntry.appendExample(example, " ");
+			} else if (translatedExample) {
+				glossEntry.appendExample(example, " – ");
+			} else {
+				glossEntry.addExample(example);
+			}
+		}
+		lastPrefix = currentPrefix;
+		takeControl = false;
+	}
 }

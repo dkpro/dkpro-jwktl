@@ -18,7 +18,8 @@ Earlier {{m|pt|cheo}}, from {{etyl|roa-opt|pt}} {{term|chẽo|lang=roa-opt}}, fr
 #: {{usex|lang=pt|A rua está '''cheia''' de trânsito|The street is full of traffic.}}
 #: {{usex|lang=pt|Estou '''cheio'''.|I'm full (not hungry anymore).}}
 # {{l/en|covered}}
-#: {{usex|lang=pt|A rua está '''cheia''' de óleo.|The street is covered with oil.}}
+#: A rua está '''cheia''' de óleo.
+#:: The street is covered with oil.
 # {{context|figurative|lang=pt}} [[fed up]], [[tired]], [[annoyed]]
 #: {{usex|lang=pt|Estou '''cheio''' dele.|I'm fed up with him.}}
 

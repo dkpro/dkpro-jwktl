@@ -210,5 +210,6 @@ JWKTL-1.0.2
 - Modified: Updated to xerces 2.11.0.
 - Fixed: Dump parser is timezone dependent (#9).
 - Fixed: Descendant relationship parsing bugs (#10).
-- Added: parse gender of non-English entries in EN-Wiktionary
-- Fixed: Translation extraction in the German Wiktionary (#12),
+- Added: parse gender of non-English entries in EN-Wiktionary.
+- Fixed: Translation extraction in the German Wiktionary (#12).
+- Fixed: correctly parse translated examples.
