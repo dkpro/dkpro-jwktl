@@ -54,14 +54,13 @@ public class EnGlossEntry {
 	}
 	
 	/** Append the specified example sentence to the last example
-	 *  sentences. The two examples are combined with a space and then
+	 *  sentences. The two examples are combined with the separator and then
 	 *  trimmed. */
-	public void appendExample(String example) {
+	public void appendExample(String example, String separator) {
 		if (exampleList.isEmpty())
 			return;
-		
 		int idx = exampleList.size() - 1;
-		example = exampleList.get(idx) + " " + example;
+		example = exampleList.get(idx) + separator + example;
 		exampleList.set(idx, example.trim());
 	}
 	

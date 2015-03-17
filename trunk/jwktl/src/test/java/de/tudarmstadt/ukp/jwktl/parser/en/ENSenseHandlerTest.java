@@ -24,9 +24,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
-import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
-import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
 
 /**
@@ -134,16 +132,17 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{usex|lang=pt|A rua está '''cheia''' de trânsito|The street is full of traffic.}}", senseFull.getExamples().get(0).getText());
 		assertEquals("{{usex|lang=pt|Estou '''cheio'''.|I'm full (not hungry anymore).}}", senseFull.getExamples().get(1).getText());
 
-		assertEquals("{{usex|lang=pt|A rua está '''cheia''' de óleo.|The street is covered with oil.}}", senseCovered.getExamples().get(0).getText());
+		assertEquals("A rua está '''cheia''' de óleo. – The street is covered with oil.", senseCovered.getExamples().get(0).getText());
 		assertEquals("{{usex|lang=pt|Estou '''cheio''' dele.|I'm fed up with him.}}", senseFedUp.getExamples().get(0).getText());
 	}
 
-	protected static void assertEntry(final ILanguage language,
-									  final PartOfSpeech partOfSpeech, int senseCount,
-									  final IWiktionaryEntry entry) {
-		assertEquals(language, entry.getWordLanguage());
-		assertEquals(partOfSpeech, entry.getPartOfSpeech());
-		assertEquals(senseCount, entry.getSenseCount());
+	public void testGetExamplesForSubSense() throws Exception {
+		IWiktionaryPage page = parse("head.txt");
+		// The [[principal]] [[operative]] part of a machine.
+		final IWiktionarySense senseWithSubSenses = page.getEntry(0).getSense(7);
+		final List<IWikiString> examples = senseWithSubSenses.getExamples();
+		assertEquals(2, examples.size());
+		assertEquals("''Hit the nail on the '''head'''!''", examples.get(0).getText());
+		assertEquals("''The '''head''' of the compass needle is pointing due north.''", examples.get(1).getText());
 	}
-
 }
