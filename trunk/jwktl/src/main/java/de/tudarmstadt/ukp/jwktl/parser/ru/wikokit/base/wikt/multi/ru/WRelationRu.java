@@ -185,7 +185,7 @@ public class WRelationRu {
             return NULL_WRELATION_ARRAY;
         }
         
-        return (WRelation[])wr_list.toArray(NULL_WRELATION_ARRAY);
+        return wr_list.toArray(NULL_WRELATION_ARRAY);
     }
     
     /** Parses one line of a semantic relations,

@@ -58,7 +58,7 @@ public class WQuoteRu {
         return text.substring(0, pos_quote).trim();
     }
 
-    /** Checks wheather the text has closing brackets without open brackets, 
+    /** Checks whether the text has closing brackets without open brackets,
      * so  if text looks like "|The title]]" (open "[[" is absent),
      *  then return true.
      */
@@ -84,17 +84,17 @@ public class WQuoteRu {
 
         String[] pipe_chunks = text.split("\\|");
 
-        List<String> source_list  = new LinkedList(Arrays.asList(pipe_chunks));
-        List<String> result_list  = new ArrayList();
+        List<String> source_list  = new LinkedList<String>(Arrays.asList(pipe_chunks));
+        List<String> result_list  = new ArrayList<String>();
 
         // merge adjacent chunks if chunk.prev.contains("[[") and chunk.next.has("]]")
 
-        Iterator it_source = source_list.iterator();
+        Iterator<String> it_source = source_list.iterator();
         while(it_source.hasNext())
         {
                                                 // for (Iterator it = chunk_list.iterator(); it.hasNext();) {
             //prev_value = next_value;
-            String value = (String)it_source.next();
+            String value = it_source.next();
 
             // if value looks like "|The title]]" (open "[[" is absent)
             // then it should be merged with previous chunk
@@ -107,7 +107,7 @@ public class WQuoteRu {
                 result_list.add( prev + "|" + value );
             }
         }
-        return (String[])result_list.toArray(NULL_STRING_ARRAY);
+        return result_list.toArray(NULL_STRING_ARRAY);
     }
 
     /** Removes highlighted marks from a sentence.
@@ -296,7 +296,7 @@ public class WQuoteRu {
      * {{пример|текст=|перевод=|автор=|титул=|издание=|перев=|дата=|источник=}} - with names
      *
      * @param page_title    word which is described in this article
-     * @param sb_line template without start "{{пример|" and "}}"
+     * @param sb template without start "{{пример|" and "}}"
      *
      * @return filled WQuote, null if there are no text in the example sentence
      */
@@ -449,7 +449,7 @@ for_label:
         if(null == quote_list)
             return NULL_WQUOTE_ARRAY;
 
-        return( (WQuote[])quote_list.toArray(NULL_WQUOTE_ARRAY) );
+        return quote_list.toArray(NULL_WQUOTE_ARRAY);
     }
 
 }

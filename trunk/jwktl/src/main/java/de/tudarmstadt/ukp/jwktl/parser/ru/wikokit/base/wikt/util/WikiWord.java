@@ -178,7 +178,7 @@ public class WikiWord {
             result = m.find();
             ww_list.add(w);   
         }
-        return( (WikiWord[])ww_list.toArray(NULL_WIKIWORD_ARRAY) );
+        return ww_list.toArray(NULL_WIKIWORD_ARRAY);
     }
 
 

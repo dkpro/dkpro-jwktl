@@ -127,6 +127,6 @@ public class WEtymologyEn {
         lt.text.append(lt_source.text.substring(end));
         etymology_sections.add(lt); // last Etymology section
 
-        return (LangText[])etymology_sections.toArray(NULL_LANG_TEXT_ARRAY);
+        return etymology_sections.toArray(NULL_LANG_TEXT_ARRAY);
     }
 }

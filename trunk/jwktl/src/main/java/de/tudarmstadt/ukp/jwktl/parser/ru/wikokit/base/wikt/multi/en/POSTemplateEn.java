@@ -85,7 +85,7 @@ public class POSTemplateEn extends POSType {
     public static String getTemplates(String token, POS pos) {
 
         Set<String> templates = type2name_in_text.get(pos);
-        return StringUtil.join(", ", (String[])templates.toArray(NULL_STRING_ARRAY));
+        return StringUtil.join(", ", templates.toArray(NULL_STRING_ARRAY));
     }
 
     

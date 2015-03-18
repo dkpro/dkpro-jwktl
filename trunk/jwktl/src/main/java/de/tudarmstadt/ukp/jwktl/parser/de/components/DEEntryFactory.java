@@ -28,6 +28,7 @@ import de.tudarmstadt.ukp.jwktl.parser.entry.EntryFactory;
  * 
  *
  */
+@SuppressWarnings("deprecation")
 public class DEEntryFactory extends EntryFactory {
 		
 	/**
@@ -45,7 +46,6 @@ public class DEEntryFactory extends EntryFactory {
 	}
 	
 	protected static final Map<String, PartOfSpeech> posMap;
-	
 	static {
 		posMap = new TreeMap<String, PartOfSpeech>();
 		posMap.put("ABKÜRZUNG", PartOfSpeech.ABBREVIATION);

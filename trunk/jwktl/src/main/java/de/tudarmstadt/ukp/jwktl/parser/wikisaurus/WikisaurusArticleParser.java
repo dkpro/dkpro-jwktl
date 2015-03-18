@@ -230,7 +230,7 @@ public class WikisaurusArticleParser implements IWiktionaryPageParser {
 					sense.addRelation(relation);
 		}
 		
-		wiktionaryDB.savePage((WiktionaryPage) page);		
+		wiktionaryDB.savePage(page);
 	}
 	
 	/** Extracts sense definition from Wikisaurus line. */

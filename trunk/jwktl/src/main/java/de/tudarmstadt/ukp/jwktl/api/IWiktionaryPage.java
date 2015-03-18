@@ -112,6 +112,6 @@ public interface IWiktionaryPage {
 	 *  never <code>null</code> and yields equivalent results to using 
 	 *  {@link #getEntry(int)} for all indices from zero to 
 	 *  {@link #getEntryCount()}. */
-	public List<IWiktionaryEntry> getEntries();
+	public List<? extends IWiktionaryEntry> getEntries();
 	
 }

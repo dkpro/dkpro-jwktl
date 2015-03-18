@@ -47,6 +47,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WTranslationEnt
  * @author Yevgen Chebotar
  * @author Christian M. Meyer
  */
+@SuppressWarnings("deprecation")
 public class WikokitToJWKTL {
 	
 	private Map<String, PartOfSpeech> posMap;

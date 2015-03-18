@@ -158,9 +158,8 @@ public class WikiParser {
      * (1) remove brackets, e.g. [[run]] -> run and 
      * (2) (todo) [[run|running]] -> run, or [[Russian language|Russian] -> Russian, 
      * i.e. the visible (to reader) words will remain.
-     * 
-     * @deprecated Use parseDoubleBrackets()
      */
+	@Deprecated
     public static StringBuffer removeBracketsInWikiLink(StringBuffer text) {
         Matcher m = ptrn_remove_brackets_in_wikilinks.matcher(text.toString());
         

@@ -148,7 +148,7 @@ public class WTranslationRu {
                         page_title + "' has several translation boxes, but not all of them have headers.");
         }
         
-        return( (WTranslation[])wt_list.toArray(NULL_WTRANSLATION_ARRAY) );
+        return wt_list.toArray(NULL_WTRANSLATION_ARRAY);
     }
 
     /** Checks, wheather all the translation boxes have headers. */
@@ -225,7 +225,7 @@ public class WTranslationRu {
         
         return new WTranslation(
                         meaning_summary,
-                        (WTranslationEntry[])wte_list.toArray(NULL_WTRANSLATIONENTRY_ARRAY));
+				wte_list.toArray(NULL_WTRANSLATIONENTRY_ARRAY));
     }
 
 }

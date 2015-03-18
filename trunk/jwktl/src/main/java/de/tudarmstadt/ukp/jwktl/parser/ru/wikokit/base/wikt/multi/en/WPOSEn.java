@@ -234,7 +234,7 @@ public class WPOSEn {
         if(pos_sections.isEmpty())
             return NULL_POS_TEXT_ARRAY;
         
-        return (POSText[])pos_sections.toArray(NULL_POS_TEXT_ARRAY);
+        return pos_sections.toArray(NULL_POS_TEXT_ARRAY);
     }
 
     /** Counts number of POS sections in this lt->text.

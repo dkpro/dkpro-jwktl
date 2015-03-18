@@ -139,7 +139,7 @@ public class WLanguageEn {
             lang_sections.add(lt);
         }
 
-        return (LangText[])lang_sections.toArray(NULL_LANG_TEXT_ARRAY);
+        return lang_sections.toArray(NULL_LANG_TEXT_ARRAY);
     }
 
 }

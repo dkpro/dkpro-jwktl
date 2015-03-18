@@ -148,7 +148,7 @@ public class WMeaningEn {
         if(null == wm_list)
             return NULL_WMEANING_ARRAY;
 
-        return( (WMeaning[])wm_list.toArray(NULL_WMEANING_ARRAY) );
+        return wm_list.toArray(NULL_WMEANING_ARRAY);
     }
 
 

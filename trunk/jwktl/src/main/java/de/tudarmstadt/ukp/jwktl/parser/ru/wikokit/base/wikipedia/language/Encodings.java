@@ -249,13 +249,13 @@ public class Encodings {
     
     /** Prints available encodings to stdout */
     public static void printEncodings() {
-        Map availcs = Charset.availableCharsets();
+        Map<String, Charset> availcs = Charset.availableCharsets();
         for (Object o:availcs.keySet()) {
                 System.out.println(o);
         }
     }
     /** Gets available encodings */
-    public static Map getEncodings() {
+    public static Map<String, Charset> getEncodings() {
         return Charset.availableCharsets();
     }
 }

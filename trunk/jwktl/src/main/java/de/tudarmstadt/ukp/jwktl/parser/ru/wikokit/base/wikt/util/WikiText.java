@@ -119,7 +119,7 @@ public class WikiText {
             return NULL_WIKITEXT_ARRAY;
         }
         
-        return (WikiText[])wt_list.toArray(NULL_WIKITEXT_ARRAY);
+        return wt_list.toArray(NULL_WIKITEXT_ARRAY);
     }
 
 

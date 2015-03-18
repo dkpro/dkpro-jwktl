@@ -35,7 +35,7 @@ public class DESenseDefinitionHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testAberration() throws Exception {
 		IWiktionaryPage page = parse("Aberration.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionarySense> senseIter = entry.getSenses().iterator();
+		Iterator<? extends IWiktionarySense> senseIter = entry.getSenses().iterator();
 		assertWiktionarySense(1, "[[Astronomie]]: [[scheinbar]]e [[Ortsveränderung]] eines [[Gestirn]]s aufgrund der [[Erdbewegung]] und der Endlichkeit der [[Lichtgeschwindigkeit]]"
 				+ "\n*[[jährlich]]e ''Aberration'': aufgrund des [[Erdumlauf]]s um die [[Sonne]]"
 				+ "\n*[[täglich]]e ''Aberration'': aufgrund der [[Erdrotation]]", senseIter.next());
