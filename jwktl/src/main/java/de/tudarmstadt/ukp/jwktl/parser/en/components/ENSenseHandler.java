@@ -38,7 +38,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author  Lizhen Qu
  */
 public class ENSenseHandler extends ENBlockHandler {
-	protected static final Pattern EXAMPLE_PATTERN = Pattern.compile("#+:+");
+	protected static final Pattern EXAMPLE_PATTERN = Pattern.compile("^#+:+");
 	protected static final Pattern POS_PATTERN = Pattern.compile(
 			"^====?\\s*(?:" 
 			+ "\\{\\{([^\\}\\|]+)(?:\\|[^\\}\\|]*)?\\}\\}|"
