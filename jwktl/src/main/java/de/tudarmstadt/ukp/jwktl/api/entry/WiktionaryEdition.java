@@ -82,7 +82,7 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 			
 			protected IWiktionaryIterator<IWiktionaryPage> allPages
 					= getAllPages(null, sortByTitle, normalize);
-			protected Iterator<IWiktionaryEntry> entries;
+			protected Iterator<? extends IWiktionaryEntry> entries;
 			
 			protected IWiktionaryEntry fetchNext() {
 				do {
@@ -174,7 +174,7 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 			
 			protected IWiktionaryIterator<IWiktionaryEntry> allEntries
 					= getAllEntries(sortByTitle, normalize);
-			protected Iterator<IWiktionarySense> senses;
+			protected Iterator<? extends IWiktionarySense> senses;
 			
 			protected IWiktionarySense fetchNext() {
 				do {

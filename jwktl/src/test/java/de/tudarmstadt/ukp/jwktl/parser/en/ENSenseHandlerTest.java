@@ -35,7 +35,7 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 
 	public void testHead() throws Exception {
 		IWiktionaryPage page = parse("head.txt");
-		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
+		Iterator<? extends IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
 		assertEquals("{{countable}} The part of the [[body]] of an animal or human which contains the [[brain]], [[mouth]]{{,}} and main [[sense]] [[organs]].", senseIter.next().getGloss().getText());
 		assertEquals("{{uncountable}} [[mental|Mental]] or [[emotional]] [[aptitude]] or [[skill]].", senseIter.next().getGloss().getText());
 		assertEquals("{{countable}} [[mind|Mind]]; one's own [[thought]]s.", senseIter.next().getGloss().getText());
@@ -85,14 +85,14 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 
 	public void testForGoodMeasure() throws Exception {
 		IWiktionaryPage page = parse("for_good_measure.txt");
-		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
+		Iterator<? extends IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
 		assertEquals("{{idiomatic}} In excess of the minimum required; Added as an [[extra]]", senseIter.next().getGloss().getText());
 		assertFalse(senseIter.hasNext());
 	}
 
 	public void testBatsman() throws Exception {
 		IWiktionaryPage page = parse("batsman.txt");
-		Iterator<IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
+		Iterator<? extends IWiktionarySense> senseIter = page.getEntry(0).getSenses().iterator();
 		assertEquals("{{cricket}} A [[player]] of the [[batting]] [[side]] now on the [[field]]", senseIter.next().getGloss().getText());
 		assertEquals("{{cricket}} The [[player]] now [[receiving]] [[strike]]; the [[striker]]", senseIter.next().getGloss().getText());
 		assertEquals("{{cricket}} Any player selected for his or her [[team]] principally to [[bat]], as opposed to a [[bowler]]", senseIter.next().getGloss().getText());

@@ -308,17 +308,17 @@ public class WRelationEn {
 
         wr_list = chompNullElementsEndOfList(wr_list);
 
-        return (WRelation[])wr_list.toArray(NULL_WRELATION_ARRAY);
+        return wr_list.toArray(NULL_WRELATION_ARRAY);
     }
 
     /** Chomps NULL elements at the end of list (wr_list), if there is any.
      */
     private static List<WRelation> chompNullElementsEndOfList(List<WRelation> wr_list) {
 
-        ListIterator i = wr_list.listIterator(wr_list.size());
+        ListIterator<WRelation> i = wr_list.listIterator(wr_list.size());
         if(i.hasPrevious()) {
             do {
-                Object wr = i.previous();
+                WRelation wr = i.previous();
 
                 if(null == wr)
                     i.remove();

@@ -198,8 +198,8 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return entries.size();
 	}
 	
-	public List<IWiktionaryEntry> getEntries() {
-		return (List) entries;
+	public List<? extends IWiktionaryEntry> getEntries() {
+		return entries;
 	}
 	
 	/** Internal interface that is used by the parsers. */

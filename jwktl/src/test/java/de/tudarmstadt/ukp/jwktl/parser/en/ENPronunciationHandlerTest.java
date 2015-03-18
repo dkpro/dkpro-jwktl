@@ -51,7 +51,7 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testWomen() throws Exception {
 		IWiktionaryPage page = parse("women.txt");
 //		printPronunciations(page);
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		Iterator<IPronunciation> pronIter = entryIter.next().getPronunciations().iterator();		
 		assertPronunciation(PronunciationType.IPA, "/ˈwɪmɪn/", "RP", pronIter.next());
 		assertPronunciation(PronunciationType.IPA, "/ˈwɪmən/", "US", pronIter.next());
@@ -69,7 +69,7 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testBass() throws Exception {
 		IWiktionaryPage page = parse("bass.txt");
 //		printPronunciations(page);
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		Iterator<IPronunciation> pronIter = entryIter.next().getPronunciations().iterator();		
 		assertPronunciation(PronunciationType.IPA, "/beɪs/", "", pronIter.next());
 		assertPronunciation(PronunciationType.SAMPA, "/beIs/", "", pronIter.next());
@@ -94,7 +94,7 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testWord() throws Exception {
 		IWiktionaryPage page = parse("word.txt");
 //		printPronunciations(page);
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		Iterator<IPronunciation> pronIter;
 		for (int i = 0; i < 3; i++) {
 			pronIter = entryIter.next().getPronunciations().iterator();

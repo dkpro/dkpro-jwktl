@@ -196,7 +196,7 @@ public class WPOSRu {
             pos_sections.add(pt);
         }
         
-        return (POSText[])pos_sections.toArray(NULL_POS_TEXT_ARRAY);
+        return pos_sections.toArray(NULL_POS_TEXT_ARRAY);
     }
 
 
@@ -328,7 +328,7 @@ public class WPOSRu {
             pos_sections.add(pt);
         }
 
-        return (POSText[])pos_sections.toArray(NULL_POS_TEXT_ARRAY);
+        return pos_sections.toArray(NULL_POS_TEXT_ARRAY);
     }
 
     /** The POS should be extracted from the texts, e.g.<PRE>

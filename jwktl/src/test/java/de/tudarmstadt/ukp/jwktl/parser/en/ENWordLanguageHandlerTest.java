@@ -35,7 +35,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testAbele() throws Exception {
 		IWiktionaryPage page = parse("abele.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		assertEntry(Language.ENGLISH, PartOfSpeech.NOUN, 1, entryIter.next());
 		assertEntry(Language.findByName("Novial"), PartOfSpeech.NOUN, 1, entryIter.next());
 		assertFalse(entryIter.hasNext());
@@ -44,7 +44,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testBass() throws Exception {
 		IWiktionaryPage page = parse("bass.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		assertEntry(Language.ENGLISH, PartOfSpeech.ADJECTIVE, 1, entryIter.next());
 		assertEntry(Language.ENGLISH, PartOfSpeech.NOUN, 5, entryIter.next());
 		assertEntry(Language.ENGLISH, PartOfSpeech.NOUN, 1, entryIter.next());
@@ -55,7 +55,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testDid() throws Exception {
 		IWiktionaryPage page = parse("did.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		assertEntry(Language.findByName("Translingual"), PartOfSpeech.NUMBER, 1, entryIter.next());
 		assertEntry(Language.ENGLISH, PartOfSpeech.VERB, 1, entryIter.next());
 		assertEntry(Language.findByName("Old Welsh"), PartOfSpeech.NOUN, 1, entryIter.next());
@@ -76,7 +76,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 		System.out.println();*/
 		
 		IWiktionaryPage page = parse("it_s.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		assertEntry(Language.ENGLISH, PartOfSpeech.CONTRACTION, 2, entryIter.next());
 		assertFalse(entryIter.hasNext());
 	}
@@ -84,7 +84,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testMay() throws Exception {
 		IWiktionaryPage page = parse("may.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		/*while (entryIter.hasNext()) {
 			IWiktionaryEntry e = entryIter.next();
 			System.out.println(e.getWord() + ":" + e.getPartOfSpeech() + "/" + e.getWordLanguage());
@@ -105,7 +105,7 @@ public class ENWordLanguageHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testPortmanteau() throws Exception {
 		IWiktionaryPage page = parse("portmanteau.txt");
-		Iterator<IWiktionaryEntry> entryIter = page.getEntries().iterator();
+		Iterator<? extends IWiktionaryEntry> entryIter = page.getEntries().iterator();
 		assertEntry(Language.ENGLISH, PartOfSpeech.NOUN, 1, entryIter.next());
 		assertEntry(Language.ENGLISH, PartOfSpeech.NOUN, 1, entryIter.next());
 		assertEntry(Language.ENGLISH, PartOfSpeech.ADJECTIVE, 1, entryIter.next());

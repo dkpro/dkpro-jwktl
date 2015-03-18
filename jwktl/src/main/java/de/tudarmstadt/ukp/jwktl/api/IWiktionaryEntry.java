@@ -162,7 +162,7 @@ public interface IWiktionaryEntry {
 	 *  this entry, i.e. all senses with index 1 to {@link #getSenseCount()}. 
 	 *  This method is equivalent to {@link #getSenses(boolean)} with parameter 
 	 *  <code>false</code>. */
-	public Iterable<IWiktionarySense> getSenses();
+	public Iterable<? extends IWiktionarySense> getSenses();
 
 	/** Returns the list of all {@link IWiktionarySense}s. The list is
 	 *  never null nor empty. If the parameter is set to <code>true</code>,
@@ -170,7 +170,7 @@ public interface IWiktionaryEntry {
 	 *  to {@link #getUnassignedSense()}. The following elements are all
 	 *  senses of this entry, i.e. all senses with index 1 to 
 	 *  {@link #getSenseCount()}. */
-	public Iterable<IWiktionarySense> getSenses(boolean includeUnassignedSense);
+	public Iterable<? extends IWiktionarySense> getSenses(boolean includeUnassignedSense);
 
 	
 	// -- Combination --

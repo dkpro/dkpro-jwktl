@@ -61,7 +61,7 @@ public class POSTemplateRu extends POSType {
         {   // store (POS, +=name_in_text) -> type2name_in_text
             Set<String> templates = type2name_in_text.get(type);
             if(null == templates)
-                templates = new HashSet();
+                templates = new HashSet<String>();
 
             templates.add(name_in_text);
             type2name_in_text.put(type, templates);
@@ -100,7 +100,7 @@ public class POSTemplateRu extends POSType {
         if(null == templates)
             return "";
 
-        return StringUtil.join(", ", (String[])templates.toArray(NULL_STRING_ARRAY));
+        return StringUtil.join(", ", templates.toArray(NULL_STRING_ARRAY));
     }
     
     

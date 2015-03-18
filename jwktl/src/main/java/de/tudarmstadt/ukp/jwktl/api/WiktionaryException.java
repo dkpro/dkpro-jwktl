@@ -24,7 +24,8 @@ package de.tudarmstadt.ukp.jwktl.api;
  * @author Christof Müller
  */
 public class WiktionaryException extends RuntimeException {
-	
+	private static final long serialVersionUID = 5373008056379642627L;
+
 	/***/
 	public WiktionaryException() {
 		super();

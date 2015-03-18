@@ -54,7 +54,7 @@ public class Example2_AccessParsedWiktionaryData {
 		System.out.println(formatter.formatHeader(page));
 		
 		// Retrieve entries.
-		List<IWiktionaryEntry> entries = page.getEntries();
+		List<? extends IWiktionaryEntry> entries = page.getEntries();
 		for (IWiktionaryEntry entry : entries)
 			System.out.println(WiktionaryFormatter.instance().formatHeader(entry));
 		entries = wkt.getEntriesForWord("boat");

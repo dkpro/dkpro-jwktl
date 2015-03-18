@@ -27,6 +27,7 @@ import de.tudarmstadt.ukp.jwktl.parser.entry.EntryFactory;
  * <p>A factory creates PosEntry objects
  *
  */
+@SuppressWarnings("deprecation")
 public class ENEntryFactory extends EntryFactory {
 			
 	public PartOfSpeech findPartOfSpeech(final String name) {

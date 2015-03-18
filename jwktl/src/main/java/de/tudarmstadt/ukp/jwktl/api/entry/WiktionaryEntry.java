@@ -241,7 +241,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return senses.size() - 1; // don't count the unassigned sense.
 	}
 
-	public List<IWiktionarySense> getSenses() {
+	public List<? extends IWiktionarySense> getSenses() {
 		// This cast is used to transform the internal representation using
 		// the WiktionarySense type to the interface type IWiktionarySense.
 		// Although this might not be the cleanest way to do that, exposing
@@ -253,7 +253,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return getSenses(false);
 	}
 	
-	public List<IWiktionarySense> getSenses(boolean includeUnassignedSense) {
+	public List<? extends IWiktionarySense> getSenses(boolean includeUnassignedSense) {
 		// This cast is used to transform the internal representation using
 		// the WiktionarySense type to the interface type IWiktionarySense.
 		// Although this might not be the cleanest way to do that, exposing
@@ -262,9 +262,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		// of the senses. It is the user's responsibility to not make any 
 		// changes to this exposed internal representation.
 		if (includeUnassignedSense)
-			return (List) senses;
+			return senses;
 		else
-			return (List) senses.subList(1, senses.size());
+			return senses.subList(1, senses.size());
 	}
 
 	/** Internal interface that is used by the parsers. */

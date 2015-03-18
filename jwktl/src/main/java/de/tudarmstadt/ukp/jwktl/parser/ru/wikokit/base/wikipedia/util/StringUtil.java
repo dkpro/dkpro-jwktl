@@ -88,7 +88,7 @@ public class StringUtil {
             ls.add( s.substring( previousLoc ) );
         }
         
-        return( (String[])ls.toArray(NULL_STRING_ARRAY) );
+        return ls.toArray(NULL_STRING_ARRAY);
     }
 
     /** Doubles slashes before quotes. */
@@ -277,7 +277,7 @@ public class StringUtil {
                     result.add(b[i]);
             }
         }
-        return ((String[])result.toArray(NULL_STRING_ARRAY));
+        return result.toArray(NULL_STRING_ARRAY);
     }
     
     /** Returns true if array 'ar' contains string 'wanted', ignore case. */

@@ -100,7 +100,7 @@ public class WiktionaryFormatter {
 
 		for (String ws : page.getCategories())
 			result.append("  CAT: ").append(ws).append("\n");
-		TreeSet<String> iwl = new TreeSet(page.getInterWikiLinks());
+		TreeSet<String> iwl = new TreeSet<String>(page.getInterWikiLinks());
 		result.append("  INT: ").append(Arrays.toString(iwl.toArray())).append("\n");
 		
 		return result.toString();
