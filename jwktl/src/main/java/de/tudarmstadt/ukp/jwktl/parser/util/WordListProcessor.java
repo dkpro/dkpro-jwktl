@@ -280,7 +280,7 @@ public class WordListProcessor {
 					if (i >= 0) {
 						String templateName = templateText.substring(0, i);
 						// Link template
-						if ("l".equals(templateName)) {
+						if ("l".equals(templateName) || templateName.startsWith("l/")) {
 							int idx = templateText.indexOf('|', i + 1);
 							if (idx >= 0) {
 								final int closing = templateText.indexOf('|', idx + 1);

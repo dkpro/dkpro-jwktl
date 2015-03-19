@@ -18,6 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.parser.en;
 
 import java.util.Iterator;
+import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
@@ -30,6 +31,16 @@ import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
  * @author Christian M. Meyer
  */
 public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
+
+	public void testRelationsCasa() throws Exception {
+		IWiktionaryPage page = parse("casa.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertEquals(20, entry.getRelations().size());
+		final List<IWiktionaryRelation> synonyms = entry.getRelations(RelationType.SYNONYM);
+		final List<IWiktionaryRelation> derived = entry.getRelations(RelationType.DERIVED_TERM);
+		assertEquals(2, synonyms.size());
+		assertEquals(18, derived.size());
+	}
 
 	public void testRelationsDescendantsDid() throws Exception {
 		IWiktionaryPage page = parse("did.txt");
