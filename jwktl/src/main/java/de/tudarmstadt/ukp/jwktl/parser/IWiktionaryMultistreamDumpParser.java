@@ -1,14 +1,14 @@
 /*******************************************************************************
- * Copyright 2013
+ * Copyright 2015
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -21,30 +21,16 @@ import java.io.File;
 
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 
-/**
- * Parser for Wiktionary dump files obtained from 
- * http://download.wikimedia.org/backup-index.html.
- * @author Christian M. Meyer 
- */
-public interface IWiktionaryDumpParser {
+public interface IWiktionaryMultistreamDumpParser extends IWiktionaryDumpParser {
 	/**
-	 * Starts the parsing of the given dump file. The file can be either
-	 * bzip2-compressed or the extracted XML version.
+	 * Parses a multistream XML dump file
 	 *
-	 * @param dumpFile the dumpFile
-	 * @throws WiktionaryException in case of any parser errors.
+	 * @param multistreamDumpFile the dumpfile (<code>*-pages-articles-multistream-index.txt.bz2</code>)
+	 * @param indexFile           the matching index file (<code>*-pages-articles-multistream.xml.bz2</code>)
+	 * @param filter              the filter to use to constrain the parsed pages
+	 * @throws de.tudarmstadt.ukp.jwktl.api.WiktionaryException
 	 */
-	public void parse(final File dumpFile) throws WiktionaryException;
-
-	/**
-	 * Register the given {@link IWiktionaryPageParser}. The registered
-	 * parser will then be notified once a Wiktionary-related XML tag
-	 * has been processed.
-	 */
-	public void register(final IWiktionaryPageParser pageParser);
-
-	/**
-	 * Returns the list of all registered {@link IWiktionaryPageParser}s.
-	 */
-	public Iterable<IWiktionaryPageParser> getPageParsers();
+	void parseMultistream(File multistreamDumpFile,
+						  File indexFile,
+						  MultistreamFilter filter) throws WiktionaryException;
 }
