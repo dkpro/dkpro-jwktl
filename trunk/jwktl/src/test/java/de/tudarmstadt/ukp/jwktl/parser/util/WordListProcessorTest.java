@@ -46,7 +46,6 @@ public class WordListProcessorTest extends TestCase {
         assertEquals(words.get(0), "foo");
     }
 
-
     public void testSplitWordListWithTwoSimpleTemplateItems() throws Exception {
         final List<String> words = processor.splitWordList("{{l|fr|foo}}, {{l|uk|bar}}");
         assertEquals(words.size(), 2);
@@ -54,11 +53,17 @@ public class WordListProcessorTest extends TestCase {
         assertEquals(words.get(1), "bar");
     }
 
+	public void testSplitWordListWithTwoSimpleTemplateItemsSlashedLinkTemplate() throws Exception {
+		final List<String> words = processor.splitWordList("{{l/fr|foo}}, {{l/uk|bar}}");
+		assertEquals(words.size(), 2);
+		assertEquals(words.get(0), "foo");
+		assertEquals(words.get(1), "bar");
+	}
+
     public void testSplitWordListWithTwoComplexTemplateItems() throws Exception {
         final List<String> words = processor.splitWordList("{{l|hi|बरामदा|tr=barāmdā|sc=Deva}}, {{l|hi|बरण्डा|tr=baraṇḍā|sc=Deva}}");
         assertEquals(words.size(), 2);
         assertEquals(words.get(0), "बरामदा");
         assertEquals(words.get(1), "बरण्डा");
     }
-
 }

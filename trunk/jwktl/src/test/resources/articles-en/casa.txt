@@ -1,0 +1,67 @@
+==Portuguese==
+{{wikipedia|lang=pt}}
+[[Image:Ein typisches Haus.jpg|thumb|250px|casa]]
+
+===Etymology===
+From {{etyl|roa-opt|pt}} {{term|casa|lang=roa-opt}}, from {{etyl|la|pt}} {{term|casa||cottage|lang=la}}, possibly from {{etyl|ine-pro|pt}} {{m|ine-pro|*kat-||to link or weave together; chain, net; hut, shed}}.
+
+===Pronunciation===
+* {{a|Portugal}} {{IPA|/ˈka.zɐ/|lang=pt}}
+** {{audio|pt-pt-casa.ogg|Audio (PT)|lang=pt}}
+* {{a|Brazil}} {{IPA|/ˈka.za/|/ˈka.zɐ/|lang=pt}}
+* {{hyphenation|ca|sa|lang=pt}}
+
+===Noun===
+{{pt-noun|f|s}}
+
+# {{l/en|house}} {{gloss|structure serving as an abode of human beings}}
+#* {{RQ:Harry Potter|6|pt-BR|page=135}}
+#*: Ele agora tem uma '''casa''' nas montanhas, foi Dumbledore que arranjou, uma bela caverna.
+#*:: He now has a '''house''' in the mountains, Dumbledore is who provided it, a beautiful cave.
+# {{l/en|home}} {{gloss|one’s own dwelling place}}
+# {{context|in compounds|lang=pt}} {{l/en|shop}} {{gloss|establishment that sells goods or service}}
+#: {{usex|'''Casa''' de carnes.|t=Butcher’s '''shop''' (''literally: '''House''' of meats).|lang=pt}}
+# {{context|board games|lang=pt}} a {{l/en|cell}} which may be occupied by a {{l/en|piece}} (such as a {{l/en|square}} in a {{l/en|chessboard}})
+# a {{l/en|digit}} position
+#: {{usex|No número 12345, o algarismo 3 ocupa a '''casa''' das centenas.|t=In the number 12345, the digit 3 is in the hundreds’ '''position'''.|lang=pt}}
+# {{l/en|house}} {{gloss|noble family}}
+
+====Synonyms====
+* {{sense|home}} {{l/pt|lar}}
+* {{sense|shop}} {{l/pt|loja}}
+
+====Derived terms====
+* {{l/pt|casinha}}, {{l/pt|casebre}}, {{l/pt|casita}}, {{l/pt|casucha}}, {{l/pt|casinhola}}, {{l/pt|casinholo}}, {{l/pt|casinhota}}, {{l/pt|casinhoto}} {{qualifier|diminutives}}
+* {{l/pt|casão}}, {{l/pt|casona}}, {{l/pt|casarão}}, {{l/pt|casaréu}} {{qualifier|augmentatives}}
+{{top3}}
+* {{l/pt|casa civil}}
+* {{l/pt|casa da mãe joana}}
+* {{l/pt|casa de banho}}
+* {{l/pt|casa de câmara e cadeia}}
+* {{l/pt|casa de campo}}
+* {{l/pt|casa de cômodos}}
+{{mid3}}
+* {{l/pt|casa de correção}}
+* {{l/pt|casa de despejo}}
+* {{l/pt|casa de orates}}
+* {{l/pt|casa noturna}}
+* {{l/pt|casa onde não há pão, todos ralham e ninguém tem razão}} — In a house without bread, everyone argues and no one is right.
+* {{l/pt|casa roubada, trancas à porta}} — Robbed house, locked doors.
+{{mid3}}
+* {{l/pt|em casa de ferreiro, espeto de pau}} — At a blacksmith’s house, wooden skewer.
+* {{l/pt|ô de casa}}
+* {{l/pt|quem casa quer casa}} — Those who marry want a house.
+* {{l/pt|santa casa}}
+* {{l/pt|sentir-se em casa}}
+* {{l/pt|ser de casa}}
+{{bottom}}
+
+===Verb===
+{{pt-verb-form}}
+
+# {{pt-verb form of|casar|ar|indicative|present|singular|third}}
+# {{pt-verb form of|casar|ar|imperative|affirmative|singular|second}}
+
+[[Category:pt:Buildings]]
+
+----

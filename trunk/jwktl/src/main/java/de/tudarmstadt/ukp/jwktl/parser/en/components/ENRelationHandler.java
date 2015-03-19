@@ -98,7 +98,7 @@ public class ENRelationHandler extends ENSenseIndexedBlockHandler {
 				int midIndex = text.indexOf('|',curlyStartIndex);
 				if(midIndex != -1 && midIndex < curlyEndIndex){					
 					String templateName = text.substring(curlyStartIndex + 2, midIndex);
-					if ("l".equals(templateName)) {
+					if ("l".equals(templateName) || templateName.startsWith("l/")) {
 						startIndex = -1;
 						endIndex = -1;
 						curlyEndIndex = -1;
