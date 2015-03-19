@@ -20,14 +20,18 @@ package de.tudarmstadt.ukp.jwktl.parser;
 import java.io.File;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.GregorianCalendar;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Locale;
 import java.util.Queue;
 import java.util.TimeZone;
 
+import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
 import junit.framework.TestCase;
 
 /**
@@ -143,5 +147,90 @@ public class WiktionaryDumpParserTest extends TestCase {
 		assertEquals(expected.getTime(), 
 				parser.parseTimestamp("1956-03-17T21:30:15Z"));
 	}
-	
+
+	public void testParseMultistream() throws Exception {
+		final List<Long> pageIds = new ArrayList<Long>();
+		final IDumpInfo[] siteInfo = new IDumpInfo[1];
+		final WiktionaryDumpParser parser = new WiktionaryDumpParser(new EmptyParser() {
+			@Override
+			public void onSiteInfoComplete(IDumpInfo dumpInfo) {
+				if (siteInfo[0] == null) {
+					siteInfo[0] = dumpInfo;
+				} else {
+					throw new IllegalStateException("received onSiteInfoComplete more than once");
+				}
+			}
+
+			@Override public void setPageId(long pageId) {
+				pageIds.add(pageId);
+			}
+		});
+
+		final File multistreamDump = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream.xml.bz2").getFile());
+		final File multistreamDumpIndex = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream-index.txt.bz2").getFile());
+
+		parser.parseMultistream(
+				multistreamDump,
+				multistreamDumpIndex,
+				new MultistreamFilter.IncludingNames("aardvark"));
+
+		assertNotNull("did not parse siteInfo", siteInfo[0]);
+		assertEquals(Language.ENGLISH, siteInfo[0].getDumpLanguage());
+
+		assertEquals(100, pageIds.size());
+		final long first = pageIds.get(0);
+		final long last = pageIds.get(pageIds.size()-1);
+		assertEquals(177L, first);
+		assertEquals(306L, last);
+	}
+
+	static class EmptyParser implements  IWiktionaryPageParser {
+		@Override
+		public void onParserStart(IDumpInfo dumpInfo) {
+		}
+
+		@Override
+		public void onSiteInfoComplete(IDumpInfo dumpInfo) {
+		}
+
+		@Override
+		public void onParserEnd(IDumpInfo dumpInfo) {
+		}
+
+		@Override
+		public void onClose(IDumpInfo dumpInfo) {
+		}
+
+		@Override
+		public void onPageStart() {
+		}
+
+		@Override
+		public void onPageEnd() {
+		}
+
+		@Override
+		public void setAuthor(String author) {
+		}
+
+		@Override
+		public void setRevision(long revisionId) {
+		}
+
+		@Override
+		public void setTimestamp(Date timestamp) {
+		}
+
+		@Override
+		public void setPageId(long pageId) {
+		}
+
+		@Override
+		public void setTitle(String title, String namespace) {
+		}
+
+		@Override
+		public void setText(String text) {
+		}
+	}
 }

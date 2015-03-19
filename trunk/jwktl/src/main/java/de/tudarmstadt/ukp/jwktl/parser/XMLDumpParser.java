@@ -17,22 +17,21 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser;
 
+import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Stack;
-
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
+import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 import org.apache.tools.bzip2.CBZip2InputStream;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
-
-import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 
 /**
  * Implementation of {@link IWiktionaryDumpParser} for processing XML files
@@ -108,39 +107,34 @@ public abstract class XMLDumpParser implements IWiktionaryDumpParser {
 	/** The file extension for bzip2 files that is used for the automatic 
 	 *  detection of the file format. */
 	public static final String BZ2_FILE_EXTENSION = ".bz2";
-	
 
-	/** Parses the given XML dump file. The file format is automatically 
+
+	/** Parses the given XML dump file. The file format is automatically
 	 *  detected using the file extension: it can be either bzip2 compressed
 	 *  or uncompressed XML. Internally, a SAX parser is used.
 	 *  @throws WiktionaryException in case of any parser errors. */
 	public void parse(final File dumpFile) throws WiktionaryException {
-		// Open the dump file; decompress if necessary.
 		try {
-			InputStream in = new FileInputStream(dumpFile);
-			try {
-				if (dumpFile.getName().endsWith(BZ2_FILE_EXTENSION)) {
-					if (in.read(new byte[2]) != 2)
-						throw new IOException("Unable to decompress dump file");
-					in = new CBZip2InputStream(in);			
-				}
-
-				// Run the SAX parser.
-				SAXParserFactory factory = SAXParserFactory.newInstance();
-				SAXParser saxParser = factory.newSAXParser();
-				saxParser.parse(in, new XMLDumpHandler());
-			} finally {
-				in.close();
-			}
+			parseStream(openDumpFile(dumpFile));
 		} catch (IOException e) {
-			throw new WiktionaryException("Unable to access dump file", e);
-		} catch (ParserConfigurationException e) {
-			throw new WiktionaryException("SAX parser could not be configured", e);
-		} catch (SAXException e) {
-			throw new WiktionaryException("XML parse error", e);
+			throw new WiktionaryException(e);
 		}
 	}
-	
+
+	protected void parseStream(InputStream in) throws IOException {
+		try {
+			// Run the SAX parser.
+			getParser().parse(in, new XMLDumpHandler());
+		} catch (SAXException e) {
+			throw new WiktionaryException("XML parse error", e);
+		} finally {
+			try {
+				in.close();
+			} catch (IOException ignored) {
+			}
+		}
+	}
+
 	/** Hotspot that is invoked on starting the parser. Use this hotspot to 
 	 *  initialize your data. */
 	protected void onParserStart() {}
@@ -156,5 +150,43 @@ public abstract class XMLDumpParser implements IWiktionaryDumpParser {
 	/** Hotspot that is invoked on finishing the parsing. Use this hotspot
 	 *  for cleaning up and closing resources. */
 	protected void onParserEnd() {}
-	
+
+	/**
+	 * Opens a .bz2 file for reading
+	 * @param file the bz2 file
+	 * @return the input stream containing decompressed data
+	 * @throws IOException if file is invalid or cannot be read
+	 */
+	protected InputStream openBz2File(File file) throws IOException {
+		InputStream in = new BufferedInputStream(new FileInputStream(file));
+		final byte[] header = new byte[2];
+		if (in.read(header) != 2) {
+			throw new IOException("Unable to decompress dump file");
+		}
+		if (header[0] != 'B' || header[1] != 'Z') {
+			throw new IOException("Invalid file header");
+		} else {
+			return new CBZip2InputStream(in);
+		}
+	}
+
+	// Open the dump file; decompress if necessary.
+	private InputStream openDumpFile(File dumpFile) throws IOException {
+		if (dumpFile.getName().endsWith(BZ2_FILE_EXTENSION)) {
+			return openBz2File(dumpFile);
+		} else {
+			return new FileInputStream(dumpFile);
+		}
+	}
+
+	private SAXParser getParser() {
+		try {
+			SAXParserFactory factory = SAXParserFactory.newInstance();
+			return factory.newSAXParser();
+		} catch (ParserConfigurationException e) {
+			throw new WiktionaryException("SAX parser could not be configured", e);
+		} catch (SAXException e) {
+			throw new WiktionaryException("XML parse error", e);
+		}
+	}
 }

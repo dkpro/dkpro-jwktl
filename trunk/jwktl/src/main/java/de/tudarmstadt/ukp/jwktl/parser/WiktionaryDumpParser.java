@@ -18,6 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.parser;
 
 import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -43,7 +44,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
  * example, handle different page types or namespaces. 
  * @author Christian M. Meyer
  */
-public class WiktionaryDumpParser extends XMLDumpParser {
+public class WiktionaryDumpParser extends XMLDumpParser implements IWiktionaryMultistreamDumpParser {
 
 	private static final Logger logger = Logger.getLogger(WiktionaryDumpParser.class.getName());
 	
@@ -77,7 +78,20 @@ public class WiktionaryDumpParser extends XMLDumpParser {
 		super.parse(dumpFile);
 		onClose();
 	}
-	
+
+	@Override
+	public void parseMultistream(File multistreamDumpFile,
+								 File indexFile,
+								 MultistreamFilter filter) throws WiktionaryException {
+		dumpInfo = new DumpInfo(multistreamDumpFile, this);
+		try {
+			new MultistreamXMLDumpParser(this).parseMultistream(multistreamDumpFile, indexFile, filter);
+			onClose();
+		} catch (IOException e) {
+			throw new WiktionaryException(e);
+		}
+	}
+
 	@Override
 	protected void onParserStart() {
 		super.onParserStart();
@@ -246,5 +260,4 @@ public class WiktionaryDumpParser extends XMLDumpParser {
 	public IDumpInfo getDumpInfo() {
 		return dumpInfo;
 	}
-	
 }
