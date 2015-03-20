@@ -166,8 +166,8 @@ public class WiktionaryDumpParserTest extends TestCase {
 			}
 		});
 
-		final File multistreamDump = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream.xml.bz2").getFile());
-		final File multistreamDumpIndex = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream-index.txt.bz2").getFile());
+		final File multistreamDump = new File("src/test/resources/enwiktionary-20150224-pages-articles-multistream.xml.bz2");
+		final File multistreamDumpIndex = new File("src/test/resources/enwiktionary-20150224-pages-articles-multistream-index.txt.bz2");
 
 		parser.parseMultistream(
 				multistreamDump,
