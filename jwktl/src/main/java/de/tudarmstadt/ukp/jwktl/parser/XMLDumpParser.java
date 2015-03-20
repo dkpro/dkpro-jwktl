@@ -17,7 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser;
 
-import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -28,7 +27,6 @@ import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
-import org.apache.tools.bzip2.CBZip2InputStream;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -151,29 +149,10 @@ public abstract class XMLDumpParser implements IWiktionaryDumpParser {
 	 *  for cleaning up and closing resources. */
 	protected void onParserEnd() {}
 
-	/**
-	 * Opens a .bz2 file for reading
-	 * @param file the bz2 file
-	 * @return the input stream containing decompressed data
-	 * @throws IOException if file is invalid or cannot be read
-	 */
-	protected InputStream openBz2File(File file) throws IOException {
-		InputStream in = new BufferedInputStream(new FileInputStream(file));
-		final byte[] header = new byte[2];
-		if (in.read(header) != 2) {
-			throw new IOException("Unable to decompress dump file");
-		}
-		if (header[0] != 'B' || header[1] != 'Z') {
-			throw new IOException("Invalid file header");
-		} else {
-			return new CBZip2InputStream(in);
-		}
-	}
-
 	// Open the dump file; decompress if necessary.
 	private InputStream openDumpFile(File dumpFile) throws IOException {
 		if (dumpFile.getName().endsWith(BZ2_FILE_EXTENSION)) {
-			return openBz2File(dumpFile);
+			return new ChainedCBZip2InputStream(dumpFile);
 		} else {
 			return new FileInputStream(dumpFile);
 		}

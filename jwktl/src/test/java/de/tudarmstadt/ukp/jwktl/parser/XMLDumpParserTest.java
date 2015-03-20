@@ -22,53 +22,26 @@ import java.io.IOException;
 import java.util.LinkedList;
 import java.util.Queue;
 
-import junit.framework.TestCase;
-
-import org.xml.sax.SAXException;
-
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
+import junit.framework.TestCase;
+import org.xml.sax.SAXException;
 
 /**
  * Test case for {@link XMLDumpParser}.
  * @author Christian M. Meyer
  */
 public class XMLDumpParserTest extends TestCase {
-	
-	private static class MyXMLDumpParser extends XMLDumpParser {
-
-		private Queue<String> expectedValues;
-		
-		protected MyXMLDumpParser(Queue<String> expectedValues) {
-			this.expectedValues = expectedValues;
-		}
-		
-		public void register(final IWiktionaryPageParser pageParser) {}
-		
-		public Iterable<IWiktionaryPageParser> getPageParsers() {
-			return null;
-		}
-		
-		@Override
-		protected void onParserStart() {
-			super.onParserStart();
-			assertEquals(expectedValues.poll(), "onParserStart");
-		}
-
-		protected void onElementStart(final String name, final XMLDumpHandler handler) {
-			assertEquals(expectedValues.poll(), "onElementStart: " + name);
-		}
-		
-		protected void onElementEnd(final String name, final XMLDumpHandler handler) {
-			assertEquals(expectedValues.poll(), "onElementEnd: " + name);
-		}
-		
-		@Override
-		protected void onParserEnd() {
-			assertEquals(expectedValues.poll(), "onParserEnd");
-			assertTrue(expectedValues.isEmpty());
-			super.onParserEnd();
-		}
-		
+	private  XMLDumpParser parser;
+	@Override public void setUp() throws Exception {
+		super.setUp();
+		parser = new XMLDumpParser() {
+			protected void onElementStart(final String name, final XMLDumpHandler handler) {}
+			protected void onElementEnd(final String name, final XMLDumpHandler handler) {}
+			public void register(final IWiktionaryPageParser pageParser) {}
+			public Iterable<IWiktionaryPageParser> getPageParsers() {
+				return null;
+			}
+		};
 	}
 
 	/***/
@@ -132,15 +105,7 @@ public class XMLDumpParserTest extends TestCase {
 	
 	/***/
 	public void testErrors() {
-		XMLDumpParser parser = new XMLDumpParser() {			
-			protected void onElementStart(final String name, final XMLDumpHandler handler) {}			
-			protected void onElementEnd(final String name, final XMLDumpHandler handler) {}
-			public void register(final IWiktionaryPageParser pageParser) {}
-			public Iterable<IWiktionaryPageParser> getPageParsers() { 
-				return null; 
-			}
-		};
-		
+
 		// Missing file.
 		try {
 			parser.parse(new File("missing_dump$@%.xml"));
@@ -173,5 +138,40 @@ public class XMLDumpParserTest extends TestCase {
 			assertTrue(e.getCause() instanceof IOException);
 		}
 	}
-	
+
+	public void testParseMultistreamWithNormalParser() throws Exception {
+		parser.parse(new File("src/test/resources/enwiktionary-20150224-pages-articles-multistream.xml.bz2"));
+	}
+
+	private static class MyXMLDumpParser extends XMLDumpParser {
+		private Queue<String> expectedValues;
+		protected MyXMLDumpParser(Queue<String> expectedValues) {
+			this.expectedValues = expectedValues;
+		}
+		public void register(final IWiktionaryPageParser pageParser) {}
+		public Iterable<IWiktionaryPageParser> getPageParsers() {
+			return null;
+		}
+
+		@Override
+		protected void onParserStart() {
+			super.onParserStart();
+			assertEquals(expectedValues.poll(), "onParserStart");
+		}
+
+		protected void onElementStart(final String name, final XMLDumpHandler handler) {
+			assertEquals(expectedValues.poll(), "onElementStart: " + name);
+		}
+
+		protected void onElementEnd(final String name, final XMLDumpHandler handler) {
+			assertEquals(expectedValues.poll(), "onElementEnd: " + name);
+		}
+
+		@Override
+		protected void onParserEnd() {
+			assertEquals(expectedValues.poll(), "onParserEnd");
+			assertTrue(expectedValues.isEmpty());
+			super.onParserEnd();
+		}
+	}
 }

@@ -81,7 +81,7 @@ class MultistreamXMLDumpParser {
 		try {
 			final long start = System.currentTimeMillis();
 			final TreeSet<Long> offsets = new TreeSet<Long>();
-			bufferedReader = new BufferedReader(new InputStreamReader(parser.openBz2File(indexFile)));
+			bufferedReader = new BufferedReader(new InputStreamReader(new ChainedCBZip2InputStream(indexFile)));
 			String line;
 			while ((line = bufferedReader.readLine()) != null) {
 				final String[] split = line.split(":", 3);
