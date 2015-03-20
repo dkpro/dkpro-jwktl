@@ -46,8 +46,8 @@ public class MultistreamXMLDumpParserTest extends TestCase {
 	public void setUp() throws Exception {
 		super.setUp();
 		pageCount = new AtomicInteger();
-		multistreamDump = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream.xml.bz2").getFile());
-		multistreamDumpIndex = new File(getClass().getResource("/enwiktionary-20150224-pages-articles-multistream-index.txt.bz2").getFile());
+		multistreamDump = new File("src/test/resources/enwiktionary-20150224-pages-articles-multistream.xml.bz2");
+		multistreamDumpIndex = new File("src/test/resources/enwiktionary-20150224-pages-articles-multistream-index.txt.bz2");
 		subject = new MultistreamXMLDumpParser(parser);
 	}
 
