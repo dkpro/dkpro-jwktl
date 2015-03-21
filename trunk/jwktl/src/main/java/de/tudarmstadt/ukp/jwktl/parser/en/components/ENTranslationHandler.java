@@ -159,17 +159,20 @@ public class ENTranslationHandler extends ENSenseIndexedBlockHandler {
 					}*/
 
 					WiktionaryTranslation trans = new WiktionaryTranslation(translatedLang, translationText);
+					if (currentSense != null && currentSense.trim().length() > 0) {
+						trans.setRawSense(currentSense.trim());
+					}
 
 					String transliteration = namedParams.get("tr");
 					if (transliteration != null)
 						trans.setTransliteration(cleanText(transliteration));
-					
+
 					String gender = null;
 					if (fields != null && fields.length > 3 && !fields[3].contains("="))
 						gender = "{{" + fields[3] + "}}";
 					if (gender != null)
 						additionalInformation = gender + " " + additionalInformation;
-					
+
 					additionalInformation = cleanText(prefix + " " + additionalInformation);
 					trans.setAdditionalInformation(additionalInformation);
 

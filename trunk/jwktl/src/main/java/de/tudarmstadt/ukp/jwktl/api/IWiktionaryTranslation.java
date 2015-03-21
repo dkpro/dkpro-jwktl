@@ -33,25 +33,22 @@ import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
  */
 public interface IWiktionaryTranslation {
 
-	/** Returns the target language of the translation. */
+	/** @return the target language of the translation. */
 	public ILanguage getLanguage();
 	
-	/** Returns the translated word form (belonging to target language). */
+	/** @return the translated word form (belonging to target language). */
 	public String getTranslation();
 	
-	/** Returns a transliteration to the script of the encoding Wiktionary.
+	/** @return a transliteration to the script of the encoding Wiktionary.
 	 *  A Russian translation within the English Wiktionary could, for 
 	 *  example, be transliterated from the Cyrillic to the Latin script. 
 	 *  Returns <code>null</code> if no transliteration is specified. */
 	public String getTransliteration();
 	
-	/** Returns additional information on the translation, including usage
+	/** @return additional information on the translation, including usage
 	 *  notes, meaning-related information, and grammatical properties. */
 	public String getAdditionalInformation();
-	
-	//public String getGender();	
-	//public Boolean isSingular();	
-	//public String getSenseMarker();	
-	//exists in target Wiktionary?	
-	
+
+	/** @return the raw sense as specified in the translation section or null */
+	public String getRawSense();
 }
