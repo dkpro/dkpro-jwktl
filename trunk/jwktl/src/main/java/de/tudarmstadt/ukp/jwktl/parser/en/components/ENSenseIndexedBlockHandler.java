@@ -17,9 +17,13 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import java.util.Locale;
+
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.util.SimilarityUtils;
+
+import static de.tudarmstadt.ukp.jwktl.api.entry.WikiString.removeWikiLinks;
 
 /**
  * Abstract base class for extracting information types associated with
@@ -37,7 +41,7 @@ public abstract class ENSenseIndexedBlockHandler extends ENBlockHandler {
 	/** Returns the word sense of the given entry whose sense definition 
 	 *  corresponds to the specified comment (sense marker). The matching
 	 *  of the corresponding word sense is achieved by word similarity 
-	 *  metrics. Returns <code>null</code> if no maching word sense
+	 *  metrics. Returns <code>null</code> if no matching word sense
 	 *  could be found. */
 	public static WiktionarySense findMatchingSense(final String comment,
 			final WiktionaryEntry entry) {
@@ -58,7 +62,7 @@ public abstract class ENSenseIndexedBlockHandler extends ENBlockHandler {
 			if (sense.getIndex() <= 0)
 				continue; // Skip unassigned sense.
 
-			String gloss = sense.getGloss().getText();
+			String gloss = removeWikiLinks(sense.getGloss().getText()).toLowerCase(Locale.ENGLISH);
 			double similarity = SimilarityUtils.wordSim(comment, gloss);
 			if (similarity > best1GramScore){
 				best1GramScore = similarity;

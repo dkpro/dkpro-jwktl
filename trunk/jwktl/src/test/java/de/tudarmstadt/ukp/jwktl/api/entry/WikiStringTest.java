@@ -19,6 +19,8 @@ package de.tudarmstadt.ukp.jwktl.api.entry;
 
 import junit.framework.TestCase;
 
+import static de.tudarmstadt.ukp.jwktl.api.entry.WikiString.removeWikiLinks;
+
 /**
  * Test case for {@link WikiString}.
  * @author Christian M. Meyer
@@ -48,4 +50,8 @@ public class WikiStringTest extends TestCase {
 		assertEquals("[1–10]", w.getPlainText());
 	}
 
+	public void testRemoveWikiLinks() throws Exception {
+		assertEquals("Leader", removeWikiLinks("[[leader|Leader]]"));
+		assertEquals("Leader", removeWikiLinks("[[Leader]]"));
+	}
 }
