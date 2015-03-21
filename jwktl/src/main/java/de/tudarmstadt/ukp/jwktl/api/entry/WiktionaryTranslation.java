@@ -36,6 +36,7 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 	protected String translation;
 	protected String transliteration;
 	protected String additionalInformation;
+	protected transient String rawSense;
 	
 	/** Creates a new, empty translation. */ 
 	public WiktionaryTranslation() {}
@@ -77,9 +78,17 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 		this.additionalInformation = additionalInformation;
 	}
 
+	public String getRawSense() {
+		return rawSense;
+	}
+
+	public void setRawSense(String rawSense) {
+		this.rawSense = rawSense;
+	}
+
 	@Override
 	public String toString() {
 		return languageStr + ":" + translation;
 	}
-	
+
 }
