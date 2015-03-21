@@ -75,7 +75,7 @@ public class ENTranslationHandler extends ENSenseIndexedBlockHandler {
 		if (text.startsWith("{{trans-mid}}") || text.startsWith("{{mid}}"))
 			return true;
 		if (text.startsWith("{{trans-top|")) {
-			currentSense = text.substring(10, text.length() - 2);
+			currentSense = text.substring(12, text.length() - 2);
 			return true;
 		}
 		if (text.startsWith("{{top}}")) {

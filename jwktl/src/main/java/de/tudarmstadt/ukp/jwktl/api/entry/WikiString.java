@@ -145,7 +145,7 @@ public class WikiString implements IWikiString {
 		result = result.replace("\t", " ");
 		result = COMMENT_PATTERN.matcher(result).replaceAll("");	
 		result = QUOTES_PATTERN.matcher(result).replaceAll("");
-		result = WIKILINK_PATTERN.matcher(result).replaceAll("$2");
+		result = removeWikiLinks(result);
 //		result = EXTERNAL_LINK_PATTERN.matcher(result).replaceAll("");
 		result = REFERENCES_PATTERN.matcher(result).replaceAll("");
 		result = TEMPLATE_PATTERN.matcher(result).replaceAll("");
@@ -158,5 +158,8 @@ public class WikiString implements IWikiString {
 			result = result.substring(1);
 		return result.trim();
 	}
-	
+
+	public static String removeWikiLinks(String text) {
+		return WIKILINK_PATTERN.matcher(text).replaceAll("$2");
+	}
 }
