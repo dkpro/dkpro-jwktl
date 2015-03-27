@@ -24,12 +24,14 @@ import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryEntryParser;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryEntryParser;
 import de.tudarmstadt.ukp.jwktl.parser.components.CategoryHandler;
 import de.tudarmstadt.ukp.jwktl.parser.components.InterwikiLinkHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.ENDescendantRelationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEntryFactory;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEtymologyHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENPronunciationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENQuotationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENReferenceHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENTranslationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordLanguageHandler;
@@ -49,18 +51,18 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 		super(Language.ENGLISH, "REDIRECT");
 		
 		// Fixed name content handlers.
-		register(new ENRelationHandler(RelationType.SYNONYM, "Synonyms", "Synomyms", "Synoynms"));
-		register(new ENRelationHandler(RelationType.ANTONYM, "Antonyms"));
-		register(new ENRelationHandler(RelationType.HYPERNYM, "Hypernyms"));
-		register(new ENRelationHandler(RelationType.HYPONYM, "Hyponyms"));
-		register(new ENRelationHandler(RelationType.HOLONYM, "Holonyms"));
-		register(new ENRelationHandler(RelationType.MERONYM, "Meronyms"));
-		register(new ENRelationHandler(RelationType.TROPONYM, "Troponyms"));
+		register(new ENSemanticRelationHandler(RelationType.SYNONYM, "Synonyms", "Synomyms", "Synoynms"));
+		register(new ENSemanticRelationHandler(RelationType.ANTONYM, "Antonyms"));
+		register(new ENSemanticRelationHandler(RelationType.HYPERNYM, "Hypernyms"));
+		register(new ENSemanticRelationHandler(RelationType.HYPONYM, "Hyponyms"));
+		register(new ENSemanticRelationHandler(RelationType.HOLONYM, "Holonyms"));
+		register(new ENSemanticRelationHandler(RelationType.MERONYM, "Meronyms"));
+		register(new ENSemanticRelationHandler(RelationType.TROPONYM, "Troponyms"));
+		register(new ENSemanticRelationHandler(RelationType.COORDINATE_TERM, "Coordinate terms"));
+		register(new ENSemanticRelationHandler(RelationType.SEE_ALSO, "See also"));
 		register(new ENRelationHandler(RelationType.DERIVED_TERM, "Derived terms"));
-		register(new ENRelationHandler(RelationType.COORDINATE_TERM, "Coordinate terms"));
-		register(new ENRelationHandler(RelationType.SEE_ALSO, "See also"));
-		register(new ENRelationHandler(RelationType.DESCENDANT, "Descendants"));
 		register(new ENRelationHandler(RelationType.ETYMOLOGICALLY_RELATED_TERM, "Related terms"));
+		register(new ENDescendantRelationHandler("Descendants"));
 		register(new ENTranslationHandler());
 		register(new ENEtymologyHandler());
 		register(new ENReferenceHandler());
@@ -87,7 +89,7 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 			return true;
 		if ("{{wikipedia}}".equals(line))
 			return false;
-		if (line.startsWith("{{trans") || line.startsWith("{{top"))
+		if (line.startsWith("{{trans") || line.startsWith("{{top") || line.startsWith("{{mid"))
 			return false;
 		if (line.startsWith("{{"))
 			return true;

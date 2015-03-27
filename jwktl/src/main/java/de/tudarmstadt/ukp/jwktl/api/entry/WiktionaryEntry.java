@@ -21,7 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
@@ -368,5 +367,4 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	public String toString() {
 		return getClass().getName() + ":" + index + ":" + wordLanguageStr + ":" + getPartOfSpeech();
 	}
-	
 }

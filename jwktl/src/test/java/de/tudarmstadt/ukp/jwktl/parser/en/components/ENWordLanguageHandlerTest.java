@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.en;
+package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.Iterator;
 
@@ -24,7 +24,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordLanguageHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
 /**
  * Test case for {@link ENWordLanguageHandler}.

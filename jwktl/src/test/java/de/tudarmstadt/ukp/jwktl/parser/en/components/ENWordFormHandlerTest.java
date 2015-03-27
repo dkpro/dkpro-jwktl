@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.en;
+package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.Iterator;
 
@@ -29,7 +29,7 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalTense;
 import de.tudarmstadt.ukp.jwktl.api.util.NonFiniteForm;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordFormHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
 /**
  * Test case for {@link ENWordFormHandler}.

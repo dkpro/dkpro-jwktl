@@ -34,12 +34,14 @@ import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
+import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
+
 /**
  * Parser component for extracting translations from the English Wiktionary. 
  * @author Christian M. Meyer
  * @author Lizhen Qu
  */
-public class ENTranslationHandler extends ENSenseIndexedBlockHandler {
+public class ENTranslationHandler extends ENBlockHandler {
 	
 //	private static final String UNCATEGORIZED_TRANSLATIONS = "translations to be categorised";
 
@@ -266,17 +268,23 @@ public class ENTranslationHandler extends ENSenseIndexedBlockHandler {
 	 */
 	public void fillContent(final ParsingContext context) {
 		WiktionaryEntry posEntry = context.findEntry();
-		
 		if (posEntry != null) {
 			for (Entry<String, List<IWiktionaryTranslation>> trans : sensNum2trans.entrySet()) {
-				WiktionarySense sense = findMatchingSense(trans.getKey(), posEntry);
-				if (sense == null)
-					sense = posEntry.getUnassignedSense();
+				WiktionarySense targetSense = findSense(posEntry, trans.getKey());
 				
-				for (IWiktionaryTranslation translation : trans.getValue())
-					sense.addTranslation(translation);
+				for (IWiktionaryTranslation translation : trans.getValue()) {
+					targetSense.addTranslation(translation);
+				}
 			}
 		}
 	}
 
+	private WiktionarySense findSense(WiktionaryEntry entry, String marker) {
+		WiktionarySense sense = findMatchingSense(entry, marker);
+		if (sense != null) {
+			return sense;
+		} else {
+			return entry.getUnassignedSense();
+		}
+	}
 }
