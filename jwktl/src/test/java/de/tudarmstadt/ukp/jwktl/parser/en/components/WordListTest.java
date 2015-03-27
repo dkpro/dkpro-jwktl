@@ -60,8 +60,15 @@ public class WordListTest extends TestCase {
 		assertEquals(asList("foo", "baz", "fruz"), parsed.words);
 	}
 
-	public void testParseLineWithComment() throws Exception {
+	public void testParseLineWithCorrectlyFormattedComment() throws Exception {
 		final WordList parsed = WordList.parse("(''sense one''): foo, baz, fruz");
+		assertEquals(3, parsed.size());
+		assertEquals(asList("foo", "baz", "fruz"), parsed.words);
+		assertEquals("sense one", parsed.comment);
+	}
+
+	public void testParseLineWithMalformedComment() throws Exception {
+		final WordList parsed = WordList.parse("(sense one) foo, baz, fruz");
 		assertEquals(3, parsed.size());
 		assertEquals(asList("foo", "baz", "fruz"), parsed.words);
 		assertEquals("sense one", parsed.comment);
