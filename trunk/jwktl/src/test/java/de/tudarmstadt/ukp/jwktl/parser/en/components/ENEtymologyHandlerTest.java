@@ -15,13 +15,13 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.en;
+package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEtymologyHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
 /**
  * Test case for {@link ENEtymologyHandler}.

@@ -2,20 +2,20 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.en;
+package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.Iterator;
 import java.util.List;
@@ -24,46 +24,13 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
-/**
- * Test case for {@link ENRelationHandler}.
- * @author Christian M. Meyer
- */
-public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
+import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
 
-	public void testRelationsCasa() throws Exception {
-		IWiktionaryPage page = parse("casa.txt");
-		IWiktionaryEntry entry = page.getEntry(0);
-		assertEquals(20, entry.getRelations().size());
-		final List<IWiktionaryRelation> synonyms = entry.getRelations(RelationType.SYNONYM);
-		final List<IWiktionaryRelation> derived = entry.getRelations(RelationType.DERIVED_TERM);
-		assertEquals(2, synonyms.size());
-		assertEquals(18, derived.size());
-	}
-
-	public void testRelationsDescendantsDid() throws Exception {
-		IWiktionaryPage page = parse("did.txt");
-		IWiktionaryEntry entry = page.getEntry(2);
-
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.DESCENDANT).iterator();
-		assertRelation(RelationType.DESCENDANT, "Welsh: dydd", iter.next());
-		assertFalse(iter.hasNext());
-	}
-
-	public void testRelationsDescendantVaranda() throws Exception {
-		IWiktionaryPage page = parse("varanda.txt");
-		IWiktionaryEntry entry = page.getEntry(0);
-
-		Iterator<IWiktionaryRelation> iter = entry.getSense(0).getRelations(RelationType.DESCENDANT).iterator();
-		assertRelation(RelationType.DESCENDANT, "Hindi: बरामदा", iter.next());
-		assertRelation(RelationType.DESCENDANT, "Hindi: बरण्डा", iter.next());
-		assertRelation(RelationType.DESCENDANT, "English: veranda", iter.next());
-		assertRelation(RelationType.DESCENDANT, "English: verandah", iter.next());
-		assertRelation(RelationType.DESCENDANT, "French: véranda", iter.next());
-		assertFalse(iter.hasNext());
-	}
-		
+public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	/***/
 	public void testSynonymsRainCatsAndDogs() throws Exception {
 		IWiktionaryPage page = parse("rain_cats_and_dogs.txt");
@@ -98,7 +65,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
 		assertRelation(RelationType.SYNONYM, "antithyroid", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsPound() throws Exception {
@@ -109,7 +76,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "pound sterling", iter.next());
 		assertRelation(RelationType.SYNONYM, "punt", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsCallously() throws Exception {
@@ -121,7 +88,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "indifferently", iter.next());
 		assertRelation(RelationType.SYNONYM, "unfeelingly", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsWallpaper() throws Exception {
@@ -131,7 +98,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "desktop image", iter.next());
 		assertRelation(RelationType.SYNONYM, "desktop pattern", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsLung() throws Exception {
@@ -141,7 +108,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "bellows", iter.next());
 		assertRelation(RelationType.SYNONYM, "lights", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsDrink() throws Exception {
@@ -154,7 +121,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "sip", iter.next());
 		assertRelation(RelationType.SYNONYM, "Wikisaurus:drink", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsShutUp() throws Exception {
@@ -196,7 +163,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "Roentgen rays", iter.next());
 		assertRelation(RelationType.SYNONYM, "X-ray radiation", iter.next());
 		assertFalse(iter.hasNext());
-	}	
+	}
 
 	/***/
 	public void testSynonymsAbdominal() throws Exception {
@@ -271,9 +238,9 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertRelation(RelationType.SYNONYM, "induced abortion", iter.next());
 		assertFalse(iter.hasNext());
 		iter = entry.getUnassignedSense().getRelations(RelationType.SYNONYM).iterator();
-		assertFalse(iter.hasNext());	  
+		assertFalse(iter.hasNext());
 	}
-	
+
 	/***/
 	public void testAntonymsKiefer() throws Exception {
 		IWiktionaryPage page = parse("cow.txt");
@@ -286,10 +253,42 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertFalse(iter.hasNext());
 	}
 
+	public void testSynonymsCasa() throws Exception {
+		IWiktionaryPage page = parse("casa.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		final List<IWiktionaryRelation> synonyms = entry.getRelations(RelationType.SYNONYM);
+		assertEquals(2, synonyms.size());
+	}
+
 	protected static void assertRelation(final RelationType relationType,
-			final String target, final IWiktionaryRelation actual) {
+										 final String target, final IWiktionaryRelation actual) {
 		assertEquals(relationType, actual.getRelationType());
 		assertEquals(target, actual.getTarget());
 	}
 
+	public void testFindMatchingSenseWithMatch() throws Exception {
+		IWiktionaryPage page = parse("casa.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		final WiktionarySense sense = findMatchingSense((WiktionaryEntry) entry, "home");
+		assertNotNull(sense);
+		assertEquals("{{l/en|home}} {{gloss|one’s own dwelling place}}", sense.getGloss().getText());
+	}
+
+	public void testFindMatchingSenseReturnsNullWithoutMatch() throws Exception {
+		IWiktionaryPage page = parse("casa.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertNull(findMatchingSense((WiktionaryEntry) entry, "froobaz"));
+	}
+
+	public void testFindMatchingSenseWithoutMatchButMonosemousEntryReturnsEntry() throws Exception {
+		IWiktionaryPage page = parse("goitrogenic.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertNotNull(findMatchingSense((WiktionaryEntry) entry, "froobaz"));
+	}
+
+	public void testFindMatchingSenseWithNullButMonosemousEntryReturnsEntry() throws Exception {
+		IWiktionaryPage page = parse("goitrogenic.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertNotNull(findMatchingSense((WiktionaryEntry) entry, null));
+	}
 }

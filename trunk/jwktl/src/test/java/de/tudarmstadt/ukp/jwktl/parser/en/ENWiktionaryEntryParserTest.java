@@ -23,6 +23,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParser;
 import junit.framework.TestCase;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;

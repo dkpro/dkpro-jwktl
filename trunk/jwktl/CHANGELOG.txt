@@ -213,4 +213,5 @@ JWKTL-1.0.2
 - Added: parse gender of non-English entries in EN-Wiktionary.
 - Fixed: Translation extraction in the German Wiktionary (#12).
 - Fixed: correctly parse translated examples.
-  Added: support parsing of multistream dumps
+- Added: support parsing of multistream dumps
+- Modified: cleanup and fixes in relationship parsing code

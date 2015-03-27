@@ -38,8 +38,9 @@ import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryPageParser;
 import de.tudarmstadt.ukp.jwktl.parser.IWritableWiktionaryEdition;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseIndexedBlockHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
+
+import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
 
 /**
  * (Yet experimental) parser for the Wikisaurus entries (i.e., wiki pages
@@ -220,7 +221,7 @@ public class WikisaurusArticleParser implements IWiktionaryPageParser {
 			if (!PartOfSpeech.equals(entry.getPartOfSpeech(), wikisaurusEntry.getPartOfSpeech()))
 				continue;
 			
-			WiktionarySense sense = ENSenseIndexedBlockHandler.findMatchingSense(wikisaurusEntry.getSenseDefinition(), entry);
+			WiktionarySense sense = findMatchingSense(entry, wikisaurusEntry.getSenseDefinition());
 			if (sense == null) {
 				System.err.println("Unable to find source word sense: " + wikisaurusEntry);
 				continue;

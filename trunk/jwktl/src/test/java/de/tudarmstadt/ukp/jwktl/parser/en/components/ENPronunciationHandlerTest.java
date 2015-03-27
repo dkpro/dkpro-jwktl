@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.en;
+package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.Iterator;
 import java.util.List;
@@ -24,7 +24,7 @@ import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation.PronunciationType;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENPronunciationHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
