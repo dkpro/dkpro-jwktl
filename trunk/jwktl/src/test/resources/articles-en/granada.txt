@@ -1,0 +1,21 @@
+==Portuguese==
+
+===Etymology===
+From {{etyl|la|pt}} {{m|la|grānātum||pomegranate}}, from {{m|la|grānātus||having many seeds}}, from {{m|la|grānum||seed, grain}}, from {{etyl|ine-pro|pt}} {{m|ine-pro|*ǵr̥h₂nóm||grain}}.
+
+===Noun===
+{{pt-noun|f|s}}
+
+# [[pomegranate]] (fruit)
+# [[hand grenade]] (small explosive device)
+# [[shell]] (artillery)
+# [[garnet]] (mineral group)
+
+====Synonyms====
+* (pomegranate) [[romã]]
+* (hand grenade) [[granada de mão]]
+* (garnet) [[granate]]
+
+[[Category:pt:Explosives]]
+[[Category:pt:Fruits]]
+[[Category:pt:Mineralogy]]

@@ -28,6 +28,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
+import static de.tudarmstadt.ukp.jwktl.api.RelationType.SYNONYM;
 import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
 
 public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
@@ -35,17 +36,17 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsRainCatsAndDogs() throws Exception {
 		IWiktionaryPage page = parse("rain_cats_and_dogs.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "bucket", iter.next());
-		assertRelation(RelationType.SYNONYM, "bucket down", iter.next());
-		assertRelation(RelationType.SYNONYM, "chuck it down", iter.next());
-		assertRelation(RelationType.SYNONYM, "rain buckets", iter.next());
-		assertRelation(RelationType.SYNONYM, "rain pitchforks", iter.next());
-		assertRelation(RelationType.SYNONYM, "pelt", iter.next());
-		assertRelation(RelationType.SYNONYM, "piss down", iter.next());
-		assertRelation(RelationType.SYNONYM, "pour", iter.next());
-		assertRelation(RelationType.SYNONYM, "stream", iter.next());
-		assertRelation(RelationType.SYNONYM, "teem", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "bucket", iter.next());
+		assertRelation(SYNONYM, "bucket down", iter.next());
+		assertRelation(SYNONYM, "chuck it down", iter.next());
+		assertRelation(SYNONYM, "rain buckets", iter.next());
+		assertRelation(SYNONYM, "rain pitchforks", iter.next());
+		assertRelation(SYNONYM, "pelt", iter.next());
+		assertRelation(SYNONYM, "piss down", iter.next());
+		assertRelation(SYNONYM, "pour", iter.next());
+		assertRelation(SYNONYM, "stream", iter.next());
+		assertRelation(SYNONYM, "teem", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -53,8 +54,8 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsDictionary() throws Exception {
 		IWiktionaryPage page = parse("dictionary.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getUnassignedSense().getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "wordbook", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getUnassignedSense().getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "wordbook", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -62,8 +63,8 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsGoitrogenic() throws Exception {
 		IWiktionaryPage page = parse("goitrogenic.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "antithyroid", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "antithyroid", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -71,10 +72,10 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsPound() throws Exception {
 		IWiktionaryPage page = parse("pound.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(5).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "£", iter.next());
-		assertRelation(RelationType.SYNONYM, "pound sterling", iter.next());
-		assertRelation(RelationType.SYNONYM, "punt", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(5).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "£", iter.next());
+		assertRelation(SYNONYM, "pound sterling", iter.next());
+		assertRelation(SYNONYM, "punt", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -82,11 +83,11 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsCallously() throws Exception {
 		IWiktionaryPage page = parse("callously.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "carelessly", iter.next());
-		assertRelation(RelationType.SYNONYM, "hardheartedly", iter.next());
-		assertRelation(RelationType.SYNONYM, "indifferently", iter.next());
-		assertRelation(RelationType.SYNONYM, "unfeelingly", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "carelessly", iter.next());
+		assertRelation(SYNONYM, "hardheartedly", iter.next());
+		assertRelation(SYNONYM, "indifferently", iter.next());
+		assertRelation(SYNONYM, "unfeelingly", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -94,9 +95,9 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsWallpaper() throws Exception {
 		IWiktionaryPage page = parse("wallpaper.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(3).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "desktop image", iter.next());
-		assertRelation(RelationType.SYNONYM, "desktop pattern", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(3).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "desktop image", iter.next());
+		assertRelation(SYNONYM, "desktop pattern", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -104,9 +105,9 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsLung() throws Exception {
 		IWiktionaryPage page = parse("lung.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "bellows", iter.next());
-		assertRelation(RelationType.SYNONYM, "lights", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "bellows", iter.next());
+		assertRelation(SYNONYM, "lights", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -114,12 +115,12 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsDrink() throws Exception {
 		IWiktionaryPage page = parse("drink.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(2).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "gulp", iter.next());
-		assertRelation(RelationType.SYNONYM, "imbibe", iter.next());
-		assertRelation(RelationType.SYNONYM, "quaff", iter.next());
-		assertRelation(RelationType.SYNONYM, "sip", iter.next());
-		assertRelation(RelationType.SYNONYM, "Wikisaurus:drink", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(2).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "gulp", iter.next());
+		assertRelation(SYNONYM, "imbibe", iter.next());
+		assertRelation(SYNONYM, "quaff", iter.next());
+		assertRelation(SYNONYM, "sip", iter.next());
+		assertRelation(SYNONYM, "Wikisaurus:drink", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -127,26 +128,26 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsShutUp() throws Exception {
 		IWiktionaryPage page = parse("shut_up.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(6).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "be quiet", iter.next());
-		assertRelation(RelationType.SYNONYM, "be silent", iter.next());
-		assertRelation(RelationType.SYNONYM, "fall silent", iter.next());
-		assertRelation(RelationType.SYNONYM, "hush", iter.next());
-		assertRelation(RelationType.SYNONYM, "quieten down", iter.next());
-		assertRelation(RelationType.SYNONYM, "shush", iter.next());
-		assertRelation(RelationType.SYNONYM, "be quiet!", iter.next());
-		assertRelation(RelationType.SYNONYM, "can it!", iter.next());
-		assertRelation(RelationType.SYNONYM, "hush!", iter.next());
-		assertRelation(RelationType.SYNONYM, "put a sock in it!", iter.next());
-		assertRelation(RelationType.SYNONYM, "quiet!", iter.next());
-		assertRelation(RelationType.SYNONYM, "sh!", iter.next());
-		assertRelation(RelationType.SYNONYM, "shush!", iter.next());
-		assertRelation(RelationType.SYNONYM, "shut it!", iter.next());
-		assertRelation(RelationType.SYNONYM, "shut your face!", iter.next());
-		assertRelation(RelationType.SYNONYM, "shaddap", iter.next());
-		assertRelation(RelationType.SYNONYM, "silence!", iter.next());
-		assertRelation(RelationType.SYNONYM, "st!", iter.next());
-		assertRelation(RelationType.SYNONYM, "STFU", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(6).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "be quiet", iter.next());
+		assertRelation(SYNONYM, "be silent", iter.next());
+		assertRelation(SYNONYM, "fall silent", iter.next());
+		assertRelation(SYNONYM, "hush", iter.next());
+		assertRelation(SYNONYM, "quieten down", iter.next());
+		assertRelation(SYNONYM, "shush", iter.next());
+		assertRelation(SYNONYM, "be quiet!", iter.next());
+		assertRelation(SYNONYM, "can it!", iter.next());
+		assertRelation(SYNONYM, "hush!", iter.next());
+		assertRelation(SYNONYM, "put a sock in it!", iter.next());
+		assertRelation(SYNONYM, "quiet!", iter.next());
+		assertRelation(SYNONYM, "sh!", iter.next());
+		assertRelation(SYNONYM, "shush!", iter.next());
+		assertRelation(SYNONYM, "shut it!", iter.next());
+		assertRelation(SYNONYM, "shut your face!", iter.next());
+		assertRelation(SYNONYM, "shaddap", iter.next());
+		assertRelation(SYNONYM, "silence!", iter.next());
+		assertRelation(SYNONYM, "st!", iter.next());
+		assertRelation(SYNONYM, "STFU", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -154,14 +155,14 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsXray() throws Exception {
 		IWiktionaryPage page = parse("X-ray.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(2).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "Röntgen radiation", iter.next());
-		assertRelation(RelationType.SYNONYM, "Rontgen radiation", iter.next());
-		assertRelation(RelationType.SYNONYM, "Roentgen radiation", iter.next());
-		assertRelation(RelationType.SYNONYM, "Röntgen rays", iter.next());
-		assertRelation(RelationType.SYNONYM, "Rontgen rays", iter.next());
-		assertRelation(RelationType.SYNONYM, "Roentgen rays", iter.next());
-		assertRelation(RelationType.SYNONYM, "X-ray radiation", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(2).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "Röntgen radiation", iter.next());
+		assertRelation(SYNONYM, "Rontgen radiation", iter.next());
+		assertRelation(SYNONYM, "Roentgen radiation", iter.next());
+		assertRelation(SYNONYM, "Röntgen rays", iter.next());
+		assertRelation(SYNONYM, "Rontgen rays", iter.next());
+		assertRelation(SYNONYM, "Roentgen rays", iter.next());
+		assertRelation(SYNONYM, "X-ray radiation", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -169,8 +170,8 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsAbdominal() throws Exception {
 		IWiktionaryPage page = parse("abdominal.txt");
 		IWiktionaryEntry entry = page.getEntry(1);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "Cypriniformes", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "Cypriniformes", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -178,9 +179,9 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsAbreast() throws Exception {
 		IWiktionaryPage page = parse("abreast.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "apprised", iter.next());
-		assertRelation(RelationType.SYNONYM, "up to date/up-to-date", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "apprised", iter.next());
+		assertRelation(SYNONYM, "up to date/up-to-date", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -188,10 +189,10 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsHead() throws Exception {
 		IWiktionaryPage page = parse("head.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(13).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "headmaster", iter.next());
-		assertRelation(RelationType.SYNONYM, "headmistress", iter.next());
-		assertRelation(RelationType.SYNONYM, "principal", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(13).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "headmaster", iter.next());
+		assertRelation(SYNONYM, "headmistress", iter.next());
+		assertRelation(SYNONYM, "principal", iter.next());
 		assertFalse(iter.hasNext());
 	}
 
@@ -199,45 +200,45 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsTermination() throws Exception {
 		IWiktionaryPage page = parse("termination.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "concluding", iter.next());
-		assertRelation(RelationType.SYNONYM, "ending", iter.next());
-		assertRelation(RelationType.SYNONYM, "finishing", iter.next());
-		assertRelation(RelationType.SYNONYM, "stoping", iter.next());
-		assertRelation(RelationType.SYNONYM, "terminating", iter.next());
+		Iterator<IWiktionaryRelation> iter = entry.getSense(1).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "concluding", iter.next());
+		assertRelation(SYNONYM, "ending", iter.next());
+		assertRelation(SYNONYM, "finishing", iter.next());
+		assertRelation(SYNONYM, "stoping", iter.next());
+		assertRelation(SYNONYM, "terminating", iter.next());
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(2).getRelations(RelationType.SYNONYM).iterator();
+		iter = entry.getSense(2).getRelations(SYNONYM).iterator();
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(3).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "close", iter.next());
-		assertRelation(RelationType.SYNONYM, "conclusion", iter.next());
-		assertRelation(RelationType.SYNONYM, "end", iter.next());
-		assertRelation(RelationType.SYNONYM, "finale", iter.next());
-		assertRelation(RelationType.SYNONYM, "finish", iter.next());
-		assertRelation(RelationType.SYNONYM, "stop", iter.next());
+		iter = entry.getSense(3).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "close", iter.next());
+		assertRelation(SYNONYM, "conclusion", iter.next());
+		assertRelation(SYNONYM, "end", iter.next());
+		assertRelation(SYNONYM, "finale", iter.next());
+		assertRelation(SYNONYM, "finish", iter.next());
+		assertRelation(SYNONYM, "stop", iter.next());
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(4).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "border", iter.next());
-		assertRelation(RelationType.SYNONYM, "edge", iter.next());
-		assertRelation(RelationType.SYNONYM, "end", iter.next());
-		assertRelation(RelationType.SYNONYM, "limit", iter.next());
-		assertRelation(RelationType.SYNONYM, "lip", iter.next());
-		assertRelation(RelationType.SYNONYM, "rim", iter.next());
-		assertRelation(RelationType.SYNONYM, "tip", iter.next());
+		iter = entry.getSense(4).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "border", iter.next());
+		assertRelation(SYNONYM, "edge", iter.next());
+		assertRelation(SYNONYM, "end", iter.next());
+		assertRelation(SYNONYM, "limit", iter.next());
+		assertRelation(SYNONYM, "lip", iter.next());
+		assertRelation(SYNONYM, "rim", iter.next());
+		assertRelation(SYNONYM, "tip", iter.next());
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(5).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "consequence", iter.next());
-		assertRelation(RelationType.SYNONYM, "outcome", iter.next());
-		assertRelation(RelationType.SYNONYM, "result", iter.next());
-		assertRelation(RelationType.SYNONYM, "upshot", iter.next());
+		iter = entry.getSense(5).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "consequence", iter.next());
+		assertRelation(SYNONYM, "outcome", iter.next());
+		assertRelation(SYNONYM, "result", iter.next());
+		assertRelation(SYNONYM, "upshot", iter.next());
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(6).getRelations(RelationType.SYNONYM).iterator();
+		iter = entry.getSense(6).getRelations(SYNONYM).iterator();
 		assertFalse(iter.hasNext());
-		iter = entry.getSense(7).getRelations(RelationType.SYNONYM).iterator();
-		assertRelation(RelationType.SYNONYM, "abortion", iter.next());
-		assertRelation(RelationType.SYNONYM, "induced abortion", iter.next());
+		iter = entry.getSense(7).getRelations(SYNONYM).iterator();
+		assertRelation(SYNONYM, "abortion", iter.next());
+		assertRelation(SYNONYM, "induced abortion", iter.next());
 		assertFalse(iter.hasNext());
-		iter = entry.getUnassignedSense().getRelations(RelationType.SYNONYM).iterator();
+		iter = entry.getUnassignedSense().getRelations(SYNONYM).iterator();
 		assertFalse(iter.hasNext());
 	}
 
@@ -256,8 +257,30 @@ public class ENSemanticRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	public void testSynonymsCasa() throws Exception {
 		IWiktionaryPage page = parse("casa.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		final List<IWiktionaryRelation> synonyms = entry.getRelations(RelationType.SYNONYM);
+		final List<IWiktionaryRelation> synonyms = entry.getRelations(SYNONYM);
 		assertEquals(2, synonyms.size());
+	}
+
+	public void testSynonymsGranada() throws Exception {
+		IWiktionaryPage page = parse("granada.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		final List<IWiktionaryRelation> synonyms = entry.getRelations(SYNONYM);
+		assertEquals(3, synonyms.size());
+
+		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations(SYNONYM); // pomegranate
+		assertEquals(1, relations.size());
+		assertEquals("romã", relations.get(0).getTarget());
+
+		relations = entry.getSense(2).getRelations(SYNONYM); // hand grenade
+		assertEquals(1, relations.size());
+		assertEquals("granada de mão", relations.get(0).getTarget());
+
+		relations = entry.getSense(3).getRelations(SYNONYM); // shell
+		assertEquals(0, relations.size());
+
+		relations = entry.getSense(4).getRelations(SYNONYM); // garnet
+		assertEquals(1, relations.size());
+		assertEquals("granate", relations.get(0).getTarget());
 	}
 
 	protected static void assertRelation(final RelationType relationType,

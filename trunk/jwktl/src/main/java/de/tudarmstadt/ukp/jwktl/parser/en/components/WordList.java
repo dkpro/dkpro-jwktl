@@ -46,12 +46,15 @@ class WordList implements Iterable<String> {
 		List<String> result = new ArrayList<String>();
 
 		int braceStartIndex = text.indexOf("(''");
-		int braceEndIndex = -1;
+		if (braceStartIndex == -1) {
+			braceStartIndex = text.indexOf("(");
+		}
+
+		int braceEndIndex;
 		int curlyStartIndex = text.indexOf("{{");
 		int curlyEndIndex = text.indexOf("}}");
-		int startIndex = -1;
 		int endIndex = -1;
-		if((braceStartIndex != -1 && curlyStartIndex == -1) || (braceStartIndex != -1 && curlyStartIndex != -1 && braceStartIndex < curlyStartIndex)){
+		if((braceStartIndex != -1 && curlyStartIndex == -1) || (braceStartIndex != -1 && braceStartIndex < curlyStartIndex)){
 			int endOffset = 3;
 			braceEndIndex = text.indexOf("'')", braceStartIndex);
 			if(braceEndIndex == -1){
@@ -62,21 +65,18 @@ class WordList implements Iterable<String> {
 				braceEndIndex = text.indexOf("''", braceStartIndex+3);
 				endOffset = 2;
 			}
-			if(braceStartIndex + 3 < braceEndIndex){
-				String s = text.substring(braceStartIndex+3,braceEndIndex);
-				//startIndex = braceStartIndex;
+			if (braceStartIndex + endOffset < braceEndIndex){
+				String s = text.substring(braceStartIndex+endOffset, braceEndIndex);
 				endIndex = braceEndIndex + endOffset;
 				comment = s;
 			}
-		}else{
+		} else {
 			//CM for preventing bug added third
 			if(curlyStartIndex != -1 && curlyEndIndex != -1 && (curlyEndIndex >= curlyStartIndex)){
 				int midIndex = text.indexOf('|',curlyStartIndex);
 				if(midIndex != -1 && midIndex < curlyEndIndex){
 					String templateName = text.substring(curlyStartIndex + 2, midIndex);
 					if ("l".equals(templateName) || templateName.startsWith("l/")) {
-						startIndex = -1;
-						endIndex = -1;
 						curlyEndIndex = -1;
 					} else
 						comment = text.substring(midIndex+1,curlyEndIndex);
@@ -89,14 +89,11 @@ class WordList implements Iterable<String> {
 		}
 
 		WordListProcessor wordListFilter = new WordListProcessor();
-		String relationStr = text;
-		if (startIndex > 0)
-			relationStr = text.substring(0, startIndex);
-		else
+		String relationStr;
 		if (endIndex > 0 && endIndex < text.length())
 			relationStr = text.substring(endIndex);
 		else
-		if (startIndex == -1 && endIndex == -1)
+		if (endIndex == -1)
 			relationStr = text;
 		else
 			return new WordList(comment, result);
