@@ -87,6 +87,9 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 	 *  neither the Wikipedia nor the translation patterns. */
 	protected boolean isStartOfBlock(String line) {
 		line = line.trim();
+		if (line.startsWith("----")) {
+			return true;
+		}
 		if (line.startsWith("="))
 			return true;
 		if ("{{wikipedia}}".equals(line))
