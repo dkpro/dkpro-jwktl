@@ -34,6 +34,7 @@ import de.tudarmstadt.ukp.jwktl.parser.en.components.ENRelationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENSenseHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENTranslationHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.ENUsageNotesHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordLanguageHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
@@ -68,7 +69,8 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 		register(new ENReferenceHandler());
 		register(new ENQuotationHandler());
 		register(new ENPronunciationHandler());
-		
+		register(new ENUsageNotesHandler());
+
 		// Pattern
 		register(new CategoryHandler("Category"));
 		register(new InterwikiLinkHandler("Category"));

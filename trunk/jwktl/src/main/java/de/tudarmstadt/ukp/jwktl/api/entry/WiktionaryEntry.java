@@ -56,6 +56,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	protected List<PartOfSpeech> partsOfSpeech;
 	protected GrammaticalGender gender;
 	protected IWikiString etymology;
+	protected IWikiString usageNotes;
 	protected String entryLink;
 	protected String entryLinkType;
 	protected List<IPronunciation> pronunciations;
@@ -361,6 +362,15 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 				result.addAll(translations);
 		}
 		return result;
+	}
+
+	@Override
+	public IWikiString getUsageNotes() {
+		return usageNotes;
+	}
+
+	public void setUsageNotes(IWikiString usageNotes) {
+		this.usageNotes = usageNotes;
 	}
 	
 	@Override
