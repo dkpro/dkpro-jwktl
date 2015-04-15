@@ -215,3 +215,4 @@ JWKTL-1.0.2
 - Fixed: correctly parse translated examples.
 - Added: support parsing of multistream dumps
 - Modified: cleanup and fixes in relationship parsing code
+- Added: parsing of entry usage notes
