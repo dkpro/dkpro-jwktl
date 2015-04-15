@@ -21,7 +21,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class ENUsageNotesHandler extends ENBlockHandler{
+public class ENUsageNotesHandler extends ENBlockHandler {
 	private StringBuilder usageNotes;
 
 	public ENUsageNotesHandler() {

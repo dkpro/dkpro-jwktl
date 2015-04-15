@@ -1,0 +1,25 @@
+==German==
+
+===Pronunciation===
+* {{IPA|/ˈdʁaɪ̯ɐ/|lang=de}}
+* {{hyphenation|drei|er|lang=de}}
+
+===Numeral===
+{{head|de|numeral}}
+
+# {{genitive plural of|drei||three|lang=de}}
+
+====Usage notes====
+Only in adjectival use and only when no article or pronoun is preceding. More at {{term|drei|lang=de}}.
+
+----
+==Norwegian Bokmål==
+
+===Verb===
+{{head|nb|verb form}}
+
+# {{present tense of|dreie|lang=nb}}
+
+[[de:dreier]]
+[[pl:dreier]]
+[[fi:dreier]]

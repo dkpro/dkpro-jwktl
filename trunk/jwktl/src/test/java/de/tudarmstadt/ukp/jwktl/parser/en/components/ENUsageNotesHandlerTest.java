@@ -40,4 +40,11 @@ public class ENUsageNotesHandlerTest extends ENWiktionaryEntryParserTest {
 		assertNull(page.getEntries().get(2).getUsageNotes());
 		assertNull(page.getEntries().get(3).getUsageNotes());
 	}
+
+	public void testDreier() throws Exception {
+		final IWiktionaryPage page = parse("dreier.txt");
+		final IWiktionaryEntry entry = page.getEntries().get(0);
+		assertEquals("Only in adjectival use and only when no article or pronoun is preceding. More at {{term|drei|lang=de}}.", entry.getUsageNotes().getText());
+		assertNull(page.getEntries().get(1).getUsageNotes());
+	}
 }

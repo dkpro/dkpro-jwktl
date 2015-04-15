@@ -129,9 +129,7 @@ public class ENSenseHandler extends ENBlockHandler {
 		String line = text.trim();
 		if (line.isEmpty())
 			return takeControl;
-		if ("----".equals(line))
-			return false;
-		
+
 		boolean additionalLine = false;
 		if (!line.startsWith("#") && !line.startsWith("{")) {
 			line = lastPrefix + line;
