@@ -112,6 +112,11 @@ public interface IWiktionaryEntry {
 	 *  The result might be <code>null</code> if no etymology has been 
 	 *  encoded. */
 	IWikiString getWordEtymology();
+
+	/** Returns the usage notes of this lexical entry as a {@link IWikiString}.
+	 *  The result might be <code>null</code> if no usage notes have been
+	 *  encoded. */
+	IWikiString getUsageNotes();
 	
 	/** Some lexical entries refer to other pages rather than encoding 
 	 *  all information on the entry again. This is similar to a redirect
