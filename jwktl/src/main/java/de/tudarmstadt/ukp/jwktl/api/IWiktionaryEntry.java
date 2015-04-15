@@ -40,7 +40,7 @@ public interface IWiktionaryEntry {
 	 *  {@link IWiktionaryEntry}s of the {@link IWiktionaryEdition}. Note 
 	 *  however that the ID of an entry may differ between different software 
 	 *  versions or dump dates. */
-	public String getKey();
+	String getKey();
 	
 	/** Returns an ID of this entry that is unique for all entries
 	 *  of the containing {@link IWiktionaryPage}. Depending on the parsing
@@ -51,48 +51,48 @@ public interface IWiktionaryEntry {
 	 *  IMPORTANT: The entry ID is unstable w.r.t. to different API
 	 *    versions and dump files. Better rely on page IDs and eventually
 	 *    local indices. */
-	public long getId();
+	long getId();
 	
 	/** Returns the index of this entry. That is, the running number of 
 	 *  the entry in accordance to the list of entries of 
 	 *  the {@link IWiktionaryPage} (starting at 0). */
-	public int getIndex();
+	int getIndex();
 	
 	
 	// -- Parent --
 	
 	/** Returns a reference to the {@link IWiktionaryPage} that contains
 	 *  this entry. */
-	public IWiktionaryPage getPage();
+	IWiktionaryPage getPage();
 	
 	/** Returns the ID of the {@link IWiktionaryPage} that contains
 	 *  this entry. */
-	public long getPageId();
+	long getPageId();
 	
 	
 	// -- Entry --
 	
 	/** Returns the lemma of this lexical entry denoted by the page title. 
 	 *  This method is equivalent to <code>getPage().getTitle()</code>. */
-	public String getWord();
+	String getWord();
 	
 	/** Returns the header of the lexical entry. This is usually the lemma
 	 *  of the entry (i.e. equivalent to {@link #getWord()}, but there are
 	 *  some exceptions where the Wiktionary community uses a slightly
 	 *  different header. */
-	public String getHeader();
+	String getHeader();
 	
 	/** Returns the language of this lexical entry. This does not necessarily 
 	 *  correspond to the language of the {@link IWiktionaryEdition}; e.g.,
 	 *  for French entries within the English Wiktionary edition. */
-	public ILanguage getWordLanguage();
+	ILanguage getWordLanguage();
 	
 	/** Returns the first part of speech tag encoded for this lexical entry.
 	 *  The first tag is usually the most important one, although there can
 	 *  be multiple tags. Use {link #getPartsOfSpeech()} to access all 
 	 *  part of speech tags encoded. If the part of speech is unknown
 	 *  or not specified, <code>null</code> will be returned. */
-	public PartOfSpeech getPartOfSpeech();
+	PartOfSpeech getPartOfSpeech();
 	
 	/** Returns all part of speech tags encoded for this lexical entry. 
 	 *  Most of the time, only one part of speech tag is used. However, 
@@ -101,38 +101,38 @@ public interface IWiktionaryEntry {
 	 *  additions, such as "plurale tantum" (only taking the plural form). 
 	 *  The ordering of tags used in Wiktionary is preserved. The resulted
 	 *  list is never null and includes at least one element. */
-	public List<PartOfSpeech> getPartsOfSpeech();
+	List<PartOfSpeech> getPartsOfSpeech();
 	
 	/** Returns the grammatical gender of this lexical entry, which can
 	 *  be one of masculine, feminine, neuter. If no gender is specified,
 	 *  null is returned. */
-	public GrammaticalGender getGender();
+	GrammaticalGender getGender();
 	
 	/** Returns the etymology of this lexical entry as a {@link IWikiString}.
 	 *  The result might be <code>null</code> if no etymology has been 
 	 *  encoded. */
-	public IWikiString getWordEtymology();
+	IWikiString getWordEtymology();
 	
 	/** Some lexical entries refer to other pages rather than encoding 
 	 *  all information on the entry again. This is similar to a redirect
 	 *  ({@link IWiktionaryPage#getRedirectTarget()}), but limited to the
 	 *  entry level. In addition to that, there might be further information
 	 *  provided. */
-	public String getEntryLink();
+	String getEntryLink();
 	
 	/** Returns the type of the {@link #getEntryLink()}, for example, denoting
 	 *  that the entry is an old spelling variant of the linked entry. */
-	public String getEntryLinkType();
+	String getEntryLinkType();
 	
 	/** Returns a list of pronunciations for this lexical entry. The
 	 *  list might be <code>null</code> if not pronunciations are
 	 *  encoded. */
-	public List<IPronunciation> getPronunciations();
+	List<IPronunciation> getPronunciations();
 	
 	/** Returns a list of word forms for this lexical entry. The
 	 *  list might be <code>null</code> if not word forms are
 	 *  encoded. */
-	public List<IWiktionaryWordForm> getWordForms();
+	List<IWiktionaryWordForm> getWordForms();
 	
 	// -- Senses --
 	
@@ -142,7 +142,7 @@ public interface IWiktionaryEntry {
 	 *  match with any {@link IWiktionarySense#getMarker()} - e.g., containing
 	 *  question marks. The unassigned sense is never <code>null</code>.
 	 *  This method is equivalent to <code>getSense(0)</code>. */
-	public IWiktionarySense getUnassignedSense();
+	IWiktionarySense getUnassignedSense();
 
 	/** Returns the {@link IWiktionarySense} with the given index. 
 	 *  IMPORTANT: The index is a running number starting at 1. Providing
@@ -151,18 +151,18 @@ public interface IWiktionaryEntry {
 	 *  {@link #getSenseCount()} (rather than {@link #getSenseCount()} - 1).
 	 *  @throws ArrayIndexOutOfBoundsException if there is no sense with
 	 *    the given index. */
-	public IWiktionarySense getSense(int index);
+	IWiktionarySense getSense(int index);
 	
 	/** Returns the number of {@link IWiktionarySense}s encoded for this 
 	 *  lexical entry. */
-	public int getSenseCount();
+	int getSenseCount();
 	
 	/** Returns the list of all {@link IWiktionarySense}s. The list is
 	 *  never null nor empty. The elements of the list are all senses of 
 	 *  this entry, i.e. all senses with index 1 to {@link #getSenseCount()}. 
 	 *  This method is equivalent to {@link #getSenses(boolean)} with parameter 
 	 *  <code>false</code>. */
-	public Iterable<? extends IWiktionarySense> getSenses();
+	Iterable<? extends IWiktionarySense> getSenses();
 
 	/** Returns the list of all {@link IWiktionarySense}s. The list is
 	 *  never null nor empty. If the parameter is set to <code>true</code>,
@@ -170,7 +170,7 @@ public interface IWiktionaryEntry {
 	 *  to {@link #getUnassignedSense()}. The following elements are all
 	 *  senses of this entry, i.e. all senses with index 1 to 
 	 *  {@link #getSenseCount()}. */
-	public Iterable<? extends IWiktionarySense> getSenses(boolean includeUnassignedSense);
+	Iterable<? extends IWiktionarySense> getSenses(boolean includeUnassignedSense);
 
 	
 	// -- Combination --
@@ -179,50 +179,50 @@ public interface IWiktionaryEntry {
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getGloss()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWikiString> getGlosses();
+	List<IWikiString> getGlosses();
 	
 	/** Returns a list containing all sense definitions of the entry's senses 
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getExamples()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWikiString> getExamples();
+	List<IWikiString> getExamples();
 	
 	/** Returns a list containing all quotations of the entry's senses 
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getQuotations()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IQuotation> getQuotations();
+	List<IQuotation> getQuotations();
 	
 	/** Returns a list containing all semantic relations of the entry's senses 
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getRelations()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWiktionaryRelation> getRelations();
+	List<IWiktionaryRelation> getRelations();
 
 	/** Returns a list containing all semantic relations of the entry's senses 
 	 *  (including the unassigned sense) of the given type. Hence, the 
 	 *  method is a shorthand for invoking 
 	 *  {@link IWiktionarySense#getRelations(RelationType)} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWiktionaryRelation> getRelations(final RelationType relationType);
+	List<IWiktionaryRelation> getRelations(final RelationType relationType);
 	
 	/** Returns a list containing all references of the entry's senses 
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getReferences()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWikiString> getReferences();
+	List<IWikiString> getReferences();
 	
 	/** Returns a list containing all translations of the entry's senses 
 	 *  (including the unassigned sense). Hence, the method is a shorthand 
 	 *  for invoking {@link IWiktionarySense#getTranslations()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWiktionaryTranslation> getTranslations();
+	List<IWiktionaryTranslation> getTranslations();
 	
 	/** Returns a list containing all translations of the entry's senses 
 	 *  (including the unassigned sense) to the given language. Hence, the 
 	 *  method is a shorthand for invoking 
 	 *  {@link IWiktionarySense#getTranslations(ILanguage)} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */
-	public List<IWiktionaryTranslation> getTranslations(final ILanguage language);
+	List<IWiktionaryTranslation> getTranslations(final ILanguage language);
 	
 }
