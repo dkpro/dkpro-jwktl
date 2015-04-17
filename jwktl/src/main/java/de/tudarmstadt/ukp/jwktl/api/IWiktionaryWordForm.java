@@ -72,38 +72,38 @@ public interface IWiktionaryWordForm {
 	/** Returns the word form or <code>null</code> if no such word form
 	 *  exists (but specified). An example for the latter is the English noun
 	 *  "information", which does not have a plural form. */
-	public String getWordForm();
+	String getWordForm();
 	
 	/** Returns the {@link GrammaticalNumber} of this word form or 
 	 *  <code>null</code> if no number is specified or applicable. */
-	public GrammaticalNumber getNumber();
+	GrammaticalNumber getNumber();
 	
 	/** Returns the {@link GrammaticalCase} of this word form or 
 	 *  <code>null</code> if no case is specified or applicable. */
-	public GrammaticalCase getCase();
+	GrammaticalCase getCase();
 	
 	/** Returns the {@link GrammaticalPerson} of this word form or 
 	 *  <code>null</code> if no person is specified or applicable. */
-	public GrammaticalPerson getPerson();
+	GrammaticalPerson getPerson();
 	
 	/** Returns the {@link GrammaticalTense} of this word form or 
 	 *  <code>null</code> if no tense is specified or applicable. */
-	public GrammaticalTense getTense();
+	GrammaticalTense getTense();
 	
 	/** Returns the {@link GrammaticalMood} of this word form or 
 	 *  <code>null</code> if no mood is specified or applicable. */
-	public GrammaticalMood getMood();
+	GrammaticalMood getMood();
 	
 	/** Returns the {@link GrammaticalDegree} of this word form or 
 	 *  <code>null</code> if no degree is specified or applicable. */
-	public GrammaticalDegree getDegree();
+	GrammaticalDegree getDegree();
 	
 	/** Returns the {@link GrammaticalAspect} of this word form or 
 	 *  <code>null</code> if no aspect is specified or applicable. */
-	public GrammaticalAspect getAspect();
+	GrammaticalAspect getAspect();
 	
 	/** Returns the {@link NonFiniteForm} type of this word form or 
 	 *  <code>null</code> if no type is specified or applicable. */
-	public NonFiniteForm getNonFiniteForm();
+	NonFiniteForm getNonFiniteForm();
 	
 }

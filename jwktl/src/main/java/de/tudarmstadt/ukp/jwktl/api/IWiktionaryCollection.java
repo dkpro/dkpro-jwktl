@@ -35,16 +35,16 @@ public interface IWiktionaryCollection extends IWiktionary {
 	 /** Add the specified Wiktionary language edition to the current 
 	  *  collection. Querying the collection will then aggregate 
 	  *  information from all added editions. */
-	public void addEdition(final IWiktionaryEdition edition);
+	 void addEdition(final IWiktionaryEdition edition);
 	
 	/** Returns a list of all Wiktionary langauge editions in
 	 *  this collection. */
-	public Iterable<IWiktionaryEdition> getEditions();
+	Iterable<IWiktionaryEdition> getEditions();
 	
 	/** Removes the specified edition from the collection. Note that
 	 *  the removed edition is still open. If you do not need it anymore,
 	 *  call additionally the {@link IWiktionaryEdition#close()} method. */
-	public void removeEdition(final IWiktionaryEdition edition);
+	void removeEdition(final IWiktionaryEdition edition);
 
 	
 	// -- Pages --
@@ -52,13 +52,13 @@ public interface IWiktionaryCollection extends IWiktionary {
 	/** Returns the pages with the given (edition-specific) unique id.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public List<IWiktionaryPage> getPagesForId(long id);
+	List<IWiktionaryPage> getPagesForId(long id);
 	
 	/** Returns the page of the specified Wiktionary language edition with 
 	 *  the given unique id.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryPage getPageForId(long id, final ILanguage entryLanguage);
+	IWiktionaryPage getPageForId(long id, final ILanguage entryLanguage);
 	
 	/** Returns all pages with the given title. The method only returns the
 	 *  page if its title matches exactly. Use 
@@ -66,7 +66,7 @@ public interface IWiktionaryCollection extends IWiktionary {
 	 *  string-normalized matching.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public List<IWiktionaryPage> getPagesForWord(final String word);
+	List<IWiktionaryPage> getPagesForWord(final String word);
 
 	/** Returns all pages with the given title. The method only returns the
 	 *  page if its title matches exactly. Use 
@@ -75,8 +75,8 @@ public interface IWiktionaryCollection extends IWiktionary {
 	 *  {@link IWiktionaryPageFilter}, unwanted pages can be ignored.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public List<IWiktionaryPage> getPagesForWord(final String word, 
-			final IWiktionaryPageFilter filter);
+	List<IWiktionaryPage> getPagesForWord(final String word,
+										  final IWiktionaryPageFilter filter);
 
 	
 	// -- Entries --
@@ -104,7 +104,7 @@ public interface IWiktionaryCollection extends IWiktionary {
 	 *  version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionarySense getSenseForKey(final String key, final ILanguage language);
+	IWiktionarySense getSenseForKey(final String key, final ILanguage language);
 
 //	public List<IWiktionarySense> getSensesForKey(final String id);
 

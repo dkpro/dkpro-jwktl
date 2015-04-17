@@ -29,6 +29,6 @@ public interface IWiktionaryPageFilter {
 
 	/** Return <code>true</code> if the given page should be accepted or 
 	 *  <code>false</code> if it should be filtered out. */
-	public boolean accept(final IWiktionaryPage page);
+	boolean accept(final IWiktionaryPage page);
 	
 }

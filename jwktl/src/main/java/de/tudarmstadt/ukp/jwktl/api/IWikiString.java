@@ -31,20 +31,20 @@ import java.util.List;
 public interface IWikiString {
 
 	/** Returns the original text including all wiki markup. */
-	public String getText();
+	String getText();
 	
 	/** Parses the original text to filter out all wiki markup and thus
 	 *  returns a human-readable version of the text. Note that the parsing 
 	 *  might be done on demand, so avoid invoking this method repeatedly
 	 *  for the same text. */
-	public String getPlainText();
+	String getPlainText();
 
 	/** Returns a list of wiki-internal links. That is, all substrings
 	 *  enclosed by two square brackets. Link captions will be removed.
 	 *  If no wiki links are found, an empty list will be returned. Note that 
 	 *  the parsing might be done on demand, so avoid invoking this method 
 	 *  repeatedly for the same text. */
-	public List<String> getWikiLinks();
+	List<String> getWikiLinks();
 
 	/* Returns a list of external links. That is, all valid URLs in the 
 	 *  original text. If no external links are found, an empty list will 

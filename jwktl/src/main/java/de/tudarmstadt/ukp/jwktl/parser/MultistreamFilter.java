@@ -25,7 +25,7 @@ public interface MultistreamFilter {
 	boolean accept(long pageId, String pageTitle);
 
 	/** A filter which includes only page titles contained in  the specified list */
-	public static class IncludingNames implements MultistreamFilter {
+	class IncludingNames implements MultistreamFilter {
 		private final List<String> pageNames;
 
 		public IncludingNames(String... pageNames) {

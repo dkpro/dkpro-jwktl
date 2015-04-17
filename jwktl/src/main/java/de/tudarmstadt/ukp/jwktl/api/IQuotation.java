@@ -28,9 +28,9 @@ import java.util.List;
 public interface IQuotation {
 
 	/** Returns the source of the quotation. */
-	public IWikiString getSource();
+	IWikiString getSource();
 
 	/** Returns the text of the quotation as a list of {@link IWikiString}s. */
-	public List<IWikiString> getLines();
+	List<IWikiString> getLines();
 
 }

@@ -34,21 +34,21 @@ import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 public interface IWiktionaryTranslation {
 
 	/** @return the target language of the translation. */
-	public ILanguage getLanguage();
+	ILanguage getLanguage();
 	
 	/** @return the translated word form (belonging to target language). */
-	public String getTranslation();
+	String getTranslation();
 	
 	/** @return a transliteration to the script of the encoding Wiktionary.
 	 *  A Russian translation within the English Wiktionary could, for 
 	 *  example, be transliterated from the Cyrillic to the Latin script. 
 	 *  Returns <code>null</code> if no transliteration is specified. */
-	public String getTransliteration();
+	String getTransliteration();
 	
 	/** @return additional information on the translation, including usage
 	 *  notes, meaning-related information, and grammatical properties. */
-	public String getAdditionalInformation();
+	String getAdditionalInformation();
 
 	/** @return the raw sense as specified in the translation section or null */
-	public String getRawSense();
+	String getRawSense();
 }

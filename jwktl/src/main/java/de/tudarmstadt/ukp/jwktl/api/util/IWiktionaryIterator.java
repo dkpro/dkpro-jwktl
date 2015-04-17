@@ -50,11 +50,11 @@ public interface IWiktionaryIterator<IterableType>
 	 *  data consistency and proper resource management. Closing an
 	 *  iterator multiple times has no effect. After an iterator is closed,
 	 *  {@link #hasNext()} will always result in <code>false</code>. */
-	public void close();
+	void close();
 	
 	/** Returns true if the iterator has been closed, which is the case
 	 *  after {@link #close()} has been called or after the last element
 	 *  has been retrieved using the {@link #next()} method. */
-	public boolean isClosed();
+	boolean isClosed();
 	
 }

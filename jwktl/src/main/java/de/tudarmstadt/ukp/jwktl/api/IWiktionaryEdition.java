@@ -31,10 +31,10 @@ public interface IWiktionaryEdition extends IWiktionary {
 
 	/** Returns the language of the Wiktionary edition, which is equivalent
 	 *  to the entry language of the contained entries. */
-	public ILanguage getLanguage();
+	ILanguage getLanguage();
 
 	/** Returns the file path of the parsed database. */
-	public File getDBPath();
+	File getDBPath();
 
 	
 	// -- Pages --
@@ -42,7 +42,7 @@ public interface IWiktionaryEdition extends IWiktionary {
 	/** Returns the page with the given unique id.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryPage getPageForId(long id);
+	IWiktionaryPage getPageForId(long id);
 	
 	/** Returns the page with the given title. The method only returns the
 	 *  page if its title matches exactly. Use 
@@ -50,7 +50,7 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  string-normalized matching.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryPage getPageForWord(final String word);
+	IWiktionaryPage getPageForWord(final String word);
 
 	
 	// -- Entries --
@@ -59,14 +59,14 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  that this id is only stable over the same XML dump and JWKTL version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryEntry getEntryForId(long entryId);
+	IWiktionaryEntry getEntryForId(long entryId);
 	
 	/** Returns the {@link IWiktionaryEntry} with the given page id and 
 	 *  entry index. Note that this id combination is only stable over the 
 	 *  same XML dump and JWKTL version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryEntry getEntryForId(long pageId, int entryIdx);
+	IWiktionaryEntry getEntryForId(long pageId, int entryIdx);
 
 	/** Returns the {@link IWiktionaryEntry} encoded on a page with 
 	 *  the given title and being part of an entry with the specified entry
@@ -74,8 +74,8 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  matches exactly.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionaryEntry getEntryForWord(final String word,
-			int entryIdx);
+	IWiktionaryEntry getEntryForWord(final String word,
+									 int entryIdx);
 	
 	
 	// -- Senses --
@@ -84,21 +84,21 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  is only stable over the same XML dump and JWKTL version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionarySense getSenseForKey(final String id);
+	IWiktionarySense getSenseForKey(final String id);
 
 	/** Returns the word sense with the given entry id and sense index. Note 
 	 *  that this id combination is only stable over the same XML dump and 
 	 *  JWKTL version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionarySense getSenseForId(long entryId, int senseIdx);
+	IWiktionarySense getSenseForId(long entryId, int senseIdx);
 	
 	/** Returns the word sense with the given page id, entry index, and sense 
 	 *  index. Note that this id combination is only stable over the same XML 
 	 *  dump and JWKTL version.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionarySense getSenseForId(long pageId, int entryIdx, int senseIdx);
+	IWiktionarySense getSenseForId(long pageId, int entryIdx, int senseIdx);
 
 	/** Returns a list of {@link IWiktionarySense}s encoded on a page with 
 	 *  the given title and being part of an entry with the specified entry
@@ -106,8 +106,8 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  matches exactly.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public List<IWiktionarySense> getSensesForWord(final String word,
-			int entryIdx);
+	List<IWiktionarySense> getSensesForWord(final String word,
+											int entryIdx);
 
 	/** Returns the {@link IWiktionarySense} encoded on the page with 
 	 *  the given title and being part of the entry with the specified entry 
@@ -115,7 +115,7 @@ public interface IWiktionaryEdition extends IWiktionary {
 	 *  sense if the page title matches exactly.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
-	public IWiktionarySense getSensesForWord(final String word,
-			int entryIdx, int senseIdx);
+	IWiktionarySense getSensesForWord(final String word,
+									  int entryIdx, int senseIdx);
 
 }
