@@ -42,30 +42,30 @@ public interface IWiktionaryPage {
 	 *  {@link IWiktionaryPage}s of the {@link IWiktionaryEdition} and 
 	 *  remains persistent regardless of the JWKTL software version or
 	 *  the date of the XML data dump of Wiktionary. */
-	public String getKey();
+	String getKey();
 	
 	/** Returns the unique ID for this page. This method is equivalent
 	 *  to {@link #getKey()}, but returns the ID as a numerical value. */
-	public long getId();
+	long getId();
 	
 	
 	// -- Page --
 	
 	/** Returns the title of this Wiktionary page which usually corresponds
 	 *  to the lemma of all lexical entries described on this page. */
-	public String getTitle();
+	String getTitle();
 	
 	/** Returns the timestamp of this revision - i.e., the date of the
 	 *  last change of the page. */
-	public Date getTimestamp();
+	Date getTimestamp();
 	
 	/** Returns the ID of this revision - i.e., a unique number of the 
 	 *  last change made to the page. */
-	public long getRevision();
+	long getRevision();
 	
 	/** Returns the author of this revision - i.e., the name of the user
 	 *  that made the last change to the page. */
-	public String getAuthor();
+	String getAuthor();
 	
 	/** Returns the language that this page is written in. This is always 
 	 *  the language of the whole Wiktionary language edition - i.e. equivalent
@@ -76,24 +76,24 @@ public interface IWiktionaryPage {
 	 *  that encodes a lexical entry on the word "plant" of the English 
 	 *  language. The entry language would be German and the word language 
 	 *  would be English in this case. */
-	public ILanguage getEntryLanguage();
+	ILanguage getEntryLanguage();
 	
 	/** Returns all categories of the Wiktionary page that are manually 
 	 *  defined. Categories being derived automatically by using templates
 	 *  are not returned. The returned list is never <code>null</code>. */
-	public List<String> getCategories();
+	List<String> getCategories();
 	
 	/** Returns a list of inter-wiki links of this Wiktionary page. Inter-wiki
 	 *  links are links to other language editions of Wiktionary - e.g., from
 	 *  the English page "plant" to the German page "plant". Note that this 
 	 *  is not a translation, but always the same word form. Use 
 	 *  {@link IWiktionarySense#getTranslations()} for word translations. 
-	 *  The returned list is never <code>null</code>. */	
-	public Set<String> getInterWikiLinks();
+	 *  The returned list is never <code>null</code>. */
+	Set<String> getInterWikiLinks();
 
 	/** Returns the page title that a redirect page targets at. The method
 	 *  returns <code>null</code> if the page is not a redirection page. */
-	public String getRedirectTarget();
+	String getRedirectTarget();
 	
 	
 	// -- Entries --
@@ -102,16 +102,16 @@ public interface IWiktionaryPage {
 	 *  is a running number starting at zero.
 	 *  @throws ArrayIndexOutOfBoundsException if there is no entry with
 	 *    the given index. */
-	public IWiktionaryEntry getEntry(int index);
+	IWiktionaryEntry getEntry(int index);
 	
 	/** Returns the number of {@link IWiktionaryEntry}s encoded on this
 	 *  page. */
-	public int getEntryCount();
+	int getEntryCount();
 	
 	/** Returns the list of all {@link IWiktionaryEntry}s. The list is
 	 *  never <code>null</code> and yields equivalent results to using 
 	 *  {@link #getEntry(int)} for all indices from zero to 
 	 *  {@link #getEntryCount()}. */
-	public List<? extends IWiktionaryEntry> getEntries();
+	List<? extends IWiktionaryEntry> getEntries();
 	
 }

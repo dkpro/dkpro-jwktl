@@ -29,6 +29,6 @@ public interface IWiktionaryEntryFilter {
 
 	/** Return <code>true</code> if the given entry should be accepted or 
 	 *  <code>false</code> if it should be filtered out. */
-	public boolean accept(final IWiktionaryEntry entry);
+	boolean accept(final IWiktionaryEntry entry);
 	
 }

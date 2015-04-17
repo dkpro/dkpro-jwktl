@@ -128,7 +128,7 @@ public /*static*/ class TemplateParser {
 		 *  in a text. The parser replaces the template by the result of this 
 		 *  method. If <code>null</code> is returned, no substitution is made,
 		 *  but the original template string remains in the text. */
-		public String handle(final Template template);
+		String handle(final Template template);
 		
 	}
 	

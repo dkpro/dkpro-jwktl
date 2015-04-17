@@ -34,17 +34,17 @@ public interface IWiktionaryDumpParser {
 	 * @param dumpFile the dumpFile
 	 * @throws WiktionaryException in case of any parser errors.
 	 */
-	public void parse(final File dumpFile) throws WiktionaryException;
+	void parse(final File dumpFile) throws WiktionaryException;
 
 	/**
 	 * Register the given {@link IWiktionaryPageParser}. The registered
 	 * parser will then be notified once a Wiktionary-related XML tag
 	 * has been processed.
 	 */
-	public void register(final IWiktionaryPageParser pageParser);
+	void register(final IWiktionaryPageParser pageParser);
 
 	/**
 	 * Returns the list of all registered {@link IWiktionaryPageParser}s.
 	 */
-	public Iterable<IWiktionaryPageParser> getPageParsers();
+	Iterable<IWiktionaryPageParser> getPageParsers();
 }

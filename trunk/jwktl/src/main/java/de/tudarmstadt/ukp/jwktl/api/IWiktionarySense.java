@@ -39,12 +39,12 @@ public interface IWiktionarySense {
 	 *  {@link IWiktionarySense}s of the {@link IWiktionaryEdition}. Note 
 	 *  however that the ID of a sense may differ between different software 
 	 *  versions or dump dates. */
-	public String getKey();
+	String getKey();
 	
 	/** Returns an ID of this sense that is unique for all senses 
 	 *  of the containing {@link IWiktionaryEntry}. Use {@link #getKey()} 
 	 *  for a globally unique identifier. */
-	public String getId();
+	String getId();
 	
 	/** Returns the index of this sense. That is, the running number of 
 	 *  the sense in accordance to the list of senses of the 
@@ -52,59 +52,59 @@ public interface IWiktionarySense {
 	 *  Note that this is not generally the index marker used in Wiktionary: 
 	 *  the first sense has for example always index 1, although it might
 	 *  be marked with "[2]" or "[1a]". See {@link #getMarker()} for details. */
-	public int getIndex();
+	int getIndex();
 	
 	/** Returns the marker for this sense as defined in Wiktionary. This 
 	 *  can be different for each type of Wiktionary edition; for example,
 	 *  running numbers, short textual labels,... */
-	public String getMarker();
+	String getMarker();
 	
 	
 	// -- Parent --
 	
 	/** Returns a reference to the {@link IWiktionaryEntry} that contains
 	 *  this sense. */
-	public IWiktionaryEntry getEntry();
+	IWiktionaryEntry getEntry();
 	
 	/** Returns a reference to the {@link IWiktionaryPage} that contains
 	 *  this sense. */
-	public IWiktionaryPage getPage();
+	IWiktionaryPage getPage();
 	
 	
 	// -- Sense --
 	
 	/** Returns the sense description as a {@link IWikiString}. */
-	public IWikiString getGloss();
+	IWikiString getGloss();
 	
 	/** Returns a list of sense examples or <code>null</code> if no sense 
 	 *  examples are encoded. */
-	public List<IWikiString> getExamples();
+	List<IWikiString> getExamples();
 	
 	/** Returns a list of quotations or <code>null</code> if no 
 	 *  quotations are encoded. */
-	public List<IQuotation> getQuotations();
+	List<IQuotation> getQuotations();
 	
 	/** Returns the list of all sense relations (or <code>null</code> 
 	 *  if no relations are encoded). */
-	public List<IWiktionaryRelation> getRelations();
+	List<IWiktionaryRelation> getRelations();
 	
 	/** Returns the list of sense relations of the given relation type. 
 	 *  If there are no relations of this type, an empty list will be 
 	 *  returned. */
-	public List<IWiktionaryRelation> getRelations(final RelationType relationType);
+	List<IWiktionaryRelation> getRelations(final RelationType relationType);
 	
 	/** Returns a list of references for this sense or 
 	 *  <code>null</code> if no referemces are encoded. */
-	public List<IWikiString> getReferences();
+	List<IWikiString> getReferences();
 	
 	/** Returns the list of all translations (or <code>null</code> 
 	 *  if no translations are encoded). */
-	public List<IWiktionaryTranslation> getTranslations();
+	List<IWiktionaryTranslation> getTranslations();
 
 	/** Returns the list of translations into the given language. 
 	 *  If there are no translations of this type, an empty list will be 
 	 *  returned. */
-	public List<IWiktionaryTranslation> getTranslations(final ILanguage language);
+	List<IWiktionaryTranslation> getTranslations(final ILanguage language);
 	
 	
 	// -- Subsenses --

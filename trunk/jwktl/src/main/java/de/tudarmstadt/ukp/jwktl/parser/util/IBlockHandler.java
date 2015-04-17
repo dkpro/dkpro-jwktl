@@ -28,23 +28,23 @@ public interface IBlockHandler {
 	
 	/** Return <code>true</code> if the handler requests to process the article
 	 *  constituent starting at the given line of text. */
-	public boolean canHandle(final String blockHeader);
+	boolean canHandle(final String blockHeader);
 	
 	/** If the handler requested to process this constituent, this hotspot 
 	 *  will be called for processing the section header of this 
 	 *  article constituent. Return <code>true</code> if the handler
 	 *  requests to handle also the body of this constituent. */
-	public boolean processHead(final String line, final ParsingContext context);
+	boolean processHead(final String line, final ParsingContext context);
 
 	/** If the handler requested to process the body of this constituent, this 
 	 *  hotspot will be called for processing each line of the constituent's 
 	 *  body. Return <code>true</code> if the handler requests to handle also
 	 *  the next line using this handler. */
-	public boolean processBody(final String line, final ParsingContext context);
+	boolean processBody(final String line, final ParsingContext context);
 
 	/** This hotspot is invoked if the parser releases this handler. It can be 
 	 *  used to store the extracted information to the Wiktionary data
 	 *  objects stored in the parsing context. */
-	public void fillContent(final ParsingContext context);
+	void fillContent(final ParsingContext context);
 	
 }

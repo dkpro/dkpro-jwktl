@@ -32,28 +32,28 @@ import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
  */
 public interface IWritableWiktionaryEdition extends IWiktionaryEdition {
 
-	public WiktionaryPage getPageForId(long id);
+	WiktionaryPage getPageForId(long id);
 	
-	public WiktionaryPage getPageForWord(final String word);
+	WiktionaryPage getPageForWord(final String word);
 	
 	/** Hotspot called after parsing has finished to save the metadata
 	 *  of the dump file and the basic parsing statistics. */
-	public void saveProperties(final IDumpInfo dumpInfo)
+	void saveProperties(final IDumpInfo dumpInfo)
 			throws WiktionaryException;
 
 	/** Adds the given page to the Wiktionary edition (e.g., storing it
 	 *  in a database). */
-	public void savePage(final WiktionaryPage page);
+	void savePage(final WiktionaryPage page);
 
 	/** Force a database commit of the pages saved so far. */
-	public void commit();
+	void commit();
 	
 	/** Assigns the given language to the Wiktionary edition. */
-	public void setLanguage(final ILanguage language);
+	void setLanguage(final ILanguage language);
 
 	/** Sorts the entries by word form before assigning an ID to them.
 	 *  THIS METHOD IS KEPT FOR COMPATIBILITY. YOU SHOULD NOT USE THIS
 	 *  METHOD. */
-	public void setEntryIndexByTitle(boolean entryIndexByTitle);
+	void setEntryIndexByTitle(boolean entryIndexByTitle);
 	
 }

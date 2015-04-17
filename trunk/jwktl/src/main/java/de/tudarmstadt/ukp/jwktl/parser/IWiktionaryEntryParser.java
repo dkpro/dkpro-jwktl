@@ -30,7 +30,7 @@ public interface IWiktionaryEntryParser {
 	/** Creates Wiktionary word entry instances from the provided text, and 
 	 *  adds them to the given article page. 
 	 *  @throws WiktionaryException in case of any parser errors. */
-	public void parse(final WiktionaryPage page, final String text) 
+	void parse(final WiktionaryPage page, final String text)
 			throws WiktionaryException;
 	
 }

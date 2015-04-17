@@ -34,7 +34,7 @@ package de.tudarmstadt.ukp.jwktl.api;
 public interface IWiktionaryRelation {
 
 	/** Types of a link used by {@link IWiktionaryRelation#getLinkType()}. */
-	public enum LinkType {
+	enum LinkType {
 		/** The link was found on the original article page. */
 		ARTICLE, 
 		/** The link was found in the Wikisaurus (thesaurus) extension. */
@@ -44,18 +44,18 @@ public interface IWiktionaryRelation {
 	
 		
 	/** Returns the target word form of this relation. */
-	public String getTarget();
+	String getTarget();
 	
 	/** Returns additional information on the word sense of the relation's 
 	 *  target. This is not yet structured information, but the bare 
 	 *  piece of text encoded in Wiktionary. */
-	public String getTargetSense();
+	String getTargetSense();
 	
 	/** Returns the type of this relation (never <code>null</code>). */
-	public RelationType getRelationType();
+	RelationType getRelationType();
 	
 	/** Returns the {@link LinkType} that is used to encode the relation's
 	 *  target. */
-	public LinkType getLinkType();
+	LinkType getLinkType();
 	
 }

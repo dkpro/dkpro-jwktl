@@ -29,6 +29,6 @@ public interface IWiktionarySenseFilter {
 
 	/** Return <code>true</code> if the given sense should be accepted or 
 	 *  <code>false</code> if it should be filtered out. */
-	public boolean accept(final IWiktionarySense sense);
+	boolean accept(final IWiktionarySense sense);
 	
 }

@@ -28,48 +28,48 @@ import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
 public interface IWiktionaryPageParser {
 
 	/** Hotspot that is invoked upon starting the parser. */
-	public void onParserStart(final IDumpInfo dumpInfo);
+	void onParserStart(final IDumpInfo dumpInfo);
 
 	/** Hotspot that is invoked after the siteinfo header has been read. At
 	 *  this point in time, the dump info contains all information,
 	 *  including dump language and namespaces. */
-	public void onSiteInfoComplete(final IDumpInfo dumpInfo);
+	void onSiteInfoComplete(final IDumpInfo dumpInfo);
 
 	/** Hotspot that is invoked when the parser is about to end. Use this
 	 *  method for writing any owing information to a file or database. For
 	 *  closing and cleaning up resources, you should, however, use the
 	 *  {@link #onClose(IDumpInfo)} hotspot. */
-	public void onParserEnd(final IDumpInfo dumpInfo);
+	void onParserEnd(final IDumpInfo dumpInfo);
 
 	/** Hotspot that is invoked after the parser has finished its work. This
 	 *  method is supposed to close and cleanup any resources (e.g., closing
 	 *  a database connection). It is called after all 
 	 *  {@link #onParserEnd(IDumpInfo)} calls have been handled. */
-	public void onClose(final IDumpInfo dumpInfo);
+	void onClose(final IDumpInfo dumpInfo);
 
 	/** Hotspot that is invoked upon starting a new article page. */
-	public void onPageStart();
+	void onPageStart();
 
 	/** Hotspot that is invoked upon finishing the current article page. */
-	public void onPageEnd();
+	void onPageEnd();
 
 	/** Hotspot that is invoked after the current page's author is read. */
-	public void setAuthor(final String author);
+	void setAuthor(final String author);
 
 	/** Hotspot that is invoked after the current page's revision id is read. */
-	public void setRevision(long revisionId);
+	void setRevision(long revisionId);
 
 	/** Hotspot that is invoked after the current page's timestamp is read. */
-	public void setTimestamp(final Date timestamp);
+	void setTimestamp(final Date timestamp);
 
 	/** Hotspot that is invoked after the current page's id is read. */
-	public void setPageId(long pageId);
+	void setPageId(long pageId);
 
 	/** Hotspot that is invoked after the current page's title is read. 
 	 * @param namespace */
-	public void setTitle(final String title, final String namespace);
+	void setTitle(final String title, final String namespace);
 
 	/** Hotspot that is invoked after the current page's text is read. */
-	public void setText(final String text);
+	void setText(final String text);
 
 }

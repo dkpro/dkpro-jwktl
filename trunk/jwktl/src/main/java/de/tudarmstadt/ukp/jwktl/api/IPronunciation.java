@@ -29,7 +29,7 @@ public interface IPronunciation {
 
 	/** Types of different pronunciation information used by 
 	 *  {@link IPronunciation#getType()}. */
-	public enum PronunciationType {
+	enum PronunciationType {
 		
 		/** International Phonetic Alphabet */
 		IPA,
@@ -45,17 +45,17 @@ public interface IPronunciation {
 	/** Returns the type of this pronunciation, which can be audio files 
 	 *  or a specific notation schema used to represent pronunciation 
 	 *  information. */
-	public PronunciationType getType();
+	PronunciationType getType();
 	
 	/** The representation of the pronunciation using a standardized
 	 *  notation such as IPA. In case of audio files, the file name of
 	 *  the sound file is returned. The corresponding URL of this sound file
 	 *  needs to be obtained by querying 
 	 *  http://[LANGUAGE].wiktionary.org/wiki/File:[FILENAME]. */
-	public String getText();
+	String getText();
 	
 	/** Returns additional information for this pronunciation, such as 
 	 *  a geographical reference. */
-	public String getNote();
+	String getNote();
 	
 }

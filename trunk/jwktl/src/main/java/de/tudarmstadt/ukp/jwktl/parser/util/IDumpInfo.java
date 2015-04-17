@@ -34,32 +34,32 @@ import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryPageParser;
 public interface IDumpInfo {
 
 	/** Returns the current Wiktionary XML dump file, which is being parsed. */
-	public File getDumpFile();
+	File getDumpFile();
 		
 	/** Returns the language of the Wiktionary edition this dump file 
 	 *  belongs to. The language is automatically determined from the 
 	 *  base URL of the Wiktionary edition. */
-	public ILanguage getDumpLanguage();
+	ILanguage getDumpLanguage();
 	
 	/** Returns a set containing all namespaces registered in the siteinfo
 	 *  header of the XML dump file. */
-	public Set<String> getNamespaces();
+	Set<String> getNamespaces();
 
 	/** Returns <code>true</code> if the specified namespace has been
 	 *  defined within the siteinfo header of the XML dump file. */
-	public boolean hasNamespace(final String namespace);
+	boolean hasNamespace(final String namespace);
 	
 	/** Returns the number of pages in the dump file that have been
 	 *  processed. */
-	public int getProcessedPages();
+	int getProcessedPages();
 	
 	/** Returns the Wiktionary dump parser instance that maintains this
 	 *  dump info object. */
-	public IWiktionaryDumpParser getParser();
+	IWiktionaryDumpParser getParser();
 
 	/** Reset the dump information, such the number of processed pages. This 
 	 *  is to be called before a new dump file is being processed. Users of 
 	 *  this interface should normally not invoke this method. */
-	public void reset();
+	void reset();
 	
 }
