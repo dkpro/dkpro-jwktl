@@ -17,6 +17,9 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import java.util.Arrays;
+import java.util.List;
+
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
@@ -28,17 +31,12 @@ import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
  * @author Lizhen Qu
  */
 public class ENEtymologyHandler extends ENBlockHandler {	
-	
+	private static List<String> SPELLINGS = Arrays.asList("etymology", "etymolgy",
+			"eytomology", "etmology", "eymology");
 	protected StringBuffer contentBuffer;
 
 	public boolean canHandle(String blockHeader) {
-		blockHeader = StringUtils.strip(blockHeader, "{}=: 1234567890").toLowerCase();
-		if ("etymology".equals(blockHeader) || "etymolgy".equals(blockHeader)
-				|| "eytomology".equals(blockHeader) || "etmology".equals(blockHeader)
-				|| "eymology".equals(blockHeader))
-			return true;
-		
-		return false;
+		return SPELLINGS.contains(StringUtils.strip(blockHeader, "{}=: 1234567890").toLowerCase());
 	}
 	
 	@Override
@@ -50,13 +48,15 @@ public class ENEtymologyHandler extends ENBlockHandler {
 	@Override
 	public boolean processBody(String textLine, ParsingContext context) {
 		textLine = textLine.trim();
-		if (!textLine.isEmpty())
+		if (!textLine.isEmpty() && !textLine.startsWith("===")) {
 			contentBuffer.append(textLine);
+		}
 		return false;
 	}
 
 	public void fillContent(final ParsingContext context) {
-		context.setEtymology(new WikiString(contentBuffer.toString()));
+		if (!contentBuffer.toString().trim().isEmpty()) {
+			context.setEtymology(new WikiString(contentBuffer.toString()));
+		}
 	}
-	
 }
