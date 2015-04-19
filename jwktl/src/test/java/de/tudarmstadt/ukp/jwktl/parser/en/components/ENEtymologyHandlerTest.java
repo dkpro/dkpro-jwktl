@@ -76,4 +76,13 @@ public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{etyl|fr|nl}} ''[[plante]]'', from {{etyl|la|nl}} ''[[planta]]''", entry.getWordEtymology().getText());
 	}
 
+	public void testMangueira() throws Exception {
+		// has etymology header, but no content
+		IWiktionaryPage page = parse("mangueira.txt");
+		final IWiktionaryEntry entry = page.getEntry(1);
+		assertNull(entry.getWordEtymology());
+
+		final IWiktionaryEntry entry2 = page.getEntry(2);
+		assertNull(entry2.getWordEtymology());
+	}
 }

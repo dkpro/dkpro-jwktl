@@ -1,0 +1,40 @@
+==Galician==
+
+===Noun===
+{{gl-noun|f}}
+
+# [[mango]] [[tree]]
+
+====Related terms====
+* [[manga]]
+
+[[Category:gl:Trees]]
+
+----
+
+==Portuguese==
+===Etymology 1===
+====Noun====
+'''mangueira''' {{g|f}}
+# [[hose]].
+
+===Etymology 2===
+====Noun====
+'''mangueira''' {{g|f}}
+# [[mango]] (tree).
+
+=====Related terms=====
+{{top2}}
+*[[manga]]
+{{mid2}}
+{{bottom}}
+
+[[Category:Portuguese nouns]]
+
+[[io:mangueira]]
+[[mg:mangueira]]
+[[fj:mangueira]]
+[[pt:mangueira]]
+[[ru:mangueira]]
+[[tl:mangueira]]
+[[chr:mangueira]]
