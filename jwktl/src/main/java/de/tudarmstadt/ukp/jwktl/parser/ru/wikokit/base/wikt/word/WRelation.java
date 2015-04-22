@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,19 +30,19 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.WikiText;
  * See http://en.wiktionary.org/wiki/Wiktionary:Semantic_relations
  */
 public class WRelation {
-    
+
     /** Kind of semantic relation, e.g. synonymy, antonymy, etc... */
     //private Relation semantic_relation;
-    
+
     /** List of words (phrases) with context comments, i.e, labels,
      * e.g. two phrases: "[[служба]]; частичн.: [[пост]]".*/
     private WikiText[] phrases;
 
-    // In some Wiktionaries (e.g. Russian): 
+    // In some Wiktionaries (e.g. Russian):
     // "near synonyms" are split by comma, far synonyms are split by semicolon
     // private int[] phrases_number_which_end_by_semicolon
     // todo
-    
+
     /** Summary of the definition for which synonyms are being given,
      * e.g. "flrink with cumplus" or "furp" in text
      * <PRE>
@@ -97,7 +97,6 @@ public class WRelation {
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
     public static Map<Relation, WRelation[]> parse (
                     LanguageType wikt_lang,
@@ -116,7 +115,7 @@ public class WRelation {
 
         } else if(l == LanguageType.en) {
             wr = WRelationEn.parse(wikt_lang, page_title, pt);
-            
+
         //} //else if(code.equalsIgnoreCase( "simple" )) {
           //  return WordSimple;
 

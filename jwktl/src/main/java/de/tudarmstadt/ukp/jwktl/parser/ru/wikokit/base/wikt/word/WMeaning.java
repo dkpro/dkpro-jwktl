@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -31,14 +31,14 @@ public class WMeaning {
 
     // StringBuffer definition;
     // + wiki word, + number of wiki word or number of first char of wikiword in definition
-    
+
     /** Contexual information for definitions, e.g. "idiom" from text "# {{idiom}} [[bullet]]s" */
     private ContextLabel[]  labels;
 
     private WikiText definition;
 
     /** True, if the definition defines inflection of the word with the help of
-     * (1) template {{form of|}}, or {{plural of|}}, 
+     * (1) template {{form of|}}, or {{plural of|}},
      * (2) strictly defined phrase (e.g. "Plural form of")
      */
     private boolean  form_of_inflection;
@@ -48,7 +48,7 @@ public class WMeaning {
 
     /** Wiki internal links, e.g. "bullet" from text "# {{idiom}} [[bullet]]s" */
     //private WikiWord[] wiki_words;
-    
+
     /** Example sentences and quotations. */
     private WQuote[] quote;
 
@@ -89,7 +89,7 @@ public class WMeaning {
         labels = _labels;
         wikified_text = _definition;
         definition = WikiText.createOnePhrase(page_title, _definition);
-        
+
         form_of_inflection = _template_not_def;
 
         if(null == _quote)
@@ -99,7 +99,7 @@ public class WMeaning {
 
     }
 
-    
+
     /** True if the definition defines inflection of the word with the help of
      * (1) the template (e.g. {{form of|}} or {{plural of|}}), or
      * (2) strictly defined phrase (e.g. "Plural form of")
@@ -117,7 +117,7 @@ public class WMeaning {
     public String getDefinition() {
         return definition.getVisibleText();
     }
-    
+
     /** Gets array of internal links in the definition (wiki words, i.e. words with hyperlinks). */
     public WikiWord[] getWikiWords() {
         return definition.getWikiWords();
@@ -127,7 +127,7 @@ public class WMeaning {
     public WikiText getWikiText() {
         return definition;
     }
-    
+
     /** Gets array of quotes (sentences) from the definition. */
     public WQuote[] getQuotes() {
         return quote;
@@ -138,7 +138,6 @@ public class WMeaning {
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
     public static WMeaning[] parse (
                     LanguageType wikt_lang,
@@ -171,11 +170,11 @@ public class WMeaning {
         } else {
             throw new NullPointerException("Null LanguageType");
         }
-        
+
         return wm;
     }
 
-    /** Parses one definition (one line in Russian, several lines in English 
+    /** Parses one definition (one line in Russian, several lines in English
      * Wiktionary), i.e. extracts {{label.}}, definition,
      * {{example|Quotation sentence.}}, creates and fills a meaning (WMeaning).
      * @param wikt_lang     language of Wiktionary
@@ -212,14 +211,14 @@ public class WMeaning {
 
         return wm;
     }
-    
+
     //////////////////////
     /// JWKTL interface
     //////////////////////
-    
+
     /** Meaning text with wiki markup, with context labels. */
     private String wikified_text;
-    
+
     public String getWikifiedText() {
    	return wikified_text;
     }

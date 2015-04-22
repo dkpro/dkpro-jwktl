@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -28,7 +28,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WTranslationEnt
 
 /** Translations of English Wiktionary word.
  *
- * @see http://en.wiktionary.org/wiki/Wiktionary:Translations
+ * see http://en.wiktionary.org/wiki/Wiktionary:Translations
  */
 public class WTranslationEn {
 
@@ -54,7 +54,6 @@ public class WTranslationEn {
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
     public static WTranslation[] parse (
                     LanguageType wikt_lang,
@@ -118,7 +117,7 @@ public class WTranslationEn {
             WTranslation wt = WTranslation.parseOneTranslationBox(wikt_lang, page_title, trans_block);
             if(null != wt)
                 wt_list.add(wt);
-            
+
             if(to_continue)
                 to_continue = -1 != next_end && next_end < len;
             prev_end = next_end;
@@ -169,11 +168,11 @@ public class WTranslationEn {
 
         List<WTranslationEntry> wte_list = null;
         for(String s : lines) {
-            
+
             s = s.trim();
             if(s.equalsIgnoreCase("{{trans-mid}}")) continue;
             if(s.equalsIgnoreCase("{{trans-bottom}}")) break;
-            
+
             // for each language (for each line)
             WTranslationEntry wte = WTranslationEntry.parse(wikt_lang, page_title, s);
 

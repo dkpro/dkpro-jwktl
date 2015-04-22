@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -27,14 +27,14 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.LangText;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.POSText;
 
 
-/** Part of Speech may be a misnomer... It is the key descriptor for the 
- * lexical function of the term in question (such as 'noun', 'verb', etc). 
- * The definitions themselves come within its scope. In addition to the 
- * traditional “parts of speech” it has come to include entities that are less 
- * than words, such as initialisms and suffixes, and items that are 
- * more than words, such as idiomatic expressions, phrases and proverbs. 
- * This heading is nestable. It is most frequently in a level three heading, 
- * but may have a lower level for terms that have multiple etymologies or 
+/** Part of Speech may be a misnomer... It is the key descriptor for the
+ * lexical function of the term in question (such as 'noun', 'verb', etc).
+ * The definitions themselves come within its scope. In addition to the
+ * traditional “parts of speech” it has come to include entities that are less
+ * than words, such as initialisms and suffixes, and items that are
+ * more than words, such as idiomatic expressions, phrases and proverbs.
+ * This heading is nestable. It is most frequently in a level three heading,
+ * but may have a lower level for terms that have multiple etymologies or
  * pronunciations.
  *
  * WPOS consists of <PRE>
@@ -43,25 +43,25 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.POSText;
  * # Translation        </PRE>
  *
  * See http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
- * @see wikt.sql.TLangPOS
+ * see wikt.sql.TLangPOS
  */
 public class WPOS {
-    
+
     /** Part of speech. */
     private POS pos_type;
-    
+
     // Pronunciations
     // todo ...
-    
+
     /** (1) Meaning consists of Definitions + Quotations. */
     private WMeaning[] meaning;
-    
+
     /** (2) Semantic relations: synonymy, antonymy, etc.
      * The map from semantic relation (e.g. synonymy) to array of WRelation
      * (one WRelation contains a list of synonyms for one meaning).
      */
     private Map<Relation, WRelation[]> relation;
-    
+
     /** (3) Translation */
     private WTranslation[] translation;
 
@@ -121,14 +121,13 @@ public class WPOS {
         }
     }
 
-    
+
     /** Parses text, creates and fills array of meanings (WLanguage),
      * semantic relations, translations.
-     * 
+     *
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
-     * @param text          LangText defines language of this POS stored in "text"
-     * @return
+     * @param lang_section  LangText defines language of this POS stored in "text"
      */
     public static WPOS[] parse (
                     LanguageType wikt_lang,
@@ -147,14 +146,14 @@ public class WPOS {
             wpos[j] = new WPOS();
             wpos[j].pos_type = pt[j].getPOSType();
             wpos[j].meaning = WMeaning.parse(wikt_lang, page_title, lang_section.getLanguage(), pt[j]);
-            
+
             // === III. Semantic relations ==
             wpos[j].relation = WRelation.parse(wikt_lang, page_title, lang_section.getLanguage(), pt[j]);
 
             // === III. Translations ==
             wpos[j].translation = WTranslation.parse(wikt_lang, page_title, lang_section.getLanguage(), pt[j]);
         }
-        
+
         return wpos;
     }
 
@@ -168,9 +167,9 @@ public class WPOS {
                     LangText    source_langtext)
     {
         POSText[] pos_sections; // result will be stored to
-        
+
         LanguageType l = wikt_lang;
-        
+
         if(l  == LanguageType.ru) {
             pos_sections = WPOSRu.splitToPOSSections(page_title, source_langtext);
         } else if(l == LanguageType.en) {
@@ -181,15 +180,15 @@ public class WPOS {
           //  return WordEn;
         //} //else if(code.equalsIgnoreCase( "simple" )) {
           //  return WordSimple;
-            
-            // todo 
+
+            // todo
             // ...
-            
+
         } else {
             throw new NullPointerException("Null LanguageType");
         }
-        
-        
+
+
         return pos_sections;
     }
 }

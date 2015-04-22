@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,8 +32,8 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WRelation;
 
 /** Semantic relations of English Wiktionary word.
  *
- * @see http://en.wiktionary.org/wiki/Wiktionary:Semantic_relations
- * @see http://en.wiktionary.org/wiki/Template_talk:sense
+ * see http://en.wiktionary.org/wiki/Wiktionary:Semantic_relations
+ * see http://en.wiktionary.org/wiki/Template_talk:sense
  */
 public class WRelationEn {
 
@@ -56,7 +56,7 @@ public class WRelationEn {
     /** Gets position after       ====Hyponyms==== */
     private final static Pattern ptrn_hyponymy = Pattern.compile(
                       "(?m)^={3,5}\\s*Hyponyms\\s*={3,5}\\s*$");
-    
+
     /** Gets position after       ====Holonyms==== */
     private final static Pattern ptrn_holonymy = Pattern.compile(
                       "(?m)^={3,5}\\s*Holonyms\\s*={3,5}\\s*$");
@@ -72,7 +72,7 @@ public class WRelationEn {
     /** Gets position after       ====Coordinate terms==== */
     private final static Pattern ptrn_coordinate_term = Pattern.compile(
                       "(?m)^={3,5}\\s*Coordinate\\s+terms\\s*={3,5}\\s*$");
-    
+
     /** Gets position after       ====See also==== */
     private final static Pattern ptrn_see_also = Pattern.compile(
                       "(?m)^={3,5}\\s*See\\s+also\\s*={3,5}\\s*$");
@@ -84,7 +84,7 @@ public class WRelationEn {
     /** Gets position after       ====Related terms==== */
     private final static Pattern ptrn_related_terms = Pattern.compile(
                       "(?m)^={3,5}\\s*Related\\s+terms\\s*={3,5}\\s*$");
-    
+
     /** Gets position after       ====Translations==== */
     private final static Pattern ptrn_translations = Pattern.compile(
                       "(?m)^={3,5}\\s*Translations\\s*={3,5}\\s*$");
@@ -112,10 +112,7 @@ public class WRelationEn {
      * semantic relations (WRelation).
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
-     * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @param relation_type type of parsing relation, e.g. synonymy
-     * @return
      */
     public static Map<Relation, WRelation[]> parse (
                     LanguageType wikt_lang,
@@ -140,9 +137,9 @@ public class WRelationEn {
         else
             text = text_source_sb.substring(0, m.start());
 
-        Map<Relation, WRelation[]> m_rel = new HashMap<Relation, WRelation[]>();        
+        Map<Relation, WRelation[]> m_rel = new HashMap<Relation, WRelation[]>();
         WRelation[] r;
-        
+
         // synonymy
         r = parseOneKindOfRelation (wikt_lang, page_title, text, ptrn_synonymy, Relation.synonymy);
         if(0 < r.length) m_rel.put(Relation.synonymy, r);
@@ -170,11 +167,11 @@ public class WRelationEn {
         // troponymy
         r = parseOneKindOfRelation (wikt_lang, page_title, text, ptrn_troponymy, Relation.meronymy);
         if(0 < r.length) m_rel.put(Relation.troponymy, r);
-        
+
         // coordinate_term
         r = parseOneKindOfRelation (wikt_lang, page_title, text, ptrn_coordinate_term, Relation.meronymy);
         if(0 < r.length) m_rel.put(Relation.coordinate_term, r);
-        
+
         // gets text till min(====Derived terms====, ====Related terms====),
         //      since "See also" can be used not only for semanticrelations,
         //      but also for etymologically related words
@@ -234,13 +231,12 @@ public class WRelationEn {
 
         return text;
     }
-    
+
     /** Parses text (related to the POS), creates and fill array of
      * semantic relations only for one kind of semantic relations (e.g. synonyms)
      * defined by the variable 'relation'.
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
-     * @param lang_section  language of this section of an article
      * @param text          text of wiki article related to one POS
      * @param relation_header_pattern regular expression to find the header of semantic relation
      * @param relation type of parsing relation, e.g. synonymy
@@ -253,9 +249,9 @@ public class WRelationEn {
                     Pattern  relation_header_pattern,
                     Relation relation)
     {
-        // e.g.: 
+        // e.g.:
         // ====Synonyms====                         // ==== Level IV. Relation ====
-        
+
         // 1. gets position in text after e.g. ====Synonyms====
         Matcher m = relation_header_pattern.matcher(text);
         boolean b_next = m.find();
@@ -327,7 +323,7 @@ public class WRelationEn {
 
             } while(i.hasPrevious());
         }
-        
+
         return wr_list;
     }
 
@@ -340,7 +336,7 @@ public class WRelationEn {
     /** Parses one line of a semantic relations,
      * extracts a meaning summary and list of (syn)onyms (wikified words),
      * creates and fills SummaryAndText.
-     * 
+     *
      * @param text          semantic relation text line (e.g. list of synonyms)
      * @return structure or null if the meaning summary is absent.
      */
@@ -354,7 +350,7 @@ public class WRelationEn {
         // * {{sense|forked, branched}} [[cloven]], [[forked]]
 
         String meaning_summary = "", onym_list = "";
-        
+
         // 1
         Matcher m = ptrn_summary_in_sense.matcher(text);
         if(m.find()) {
@@ -378,23 +374,23 @@ public class WRelationEn {
 
         return st;
     }
-    
+
     /** Replace template:l by usual [[wiki link]].
      *
      * @param onym_list list of synonyms as a text string
      * @return the same text but without template:l.
      *
-     * @see http://en.wiktionary.org/wiki/Template:l
+     * see http://en.wiktionary.org/wiki/Template:l
      */
     private static String replaceTemplateL(
                     String onym_list)
     {
         if(onym_list.length() == 0)
             return onym_list;
-        
+
         int start, end, prev_end, pipe2, pipe3;
         StringBuilder s = new StringBuilder();
-        
+
         start = onym_list.indexOf("{{l|");
         end = 0;
         while( -1 != start)
@@ -404,15 +400,15 @@ public class WRelationEn {
             // |                       |
             // start                   end
             //       pipe2   pipe3       prev_end + 2
-            
+
             prev_end = end;
             end = onym_list.indexOf("}}", start);
-            
+
             pipe2 = onym_list.indexOf("|", start + 4);
             pipe3 = onym_list.indexOf("|", pipe2 + 1);
             if(-1 == pipe3 || pipe3 > end) // {{l|de|synonym}} - simple case
                 pipe3 = end;
-            
+
             if( prev_end + 2 < start ) // it is false in the first time, i.e. if there is only one synonym, not a list
                 s.append( onym_list.substring(prev_end + 2, start) );
             s.append("[[");
@@ -423,10 +419,10 @@ public class WRelationEn {
                 s.append( onym_list.substring(pipe2 + 1, pipe3) );
             }
             s.append("]]");
-            
+
             start = onym_list.indexOf("{{l|", end);
         }
-        
+
         return s.toString();
     }
 
@@ -462,7 +458,7 @@ public class WRelationEn {
         } else {
             onym_list = text;
         }
-        
+
         // 3. chops the dot symbol (".") at the end of line (onym_list)
         Matcher m = ptrn_eol_dot.matcher(onym_list);
         if(m.find())
@@ -471,13 +467,12 @@ public class WRelationEn {
         // {{l|de|synonym|something}} -> [[synonym]]
         if(onym_list.contains("{{l|"))
             onym_list = replaceTemplateL(onym_list);
-        
+
         // 4. split by semicolon and comma
         WikiText[] wt = WikiText.create(page_title, onym_list);
         if(0 == wt.length) return null;
-        
+
         return new WRelation(meaning_summary, wt);
     }
-    
 
 }

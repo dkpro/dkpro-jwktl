@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,29 +15,36 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.util;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.io.RandomAccessFile;
 
 public class FileWriter {
-    
+
     //public static Encodings     encodings;
     private OutputStreamWriter  osw;
-    
+
     private boolean b_append;
     private String  encode;
-    
+
     private String   dir;            //String          dir = new String("data/graphviz/");
     private String   filename;
     private String   path;
-    
+
     public FileWriter() {
         //encodings = new Encodings();
         encode = "UTF8";            // default value
     }
-    
+
     public void SetDir (String new_dir) {
         dir = new_dir;
     }
-    
+
     public void SetFilename (String new_filename) {
         filename = new_filename;
         path = dir + filename;
@@ -55,19 +62,19 @@ public class FileWriter {
         filename = new String(encodings.Latin1ToUTF8(new_filename));
         path = dir + filename;
     }*/
-    
+
     public void SetAppend (boolean b_new_append) {
         b_append = b_new_append;
     }
-    
+
     public void SetEncode (String new_encode) {
         encode = new_encode;
     }
-    
-    public void Open() {    
+
+    public void Open() {
         Open(b_append, encode);
     }
-    /** Opens file stream. 
+    /** Opens file stream.
      * @param     b_append  if <code>true</code>, then bytes will be written
      *                      to the end of the file rather than the beginning
     */
@@ -80,12 +87,12 @@ public class FileWriter {
             System.out.println("Problem serializing: " + e);
         }
     }
-    
+
     public void delete() {
         File f = new File(path);
         f.delete();
     }
-    
+
     public void Print(String text) {
         try {
             if(null != osw) {
@@ -97,7 +104,7 @@ public class FileWriter {
     public void PrintNL(String text) {
         Print(text + "\n");
     }
-    
+
     public void Flush() {
         try {
             if(null != osw) {
@@ -106,7 +113,7 @@ public class FileWriter {
             System.out.println("Problem serializing: " + e);
         }
     }
-    
+
     /** Get filename without the extension
      */
     public String  GetFilenameWoExt() {
@@ -117,7 +124,7 @@ public class FileWriter {
         }
         return filename;
     }
-    
+
     public long GetFileLength() {
         try {
             RandomAccessFile raf = new RandomAccessFile(path, "r");
@@ -130,10 +137,10 @@ public class FileWriter {
         }
         return 0;
     }
-    
-    
-    /** Opens file stream in /user home directory/.synarcher/sub_dir/_filename 
-     * in encoding enc. 
+
+
+    /** Opens file stream in /user home directory/.synarcher/sub_dir/_filename
+     * in encoding enc.
      * @param     b_append  if <code>true</code>, then bytes will be written
      *                      to the end of the file rather than the beginning
      * Examples
@@ -142,11 +149,11 @@ public class FileWriter {
      *   dump.file_sh.setFileInHomeDir("graphviz", "bat_ruwiki.sh", "Cp1251", true);
     */
     public void setFileInHomeDir(String sub_dir, String _filename,String enc,boolean b_append) {
-        
+
         String fs = System.getProperty("file.separator");
-        dir = System.getProperty("user.home") + fs + 
+        dir = System.getProperty("user.home") + fs +
                 ".synarcher" + fs + sub_dir + fs;
-        
+
         SetFilename(_filename);
         Open(b_append, enc);
     }
@@ -155,18 +162,18 @@ public class FileWriter {
     public static boolean existsFile (String path) {
 
         File _file = new File(path);
-        if (_file != null)
+//        if (_file != null)
             return _file.exists();
-        return false;
+//        return false;
     }
 
-    
+
     /** Creates parent directory for the file with the full 'path',
      * if the directory does not exist. */
     public static void createDir(String path) {
-        
+
         File _file = new File(path);
-        if (_file != null) {
+//        if (_file != null) {
             if (_file.exists()) {
                 // File already exists, check write access
                 if (!_file.canWrite()) {
@@ -182,17 +189,17 @@ public class FileWriter {
                         System.out.println("FileWriter::createDir Unable to create directory for file " + _file.getPath());
                 }
             }
-        }
+//        }
     }
 
     /** Extracts file with name resource_name from the jar,
      * copies it to the target directory target_dir.
-     * 
-     * @param target_dir target directory, if it is not exists, then mkdir, 
+     *
+     * @param target_dir target directory, if it is not exists, then mkdir,
      *                   e.g. creates `.wiwordik` folder for the
      *                   target_dir=".../.wiwordik/enwikt20101030.sqlite"
      *
-     * @see http://www.java2s.com/Code/Java/File-Input-Output/RetreiveTextFileFromJar.htm */
+     * see http://www.java2s.com/Code/Java/File-Input-Output/RetreiveTextFileFromJar.htm */
     public static boolean retrieveBinaryFileFromJar(String resource_name,
             String target_dir,Object resource) throws Exception
     {
@@ -200,7 +207,7 @@ public class FileWriter {
         if(resource_name != null) {
 
             FileWriter.createDir(target_dir + File.separator + "test file");
-            
+
             ClassLoader cl = resource.getClass().getClassLoader();
             InputStream is = cl.getResourceAsStream(resource_name);
             if(is == null) throw new Exception ("Error in FileWriter::retrieveBinaryFileFromJarResource "+resource_name+" was not found.");
@@ -230,8 +237,8 @@ public class FileWriter {
 
 
 
-    
-    
+
+
     /* OOOOOOOOOOO LLLLLLLLLLLLLL DDDDDDDD
      */
   /*
@@ -244,11 +251,11 @@ public class FileWriter {
             System.out.println("Problem serializing: " + e);
         }
     }
-    
+
     public void WriteNew(String filename, String text, String encode) {
         Write(filename, text, false, encode);
     }
-    
+
     public void Append(String filename, String text, String encode) {
         Write(filename, text, true, encode);
     }

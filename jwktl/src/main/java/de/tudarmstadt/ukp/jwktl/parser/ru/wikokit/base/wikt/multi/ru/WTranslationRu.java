@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -28,7 +28,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WTranslationEnt
 
 /** Translations of Russian Wiktionary word.
  *
- * @see http://ru.wiktionary.org/wiki/Викисловарь:Правила оформления статей#Перевод
+ * see http://ru.wiktionary.org/wiki/Викисловарь:Правила оформления статей#Перевод
  */
 public class WTranslationRu {
 
@@ -39,7 +39,7 @@ public class WTranslationRu {
     private final static Pattern ptrn_translation_3th_level = Pattern.compile(
             "===?\\s*Перевод\\s*===?\\s*\\n");
 
-    
+
     /** Gets a header of translation box template "{{перев-блок|header"
      *                                        or  "{{перев-блок|header|"
      *                                        or  "{{перев-блок"        - header is absent
@@ -50,14 +50,13 @@ public class WTranslationRu {
             // "\\Q{{перев-блок|\\E(.*?)\\|?\\n\\|");
                "\\Q{{перев-блок\\E\\|?(.*?)\\|?\\n\\|");
             // "\\Q{{перев-блок\\E\\|?(.*?)|?\\n");      // vim      {{перев-блок|\?\(.*\)|\?\n
-            
-    
+
+
     /** Parses text (related to the POS), creates and fill array of translations (WTranslation).
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
     public static WTranslation[] parse (
                     LanguageType wikt_lang,
@@ -96,18 +95,18 @@ public class WTranslationRu {
         // x = gets position of the next 2nd or 3rd level block == See also or Bibliography ==
         // gets text till x of the last brackets: "}}"
         String text = StringUtilRegular.getTextTillFirstHeaderPosition(m.end(), text_source);
-        
+
         int len = text.length();
         if(0 == len) {
             return NULL_WTRANSLATION_ARRAY;
         }
-        
+
         List<WTranslation> wt_list = new ArrayList<WTranslation>();
 
         int prev_end = 0;           // previous end of previous translation box
         boolean to_continue = true;
         while(to_continue) {
-            
+
             // 3. gets next substring "{{перев-блок"
             int next_end = text.indexOf("{{перев-блок", prev_end + 1);
             if(-1 == next_end) {
@@ -147,7 +146,7 @@ public class WTranslationRu {
             System.out.println("Warning in WTranslationRu.parse(): The article '"+
                         page_title + "' has several translation boxes, but not all of them have headers.");
         }
-        
+
         return wt_list.toArray(NULL_WTRANSLATION_ARRAY);
     }
 
@@ -161,7 +160,7 @@ public class WTranslationRu {
         }
         return true;
     }
-    
+
     /** Returens true, if there is at least one translation entry
      * in any of the translation boxes.
      */
@@ -183,7 +182,7 @@ public class WTranslationRu {
     /** Parses one translation box, i.e. extracts languages and a list of
      * translations (wikified words) for each language,
      * creates and fills WTranslation.
-     * 
+     *
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param text          translaton box text
@@ -213,16 +212,16 @@ public class WTranslationRu {
         String t = m_bracket.replaceFirst("");      // text without header and without brackets
 
         String[] lines = t.split("\n\\|");
-        
+
         List<WTranslationEntry> wte_list = new ArrayList<WTranslationEntry>();
         for(String s : lines) {                                                         // for each language (for each line)
             WTranslationEntry wte = WTranslationEntry.parse(wikt_lang, page_title, s);
-            
+
             if(null != wte) {
                 wte_list.add(wte);
             }
         }
-        
+
         return new WTranslation(
                         meaning_summary,
 				wte_list.toArray(NULL_WTRANSLATIONENTRY_ARRAY));

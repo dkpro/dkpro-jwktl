@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -53,7 +53,7 @@ public class WEtymologyEn {
     /** ===Etymology=== or ===Etymology 1===
      */
     private final static Pattern ptrn_3d_level_etymology = Pattern.compile(
-            "(?mi)^===\\s*Etymology\\s*\\d{0,4}\\s*===\\s*"); 
+            "(?mi)^===\\s*Etymology\\s*\\d{0,4}\\s*===\\s*");
             // (?mi)^===\s*Etymology\s*\d{0,4}\s*===\s*     - Regular Expression
 
     private final static LangText[] NULL_LANG_TEXT_ARRAY = new LangText[0];
@@ -61,8 +61,8 @@ public class WEtymologyEn {
 
     /** Splits text to fragments related to different etymologies.
      *
-     * page_title - word which are described in this article 'text'
-     * @param lt .text will be parsed and splitted,
+     * @param page_title - word which are described in this article 'text'
+     * @param lt_source .text will be parsed and splitted,
      *           .lang is not using now, may be in future...
      *
      * 1) Checks whether exists more than one section ===Etymology===
@@ -76,7 +76,7 @@ public class WEtymologyEn {
         if(null == lt_source.text || 0 == lt_source.text.length()) {
             return NULL_LANG_TEXT_ARRAY;
         }
-        
+
         Matcher m = ptrn_3d_level_etymology.matcher(lt_source.text.toString());
         boolean b_next = m.find();
 
@@ -99,7 +99,7 @@ public class WEtymologyEn {
         }
                                                         // there are more than one Etymology in this language in this word
         List<LangText> etymology_sections = new ArrayList<LangText>();  // result will be stored to
-        
+
         boolean bfirst = true;
 
         start = m.start();
@@ -115,7 +115,7 @@ public class WEtymologyEn {
             } else
                 lt.text.append(lt_source.text.substring(start, end));
             etymology_sections.add(lt);
-            
+
             b_next = m.find();
             if(b_next) {
                 start = end;

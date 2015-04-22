@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -49,8 +49,8 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.POSText;
  * ====Verb====             POS=verb
  * (level 4 in English Wiktionary: ===Verb===)</PRE>
  *
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained/POS_headers
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained/POS_headers
  */
 public class WPOSEn {
 
@@ -58,7 +58,7 @@ public class WPOSEn {
 
     private final static List<POSText> NULL_POS_TEXT_LIST = new ArrayList<POSText>(0);
 
-    /** start of the POS block: [\w {}], 
+    /** start of the POS block: [\w {}],
      * \s (space) since there is "===Proper noun==="
      * {} (brackets) since there is "==={{abbreviation}}==="
      */
@@ -81,7 +81,7 @@ public class WPOSEn {
             return true;
         if(str.equalsIgnoreCase("External links"))
             return true;
-        
+
         return false;
     }
 
@@ -97,7 +97,7 @@ public class WPOSEn {
     {
         List<POSText> pos_section_alone = new ArrayList<POSText>(1);
         m.reset();
-        
+
         while(m.find()) {
 
             String pos_header = m.group(1).toLowerCase();
@@ -133,21 +133,21 @@ public class WPOSEn {
         }
 
         Matcher m = ptrn_3_or_4_level.matcher(lt.text.toString());
-        
+
         int n_pos = countPOSSections(m);
-        
+
         if(n_pos <= 1) // there is only one ===Third of forth level POS header===
-            return cutHeaderFromAlonePOSSection(lt,m); // in this language in this etymology for this word                
+            return cutHeaderFromAlonePOSSection(lt,m); // in this language in this etymology for this word
         // else: there are at least two sections: POS
 
-        // 1. Gets POS and 
+        // 1. Gets POS and
         // 2. Splits lt.text into POS sections
         m.reset();
         boolean b_next = m.find();
         assert(b_next);
 
         List<POSText> pos_sections = new ArrayList<POSText>(n_pos); // there is exactly n_pos POS headers
-        
+
         // position of POS block in the lt.text
         // "<start_old> ===Noun=== <end_old> ... <start_new> ===Verb=== <end_new>"
         // POS block = substring(end_old, start_new)
@@ -157,7 +157,7 @@ public class WPOSEn {
         // First POS header
         String  pos_header, pos_header_old = "";
         pos_header = m.group(1).toLowerCase();
-        
+
         while(b_next && !POSTemplateEn.has(pos_header))
         {
             b_next = m.find();
@@ -167,7 +167,7 @@ public class WPOSEn {
         assert(POSTemplateEn.has(pos_header));
         assert(b_next);
         int end_old = m.end();
-        
+
     search_POS:
         while(b_next) {
             pos_header = "";
@@ -178,7 +178,7 @@ public class WPOSEn {
                     POS p = POSTemplateEn.get(pos_header_old);
                     POSText pt = new POSText(p, lt.text.substring(end_old));
                     pos_sections.add(pt);
-                    
+
                     break search_POS;
                 }
                 pos_header = m.group(1).toLowerCase();
@@ -198,9 +198,7 @@ public class WPOSEn {
     /** Splits each etymology section into POS sections.
      * Then merge all POS sections into one big array.
      *
-     * page_title - word which are described in this article 'text'
-     * @param lt .text will be parsed and splitted,
-     *           .lang is not using now, may be in future...<br><br>
+     * @param page_title - word which are described in this article 'text'
      *
      * 1) Splits the following text to "Noun" and "Verb"
      * 2) Extracts part of speech "noun" and "verb"
@@ -210,7 +208,7 @@ public class WPOSEn {
      * ===Verb===
      * </PRE>
      *
-     * Todo: save info about the link Etymology <-> POS.
+     * Todo: save info about the link Etymology &lt;-&gt; POS.
      */
     public static POSText[] splitToPOSSections (
             String      page_title,
@@ -233,21 +231,20 @@ public class WPOSEn {
 
         if(pos_sections.isEmpty())
             return NULL_POS_TEXT_ARRAY;
-        
+
         return pos_sections.toArray(NULL_POS_TEXT_ARRAY);
     }
 
-    /** Counts number of POS sections in this lt->text.
+    /** Counts number of POS sections in this lt-&gt;text.
      *
      * @param page_title title of Wiktionary entry
-     * @param lt    ->text field may contain POS section(s)
      * @param m regular expression matcher ptrn_3_or_4_level
      */
     private static int countPOSSections (// String page_title, LangText lt,
                                              Matcher m)
     {
         int n_pos = 0;
-        
+
         while(m.find()) {
             String POS_candidate = m.group(1).toLowerCase();
             if(m.groupCount() > 0 && POSTemplateEn.has(POS_candidate))

@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,13 +23,13 @@ import java.util.regex.Pattern;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.language.LanguageType;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.LangText;
 
-/** Language lets you know the language of the word in question. It is almost 
+/** Language lets you know the language of the word in question. It is almost
  * always in a level two heading. ==English==, {{-ru-}}, {{заголовок|ru|..},
  * or {{-de-|schwalbe}}.
- * 
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
+ *
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
  * and http://ru.wiktionary.org/wiki/Викисловарь:Правила оформления статей
- * 
+ *
  * http://ru.wiktionary.org/wiki/Категория:Викисловарь:Шаблоны:Языки
  * http://en.wiktionary.org/wiki/Category:Language_templates
  *
@@ -37,7 +37,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.LangText;
  * ...
  */
 public class WLanguageRu {
-    
+
     // lang code    length
     // lang-chu-ru  not used now!
     // slovio-la    9 maximum length
@@ -49,7 +49,7 @@ public class WLanguageRu {
     private final static Pattern ptrn_add = Pattern.compile(
             "\\|add=(.*?)(?:\\Z|\\|)");
           //"\\|add=(.*?)");
-              
+
 
     /** start of the language block, e.g. {{-ru-}}, {{-en-}}, {{-de-}}, etc. */
     private final static Pattern ptrn_lang = Pattern.compile(
@@ -73,13 +73,13 @@ public class WLanguageRu {
                 // vim: {{-\([-_a-zA-Z]\{2,9\}\)-[|}][^}]*}}\?\|{{заголовок|\([-_a-zA-Z]\{2,9\}\)[|}][^}]*}}\?
                 //part1:{{-\([-_a-zA-Z]\{2,9\}\)-[|}][^}]*}}\?              part2: {{заголовок|\([-_a-zA-Z]\{2,9\}\)[|}][^}]*}}\?
                 //java: \\{\\{-([-_a-zA-Z]{2,9})-(?:\\}\\}|\\|.*?\\}\\})    java: \\Q{{заголовок|\\E([-_a-zA-Z]{2,9})[|}]
-    
-    //private final static StringBuffer   NULL_STRINGBUFFER = new StringBuffer("");    
+
+    //private final static StringBuffer   NULL_STRINGBUFFER = new StringBuffer("");
     private final static LangText[] NULL_LANG_TEXT_ARRAY = new LangText[0];
     //private final static List<LangText> NULL_LANG_TEXT_LIST = new ArrayList<LangText>(0);
 
 
-    /** Gets language type (code) information from a Wiktionary article header 
+    /** Gets language type (code) information from a Wiktionary article header
      * and from the result of search by regular expression stored in a matcher m.
      */
     public static LanguageType getLanguageType(Matcher m,String page_title) {
@@ -131,7 +131,7 @@ public class WLanguageRu {
             System.out.println("Warning: unknown language code '" + lang_code + "' for the word '" + page_title + "' in WLanguageRu.getLanguageType()");
         } else
             lang_type = LanguageType.get(lang_code);
-        
+
         return lang_type;
     }
 
@@ -145,11 +145,11 @@ public class WLanguageRu {
         if(null == text || 0 == text.length()) {
             return NULL_LANG_TEXT_ARRAY;
         }
-        
+
         List<LangText> lang_sections = new ArrayList<LangText>(); // result will be stored to
-        
+
         Matcher m = ptrn_lang.matcher(text.toString());
-        
+
         int i = 0;
         boolean b_next = m.find();
         boolean b_at_least_one_lang = b_next; // at least one language section was recognized
@@ -164,14 +164,14 @@ public class WLanguageRu {
 
                 m.appendReplacement(lt.text, "");   // "First {{-ru-}}" (add the text before the first lang code)
                 lang_sections.add(lt);
-                
+
                 b_next = m.find();
                 while(b_next) {
-                    
+
                     if(b_known_lang) {
                         i++;                                                    // text belongs to previous lang code:
                         m.appendReplacement(lang_sections.get(i-1).text, "");   // i.e. {{-prev lang code-}} current text {{-current lang code
-                    } else {                                                    
+                    } else {
                         m.appendReplacement(new StringBuffer(), "");   // {{-unknown-}} just reset the text within the unknown lang {{-known-}}
                     }
 

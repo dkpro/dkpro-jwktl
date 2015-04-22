@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -25,34 +25,34 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.constant.POS;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.constant.POSType;
 
 /** English names of parts of speech.
- * 
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained/POS_headers
+ *
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained/POS_headers
  */
 public class POSTemplateEn extends POSType {
-    
+
     /*private POSTypeEn(String name_in_text, String name, POS type) {
         super(name_in_text, name, type);
     }*/
-    
-    /* POS name encountered in the Wiktionary, e.g.: {{acronym}} or  Acronym, 
+
+    /* POS name encountered in the Wiktionary, e.g.: {{acronym}} or  Acronym,
      * since there are ==={{acronym}}=== and ===Acronym===
      */
 //    private final String name_in_text;
-    
+
     /** POS */
-    private final POS type; 
-    
+    private final POS type;
+
     private static Map<String, POS> name2type = new HashMap<String, POS>();
 
-    /** E.g. verb -> "verb", "verb form", "verb prefix". It is used in POS statistics. */
+    /** E.g. verb -&gt; "verb", "verb form", "verb prefix". It is used in POS statistics. */
     private static Map<POS, Set<String>> type2name_in_text = new HashMap<POS, Set<String>>();
 
     private final static String[] NULL_STRING_ARRAY = new String[0];
-    
+
     /** Initialization for POSTypeEn, POSTypeRu, etc. */
     private POSTemplateEn(String name_in_text, POS type) {
         //super(name_in_text, type);
-        
+
 //        this.name_in_text   = name_in_text;
         this.type           = type;         // english.english;
         name2type.put(name_in_text, type); // english.english);
@@ -66,9 +66,9 @@ public class POSTemplateEn extends POSType {
             type2name_in_text.put(type, templates);
         }
     }
-    
+
     public String getName() { return type.toString(); }
-    
+
     /** Checks weather exists the language code 'code'. */
     public static boolean has(String code) {
         return name2type.containsKey(code);
@@ -88,8 +88,8 @@ public class POSTemplateEn extends POSType {
         return StringUtil.join(", ", templates.toArray(NULL_STRING_ARRAY));
     }
 
-    
-    // The classical parts of speech are: 
+
+    // The classical parts of speech are:
     public static final POSType noun = new POSTemplateEn("noun", POS.noun);
 
     public static final POSType verb = new POSTemplateEn("verb", POS.verb);
@@ -107,31 +107,31 @@ public class POSTemplateEn extends POSType {
     public static final POSType interjection    = new POSTemplateEn("interjection", POS.interjection);
     public static final POSType preposition     = new POSTemplateEn("preposition",  POS.preposition);
     public static final POSType prepositional_phrase = new POSTemplateEn("prepositional phrase",  POS.prepositional_phrase);
-    
+
     // Additional commonly used grammatical headers are:
     public static final POSType proper_noun     = new POSTemplateEn("proper noun",  POS.proper_noun);
     public static final POSType article         = new POSTemplateEn("article",      POS.article);
     public static final POSType prefix          = new POSTemplateEn("prefix",       POS.prefix);
     public static final POSType suffix          = new POSTemplateEn("suffix",       POS.suffix);
-    
+
     // may be the same:  Idiom, Phrase, Noun, Verb
     public static final POSType phrase          = new POSTemplateEn("phrase",       POS.phrase);
     // see e.g. "your mileage may vary" ==Idiom==
     //          "rain cats and dogs"    ===Verb===  # {{idiom}}          // idiomatic is ContextLabel
     //          "grain of salt"         ===Noun===  # {{idiom}}          // idiomatic is ContextLabel
     public static final POSType idiom           = new POSTemplateEn("idiom",        POS.idiom);
-    
-    
+
+
     // other descriptors that identify the usage of the entry, but which are not (strictly speaking) parts of speech:
     public static final POSType acronym_template= new POSTemplateEn("{{acronym}}",  POS.acronym); // ==={{acronym}}===
     public static final POSType acronym         = new POSTemplateEn("acronym",      POS.acronym); // ===Acronym===
-    
+
     public static final POSType abbreviation_template = new POSTemplateEn("{{abbreviation}}", POS.abbreviation);// ==={{abbreviation}}===
     public static final POSType abbreviation    = new POSTemplateEn("abbreviation", POS.abbreviation);
     public static final POSType initialism_template = new POSTemplateEn("{{initialism}}", POS.initialism);
     public static final POSType initialism      = new POSTemplateEn("initialism", POS.initialism);
     public static final POSType contraction     = new POSTemplateEn("contraction", POS.contraction);
-    
+
     public static final POSType symbol          = new POSTemplateEn("symbol",       POS.symbol);
     public static final POSType letter          = new POSTemplateEn("letter",       POS.letter);
 
@@ -142,7 +142,7 @@ public class POSTemplateEn extends POSType {
     public static final POSType ordinal_number  = new POSTemplateEn("ordinal number", POS.numeral);
     public static final POSType cardinal_numeral = new POSTemplateEn("cardinal numeral", POS.numeral);
     public static final POSType ordinal_numeral = new POSTemplateEn("ordinal numeral", POS.numeral);
-    
+
     // other headers in use
     public static final POSType particle        = new POSTemplateEn("particle",  POS.particle);  // 	(language) particles, CJKV languages, and some others; see tok, ne.
     public static final POSType participle      = new POSTemplateEn("participle",POS.participle);
@@ -194,9 +194,5 @@ public class POSTemplateEn extends POSType {
 
 
     // Non-standard, deprecated headers
-    
 
-
-
-    
 }

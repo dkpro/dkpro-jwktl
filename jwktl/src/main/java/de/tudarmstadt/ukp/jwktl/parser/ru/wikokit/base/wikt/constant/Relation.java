@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,10 +23,10 @@ import java.util.Set;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.language.LanguageType;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.multi.ru.name.RelationRu;
 
-/** Strictly defined names of semantic relations 
+/** Strictly defined names of semantic relations
  * used in all wiktionaries.
- * 
- * @see http://en.wiktionary.org/wiki/Wiktionary:Semantic_relations
+ *
+ * see http://en.wiktionary.org/wiki/Wiktionary:Semantic_relations
  */
 public class Relation {
 
@@ -36,8 +36,8 @@ public class Relation {
     /** Short Relation name, e.g. "syn." for synonymy */
     //private final String short_name;
 
-    
-    
+
+
     /* Set helps to check the presence of elements */
     private static Map<String, Relation> name2relation = new HashMap<String, Relation>();
     //private static Set<String>  name_set = new HashSet<String>();
@@ -46,11 +46,11 @@ public class Relation {
         name = _name;
         name2relation.put(_name, this);
     }
-    
-    
+
+
     @Override
     public String  toString() { return name; }
-    
+
     /** Gets name of Relation in the language l.
      * If there is no translation then returns Relation name in English */
     public String toString(LanguageType l) {
@@ -85,10 +85,10 @@ public class Relation {
         } else {
             throw new NullPointerException("Relation.getShortName(LanguageType l): Null LanguageType");
         }
-       
+
         return s;
     }
-    
+
 
     /** Checks weather exists a semantic relation by its name. */
     public static boolean has(String name) {
@@ -115,7 +115,7 @@ public class Relation {
      *      Then this function will be deleted.
      */
     public static Relation[] getAllRelationsOrderedArray() {
-        
+
         return RELATION_ORDERED_ARRAY;
         //return (Relation[])name2relation.values().toArray(NULL_RELATION_ARRAY);
     }
@@ -137,7 +137,7 @@ public class Relation {
     public static final Relation coordinate_term    = new Relation("coordinate terms");
     public static final Relation otherwise_related  = new Relation("see also");   // See also
 
-    
+
     //private final static Relation[] NULL_RELATION_ARRAY = new Relation[0];
     private final static Relation[] RELATION_ORDERED_ARRAY = {
         Relation.synonymy,  Relation.antonymy,
@@ -146,7 +146,7 @@ public class Relation {
         Relation.troponymy, Relation.coordinate_term,
         Relation.otherwise_related
     };
-    
-    
+
+
 
 }

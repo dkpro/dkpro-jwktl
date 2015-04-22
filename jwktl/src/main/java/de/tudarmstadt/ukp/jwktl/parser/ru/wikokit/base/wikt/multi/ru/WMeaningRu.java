@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -32,28 +32,26 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WQuote;
  * and Quotations.      </PRE>
  */
 public class WMeaningRu {
-    
+
     private final static WMeaning[] NULL_WMEANING_ARRAY = new WMeaning[0];
 
     /** Gets position after ==== Значение ==== */
     private final static Pattern ptrn_meaning_4th_level = Pattern.compile(
             "====?\\s*Значение\\s*====?\\s*\\n");
 
-    
+
     /** Parses text (related to the POS), creates and fill array of meanings (WMeaning).
-     * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
-    public static WMeaning[] parse (            
+    public static WMeaning[] parse (
                     String page_title,
                     LanguageType lang_section,
                     POSText pt)
     {
         LanguageType wikt_lang = LanguageType.ru;
-        
+
         // === Level III. Meaning ===
         if(null == pt.getText()) {
             return NULL_WMEANING_ARRAY;
@@ -83,7 +81,7 @@ public class WMeaningRu {
 
         int len = text.length();
         int prev_eol = m.end();         // previous end of line
-        
+
         if(len < prev_eol+3 || text.substring(prev_eol,prev_eol+3).equalsIgnoreCase("==="))
             return NULL_WMEANING_ARRAY; // the definition section is empty!
 
@@ -116,7 +114,7 @@ public class WMeaningRu {
         return wm_list.toArray(NULL_WMEANING_ARRAY);
     }
 
-    
+
     /** Parses one definition line, i.e. extracts {{label}}, definition,
      * {{example|Quotation sentence.}}, creates and fills a meaning (WMeaning).
      * @param page_title    word which is described in this article 'text'
@@ -159,9 +157,9 @@ public class WMeaningRu {
         line = LabelRu.removeEmptyLabelPometa(line);
         if(line.length() == 0)
             return null;
-        
+
         // extract definition by parsing wiki-text
-        
+
         // 2. extract text till first {{пример|
         String wiki_definition = WQuoteRu.getDefinitionBeforeFirstQuote(page_title, line);
 
@@ -172,7 +170,7 @@ public class WMeaningRu {
         //WikiWord[] ww = WikiWord.getWikiWords(page_title, new StringBuffer(wiki_definition));
 
         // 5. extract quotations
-        WQuote[] quote = WQuoteRu.getQuotes(page_title, line);        
+        WQuote[] quote = WQuoteRu.getQuotes(page_title, line);
 
         return new WMeaning(page_title, labels, wiki_definition, quote, false);
     }

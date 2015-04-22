@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -23,22 +23,22 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.POSText;
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.WikiText;
 
 /** Translations of Wiktionary word.
- * 
+ *
  * Quote from http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained:
- * The translation section is separated into a number of divisions that are 
- * keyed to the various meanings of the English word. Each division is 
- * separated into a distinct collapsible navigation box by use of the 
- * translation section templates. 
+ * The translation section is separated into a number of divisions that are
+ * keyed to the various meanings of the English word. Each division is
+ * separated into a distinct collapsible navigation box by use of the
+ * translation section templates.
  * The boxes are each headed by a summary of the translated meaning.
  */
 public class WTranslation {
-    
-    /** Section (box) title, i.e. additional comment, 
+
+    /** Section (box) title, i.e. additional comment,
      * e.g. "fruit" or "apple tree" for "apple".
      * A summary of the translated meaning.
      */
     private String meaning_summary;
-    
+
     /** Translations */
     private WTranslationEntry[] entry;
 
@@ -54,7 +54,7 @@ public class WTranslation {
     public String getHeader() {
         return meaning_summary;
     }
-    
+
     /** Gets translation entries into all languages. */
     public WTranslationEntry[] getTranslations() {
         return entry;
@@ -64,11 +64,11 @@ public class WTranslation {
     public int getTranslationsNumber() {
         return entry.length;
     }
-    
+
     /** Gets translation entries into the languages 'lang'. */
     public WikiText[] getTranslationIntoLanguage(LanguageType lang) {
     //public WikiWord[] getTranslationIntoLanguage(LanguageType lang) {
-        
+
         for(WTranslationEntry e : entry) {
             if(lang == e.getLanguage()) {
                 return e.getWikiPhrases();  // return e.getWikiWords();
@@ -90,14 +90,13 @@ public class WTranslation {
         }
     }
 
-    /** Parses text (related to the Translation), creates and fills array of 
+    /** Parses text (related to the Translation), creates and fills array of
      * translations (WTranslation) for each meaning of a word.
      *
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param lang_section  language of this section of an article
      * @param pt            POSText defines POS stored in pt.text
-     * @return
      */
     public static WTranslation[] parse (
                     LanguageType wikt_lang,
@@ -120,7 +119,7 @@ public class WTranslation {
 
         } else if(l == LanguageType.en) {
             wt = WTranslationEn.parse(wikt_lang, lang_section, page_title, pt);
-            
+
         //} //else if(code.equalsIgnoreCase( "simple" )) {
           //  return WordSimple;
 
@@ -138,7 +137,7 @@ public class WTranslation {
     /** Parses one translation box, i.e. extracts languages and a list of
      * translations (wikified words) for each language,
      * creates and fills WTranslation.
-     * 
+     *
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param line          definition line
@@ -157,7 +156,7 @@ public class WTranslation {
 
         } else if(l == LanguageType.en) {
             wt = WTranslationEn.parseOneTranslationBox(wikt_lang, page_title, line);
-            
+
         //} //else if(code.equalsIgnoreCase( "simple" )) {
           //  return WordSimple;
 

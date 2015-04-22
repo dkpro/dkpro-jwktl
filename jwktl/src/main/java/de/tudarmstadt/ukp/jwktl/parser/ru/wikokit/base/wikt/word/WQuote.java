@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,7 +22,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.multi.ru.WQuoteRu;
 /** Phrase or sentence that illustrates a meaning of Wiktionary word.
  */
 public class WQuote {
-    
+
     /** Text of an example sentence. */
     private String  text;
 
@@ -59,7 +59,7 @@ public class WQuote {
     /** Finish date of a writing book with the quote. */
     private int year_to;
 
-    
+
 
     /** Start and end positions of the highlighted word(s) in the quote, by the template {{выдел|}} */
     //private int[][2] start_end_pos;
@@ -134,7 +134,6 @@ public class WQuote {
      * @param _source quote source
      * @param _year_from start date of a writing book with the quote
      * @param _year_to finish date of a writing book with the quote
-     * @return inserted record, or null if insertion failed
      */
     public WQuote (String _text,String _translation,String _transcription,
                    String _author,String _author_wikilink,
@@ -151,7 +150,7 @@ public class WQuote {
 
         title = _title;
         title_wikilink = _title_wikilink;
-    
+
         publisher = _publisher;
         source = _source;
 
@@ -159,7 +158,7 @@ public class WQuote {
         year_to = _year_to;
     }
 
-    /** Removes highlighted marks from a sentence. 
+    /** Removes highlighted marks from a sentence.
      * English Wiktionary: Sentence with '''words'''. -> Sentence with words.
      * Russian Wiktionary:
      * 1) Sentence with '''words'''. -> Sentence with <start_replacement>words</end_replacement>.
@@ -167,7 +166,7 @@ public class WQuote {
      */
     public static String removeHighlightedMarksFromSentence(
                                             LanguageType wikt_lang,
-                                            String text, 
+                                            String text,
                                             String start_replacement,
                                             String end_replacement)
     {
@@ -183,7 +182,7 @@ public class WQuote {
         } else {
             throw new NullPointerException("Null LanguageType");
         }
-        
+
         return result;
     }
 
@@ -191,8 +190,8 @@ public class WQuote {
      * English Wiktionary: ?..
      * ...
      * Russian Wiktionary:
-     * 1) &nbsp;, &#160; -> " "
-     * 2) {{-}} -> " - "
+     * 1) &nbsp;, &#160; -&gt; " "
+     * 2) {{-}} -&gt; " - "
      */
     public static String transformSentenceText(
                                 boolean is_sqlite,
@@ -215,13 +214,13 @@ public class WQuote {
 
         return result;
     }
-    
+
     /** Additional treatment of the sentence text:
      * English Wiktionary: ?..
      * ...
      * Russian Wiktionary:
-     * 1) &nbsp;, &#160; -> the same
-     * 2) {{-}} -> "&nbsp;&mdash; "
+     * 1) &nbsp;, &#160; -&gt; the same
+     * 2) {{-}} -&gt; "&nbsp;&mdash; "
      */
     public static String transformSentenceTextToHTML(
                                 boolean is_sqlite,
@@ -244,8 +243,5 @@ public class WQuote {
 
         return result;
     }
-
-
-    
 
 }
