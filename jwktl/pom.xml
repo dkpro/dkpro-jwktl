@@ -117,6 +117,9 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <configuration>
+          <additionalparam>${javadoc.opts}</additionalparam>
+        </configuration>
         <executions>
           <execution>
             <id>generate-javadoc</id>
@@ -125,9 +128,6 @@
               <goal>javadoc</goal>
             </goals>
             <inherited>false</inherited>
-            <configuration>
-              <additionalparam>${javadoc.opts}</additionalparam>
-            </configuration>
           </execution>
         </executions>
       </plugin>
