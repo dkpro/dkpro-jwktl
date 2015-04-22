@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,12 +15,12 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.multi.en;
 
-import java.util.regex.Pattern;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /** Redirect related functions in wiki and English Wiktionary.
- * 
- * @see http://en.wiktionary.org/wiki/Wiktionary:Redirections
+ *
+ * see http://en.wiktionary.org/wiki/Wiktionary:Redirections
  */
 public class WRedirectEn {
 
@@ -32,7 +32,6 @@ public class WRedirectEn {
     /** Checks whether this is a redirect page. If this is true then
      * the title of the target (redirected) page will be returned.
      *
-     * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article
      * @param text          defines source wiki text
      * @return if this is not a redirect then return null

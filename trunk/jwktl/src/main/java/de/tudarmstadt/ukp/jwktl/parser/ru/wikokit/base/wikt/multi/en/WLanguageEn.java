@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -26,11 +26,11 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.LangText;
 /** Language lets you know the language of the word in question. It is almost
  * always in a level two heading. ==English==, or {{-de-|schwalbe}}.
  *
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
- * @see http://en.wiktionary.org/wiki/Wiktionary:Language_considerations
- * @see http://en.wiktionary.org/wiki/Wiktionary:Language names
- * 
- * @see http://en.wiktionary.org/wiki/Category:Language_templates
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
+ * see http://en.wiktionary.org/wiki/Wiktionary:Language_considerations
+ * see http://en.wiktionary.org/wiki/Wiktionary:Language names
+ *
+ * see http://en.wiktionary.org/wiki/Category:Language_templates
  */
 public class WLanguageEn {
 
@@ -42,17 +42,17 @@ public class WLanguageEn {
             // "\\A==\\s*([^=]+)\\s*==\\s*\\Z");
 
     private final static LangText[] NULL_LANG_TEXT_ARRAY = new LangText[0];
-    
-    
+
+
     /** Gets language type (code) information from a Wiktionary article header
      * and from the result of search by regular expression stored in a matcher m.
      */
     public static LanguageType getLanguageType(Matcher m,String page_title) {
 
         LanguageType lang_type = null;
-        
+
         String english_lang_name = m.group(1);
-        
+
         if(null == english_lang_name)
             return null;
 
@@ -61,7 +61,7 @@ public class WLanguageEn {
             lang_type = LanguageType.getByEnglishName( english_lang_name.substring(2, len-2));
         else
             lang_type = LanguageType.getByEnglishName( english_lang_name ); // i.e. skip the whole article if the first lang code is unknown
-        
+
         if (null == lang_type) {
             if(!LanguageType.hasUnknownLangName(english_lang_name)) {
                 LanguageType.addUnknownLangName(english_lang_name);

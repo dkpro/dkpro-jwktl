@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,7 +30,7 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.word.WTranslationEnt
 public class WTranslationEntryEn {
 
     /** Chop the beginning of the line: "*: " or "* ", e.g.:
-     * "* German: {{t|de|Orange|f}}" ->
+     * "* German: {{t|de|Orange|f}}" -&gt;
      *   "German: {{t|de|Orange|f}}"
      */
     private final static Pattern ptrn_begin_asterisk = Pattern.compile(
@@ -57,12 +57,11 @@ public class WTranslationEntryEn {
      * from template (wikified words) for this language,
      * creates and fills WTranslationEntry.
      *
-     * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param text          translaton box text
      * @return WTranslationEntry or null if the translation language or translation text are absent.
      *
-     * @see http://en.wiktionary.org/wiki/Template_talk:t#Documentation
+     * see http://en.wiktionary.org/wiki/Template_talk:t#Documentation
      */
     public static WTranslationEntry parse(
                     String page_title,
@@ -77,7 +76,7 @@ public class WTranslationEntryEn {
 
         LanguageType prev_lang, lang = null;
         List<String> translations = new ArrayList<String>();
-        
+
         // extract from text {{t,t+,t-,trad etc.|...}}:
         Matcher m = ptrn_t_template.matcher(lang_trans.trans);
         while(m.find()) {
@@ -94,7 +93,7 @@ public class WTranslationEntryEn {
 
             if(translated_word.length() == 0)   // does exist any translation
                 continue;
-            
+
             if(!LanguageType.has(lang_code)) {
                 // concise logging: only one message for one uknown language code
                 if(!LanguageType.hasUnknownLangCode(lang_code)) {
@@ -118,7 +117,7 @@ public class WTranslationEntryEn {
             }
 
             translations.add(translated_word);
-            
+
             // todo
             // 1. extract all info from template
             // 2. add fields gender, number, sc (script template), tr (transliteration),
@@ -132,14 +131,14 @@ public class WTranslationEntryEn {
         WikiText[] wt = WikiText.createWithoutParsing(page_title, translations);
         if(0 == wt.length)
             return null;
-        
+
         return new WTranslationEntry(lang, wt);
     }
 
     /** Splits one entry (one line of a translation box) into language and
      * remain text (translation words).
      *
-     * result->LanguageType could be null.
+     * result-&gt;LanguageType could be null.
      *
      * @return LanguageType and translation text.
      * It could be null if there is no column delimiter.
@@ -160,7 +159,7 @@ public class WTranslationEntryEn {
 
         /*String lang_text = text.substring(0, pos_colon);
         String lang_name = "";
-        
+
         // 2. gets wikified language name
         m = ptrn_wikified_lang_name.matcher(lang_text);
         if(m.find())
@@ -173,12 +172,12 @@ public class WTranslationEntryEn {
         lat.trans = text.substring(pos_colon+1).trim();
         if(lat.trans.length() == 0)
             return null;
-        
+
         /*if(LanguageType.hasEnglishName(lang_name))
             lat.lang = LanguageType.getByEnglishName(lang_name);
         else
             lat.lang = null;*/
-        
+
         return lat;
     }
 

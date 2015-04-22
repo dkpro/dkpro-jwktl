@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -22,19 +22,19 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.multi.ru.WLanguageRu
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.util.LangText;
 //import wikt.util.POSText;
 
-/** Language lets you know the language of the word in question. It is almost 
+/** Language lets you know the language of the word in question. It is almost
  * always in a level two heading. E.g. ==English== or {{-ru-}}
  *
  * Exception: ==Translingual==
- * 
- * @see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
+ *
+ * see http://en.wiktionary.org/wiki/Wiktionary:Entry_layout_explained
  * and http://ru.wiktionary.org/wiki/Викисловарь:Правила оформления статей
  */
 public class WLanguage {
-    
+
     /** Language of the word. */
     private LanguageType lang;
-    
+
     /** Part of speech. */
     private WPOS[] wpos;
 
@@ -64,7 +64,6 @@ public class WLanguage {
      * @param wikt_lang     language of Wiktionary
      * @param page_title    word which are described in this article 'text'
      * @param text
-     * @return
      */
     public static WLanguage[] parse (
                     LanguageType wikt_lang,
@@ -73,18 +72,18 @@ public class WLanguage {
     {
         // = Level I. Language =
         LangText[] lang_sections = splitToLanguageSections(wikt_lang, page_title, text);
-        
+
         if(0==lang_sections.length) {
             return NULL_WLANGUAGE_ARRAY;
         }
-        
+
         WLanguage[] wl = new WLanguage[lang_sections.length];
         for(int i=0; i<lang_sections.length; i++) {
             wl[i] = new WLanguage();
             wl[i].lang = lang_sections[i].getLanguage();
             wl[i].wpos = WPOS.parse(wikt_lang, page_title, lang_sections[i]);
         }
-        
+
         return reduceNonUniqueLanguages (page_title, wl);
     }
 
@@ -97,7 +96,6 @@ public class WLanguage {
      *
      * @param page_title    word which are described in this article 'text'
      * @param source        entry text parsed and stored into the objects
-     * @return
      */
     private static WLanguage[] reduceNonUniqueLanguages (
                     String page_title,WLanguage[] source)
@@ -127,12 +125,12 @@ public class WLanguage {
                 dest [dest_i] = source[i];
                 dest_i ++;
             }
-        }        
+        }
         return dest;
     }
-    
-    
-    /** 
+
+
+    /**
      * @param page_title    word which are described in this article text
      * @param wikt_lang     language of Wiktionary
      */
@@ -142,9 +140,9 @@ public class WLanguage {
                     StringBuffer text)
     {
         LangText[] lang_sections; // result will be stored to
-        
+
         LanguageType l = wikt_lang;
-        
+
         if(l  == LanguageType.ru) {
             lang_sections = WLanguageRu.splitToLanguageSections(page_title, text);
         } else if(l == LanguageType.en) {
@@ -152,15 +150,15 @@ public class WLanguage {
 
         //} //else if(code.equalsIgnoreCase( "simple" )) {
           //  return WordSimple;
-            
-            // todo 
+
+            // todo
             // ...
-            
+
         } else {
             throw new NullPointerException("Null LanguageType");
         }
-        
-        
+
+
         return lang_sections;
     }
 
@@ -185,7 +183,7 @@ public class WLanguage {
         return b;
     }
 
-    /** True if the meaning section contains only templates, 
+    /** True if the meaning section contains only templates,
      * e.g. {{form_of|}}, or {{plural of|}},
      * i.e. there are only references to main (normal) forms of the word,
      * and there are no any real definitions.
@@ -209,7 +207,7 @@ public class WLanguage {
                 for(WMeaning m : wm) {
                     if(!m.isFormOfInflection())
                         return false;
-                    
+
                     at_least_one_template = true;
                 }
             }

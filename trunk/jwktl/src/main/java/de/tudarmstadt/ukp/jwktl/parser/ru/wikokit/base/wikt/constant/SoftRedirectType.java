@@ -1,12 +1,12 @@
 /*******************************************************************************
  * Copyright 2008 Andrew Krizhanovsky <andrew.krizhanovsky at gmail.com>
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -15,13 +15,13 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikt.constant;
 
-import java.util.Map;
 import java.util.HashMap;
+import java.util.Map;
 
 /** Names of types of soft redirects used in all wiktionaries.
  *
- * @see Wiktionary:Redirections and Help:Redirect in English Wiktionary
- * @see TPage.is_redirect - a hard redirect.
+ * see Wiktionary:Redirections and Help:Redirect in English Wiktionary
+ * see TPage.is_redirect - a hard redirect.
  */
 public class SoftRedirectType {
 
@@ -49,7 +49,7 @@ public class SoftRedirectType {
         return name2type.get(_name);
     }
 
-    
+
     /** The types of soft redirects are: */
     /*************************************/
 
