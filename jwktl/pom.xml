@@ -77,6 +77,10 @@
     <tag>HEAD</tag>
   </scm>
 
+  <properties>
+    <javadoc.opts>-Xdoclint:none</javadoc.opts>
+  </properties>
+
   <build>
     <filters>
       <filter>src/main/filter/jwktl-version-filter.properties</filter>
@@ -110,7 +114,7 @@
           </compilerArguments>
         </configuration>
       </plugin -->
-      <!-- plugin>
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
         <executions>
@@ -126,7 +130,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin -->
+      </plugin>
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
