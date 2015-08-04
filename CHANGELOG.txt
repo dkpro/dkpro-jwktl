@@ -217,3 +217,4 @@ JWKTL-1.0.2
 - Modified: cleanup and fixes in relationship parsing code
 - Added: parsing of entry usage notes
 - Modified: Upgraded to dkpro-parent-pom 11 (#16).
+- Moved to GitHub.

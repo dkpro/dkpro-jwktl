@@ -13,7 +13,7 @@ structured access to the information encoded in the English and the
 
 Further information and documentation is available from the project homepage:
 * http://www.ukp.tu-darmstadt.de/software/jwktl/
-* http://code.google.com/p/jwktl/
+* http://dkpro.org/jwktl/
 
 
 License
@@ -36,14 +36,17 @@ scientific articles:
   expert-built lexicons? Exploring the possibilities of collaborative 
   lexicography, Chapter 13 in S. Granger & M. Paquot (Eds.): Electronic 
   Lexicography, pp. 259–291, Oxford: Oxford University Press, November 2012.
+  <http://ukcatalogue.oup.com/product/9780199654864.do>
 * Christian M. Meyer and Iryna Gurevych: OntoWiktionary – Constructing an 
   Ontology from the Collaborative Online Dictionary Wiktionary, chapter 6 in 
   M. T. Pazienza and A. Stellato (Eds.): Semi-Automatic Ontology Development: 
   Processes and Resources, pp. 131–161, Hershey, PA: IGI Global, February 2012.
+  <https://www.ukp.tu-darmstadt.de/data/lexical-resources/wiktionary/ontowiktionary/>
 * Torsten Zesch, Christof Müller, and Iryna Gurevych: Extracting Lexical 
   Semantic Knowledge from Wikipedia and Wiktionary, in: Proceedings of the 
   6th International Conference on Language Resources and Evaluation (LREC), 
-  pp. 1646–1652, May 2008. Marrakech, Morocco. 
+  pp. 1646–1652, May 2008. Marrakech, Morocco.
+  <http://lrec-conf.org/proceedings/lrec2008/summaries/420.html>
 
 Please cite a JWKTL-related article if you use the software in your 
 scientific work.
