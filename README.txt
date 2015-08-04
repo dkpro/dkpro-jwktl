@@ -6,10 +6,10 @@ interface for the free  multilingual online dictionary Wiktionary
 (http://www.wiktionary.org). Wiktionary is collaboratively constructed 
 by volunteers and continually growing. JWKTL enables efficient and 
 structured access to the information encoded in the English and the
- German Wiktionary language editions, including sense definitions, 
- part of speech tags, etymology, example sentences, translations, 
- semantic relations, and many other lexical information types. The 
- API was first described in an LREC 2008 paper.
+German Wiktionary language editions, including sense definitions, 
+part of speech tags, etymology, example sentences, translations, 
+semantic relations, and many other lexical information types. The 
+API was first described in an LREC 2008 paper.
 
 Further information and documentation is available from the project homepage:
 * http://www.ukp.tu-darmstadt.de/software/jwktl/
@@ -60,6 +60,7 @@ project at the Ubiquitous Knowledge Processing (UKP) Lab of the Technische
 Universität Darmstadt, Germany. The following people have mainly contributed 
 to this project (in alphabetical order):
 
+* Jan Berkel
 * Yevgen Chebotar
 * Iryna Gurevych
 * Christian M. Meyer
