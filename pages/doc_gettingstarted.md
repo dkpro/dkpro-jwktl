@@ -23,15 +23,15 @@ Before JWKTL is ready to use, you need to parse the obtaining Wiktionary dump fi
 
 To achieve that, create a new Java project and add JWKTL to your classpath as described in the first section. Create a new class and run the parser using the following sample code:
 
-```java
-	public static void main(String[] args) throws Exception {
-	  File dumpFile = new File(PATH_TO_DUMP_FILE);
-      File outputDirectory = new File(TARGET_DIRECTORY);
-      boolean overwriteExisting = OVERWRITE_EXISTING_FILES;
-      
-      JWKTL.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
-    }
-```
+{% highlight java %}
+public static void main(String[] args) throws Exception {
+  File dumpFile = new File(PATH_TO_DUMP_FILE);
+  File outputDirectory = new File(TARGET_DIRECTORY);
+  boolean overwriteExisting = OVERWRITE_EXISTING_FILES;
+    
+  JWKTL.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
+}
+{% endhighlight %}
 
 Make sure to set the following parameters:
 * `PATH_TO_DUMP_FILE`: The path to the Wiktionary dump file as downloaded in the preceding step. The dump file can be either an uncompressed XML file (fast) or a bz2 archive of the XML file (a bit slower).
@@ -47,13 +47,13 @@ Accessing the data
 Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database connection and start querying the data you need. The basic code is:
 
 ```java
-	// Connect to the Wiktionary database.
-	IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
-	
-	//TODO: Query the data you need.
-	
-	// Close the database connection.
-	wkt.close();
+  // Connect to the Wiktionary database.
+  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+
+  //TODO: Query the data you need.
+
+  // Close the database connection.
+  wkt.close();
 ```
 
 where `WIKTIONARY_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
