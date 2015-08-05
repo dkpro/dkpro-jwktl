@@ -20,6 +20,8 @@
     url: "/documentation/architecture/"
   - title: "Use cases"
     url: "/documentation/use-cases/"
+  - title: "Adding new parsers"
+    url: "/documentation/add-parsers/"
 
 - title: "Issues"
   url: "http://github.com/dkpro/dkpro-jwktl/issues"
