@@ -8,7 +8,7 @@
 #                                                 /____/        
 #
 # Title of your website
-title: "DKPro Core"
+title: "DKPro JWKTL"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
@@ -16,12 +16,12 @@ slogan: "Getting things done in NLP"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "DKPro Core is a collection of software components for natural language processing (NLP) based on the Apache UIMA framework."
+description: "JWKTL (Java-based Wiktionary Library) is an application programming interface for the free multilingual online dictionary Wiktionary. "
 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
-url: "//dodinh.github.io/dkpro-core-page-draft"
+url: "//dkpro.github.io/dkpro-jwktl"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html

@@ -2,33 +2,33 @@
   url: "http://dkpro.github.io"
   side: left
 
-- title: Core
+- title: JWKTL
   url: "/"
   side: left
 
 - title: Downloads
-  url: "/maven/"
+  url: "http://search.maven.org/#search|ga|1|a%3A%22dkpro-jwktl%22"
   side: left
 
 - title: Documentation
   url: "/documentation/"
   side: left
-  dropdown:
-  - title: "Components"
-    url: "/components/"
-  - title: "Models"
-    url: "/models/"
-  - title: "Formats"
-    url: "/formats/"
-  - title: "Typesystem"
-    url: "/typesystem/"
+#  dropdown:
+#  - title: "Components"
+#    url: "/components/"
+#  - title: "Models"
+#    url: "/models/"
+#  - title: "Formats"
+#    url: "/formats/"
+#  - title: "Typesystem"
+#    url: "/typesystem/"
 
 - title: "Issues"
-  url: "http://github.com/dkpro/dkpro-core/issues"
+  url: "http://github.com/dkpro/dkpro-jwktl/issues"
   side: left
 
 - title: Source
-  url: "http://github.com/dkpro/dkpro-core"
+  url: "http://github.com/dkpro/dkpro-jwktl"
   side: left
 
 - title: "Contact"
@@ -37,13 +37,13 @@
   dropdown:
   - title: "Mailing lists"
     url: "/mailinglists/"
-  - title: "Twitter"
-    url: "http://twitter.com/dkprocore"
+#  - title: "Twitter"
+#    url: "http://twitter.com/dkprocore"
   - title: "Contributing"
     url: "http://github.com/dkpro/dkpro-core/blob/master/CONTRIBUTING.md"
-  - title: "Contributors"
-    url: "http://github.com/dkpro/dkpro-core/blob/master/CONTRIBUTORS.txt"
+#  - title: "Contributors"
+#    url: "http://github.com/dkpro/dkpro-core/blob/master/CONTRIBUTORS.txt"
 
-- title: "About"
-  side: left
-  url: "/info"
+#- title: "About"
+#  side: left
+#  url: "/info"

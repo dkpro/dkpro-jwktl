@@ -1,7 +1,7 @@
 - menu_name: "Mailing lists"
 
 - name: "Users"
-  url: "http://groups.google.com/group/dkpro-core-user"
+  url: "http://groups.google.com/group/jwktl-users"
   class: "network-entypo"
   title: "Users"
 
@@ -15,7 +15,7 @@
   class: "rss-link"
   title: "Announcements"
 
-- name: "Commits"
-  url: "http://groups.google.com/group/dkpro-core-source"
-  class: "sitemap-link"
-  title: "Commits"
+#- name: "Commits"
+#  url: "http://groups.google.com/group/dkpro-core-source"
+#  class: "sitemap-link"
+#  title: "Commits"

@@ -5,55 +5,71 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "DKPro Core"
+title: "DKPro JWKTL"
 #header:
 #	title: DKPro Core
 #   image_fullwidth: "header_unsplash_12.jpg"
 header-1:
-    title: A collection of software components for natural language processing (NLP) based on the Apache UIMA framework.
-    text: Many NLP tools are already freely available in the NLP research community. DKPro Core provides Apache UIMA components wrapping these tools (and some original tools) so they can be used interchangeably in UIMA processing pipelines. DKPro Core builds heavily on uimaFIT which allows for rapid and easy development of NLP processing pipelines, for wrapping existing tools and for creating original UIMA components.
+    title: "Java Wiktionary Library"
+    text: "An application programming interface for the free multilingual online dictionary Wiktionary. Wiktionary (<http://www.wiktionary.org>) is collaboratively constructed by volunteers and continually growing. JWKTL enables efficient and structured access to the information encoded in the English, the German, and the Russian Wiktionary language editions, including sense definitions, part of speech tags, etymology, example sentences, translations, semantic relations, and many other lexical information types. The API was first described in an [LREC 2008][http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2008/lrec08_camera_ready.pdf] paper. The Russian JWKTL parser is based on [Wikokit][http://code.google.com/p/wikokit/]."
 ---
 
 
-How to cite
------------
+Publications and Citation Information
+-------------------------------------
 
-Many of the wrapped third-party components and the models used by them should be cited individually. We currently do not provide a comprehensive overview over citable publications. We encourage you to track down citable publications for these dependencies. However, you might find pointers to some relevant publications in the Model overview of the DKPro Core release you are using or in the JavaDoc of individual components.
+A more detailed description of Wiktionary and JWKTL is available in our scientific articles:
 
-Please cite DKPro Core itself as:
+> Christian M. Meyer and Iryna Gurevych: Wiktionary: A new rival for expert-built lexicons? Exploring the possibilities of collaborative lexicography, Chapter 13 in S. Granger & M. Paquot (Eds.): Electronic Lexicography, pp. 259–291, Oxford: Oxford University Press, November 2012. [(download)][http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2012-0008]
 
-> Eckart de Castilho, R. and Gurevych, I. (2014). **A broad-coverage collection of portable NLP components for building shareable analysis pipelines**. In Proceedings of the Workshop on Open Infrastructures and Analysis Frameworks for HLT (OIAF4HLT) at COLING 2014, to be published, Dublin, Ireland.
-[(pdf)][1] [(bib)][2]
+> Christian M. Meyer and Iryna Gurevych: OntoWiktionary – Constructing an Ontology from the Collaborative Online Dictionary Wiktionary, chapter 6 in M. T. Pazienza and A. Stellato (Eds.): Semi-Automatic Ontology Development: Processes and Resources, pp. 131–161, Hershey, PA: IGI Global, February 2012. [(download)][http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2011-0202]
 
-License
--------
+> Torsten Zesch, Christof Müller, and Iryna Gurevych: Extracting Lexical Semantic Knowledge from Wikipedia and Wiktionary, in: Proceedings of the 6th International Conference on Language Resources and Evaluation (LREC), pp. 1646–1652, May 2008. Marrakech, Morocco. [(download)][http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2008-4]
 
-All components in DKPro Core ASL are licensed under the [Apache Software License (ASL) version 2][3] - but their dependencies may not be:
-
-**IMPORTANT LICENSE NOTE** - It must be pointed out that while the component's source code itself is licensed under the ASL, individual components might make use of third-party libraries or products that are not licensed under the ASL, such as LGPL libraries or libraries which are free for research but may not be used in commercial scenarios. Please be aware of the third party licenses and respect them.
-
-About DKPro Core
-----------------
-
-This project was initiated by the Ubiquitous Knowledge Processing Lab (UKP) at the Technische Universität Darmstadt, Germany under the auspices of Prof. Dr. Iryna Gurevych.
-
-It is now jointly developed at UKP Lab, Technische Universität Darmstadt and Language Technology Lab, Universität Duisburg-Essen.
+Please cite a JWKTL-related article if you use the software in your scientific work. 
 
 
-<span class="footnotes">**Image sources**: [LogoJava.png][4] by Christian F. Burprich, Creative Commons (Attribution-Noncommercial-Share Alike 3.0 Unported), color changed; [LogoPython.png][5] by IFA; [LogoGroovy.png][6] by pictonic.co; [IconComponents.png][7], [IconModels.png][8] by [Visual Pharm][9]; [IconFormatText.png][10], [IconFormatBlank.png][11] by [Honza Dousek][12]; [IconTypeSystem.png][13] by Designmodo</span>
+License and Availability
+------------------------
 
-[1]: https://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/OIAF4HLT2014DKProCore_cameraready.pdf
-[2]: https://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2014-0864&type=99&tx_bibtex_pi1%5Bbibtex%5D=yes
-[3]: http://www.apache.org/licenses/LICENSE-2.0
-[4]: https://www.iconfinder.com/icons/16890/java_icon#size=128
-[5]: https://www.iconfinder.com/icons/282803/logo_python_icon#size=128
-[6]: http://findicons.com/icon/576242/pl_groovy_02?id=576242
-[7]: https://www.iconfinder.com/icons/175334/services_icon#size=128
-[8]: https://www.iconfinder.com/icons/174880/database_icon#size=128
-[9]: http://icons8.com/
-[10]: https://www.iconfinder.com/icons/199323/extension_file_format_txt_icon#size=128
-[11]: https://www.iconfinder.com/icons/199231/blank_extension_file_format_icon#size=128
-[12]: https://www.iconfinder.com/iconsets/lexter-flat-colorfull-file-formats
-[13]: https://www.iconfinder.com/icons/115791/tag_icon#size=128
-[14]: http://uima.apache.org
-[15]: http://uima.apache.org/uimafit
+The latest version of JWKTL is available via [Maven Central][http://search.maven.org/#search|ga|1|a%3A%22jwktl%22]. If you use Maven as your build tool, then you can add JWKTL as a dependency in your pom.xml file:
+
+		<dependency>
+		  <groupId>de.tudarmstadt.ukp.jwktl</groupId>
+		  <artifactId>jwktl</artifactId>
+		  <version>1.0.1</version>
+		</dependency>
+
+JWKTL is available as open source software under the [Apache License 2.0][http://www.apache.org/licenses/LICENSE-2.0] (ASL). The software thus comes "as is" without any warranty (see license text for more details). JWKTL makes use of [Berkeley DB Java Edition][http://www.oracle.com/technetwork/products/berkeleydb/downloads/index-098622.html] 5.0.73 ([Sleepycat License][http://download.oracle.com/maven/com/sleepycat/je/license.txt]), [Apache Ant][http://archive.apache.org/dist/ant/source/] 1.7.1 ([ASL][http://www.apache.org/licenses/LICENSE-2.0]), [Xerces][http://xerces.apache.org/xerces2-j/] 2.9.1 ([ASL][http://www.apache.org/licenses/LICENSE-2.0]), [JUnit][http://junit.org/] 4.10 ([CPL][http://www.opensource.org/licenses/cpl1.0.txt]).
+
+Some classes have been taken from the [Wikokit][http://code.google.com/p/wikokit/] project (available under multiple licenses, redistributed under the [ASL][http://www.apache.org/licenses/LICENSE-2.0] license). See NOTICE.txt for further details. 
+
+
+Documentation
+-------------
+
+Learn how to use JWKTL by consulting
+
+* our [getting started][/documentation/getting-started/] guide,
+* an overview on the [architecture of JWKTL][/documentation/architecture/],
+* the selection of [JWKTL use cases][/documentation/use-cases/], and
+* the Javadoc API documentation. 
+
+
+Feedback
+--------
+
+We would love to know if you use JWKTL in your work or research. If you like JWKTL, have questions, comments or just want to tell us that you use JWKTL, please write us a small post to the [JWKTL Users][https://groups.google.com/forum/#!forum/jwktl-users] group. 
+
+
+About DKPro JWKTL
+-----------------
+
+Prior to being available as open source software, JWKTL has been a research project at the [Ubiquitous Knowledge Processing (UKP) Lab][http://www.ukp.tu-darmstadt.de/] of the Technische Universität Darmstadt, Germany. The following people have mainly contributed to this project (in alphabetical order):
+
+* Yevgen Chebotar
+* Iryna Gurevych
+* Christian M. Meyer
+* Christof Müller
+* Lizhen Qu
+* Torsten Zesch 
