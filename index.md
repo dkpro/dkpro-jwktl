@@ -11,7 +11,7 @@ title: "DKPro JWKTL"
 #   image_fullwidth: "header_unsplash_12.jpg"
 header-1:
     title: "Java Wiktionary Library"
-	text: An application programming interface for the free multilingual online dictionary Wiktionary. Wiktionary (<http://www.wiktionary.org>) is collaboratively constructed by volunteers and continually"
+    text: " "
 ---
 
 An application programming interface for the free multilingual online dictionary Wiktionary. Wiktionary (<http://www.wiktionary.org>) is collaboratively constructed by volunteers and continually growing. JWKTL enables efficient and structured access to the information encoded in the English, the German, and the Russian Wiktionary language editions, including sense definitions, part of speech tags, etymology, example sentences, translations, semantic relations, and many other lexical information types. The API was first described in an [LREC 2008](http://www.ukp.tu-darmstadt.de/fileadmin/user_upload/Group_UKP/publikationen/2008/lrec08_camera_ready.pdf) paper. The Russian JWKTL parser is based on [Wikokit](http://code.google.com/p/wikokit/).
