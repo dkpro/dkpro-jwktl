@@ -4,19 +4,16 @@ title: "JWKTL Use Cases"
 permalink: "/documentation/use-cases/"
 ---
 
-#summary Selected use cases for accessing Wiktionary data
-
-= JWKTL Use Cases =
-
-This page focuses on use cases for accessing a certain kind of information type from Wiktionary, such as translations. Before taking a closer look at this page, make sure that JWKTL is correctly installed as explained in the [GettingStarted getting started] guide and familiarize yourself with the basic [JWKTLArchitecture architecture of JWKTL].
+This page focuses on use cases for accessing a certain kind of information type from Wiktionary, such as translations. Before taking a closer look at this page, make sure that JWKTL is correctly installed as explained in the [getting started](/dkpro-jwktl/documentation/getting-started/) guide and familiarize yourself with the basic [architecture of JWKTL](/dkpro-jwktl/documentation/architecture/).
 
 For brevity, we won't be able to describe the information types in detail, which is why we refer you to the publications mentioned on the project homepage and the Javadoc code documentation of the individual methods.
 
-== Iterating over pages, entries, senses, relations ==
+Iterating over pages, entries, senses, relations
+------------------------------------------------
 
 In addition to querying a specific dictionary article by its lemma (which we describe below), JWKTL facilitates iterating over all encoded entries. The corresponding methods make use of Java's iterable interface and can hence be easily used in a for loop. Note that iterating over all entries is computationally far more expensive than querying for a few individual entries, since querying is based on efficient database indexes. Below is some example code for iterating over all pages, entries, and senses and counting them.
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   int pageCount = 0;
   int entryCount = 0;
@@ -32,11 +29,11 @@ In addition to querying a specific dictionary article by its lemma (which we des
   System.out.println("Entries: " + entryCount);
   System.out.println("Senses: " + senseCount);
   wkt.close();
-}}}
+```
 
 JWKTL also supports using filters that facilitate skipping unwanted entries during iteration. Imagine you want to compile a list of all German adjectives encoded in a Wiktionary language edition. The source code for extracting this list and printing its size could, for example, look like this:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   WiktionaryEntryFilter filter = new WiktionaryEntryFilter();
   filter.setAllowedWordLanguages(Language.GERMAN);
@@ -48,28 +45,28 @@ JWKTL also supports using filters that facilitate skipping unwanted entries duri
   }
   System.out.println("German adjectives: " + deAdjectiveCount);
   wkt.close();
-}}}
+```
 
 
-== Extracting sense definitions, examples, and quotations ==
+Extracting sense definitions, examples, and quotations
+------------------------------------------------------
 
 The meaning of a word sense is described in a sense definition giving a brief paraphrase or usage note of a word sense (often called a "gloss"). Code example:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
   IWiktionarySense sense = entry.getSense(1);
   System.out.println(sense.getGloss().getText());
   wkt.close();
-}}}
+```
 
 The sense definition is encoded using the Wiki markup language. JWKTL represents such strings using the `IWikiString` interface. This facilitates accessing the original text including all markup (`getText()`) and accessing a more reader-friendly version without most of the wiki markup (`getPlainText()`).
 
 In addition to that, the usage of a word sense might be illustrated by example sentences or quotations. Note that for the sake of memory consumption, many information types are set to `null` if no Wiktionary information is provided for this article position. Remember to check for `null` if the information type might be missing. Code example:
 
-
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
@@ -89,14 +86,15 @@ In addition to that, the usage of a word sense might be illustrated by example s
     }
 
   wkt.close();
-}}}
-	  
+```
 
-== Extracting semantic relations ==
+
+Extracting semantic relations
+-----------------------------
 
 Two words (word senses) can be related in their meaning, for example, by describing the same or an opposite meaning. This is modeled by what is called semantic relations pointing from one word sense to a certain target article. The following example code shows how to extract all synonyms of the noun _boat_:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
@@ -104,11 +102,11 @@ Two words (word senses) can be related in their meaning, for example, by describ
      for (IWiktionaryRelation relation : entry.getRelations(RelationType.SYNONYM))
        System.out.println(relation.getTarget());
   wkt.close();
-}}}
+```
 
 Accordingly, all semantic relations can be extracted:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
@@ -116,11 +114,11 @@ Accordingly, all semantic relations can be extracted:
       for (IWiktionaryRelation relation : entry.getRelations())
         System.out.println(relation.getRelationType() + ": " + relation.getTarget());
   wkt.close();
-}}}
+```
 
 So far, we have accessed all semantic relations of a lexical entry regardless of the word senses. This is achieved by selecting the `IWiktionarySense` in question and essentially invoking the same methods as for the `IWiktionaryEntry`:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
@@ -128,11 +126,11 @@ So far, we have accessed all semantic relations of a lexical entry regardless of
   for (IWiktionaryRelation relation : sense.getRelations(RelationType.SYNONYM))
     System.out.println(relation.getTarget());
   wkt.close();
-}}}
+```
 
 Semantic relations that could not be associated to a specific word sense are gathered within the unassigned sense:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
@@ -140,15 +138,15 @@ Semantic relations that could not be associated to a specific word sense are gat
   for (IWiktionaryRelation relation : unassigned.getRelations(RelationType.SYNONYM))
     System.out.println(relation.getTarget());
   wkt.close();
-}}}
+```
 
 
-
-== Extracting translations ==
+Extracting translations
+-----------------------
 
 Wiktionary encodes a large number of translations, which are represented as a hyperlink from one article to another. The German translation of the English word _boat_ can, for instance, be accessed using the following code:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
@@ -156,11 +154,11 @@ Wiktionary encodes a large number of translations, which are represented as a hy
       for (IWiktionaryTranslation translation : entry.getTranslations(Language.GERMAN))
         System.out.println(translation.getTranslation());
   wkt.close();
-}}}
+```
 
 Accordingly, it is easy to print a list of all translations encoded for the noun _boat_:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   for (IWiktionaryEntry entry : page.getEntries())
@@ -168,11 +166,11 @@ Accordingly, it is easy to print a list of all translations encoded for the noun
       for (IWiktionaryTranslation translation : entry.getTranslations())
         System.out.println(translation.getLanguage() + ": " + translation.getTranslation());
   wkt.close();
-}}}
+```
 
 For the semantic relations, we have seen that many of them are associated with a certain word sense. This also applies to the translations. The following sample code extracts the German translations of the first word sense of _boat_ (i.e., the meaning of a water vessel):
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
@@ -180,11 +178,11 @@ For the semantic relations, we have seen that many of them are associated with a
   for (IWiktionaryTranslation translation : sense.getTranslations(Language.GERMAN))
       System.out.println(translation.getTranslation());
   wkt.close();
-}}}
+```
 
 Again, translations that could not be associated to a specific word sense are gathered within the unassigned sense:
 
-{{{
+```java
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
   IWiktionaryPage page = wkt.getPageForWord("boat");
   IWiktionaryEntry entry = page.getEntry(0);
@@ -192,7 +190,7 @@ Again, translations that could not be associated to a specific word sense are ga
   for (IWiktionaryTranslation translation : unassigned.getTranslations(Language.GERMAN))
       System.out.println(translation.getTranslation());
   wkt.close();
-}}}
+```
 
 
 Multilingual processing
