@@ -21,7 +21,9 @@ Publications and Citation Information
 A more detailed description of Wiktionary and JWKTL is available in our scientific articles:
 
 > Christian M. Meyer and Iryna Gurevych: Wiktionary: A new rival for expert-built lexicons? Exploring the possibilities of collaborative lexicography, Chapter 13 in S. Granger & M. Paquot (Eds.): Electronic Lexicography, pp. 259–291, Oxford: Oxford University Press, November 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2012-0008)   
+   
 > Christian M. Meyer and Iryna Gurevych: OntoWiktionary – Constructing an Ontology from the Collaborative Online Dictionary Wiktionary, chapter 6 in M. T. Pazienza and A. Stellato (Eds.): Semi-Automatic Ontology Development: Processes and Resources, pp. 131–161, Hershey, PA: IGI Global, February 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2011-0202)   
+   
 > Torsten Zesch, Christof Müller, and Iryna Gurevych: Extracting Lexical Semantic Knowledge from Wikipedia and Wiktionary, in: Proceedings of the 6th International Conference on Language Resources and Evaluation (LREC), pp. 1646–1652, May 2008. Marrakech, Morocco. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2008-4)
 
 Please cite a JWKTL-related article if you use the software in your scientific work. 
@@ -48,9 +50,9 @@ Documentation
 
 Learn how to use JWKTL by consulting
 
-* our [getting started](documentation/getting-started/) guide,
-* an overview on the [architecture of JWKTL](documentation/architecture/),
-* the selection of [JWKTL use cases](documentation/use-cases/), and
+* our [getting started](/dkpro-jwktl/documentation/getting-started/) guide,
+* an overview on the [architecture of JWKTL](/dkpro-jwktl/documentation/architecture/),
+* the selection of [JWKTL use cases](/dkpro-jwktl/documentation/use-cases/), and
 * the Javadoc API documentation. 
 
 

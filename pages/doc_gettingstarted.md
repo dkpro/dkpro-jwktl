@@ -4,13 +4,10 @@ title: "Getting started"
 permalink: "/documentation/getting-started/"
 ---
 
-Getting Started
-===============
-
 Installing JWKTL
 ----------------
 
-Once you have downloaded the Wiktionary dump file, set up a Java project and include JWKTL in your classpath. You also need to download the Oracle Berkeley DB Java Edition (version 4.0.92 or higher) from http://www.oracle.com/technology/software/products/berkeley-db/je/index.html and add the corresponding JAR to your classpath. Please have a look at Oracle's documentation to find out how this works._
+Once you have downloaded the Wiktionary dump file, set up a Java project and include JWKTL in your classpath. You also need to download the Oracle Berkeley DB Java Edition (version 4.0.92 or higher) from http://www.oracle.com/technology/software/products/berkeley-db/je/index.html and add the corresponding JAR to your classpath. Please have a look at Oracle's documentation to find out how this works.
 
 
 Obtaining Wiktionary data
@@ -26,6 +23,7 @@ Before JWKTL is ready to use, you need to parse the obtaining Wiktionary dump fi
 
 To achieve that, create a new Java project and add JWKTL to your classpath as described in the first section. Create a new class and run the parser using the following sample code:
 
+```java
 	public static void main(String[] args) throws Exception {
 	  File dumpFile = new File(PATH_TO_DUMP_FILE);
       File outputDirectory = new File(TARGET_DIRECTORY);
@@ -33,6 +31,7 @@ To achieve that, create a new Java project and add JWKTL to your classpath as de
       
       JWKTL.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
     }
+```
 
 Make sure to set the following parameters:
 * `PATH_TO_DUMP_FILE`: The path to the Wiktionary dump file as downloaded in the preceding step. The dump file can be either an uncompressed XML file (fast) or a bz2 archive of the XML file (a bit slower).
@@ -47,7 +46,7 @@ Accessing the data
 
 Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database connection and start querying the data you need. The basic code is:
 
-
+```java
 	// Connect to the Wiktionary database.
 	IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
 	
@@ -55,10 +54,11 @@ Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database 
 	
 	// Close the database connection.
 	wkt.close();
+```
 
 where `WIKTIONARY_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
 
 Using the JWKTL database connection, you can access the individual information types encoded in Wiktionary. Learn more about how to do that by taking a look at 
-* the [JWKTL architecture](architecture/) overview,
-* our selection of [JWKTL use cases](use-cases/), and
+* the [JWKTL architecture](/dkpro-jwktl/documentation/architecture/) overview,
+* our selection of [JWKTL use cases](/dkpro-jwktl/documentation/use-cases/), and
 * the Javadoc documentation.

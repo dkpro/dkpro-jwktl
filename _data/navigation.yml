@@ -11,7 +11,7 @@
   side: left
 
 - title: Documentation
-  url: "/documentation/"
+  url: "/documentation/getting-started/"
   side: left
   dropdown:
   - title: "Getting started"
