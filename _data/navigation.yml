@@ -7,21 +7,19 @@
   side: left
 
 - title: Downloads
-  url: "http://search.maven.org/#search|ga|1|a%3A%22dkpro-jwktl%22"
+  url: "http://search.maven.org/#search|ga|1|a%3A%22jwktl%22"
   side: left
 
 - title: Documentation
   url: "/documentation/"
   side: left
-#  dropdown:
-#  - title: "Components"
-#    url: "/components/"
-#  - title: "Models"
-#    url: "/models/"
-#  - title: "Formats"
-#    url: "/formats/"
-#  - title: "Typesystem"
-#    url: "/typesystem/"
+  dropdown:
+  - title: "Getting started"
+    url: "/documentation/getting-started/"
+  - title: "Architecture"
+    url: "/documentation/architecture/"
+  - title: "Use cases"
+    url: "/documentation/use-cases/"
 
 - title: "Issues"
   url: "http://github.com/dkpro/dkpro-jwktl/issues"
