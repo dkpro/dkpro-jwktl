@@ -4,65 +4,61 @@ title: "Getting started"
 permalink: "/documentation/getting-started/"
 ---
 
-Introduction
-------------
+Getting Started
+===============
 
-OmegaWiki is a free, multilingual lexical semantic resource built around the concept of multilingual Synsets. Although this resource is interesting for NLP applications, the only way to access it so far has been the website <http://www.omegawiki.org>. For large-scale NLP tasks, efficient programmatic access to the knowledge therein is required. The OmegeWiki API provides structured access to all information in this resource like definitions, translations and semantic relations.
-
-Database dumps
---------------
-
-To use the OmegaWiki API, you first have the obtain the 'Lexical data dump' described at <http://www.omegawiki.org/Help:Downloading_the_data#SQL_Database_dump> and import it into a local database. That's it, no further preprocessing is necessary. We tested it on MySQL only, however, it should also work on other database systems.
-
-Setting up JOWKL
+Installing JWKTL
 ----------------
 
-For using JOWKL in your own Java project you have to integrate it into your project using the Maven dependency:
-
-		<dependency>
-		  <groupId>org.dkpro.jowkl</groupId>
-		  <artifactId>dkpro-jowkl</artifactId>
-		  <version>1.0.0</version>
-		</dependency>
+Once you have downloaded the Wiktionary dump file, set up a Java project and include JWKTL in your classpath. You also need to download the Oracle Berkeley DB Java Edition (version 4.0.92 or higher) from http://www.oracle.com/technology/software/products/berkeley-db/je/index.html and add the corresponding JAR to your classpath. Please have a look at Oracle's documentation to find out how this works._
 
 
-Code Examples
--------------
+Obtaining Wiktionary data
+-------------------------
 
-Here is a code snippet that shows how information can be obtained from OmegaWiki using the API.
+The first step towards using JWKTL is obtaining the actual Wiktionary data. JWKTL is able to process the XML dump files containing the wiki markup of the Wiktionary articles. These dump files are released by the Wikimedia foundation under a free license. Choose the Wiktionary language edition and data from the download page at http://dumps.wikimedia.org/backup-index.html (e.g., "enwiktionary" for the English Wiktionary) and save the corresponding `pages-articles.xml` dump (i.e., the dump containing at least "articles, templates, media/file descriptions, and primary meta-pages") to your hard disk.
 
-	//Set up the database
-	String ow_host = "localhost";
-	String ow_db = "OmegaWikiDB";
-	String ow_user = "user";
-	String ow_pass = "pwd";
-	String db_driver = "com.mysql.jdbc.Driver"; //just an example, other drivers should work too
-	String db_vendor = "mysql";
-	int ow_language= OWLanguage.English;
-	DatabaseConfiguration dbConfig_ow = new DatabaseConfiguration(ow_host,ow_db,db_driver,db_vendor, ow_user, ow_pass, ow_language);
-	//Create the OmegaWiki object
-	OmegaWiki ow = new OmegaWiki(dbConfig_ow);
-	//Retrieve all senses for the English word "table
-	Set<DefinedMeaning> meanings = ow.getDefinedMeaningByWord("table", ow_language);
-	//For all senses...
-	for(DefinedMeaning dm : meanings)
-	{
-		//Retrieve the English definitions
-		Set<TranslatedContent> glosses = dm.getGlosses(ow_language);
-		for (TranslatedContent tc : glosses)
-		{
-			System.out.println("Definiton: "+tc.getGloss());
-		}
-		//Retrieve the translation for all languages
-		Set<SynTrans> translations = dm.getSynTranses();
-		for (SynTrans st :translations)
-		{
-			System.out.println(OWLanguage.getName(st.getSyntrans().getLanguageId()) + " translation: "+ st.getSyntrans().getSpelling());
-		}
-		//Retrieve relations to other senses
-		Map<DefinedMeaning,Integer> links = dm.getDefinedMeaningLinksAll();
-		for (DefinedMeaning dm_target : links.keySet())
-		{
-			System.out.println(DefinedMeaningLinkType.getName(links.get(dm_target))+" relation with target "+ dm_target.getSpelling());
-		}
-	}
+
+Parsing the data
+----------------
+
+Before JWKTL is ready to use, you need to parse the obtaining Wiktionary dump file. The rationale behind this is to get in a position to efficiently access the Wiktionary data within a productive application environment by separating out all preparatory matters in a parsing step. In this step, the wiki syntax is being parsed by JWKTL and stored in a Berkeley DB. The parsing methods are based on text mining methods, which  obviously require some computation time. This is, however, a one-time effort. The resulting database can then be repeatedly and quickly accessed, as discussed in the next section.
+
+To achieve that, create a new Java project and add JWKTL to your classpath as described in the first section. Create a new class and run the parser using the following sample code:
+
+	public static void main(String[] args) throws Exception {
+	  File dumpFile = new File(PATH_TO_DUMP_FILE);
+      File outputDirectory = new File(TARGET_DIRECTORY);
+      boolean overwriteExisting = OVERWRITE_EXISTING_FILES;
+      
+      JWKTL.parseWiktionaryDump(dumpFile, outputDirectory, overwriteExisting);
+    }
+
+Make sure to set the following parameters:
+* `PATH_TO_DUMP_FILE`: The path to the Wiktionary dump file as downloaded in the preceding step. The dump file can be either an uncompressed XML file (fast) or a bz2 archive of the XML file (a bit slower).
+* `TARGET_DIRECTORY`: The name of the output folder, where the parsed Wiktionary database should be placed (needs to be a valid directory).
+* `OVERWRITE_EXISTING_FILES`: An existing Wiktionary database in the target directory will only be overwritten if this parameter is set to `true`.
+
+If you everything worked fine until now, run your code and get yourself a coffee -- parsing a dump file usually requires between five minutes and two hours, depending on the language edition and your hardware. It might be necessary to grant some additional heap space to the Java virtual machine. Use the `Xmx` parameter to to that (e.g., `java -Xmx1200m ...`). Please refer to the Java documentation for more information. Once the parsing process has terminated, you should find a number of Berkeley DB files in your target directory. This is your parsed Wiktionary data.
+
+
+Accessing the data
+------------------
+
+Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database connection and start querying the data you need. The basic code is:
+
+
+	// Connect to the Wiktionary database.
+	IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+	
+	//TODO: Query the data you need.
+	
+	// Close the database connection.
+	wkt.close();
+
+where `WIKTIONARY_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
+
+Using the JWKTL database connection, you can access the individual information types encoded in Wiktionary. Learn more about how to do that by taking a look at 
+* the [JWKTL architecture](architecture/) overview,
+* our selection of [JWKTL use cases](use-cases/), and
+* the Javadoc documentation.

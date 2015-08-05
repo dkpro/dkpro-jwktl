@@ -20,10 +20,8 @@ Publications and Citation Information
 
 A more detailed description of Wiktionary and JWKTL is available in our scientific articles:
 
-> Christian M. Meyer and Iryna Gurevych: Wiktionary: A new rival for expert-built lexicons? Exploring the possibilities of collaborative lexicography, Chapter 13 in S. Granger & M. Paquot (Eds.): Electronic Lexicography, pp. 259–291, Oxford: Oxford University Press, November 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2012-0008)
-
-> Christian M. Meyer and Iryna Gurevych: OntoWiktionary – Constructing an Ontology from the Collaborative Online Dictionary Wiktionary, chapter 6 in M. T. Pazienza and A. Stellato (Eds.): Semi-Automatic Ontology Development: Processes and Resources, pp. 131–161, Hershey, PA: IGI Global, February 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2011-0202)
-
+> Christian M. Meyer and Iryna Gurevych: Wiktionary: A new rival for expert-built lexicons? Exploring the possibilities of collaborative lexicography, Chapter 13 in S. Granger & M. Paquot (Eds.): Electronic Lexicography, pp. 259–291, Oxford: Oxford University Press, November 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2012-0008)   
+> Christian M. Meyer and Iryna Gurevych: OntoWiktionary – Constructing an Ontology from the Collaborative Online Dictionary Wiktionary, chapter 6 in M. T. Pazienza and A. Stellato (Eds.): Semi-Automatic Ontology Development: Processes and Resources, pp. 131–161, Hershey, PA: IGI Global, February 2012. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2011-0202)   
 > Torsten Zesch, Christof Müller, and Iryna Gurevych: Extracting Lexical Semantic Knowledge from Wikipedia and Wiktionary, in: Proceedings of the 6th International Conference on Language Resources and Evaluation (LREC), pp. 1646–1652, May 2008. Marrakech, Morocco. [(download)](http://www.ukp.tu-darmstadt.de/publications/details/?no_cache=1&tx_bibtex_pi1%5Bpub_id%5D=TUD-CS-2008-4)
 
 Please cite a JWKTL-related article if you use the software in your scientific work. 
@@ -32,7 +30,7 @@ Please cite a JWKTL-related article if you use the software in your scientific w
 License and Availability
 ------------------------
 
-The latest version of JWKTL is available via [Maven Central](http://search.maven.org/#search|ga%7C1%7Ca%3A%22jwktl%22). If you use Maven as your build tool, then you can add JWKTL as a dependency in your pom.xml file:
+The latest version of JWKTL is available via [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22jwktl%22). If you use Maven as your build tool, then you can add JWKTL as a dependency in your pom.xml file:
 
 		<dependency>
 		  <groupId>de.tudarmstadt.ukp.jwktl</groupId>
