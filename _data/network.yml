@@ -5,15 +5,15 @@
   class: "network-entypo"
   title: "Users"
 
-- name: "Developers"
-  url: "http://groups.google.com/group/dkpro-core-developers"
-  class: "services-newsletter"
-  title: "Developers"
+#- name: "Developers"
+#  url: "http://groups.google.com/group/dkpro-core-developers"
+#  class: "services-newsletter"
+#  title: "Developers"
 
-- name: "Announcements"
-  url: "http://groups.google.com/group/dkpro-core-announcements"
-  class: "rss-link"
-  title: "Announcements"
+#- name: "Announcements"
+#  url: "http://groups.google.com/group/dkpro-core-announcements"
+#  class: "rss-link"
+#  title: "Announcements"
 
 #- name: "Commits"
 #  url: "http://groups.google.com/group/dkpro-core-source"
