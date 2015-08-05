@@ -46,7 +46,7 @@ Accessing the data
 
 Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database connection and start querying the data you need. The basic code is:
 
-```java
+{% highlight java %}
   // Connect to the Wiktionary database.
   IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
 
@@ -54,7 +54,7 @@ Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database 
 
   // Close the database connection.
   wkt.close();
-```
+{% endhighlight %}
 
 where `WIKTIONARY_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
 

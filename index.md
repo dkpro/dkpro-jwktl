@@ -4,7 +4,7 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: page-fullwidth
+layout: frontpage-fullwidth
 title: "DKPro JWKTL"
 #header:
 #	title: DKPro Core
