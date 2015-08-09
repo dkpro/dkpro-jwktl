@@ -126,8 +126,8 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		w.processBody("* {{audio|en-uk-dictionary.ogg|Audio (UK)}}", null);
 
 		w.processBody("* {{IPA|/fɹiː/}}, {{SAMPA|/fri:/}}", null);
-		w.processBody("* {{audio|en-us-free.ogg|Audio (US)}}", null);
-		w.processBody("* {{audio|En-uk-free.ogg|Audio (UK)}}", null);
+		w.processBody("* {{audio|en-us-free.ogg|Audio (US)|lang=en}}", null);
+		w.processBody("* {{audio|En-uk-free.ogg|Audio (UK)|lang=en}}", null);
 		w.processBody("*: {{rhymes|iː}}", null);
 
 		w.processBody("* {{a|RP}} {{IPA|/dɒɡ/}}, {{SAMPA|/dQg/}}", null);
