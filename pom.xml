@@ -219,6 +219,7 @@
                     <exclude>license/**/*</exclude>
                     <exclude>src/main/resources/**/*</exclude>
                     <exclude>src/test/resources/**/*</exclude>
+                    <exclude>.travis.yml</exclude>
                   </excludes>
                 </configuration>
               </execution>
