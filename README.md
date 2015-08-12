@@ -1,3 +1,7 @@
+JWKTL
+-----
+[![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
+
 Summary
 -------
 
