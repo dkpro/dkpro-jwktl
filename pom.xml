@@ -208,9 +208,19 @@
                   <goal>check</goal>
                 </goals>
                 <configuration>
-                  <includes>
-                      <include>**/*.java</include>
-                  </includes>
+                  <excludes>
+                      <!-- maven config files -->
+                      <exclude>src/main/filter/**/*</exclude>
+                      <!-- release generated artifact -->
+                      <exclude>release.properties</exclude>
+                      <exclude>CHANGELOG.txt</exclude>
+                      <exclude>NOTICE.txt</exclude>
+                      <exclude>README.md</exclude>
+                      <exclude>license/**/*</exclude>
+                      <exclude>src/main/resources/**/*</exclude>
+                      <exclude>src/test/resources/**/*</exclude>
+                      <exclude>.travis.yml</exclude>
+                  </excludes>
                 </configuration>
               </execution>
             </executions>
