@@ -1,0 +1,23 @@
+== Eingaben ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Deklinierte Form|Deutsch}} ===
+
+{{Worttrennung}}
+:Ein·ga·ben
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈaɪ̯nˌɡaːbən}}, {{Lautschrift|ˈaɪ̯nˌɡaːbn̩}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Grammatische Merkmale}}
+*Nominativ Plural des Substantivs '''[[Eingabe]]'''
+*Genitiv Plural des Substantivs '''[[Eingabe]]'''
+*Dativ Plural des Substantivs '''[[Eingabe]]'''
+*Akkusativ Plural des Substantivs '''[[Eingabe]]'''
+
+{{Grundformverweis Dekl|Eingabe}}
+
+[[en:Eingaben]]
+[[fi:Eingaben]]
+[[ku:Eingaben]]
+[[mg:Eingaben]]
+[[sv:Eingaben]]
