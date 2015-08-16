@@ -36,7 +36,7 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 	protected String translation;
 	protected String transliteration;
 	protected String additionalInformation;
-	protected transient String rawSense;
+	protected String rawSense;
 	
 	/** Creates a new, empty translation. */ 
 	public WiktionaryTranslation() {}
