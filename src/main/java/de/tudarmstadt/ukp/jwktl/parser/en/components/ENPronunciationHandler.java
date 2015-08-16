@@ -37,7 +37,7 @@ public class ENPronunciationHandler extends ENBlockHandler {
 	
 	protected static final Pattern PRONUNCIATION_CONTEXT = Pattern.compile("\\{\\{(?:a|sense)\\|([^\\}\\|]+?)\\}\\}");
 	protected static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{(?:IPA|SAMPA)\\|.+?\\}\\}");
-	protected static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^\\}\\|]+?)(?:\\|([^\\}\\|]+?))?\\}\\}");
+	protected static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^\\}\\|]+?)(?:\\|([^\\}\\|]+?)(?:\\|lang=[^\\}\\|]+)?)?\\}\\}");
 	protected static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|([^\\}\\|]+?)\\}\\}");
 	
 	protected List<IPronunciation> pronunciations;
