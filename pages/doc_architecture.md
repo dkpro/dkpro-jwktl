@@ -8,7 +8,8 @@ This page gives and overview on the most important classes used by JWKTL. Make s
 
 The main entry point is the `JWKTL` class, which facilitates parsing an XML dump file and accessing the parsed data. The latter should equip you with an instance of `IWiktionaryEdition`, JWKTL's representation of a single parsed Wiktionary language edition (e.g., the English Wiktionary). Using the `IWiktionaryEdition` instance, you can access the different information types encoded in Wiktionary. The following class diagram shows the most important classes in this context:
 
-[http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png? http://jwktl.googlecode.com/svn/wiki/JWKTL-overview.png]
+![JWKTL Architecture](/dkpro-jwktl/images/JWKTL-overview.png)
+
 
 Article pages
 -------------
