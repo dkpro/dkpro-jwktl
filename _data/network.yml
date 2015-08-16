@@ -2,12 +2,12 @@
 
 - name: "Users"
   url: "http://groups.google.com/group/jwktl-users"
-  class: "network-entypo"
-  title: "Users"
+  class: "services-mailinglist"
+  title: "JWKTL Users"
 
 #- name: "Developers"
 #  url: "http://groups.google.com/group/dkpro-core-developers"
-#  class: "services-newsletter"
+#  class: "services-mailinglist"
 #  title: "Developers"
 
 #- name: "Announcements"
@@ -17,5 +17,5 @@
 
 #- name: "Commits"
 #  url: "http://groups.google.com/group/dkpro-core-source"
-#  class: "sitemap-link"
+#  class: "services-mailinglist"
 #  title: "Commits"

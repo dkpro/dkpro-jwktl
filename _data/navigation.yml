@@ -1,5 +1,5 @@
 - title: DKPro
-  url: "http://dkpro.github.io"
+  url: "https://dkpro.github.io"
   side: left
 
 - title: JWKTL
@@ -22,6 +22,8 @@
     url: "/documentation/use-cases/"
   - title: "Adding new parsers"
     url: "/documentation/add-parsers/"
+  - title: "Javadoc"
+    url: "/releases/!LATEST!/apidocs/index.html"
 
 - title: "Issues"
   url: "http://github.com/dkpro/dkpro-jwktl/issues"

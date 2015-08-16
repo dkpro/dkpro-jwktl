@@ -1,3 +1,10 @@
 <aside>
 
+{% assign stable = (site.data.releases | where:"status", "stable" | first) %}
+{% if stable.version %}
+<div class="radius b20" style="text-align: center;">
+Latest release: {{ stable.version }} ({{ stable.date }})
+</div>
+{% endif %}
+
 </aside>

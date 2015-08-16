@@ -1,12 +1,12 @@
-- name: YouTube
-  url: https://www.youtube.com/channel/UCZjW4CbnWVxh5f7FMLMToBQ/feed
-  class: icon-youtube
-  title: "Tutorials for DKPro on YouTube"
+#- name: YouTube
+#  url: https://www.youtube.com/channel/UCZjW4CbnWVxh5f7FMLMToBQ/feed
+#  class: icon-youtube
+#  title: "Tutorials for DKPro on YouTube"
 
-- name: Twitter
-  url: https://twitter.com/dkprocore
-  class: icon-twitter
-  title: "Twitter: @dkprocore"
+#- name: Twitter
+#  url: https://twitter.com/dkprocore
+#  class: icon-twitter
+#  title: "Twitter: @dkprocore"
 
 #- name: Facebook
 #  url: http://www.facebook.com/phlow.media
@@ -19,7 +19,7 @@
 #  title: "Sounds und Downloads und mehr"
 
 - name: GitHub
-  url: http://github.com/dkpro-core
+  url: https://github.com/dkpro-jwktl
   class: icon-github
   title: "All our code"
 
