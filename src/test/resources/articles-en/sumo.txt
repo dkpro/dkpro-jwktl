@@ -1,0 +1,50 @@
+==Portuguese==
+
+===Pronunciation===
+* {{a|PT}} {{IPA|/ˈsu.mu/|lang=pt}}
+
+===Etymology 1===
+From {{etyl|la|pt}} ''[[summus]]''.
+
+====Adjective====
+{{pt-adj|sum|o}}
+
+# [[highest]], [[greatest]].
+
+====Noun====
+{{pt-noun|m|s}}
+
+# [[summit]], [[top]].
+
+===Etymology 2===
+[[Image:Orange juice 1 edit1.jpg|thumb|150px|sumo]]
+From {{etyl|roa-opt|pt}} {{term|çumo|lang=roa-opt}}, from {{etyl|ar|pt}} {{term|زُوم|lang=ar||juice, sap}}, from {{etyl|grc|pt}} {{term|ζωμός|lang=grc}}. Cognate of Galician {{term|zume|lang=gl}} and Spanish {{term|zumo|lang=es}}.
+
+====Noun====
+{{pt-noun|m|s}}
+
+# {{context|Portugal|lang=pt}} [[juice]].
+
+=====Synonyms=====
+* [[suco]] {{qualifier|Brasil}}
+
+===Etymology 3===
+[[Image:Bulgarian-sumists.jpg|thumb|150px|sumo]]
+From {{etyl|ja|pt}} {{term|相撲|tr=sumō|lang=ja}} ''to mutually rush at''.
+
+====Alternative forms====
+* {{qualifier|Brazil}} [[sumô]]
+
+====Noun====
+{{pt-noun|m|-}}
+
+# {{context|martial arts|Portugal|lang=pt}} {{l|en|sumo}}.
+
+===Etymology 4===
+
+====Verb====
+{{pt-verb-form}}
+
+# {{inflection of|sumir||1|s|pres|indc|lang=pt}}
+
+----

@@ -23,6 +23,7 @@ import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
+import static org.junit.Assert.assertNotEquals;
 /**
  * Test case for {@link ENEtymologyHandler}.
  * @author Christian M. Meyer
@@ -84,5 +85,22 @@ public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
 
 		final IWiktionaryEntry entry2 = page.getEntry(2);
 		assertNull(entry2.getWordEtymology());
+	}
+
+	public void testSumo() throws Exception {
+		// 5 entries with 4 different etymologies, last entry has empty one
+		IWiktionaryPage page = parse("sumo.txt");
+		assertEquals(5, page.getEntryCount());
+		// adj, noun
+		assertNotNull(page.getEntry(0).getWordEtymology());
+		assertEquals(page.getEntry(1).getWordEtymology(), page.getEntry(0).getWordEtymology());
+		// noun
+		assertNotNull(page.getEntry(2).getWordEtymology());
+		assertNotEquals(page.getEntry(2).getWordEtymology(), page.getEntry(1).getWordEtymology());
+		// noun
+		assertNotNull(page.getEntry(3).getWordEtymology());
+		assertNotEquals(page.getEntry(3).getWordEtymology(), page.getEntry(2).getWordEtymology());
+		// verb, no etymology set
+		assertNull(page.getEntry(4).getWordEtymology());
 	}
 }

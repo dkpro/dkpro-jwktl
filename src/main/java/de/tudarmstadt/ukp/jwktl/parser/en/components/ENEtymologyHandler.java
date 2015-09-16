@@ -57,6 +57,8 @@ public class ENEtymologyHandler extends ENBlockHandler {
 	public void fillContent(final ParsingContext context) {
 		if (!contentBuffer.toString().trim().isEmpty()) {
 			context.setEtymology(new WikiString(contentBuffer.toString()));
+		} else {
+			context.setEtymology(null);
 		}
 	}
 }
