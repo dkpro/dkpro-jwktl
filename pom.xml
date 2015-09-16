@@ -229,4 +229,8 @@
       </build>
     </profile>
   </profiles>
+  <issueManagement>
+  	<url>https://github.com/dkpro/dkpro-jwktl/issues</url>
+  	<system>GitHub</system>
+  </issueManagement>
 </project>
