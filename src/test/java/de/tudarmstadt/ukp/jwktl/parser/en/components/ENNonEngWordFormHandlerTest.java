@@ -18,7 +18,6 @@
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
-import de.tudarmstadt.ukp.jwktl.parser.en.components.ENNonEngWordFormHandler;
 import junit.framework.TestCase;
 
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.FEMININE;
@@ -50,6 +49,18 @@ public class ENNonEngWordFormHandlerTest extends TestCase {
 	public void testHandlePtNounWithTwoGenders() {
 		assertGender(MASCULINE, "{{pt-noun|mf|s}}");
 		// TODO: need to change data model to reflect nouns having more than one gender
+	}
+
+	public void testHandleLaNounMasculine() {
+		assertGender(MASCULINE, "{{la-noun|fīlius|filii|fīliī|m|second}}");
+	}
+
+	public void testHandleLaNounFeminine() {
+		assertGender(FEMININE, "{{la-noun|casa|casae|casae|f|first}}");
+	}
+
+	public void testHandleLaNounNeutrum() {
+		assertGender(NEUTER, "{{la-noun|vīnum|vini|vīnī|n|second}}");
 	}
 
 	public void testHandleHead() {

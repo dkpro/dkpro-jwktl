@@ -57,7 +57,9 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 
 	@Override
 	public String handle(Template template) {
-		if (template.getName().endsWith("-noun")) {
+		if (template.getName().equals("la-noun"))  {
+			handleLatinNounTemplate(template);
+		} else if (template.getName().endsWith("-noun")) {
 			handleGenericNounTemplate(template);
 		} else if (template.getName().equals("g")) {
 			handleGenericNounTemplate(template);
@@ -83,6 +85,13 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 	private void handleHeadwordTemplate(Template template) {
 		final String genderParam = template.getNamedParam("g");
 		gender = extractGender(genderParam);
+	}
+
+	// la-noun: {{la-noun|casa|casae|casae|f|first}}
+	private void handleLatinNounTemplate(Template template) {
+		if (template.getNumberedParamsCount() >= 4) {
+			gender = extractGender(template.getNumberedParam(3));
+		}
 	}
 
 	private static GrammaticalGender extractGender(String genderParam) {
