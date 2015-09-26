@@ -68,7 +68,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 	}
 
 	protected void handleNounTemplate(final Template template) {
-		boolean hasPlural = false;
+		boolean hasPlural = false, addAll = false;
 		for (Entry<String, String> par : template.getNamedParams())
 			if (par.getKey().startsWith("pl")) {
 				wordForms.add(createPlural(null, par.getValue()));
@@ -84,6 +84,9 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param1 = template.getNumberedParam(0);
 			if ("-".equals(param1))
 				wordForms.add(createPlural(null, null)); // uncountable
+			else
+			if ("~".equals(param1))
+				wordForms.add(createPlural(lemma, "s")); // countable and uncountable
 			else
 			if ("!".equals(param1))
 				logger.finer("Not attested word form: " + template); // not attested
@@ -111,7 +114,22 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			if ("?".equals(param2))
 				wordForms.add(createPlural(lemma, param1)); // unknown
 			else
+			if ("ies".equals(param2))
 				wordForms.add(createPlural(null, param1 + param2)); // unknown
+			else
+				addAll = true;
+		}
+		if (addAll || template.getNumberedParamsCount() > 2) {
+			int len = template.getNumberedParamsCount();
+			for(int i = 0; i < len; i++) {
+				String param = template.getNumberedParam(i);
+				if (param == null || "~".equals(param))
+					continue;
+				if ("s".equals(param) || "es".equals(param))
+					wordForms.add(createPlural(lemma, param));
+				else
+					wordForms.add(createPlural(null, param));
+			}
 		}
 	}
 
@@ -156,6 +174,26 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			wordForms.add(createFormPresentParticiple(lemma + "ing"));
 			wordForms.add(createFormSimplePast(lemma + "ed"));
 			wordForms.add(createFormPastParticiple(lemma + "ed"));
+		} else
+		if (template.getNumberedParamsCount() == 1) {
+			String param1 = template.getNumberedParam(0);
+			if ("d".equals(param1)) {
+				wordForms.add(createFormThirdPerson(lemma + "s"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(lemma + "d"));
+				wordForms.add(createFormPastParticiple(lemma + "d"));
+			} else
+			if ("es".equals(param1)) {
+				wordForms.add(createFormThirdPerson(lemma + "es"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(lemma + "ed"));
+				wordForms.add(createFormPastParticiple(lemma + "ed"));
+			} else {
+				wordForms.add(createFormThirdPerson(lemma + "s"));
+				wordForms.add(createFormPresentParticiple(param1 + "ing"));
+				wordForms.add(createFormSimplePast(param1 + "ed"));
+				wordForms.add(createFormPastParticiple(param1 + "ed"));
+			}
 		} else
 		if (template.getNumberedParamsCount() == 2) {
 			String param1 = template.getNumberedParam(0);
@@ -228,6 +266,20 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			wordForms.add(createFormPresentParticiple(param2));
 			wordForms.add(createFormSimplePast(param3));
 			wordForms.add(createFormPastParticiple(param4));
+		}
+		for (Entry<String, String> par : template.getNamedParams()) {
+			if (par.getKey().startsWith("pres"))
+				wordForms.add(createFormPresentParticiple(par.getValue()));
+			else
+			if (par.getKey().equals("past2")) {
+				int len = template.getNumberedParamsCount();
+				if (len == 3) {
+					wordForms.add(createFormSimplePast(par.getValue()));
+					wordForms.add(createFormPastParticiple(par.getValue()));
+				} else {
+					wordForms.add(createFormSimplePast(par.getValue()));
+				}
+			}
 		}
 	}
 
