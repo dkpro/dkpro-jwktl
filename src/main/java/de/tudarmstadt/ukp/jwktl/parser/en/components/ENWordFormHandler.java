@@ -166,6 +166,12 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				wordForms.add(createFormSimplePast(param1 + "ed"));
 				wordForms.add(createFormPastParticiple(param1 + "ed"));
 			} else
+			if ("ies".equals(param2)) {
+				wordForms.add(createFormThirdPerson(param1 + "ies"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(param1 + "ied"));
+				wordForms.add(createFormPastParticiple(param1 + "ied"));
+			} else
 			if ("d".equals(param2)) {
 				wordForms.add(createFormThirdPerson(param1 + "s"));
 				wordForms.add(createFormPresentParticiple(param1 + "ing"));
