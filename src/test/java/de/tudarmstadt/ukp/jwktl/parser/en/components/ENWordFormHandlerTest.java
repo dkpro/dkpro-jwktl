@@ -134,6 +134,17 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		actualIter =  handler.getWordForms().iterator();
 		assertWordFormNoun("chainmen", GrammaticalNumber.PLURAL, actualIter.next());		
 		assertFalse(actualIter.hasNext());		
+		handler = new ENWordFormHandler("carry");
+		handler.parse("{{en-noun|carr|ies}}");
+		actualIter =  handler.getWordForms().iterator();
+		assertWordFormNoun("carries", GrammaticalNumber.PLURAL, actualIter.next());		
+		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("craft");
+		handler.parse("{{en-noun|~|craft|crafts}}");
+		actualIter =  handler.getWordForms().iterator();
+		assertWordFormNoun("craft", GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("crafts", GrammaticalNumber.PLURAL, actualIter.next());		
+		assertFalse(actualIter.hasNext());
 	}
 
 	/***/
@@ -285,6 +296,42 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		assertWordFormVerb(null, null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
 		assertWordFormVerb("could", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
 		assertWordFormVerb(null, null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("dictionary");
+		handler.parse("{{en-verb|dictionar|ies}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormVerb("dictionaries", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, null, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("dictionarying", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("dictionaried", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("dictionaried", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("ill");
+		handler.parse("{{en-verb|ills|illing|pres_ptc2=illin'|illed}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormVerb("ills", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, null, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("illing", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("illed", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("illed", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("illin'", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("blend");
+		handler.parse("{{en-verb|blends|blending|blended|past2=blent|past2_qual=poetic}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormVerb("blends", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, null, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("blending", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("blended", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("blended", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("blent", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("blent", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("crow");
+		handler.parse("{{en-verb|crows|crowing|crowed|past2=crew|past2_qual=UK|crowed}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormVerb("crows", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, null, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("crowing", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("crowed", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("crowed", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("crew", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
 
