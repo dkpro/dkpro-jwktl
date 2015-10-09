@@ -439,6 +439,15 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		assertWordFormAdjective(null, GrammaticalDegree.COMPARATIVE, actualIter.next());
 		assertWordFormAdjective(null, GrammaticalDegree.SUPERLATIVE, actualIter.next());
 		assertFalse(actualIter.hasNext());
+
+		handler = new ENWordFormHandler("free");
+		handler.parse("{{en-adj|er}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormAdjective("free", GrammaticalDegree.POSITIVE, actualIter.next());
+		assertWordFormAdjective("freer", GrammaticalDegree.COMPARATIVE, actualIter.next());
+		assertWordFormAdjective("freest", GrammaticalDegree.SUPERLATIVE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+
 	}
 	
 	/***/

@@ -283,6 +283,11 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 		}
 	}
 
+	// remove the ending letter 'e' if exists
+	private String removeEndingE(String str) {
+		return str.endsWith("e") ? str.substring(0, str.length()-1) : str;
+	}
+
 	protected void handleAdjectiveTemplate(final Template template) {
 		// http://en.wiktionary.org/wiki/Template:en-adj
 		if (template.getNumberedParamsCount() == 0) {
@@ -294,8 +299,8 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param1 = template.getNumberedParam(0);
 			if ("er".equals(param1)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("-".equals(param1)) { // not comparable
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
@@ -315,14 +320,14 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param2 = template.getNumberedParam(1);
 			if ("er".equals(param2)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(param1 + "er", GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(param1 + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(param1) + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(param1) + "est", GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("er".equals(param1) && "more".equals(param2)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
 				wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 				wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("-".equals(param1)) { // not generally comparable
@@ -345,14 +350,14 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			if ("-".equals(param1)) {
 				if ("er".equals(param3)) {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-					wordForms.add(createAdjectiveForm(param2 + "er", GrammaticalDegree.COMPARATIVE));
-					wordForms.add(createAdjectiveForm(param2 + "est", GrammaticalDegree.SUPERLATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(param2) + "er", GrammaticalDegree.COMPARATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(param2) + "est", GrammaticalDegree.SUPERLATIVE));
 				} else
 				if ("er".equals(param2) && "more".equals(param3)) {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-					wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
 					wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
-					wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 					wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 				} else {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
