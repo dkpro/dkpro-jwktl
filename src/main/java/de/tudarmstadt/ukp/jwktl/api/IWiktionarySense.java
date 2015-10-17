@@ -78,7 +78,7 @@ public interface IWiktionarySense {
 	
 	/** Returns a list of sense examples or <code>null</code> if no sense 
 	 *  examples are encoded. */
-	List<IWikiString> getExamples();
+	List<IWiktionaryExample> getExamples();
 	
 	/** Returns a list of quotations or <code>null</code> if no 
 	 *  quotations are encoded. */

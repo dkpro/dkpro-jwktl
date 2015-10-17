@@ -20,9 +20,10 @@ package de.tudarmstadt.ukp.jwktl.parser.de.components;
 import java.util.ArrayList;
 import java.util.List;
 
-import de.tudarmstadt.ukp.jwktl.api.IWikiString;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
@@ -31,7 +32,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
  * @author Christian M. Meyer
  * @author Lizhen Qu
  */
-public class DESenseExampleHandler extends DESenseIndexedBlockHandler<IWikiString> {
+public class DESenseExampleHandler extends DESenseIndexedBlockHandler<IWiktionaryExample> {
 
 	/** Initializes the block handler for parsing all sections starting with 
 	 *  one of the specified labels. */
@@ -39,24 +40,25 @@ public class DESenseExampleHandler extends DESenseIndexedBlockHandler<IWikiStrin
 		super("Beispiele");
 	}
 	
-	protected List<IWikiString> extract(int index, final String text) {
+
+	protected List<IWiktionaryExample> extract(int index, final String text) {
 		String example = text;
 		example = example.replace('\n', ' ');
 		example = StringUtils.removeReferences(example);
 		example = example.trim();
 		if (example.isEmpty())
 			return null;
-		
-		List<IWikiString> result = new ArrayList<IWikiString>();
-		result.add(new WikiString(example));
+
+		List<IWiktionaryExample> result = new ArrayList<IWiktionaryExample>();
+		result.add(new WiktionaryExample(new WikiString(example)));
 		return result;
 	}
 
-	protected void updateSense(final WiktionarySense sense, final IWikiString example) {
+	protected void updateSense(final WiktionarySense sense, final IWiktionaryExample example) {
 		sense.addExample(example);
 	}
 
-	protected void updatePosEntry(final WiktionaryEntry posEntry, final IWikiString example) {
+	protected void updatePosEntry(final WiktionaryEntry posEntry, final IWiktionaryExample example) {
 		posEntry.getUnassignedSense().addExample(example);
 	}
 	

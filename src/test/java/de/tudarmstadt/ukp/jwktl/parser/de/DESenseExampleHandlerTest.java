@@ -19,8 +19,8 @@ package de.tudarmstadt.ukp.jwktl.parser.de;
 
 import java.util.Iterator;
 
-import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DESenseExampleHandler;
 
@@ -29,12 +29,12 @@ import de.tudarmstadt.ukp.jwktl.parser.de.components.DESenseExampleHandler;
  * @author Christian M. Meyer
  */
 public class DESenseExampleHandlerTest extends DEWiktionaryEntryParserTest {
-	
+
 	/***/
 	public void testRuettelstreifen() throws Exception {
 		IWiktionaryPage page = parse("Ruettelstreifen.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Iterator<IWikiString> exampleIter = entry.getSense(1).getExamples().iterator();
+		Iterator<IWiktionaryExample> exampleIter = entry.getSense(1).getExamples().iterator();
 		assertEquals("„Eine wirksame Maßnahme die Verkehrssicherheit zu steigern, sind z.B.: profilierte Fahrbahnmarkierungen oder ''Rüttelstreifen'' auf der Standspur.“", exampleIter.next().getText());
 		assertEquals("„''Rüttelstreifen'' am Fahrbahnrand von Autobahnen können die Zahl übermüdungsbedingter Verkehrsunfälle deutlich reduzieren.“", exampleIter.next().getText());
 		assertEquals("„Schwere Autobahn-Unfälle können mit Hilfe von sogenannten ''Rüttelstreifen'' deutlich verringert werden.“", exampleIter.next().getText());

@@ -18,7 +18,9 @@
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
@@ -36,6 +38,8 @@ public class EnGlossEntry {
 	private String definition = "";
 	// a list of examples
 	private List<String> exampleList = new ArrayList<String>();
+	private Map<String, String> exampleTranslations = new HashMap<String, String>();
+
 	// a list of quotation
 	private List<Quotation> quotationList = new ArrayList<Quotation>();
 	
@@ -46,6 +50,11 @@ public class EnGlossEntry {
 	/** Returns the list of example sentences. */
 	public List<String> getExampleList() {
 		return exampleList;
+	}
+
+	/** Returns the translation for the given example, or null. */
+	public String getExampleTranslation(String example) {
+		return exampleTranslations.get(example);
 	}
 
 	/** Add the specified example sentence to the list. */
@@ -64,6 +73,12 @@ public class EnGlossEntry {
 		exampleList.set(idx, example.trim());
 	}
 	
+
+	public void appendExampleTranslation(String translation) {
+		if (exampleList.size() > 0) {
+			exampleTranslations.put(exampleList.get(exampleList.size() - 1), translation);
+		}
+	}
 	/** Add specified quotation to the list. */
 	public void addQuotation(Quotation quotation){
 		quotationList.add(quotation);

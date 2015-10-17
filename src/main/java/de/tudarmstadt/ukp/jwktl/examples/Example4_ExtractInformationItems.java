@@ -24,6 +24,7 @@ import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
@@ -53,8 +54,8 @@ public class Example4_ExtractInformationItems {
 	  entry = page.getEntry(0);
 	  sense = entry.getSense(1);
 	  if (sense.getExamples() != null)
-	  	for (IWikiString example : sense.getExamples())
-	  		System.out.println(example.getText());
+	  	for (IWiktionaryExample example : sense.getExamples())
+			System.out.println(example.getText());
 	  
 	  // Quotations.
 	  page = wkt.getPageForWord("boat");

@@ -187,12 +187,13 @@ public interface IWiktionaryEntry {
 	List<IWikiString> getGlosses();
 	
 	/** Returns a list containing all sense definitions of the entry's senses 
+	/** Returns a list containing all examples of the entry's senses
 	 *  (including the unassigned sense). Hence, the method is a shorthand
-	 *  for invoking {@link IWiktionarySense#getExamples()} for each sense. 
+	 *  for invoking {@link IWiktionarySense#getExamples()} for each sense.
 	 *  The list is never <code>null</code> but might be empty. */
-	List<IWikiString> getExamples();
-	
-	/** Returns a list containing all quotations of the entry's senses 
+	List<IWiktionaryExample> getExamples();
+
+	/** Returns a list containing all quotations of the entry's senses
 	 *  (including the unassigned sense). Hence, the method is a shorthand
 	 *  for invoking {@link IWiktionarySense#getQuotations()} for each sense. 
 	 *  The list is never <code>null</code> but might be empty. */

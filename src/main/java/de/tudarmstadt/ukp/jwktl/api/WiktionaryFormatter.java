@@ -149,7 +149,7 @@ public class WiktionaryFormatter {
 					.append(sense.getGloss().getText()).append("\n");
 				
 		if (sense.getExamples() != null)
-			for (IWikiString ws : sense.getExamples())
+			for (IWiktionaryExample ws : sense.getExamples())
 				result.append("  EXP [").append(senseIdx).append("] ")
 						.append(ws.getText()).append("\n");
 				

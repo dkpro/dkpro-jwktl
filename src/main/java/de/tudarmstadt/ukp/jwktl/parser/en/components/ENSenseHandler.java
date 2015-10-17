@@ -28,6 +28,7 @@ import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
@@ -219,8 +220,10 @@ public class ENSenseHandler extends ENBlockHandler {
 		for (EnGlossEntry senseEntry : glossEntryList){
 			WiktionarySense sense = entry.createSense();
 			sense.setGloss(new WikiString(senseEntry.getDefinition()));
-			for (String exp : senseEntry.getExampleList())
-				sense.addExample(new WikiString(exp));
+			for (String exp : senseEntry.getExampleList()) {
+				String translation = senseEntry.getExampleTranslation(exp);
+				sense.addExample(new WiktionaryExample(new WikiString(exp), translation == null ? null : new WikiString(translation)));
+			}
 			for(Quotation quotation : senseEntry.getQuotations())
 				sense.addQuotation(quotation);
 			entry.addSense(sense);
@@ -243,7 +246,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			if (additionalLine) {
 				glossEntry.appendExample(example, " ");
 			} else if (translatedExample) {
-				glossEntry.appendExample(example, " – ");
+				glossEntry.appendExampleTranslation(example);
 			} else {
 				glossEntry.addExample(example);
 			}

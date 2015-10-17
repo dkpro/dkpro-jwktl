@@ -25,6 +25,7 @@ import com.sleepycat.persist.model.Persistent;
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
@@ -47,7 +48,7 @@ public class WiktionarySense implements IWiktionarySense {
 	protected long entryId;
 		
 	protected IWikiString gloss;
-	protected List<IWikiString> examples;
+	protected List<IWiktionaryExample> examples;
 	protected List<IQuotation> quotations;
 	protected List<IWikiString> references;
 	protected List<IWiktionaryRelation> relations;
@@ -119,13 +120,13 @@ public class WiktionarySense implements IWiktionarySense {
 	}
 
 	/** Add the given example to this sense. */
-	public void addExample(final IWikiString example) {
+	public void addExample(final IWiktionaryExample example) {
 		if (examples == null)
-			examples = new ArrayList<IWikiString>();
+			examples = new ArrayList<IWiktionaryExample>();
 		examples.add(example);
 	}
 
-	public List<IWikiString> getExamples() {
+	public List<IWiktionaryExample> getExamples() {
 		return examples;
 	}
 	

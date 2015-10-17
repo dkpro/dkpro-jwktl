@@ -25,6 +25,7 @@ import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
@@ -293,11 +294,11 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		}
 		return result;
 	}
-	
-	public List<IWikiString> getExamples() {
-		List<IWikiString> result = new ArrayList<IWikiString>();
+
+	public List<IWiktionaryExample> getExamples() {
+		List<IWiktionaryExample> result = new ArrayList<IWiktionaryExample>();
 		for (IWiktionarySense sense : getSenses(true)) {
-			List<IWikiString> examples = sense.getExamples();
+			List<IWiktionaryExample> examples = sense.getExamples();
 			if (examples != null)
 				result.addAll(examples);
 		}
@@ -343,7 +344,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		}
 		return result;
 	}
-	
+
 	public List<IWiktionaryTranslation> getTranslations() {
 		List<IWiktionaryTranslation> result = new ArrayList<IWiktionaryTranslation>();
 		for (IWiktionarySense sense : getSenses(true)) {
