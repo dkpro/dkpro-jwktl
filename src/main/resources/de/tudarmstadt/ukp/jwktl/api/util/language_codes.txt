@@ -1161,7 +1161,7 @@ caf	Southern Carrier	caf
 cag	Nivaclé	cag					
 cah	Cahuarano	cah					
 caj	Chané	caj					
-cak	Kaqchikel	cak					
+cak	Kaqchikel	cak					Cakchiquel
 cal	Carolinian	cal					
 cam	Cemuhî	cam					
 can	Chambri	can					
@@ -1583,7 +1583,7 @@ dic	Lakota Dida	dic
 did	Didinga	did					
 dif	Dieri	dif					
 dig	Digo	dig					
-dih	Kumiai	dih					
+dih	Kumiai	dih					Tipai;Tiipai
 dii	Dimbong	dii					
 dij	Dai	dij					
 dik	Southwestern Dinka	dik					
@@ -1823,7 +1823,7 @@ end	Ende	end
 enf	Forest Enets	enf					
 eng	English	eng	eng	eng	en	en	Englisch;anglais
 enh	Tundra Enets	enh					
-enm	Middle English	enm	enm	enm			English, Middle (1100-1500);Middle English (1100-1500);anglais moyen (1100-1500)
+enm	Middle English	enm	enm	enm			English, Middle (1100-1500);Middle English (1100-1500);anglais moyen (1100-1500);Mittelenglisch
 enn	Engenni	enn					
 eno	Enggano	eno					
 enq	Enga	enq					
@@ -1939,7 +1939,7 @@ frc	Cajun French	frc
 frd	Fordata	frd					
 frk	Frankish	frk					
 frm	Middle French	frm	frm	frm			français moyen (1400-1600);French, Middle (ca.1400-1600);Middle French (ca. 1400-1600)
-fro	Old French	fro	fro	fro			français ancien (842-ca.1400);Old French (842-ca. 1400);French, Old (842-ca.1400)
+fro	Old French	fro	fro	fro			français ancien (842-ca.1400);Old French (842-ca. 1400);French, Old (842-ca.1400);Altfranzösisch
 frp	Arpitan	frp					Franko-Provenzalisch;Arpitanisch
 frq	Forak	frq					
 frr	Northern Frisian	frr	frr	frr			frison septentrional
@@ -2317,7 +2317,7 @@ has	Haisla	has
 hat	Haitian	hat	hat	hat	ht	ht	créole haïtien;Haitian Creole;Haitianisch;Haitisch;haïtien
 hau	Hausa	hau	hau	hau	ha	ha	haoussa
 hav	Havu	hav					
-haw	Hawaiian	haw	haw	haw			Hawaianisch;Hawaiisch;hawaïen
+haw	Hawaiian	haw	haw	haw			Hawaiianisch;Hawaiisch;hawaïen
 hax	Southern Haida	hax					
 hay	Haya	hay					
 haz	Hazaragi	haz					
@@ -2465,7 +2465,7 @@ huo	Hu	huo
 hup	Hupa	hup	hup	hup			hupa
 huq	Tsat	huq					
 hur	Halkomelem	hur					
-hus	Huastec	hus					
+hus	Huastec	hus					Huastekisch
 hut	Humla	hut					
 huu	Murui Huitoto	huu					
 huv	San Mateo Del Mar Huave	huv					
@@ -3059,7 +3059,7 @@ kkw	Teke-Kukuya	kkw
 kkx	Kohin	kkx					
 kky	Guguyimidjir	kky					Guugu Yimidhirr
 kkz	Kaska	kkz					
-kla	Klamath-Modoc	kla					
+kla	Klamath-Modoc	kla					Klamath
 klb	Kiliwa	klb					
 klc	Kolbila	klc					
 kld	Gamilaraay	kld					
@@ -3726,7 +3726,7 @@ lss	Lasi	lss
 lst	Trinidad and Tobago Sign Language	lst					
 lsy	Mauritian Sign Language	lsy					
 ltc	Late Middle Chinese	ltc					
-ltg	Latgalian	ltg					
+ltg	Latgalian	ltg					Lettgallisch
 lti	Leti (Indonesia)	lti					
 ltn	Latundê	ltn					
 lto	Tsotso	lto					
@@ -4158,7 +4158,7 @@ mpi	Mpade	mpi
 mpj	Martu Wangka	mpj					
 mpk	Mbara (Chad)	mpk					
 mpl	Middle Watut	mpl					
-mpm	Yosondúa Mixtec	mpm					
+mpm	Yosondúa Mixtec	mpm					Yosondúa-Mixtekisch
 mpn	Mindiri	mpn					
 mpo	Miu	mpo					
 mpp	Migabac	mpp					
@@ -4477,7 +4477,7 @@ nce	Yale	nce
 ncf	Notsi	ncf					
 ncg	Nisga'a	ncg					
 nch	Central Huasteca Nahuatl	nch					
-nci	Classical Nahuatl	nci					
+nci	Classical Nahuatl	nci					Klassisches Nahuatl
 ncj	Northern Puebla Nahuatl	ncj					
 nck	Nakara	nck					
 ncl	Michoacán Nahuatl	ncl					
@@ -4509,7 +4509,7 @@ ndo	Ndonga	ndo	ndo	ndo	ng	ng	ndonga
 ndp	Ndo	ndp					
 ndq	Ndombe	ndq					
 ndr	Ndoola	ndr					
-nds	Low German	nds	nds	nds			bas allemand;Saxon, Low;allemand, bas;German, Low;Dutch Low Saxon;saxon, bas;Low Saxon;bas saxon;Plattdeutsch;Niedersächsisch
+nds	Low German	nds	nds	nds			bas allemand;Saxon, Low;allemand, bas;German, Low;Dutch Low Saxon;saxon, bas;Low Saxon;bas saxon;Plattdeutsch;Niedersächsisch;Niederdeutsch
 ndt	Ndunga	ndt					
 ndu	Dugun	ndu					
 ndv	Ndut	ndv					
@@ -4578,19 +4578,19 @@ nhc	Tabasco Nahuatl	nhc
 nhd	Chiripá	nhd					
 nhe	Eastern Huasteca Nahuatl	nhe					
 nhf	Nhuwala	nhf					
-nhg	Tetelcingo Nahuatl	nhg					
+nhg	Tetelcingo Nahuatl	nhg					Tetelcingo-Nahuatl
 nhh	Nahari	nhh					
 nhi	Zacatlán-Ahuacatlán-Tepetzintla Nahuatl	nhi					
 nhk	Isthmus-Cosoleacaque Nahuatl	nhk					
 nhm	Morelos Nahuatl	nhm					
-nhn	Central Nahuatl	nhn					
+nhn	Central Nahuatl	nhn					Zentral-Nahuatl
 nho	Takuu	nho					
 nhp	Isthmus-Pajapan Nahuatl	nhp					
 nhq	Huaxcaleca Nahuatl	nhq					
 nhr	Naro	nhr					
 nht	Ometepec Nahuatl	nht					
 nhu	Noone	nhu					
-nhv	Temascaltepec Nahuatl	nhv					
+nhv	Temascaltepec Nahuatl	nhv					Temascaltepec-Nahuatl
 nhw	Western Huasteca Nahuatl	nhw					
 nhx	Isthmus-Mecayapan Nahuatl	nhx					
 nhy	Northern Oaxaca Nahuatl	nhy					
@@ -4672,7 +4672,7 @@ nll	Nihali	nll
 nlo	Ngul	nlo					
 nlr	Ngarla	nlr					
 nlu	Nchumbulu	nlu					
-nlv	Orizaba Nahuatl	nlv					
+nlv	Orizaba Nahuatl	nlv					Orizaba-Nahuatl
 nlx	Nahali	nlx					
 nly	Nyamal	nly					
 nlz	Nalögo	nlz					
@@ -5046,7 +5046,7 @@ osx	Old Saxon	osx
 ota	Ottoman Turkish	ota	ota	ota			Turkish, Ottoman (1500-1928);turc ottoman (1500-1928);Ottoman Turkish (1500-1928)
 otb	Old Tibetan	otb					
 otd	Ot Danum	otd					
-ote	Mezquital Otomi	ote					
+ote	Mezquital Otomi	ote					Mezquital-Otomi
 oti	Oti	oti					
 otk	Old Turkish	otk					
 otl	Tilapa Otomi	otl					
@@ -5085,7 +5085,7 @@ pai	Pe	pai
 pak	Parakanã	pak					
 pal	Pahlavi	pal	pal	pal			pahlavi
 pam	Pampanga	pam	pam	pam			Pampangan;Pampango;Kapampangan;pampangan
-pan	Panjabi	pan	pan	pan	pa	pa	pendjabi;Punjabi;Pandschabisch/Pundjabisch
+pan	Panjabi	pan	pan	pan	pa	pa	pendjabi;Punjabi;Pandschabisch/Pundjabisch;Pandschabi
 pao	Northern Paiute	pao					
 pap	Papiamento	pap	pap	pap			papiamento;Papiamentu
 paq	Parya	paq					
@@ -5261,7 +5261,7 @@ pmn	Pam	pmn
 pmo	Pom	pmo					
 pmq	Northern Pame	pmq					
 pmr	Paynamar	pmr					
-pms	Piemontese	pms					Piemontisch;Piedmontese
+pms	Piemontese	pms					Piemontisch;Piedmontese;Piemontesisch
 pmt	Tuamotuan	pmt					
 pmu	Mirpur Panjabi	pmu					
 pmw	Plains Miwok	pmw					
@@ -5974,7 +5974,7 @@ sps	Saposa	sps
 spt	Spiti Bhoti	spt					
 spu	Sapuan	spu					
 spv	Sambalpuri	spv					
-spx	South Picene	spx					
+spx	South Picene	spx					Südpikenisch
 spy	Sabaot	spy					
 sqa	Shama-Sambuga	sqa					
 sqh	Shau	sqh					
@@ -6163,7 +6163,7 @@ tan	Tangale	tan
 tao	Yami	tao					
 tap	Taabwa	tap					
 taq	Tamasheq	taq					
-tar	Central Tarahumara	tar					
+tar	Central Tarahumara	tar					Zentral-Tarahumara
 tas	Tay Boi	tas					
 tat	Tatar	tat	tat	tat	tt	tt	tatar;Tatarisch
 tau	Upper Tanana	tau					
@@ -6547,7 +6547,7 @@ tsv	Tsogo	tsv
 tsw	Tsishingini	tsw					
 tsx	Mubami	tsx					
 tsy	Tebul Sign Language	tsy					
-tsz	Purepecha	tsz					
+tsz	Purepecha	tsz					Taraskisch
 tta	Tutelo	tta					
 ttb	Gaa	ttb					
 ttc	Tektiteko	ttc					
@@ -6724,7 +6724,7 @@ ulu	Uma' Lung	ulu
 ulw	Ulwa	ulw					
 uma	Umatilla	uma					
 umb	Umbundu	umb	umb	umb			umbundu
-umc	Marrucinian	umc					
+umc	Marrucinian	umc					Marrukinisch
 umd	Umbindhamu	umd					
 umg	Umbuygamu	umg					
 umi	Ukit	umi					
@@ -7338,7 +7338,7 @@ xub	Betta Kurumba	xub
 xud	Umiida	xud					
 xug	Kunigami	xug					
 xuj	Jennu Kurumba	xuj					
-xum	Umbrian	xum					
+xum	Umbrian	xum					Umbrisch
 xun	Unggarranggu	xun					
 xuo	Kuo	xuo					
 xup	Upper Umpqua	xup					
@@ -7555,7 +7555,7 @@ yta	Talu	yta
 ytl	Tanglang	ytl					
 ytp	Thopho	ytp					
 ytw	Yout Wam	ytw					
-yua	Yucateco	yua					Yucatec
+yua	Yucateco	yua					Yucatec;Yukatekisch
 yub	Yugambal	yub					
 yuc	Yuchi	yuc					
 yud	Judeo-Tripolitanian Arabic	yud					
@@ -7601,7 +7601,7 @@ zae	Yareni Zapotec	zae
 zaf	Ayoquesco Zapotec	zaf					
 zag	Zaghawa	zag					
 zah	Zangwal	zah					
-zai	Isthmus Zapotec	zai					
+zai	Isthmus Zapotec	zai					Isthmus-Zapotekisch
 zaj	Zaramo	zaj					
 zak	Zanaki	zak					
 zal	Zauzou	zal					
