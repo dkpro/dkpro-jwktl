@@ -121,14 +121,20 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 		}
 		if (addAll || template.getNumberedParamsCount() > 2) {
 			int len = template.getNumberedParamsCount();
+			boolean inserted = false;
 			for(int i = 0; i < len; i++) {
 				String param = template.getNumberedParam(i);
 				if (param == null || "~".equals(param))
 					continue;
+
 				if ("s".equals(param) || "es".equals(param))
 					wordForms.add(createPlural(lemma, param));
 				else
+				if ("".equals(param)) {
+					if (!inserted) wordForms.add(createPlural(lemma, "s"));
+				} else
 					wordForms.add(createPlural(null, param));
+				inserted = true;
 			}
 		}
 	}
@@ -251,7 +257,10 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				wordForms.add(createFormSimplePast(lemma + "d"));
 				wordForms.add(createFormPastParticiple(lemma + "d"));
 			} else {
-				wordForms.add(createFormThirdPerson(param1));
+				if ("".equals(param1))
+					wordForms.add(createFormThirdPerson(lemma + "s"));
+				else
+					wordForms.add(createFormThirdPerson(param1));
 				wordForms.add(createFormPresentParticiple(param2));
 				wordForms.add(createFormSimplePast(param3));
 				wordForms.add(createFormPastParticiple(param3));
@@ -311,7 +320,10 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				logger.finer("Unknown word form: " + template); // unknown
 			else {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(param1, GrammaticalDegree.COMPARATIVE));
+				if ("".equals(param1))
+					wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
+				else
+					wordForms.add(createAdjectiveForm(param1, GrammaticalDegree.COMPARATIVE));
 				wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 			}
 		} else

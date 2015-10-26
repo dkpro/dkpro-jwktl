@@ -145,6 +145,17 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		assertWordFormNoun("craft", GrammaticalNumber.PLURAL, actualIter.next());
 		assertWordFormNoun("crafts", GrammaticalNumber.PLURAL, actualIter.next());		
 		assertFalse(actualIter.hasNext());
+		handler = new ENWordFormHandler("coral");
+		handler.parse("{{en-noun|~|}}");
+		actualIter =  handler.getWordForms().iterator();
+		assertWordFormNoun("corals", GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
+
+		handler = new ENWordFormHandler("foetus");
+		handler.parse("{{en-noun|es|}}");
+		actualIter =  handler.getWordForms().iterator();
+		assertWordFormNoun("foetuses", GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
 	}
 
 	/***/
@@ -333,6 +344,16 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		assertWordFormVerb("crowed", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
 		assertWordFormVerb("crew", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
 		assertFalse(actualIter.hasNext());
+
+		handler = new ENWordFormHandler("vedge");
+		handler.parse("{{en-verb||vedging|vedged}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormVerb("vedges", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, null, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("vedging", null, GrammaticalTense.PRESENT, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("vedged", null, GrammaticalTense.PAST, null, null, null, null, actualIter.next());
+		assertWordFormVerb("vedged", null, GrammaticalTense.PAST, null, null, null, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+
 	}
 
 	/***/
@@ -446,6 +467,14 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 		assertWordFormAdjective("free", GrammaticalDegree.POSITIVE, actualIter.next());
 		assertWordFormAdjective("freer", GrammaticalDegree.COMPARATIVE, actualIter.next());
 		assertWordFormAdjective("freest", GrammaticalDegree.SUPERLATIVE, actualIter.next());
+		assertFalse(actualIter.hasNext());
+
+		handler = new ENWordFormHandler("truncated");
+		handler.parse("{{en-adj|}}");
+		actualIter = handler.getWordForms().iterator();
+		assertWordFormAdjective("truncated", GrammaticalDegree.POSITIVE, actualIter.next());
+		assertWordFormAdjective("more truncated", GrammaticalDegree.COMPARATIVE, actualIter.next());
+		assertWordFormAdjective("most truncated", GrammaticalDegree.SUPERLATIVE, actualIter.next());
 		assertFalse(actualIter.hasNext());
 
 	}
