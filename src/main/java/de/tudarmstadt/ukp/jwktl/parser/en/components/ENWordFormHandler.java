@@ -68,7 +68,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 	}
 
 	protected void handleNounTemplate(final Template template) {
-		boolean hasPlural = false;
+		boolean hasPlural = false, addAll = false;
 		for (Entry<String, String> par : template.getNamedParams())
 			if (par.getKey().startsWith("pl")) {
 				wordForms.add(createPlural(null, par.getValue()));
@@ -84,6 +84,9 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param1 = template.getNumberedParam(0);
 			if ("-".equals(param1))
 				wordForms.add(createPlural(null, null)); // uncountable
+			else
+			if ("~".equals(param1))
+				wordForms.add(createPlural(lemma, "s")); // countable and uncountable
 			else
 			if ("!".equals(param1))
 				logger.finer("Not attested word form: " + template); // not attested
@@ -111,7 +114,28 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			if ("?".equals(param2))
 				wordForms.add(createPlural(lemma, param1)); // unknown
 			else
+			if ("ies".equals(param2))
 				wordForms.add(createPlural(null, param1 + param2)); // unknown
+			else
+				addAll = true;
+		}
+		if (addAll || template.getNumberedParamsCount() > 2) {
+			int len = template.getNumberedParamsCount();
+			boolean inserted = false;
+			for(int i = 0; i < len; i++) {
+				String param = template.getNumberedParam(i);
+				if (param == null || "~".equals(param))
+					continue;
+
+				if ("s".equals(param) || "es".equals(param))
+					wordForms.add(createPlural(lemma, param));
+				else
+				if ("".equals(param)) {
+					if (!inserted) wordForms.add(createPlural(lemma, "s"));
+				} else
+					wordForms.add(createPlural(null, param));
+				inserted = true;
+			}
 		}
 	}
 
@@ -157,6 +181,26 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			wordForms.add(createFormSimplePast(lemma + "ed"));
 			wordForms.add(createFormPastParticiple(lemma + "ed"));
 		} else
+		if (template.getNumberedParamsCount() == 1) {
+			String param1 = template.getNumberedParam(0);
+			if ("d".equals(param1)) {
+				wordForms.add(createFormThirdPerson(lemma + "s"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(lemma + "d"));
+				wordForms.add(createFormPastParticiple(lemma + "d"));
+			} else
+			if ("es".equals(param1)) {
+				wordForms.add(createFormThirdPerson(lemma + "es"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(lemma + "ed"));
+				wordForms.add(createFormPastParticiple(lemma + "ed"));
+			} else {
+				wordForms.add(createFormThirdPerson(lemma + "s"));
+				wordForms.add(createFormPresentParticiple(param1 + "ing"));
+				wordForms.add(createFormSimplePast(param1 + "ed"));
+				wordForms.add(createFormPastParticiple(param1 + "ed"));
+			}
+		} else
 		if (template.getNumberedParamsCount() == 2) {
 			String param1 = template.getNumberedParam(0);
 			String param2 = template.getNumberedParam(1);
@@ -165,6 +209,12 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				wordForms.add(createFormPresentParticiple(param1 + "ing"));
 				wordForms.add(createFormSimplePast(param1 + "ed"));
 				wordForms.add(createFormPastParticiple(param1 + "ed"));
+			} else
+			if ("ies".equals(param2)) {
+				wordForms.add(createFormThirdPerson(param1 + "ies"));
+				wordForms.add(createFormPresentParticiple(lemma + "ing"));
+				wordForms.add(createFormSimplePast(param1 + "ied"));
+				wordForms.add(createFormPastParticiple(param1 + "ied"));
 			} else
 			if ("d".equals(param2)) {
 				wordForms.add(createFormThirdPerson(param1 + "s"));
@@ -207,7 +257,10 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				wordForms.add(createFormSimplePast(lemma + "d"));
 				wordForms.add(createFormPastParticiple(lemma + "d"));
 			} else {
-				wordForms.add(createFormThirdPerson(param1));
+				if ("".equals(param1))
+					wordForms.add(createFormThirdPerson(lemma + "s"));
+				else
+					wordForms.add(createFormThirdPerson(param1));
 				wordForms.add(createFormPresentParticiple(param2));
 				wordForms.add(createFormSimplePast(param3));
 				wordForms.add(createFormPastParticiple(param3));
@@ -223,6 +276,25 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			wordForms.add(createFormSimplePast(param3));
 			wordForms.add(createFormPastParticiple(param4));
 		}
+		for (Entry<String, String> par : template.getNamedParams()) {
+			if (par.getKey().startsWith("pres"))
+				wordForms.add(createFormPresentParticiple(par.getValue()));
+			else
+			if (par.getKey().equals("past2")) {
+				int len = template.getNumberedParamsCount();
+				if (len == 3) {
+					wordForms.add(createFormSimplePast(par.getValue()));
+					wordForms.add(createFormPastParticiple(par.getValue()));
+				} else {
+					wordForms.add(createFormSimplePast(par.getValue()));
+				}
+			}
+		}
+	}
+
+	// remove the ending letter 'e' if exists
+	private String removeEndingE(String str) {
+		return str.endsWith("e") ? str.substring(0, str.length()-1) : str;
 	}
 
 	protected void handleAdjectiveTemplate(final Template template) {
@@ -236,8 +308,8 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param1 = template.getNumberedParam(0);
 			if ("er".equals(param1)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("-".equals(param1)) { // not comparable
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
@@ -248,7 +320,10 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 				logger.finer("Unknown word form: " + template); // unknown
 			else {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(param1, GrammaticalDegree.COMPARATIVE));
+				if ("".equals(param1))
+					wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
+				else
+					wordForms.add(createAdjectiveForm(param1, GrammaticalDegree.COMPARATIVE));
 				wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 			}
 		} else
@@ -257,14 +332,14 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			String param2 = template.getNumberedParam(1);
 			if ("er".equals(param2)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(param1 + "er", GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(param1 + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(param1) + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(param1) + "est", GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("er".equals(param1) && "more".equals(param2)) {
 				wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-				wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
 				wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
-				wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+				wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 				wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 			} else
 			if ("-".equals(param1)) { // not generally comparable
@@ -287,14 +362,14 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 			if ("-".equals(param1)) {
 				if ("er".equals(param3)) {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-					wordForms.add(createAdjectiveForm(param2 + "er", GrammaticalDegree.COMPARATIVE));
-					wordForms.add(createAdjectiveForm(param2 + "est", GrammaticalDegree.SUPERLATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(param2) + "er", GrammaticalDegree.COMPARATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(param2) + "est", GrammaticalDegree.SUPERLATIVE));
 				} else
 				if ("er".equals(param2) && "more".equals(param3)) {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
-					wordForms.add(createAdjectiveForm(lemma + "er", GrammaticalDegree.COMPARATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "er", GrammaticalDegree.COMPARATIVE));
 					wordForms.add(createAdjectiveForm("more " + lemma, GrammaticalDegree.COMPARATIVE));
-					wordForms.add(createAdjectiveForm(lemma + "est", GrammaticalDegree.SUPERLATIVE));
+					wordForms.add(createAdjectiveForm(removeEndingE(lemma) + "est", GrammaticalDegree.SUPERLATIVE));
 					wordForms.add(createAdjectiveForm("most " + lemma, GrammaticalDegree.SUPERLATIVE));
 				} else {
 					wordForms.add(createAdjectiveForm(lemma, GrammaticalDegree.POSITIVE));
