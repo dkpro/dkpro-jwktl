@@ -2,13 +2,13 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,6 +30,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
@@ -41,12 +42,12 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 public class ENSenseHandler extends ENBlockHandler {
 	protected static final Pattern EXAMPLE_PATTERN = Pattern.compile("^#+:+");
 	protected static final Pattern POS_PATTERN = Pattern.compile(
-			"^====?\\s*(?:" 
+			"^====?\\s*(?:"
 			+ "\\{\\{([^\\}\\|]+)(?:\\|[^\\}\\|]*)?\\}\\}|"
 			+ "\\[\\[(?:[^\\]\\|]+\\|)?([^\\]\\|]+)\\]\\]|"
 			+ "([^=]+?)"
 			+ ")\\s*\\d*\\s*=?===$");
-	
+
 	/**
 	 * Extracted pos string
 	 */
@@ -66,9 +67,9 @@ public class ENSenseHandler extends ENBlockHandler {
 
 	protected ENQuotationHandler quotationHandler;
 	protected IWordFormHandler wordFormHandler;
-	
+
 	protected String lastPrefix;
-	
+
 	/**
 	 * Init attributes
 	 */
@@ -76,7 +77,7 @@ public class ENSenseHandler extends ENBlockHandler {
 		entryFactory = new ENEntryFactory();
 		quotationHandler = new ENQuotationHandler();
 	}
-		
+
 	/**
 	 * Check if the label of section is a predefined POS label.
 	 */
@@ -85,11 +86,11 @@ public class ENSenseHandler extends ENBlockHandler {
 		String posLabel = blockHeader.trim();
 		if (!posLabel.startsWith("===") || !posLabel.endsWith("==="))
 			return false;
-		
+
 		Matcher matcher = POS_PATTERN.matcher(blockHeader);
-		if (!matcher.find()) 
+		if (!matcher.find())
 			return false;
-		
+
 		if (matcher.group(1) != null)
 			posLabel = matcher.group(1);
 		else
@@ -97,15 +98,15 @@ public class ENSenseHandler extends ENBlockHandler {
 			posLabel = matcher.group(2);
 		else
 			posLabel = matcher.group(3);
-		
+
 		partOfSpeech = PartOfSpeech.findByName(posLabel, ENEntryFactory.posMap);
 		return (partOfSpeech != null);
 	}
-	
+
 	/**
 	 * Process head
 	 */
-	public boolean processHead(String text, ParsingContext context) {	
+	public boolean processHead(String text, ParsingContext context) {
 		context.setPartOfSpeech(partOfSpeech);
 		glossEntryList = new ArrayList<EnGlossEntry>();
 		wordFormHandler = getWordFormHandler(context);
@@ -145,7 +146,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			quotationHandler.extractQuotation(line.substring(1), additionalLine, context);
 			lastPrefix = "#*";
 			takeControl = false;
-			
+
 		} else
 		if (line.startsWith("##")) {
 			// Subsense.
@@ -161,8 +162,8 @@ public class ENSenseHandler extends ENBlockHandler {
 				}
 			}
 			takeControl = false;
-			
-		} else 
+
+		} else
 		if (line.startsWith("#") && line.length() > 2) {
 			// Sense definition.
 			saveQuotations();
@@ -171,7 +172,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			glossEntryList.add(glossEntry);
 			lastPrefix = "#";
 			takeControl = false;
-			
+
         } else if (wordFormHandler.parse(line)) {
             lastPrefix = null;
             takeControl = true;
@@ -183,19 +184,19 @@ public class ENSenseHandler extends ENBlockHandler {
 		List<Quotation> quotations = quotationHandler.getQuotations();
 		if (quotations.size() == 0 || glossEntryList.size() == 0)
 			return;
-		
+
 		EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
 		for (Quotation quotation : quotations)
 			glossEntry.getQuotations().add(quotation);
 		quotationHandler.getQuotations().clear();
 	}
-	
+
 	/**
 	 * Store POS, examples, quotations in WordEntry object
 	 */
 	public void fillContent(final ParsingContext context) {
 		saveQuotations();
-		
+
 		// In the special case when article constituents have been found before
 		// the first entry, do not create a new entry, but use the automatically
 		// created one.
@@ -212,7 +213,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			entry = entryFactory.createEntry(context);
 			context.getPage().addEntry(entry);
 		}
-		
+
 		List<IPronunciation> pronunciations = context.getPronunciations();
 		if (pronunciations != null)
 			for (IPronunciation pronunciation : pronunciations)
@@ -231,7 +232,10 @@ public class ENSenseHandler extends ENBlockHandler {
 		for (IWiktionaryWordForm wordForm : wordFormHandler.getWordForms())
 			entry.addWordForm(wordForm);
 
-		entry.setGender(wordFormHandler.getGender());
+		List<GrammaticalGender> genders = wordFormHandler.getGenders();
+		if (genders != null)
+			for (GrammaticalGender gender : genders)
+				entry.addGender(gender);
 	}
 
 	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {

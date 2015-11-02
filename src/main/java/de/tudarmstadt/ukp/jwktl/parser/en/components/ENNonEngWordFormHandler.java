@@ -18,6 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
 import java.util.Collections;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.regex.Pattern;
 
@@ -30,13 +31,16 @@ import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser.Template;
 /**
  * Support for parsing word forms for non-English entries in the English Wiktionary.
  */
-public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser.ITemplateHandler {
+public class ENNonEngWordFormHandler implements IWordFormHandler,
+		TemplateParser.ITemplateHandler {
+
 	private static final Pattern HEAD_PATTERN = Pattern.compile("\\A\\{\\{head|");
 	private static final Pattern NOUN_PATTERN = Pattern.compile("\\A\\{\\{(\\w+)\\-noun");
-	private GrammaticalGender gender;
+	private List<GrammaticalGender> genders;
 
 	@Override
 	public boolean parse(String line) {
+		genders = new LinkedList<GrammaticalGender>();
 		if (HEAD_PATTERN.matcher(line).find() || NOUN_PATTERN.matcher(line).find()) {
 			TemplateParser.parse(line, this);
 			return true;
@@ -51,8 +55,8 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 	}
 
 	@Override
-	public GrammaticalGender getGender() {
-		return gender;
+	public List<GrammaticalGender> getGenders() {
+		return genders;
 	}
 
 	@Override
@@ -76,7 +80,7 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 	private void handleGenericNounTemplate(Template template) {
 		if (template.getNumberedParamsCount() > 0) {
 			String genderParam = template.getNumberedParam(0);
-			gender = extractGender(genderParam);
+			extractGender(genderParam);
 		}
 	}
 
@@ -84,20 +88,20 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 	// m, m-p, m-an-p, f-d, m-p, m-p etc.
 	private void handleHeadwordTemplate(Template template) {
 		final String genderParam = template.getNamedParam("g");
-		gender = extractGender(genderParam);
+		extractGender(genderParam);
 	}
 
 	// la-noun: {{la-noun|casa|casae|casae|f|first}}
 	private void handleLatinNounTemplate(Template template) {
 		if (template.getNumberedParamsCount() >= 4) {
-			gender = extractGender(template.getNumberedParam(3));
+			extractGender(template.getNumberedParam(3));
 		}
 	}
 
-	private static GrammaticalGender extractGender(String genderParam) {
-		if (genderParam == null) {
-			return null;
-		}
+	private void extractGender(String genderParam) {
+		if (genderParam == null)
+			return;
+
 		// TODO: properly parse gender combinations
 		GrammaticalGender gender = null;
 		if ("m".equals(genderParam) || genderParam.startsWith("m")) {
@@ -107,6 +111,7 @@ public class ENNonEngWordFormHandler implements IWordFormHandler, TemplateParser
 		} else if ("n".equals(genderParam)) {
 			gender = GrammaticalGender.NEUTER;
 		}
-		return gender;
+		if (gender != null)
+			genders.add(gender);
 	}
 }

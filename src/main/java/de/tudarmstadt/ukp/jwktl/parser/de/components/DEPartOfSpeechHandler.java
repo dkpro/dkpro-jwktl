@@ -2,13 +2,13 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -30,48 +30,48 @@ import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
- * Parser component for extracting part of speech tags from the German Wiktionary. 
+ * Parser component for extracting part of speech tags from the German Wiktionary.
  * @author Christian M. Meyer
  * @author Lizhen Qu
  */
 public class DEPartOfSpeechHandler extends DEBlockHandler {
 
 	protected static final Pattern POS_PATTERN = Pattern.compile("\\{\\{Wortart\\|([^\\|\\}]+)(?:\\|([^\\|\\}]+))?\\}\\}");
-	protected static final Pattern GENDER_PATTERN = Pattern.compile("\\b(?:\\{\\{)?([mfnw]|sächlich)(?:\\}\\})?\\.?\\b");
-	
+	protected static final Pattern GENDER_PATTERN = Pattern.compile("\\b(?:\\{\\{)?([mfnw]+\\.?|sächlich)(?:\\}\\})?\\.?\\b");
+
 	protected DEEntryFactory entryFactory = new DEEntryFactory();
 
 	protected List<PartOfSpeech> posList = new LinkedList<PartOfSpeech>();
-	protected GrammaticalGender gender;
-	
+	protected List<GrammaticalGender> genders = new LinkedList<GrammaticalGender>();
+
 	/** Check if the given text contains a part of speech header.
 	 */
 	public boolean canHandle(String blockHeader) {
 		if (blockHeader == null || blockHeader.isEmpty())
 			return false;
-		
+
 		blockHeader = blockHeader.trim();
 		if ((blockHeader.startsWith("===") || blockHeader.startsWith("'''"))
-				&& blockHeader.length() > 7) {				
+				&& blockHeader.length() > 7) {
 			Matcher matcher = POS_PATTERN.matcher(blockHeader);
 			return matcher.find();
 		} else
 			return false;
 	}
-	
-	/** Extract the part of speech tags and additional grammatical 
+
+	/** Extract the part of speech tags and additional grammatical
 	 *  information. */
 	@Override
 	public boolean processHead(final String text, final ParsingContext context) {
 		PartOfSpeech partOfSpeech = null;
 		posList.clear();
-		gender = null;
-		
+		genders.clear();
+
 		// Extract POS.
 		String textLine = text.trim();
 		if (textLine.isEmpty())
 			return true;
-		
+
 		Matcher headBlockMatcher = POS_PATTERN.matcher(textLine);
 		while (headBlockMatcher.find()) {
 			// Extract language if not yet extracted.
@@ -82,7 +82,7 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 			}
 
 			String posLabel = headBlockMatcher.group(1);
-			PartOfSpeech pos = entryFactory.findPartOfSpeech(posLabel); 
+			PartOfSpeech pos = entryFactory.findPartOfSpeech(posLabel);
 			if (pos != null) {
 				if (partOfSpeech == null) {
 					partOfSpeech = pos;
@@ -91,28 +91,62 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 					posList.add(pos);
 			}
 		}
-		
+
 		// Extract gender.
 		Matcher matcher = GENDER_PATTERN.matcher(textLine);
-		if (matcher.find()) {
-			String genderText = matcher.group(1);			
+		while (matcher.find()) {
+			String genderText = matcher.group(1);
 			if ("m".equals(genderText))
-				gender = GrammaticalGender.MASCULINE;
+				genders.add(GrammaticalGender.MASCULINE);
+			else
 			if ("f".equals(genderText) || "w".equals(genderText))
-				gender = GrammaticalGender.FEMININE;
+				genders.add(GrammaticalGender.FEMININE);
+			else
 			if ("n".equals(genderText) || "sächlich".equals(genderText))
-				gender = GrammaticalGender.NEUTER;
+				genders.add(GrammaticalGender.NEUTER);
+			else
+			if ("mf".equals(genderText)) {
+				genders.add(GrammaticalGender.MASCULINE);
+				genders.add(GrammaticalGender.FEMININE);
+			}
+			else
+			if ("mn.".equals(genderText)) {
+				genders.add(GrammaticalGender.MASCULINE);
+				genders.add(GrammaticalGender.NEUTER);
+			}
+			else
+			if ("fm".equals(genderText)) {
+				genders.add(GrammaticalGender.FEMININE);
+				genders.add(GrammaticalGender.MASCULINE);
+			}
+			else
+			if ("fn".equals(genderText)) {
+				genders.add(GrammaticalGender.FEMININE);
+				genders.add(GrammaticalGender.NEUTER);
+			}
+			else
+			if ("nm".equals(genderText)) {
+				genders.add(GrammaticalGender.NEUTER);
+				genders.add(GrammaticalGender.MASCULINE);
+			}
+			else
+			if ("nf".equals(genderText)) {
+				genders.add(GrammaticalGender.NEUTER);
+				genders.add(GrammaticalGender.FEMININE);
+			}
+
 		}
-		
+
 		return true;
 	}
 
 	/** Set the part of pseech tags and additional grammatical information. */
-	public void fillContent(final ParsingContext context) {	
+	public void fillContent(final ParsingContext context) {
 		WiktionaryEntry entry = entryFactory.createEntry(context);
 		for (PartOfSpeech posLabel : posList)
 			entry.addPartOfSpeech(posLabel);
-		entry.setGender(gender);
+		for (GrammaticalGender gender : genders)
+			entry.addGender(gender);
 		context.getPage().addEntry(entry);
 	}
 

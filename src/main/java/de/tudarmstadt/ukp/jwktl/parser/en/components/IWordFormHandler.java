@@ -39,7 +39,7 @@ public interface IWordFormHandler {
 	List<IWiktionaryWordForm> getWordForms();
 
 	/**
-	 * @return the extracted gender, or null.
+	 * @return the extracted genders (might be null).
 	 */
-	GrammaticalGender getGender();
+	List<GrammaticalGender> getGenders();
 }

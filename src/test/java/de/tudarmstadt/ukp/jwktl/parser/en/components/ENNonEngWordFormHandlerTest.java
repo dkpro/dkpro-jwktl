@@ -17,12 +17,11 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
-import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
-import junit.framework.TestCase;
-
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.FEMININE;
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.MASCULINE;
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.NEUTER;
+import junit.framework.TestCase;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 
 public class ENNonEngWordFormHandlerTest extends TestCase {
 	private ENNonEngWordFormHandler handler;
@@ -73,6 +72,6 @@ public class ENNonEngWordFormHandlerTest extends TestCase {
 
 	private void assertGender(GrammaticalGender expectedGender, String line) {
 		assertTrue("could not parse " + line, handler.parse(line));
-		assertEquals(expectedGender, handler.getGender());
+		assertEquals(expectedGender, handler.getGenders().get(0));
 	}
 }

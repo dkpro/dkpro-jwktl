@@ -1,0 +1,66 @@
+== Nutella ® ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{f}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=f
+|Genus 2=n
+|Genus 3=m
+|Nominativ Singular 1=Nutella
+|Nominativ Singular 2=Nutella
+|Nominativ Singular 3=Nutella
+|Nominativ Plural=—
+|Genitiv Singular 1=Nutella
+|Genitiv Singular 2=Nutellas
+|Genitiv Singular 3=Nutellas
+|Genitiv Plural=—
+|Dativ Singular 1=Nutella
+|Dativ Singular 2=Nutella
+|Dativ Singular 3=Nutella
+|Dativ Plural=—
+|Akkusativ Singular 1=Nutella
+|Akkusativ Singular 2=Nutella
+|Akkusativ Singular 3=Nutella
+|Akkusativ Plural=—
+}}
+
+{{Anmerkung|zum Genus}}
+:Wie bei Markennamen üblich, hat auch das Wort ''Nutella'' kein festgelegtes Geschlecht. Die häufigste anzutreffende Form ist allerdings je nach Region das weibliche oder das sächliche Geschlecht, am seltensten wird ''der Nutella'' benutzt.<ref>Nach: Duden: Duden – Richtiges und gutes Deutsch (Der Duden in zwölf Bden., Bd. 9). Mannheim, Leipzig, Wien, Zürich <sup>5</sup>2005, Seite 631.</ref>
+
+{{Worttrennung}}
+:Nu·tel·la, {{kPl.}}
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˌnuːˈtɛla}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ɛla|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Markenname einer [[Nuss-Nugat-Creme]] (als Brotaufstrich), als [[Gattungsname]] umgangssprachlich auch für vergleichbare Produkte anderer Hersteller<ref name="wp">Seite „Nutella“. In: Wikipedia, Die freie Enzyklopädie. Bearbeitungsstand: 22. Juli 2010, 11:31 UTC. URL: http://de.wikipedia.org/w/index.php?title=Nutella&oldid=76944151 (Abgerufen: 26. Juli 2010, 15:30 UTC)</ref>
+
+{{Herkunft}}
+:Vom Hersteller Ferrero kreiertes Kunstwort, das wahrscheinlich auf dem englisch Wort ''{{Ü|en|nut}}'' „[[Nuss]]“ und der italienischen weiblichen Verniedlichungsform "-ella" beruht.
+
+{{Oberbegriffe}}
+:[1] [[Nuss-Nugat-Creme]], [[Brotaufstrich]]
+
+{{Beispiele}}
+:[1] „Kann ich bitte das (die, den) Nutella haben?"
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|Nutella}}
+*{{fr}}: [1] {{Ü|fr|Nutella}} {{m}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|Nutella}} {{f}}
+*{{sv}}: [1] {{Ü|sv|Nutella}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Nutella}}
+:[1] {{Ref-UniLeipzig|Nutella}}
+
+{{Quellen}}
+
+[[en:Nutella]]
+[[fr:Nutella]]
+[[ru:Nutella]]

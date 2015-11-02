@@ -452,7 +452,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 	}
 
 	@Override
-	public GrammaticalGender getGender() {
+	public List<GrammaticalGender> getGenders() {
 		return null;
 	}
 
