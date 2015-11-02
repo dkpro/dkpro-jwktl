@@ -2,13 +2,13 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -37,7 +37,7 @@ import de.tudarmstadt.ukp.jwktl.parser.de.components.DEWordFormHandler;
  * @author Christian M. Meyer
  */
 public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
-	
+
 	/***/
 	public void testAberration() throws Exception {
 		IWiktionaryPage page = parse("Aberration.txt");
@@ -50,7 +50,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 
 	/***/
 	public void testHallo() throws Exception {
-		IWiktionaryPage page = parse("Hallo.txt");		
+		IWiktionaryPage page = parse("Hallo.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
 		assertWordFormNoun("das Hallo", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
@@ -63,10 +63,10 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun("die Hallos", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
-	
+
 	/***/
 	public void testKiefer() throws Exception {
-		IWiktionaryPage page = parse("Kiefer.txt");		
+		IWiktionaryPage page = parse("Kiefer.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
 		assertWordFormNoun("die Kiefer", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
@@ -87,7 +87,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 
 	/***/
 	public void testStaat() throws Exception {
-		IWiktionaryPage page = parse("Staat.txt");		
+		IWiktionaryPage page = parse("Staat.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
 		assertWordFormNoun("der Staat", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
@@ -114,7 +114,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun("die Staate", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
-	
+
 	/***/
 	public void testThulium() throws Exception {
 		IWiktionaryPage page = parse("Thulium.txt");
@@ -130,7 +130,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun(null, GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
-	
+
 	/***/
 	public void testTier() throws Exception {
 		IWiktionaryPage page = parse("Tier.txt");
@@ -146,7 +146,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun("die Tiere", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
-	
+
 	/***/
 	public void testTun() throws Exception {
 		IWiktionaryPage page = parse("Tun.txt");
@@ -201,7 +201,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		//TODO: weak and strong declination.
 		// http://de.wiktionary.org/wiki/Kategorie:Wiktionary:Flexionstabelle_%28Deutsch%29
 	}
-	 
+
 	/***/
 	public void testMitreissen() throws Exception {
 		IWiktionaryPage page = parse("mitreissen.txt");
@@ -219,7 +219,24 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		//Weitere_Konjugationen= mitreißen (Konjugation)
 		assertFalse(actualIter.hasNext());
 	}
-	
+
+	/***/
+	public void testReden() throws Exception {
+		IWiktionaryPage page = parse("reden.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormVerb("rede", GrammaticalPerson.FIRST, GrammaticalTense.PRESENT, GrammaticalMood.INDICATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("redest", GrammaticalPerson.SECOND, GrammaticalTense.PRESENT, GrammaticalMood.INDICATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("redet", GrammaticalPerson.THIRD, GrammaticalTense.PRESENT, GrammaticalMood.INDICATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("redete", GrammaticalPerson.FIRST, GrammaticalTense.PAST, GrammaticalMood.INDICATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("geredet", null, null, null, null, GrammaticalAspect.PERFECT, NonFiniteForm.PARTICIPLE, actualIter.next());
+		assertWordFormVerb("redete", GrammaticalPerson.FIRST, GrammaticalTense.PAST, GrammaticalMood.CONJUNCTIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("red", null, null, GrammaticalMood.IMPERATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("rede", null, null, GrammaticalMood.IMPERATIVE, GrammaticalNumber.SINGULAR, null, null, actualIter.next());
+		assertWordFormVerb("redet", null, null, GrammaticalMood.IMPERATIVE, GrammaticalNumber.PLURAL, null, null, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
+
 	/***/
 	public void testGut() throws Exception {
 		IWiktionaryPage page = parse("gut.txt");
@@ -241,10 +258,10 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormAdjective("am pittoreskesten", GrammaticalDegree.SUPERLATIVE, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
-	
-	
-	protected void assertWordFormNoun(final String expectedForm, 
-			final GrammaticalCase expectedCase, 
+
+
+	protected void assertWordFormNoun(final String expectedForm,
+			final GrammaticalCase expectedCase,
 			final GrammaticalNumber expectedNumber,
 			final IWiktionaryWordForm actual) {
 		assertEquals(expectedForm, actual.getWordForm());
@@ -252,13 +269,13 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertEquals(expectedNumber, actual.getNumber());
 	}
 
-	protected void assertWordFormVerb(final String expectedForm, 
-			final GrammaticalPerson expectedPerson, 
+	protected void assertWordFormVerb(final String expectedForm,
+			final GrammaticalPerson expectedPerson,
 			final GrammaticalTense expectedTense,
 			final GrammaticalMood expectedMood,
 			final GrammaticalNumber expectedNumber,
-			final GrammaticalAspect expectedAspect, 
-			final NonFiniteForm expectedNonFiniteForm, 
+			final GrammaticalAspect expectedAspect,
+			final NonFiniteForm expectedNonFiniteForm,
 			final IWiktionaryWordForm actual) {
 		assertEquals(expectedForm, actual.getWordForm());
 		assertEquals(expectedPerson, actual.getPerson());
@@ -269,7 +286,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertEquals(expectedNonFiniteForm, actual.getNonFiniteForm());
 	}
 
-	protected void assertWordFormAdjective(final String expectedForm, 
+	protected void assertWordFormAdjective(final String expectedForm,
 			final GrammaticalDegree expectedDegree,
 			final IWiktionaryWordForm actual) {
 		assertEquals(expectedForm, actual.getWordForm());

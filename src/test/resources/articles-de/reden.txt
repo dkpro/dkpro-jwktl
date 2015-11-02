@@ -1,0 +1,171 @@
+== reden ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Verb|Deutsch}} ===
+
+{{Deutsch Verb Übersicht
+|Präsens_ich=rede
+|Präsens_du=redest
+|Präsens_er, sie, es=redet
+|Präteritum_ich=redete
+|Partizip II=geredet
+|Konjunktiv II_ich=redete
+|Imperativ Singular=red
+|Imperativ Singular*=rede
+|Imperativ Plural=redet
+|Hilfsverb=haben
+}}
+
+{{Anmerkungen|zur Konjugation}}
+:Das Verb ''reden'' gehört zur schwachen Konjugation.
+
+{{Worttrennung}}
+:re·den, {{Prät.}} re·de·te, {{Part.}} ge·re·det
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʀeːdn̩}}, {{Prät.}} {{Lautschrift|ˈʀeːdətə}}, {{Part.}} {{Lautschrift|ɡəˈʀeːdət}}
+:{{Hörbeispiele}} {{Audio|De-at-reden.ogg|spr=at}}, {{Prät.}} {{Audio|De-at-redete.ogg|redete (österreichisch)}}, {{Part.}} {{Audio|De-at-geredet.ogg|geredet (österreichisch)}}
+:{{Reime}} {{Reim|eːdn̩|Deutsch}}
+
+{{Bedeutungen}}
+:[1] etwas [[sagen]], [[Sprache]] von sich geben
+
+{{Herkunft}}
+:[[mittelhochdeutsch]] ''reden'', [[althochdeutsch]] ''redōn'' oder ''rediōn'', im 9.&nbsp;Jahrhundert vom Substantiv ''redī'' oder ''reda'', heutzutage ''[[Rede]]'' <ref>{{Ref-DWDS|reden}}</ref>
+
+{{Synonyme}}
+:[1] [[äußern]], [[formulieren]], [[labern]], [[palavern]], [[plaudern]], [[quasseln]], [[quatschen]], [[sprechen]], [[sülzen]], [[versetzen]]
+
+{{Gegenwörter}}
+:[1] [[schweigen]]
+
+{{Oberbegriffe}}
+:[1] [[kommunizieren]]
+
+{{Unterbegriffe}}
+:[1] [[anreden]], [[ausreden]], [[bauchreden]], [[bereden]], [[daherreden]], [[dahinreden]], [[durcheinanderreden]], [[einreden]], [[gegenanreden]], [[kleinreden]], [[mitreden]], [[nachreden]], [[schlechtreden]], [[schönreden]], [[überreden]], [[unterreden]], [[verabreden]], [[vorbeireden]], [[wegreden]], [[weiterreden]], [[zerreden]], [[zureden]]
+
+{{Beispiele}}
+:[1] Sie ''redet'' gerne über Politik.
+:[1] Die Freunde ''redeten'' bis spät in die Nacht.
+:[1] Florian ''redet'' viel, wenn der Tag lang ist.
+:[1] ''Rede'' doch nicht solchen Unsinn!
+:[1] Jetzt ''rede'' schon!
+
+{{Redewendungen}}
+:[1] [[Deutsch reden]], [[Klartext reden]], [[mit sich reden lassen]], [[reden wie ein Buch]], [[reden wie ein Wasserfall]], [[sich um Kopf und Kragen reden]], [[Tacheles reden]]
+
+{{Sprichwörter}}
+:[1] [[Reden ist Silber, Schweigen ist Gold]]
+
+{{Charakteristische Wortkombinationen}}
+:[1] [[über]] etwas ''reden''
+
+{{Wortbildungen}}
+:[1] [[redefreudig]], [[redlich]], [[redselig]], [[selbstredend]]
+:[1] [[Gerede]], [[Redensart]], [[Rederei]], [[Redeweise]], [[Redner]]
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+
+*{{eu}}: [1] {{Ü|eu|hitz egin}}
+*{{en}}: [1] {{Ü|en|speak}}, {{Ü|en|talk}}; {{Ü|en|utter}}, {{Ü|en|say}}
+*{{fr}}: [1] {{Ü|fr|parler}}, {{Ü|fr|converser}}
+*{{it}}: [1] {{Ü|it|parlare}}, {{Ü|it|conversare}}, {{Ü|it|dire}}, {{Ü|it|proferire}}, {{Ü|it|riferire}}, {{Ü|it|spifferare}}, {{Ü|it|discorrere}}
+*{{ko}}: [1] {{Üt|ko|말하다|}}
+*{{no}}: [1] {{Ü|no|snakke}}, {{Ü|no|prate}}
+*{{pl}}: [1] {{Ü|pl|mówić}}
+|Ü-rechts=
+*{{pt}}: [1] {{Ü|pt|falar}}
+*{{ro}}: [1] {{Ü|ro|a vorbi}}, {{Ü|ro|a conversa}},  {{Ü|ro|a discuta}}
+*{{ru}}: [1] {{Üt|ru|говорить|govorít'}}, {{Üt|ru|поговорить|pogovorít'}}, {{Üt|ru|разговаривать|razgovárivat'}}, {{Üt|ru|беседовать|besédovat'}}
+*{{sv}}: [1] {{Ü|sv|tala}}, {{Ü|sv|prata}}
+*{{es}}: [1] {{Ü|es|hablar}}, {{Ü|es|conversar}}
+*{{cs}}: [1] {{Ü|cs|mluvit}}
+*{{hu}}: [1] {{Ü|hu|beszél}}
+|Dialekttabelle=
+*Alemannisch: schwätze
+*Apetlonerisch: [[rain]]
+*Badisch: schwätzen
+*Bayerisch: schmatzn
+*Eiflerisch: kallen
+*Hessisch: Schwätze, babbele, babbln
+|D-rechts=
+*Kölsch: schwade
+*Niederdeutsch: schnacken, proten, küern
+*Pfälzisch: babbeln
+*Sächsisch: labern
+*Schwäbisch: schwätza
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|reden}}
+:[1] {{Ref-DWDS|reden}}
+:[1] {{Ref-Duden|reden}}
+:[1] {{Ref-Canoo|reden}}
+:[1] {{Ref-UniLeipzig|reden}}
+
+{{Quellen|}}
+
+{{Ähnlichkeiten 1|[[Eden]], [[Greden]], [[heden]], [[Reben]], [[Redon]], [[Reede]], [[Regen]], [[regen]], [[Rehen]], [[reuen]], [[roden]], [[Vreden]]|Homophone=[[Reeden]]}}
+
+== reden ({{Sprache|Niederländisch}}) ==
+=== {{Wortart|Substantiv|Niederländisch}}, {{m}} ===
+{{erweitern|Referenz(en)|Niederländisch}}
+
+{{Niederländisch Substantiv Übersicht
+|Singular=de reden
+|Plural=de redenen
+}}
+
+{{Worttrennung}}
+:re·den, {{Pl.}} re·de·nen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|re.dəⁿ}}
+:{{Hörbeispiele}} {{Audio|Nl-reden.ogg}} {{Pl.}} {{Audio|Nl-redenen.ogg|redenen}}
+
+{{Bedeutungen}}
+:[1] [[Grund]], [[Motivation]]
+
+{{Beispiele}}
+:[1] {{Beispiele fehlen|spr=nl}}
+
+==== Übersetzungen ====
+{{Ü-Tabelle|Ü-links=
+*{{de}}: [1] [[Grund]]
+|Ü-rechts=
+*{{fr}}: [1] {{Ü|fr|}}
+}}
+
+{{Referenzen}}
+:[1]
+
+[[ast:reden]]
+[[br:reden]]
+[[chr:reden]]
+[[el:reden]]
+[[en:reden]]
+[[es:reden]]
+[[et:reden]]
+[[eu:reden]]
+[[fi:reden]]
+[[fr:reden]]
+[[gd:reden]]
+[[hu:reden]]
+[[id:reden]]
+[[ie:reden]]
+[[io:reden]]
+[[ko:reden]]
+[[ku:reden]]
+[[lt:reden]]
+[[mg:reden]]
+[[nds:reden]]
+[[nl:reden]]
+[[pl:reden]]
+[[pt:reden]]
+[[ru:reden]]
+[[sl:reden]]
+[[sv:reden]]
+[[tl:reden]]
+[[tr:reden]]
+[[uk:reden]]
+[[zh:reden]]
