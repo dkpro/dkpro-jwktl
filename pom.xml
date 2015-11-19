@@ -31,6 +31,7 @@
         <name>Ubiquitous Knowledge Processing (UKP) Lab</name>
         <url>http://www.ukp.tu-darmstadt.de/</url>
     </organization>
+
     <developers>
         <developer>
             <id>yevgen.chebotar</id>
@@ -78,6 +79,11 @@
         <url>https://github.com/dkpro/dkpro-jwktl</url>
         <tag>head</tag>
     </scm>
+
+    <issueManagement>
+        <url>https://github.com/dkpro/dkpro-jwktl/issues</url>
+        <system>GitHub</system>
+    </issueManagement>
 
     <properties>
         <javadoc.opts>-Xdoclint:none</javadoc.opts>
@@ -149,6 +155,15 @@
           <descriptors>
             <descriptor>src/main/resources/assemblies/dist.xml</descriptor>
           </descriptors>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.19</version>
+        <configuration>
+          <excludedGroups>de.tudarmstadt.ukp.jwktl.IntegrationTest</excludedGroups>
         </configuration>
       </plugin>
     </plugins>
@@ -224,8 +239,4 @@
       </build>
     </profile>
   </profiles>
-  <issueManagement>
-  	<url>https://github.com/dkpro/dkpro-jwktl/issues</url>
-  	<system>GitHub</system>
-  </issueManagement>
 </project>
