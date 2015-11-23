@@ -208,7 +208,7 @@ JWKTL-1.0.1 (2014-09-30)
 
 JWKTL-1.1.0 (forthcoming)
 - Moved to GitHub.
-- Modified: Updated to xerces 2.11.0.
+- Modified: Removed xerces (#6, #28)
 - Fixed: Dump parser is timezone dependent (#9).
 - Fixed: Descendant relationship parsing bugs (#10).
 - Added: parse gender of non-English entries in EN-Wiktionary.
