@@ -246,6 +246,18 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{g|m}} (pods)", t2.getAdditionalInformation());
 	}
 
+	public void testRemovesWikiLinks() throws Exception {
+		IWiktionaryPage page = parse("as_much_as_possible.txt");
+
+		final List<IWiktionaryTranslation> trans = page.getEntry(0).getSense(1).getTranslations(Language.findByCode("por"));
+		assertEquals(2, trans.size());
+
+		final IWiktionaryTranslation t1 = trans.get(0);
+		final IWiktionaryTranslation t2 = trans.get(1);
+
+		assertEquals("todo o possível", t1.getTranslation());
+		assertEquals("o máximo possível", t2.getTranslation());
+	}
 
 	protected static void assertTranslation(final String language,
 			final String translation,

@@ -1,0 +1,34 @@
+==English==
+
+===Adverb===
+{{en-adv|head=[[as]] [[much]] [[as]] [[possible]]|-}}
+
+# As [[much]] as is [[possible]].
+
+====Usage notes====
+This is not an idiom. It is a particularly common instance of the general construction: "as X as Y", where both X and Y have a large range of possibilities. X can be an adjectival, an adverbial, or a quantifier determiner (much, little, many, few) and Y can a clauses or an ellipsis of a clause. The full clause for which "possible" is an ellipsis depends on the preceding verb. "He ate as much as <u>possible</u>" is an ellipsis for "He ate as much as <u>it was possible for him to eat</u>." When Y is a noun ("He ate as much as <u>John</u>."), the ellipsis is still for a clause ("He ate as much as <u>John ate</u>.").
+
+====Translations====
+{{trans-top|as much as is possible}}
+* Arabic: {{t|ar|قَدْر اَلْمُسْتَطَاع}}, {{t|ar|قَدْر اَلْإِمْكَان}}
+* Chinese:
+*: Mandarin: {{t+|cmn|盡量|sc=Hani}} or {{t+|cmn|儘量|sc=Hani}}, {{t|cmn|尽量|tr=jǐnliàng|sc=Hani}}
+* Finnish: {{t|fi|niin paljon kuin mahdollista}}
+* French: {{t+|fr|autant que possible}}, {{t|fr|tout le possible}}, {{t|fr|le plus possible}}
+* German: {{t|de|so viel wie möglich}}, {{t|de|möglichst viel}}
+* Hebrew: {{t|he|ככל האפשר|tr=kekhol ha'efshar|sc=Hebr}}
+{{trans-mid}}
+* Japanese: {{t|ja|できるだけ|tr=dekiru dake|sc=Jpan}}, {{t|ja|有らん限り|tr=あらんかぎり, aran kagiri|sc=Jpan}}, {{t|ja|成るべく|tr=なるべく, naru-beku|sc=Jpan}}
+* Persian: {{t|fa|تا جای امکان|sc=fa-Arab}}, {{t|fa|حتی‌الامکان|tr=hattal-emkaan|sc=fa-Arab}}
+* Portuguese: {{t|pt|[[todo]] [[o]] [[possível]]}}, {{t|pt|[[o]] [[máximo]] [[possível]]}}
+* Russian: {{t|ru|как мо́жно бо́льше}}
+* Serbo-Croatian: {{t|sh|što je više moguće}}
+* Spanish: {{t|es|todo lo posible}}
+* Telugu: {{t|te|వీలైనంతవరకు|tr=veelainantavaraku|sc=Telu}}
+* Volapük: {{t+|vo|mögiküno}}
+{{trans-bottom}}
+
+[[Category:English phrasebook]]
+
+[[pt:as much as possible]]
+[[chr:as much as possible]]

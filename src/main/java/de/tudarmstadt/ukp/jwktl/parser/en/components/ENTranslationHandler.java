@@ -26,6 +26,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryTranslation;
+import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryTranslation;
@@ -136,7 +137,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 					if (fields != null && fields.length >= 3) {
 						if (translatedLang == null)
 							translatedLang = Language.findByCode(fields[1]);
-						translationText = fields[2].trim();
+						translationText = WikiString.removeWikiLinks(fields[2]).trim();
 					} else
 						translationText = null;
 				} else {
