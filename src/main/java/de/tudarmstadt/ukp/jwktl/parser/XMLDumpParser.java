@@ -22,6 +22,8 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Stack;
+import java.util.logging.Logger;
+import javax.xml.parsers.FactoryConfigurationError;
 import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -30,6 +32,8 @@ import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
+
+import static java.util.logging.Level.WARNING;
 
 /**
  * Implementation of {@link IWiktionaryDumpParser} for processing XML files
@@ -42,7 +46,8 @@ import org.xml.sax.helpers.DefaultHandler;
  * @author Christian M. Meyer
  */
 public abstract class XMLDumpParser implements IWiktionaryDumpParser {
-	
+	private static final Logger logger = Logger.getLogger(XMLDumpParser.class.getName());
+
 	protected class XMLDumpHandler extends DefaultHandler {
 
 		protected StringBuffer contentBuffer;
@@ -160,12 +165,22 @@ public abstract class XMLDumpParser implements IWiktionaryDumpParser {
 
 	private SAXParser getParser() {
 		try {
-			SAXParserFactory factory = SAXParserFactory.newInstance();
-			return factory.newSAXParser();
+			return getParserFactory().newSAXParser();
 		} catch (ParserConfigurationException e) {
 			throw new WiktionaryException("SAX parser could not be configured", e);
 		} catch (SAXException e) {
 			throw new WiktionaryException("XML parse error", e);
+		}
+	}
+
+	private SAXParserFactory getParserFactory() {
+		try {
+			// prefer Java's built-in SAX parser over any bundled ones.
+			// See https://github.com/dkpro/dkpro-jwktl/issues/6
+			return SAXParserFactory.newInstance("com.sun.org.apache.xerces.internal.jaxp.SAXParserFactoryImpl", null);
+		} catch (FactoryConfigurationError e) {
+			logger.log(WARNING, "falling back to default SAXParserFactory", e);
+			return SAXParserFactory.newInstance();
 		}
 	}
 }
