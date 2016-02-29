@@ -47,7 +47,6 @@ public class ENEtymologyHandler extends ENBlockHandler {
 
 	@Override
 	public boolean processBody(String textLine, ParsingContext context) {
-		textLine = textLine.trim();
 		if (!textLine.isEmpty() && !textLine.startsWith("===")) {
 			contentBuffer.append(textLine);
 		}
@@ -56,7 +55,7 @@ public class ENEtymologyHandler extends ENBlockHandler {
 
 	public void fillContent(final ParsingContext context) {
 		if (!contentBuffer.toString().trim().isEmpty()) {
-			context.setEtymology(new WikiString(contentBuffer.toString()));
+			context.setEtymology(new WikiString(contentBuffer.toString().trim()));
 		} else {
 			context.setEtymology(null);
 		}

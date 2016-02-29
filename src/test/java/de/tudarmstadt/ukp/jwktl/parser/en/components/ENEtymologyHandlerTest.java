@@ -103,4 +103,30 @@ public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
 		// verb, no etymology set
 		assertNull(page.getEntry(4).getWordEtymology());
 	}
+
+	/***/
+	public void testWater() throws Exception {
+		IWiktionaryPage page = parse("water.txt");
+		IWiktionaryEntry entry;
+
+		entry = page.getEntry(0);
+		assertEquals(Language.ENGLISH, entry.getWordLanguage());
+		assertEquals(PartOfSpeech.NOUN, entry.getPartOfSpeech());
+		assertEquals("{{PIE root|en|wed}}\n" +
+			"From {{etyl|enm|en}} {{m|enm|water|sc=Latn}}, from {{etyl|ang|en}} {{m|ang|wæter||water|sc=Latn}}, from " +
+			"{{etyl|gem-pro|en}} {{m|gem-pro|*watōr||water}}, from {{etyl|ine-pro|en}} {{m|ine-pro|*wódr̥||water}}.\n" +
+			"{{rel-top|cognates}}\n" +
+			"Cognate with {{etyl|sco|-}} {{m|sco|wattir|sc=Latn}}, {{m|sco|watir||water|sc=Latn}}, " +
+			"{{etyl|frr|-}} {{m|frr|weeter||water|sc=Latn}}, {{etyl|stq|-}} {{m|stq|woater||water|sc=Latn}}, " +
+			"{{etyl|fy|-}} {{m|fy|wetter||water|sc=Latn}}, {{etyl|nl|-}} {{m|nl|water||water|sc=Latn}}, " +
+			"{{etyl|nds|-}} {{m|nds|Water||water|sc=Latn}}, {{etyl|de|-}} {{m|de|Wasser|sc=Latn}}, {{etyl|sv|-}} " +
+			"{{m|sv|vatten||water|sc=Latn}}, {{etyl|is|-}} {{m|is|vatn||water|sc=Latn}}, {{etyl|sga|-}} coin " +
+			"{{m|sga|fodorne||otters|lit=water-dogs|sc=Latn}}, {{etyl|la|-}} {{m|la|unda||wave|sc=Latn}}, " +
+			"{{etyl|lt|-}} {{m|lt|vanduõ||water|sc=Latn}}, {{etyl|ru|-}} {{m|ru|вода́||water}}, {{etyl|sq|-}} " +
+			"{{m|sq|ujë||water|sc=Latn}}, {{etyl|grc|-}} {{m|grc|ὕδωρ||water}}, {{etyl|hy|-}} {{m|hy|գետ||river}}, " +
+			"{{etyl|sa|-}} {{m|sa|उदन्|tr=udán||wave, water|sc=Deva}}, {{etyl|hit|-}} " +
+			"{{m|hit|\uD808\uDE7F\uD808\uDC00\uD808\uDEFB|wa-a-tar|sc=Xsux}}.\n" +
+			"{{rel-bottom}}",
+			entry.getWordEtymology().getText());
+	}
 }

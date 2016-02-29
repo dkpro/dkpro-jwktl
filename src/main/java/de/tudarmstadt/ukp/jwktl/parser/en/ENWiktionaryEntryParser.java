@@ -82,21 +82,14 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 	protected ParsingContext createParsingContext(final WiktionaryPage page) {
 		return new ParsingContext(page, new ENEntryFactory());
 	}
-	
-	/** Checks if it is start of new section. Symbols are =, {{, [[, but 
-	 *  neither the Wikipedia nor the translation patterns. */
+
+	/** Checks if it is start of new section. Symbols are =, [[ */
 	protected boolean isStartOfBlock(String line) {
 		line = line.trim();
 		if (line.startsWith("----")) {
 			return true;
 		}
 		if (line.startsWith("="))
-			return true;
-		if ("{{wikipedia}}".equals(line))
-			return false;
-		if (line.startsWith("{{trans") || line.startsWith("{{top") || line.startsWith("{{mid"))
-			return false;
-		if (line.startsWith("{{"))
 			return true;
 		if (line.startsWith("[[") && line.endsWith("]]"))
 			return true;

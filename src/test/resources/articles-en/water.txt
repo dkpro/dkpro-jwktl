@@ -1,0 +1,3360 @@
+{{also|wáter|wàter|wāter}}
+==English==
+{{wikipedia|dab=water (disambiguation)|water}}
+{{commons}}
+{{wikiquote}}
+{{wikiversity}}
+
+===Alternative forms===
+* [[wahter]]
+* [[wahtuh]]
+
+===Etymology===
+{{PIE root|en|wed}}
+From {{etyl|enm|en}} {{m|enm|water|sc=Latn}}, from {{etyl|ang|en}} {{m|ang|wæter||water|sc=Latn}}, from {{etyl|gem-pro|en}} {{m|gem-pro|*watōr||water}}, from {{etyl|ine-pro|en}} {{m|ine-pro|*wódr̥||water}}.
+{{rel-top|cognates}}
+Cognate with {{etyl|sco|-}} {{m|sco|wattir|sc=Latn}}, {{m|sco|watir||water|sc=Latn}}, {{etyl|frr|-}} {{m|frr|weeter||water|sc=Latn}}, {{etyl|stq|-}} {{m|stq|woater||water|sc=Latn}}, {{etyl|fy|-}} {{m|fy|wetter||water|sc=Latn}}, {{etyl|nl|-}} {{m|nl|water||water|sc=Latn}}, {{etyl|nds|-}} {{m|nds|Water||water|sc=Latn}}, {{etyl|de|-}} {{m|de|Wasser|sc=Latn}}, {{etyl|sv|-}} {{m|sv|vatten||water|sc=Latn}}, {{etyl|is|-}} {{m|is|vatn||water|sc=Latn}}, {{etyl|sga|-}} coin {{m|sga|fodorne||otters|lit=water-dogs|sc=Latn}}, {{etyl|la|-}} {{m|la|unda||wave|sc=Latn}}, {{etyl|lt|-}} {{m|lt|vanduõ||water|sc=Latn}}, {{etyl|ru|-}} {{m|ru|вода́||water}}, {{etyl|sq|-}} {{m|sq|ujë||water|sc=Latn}}, {{etyl|grc|-}} {{m|grc|ὕδωρ||water}}, {{etyl|hy|-}} {{m|hy|գետ||river}}, {{etyl|sa|-}} {{m|sa|उदन्|tr=udán||wave, water|sc=Deva}}, {{etyl|hit|-}} {{m|hit|𒉿𒀀𒋻|wa-a-tar|sc=Xsux}}.
+{{rel-bottom}}
+
+===Pronunciation===
+* {{a|RP}} {{IPA|/ˈwɔːtə(ɹ)/|[ˈwɔːtʰə(ɹ)]|lang=en}}
+* {{a|GenAm}} {{IPA|/ˈwɔtɚ/|/ˈwɑtɚ/|[ˈwɔɾɚ]|[ˈwɑɾɚ]|lang=en}}, {{enPR|wôtər|wŏtər}}
+* {{a|Philadelphia}} {{IPA|/ˈwʊtɚ/|[ˈwʊɾɚ]||lang=en}}
+* {{a|Australia}} {{IPA|/ˈwoːtə(ɹ)/|[ˈwoːɾə(ɹ)]|lang=en}}
+* {{a|New Zealand}} {{IPA|/ˈwoːtɘ(ɹ)/|lang=en}}
+* {{a|InE}} {{IPA|/ˈʋɔːtəɹ/|lang=en}}
+* {{audio|En-uk-water.ogg|Audio (UK)|lang=en}}
+* {{audio|en-us-water.ogg|Audio (US)|lang=en}}
+* {{hyphenation|wa|ter|lang=en}}
+* {{rhymes|ɔːtə(ɹ)|ɒtə(ɹ)|lang=en}}
+
+===Noun===
+[[Image:Stilles Mineralwasser.jpg|thumb|water (1,2)]]
+{{en-noun|~}}
+
+# {{label|en|uncountable}} A substance (of molecular formula H₂O) found at room temperature and pressure as a clear [[liquid]]; it is present naturally as [[rain]], and found in [[river]]s, [[lake]]s and [[sea]]s; its solid form is [[ice]] and its gaseous form is [[steam]].
+#: {{ux|en|By the action of electricity, the '''water''' was resolved into its two parts, oxygen and hydrogen.}}
+#* {{quote-magazine|year=2013|month=September-October|author=[http://www.americanscientist.org/authors/detail/katie-l-burke Katie L. Burke]
+|magazine={{w|American Scientist}}|title=[http://www.americanscientist.org/issues/pub/2013/5/in-the-news-47 In the News]
+|passage=Oxygen levels on Earth skyrocketed 2.4 billion years ago, when cyanobacteria evolved photosynthesis: the ability to convert '''water''' and carbon dioxide into carbohydrates and waste oxygen using solar energy.}}
+## {{label|en|uncountable|in particular}} The liquid form of this substance: liquid H₂O.
+##: {{ux|en|May I have a glass of '''water'''?}}
+##: {{ux|en|Your plants need more '''water'''.}}
+##* '''1835''', Sir {{w|John Ross (Arctic explorer)|John Ross}}, Sir {{w|James Clark Ross}}, ''[http://books.google.com.au/books?id=SdQBAAAAYAAJ Narrative of a Second Voyage in Search of a North-west Passage &hellip;, Volume 1]'', pp.284-5
+##*: Towards the following morning, the thermometer fell to 5&deg;; and at daylight, there was not an atom of '''water''' to be seen in any direction.
+##* '''2002''', Arthur T. Hubbard, ''Encyclopedia of Surface and Colloid Science'' (ISBN 0824707966), page 4895:
+##*: A '''water''' drop placed on the surface of ice can either spread or form a lens depending on the properties of the three phases involved in wetting, i.e., on the properties of the ice, '''water''', and gas phases.
+##* {{quote-magazine|date=2013-05-11|volume=407|issue=8835|page=80|magazine={{w|The Economist}}
+|title=[http://www.economist.com/news/science-and-technology/21577341-worlds-third-largest-area-ice-about-undergo-systematic The climate of Tibet: Pole-land]
+|passage=Of all the transitions brought about on the Earth’s surface by temperature change, the melting of ice into '''water''' is the starkest. It is binary. And for the land beneath, the air above and the life around, it changes everything.}}
+##* {{seemoreCites}}
+## {{label|en|countable}} A [[serving]] of liquid water.
+##* {{quote-book|year=2006|author=Lori Foster, Erin McCarthy, Amy Garvey|title=Bad Boys of Summer|isbn=0758209347|page=91|passage=Joe bustled back and offered her a glass of wine but she shook her head. “Just a '''water''', please.”}}
+# {{lb|en|alchemy|philosophy}} The aforementioned liquid, considered one of [[w:Classical_element|the Classical elements]] or basic elements of alchemy.
+#: {{ux|en|He showed me the river of living '''water''', sparkling like crystal, flowing from the throne of God.}}
+# {{label|en|often|in the plural}} Any body of water, or a specific part of it.
+#: {{ux|en|The boat was found in within the territorial '''waters'''.}}
+#: {{ux|en|These seals are a common sight on the coastal '''waters''' of Chile.}}
+#: {{ux|en|We had a great view of the '''waters''' of this place.}}
+#* {{quote-book|year=1526|author={{w|William Tyndale}} (tr.)|title=Bible|section={{w|Acts of the Apostles|Acts}} VIII|passage=And as they went on their waye, they cam unto a certayne '''water''', and the gelded man sayde: Se here is water, what shall lett me to be baptised?}}
+#* {{quote-book|year=1913|author={{w|Joseph C. Lincoln}}
+|title=[http://openlibrary.org/works/OL5535161W Mr. Pratt's Patients]|chapter=1
+|passage='Twas early June, the new grass was flourishing everywheres, the posies in the yard—peonies and such—in full bloom, the sun was shining, and the '''water''' of the bay was blue, with light green streaks where the shoal showed.}}
+# A combination of water and other substance(s).
+## {{label|en|sometimes|countable}} Mineral water.
+##: {{ux|en|Perrier is the most popular '''water''' in this restaurant.}}
+## {{label|en|countable|often|in the plural}} [[spa|Spa]] water.
+##: {{ux|en|Many people visit Bath to take the '''waters'''.}}
+## {{label|en|pharmacy}} A [[solution]] in water of a [[gaseous]] or readily [[volatile]] [[substance]].
+##: {{ux|en|ammonia '''water'''}}
+## [[urine|Urine]]. {{defdate|from 15th c.}}
+##* {{quote-book|year=1999|author={{w|George RR Martin}}|title=A Clash of Kings|publisher=Bantam|year_published=2011|page=458|passage=Ser Dunaver's squire Jodge could not hold his '''water''' when he slept.}}
+## [[amniotic fluid|Amniotic fluid]]; used in the plural in the UK and in singular in North America.
+##: {{ux|en|Before the child is born, the pregnant woman’s '''waters''' break.}} {{qualifier|UK}}
+##: {{ux|en|Before the child is born, the pregnant woman’s '''water''' breaks.}} {{qualifier|North America}}
+## {{label|en|colloquial|medicine}} Fluids in the body, especially when causing [[swelling]].
+##: {{ux|en|He suffers from '''water''' on the knee.}}
+# {{label|en|figuratively|in the plural|or|in the singular}} A state of affairs; conditions; usually with an adjective indicating an adverse condition.
+#: {{ux|en|The rough '''waters''' of change will bring about the calm after the storm.}}
+# {{label|en|colloquial|figuratively}} A person's [[intuition]].
+#: {{ux|en|I know he'll succeed. I feel it in my '''waters'''.}}
+# {{label|en|uncountable|dated|finance}} Excess valuation of securities.
+#* {{quote-news|title=Too Much '''Water''' to Suit Cummins|passage=Iowa Governor Will Fight Rock Island Reorganization. He Says That Under the New Plan Too Much '''Water''' Is Put Into the Stock&mdash;Believes Plan Is Out of Harmony with Iowa Laws.|work=The Atlanta Constitution|date=August 2|year=1902}}
+#* {{quote-news|title=Says Stock ''''Water'''' Didn't Affect Fare|work=New York Times|date=April 11, 1920|passage=the outstanding stock and bond obligations of the company were reduced from $34,000,000 to $24,000,000 by squeezing out the '''water'''.}}
+# The [[limpidity]] and [[lustre]] of a precious stone, especially a [[diamond]].
+#: {{ux|en|a diamond of the first '''water''', i.e. one that is perfectly pure and transparent}}
+# A [[wavy]], [[lustrous]] pattern or decoration such as is imparted to [[linen]], [[silk]], [[metal]]s, etc.
+
+====Synonyms====
+* See also [[Wikisaurus:water]]
+* See also [[Wikisaurus:urine]]
+
+====Antonyms====
+* {{sense|liquid H₂O}} [[ice]], [[steam]], [[water vapor]]/[[water vapour]]
+* {{sense|basic elements}} [[earth]], [[air]]/[[wind]], [[fire]]; [[wood]], [[metal]]; [[void]]/[[ether]]
+
+====Hypernyms====
+* {{sense|chemical having the formula H₂O}} [[chemical]], [[substance]]
+* {{sense|liquid H₂O}} [[liquid]], [[fluid]]
+* {{sense|basic elements}} [[element]]
+* {{sense|urine}} [[body fluid]], [[bodily fluid]], [[biofluid]]
+
+====Hyponyms====
+* {{sense|chemical having the formula H₂O}} [[ammonia-water]], [[heavy water]]; [[ice]], [[steam]], [[water vapor]]/[[water vapour]]
+* {{sense|liquid H₂O}} [[mineral water]]; [[hard water]], [[soft water]]
+
+====Meronyms====
+* {{sense|chemical having the formula H₂O}} [[hydrogen]], [[oxygen]]
+
+====Derived terms====
+{{rel-top4|Terms derived from the noun ''water''}}
+* {{l|en|above water}}
+* {{l|en|American water spaniel}}
+* {{l|en|ammonia water}}
+* {{l|en|antiwater}}
+* {{l|en|artesian water}}
+* {{l|en|backwater}}, {{l|en|back water}}, {{l|en|back-water}}
+* {{l|en|barley water}}, {{l|en|barley-water}}
+* {{l|en|bathwater}}
+* {{l|en|bilgewater}}
+* {{l|en|black water}}, {{l|en|blackwater}}
+* {{l|en|black-water rafting}}
+* {{l|en|blood in the water}}
+* {{l|en|blood is thicker than water}}
+* {{l|en|blow someone out of the water}}
+* {{l|en|blue water}}, {{l|en|bluewater}}, {{l|en|blue-water}}
+* {{l|en|body of water}}
+* {{l|en|bongwater}}
+* {{l|en|bottled water}}
+* {{l|en|bound water}}
+* {{l|en|brackishwater}}
+* {{l|en|branch water}}
+* {{l|en|bread and water}}
+* {{l|en|break water}}, {{l|en|breakwater}}
+* {{l|en|carbonated water}}
+* {{l|en|carry someone's water}}
+* {{l|en|carry water for}}
+* {{l|en|casual water}}
+* {{l|en|catchwater}}
+* {{l|en|chlorine water}}
+* {{l|en|coastal waters}}
+* {{l|en|cold-water}}, {{l|en|cold water}}
+* {{l|en|come hell or high water}}
+* {{l|en|creekwater}}
+* {{l|en|cutwater}}
+* {{l|en|dead in the water}}
+* {{l|en|dead water}}
+* {{l|en|deep water}}, {{l|en|deep-water}}, {{l|en|deepwater}}
+* {{l|en|dew water}}, {{l|en|dewwater}}
+* {{l|en|dishwater}}
+* {{l|en|distilled water}}
+* {{l|en|ditchwater}}
+* {{l|en|doesn't have both oars in the water}}
+* {{l|en|domestic hot water}}
+* {{l|en|doubly labeled water}}
+* {{l|en|drinking water}}
+* {{l|en|European water vole}}
+* {{l|en|eyewater}}
+* {{l|en|fairwater}}
+* {{l|en|feedwater}}
+* {{l|en|firewater}}
+* {{l|en|first water}}
+* {{l|en|fish out of water}}
+* {{l|en|flatwater}}
+* {{l|en|floodwater}}
+* {{l|en|flower water}}
+* {{l|en|formation water}}
+* {{l|en|fossil water}}
+* {{l|en|fountain water}}, {{l|en|fountainwater}}
+* {{l|en|free water}}
+* {{l|en|fresh water}}
+* {{l|en|freshwater}}, {{l|en|fresh-water}}
+* {{l|en|giant water bug}}
+* {{l|en|glass water}}
+* {{l|en|gray water}}, {{l|en|grey water}}, {{l|en|graywater}}, {{l|en|greywater}}
+* {{l|en|green water}}
+* {{l|en|gripe water}}
+* {{l|en|ground water}}, {{l|en|groundwater}}
+* {{l|en|gypwater}}
+* {{l|en|hard water}}
+* {{l|en|headwater}}
+* {{l|en|heavy water}}
+* {{l|en|hexagonal water}}
+* {{l|en|holy water}}
+* {{l|en|hot water heater}}
+* {{l|en|hell or high water}}
+* {{l|en|high-water}}
+* {{l|en|high water}}, {{l|en|highwater}}
+* {{l|en|high-water mark}}
+* {{l|en|hold one's water}}
+* {{l|en|hold water}}
+* {{l|en|holy water}}
+* {{l|en|hot water}}
+* {{l|en|hot water bottle}}
+* {{l|en|ice water}}
+* {{l|en|international waters}}
+* {{l|en|Irish water spaniel}}
+* {{l|en|Javelle water}}
+* {{l|en|jerk water}}, {{l|en|jerk-water}}, {{l|en|jerkwater}}
+* {{l|en|juvenile water}}
+* {{l|en|keep one's head above water}}
+* {{l|en|lakewater}}
+* {{l|en|large-headed water snake}}
+* {{l|en|laurel water}}
+* {{l|en|light water}}
+* {{l|en|like water}}
+* {{l|en|like a duck takes to water}}
+* {{l|en|like water off a duck's back}}
+* {{l|en|lime water}}, {{l|en|limewater}}
+* {{l|en|lithia water}}
+* {{l|en|long drink of water}}
+* {{l|en|low water}}
+* {{l|en|make water}}
+* {{l|en|meltwater}}
+* {{l|en|meteoric water}}
+* {{l|en|midwater}}
+* {{l|en|milk-and-water}}
+* {{l|en|mineral water}}
+* {{l|en|mop water}}, {{l|en|mopwater}}
+* {{l|en|mud water}}, {{l|en|mudwater}}
+* {{l|en|napha water}}
+{{rel-mid4}}
+* {{l|en|nonwater}}
+* {{l|en|oceanwater}}
+* {{l|en|open water}}
+* {{l|en|overwater}}
+* {{l|en|pass water}}
+* {{l|en|personal water craft}}
+* {{l|en|piss water}}, {{l|en|pisswater}}
+* {{l|en|polywater}}
+* {{l|en|pomewater}}
+* {{l|en|pondwater}}
+* {{l|en|poolwater}}
+* {{l|en|porewater}}
+* {{l|en|Portuguese Water Dog}}
+* {{l|en|precipitable water}}
+* {{l|en|process hot water}}
+* {{l|en|produced water}}
+* {{l|en|quarry water}}
+* {{l|en|quinine water}}
+* {{l|en|rainwater}}
+* {{l|en|red water}}, {{l|en|redwater}}
+* {{l|en|reticulated water}}
+* {{l|en|rice water}}
+* {{l|en|rose water}}, {{l|en|rosewater}}
+* {{l|en|running water}}
+* {{l|en|salt water}}
+* {{l|en|sea water}}, {{l|en|seawater}}
+* {{l|en|seltzer water}}
+* {{l|en|semi-heavy water}}, {{l|en|semiheavy water}}
+* {{l|en|semiwater}}
+* {{l|en|shearwater}}, {{l|en|sheerwater}}
+* {{l|en|sinkwater}}
+* {{l|en|slack water}}
+* {{l|en|slickwater}}
+* {{l|en|smell blood in the water}}
+* {{l|en|soda water}}
+* {{l|en|soft water}}, {{l|en|softwater}}
+* {{l|en|sparkling water}}
+* {{l|en|spring water}}, {{l|en|spring-water}}, {{l|en|springwater}}
+* {{l|en|spurnwater}}
+* {{l|en|still water}}
+* {{l|en|still water runs deep}}
+* {{l|en|stormwater}}
+* {{l|en|streamwater}}
+* {{l|en|strong-water}}
+* {{l|en|sugar water}}, {{l|en|sugar-water}}
+* {{l|en|super-heavy water}}
+* {{l|en|surface water}}
+* {{l|en|surfeit water}}
+* {{l|en|sweetwater}}, {{l|en|sweet water}}
+* {{l|en|tailwater}}
+* {{l|en|tall drink of water}}
+* {{l|en|tap water}}
+* {{l|en|territorial waters}}
+* {{l|en|test the waters}}, {{l|en|test the water}}
+* {{l|en|throw cold water on}}
+* {{l|en|tidewater}}
+* {{l|en|tobacco water}}
+* {{l|en|toilet water}}
+* {{l|en|tonic water}}
+* {{l|en|topwater}}
+* {{l|en|tread water}}
+* {{l|en|tritiated water}}
+* {{l|en|uncharted water}}
+* {{l|en|under water}}, {{l|en|underwater}}
+* {{l|en|Vichy water}}
+* {{l|en|Vienna Standard Mean Ocean Water}}
+* {{l|en|walk on water}}
+* {{l|en|waste water}}, {{l|en|wastewater}}
+* {{l|en|water's edge}}
+* {{l|en|water aerobics}}
+* {{l|en|waterage}}
+* {{l|en|water bag}}
+* {{l|en|water bailiff}}
+* {{l|en|water balance}}
+* {{l|en|water ballet}}
+* {{l|en|water balloon}}
+* {{l|en|water-based}}, {{l|en|waterbased}}
+* {{l|en|water bath}}
+* {{l|en|water bear}}
+* {{l|en|Water Bearer}}
+* {{l|en|water bed}}, {{l|en|water-bed}}, {{l|en|waterbed}}
+* {{l|en|water beetle}}
+* {{l|en|waterbike}}
+* {{l|en|waterbird}}
+* {{l|en|water birth}}
+* {{l|en|water biscuit}}
+* {{l|en|water blister}}
+* {{l|en|water-blob}}
+* {{l|en|water bloom}}
+* {{l|en|waterboard}}
+* {{l|en|water boatman}}
+* {{l|en|water boiler}}, {{l|en|waterboiler}}
+* {{l|en|waterbok}}
+* {{l|en|waterbomb}}
+* {{l|en|water bomber}}
+* {{l|en|waterborne}}
+* {{l|en|water bottle}}, {{l|en|waterbottle}}
+* {{l|en|water boy}}, {{l|en|waterboy}}
+* {{l|en|water break}}
+* {{l|en|waterbuck}}
+* {{l|en|water buffalo}}, {{l|en|water-buffalo}}
+* {{l|en|water bug}}, {{l|en|waterbug}}
+* {{l|en|water bus}}, {{l|en|waterbus}}
+* {{l|en|water butt}}
+* {{l|en|water can}}
+* {{l|en|water cannon}}
+* {{l|en|water carriage}}
+* {{l|en|water cavy}}
+* {{l|en|water chestnut}}
+{{rel-mid4}}
+* {{l|en|water chicken}}
+* {{l|en|watercise}}
+* {{l|en|water clock}}, {{l|en|waterclock}}
+* {{l|en|water closet}}
+* {{l|en|watercoaster}}
+* {{l|en|watercock}}
+* {{l|en|watercolour}}, {{l|en|watercolor}}
+* {{l|en|water column}}
+* {{l|en|water content}}
+* {{l|en|water cooler}}, {{l|en|watercooler}}
+* {{l|en|watercourse}}
+* {{l|en|watercraft}}
+* {{l|en|watercress}}
+* {{l|en|water crow}}
+* {{l|en|water cure}}
+* {{l|en|water cycle}}
+* {{l|en|water devil}}
+* {{l|en|water diviner}}
+* {{l|en|water doctor}}
+* {{l|en|water dog}}
+* {{l|en|water down}}
+* {{l|en|waterdrop}}
+* {{l|en|water dropwort}}
+* {{l|en|water dumping}}
+* {{l|en|water elephant}}
+* {{l|en|water engine}}
+* {{l|en|water equivalent}}
+* {{l|en|waterfall}}
+* {{l|en|water feature}}
+* {{l|en|water fight}}, {{l|en|waterfight}}
+* {{l|en|water flag}}
+* {{l|en|water flea}}
+* {{l|en|waterflood}}
+* {{l|en|water fountain}}
+* {{l|en|water fowl}}, {{l|en|waterfowl}}
+* {{l|en|waterfowler}}
+* {{l|en|waterfowling}}
+* {{l|en|water frame}}
+* {{l|en|waterfree}}
+* {{l|en|waterfront}}
+* {{l|en|waterful}}
+* {{l|en|water gap}}
+* {{l|en|water garden}}
+* {{l|en|water gas}}
+* {{l|en|water gate}}, {{l|en|watergate}}
+* {{l|en|water gauge}}
+* {{l|en|water glass}}
+* {{l|en|water gruel}}
+* {{l|en|water gun}}
+* {{l|en|water hammer}}
+* {{l|en|water hardness}}
+* {{l|en|water haul}}
+* {{l|en|water heater}}
+* {{l|en|water hemlock}}
+* {{l|en|water hen}}, {{l|en|waterhen}}
+* {{l|en|waterhole}}, {{l|en|water-hole}}, {{l|en|water hole}}
+* {{l|en|water horse}}, {{l|en|waterhorse}}
+* {{l|en|water horsetail}}
+* {{l|en|water hyacinth}}
+* {{l|en|water ice}}
+* {{l|en|water injection}}
+* {{l|en|water intoxication}}
+* {{l|en|waterish}}
+* {{l|en|water jacket}}
+* {{l|en|water joint}}
+* {{l|en|waterjug}}
+* {{l|en|water jump}}
+* {{l|en|waterkeeper}}
+* {{l|en|water key}}
+* {{l|en|water knot}}
+* {{l|en|water landing}}
+* {{l|en|water law}}
+* {{l|en|waterleaf}}
+* {{l|en|waterless}}
+* {{l|en|water lettuce}}, {{l|en|water-lettuce}}
+* {{l|en|water level}}
+* {{l|en|waterlike}}
+* {{l|en|water lily}}, {{l|en|waterlily}}
+* {{l|en|water line}}, {{l|en|waterline}}
+* {{l|en|water-line model}}
+* {{l|en|water locust}}
+* {{l|en|waterlog}}
+* {{l|en|waterlogged}}
+* {{l|en|waterly}}
+* {{l|en|water main}}
+* {{l|en|watermaker}}
+* {{l|en|waterman}}
+* {{l|en|watermanship}}
+* {{l|en|watermark}}
+* {{l|en|watermaster}}
+* {{l|en|water-meadow}}, {{l|en|water meadow}}
+* {{l|en|water memory}}
+* {{l|en|water meter}}
+* {{l|en|watermelon}}
+* {{l|en|water milfoil}}, {{l|en|watermilfoil}}
+* {{l|en|water mill}}
+* {{l|en|water mint}}
+* {{l|en|water mocassin}}
+* {{l|en|water mold}}
+* {{l|en|water monitor}}
+* {{l|en|water mouse}}
+* {{l|en|waterness}}
+* {{l|en|water oak}}
+* {{l|en|water of crystallisation}}, {{l|en|water of crystallization}}
+* {{l|en|water of hydration}}
+* {{l|en|water on the brain}}
+* {{l|en|water on the knee}}
+* {{l|en|water opossum}}
+{{rel-mid4}}
+* {{l|en|water organ}}
+* {{l|en|water ouzel}}
+* {{l|en|water over the dam}}
+* {{l|en|water park}}, {{l|en|waterpark}}
+* {{l|en|water parting}}
+* {{l|en|water pepper}}
+* {{l|en|water-permeable}}
+* {{l|en|water pick}}
+* {{l|en|water pig}}
+* {{l|en|water pill}}
+* {{l|en|water pillar}}
+* {{l|en|water pimpernel}}
+* {{l|en|water pipe}}, {{l|en|waterpipe}}
+* {{l|en|water pipit}}
+* {{l|en|water pistol}}
+* {{l|en|waterplane}}
+* {{l|en|water plantain}}
+* {{l|en|water plate}}
+* {{l|en|waterplay}}
+* {{l|en|water poisoning}}
+* {{l|en|water police}}
+* {{l|en|water pollution}}
+* {{l|en|water polo}}
+* {{l|en|waterpot}}
+* {{l|en|water potential}}
+* {{l|en|water power}}, {{l|en|waterpower}}
+* {{l|en|water pox}}
+* {{l|en|water privilege}}
+* {{l|en|waterproof}}
+* {{l|en|waterproofed}}
+* {{l|en|waterquake}}
+* {{l|en|water rail}}
+* {{l|en|water rat}}
+* {{l|en|water-repellent}}
+* {{l|en|water-resistant}}
+* {{l|en|water right}}
+* {{l|en|water rocket}}
+* {{l|en|Waters}}
+* {{l|en|water sapphire}}
+* {{l|en|waterscape}}
+* {{l|en|water scorpion}}
+* {{l|en|watershed}}, {{l|en|water-shed}}
+* {{l|en|watersheep}}
+* {{l|en|water shield}}
+* {{l|en|watershoot}}
+* {{l|en|water shrew}}
+* {{l|en|waterside}}
+* {{l|en|water sign}}
+* {{l|en|water ski}}, {{l|en|water-ski}}, {{l|en|waterski}}
+* {{l|en|water-skier}}
+* {{l|en|water skiing}}, {{l|en|water-skiing}}, {{l|en|waterskiing}}
+* {{l|en|waterskin}}
+* {{l|en|water-slickened}}
+* {{l|en|waterslide}}, {{l|en|water slide}}
+* {{l|en|water snake}}
+* {{l|en|water-soak}}
+* {{l|en|watersoaked}}
+* {{l|en|water softener}}
+* {{l|en|water softening}}
+* {{l|en|water-soluble}}
+* {{l|en|water souchy}}
+* {{l|en|water spaniel}}
+* {{l|en|water speedwell}}
+* {{l|en|water spider}}
+* {{l|en|water spinach}}
+* {{l|en|water sport}}, {{l|en|watersport}}
+* {{l|en|water spot}}
+* {{l|en|waterspout}}
+* {{l|en|water sprout}}
+* {{l|en|waterstained}}
+* {{l|en|water stop}}
+* {{l|en|water strider}}
+* {{l|en|waterstuff}}
+* {{l|en|water supply}}
+* {{l|en|water table}}
+* {{l|en|water tap}}
+* {{l|en|water taxi}}
+* {{l|en|waterthrush}}
+* {{l|en|water tick}}
+* {{l|en|watertight}}
+* {{l|en|water to my mill}}
+* {{l|en|water tower}}
+* {{l|en|water tunnel}}
+* {{l|en|water turbine}}
+* {{l|en|water turkey}}
+* {{l|en|water under the bridge}}
+* {{l|en|water vapor}}, {{l|en|water-vapor}}
+* {{l|en|water vapor pressure}}
+* {{l|en|water-vascular system}}
+* {{l|en|water vole}}
+* {{l|en|water wagon}}
+* {{l|en|waterward}}
+* {{l|en|waterway}}
+* {{l|en|waterweed}}
+* {{l|en|water wheel}}, {{l|en|waterwheel}}
+* {{l|en|water white}}
+* {{l|en|water willow}}
+* {{l|en|water wings}}
+* {{l|en|water witch}}
+* {{l|en|water witcher}}
+* {{l|en|water witching}}
+* {{l|en|waterworks}}, {{l|en|water works}}
+* {{l|en|waterworn}}
+* {{l|en|waterwort}}
+* {{l|en|watery}}
+* {{l|en|water year}}
+* {{l|en|waterzooi}}
+* {{l|en|white water}}, {{l|en|whitewater}}
+* {{l|en|you can lead a horse to water but you can't make him drink}}
+* {{l|en|Ziegler's Water Rat}}
+* {{l|en|ziment water}}
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|clear liquid H₂O}}
+* A'tong: {{t|aot|tyi}}
+* A-Pucikwar: {{t-simple|apq|ino}}
+* Aari: {{t-simple|aiw|noqá}}
+* Aasax: {{t-simple|aas|maʔa}}
+* Aba: {{t|utp|nie}}
+* Abanyom: {{t|abm|àláp}}
+* Abau: {{t-simple|aau|hu}}
+* Abaza: {{t|abq|дзы}}
+* Abenaki: {{t-simple|abe|nebi}}
+* Abenlen Ayta: {{t|abp|lanom}}
+* Abidji: {{t|abi|mídí}}
+* Abinomn: {{t-needed|bsa}}
+* Abipon: {{t|axb|enaRap}}
+* Abishira: {{t-needed|ash}}
+* Abkhaz: {{t|ab|аӡы}}
+* Abron: {{t-simple|abr|enzuo}}
+* Abu: {{t-needed|ado}}
+* Abua: {{t-simple|abn|ə̀mùum}}
+* Abui: {{t-simple|abz|ya}}
+* Abun: {{t-simple|kgr|syur}}
+* Abung: {{t|abl|wɑy}} ({{t|abl|way}})
+* Abure: {{t|abu|nshüe}}
+* Abé: {{t|aba|megyi}}
+* Acatepec Me'phaa: {{t|tpx|ijaʔ}}
+* Acehnese: {{t-simple|ace|ie}}
+* Achagua: {{t|aca|ʃiátai}}
+* Acholi: {{t-simple|ach|pii}}
+* Achuar: {{t-simple|acu|yumi}} {{qualifier|from the sky, i.e. rainwater}}, {{t-simple|acu|entza}} {{qualifier|from the earth, e.g. from a river}}
+* Adangme: {{t-simple|ada|nyu}}
+* Adi: {{t-simple|adi|asi}}
+* Adioukrou: {{t-simple|adj|mídʒ̀}}
+* Adnyamathanha: {{t-simple|adt|awi}}
+* Adyghe: {{t|ady|псы}}
+* Adzera: {{t-simple|adz|mpui}}
+* Afade: {{t-simple|aal|ame}}
+* Afar: {{t-simple|aa|lee}}
+* Afrikaans: {{t-simple|af|water}}
+* Aghu Tharrnggala: {{t-needed|gtu}}
+* Aghul: {{t|agx|хьед|tr=h'ed|sc=Cyrl}}
+* Aguaruna: {{t-simple|agr|yumi}}
+* Ahtna: {{t-simple|aht|tuu}}
+* Ahwai: {{t-simple|nfd|mákúrì}}
+* Aikanã: {{t|tba|ha'ne}}
+* Ainu: {{t|ain|ワッカ|tr=wakka|sc=Kana}}
+* Airoran: {{t-needed|air}}
+* Aiwoo: {{t-simple|nfl|nuwoi}}
+* Ak: {{t-needed|akq}}
+* Aka-Bo: {{t-simple|akm|ena}}
+* Akan: {{t|ak|nsu|alt=ǹsú, nsu}}
+* Akawaio: {{t-simple|ake|tuna}}
+* Ake: {{t-simple|aik|ímbì}}
+* Akha: {{t|ahk||tr=iː˥˥ tɕuː˨˩}}
+* Akhvakh: {{t|akv|лълъени|tr=l"l"eni|sc=Cyrl}}
+* Akkadian: {{t|akk|𒀀|tr=mû|sc=Xsux}}
+* Akkala Sami: {{t-simple|sia|čāc}}
+* Aklanon: {{t-simple|akl|tubi}}
+* Akoose: {{t-simple|bss|mendíb}}
+* Akpes: {{t-simple|ibe|ayi}}
+* Akrukay: {{t-needed|afi}}
+* Akuntsu: {{t|aqz|i'ni}}
+* Alaba: {{t-simple|alw|waa}}
+* Alabama: {{t-simple|akz|oki}}
+* Alamblak: {{t-simple|amp|bupam}}
+* Albanian:
+*: Tosk: {{t+|sq|ujë|m}}
+*: Gheg: {{t|aln|ujë|m}}
+* Alekano: {{t-simple|gah|nagamiq}}
+* Alemannic German: {{t|gsw|Wasser|n}}
+* Aleut: {{t-simple|ale|taangax̂}}
+* Algonquin: {{t-simple|alq|nibì}}
+* Alladian: {{t|ald|isi}}, {{t|ald|ishi}}
+* Alsea: {{t-simple|aes|kilu}}
+* Alumu-Tesu: {{t-simple|aab|ə̀mù}}
+* Alune: {{t-simple|alp|kwele}}
+* Alutor: {{t|alr|мимыл|tr=mimyl|sc=Cyrl}}
+* Alviri-Vidari: {{t|avd|او|tr=ov|sc=fa-Arab}} {{qualifier|Vidari}}
+* Ama: {{t-simple|amm|iwo}}
+* Amahai: {{t-simple|amq|aelo}}
+* Amahuaca: {{t-simple|amc|junu}}
+* Amanab: {{t-simple|amn|bu}}
+* Amara: {{t-simple|aie|eiki}}
+* Amarakaeri: {{t-simple|amr|hue̱'e̱y}}
+* Amatlán Zapotec: {{t-simple|zpo|nis}}
+* Ambai: {{t-simple|amk|mereha}}
+* Ambulas: {{t-simple|abt|gu}}
+* Amdang: {{t-simple|amj|engi}}
+* American Sign Language: {{t-simple|ase|6@Chin}}
+* Amharic: {{t|am|ውሃ}}
+* Ami: {{t-simple|amy|wuta}}
+* Amis: {{t-simple|ami|nanom}}
+* Amuzgo: {{t|amu|ndaatio}}
+* Ana Tinga Dogon: {{t-simple|dti|inji}}
+* Andegerebinha: {{t-needed|adg}}
+* Andi: {{t|ani|лъен|tr=l"en|sc=Cyrl}}
+* Aneityum: {{t-simple|aty|inwai}}
+* Angaataha: {{t-simple|agm|wapo'o}}
+* Angami: {{t-simple|njm|dzü}}
+* Angas: {{t-simple|anc|am}}
+* Angolar: {{t-simple|aoa|awa}}
+* Angor: {{t-simple|agg|hoe}}
+* Angoram: {{t-simple|aog|alɨm}}
+* Ankave: {{t-simple|aak|a´waxᵻ´}}, {{t-simple|aak|iniᵻgᵻ´}}
+* Anmatyerre: {{t|amx|kwatye}}
+* Annobonese: {{t-simple|fab|aua}}
+* Anong: {{t-simple|nun|thi}}
+* Ansus: {{t-simple|and|maria}}
+* Antigua and Barbuda Creole English: {{t|aig|waata}}
+* Antillean Creole: {{t-simple|gcf|dlo}}
+* Anuta: {{t-simple|aud|vai}}
+* Ao: {{t-simple|njo|tzü}}
+* Apache:
+*: Western Apache: {{t|apw|tū}}
+* Apalaí: {{t-simple|apy|paru}}
+* Apatani: {{t-simple|apt|yasi}}
+* Apinayé: {{t-simple|apn|gô}}
+* Apma: {{t-simple|app|sileng}}
+* Apurinã: {{t|apu|ĩ}}
+* Arabela: {{t-simple|arl|mohuaca}}
+* Arabic: {{t+|ar|مَاء|m}}
+*: Algerian: {{t|arq|ما|tr=mā|sc=Arab}}
+*: Andalusian: {{t|xaa|ما|tr=mā|sc=Arab}}
+*: Bahrani: {{t|abv|مي|tr=me|sc=Arab}}
+*: Chadian: {{t|shu|المي|tr=almi|sc=Arab}}
+*: Egyptian: {{t|arz|مية|f|tr=máyya|sc=Arab}}, {{t|arz|امبو|tr=ʾumbū|sc=Arab}}
+*: Gulf: {{t|afb|ماي|tr=māy|sc=Arab}}
+*: Hassaniya: {{t|mey|ما|tr=ma}}
+*: Hijazi: {{t|acw|موية|tr=mōya|sc=Arab}}
+*: Iraqi: {{t|acm|ماي|tr=māy|sc=Arab}}
+*: Lebanese: {{t|apc|ماي|m|tr=māy|sc=Arab}}
+*: Libyan: {{t|ayl|مي|tr=me|sc=Arab}}, {{t|ayl|مياه|tr=mmayya|sc=Arab}}
+*: Moroccan: {{t|ary|ما|m|tr=mâ|sc=Arab}}
+*: Najdi: {{t|ary|موية|m|tr=mōya|sc=Arab}}
+*: Sudanese: {{t|apd|موية|tr=mōya|sc=Arab}}
+* Aragonese: {{t-simple|an|aigua}}, {{t-simple|an|augua}}
+* Araki: {{t-simple|akr|ai}}
+* Aramaic:
+*: Hebrew: {{t|arc|מַיָּא|m-p|tr=mayyā|sc=Hebr}}
+*: Syriac: {{t|arc|ܡܝܐ|m-p|alt=ܡܝ̈ܐ|tr=mayyā|sc=Syrc}}
+* Arammba: {{t-needed|stk}}
+* Aranadan: {{t-simple|aaf|beḷḷẽ}}
+* Araona: {{t-simple|aro|eowi}}
+* Arapaho: {{t-simple|arp|nec}}, {{t-simple|arp|néč}}
+* Arbore: {{t-simple|arv|biče}}
+* Archi: {{t|aqc|лъан|tr=ɬ:an|sc=Cyrl}}
+* 'Are'are: {{t-simple|alu|wai}}
+* Arhuaco: {{t|arh|dže}}
+* Arikara: {{t|ari|ts-}}, {{t|ari|tstoóxu'}}
+* Arin: {{t-simple|xrn|kul}}
+* Armenian: {{t+|hy|ջուր}}
+* Aromanian: {{t-simple|rup|apã}}
+* Arosi: {{t-simple|aia|wai}}
+* Ashe: {{t-simple|ahs|àmɛ̀ɛ̀}}
+* Ashkun: {{t-simple|ask|âbo}}
+* Asháninka: {{t-simple|cni|nija}}
+* Ashéninka Perené: {{t|prq|nihaa}}
+* Assamese: {{t|as|জন|sc=Beng}}
+* Assan: {{t-simple|xss|ul}}
+* Assangori: {{t|sjg|kal}}
+* Assiniboine: {{t|asb|miní}}
+* Asturian: {{t-simple|ast|agua}}
+* Atakapa: {{t-simple|aqp|kakau}}
+* Atayal: {{t-simple|tay|usiak}}
+* Athpare: {{t-simple|aph|cwa}}
+* Atikamekw: {{t-simple|atj|nipi}}
+* Attié: {{t|ati|sũ}}
+* Augila: {{t-simple|auj|imin}}
+* Auhelawa: {{t-simple|kud|we'aha}}
+* Aukan: {{t-simple|djk|wataa}}
+* Australian Manda: {{t-simple|zma|wuta}}
+* Auyana: {{t-simple|auy|nomba}}
+* Avar: {{t|av|лъим|sc=Cyrl}}
+* Avestan: {{t|ae|𐬀𐬞|tr=ap|sc=Avst}}
+* Awa-Cuaiquer: {{t-simple|kwi|kwazi}}
+* Awabakal: {{t-simple|awk|bato}}, {{t-simple|awk|kokoin}}, {{t-simple|awk|yarro}}
+* Awadhi: {{t|awa|पानी|tr=pānī|sc=Deva}}
+* Avikam: {{t|avi|esõ}}
+* Awa (New Guinea): {{t-simple|awb|no}}
+* Awetí: {{t|awe|'y}}
+* Awngi: {{t|awn|ኣኹ|tr=aɢu|sc=Ethi}}
+* Ayere: {{t-simple|aye|oyin}}
+* Aymara: {{t-simple|ay|uma}}
+* Aynu: {{t-simple|aib|ab}}
+* Ayu: {{t-simple|ayu|mayír}}
+* Ayutla Mixtec: {{t|miy|ti̱kui}}
+* Azeri: {{t-simple|az|su}}
+* Azoyú Me'phaa: {{t|tpc|ijaʔ}}
+* Baagandji: {{t-simple|drl|ngugu}}
+* Baan: {{t-simple|bvj|mṹṹ}}
+* Babungo: {{t-simple|bav|múu}}
+* Babuza: {{t-simple|bzg|to}}, {{t-simple|bzg|dalom}}
+* Bactrian: {{t|xbc|αββο}}
+* Badaga: {{t|bfq|நீரு|tr=nīru|sc=Taml}}
+* Bade: {{t-simple|bde|amun}}
+* Bafanji: {{t-simple|bfj|ŋki}}
+* Bafut: {{t-simple|bfd|ŋki}}
+* Bagirmi: {{t-simple|bmi|man}}
+* Bagvalal: {{t|kva|лълъен|alt=лълъе̄ᵸ|tr=l"l"ēⁿ|sc=Cyrl}}
+* Bahnar: {{t-simple|bdq|ɗaːk}}
+* Bakhtiari: {{t|bqi|او|tr=aw|sc=fa-Arab}}
+* Baldemu: {{t-simple|bdn|yàmàsí'}}
+* Balinese: {{t-simple|ban|yeh}}
+* Balti: {{t|bft|ཆུ|tr=chu|sc=Tibt}}
+* Baluan-Pam: {{t-simple|blq|wei}}
+* Baluchi: {{t|bal|آپ|tr=áp|sc=fa-Arab}}
+* Bambara: {{t-simple|bm|ji}}
+* Bana: {{t-simple|bcw|yàm}}
+* Banda-Bambari: {{t-simple|liy|ngungu}}
+* Bandi: {{t-simple|bza|nja}}
+* Bangala: {{t-simple|bxg|mái}}, {{t-simple|bxg|maliɓa}}
+* Bangi: {{t-simple|bni|mai}}
+* Bangi Me: {{t-simple|dba|ʋye}}
+* Baniwa: {{t-simple|bwi|uni}}
+* Banjarese: {{t-simple|bjn|banyu}}
+* Bankagooma: {{t-simple|bxw|žo}}
+* Bantik: {{t-simple|bnq|ake}}
+* Barai: {{t-simple|bbb|do}}
+* Barasana: {{t-simple|bsn|oko}}
+* Barein: {{t-simple|bva|amí}}
+* Bariai: {{t-simple|bch|eau}}
+* Barrow Point: {{t-needed|bpt}}
+* Baruya: {{t-simple|byr|aalya}}
+* Barí: {{t|mot|ʃimənə}}
+* Basa: {{t-simple|bzw|mèni}}
+* Basaa: {{t-simple|bas|malép}}
+* Basay: {{t|byq|nanom}}
+* Bashkir: {{t|ba|һыу}}
+* Basketo: {{t-simple|bst|watsi}}
+* Basque: {{t-simple|eu|ur}}
+* Batad Ifugao: {{t|ifb|danum|alt=danúm}}
+* Bats: {{t|bbl|ხი}}
+* Batu: {{t|btu|mbígə̄m}} {{qualifier|Kamino}}, {{t|btu|ḿbígə́m̄}} {{qualifier|Afi}}, {{t|btu|ḿgórɔ̄}} {{qualifier|Afi}}
+* Baure: {{t-simple|brg|in}}
+* Bauro: {{t|bxa|bei}}
+* Bavarian: {{t-simple|bar|Wossa}}
+* Beaver: {{t-simple|bea|chuu}}
+* Bebe: {{t-simple|bzv|ngwí}}
+* Beja: {{t|bej|يم|alt=يَم|tr=yam|sc=Arab}}
+* Belarusian: {{t+|be|вада́|f}}
+* Belize Kriol English: {{t-simple|bzj|waata}}
+* Bemba: {{t-simple|bem|amenshi}}
+* Benabena: {{t-simple|bef|nagami}}
+* Bench: {{t-simple|bcq|so3}}<!--or "soʔ"?-->
+* Bende: {{t-simple|bdp|mansi}}
+* Beng: {{t-simple|nhb|yí}}
+* Bengali: {{t|bn|জল|tr=jal|sc=Beng}}, {{t+|bn|পানি|tr=pāni|sc=Beng}}
+* Beothuk: {{t-simple|bue|ebanthoo}}, {{t-simple|bue|ebadoe}}
+* Berbice Creole Dutch: {{t-simple|brc|minggi}}
+* Berom: {{t-simple|bom|nshí}}
+* Berti: {{t-simple|byt|mi}}
+* Bezhta: {{t|kap|лъи|tr=l"i|sc=Cyrl}}
+* Bhojpuri: {{t|bho|पानी|tr=pānī|sc=Deva}}
+* Biak: {{t-simple|bhw|u'ar}}
+* Bibaali: {{t-simple|bcn|mí}}
+* Biem: {{t-simple|bmc|dan}}
+* Big Nambas: {{t-simple|nmb|nauei}}
+* Bihari: {{t|bh|पानी|tr=pānī|sc=Deva}}
+* Bikol Central: {{t-simple|bcl|tubig}}
+* Biloxi: {{t|bll|ani}}
+* Bilua: {{t|blb|ju}}
+* Bima: {{t|bhp|oi}}
+* Bipi: {{t|biq|xan}} {{qualifier|fresh water}}
+* Birgit: {{t-simple|btf|ami}}
+* Biseni: {{t-simple|ije|miní}}
+* Bishnupriya Manipuri: {{t|bpy|পানি|tr=pāni|sc=Beng}}
+* Bislama: {{t-simple|bi|wota}}
+* Biwat: {{t-needed|bwm}}
+* Blackfoot: {{t-simple|bla|aohkíí}}, {{t-simple|bla|aohkííyi}}
+* Bo-Rukul: {{t-simple|mae|imal}}
+* Bodo (India): {{t-simple|brx|dwi}}
+* Boghom: {{t-simple|bux|yip}}
+* Boko: {{t-simple|bqc|í}}
+* Bokobaru: {{t-simple|bus|í}}
+* Bole: {{t|bol|amma|alt=àmmá}}
+* Bolinao: {{t-simple|smk|ranom}}
+* Bolongan: {{t|blj|danum}}
+* Bonan: {{t-simple|peh|se}}
+* Bondei: {{t-simple|bou|mazi}}
+* Bongo: {{t-simple|bot|mɩ̀nɩ̀}}
+* Bontoc: {{t|bnc|danum|alt=danúm}}
+* Bora: {{t-simple|boa|nújpacyo}}
+* Borong: {{t-simple|ksr|apu}}
+* Borôro: {{t-simple|bor|pobo}}
+* Botlikh: {{t|bph|лълъени|tr=l"l"eni|sc=Cyrl}}
+* Botolan Sambal: {{t-simple|sbl|lanom}}
+* Brahui: {{t|brh|دیر|tr=dīr|sc=Arab}}
+* Bribri: {{t-needed|bzd}}
+* Breton: {{t+|br|dour|m}}
+* Bu: {{t-simple|jid|mma}}
+* Budukh: {{t|bdk|хьад|tr=h'ad|sc=Cyrl}}
+* Buduma: {{t-simple|bdm|amaii}}/{{t-simple|bdm|āmái}}
+* Bughotu: {{t|bgt|bea}}
+* Buginese: {{t|bug|ᨓᨙᨕ|tr=wae|sc=Bugi}}
+* Bukiyip: {{t-simple|ape|abal}}
+* Bukusu: {{t-simple|bxk|kámeeči}}
+* Bulgarian: {{t+|bg|вода́|f}}
+* Bulgebi: {{t-needed|bmp}}
+* Buli (Ghana): {{t-simple|bwu|nyiam}}
+* Buli (Indonesia): {{t|bzq|waja}}
+* Bunama: {{t-simple|bdd|we'aha}}
+* Bungu: {{t-simple|wun|amazi}}
+* Bunoge Dogon: {{t-simple|dgb|gɔ}}
+* Bunun: {{t-simple|bnn|danum}}
+* Bura: {{t-simple|bwr|yimi}}
+* Bura Mabang: {{t-simple|mde|inji}}
+* Burate: {{t-needed|bti}}
+* Burmese: {{t+|my|ရေ}}
+* Burumakok: {{t-needed|aip}}
+* Burun: {{t-simple|bdi|pii}} {{qualifier|Maiak}}
+* Burushaski: {{t-simple|bsk|cel}}
+* Buryat: {{t|bua|уһан|sc=Cyrl}}
+* Busa: {{t-simple|bqp|í}}
+* Busami: {{t-simple|bsm|maria}}
+* Bushi: {{t-simple|buc|ranu}}
+* Bwanabwana: {{t-simple|tte|waiila}}
+* Bwatoo: {{t-simple|bwa|traba}}
+* Byangsi: {{t-simple|bee|ti}}
+* Caac: {{t-simple|msq|we}}
+* Cabiyarí: {{t|cbb|ʔuuni}}
+* Cacua: {{t|cbv|bãʔ⁴}}
+* Cahuilla: {{t-simple|chl|pál}}
+* Caka: {{t|ckx|omɔlə}} {{qualifier|Batanga}}, {{t|ckx|ɔmɔlo}} {{qualifier|Asaka}}
+* Cameroon Pidgin: {{t|wes|wata}}
+* Camsá: {{t|kbh|bujéʃe}}, {{t|kbh|béxaje}}
+* Candoshi-Shapra: {{t-simple|cbu|kógó}}
+* Car Nicobarese: {{t-simple|caq|mak}}
+* Cara: {{t-simple|cfd|mal}}
+* Carapana: {{t-simple|cbc|oko}}
+* Carijona: {{t-simple|cbd|tuna}}
+* Carolinian: {{t-simple|cal|schaal}}
+* Cashibo-Cacataibo: {{t-simple|cbr|'umpax}}
+* Cashinahua: {{t-simple|cbs|unpax}}, {{t-simple|cbs|ũpax}}
+* Casiguran Dumagat Agta: {{t-simple|dgc|dinom}}
+* Catacao: {{t|qfa-ctc-cat|yup}}
+* Catalan: {{t+|ca|aigua|f}}
+* Cavineña: {{t-simple|cav|-na}}
+* Cayuga: {{t|cay|ohnéganohs}}
+* Cebuano: {{t-simple|ceb|tubig}}
+* Cemuhî: {{t-simple|cam|tábè́}}
+* Central Atlas Tamazight: {{t|tzm|ⴰⵎⴰⵏ|m-p|tr=aman|sc=Tfng}}
+* Central Bai: {{t-simple|bca|xuix}}
+* Central Cagayan Agta: {{t-simple|agt|danum}}
+* Central Melanau: {{t-simple|mel|anum}}
+* Central Nicobarese: {{t-simple|ncb|dak}}
+* Central Pomo: {{t-simple|poo|qʰá}}
+* Central Siberian Yupik: {{t|ess|мыӄ|tr=myq|sc=Cyrl}}
+* Central Tagbanwa: {{t|tgt|wai|sc=Latn}} / {{t|tgt|ᝯᝡ|sc=Tagb}}
+* Central Tunebo: {{t|tuf|ríʔja}}
+* Ch'orti': {{t-simple|caa|ha'}}
+* Chachi: {{t-simple|cbi|pi}}
+* Chagatai: {{t|chg|سو|tr=su|sc=Arab}}
+* Chakma: {{t|ccp|𑄛𑄚𑄨|tr=pāni|sc=Cakm}}
+* Chamalal: {{t|cji|лълъӣᵸ|tr=l"l"īⁿ|sc=Cyrl}}
+* Chambri: {{t-simple|can|arɨm}}
+* Chamicuro: {{t-simple|ccc|unijsa}}
+* Chamorro: {{t-simple|ch|hånom}}
+* Chang: {{t-simple|nbc|tei}}
+* Chaudangsi: {{t-simple|cdn|ti}}
+* Chaura: {{t-simple|crv|rak}}
+* Chavacano: {{t-simple|cbk|agua}}, {{t-simple|cbk|agwa}} {{qualifier|Zamboanga}}
+* Chayahuita: {{t-simple|cbt|i'sha}}
+* Chechen: {{t|ce|хи}}
+* Cheke Holo: {{t-simple|mrn|kho'u}}
+* Cherokee: {{t+|chr|ᎠᎹ|tr=ama|sc=Cher}}
+* Cheyenne: {{t-simple|chy|mahpe}}
+* Chibcha: {{t-simple|chb|sie}}
+* Chichewa: {{t-simple|ny|madzi}}
+* Chichicapan Zapotec: {{t|zpv|ñihsa}}
+* Chickasaw: {{t-simple|cic|oka'}}
+* Chimila: {{t|cbg|ⁿdittakeʔ}}
+* Chinese:
+*: Cantonese: {{t|yue|水|tr=seoi2|sc=Hani}}
+*: Dungan: {{t|dng|фи|tr=fi|sc=Cyrl}}
+*: Gan: {{t|gan|水|sc=Hani}}
+*: Hakka: {{t|hak|水|tr=súi|sc=Hani}}
+*: Mandarin: {{t+|cmn|水|tr=shuǐ|sc=Hani}}
+*: Min Nan: {{t+|nan|水|tr=chúi|sc=Hani}}
+*: Min Dong: {{t|cdo|水|tr=cūi, ju|sc=Hani}}
+*: Wu: {{t|wuu|水|sc=Hani}}
+* Chinook Jargon: {{t-simple|chn|chuck}}
+* Chiquihuitlán Mazatec: {{t|maq|nandá}}
+* Chiquitano: {{t-simple|cax|turrü}}
+* Chiricahua: {{t-simple|apm|tú}}
+* Chitimacha: {{t-simple|ctm|ku}}
+* Chochotec: {{t-needed|coz}}
+* Choctaw: {{t-simple|cho|oka}}
+* Chol: {{t-simple|ctu|ja'}}
+* Chrau: {{t-simple|crw|daq}}, {{t-simple|crw|daːʔ}}
+* Chuave: {{t-simple|cjv|nuwi}}
+* Chuka: {{t-simple|cuh|runci}}
+* Chukchi: {{t|ckt|мимыл|tr=mimyl|sc=Cyrl}}
+* Chuukese: {{t-simple|chk|chaan}}, {{t-simple|chk|kkönik}}
+* Chuvash: {{t|cv|шыв}}
+* Cia-Cia: {{t|cia|e'e|sc=Latn}} / {{t|cia|에에|sc=Hang}}
+* Cibak: {{t-simple|ckl|yimi}}
+* Cimbrian: {{t-simple|cim|bàssar}}
+* Classical Nahuatl: {{t-simple|nci|atl}}
+* Coast Miwok: {{t|csi|líwa}}
+* Coastal Kadazan: {{t|kzj|vaig}}
+* Cogui: {{t|kog|ní}}
+* Colán: {{t|qfa-ctc-col|yup}}
+* Comanche: {{t-simple|com|paa}}
+* Copainalá Zoque: {{t|zoc|nʌʔ}}
+* Coptic:
+*: Bohairic: {{t|cop|ⲙⲱⲟⲩ|m|tr=mōw|sc=Copt}}
+*: Sahidic: {{t|cop|ⲙⲟⲟⲩ|m|tr=mow|sc=Copt}}, {{t|cop|ⲙⲟⲩⲉⲓⲏ|p|tr=mweiy|sc=Copt}}
+* Cora: {{t|crn|hah}}
+* Cornish: {{t|kw|dowr|m}}
+* Corsican: {{t-simple|co|acqua}}
+* Cree: {{t|cr|ᓃᐲᔾ|sc=Cans}} / {{t|cr|nîpîy}}
+* Creek: {{t-simple|mus|owv}}
+* Crimean Tatar: {{t-simple|crh|suv}}
+* Cross River Mbembe: {{t-simple|mfn|asi}}
+* Cubeo: {{t-simple|cub|oko}}
+* Cuiba: {{t-simple|cui|mera}}
+* Cung: {{t-simple|cug|múi}}
+* Cupeño: {{t-simple|cup|pál}}
+* Cuvok: {{t-simple|cuv|yam}}
+* Czech: {{t+|cs|voda|f}}
+* Daba: {{t-simple|dbq|yim}}
+* Dadibi: {{t-simple|mps|ai}}
+* Daga: {{t-simple|dgz|kaum}}
+* Dagbani: {{t|dag|ko-om}}
+* Dahalo: {{t-simple|dal|ma'a}}
+* Dalmatian: {{t-simple|dlm|jakva}}
+* Dan: {{t-simple|dnj|yí}}
+* Danish: {{t-simple|da|vand}}
+* Dargwa: {{t|dar|шин}}
+* Daur: {{t-simple|dta|os}}
+* Dawro: {{t-simple|dwr|hasa}}
+* Dazaga: {{t-simple|dzg|yi}}
+* Defaka: {{t-simple|afn|mbị́á}}
+* Deg: {{t|mzw|ne}}
+* Deg Xinag: {{t-simple|ing|te}}
+* Degema: {{t|deg|amin|alt=ạmị́ṇ́}}
+* Dena'ina: {{t-simple|tfn|miłni}} {{qualifier|Outer Inlet}}
+* Desano: {{t-simple|des|dekó}}
+* Dhivehi: {{t+|dv|ފެން}}
+* Dibole: {{t|bvx|máì}}
+* Dieri: {{t-simple|dif|ngapa}}
+* Digo: {{t|dig|madzi}}
+* Dimasa: {{t-simple|dis|di}}
+* Dime: {{t-simple|dim|naR}}
+* Dinka: {{t-simple|din|piu}}
+* Diuxi-Tilantongo Mixtec: {{t|xtd|ndúte}}, {{t|xtd|te}} {{qualifier|bound form}}
+* Djimini Senoufo: {{t|dyi|ñyü-mu}}
+* Dobel: {{t|kvo|kwar}}
+* Dobu: {{t-simple|dob|bwasi}}
+* Doe: {{t-simple|doe|mazi}}
+* Dogrib: {{t-simple|dgr|tı}}
+* Dogul Dom Dogon: {{t-simple|dbg|inyə}}
+* Dolgan: {{t|dlg|уу|tr=uu|sc=Cyrl}}
+* Dompo: {{t-simple|doy|nsu}}
+* Dongolawi: {{t-simple|kzh|essi}}
+* Dongxiang: {{t-simple|sce|usu}}, {{t-simple|sce|u'su}}
+* Doura: {{t-simple|don|vei}}
+* Drehu: {{t-simple|dhv|tim}}
+* Duala {{t-simple|dua|madíbá}}
+* Duau: {{t-simple|dva|bwasi}}
+* Duhwa: {{t-simple|kbz|hâm}}
+* Dumi: {{t-simple|dus|kaŋki}}
+* Dupaninan Agta: {{t-simple|duo|dinom|alt=dinóm}} ({{t|duo|dinum}})
+* Dusner: {{t-simple|dsn|rur}}, {{t|dsn|war}}
+* Dutch: {{t+|nl|water|n}}
+* Duungooma: {{t-simple|dux|žo}}
+* Dyaabugay: {{t-needed|dyy}}
+* Dyirbal: {{t-simple|dbl|bana}}
+* Dyula: {{t-simple|dyu|ji}}
+* Dzongkha: {{t|dz|ཆུ}}
+* Dzùùngoo: {{t-simple|dnn|yú}}
+* East Futuna: {{t-simple|fud|vai}}
+* East Kewa: {{t-simple|kjs|ipa}}, {{t-simple|kjs|utyali}} {{qualifier|in pandanus avoidance language, literally "casuarina tree seedling"}}
+* East Yugur: {{t-simple|yuy|qusun}}
+* Eastern Arrernte: {{t-simple|aer|kwace}}
+* Eastern Bontok: {{t|ebk|chanom}}
+* Eastern Bru: {{t-simple|bru|dəːʔ}}
+* Eastern Cham: {{t|cjm|ya|sc=Latn}} / {{t|cjm|ꨢ|sc=Cham}}
+* Eastern Lawa: {{t-simple|lwl|laʔaum}}
+* Eastern Magar: {{t-simple|mgp|di}}
+* Eastern Mari: {{t|chm|вӱд}}
+* Eastern Penan: {{t-simple|pez|ba}}
+* Eastern Pomo: {{t-simple|peb|xa}}
+* Eastern Tamang: {{t|taj|कयुइ|tr=kyui|sc=Deva}}
+* Ebira: {{t-simple|igb|ényí}}
+* Ebrié: {{t|ebr|enzu}}, {{t|ebr|ndu}}
+* Ebughu: {{t-simple|ebg|mmọn̄}}
+* Efai: {{t-simple|efa|mmọn̄}}
+* Efik: {{t-simple|efi|mmọn̄}}
+* Efutop: {{t|ofu|alʌp}}
+* Ega: {{t-simple|ega|aɗú}}
+* Eggon: {{t-simple|ego|ami}}
+* Egyptian: {{t|egy|mw|m|sc=Egyp}}
+*: <hiero>mw</hiero>
+* Ekari: {{t-simple|ekg|uwo}}
+* Ekit: {{t-simple|eke|mmọn̄}}
+* Ekpeye: {{t-simple|ekp|mini|alt=minꜝi}}
+* Eleme: {{t-simple|elm|m̀mṹ}}
+* Eloyi: {{t-simple|afo|embi}}
+* Emae: {{t-simple|mmw|vai}}
+* Eman: {{t|emn|mɔlɔ}}
+* Emberá-Catío: {{t-simple|cto|bánia}}
+* Emberá-Chamí: {{t-simple|cmi|banía}}
+* Emberá-Tadó: {{t-simple|tdc|banía}}
+* Embu: {{t-simple|ebu|manji}}
+* Emilian: {{t-simple|egl|aqua}}, {{t-simple|egl|âcua}}
+* Ende: {{t-simple|end|ae}}
+* Enga: {{t-simple|enq|ipa}}
+* Engenni: {{t-simple|enn|ạmịnị}}
+* Enwan: {{t-simple|enw|mmọn̄}}
+* Epena: {{t-simple|sja|panía}}
+* Epie: {{t-simple|epi|amịnị}}
+* Erzya: {{t|myv|ведь}}
+* Eshtehardi: {{t|esh|اِو|tr=eow|sc=fa-Arab}}
+* Esimbi: {{t-simple|ags|muru}}
+* Esperanto: {{t-simple|eo|akvo}}
+* Estonian: {{t-simple|et|vesi}}
+* Eten: {{t-simple|etx|ǹnè̱n}}
+* Etruscan: {{t|ett|𐌍𐌄𐌓𐌉|tr=neri|sc=Ital}}
+* Etulo: {{t|utr|eni|alt=ēní}}
+* Evant: {{t|bzz|mɒmulum}}
+* Even: {{t|eve|му|tr=mu|sc=Cyrl}}
+* Evenki: {{t|evn|му|tr=mu|sc=Cyrl}}
+* Ewe: {{t-simple|ee|tsi}}
+* Ewondo: {{t-simple|ewo|məndím}}
+* Extremaduran: {{t-simple|ext|áugua}}
+* Fakkanci: {{t-simple|gel|ə̄mbə́}}
+* Fala: {{t|fax|agua}}
+* Fang (Cameroon): {{t-simple|fak|ndziam}}
+* Fang (Guinea): {{t-simple|fan|mendzim}}
+* Faroese: {{t+|fo|vatn|n}}
+* Fas: {{t-simple|fqs|fi}}
+* Fataluku: {{t-simple|ddg|ira}}
+* Fiji Hindi: {{t-simple|hif|paani}}
+* Fijian: {{t-simple|fj|wai}}
+* Finnish: {{t-simple|fi|vesi}}
+* Fipa: {{t-simple|fip|amanzi}}
+* Fiwaga: {{t-needed|fiw}}
+* Flinders Island: {{t-needed|fln}}
+* Fon: {{t-simple|fon|sḭ̀}} ({{t-simple|fon|sin}})
+* Fore: {{t-simple|for|wani}}
+* Forest Enets: {{t|enf|би|tr=bi|sc=Cyrl}}
+* Fox: {{t-simple|sac|nepi}}
+* Franco-Provençal: {{t|frp|àiva}}
+* French: {{t-simple|fr|eau|f}}
+*: Middle French: {{t|frm|eau|f}}
+*: Old French: {{t|fro|ewe|f}}, {{t|fro|iaue|f}}, {{t|fro|yaue|f}}
+* Friulian: {{t-simple|fur|aghe}}
+* Fula: {{t-simple|ff|ndiyam}}
+* Fulniô: {{t-simple|fun|ohya}}
+* Futuna-Aniwa: {{t-simple|fut|vai}}
+* Fuyug: {{t|fuy|yuv}}
+* Fwâi: {{t-simple|fwa|we}}
+* Fyam: {{t-simple|pym|wínì}}
+* Fyer: {{t-simple|fie|ham}}
+* Ga: {{t-simple|gaa|nu}}
+* Ga'anda: {{t-simple|gqa|yeme}}
+* Gabadi: {{t-simple|kbt|vei}}
+* Gabrielino-Fernandeño: {{t-simple|xgf|paara'}}
+* Gadsup: {{t-simple|gaj|nomi}}
+* Gagauz: {{t-simple|gag|su}}
+* Galela: {{t-simple|gbi|ake}}
+* Galibi Carib: {{t-simple|car|tuna}}
+* Galician: {{t+|gl|auga|f}}
+* Gallo: {{t-simple|roa-gal|iaù}}
+* Gam: {{t-simple|kmc|nam⁴}} {{qualifier|Southern Dong}}
+* Gamilaraay: {{t-simple|kld|gali}}
+* Gamkonora: {{t-needed|gak}}
+* Gamo: {{t-simple|gmv|hasa}}
+* Garawa: {{t-simple|wrk|wabuda}}
+* Garifuna: {{t-simple|cab|duna}}
+* Garo: {{t-simple|grt|chi}}
+* Gayo: {{t-simple|gay|wih}}
+* Gban: {{t-simple|ggu|yí}}
+* Gbari: {{t-simple|gby|nuwa}}
+* Ge'ez: {{t|gez|ማይ|tr=māy|sc=Ethi}}
+* Geji: {{t-simple|gji|ziye}}
+* Gela: {{t-simple|nlg|mbeti}}
+* Gende: {{t-simple|gaf|nogoi}}
+* Georgian: {{t|ka|წყალი}}
+* Gerka: {{t-simple|gek|ram}}
+* German: {{t+|de|Wasser|n}}
+*: Central Franconian: {{t|gmw-cfr|Wasser|n}}
+*: Rhine Franconian: {{t|gmw-rfr|Wasser}}
+* Ghadames: {{t-simple|gha|aman}}
+* Gidar: {{t-simple|gid|ìnkílè}}
+* Gilbertese: {{t-simple|gil|ran}} {{qualifier|fresh water}}
+* Godoberi: {{t|gdo|лълъени|tr=l"l"eni|sc=Cyrl}}
+* Goemai: {{t-simple|ank|hààm}}, {{t-simple|ank|hààmd'è}}, {{t-simple|ank|hàngòed'è}}
+* Gofa: {{t-simple|gof|hasa}}
+* Gojri: {{t|gju|پاݩی|tr=pāṇī|sc=Arab}}
+* Gokana: {{t-simple|gkn|mṹṹ}}
+* Gola: {{t-simple|gol|mamal}}
+* Golin: {{t-simple|gvf|nil}}
+* Gondi: {{t|gon|యేర్|tr=yēr|sc=Telu}}
+* Gooniyandi: {{t-simple|gni|gamba}}
+* Gothic: {{t|got|𐍅𐌰𐍄𐍉}}
+* Gottscheerish: {{t|gmw-gts|boßər}}, {{t|gmw-gts|bàsser}}
+* Greek:
+*: Ancient: {{t|grc|ὕδωρ|n}}
+*: Modern: {{t+|el|νερό|n}}, {{t+|el|ύδωρ|n}}
+*: Mycenaean: {{t|gmy|𐀄𐀈|tr=u-do|sc=Linb}}
+* Greenlandic: {{t-simple|kl|imeq}}
+* Grenadian Creole English: {{t|gcl|wata}}
+* Gresi: {{t-simple|grs|bu}}
+* Gros Ventre: {{t-simple|ats|níc}}
+* Guahibo: {{t|guh|méːraː}}
+* Guajajára: {{t-simple|gub|'y}}
+* Guambiano: {{t-simple|gum|pi}}
+* Guanano: {{t-simple|gvc|ko}}
+* Guanche: {{t-simple|gnc|athemon}}
+* Guaraní: {{t-simple|gn|y}}
+* Guayabero: {{t-simple|guo|min}}
+* Gude: {{t-simple|gde|māʔīn}}
+* Guhu-Samane: {{t-simple|ghs|oba}}
+* Guianese Creole: {{t|gcr|dilo}}
+* Guinea-Bissau Creole: {{t-simple|pov|iagu}}
+* Gujarati: {{t+|gu|પાણી|tr=pāṇī|sc=Gujr}}
+* Gullah: {{t|gul|wata}}
+* Gumatj: {{t-simple|gnn|gapu}}
+* Gun: {{t-simple|guw|sin}}
+* Gungabula: {{t-needed|gyf}}
+* Guntai: {{t-needed|gnt}}
+* Gunwinggu: {{t-simple|gup|bo}}
+* Gupapuyngu: {{t-simple|guf|gapu}}
+* Gurindji: {{t-simple|gue|ngawa}}
+* Guro: {{t-simple|goa|yí}}
+* Guruntum: {{t-simple|grd|maa}}
+* Gusii: {{t-simple|guz|amache}}
+* Guugu Yimidhirr: {{t-simple|kky|poorai}}
+* Guya: {{t-needed|gka}}
+* Gweno: {{t-simple|gwe|mringa}}
+* Gwere: {{t-simple|gwr|maizi}}
+* Gwich'in: {{t-simple|gwi|chuu}}
+* Haeke: {{t-simple|aek|we}}
+* Haida: {{t-simple|hai|g̱ántl}}
+* Haitian Creole: {{t-simple|ht|dlo}}
+* Hakö: {{t-simple|hao|ramun}}
+* Halang: {{t-simple|hal|daːk}}
+* Halia: {{t-simple|hla|ramun}}
+* Hamer-Banna: {{t-simple|amf|noqo}}
+* Han: {{t-simple|haa|chu}} {{qualifier|Canada}}, {{t-simple|haa|chuu}} {{qualifier|Alaska}}
+* Hangaza: {{t-simple|han|amazi}}
+* Hano: {{t-simple|lml|wai}}
+* Hanunoo: {{t|hnn|ᜧᜨᜳᜫ᜴|tr=danúm|sc=Hano}}
+* Harari: {{t|har|ሚይ|tr=miy|sc=Ethi}}
+* Hasha: {{t-simple|ybj|ènyì}}
+* Hatam: {{t-simple|had|nyei}}
+* Hausa: {{t|ha|ruwā|m}}
+* Havasupai-Walapai-Yavapai: {{t-simple|yuf|'haː}}
+* Haveke: {{t-simple|hvk|we}}
+* Hawaiian: {{t-simple|haw|wai}}
+* Hdi: {{t-simple|xed|imi}}
+* Hebrew: {{t+|he|מַיִם|m-p|tr=máyim|sc=Hebr}}
+* Hehe: {{t-simple|heh|ululeenga}}
+* Herero: {{t-simple|hz|omeva}}
+* Hidatsa: {{t-simple|hid|mirí}}
+* Highland Totonac: {{t|tos|chu'chut}}
+* Hiligaynon: {{t-simple|hil|tubig}}, {{t-simple|hil|agwa}}
+* Hindi: {{t+|hi|पानी|m|tr=pānī|sc=Deva}}, {{t+|hi|जल|m|tr=jal|sc=Deva}}, {{t|hi|आब|tr=āb|sc=Deva}}
+* Hinukh: {{t|gin|лъе|tr=l"e|sc=Cyrl}}
+* Hiri Motu: {{t-simple|ho|ranu}}
+* Hittite: {{t|hit|𒉿𒀀𒋻|tr=wa-a-tar|sc=Xsux}}
+* Hixkaryana: {{t-simple|hix|tuna}}
+* Hlai: {{t-simple|lic|nom³}}
+* Ho: {{t|hoc|दः|tr=da:|sc=Deva}}
+* Hoava: {{t-simple|hoa|kuma}}
+* Hopi: {{t-simple|hop|kuuyi}}, {{t-simple|hop|paahu}}
+* Horom: {{t-simple|hoe|bamal}}
+* Hote: {{t-simple|hot|ŋaŋ}}
+* Hozo: {{t-simple|hoz|háani}}
+* Hrangkhol: {{t-needed|hra}}
+* Hu: {{t-simple|huo|ʔɔ̀m}}
+* Huambisa: {{t-simple|hub|entsa}}
+* Huave: {{t-simple|huv|yow}}
+* Hungarian: {{t+|hu|víz}}
+* Hunsrik: {{t-simple|hrx|waser}}
+* Hunzib: {{t|huz|лъыᵸ|tr=l"yⁿ|sc=Cyrl}}
+* Hupa: {{t-simple|hup|to}}
+* Hupdë: {{t-simple|jup|deh}}, {{t-simple|jup|děh}}
+* Hyam: {{t-simple|jab|tìtaan}}
+* Iaai: {{t-simple|iai|köiö}}
+* Iamalele: {{t-simple|yml|ufa}}
+* Iatmul: {{t-simple|ian|gu}}
+* Iban: {{t-simple|iba|ai'}}
+* Ibanag: {{t|ibg|danum}}
+* Ibani: {{t-simple|iby|mingi}}
+* Ibatan: {{t|ivb|ranom}}
+* Ibino: {{t-simple|ibn|ḿmún̄}}
+* Ibuoro: {{t-simple|ibr|ḿmún̄}}
+* Icelandic: {{t+|is|vatn|n}}
+* Iceve-Maci: {{t|bec|edzɔl}} {{qualifier|Oliti}}, {{t|bec|edzɒlɛ}} {{qualifier|Baceve}}
+* Ida'an: {{t-simple|dbj|sapa'}}
+* Idi: {{t-simple|idi|ni}}
+* Ido: {{t-simple|io|aquo}}
+* Idun: {{t-simple|ldb|àmɛ̀}}
+* Iduna: {{t-simple|viv|gufa}}
+* Igbo: {{t-simple|ig|mmiri}}
+* Ignaciano: {{t-simple|ign|une}}
+* Ik: {{t-simple|ikx|ɕùè}}
+* Ikizu: {{t-simple|ikz|amanzi}}
+* Iko: {{t-simple|iki|mmọn̄}}
+* Ila: {{t-simple|ilb|meenzi}}
+* Ilocano: {{t-simple|ilo|danum|alt=danúm}}
+* Ilue: {{t-simple|ilv|mmọn̄}}
+* Imonda: {{t-simple|imn|po}}
+* Inari Sami: {{t-simple|smn|čääci}}
+* Indo-Portuguese: {{t-simple|idb|ag}}
+* Indonesian: {{t-simple|id|air}}
+* Indonesian Bajau: {{t-simple|bdl|boé}}
+* Inga: {{t-simple|inb|iaku}}
+* Ingrian: {{t-simple|izh|vezi}}
+* Ingush: {{t|inh|хий}}
+* Inor: {{t|ior|እኸ|tr=əxä|sc=Ethi}}
+* Interlingua: {{t-simple|ia|aqua}}
+* Interlingue: {{t-simple|ie|aqua}}
+* Inuktitut: {{t+|iu|ᐃᒪᖅ|sc=Cans}}
+* Inupiak: {{t-simple|ik|imiq}}
+* Ipulo: {{t|ass|mɔl}}
+* Iquito: {{t-simple|iqu|aaca}}
+* Ir: {{t-simple|irr|dɛʔ}}
+* Iraqw: {{t-simple|irk|maˀay}}
+* Irarutu: {{t-simple|irh|were}}
+* Irish: {{t+|ga|uisce|m}}, {{t+|ga|dobhar|m}}
+* Ishkashimi: {{t-simple|isk|wek}}
+* Islander Creole English: {{t|icr|waata}}
+* Isnag: {{t|isd|danum|alt=danúm}}
+* Isthmus Zapotec: {{t-simple|zai|nisa}}
+* Istriot: {{t-simple|ist|àqua}}, {{t|ist|aqua}}
+* Istro-Romanian: {{t-simple|ruo|åpe}}
+* Italian: {{t+|it|acqua|f}}
+* Itawit: {{t|itv|danum|alt=danúm}}
+* Itelmen: {{t|itl|и|tr=i|sc=Cyrl}}
+* Itonama: {{t-simple|ito|wanu'we}}
+* Itu Mbon Uzo: {{t-simple|itm|ḿmún̄}}
+* Iu Mien: {{t-simple|ium|wuom}}, {{t-simple|ium|suiv}}
+* Ivatan: {{t|ivv|ranom}}
+* Ixcatec: {{t-simple|ixc|Ɂi¹nda³}}
+* Iyive: {{t|uiv|muŋgoləmo}}
+* Izere: {{t-simple|izr|áshì}}
+* Izon: {{t-simple|ijc|bení}}
+* Jabem: {{t-simple|jae|bu}}
+* Jakaltek: {{t|jac|aˀ}}
+* Jamaican Creole: {{t-simple|jam|wata}}
+* Jamamadí: {{t-simple|jaa|fa}}, {{t-simple|jaa|faha}} {{qualifier|Jarawara, unpossessed form}}
+* Japanese: {{t+|ja|水|tr=[[みず]], mizu|sc=Jpan}}
+* Jarai: {{t-simple|jra|ia}}
+* Jarawa: {{t-simple|anq|migway}}
+* Javanese: {{t-simple|jv|banyu}}
+* Jawe: {{t-simple|jaz|we}}
+* Jeh: {{t-simple|jeh|daːk}}
+* Jehai: {{t-simple|jhi|tɔm}}
+* Jemez: {{t|tow|pˀá}}
+* Jersey Dutch: {{t|gmw-jdt|water}}
+* Jibu: {{t-simple|jib|zàpìr}}
+* Jicarilla: {{t-simple|apj|kó}}
+* Jingpho: {{t-simple|kac|hka}}
+* Jingulu: {{t-simple|jig|ibilkini}}
+* Jita: {{t-simple|jit|amanji}}
+* Jofotek-Bromnya: {{t-needed|jbr}}
+* Jola-Fonyi: {{t|dyo|mumɛl}}
+* Jowulu: {{t-simple|jow|jú}}
+* Judeo-Arabic: {{t|jrb|מא|m|tr=mā}}
+* Judeo-Tat: {{t|jdt|гӀов}}
+* Jumjum: {{t-simple|jum|pɪ̂ɪk}}
+* Jurchen: {{t-image|juc|Jurchenmu.png|22px|mu}}
+* Juǀ'hoan: {{t-simple|ktz|gǃu}}
+* K'iche': {{t-simple|quc|ja'}}
+* Kabardian: {{t|kbd|псы}}
+* Kabiyé: {{t-simple|kbp|lɩm}}
+* Kabuverdianu: {{t-simple|kea|agu}}
+* Kabyle: {{t-simple|kab|aman}}
+* Kadiwéu: {{t-simple|kbc|ninyoǥodi|m}}
+* Kadugli: {{t-simple|xtc|bidhi}}
+* Kahe: {{t-simple|hka|mringa}}
+* Kaingang: {{t-simple|kgp|goj}}
+* Kairak: {{t-needed|ckr}}
+* Kairiru: {{t|kxa|rryan}}
+* Kaiwá: {{t-simple|kgk|y}}
+* Kakabe: {{t-simple|kke|jí}}
+* Kala Lagaw Ya: {{t|mwp|wur}}
+* Kalabari: {{t-simple|ijn|minji}}
+* Kalagan: {{t-simple|kqe|tubig}}
+* Kalami: {{t|gwc|و|tr=ū|sc=Arab}}
+* Kalanga: {{t-simple|kck|vula}}
+* Kalapuya: {{t-needed|kyl}}
+* Kalasha: {{t-simple|kls|ukh}}
+* Kalkatungu: {{t-simple|ktg|kuu}}
+* Kalmyk: {{t|xal|усн}}
+* Kamano: {{t-simple|kbq|ti}}, {{t-simple|kbq|ni}} / {{t-simple|kbq|nina}}
+* Kamasau: {{t-simple|kms|wuye}}
+* Kamassian: {{t|xas|бю|tr=bü|sc=Cyrl}}
+* Kamayurá: {{t-simple|kay|'ɨ}} / {{t-simple|kay|y}}
+* Kamba: {{t-simple|kam|kiw'u}}
+* Kambera: {{t-simple|xbr|wai}}
+* Kamula: {{t-simple|xla|yú}}
+* Kamviri: {{t-simple|xvi|oa}}
+* Kanakanabu: {{t-simple|xnb|canúmuˀ}}
+* Kanamari: {{t-simple|knm|tahi}}
+* Kanga: {{t-simple|kcp|beji}}
+* Kaningdon-Nindem: {{t-simple|kdp|màsid}}
+* Kankanaey: {{t|kne|danom}}
+* Kannada: {{t+|kn|ನೀರು}}
+* Kanoé: {{t|kxo|ikunĩ́}}
+* Kanufi: {{t-simple|kni|mìsid}}
+* Kanuri: {{t-simple|kr|nji}}
+* Kapampangan: {{t-simple|pam|danum|alt=danúm}}
+* Kapingamarangi: {{t-simple|kpg|wai}}
+* Kara (Tanzania): {{t-simple|reg|amanji}}
+* Karachay-Balkar: {{t|krc|суу|tr=suu|sc=Cyrl}}
+* Karaim: {{t|kdr|сув|tr=suv|sc=Cyrl}}
+* Karajá: {{t-simple|kpj|be}}
+* Karakalpak: {{t-simple|kaa|suw}}
+* Karamojong: {{t-simple|kdj|ngakipi}}
+* Karata: {{t|kpt|лълъеᵸй|tr=l"l"eⁿj|sc=Cyrl}}, {{t|kpt|лълъени|tr=l"l"eni}}
+* Karekare: {{t|kai|amu|alt=àmù}}
+* Karelian: {{t-simple|krl|vezi}}
+* Karipúna Creole French: {{t-simple|kmv|dlo}}, {{t-simple|kmv|djilo}}
+* Karitiâna: {{t-simple|ktn|ese}}
+* Karo: {{t-simple|kxh|nunko}}
+* Karok: {{t|kyh|áas}}
+* Kashaya: {{t-simple|kju|qha}}
+* Kashmiri:
+*: Arabic: {{t|ks|آب|tr=āb|sc=ks-Arab}}, {{t|ks|پونی|tr=pōn'|sc=ks-Arab}}, {{t|ks|زل|tr=zal|sc=ks-Arab}}
+*: Devanagari: {{t|ks|आब|tr=āb|sc=Deva}}, {{t|ks|पोञ|tr=pōn|sc=Deva}}, {{t|ks|ज़ल|tr=zal|sc=Deva}}
+* Kashubian: {{t|csb|wòda|f}}
+* Kaska: {{t-simple|kkz|tū}}
+* Kassonke: {{t-simple|kao|jio}}
+* Kaurna: {{t-simple|zku|kauwe}}
+* Kavalan: {{t-simple|ckv|zanum}}
+* Kawésqar: {{t-simple|alc|akcólai}}
+* Kaxararí: {{t-simple|ktx|waka}}
+* Kaxuiâna: {{t-simple|kbb|tuna}}
+* Kayabí: {{t-simple|kyz|'y}}
+* Kayapó: {{t-simple|txu|ngô}}
+* Kayeli: {{t|kzl|waele}}
+* Kaytetye: {{t-simple|gbb|arntwe}}
+* Kazakh: {{t+|kk|су}}
+* Kedah Malay: {{t-simple|meo|ayaq}}
+* Kedang: {{t|ksx|wei}}
+* Keiga: {{t-simple|kec|bidhi}}
+* Kemezung: {{t-simple|dmo|ngɔ́ŋ}}
+* Kemtuik: {{t-simple|kmt|bu}}
+* Kendem: {{t-simple|kvm|anáʔ}}
+* Kera: {{t-simple|ker|kan}}
+* Kerek: {{t|krk|мимләӈа|tr=mimləŋa|sc=Cyrl}}
+* Kerewe: {{t-simple|ked|amenzi}}
+* Kesawai: {{t|xes|ya}}
+* Ket: {{t|ket|ул'|tr=ul'|sc=Cyrl}}
+* Khakas: {{t|kjh|суғ|tr=suɣ|sc=Cyrl}}
+* Kham: {{t-simple|kjl|ri꞉h}}
+* Khana: {{t-simple|ogo|maá}}
+* Khanty: {{t|kca|йӛӈк}}
+* Khasi: {{t-simple|kha|um}}
+* Khehek: {{t-simple|tlx|buø}}
+* Khinalug: {{t|kjj|хъу|tr=h"u|sc=Cyrl}}
+* Khmer: {{t+|km|ទឹក|tr=tyk|sc=Khmr}}
+* Khmu: {{t|kjg|ອົມ|tr=om|sc=Laoo}}
+* Khorasani Turkish: {{t|kmz|سو|tr=su|sc=Arab}}
+* Khotanese: {{t|kho|𐨀𐨂𐨟𐨿𐨕|tr=ūtca|sc=Khar}}
+* Khowar: {{t-simple|khw|ugh}}
+* Khvarshi: {{t|khv|лъа|tr=l"a|sc=Cyrl}}
+* Kibena: {{t-simple|bez|luleenga}}
+* Kikuyu: {{t-simple|ki|maĩ}}
+* Kildin Sami: {{t|sjd|ча̄дзь|tr=čādzə|sc=Cyrl}}
+* Kilivila: {{t-simple|kij|sopi}}
+* Kilmeri: {{t-needed|kih}}
+* Kimbu: {{t-simple|kiv|imiji}}
+* Kimbundu: {{t-simple|kmb|menha}}
+* Kinaray-a: {{t-simple|krj|tubig}}
+* Kinikinao: {{t|gqn|ûne}}
+* Kinnauri: {{t-simple|kfk|ti}}
+* Kinyarwanda: {{t-simple|rw|amazi}}
+* Kiowa: {{t-simple|kio|t'on}}
+* Kir-Balar: {{t-simple|kkr|yip}}
+* Kirfi: {{t-simple|kks|amma}}
+* Kirike: {{t-simple|okr|mèngí}}
+* Kirundi: {{t-simple|rn|amazi}}
+* Kituba: {{t-simple|ktu|maza}}
+* Kirya-Konzel: {{t-simple|fkk|jiami}}
+* Kis: {{t-simple|kis|dan}}
+* Kisi: {{t-simple|kiz|masi}}
+* Klallam: {{t-simple|clm|qʷúʔ}}
+* Klao: {{t|klu|ni|alt=nī}}
+* Koalib: {{t-simple|kib|ŋâo}}
+* Koasati: {{t|cku|oki|alt=okí}}
+* Kofei: {{t-needed|kpi}}
+* Kofyar: {{t-simple|kwl|am}}
+* Kokborok: {{t-simple|trp|twi}}
+* Kokota: {{t-simple|kkk|kumai}}
+* Kom (Cameroon): {{t-simple|bkm|mu}}
+* Komering: {{t|kge|way}}
+* Komi-Zyrian: {{t|kpv|ва}}
+* Konda-Dora: {{t|kfc|ఏఱు|tr=ēṟu|sc=Telu}}
+* Kongo: {{t-simple|kg|maza}}, {{t-simple|kg|masa}}
+* Konkani: {{t|kok|उद्दाक|sc=Deva|tr=uddaaka}}, {{t|kok|उद्धा|sc=Deva|tr=uddhaa}}
+* Kono (Sierra Leone): {{t-simple|kno|yí}}
+* Kopkaka: {{t-needed|opk}}
+* Korean: {{t+|ko|물|sc=Hang}}, {{t+|ko|수|tr=su, 水|sc=Kore}}
+* Koreguaje: {{t-simple|coe|oko}}
+* Korku: {{t-simple|kfq|da'}}
+* Korlai Creole Portuguese: {{t-simple|vkp|ag}}
+* Koryak: {{t|kpy|мимыл|tr=mimyl|sc=Cyrl}}
+* Koshin: {{t-simple|kid|ndi}}
+* Kosraean: {{t-simple|kos|kof}}
+* Kott: {{t-simple|zko|ul}}
+* Kove: {{t-simple|kvc|eau}}
+* Kowiai: {{t-simple|kwh|walar}}
+* Koyukon: {{t-simple|koy|too}}
+* Kpasam: {{t-simple|pbn|mí}}
+* Kpelle: {{t-simple|kpe|yá}}
+* Krio: {{t-simple|kri|wata}}
+* Kriol: {{t|rop|woda}}
+* Krisa: {{t-simple|ksi|wì}}
+* Kryts: {{t|kry|хьаьд|tr=h'äd|sc=Cyrl}}
+* Kua-nsi: {{t|ykn|ʔa⁵⁵na⁵⁵}}
+* Kuamasi: {{t|yku|ʔa³³na⁵⁵}}
+* Kugbo: {{t-simple|kes|ə̀mʊ̀m}}
+* Kui (India): {{t|kxu|ସିରୁ|tr=siru|sc=Orya}}
+* Kuikúro: {{t|kui|tunga|alt=tunga / tuŋá}}
+* Kulere: {{t-simple|kul|aàm}}
+* Kulon-Pazeh: {{t-simple|uun|dalum}}
+* Kumak: {{t-simple|nee|wi}}
+* Kumyk: {{t|kum|сув|tr=suv|sc=Cyrl}}
+* Kuna: {{t-simple|cuk|di}}
+* Kunama: {{t-simple|kun|bia}}
+* Kuni: {{t-simple|kse|vei}}
+* Kunjen: {{t-simple|kjn|og}}
+* Kupa: {{t-simple|kug|inyi}}
+* Kuranko: {{t-simple|knk|yí}}
+* Kurdish:
+*: Kurmanji: {{t+|ku|av|f}}
+*: Sorani: {{t|ckb|ئاو|tr=aw}}
+* Kuri: {{t-simple|nbn|wer}}
+* Kuria: {{t-simple|kuj|amanche}}
+* Kurudu: {{t-simple|kjr|marea}}
+* Kurukh: {{t|kru|अम्म|tr=amm|sc=Deva}}
+* Kusunda: {{t-simple|kgg|tang}}
+* Kuturmi: {{t-simple|khj|oruŋ}}
+* Kuuk Thaayorre: {{t-simple|thd|ngok}}
+* Kuvi: {{t|kxv|ଏଯୁ|tr=ēyu|sc=Orya}}
+* Kuy: {{t-simple|kdt|diaʔ}}
+* Kwaio: {{t|kwd|kwai}}
+* Kwamera: {{t-simple|tnk|nui}}
+* Kwang: {{t-simple|kvi|kaam}}
+* Kwangali: {{t-simple|kwn|mema}}
+* Kwanyama: {{t-simple|kj|omeva}}
+* Kwaya: {{t-simple|kya|amanji}}
+* Kwaza: {{t|xwa|hã}}
+* Kwere: {{t-simple|cwe|mazi}}
+* Kwoma: {{t-simple|kmo|uku}}
+* Kyenga: {{t-simple|tye|'í}}
+* Kyrgyz: {{t+|ky|суу}}
+* Kâte: {{t-simple|kmg|opâ}}
+* Laal: {{t-simple|gdm|sū}}
+* Ladakhi: {{t|lbj|ཆུ|tr=chu|sc=Tibt}}
+* Ladin: {{t-simple|lld|ega}} {{qualifier|Cazét}}, {{t-simple|lld|aga}} {{qualifier|Brach}}
+* Ladino:
+*: Hebrew: {{t|lad|אגווה|sc=Hebr}}
+*: Latin: {{t-simple|lad|agua}}
+* Lagwan: {{t-simple|kot|am}}
+* Lai: {{t-simple|cnh|tii}}
+* Lak: {{t|lbe|щин}}, {{t|lbe|шин}}
+* Lakota: {{t-simple|lkt|mní}}
+* Lala: {{t-simple|nrz|vei}}
+* Lamaholot: {{t|slp|wai}}
+* Lamang: {{t-simple|hia|imi}}
+* Lamboya: {{t|lmy|we}}
+* Lambya: {{t-simple|lai|amizi}}
+* Lampung Api: {{t-simple|ljp|way}}
+* Lango (Uganda): {{t-simple|laj|pi}}
+* Lao: {{t+|lo|ນ້ຳ}}
+* Laragia: {{t-needed|lrg}}
+* Laru: {{t-simple|lan|gí}}
+* Latgalian: {{t-simple|ltg|iudiņs}}
+* Latin: {{t+|la|aqua|f}}
+* Latundê: {{t-simple|ltn|nahoh}}
+* Latvian: {{t+|lv|ūdens|m}}
+* Lau: {{t-simple|llu|kafo}}, {{t|llu|kwai}}
+* Lauje: {{t-simple|law|ogo}}
+* Lavukaleve: {{t-simple|lvk|lafi}}
+* Lawangan: {{t|lbx|danum}}
+* Laz: {{t|lzz|წკარი}}
+* Leipon: {{t|lek|dran}} {{qualifier|fresh water}}
+* Lele (Chad): {{t|lln|kama}}
+* Lele (Guinea): {{t-simple|llc|yí}}
+* Lenape:
+*: Munsee: {{t-simple|umu|mbúy}}
+*: Unami: {{t-simple|unm|mpi}}
+* Lendu: {{t|led|ɗà}}
+* Lengo: {{t-simple|lgr|mbɛti}}
+* Leonese: {{t|roa-leo|agua|f}}
+* Leti (Indonesia): {{t|lti|w̃era}}
+* Lezgi: {{t|lez|йад}} / {{t|lez|яд}}
+* Li'o: {{t-simple|ljl|ae}}
+* Ligbi: {{t-simple|lig|yí}}
+* Ligurian: {{t-simple|lij|aigua}}, {{t-simple|lij|ægua}} {{qualifier|Genoese}}
+* Lijili: {{t-simple|mgi|ńkwàlɛ̀}}
+* Likum: {{t|lib|gway}}
+* Lillooet: {{t-simple|lil|qʷuʔ}}
+* Limbu: {{t|lif|ᤆᤫᤠ᤹ᤸ|tr=cwa'l|sc=Limb}}
+* Limburgish: {{t-simple|li|water}}
+* Lingala: {{t-simple|ln|mái}}
+* Lingao: {{t-simple|onb|nam⁴}}
+* Lingombe: {{t-simple|ngc|madiba}}
+* Lipan: {{t-simple|apl|kó}}
+* Lithuanian:
+*: Aukštaitian: {{t+|lt|vanduo|m}}
+* Livonian: {{t-simple|liv|vež}}
+* Logooli: {{t-simple|rag|amaazi}}
+* Lojban: {{t-simple|jbo|djacu}}
+* Loko: {{t-simple|lok|nja}}
+* Lombard: {{t-simple|lmo|acqua}}; {{t-simple|lmo|ègua}} {{qualifier|Bergamasco}}, {{t-simple|lmo|aiva}} {{qualifier|Bresciano}}
+* Loniu: {{t-simple|los|an}} / {{t|los|ʔan}} {{qualifier|fresh water}}
+* Lonwolwol: {{t|crc|we}}
+* Lopa: {{t-simple|lop|mmi}}
+* Lote: {{t|uvl|éch}}
+* Lotuko: {{t-simple|lot|aari}}
+* Lou: {{t-simple|loj|wei}}
+* Louisiana Creole French: {{t|lou|dolo}}, {{t|lou|dilo}}, {{t|lou|dlo}}
+* Low German:
+*: German Low German: {{t+|nds-de|Water|n}}
+*: Dutch Low Saxon: {{t-simple|nds-nl|waoter}} {{qualifier|Drents}}, {{t-simple|nds-nl|water}} {{qualifier|Drents and Twents}}, {{t-simple|nds-nl|waeter}} {{qualifier|Drents}}, {{t-simple|nds-nl|wotter}} {{qualifier|Gronings}}
+* Lower Grand Valley Dani: {{t|dni|i}}
+* Lower Tanana: {{t-simple|taa|tu}}
+* Lozi: {{t-simple|loz|mezi}}
+* Luba-Katanga: {{t-simple|lu|mema}}
+* Lubuagan Kalinga: {{t|knb|chelum}}
+* Luganda: {{t-simple|lg|mazzi}}
+* Luguru: {{t-simple|ruf|matsi}}
+* Luhya: {{t-simple|luy|madzi}}
+* Luiseño: {{t-simple|lui|páala}}
+* Lun Bawang: {{t|lnd|abpa'}}
+{{trans-mid}}
+* Lunda: {{t-simple|lun|meji}}
+* Luo: {{t-simple|luo|pi}}
+* Lusengo: {{t-simple|lse|mai}}
+* Lushootseed: {{t-simple|lut|qʷuʔ}}
+* Luwian: {{t|xlu|𒉿𒀀𒅈𒊭|tr=wārsa|sc=Xsux}}
+* Luxembourgish: {{t+|lb|Waasser|n}}
+* Lydian: {{t|xld|𐤨𐤬𐤱𐤰|tr=kofu|sc=Lydi}}
+* Lü: {{t|khb|ᦓᧄᧉ|tr=nam6|sc=Talu}}
+* Ma'ya: {{t-simple|slz|waya}}
+* Maaka: {{t|mew|ʔamma|alt=ʔámmà}}
+* Maasai: {{t-simple|mas|enkare}}
+* Mabaan: {{t-simple|mfz|piego}}
+* Macaguán: {{t-simple|mbn|men}}
+* Macanese: {{t-simple|mzs|águ}}
+* Macedonian: {{t|mk|вода}}
+* Machiguenga: {{t-simple|mcb|nia}}
+* Macuna: {{t-simple|myy|ide}}
+* Macushi: {{t-simple|mbc|tuna}}
+* Mada (Nigeria): {{t-simple|mda|mə̀sər}}
+* Madurese: {{t-simple|mad|aeng}}
+* Maguindanao: {{t-simple|mdh|ig}}
+* Maia: {{t-simple|sks|yag}}
+* Makalero: {{t|mjb|ira}}
+* Makasae: {{t-simple|mkz|ira}}
+* Makhuwa: {{t-simple|vmw|'máási}}
+* Makonde: {{t-simple|kde|medi}}
+* Malaccan Creole Portuguese: {{t-simple|mcm|agu}}
+* Malagasy: {{t-simple|mg|rano}}
+* Malay:
+*: Rumi: {{t-simple|ms|air}}
+*: Jawi: {{t|ms|اءير|sc=Arab}}
+* Malayalam: {{t+|ml|ജലം}}, {{t+|ml|വെള്ളം}}
+* Malaynon: {{t|mlz|tubi}}
+* Malecite-Passamaquoddy: {{t-simple|pqm|nopim}}
+* Malila: {{t-simple|mgq|aminzi}}
+* Malinaltepec Tlapanec: {{t-simple|tcf|iya}}, {{t|tcf|ija}}
+* Maltese: {{t-simple|mt|ilma|m}}
+* Malto: {{t|mjt|अमदु|tr=amdu|sc=Deva}}
+* Maléku Jaíka: {{t-simple|gut|tí}}
+* Mam: {{t-simple|mam|a'}}
+* Mamaindé: {{t-simple|wmd|nahon}}
+* Mamanwa: {{t-simple|mmn|sapa}}
+* Mambae: {{t-simple|mgm|er}}
+* Mambwe-Lungu: {{t-simple|mgr|amanzi}}
+* Mampruli: {{t|maw|koom}}
+* Manam: {{t-simple|mva|dang}} / {{t-simple|mva|daŋ}} {{qualifier|fresh water}}
+* Manambu: {{t-simple|mle|gu}}
+* Manchu: {{t|mnc|ᠮᡠᡴᡝ|tr=muke|sc=Mong}}
+* Manda: {{t|mha|ଏଯ|tr=ēy|sc=Orya}}
+* Mandaic: {{t|mid|ࡌࡉࡀ|tr=mya|sc=Mand}}
+* Mandan: {{t|mhq|mini}}
+* Mandar: {{t|mdr|ᨓᨕᨗ|tr=wai|sc=Bugi}}
+* Mandinka: {{t-simple|mnk|jio}}
+* Mangarevan: {{t-simple|mrv|vai}}
+* Mangas: {{t-simple|zns|yip}}
+* Manggarai: {{t-simple|mqy|waé}}
+* Manikion: {{t-simple|mnx|duhu}}
+* Manipuri: {{t|mni|ইসিং|tr=ising|sc=Beng}}
+* Mano: {{t-simple|mev|yíí}}
+* Mansi: {{t|mns|вить|tr=vit'|sc=Cyrl}}
+* Manta: {{t-simple|myg|mɥáà}}
+* Manx: {{t|gv|ushtey|m}}
+* Maore Comorian: {{t-simple|swb|maji}}
+* Maori: {{t-simple|mi|wai}}
+* Mapos Buang: {{t-simple|bzh|bël}}
+* Mapudungun: {{t-simple|arn|ko}}
+* Mapun: {{t-simple|sjm|bohe'}}
+* Mara: {{t-simple|mrh|ti}}
+* Maranao: {{t-simple|mrw|ig}}
+* Maranunggu: {{t-simple|zmr|wuta}}
+* Marathi: {{t|mr|पाणी|tr=pāṇī|sc=Deva}}, {{t|mr|जल|tr=jal|sc=Deva}}
+* Marau: {{t-simple|mvr|mare}}
+* Margi: {{t-simple|mrt|'imi}}
+* Maricopa: {{t-simple|mrc|ha}}, {{t-simple|mrc|axa}}
+* Marka: {{t-simple|rkm|zìé}}
+* Marrithiyel: {{t-simple|mfr|wudi}}
+* Marshallese: {{t-simple|mh|ren}}, {{t-simple|mh|dān}}, {{t-simple|mh|aiboj}}
+* Martu Wangka: {{t|mpj|kalyu}} {{qualifier|Yulparija}}
+* Martuthunira: {{t-simple|vma|kayulu}}
+* Marwari: {{t|mwr|पाणी|tr=pāṇī|sc=Deva}}
+* Masaba: {{t-simple|myx|kamezi}}
+* Masbatenyo: {{t-simple|msb|tubig}}
+* Masiwang: {{t|bnf|wai}}
+* Massachusett: {{t-simple|wam|nippe}}
+* Massep: {{t-needed|mvs}}
+* Matagalpa: {{t-simple|mtn|lí}}
+* Matengo: {{t-simple|mgv|masi}}
+* Matlatzinca: {{t|mat|táwi}}
+* Mato: {{t-simple|met|lang}}
+* Mator: {{t-simple|mtm|bü}}
+* Matumbi: {{t-simple|mgw|mase}}
+* Maung: {{t-simple|mph|wubadj}}
+* Mauritian Creole: {{t-simple|mfe|dilo}}
+* Maxakalí: {{t-simple|mbl|kõnã'ãg}}
+* Mayangna: {{t-simple|yan|was}}
+* Maybrat: {{t-simple|ayz|aya}}
+* Mazanderani: {{t|mzn|او|tr=au|sc=fa-Arab}}
+* Mbabaram: {{t-simple|vmb|gug}}
+* Mbato: {{t|gwa|ndu}}
+* Mbre: {{t-simple|mka|tumu}}
+* Mbu': {{t-simple|muc|mgiəŋ}}
+* Mbugu: {{t|mhd|mázi}}
+* Mbuko: {{t-simple|mqb|a'am}}
+* Mbula: {{t-simple|mna|yok}}
+* Mbyá Guaraní: {{t-simple|gun|y}}
+* Media Lengua: {{t|mue|awa}}
+* Megleno-Romanian: {{t-simple|ruq|apu}}
+* Mehináku: {{t|mmh|'unɨ}}
+* Mehri: {{t-simple|gdq|ḥmo}}
+* Mekeo: {{t-simple|mek|fei}}
+* Melo: {{t-simple|mfx|hatse}}
+* Mende (Papua New Guinea): uku
+* Mende (Sierra Leone): {{t-simple|men|nja}}
+* Mengen: {{t-simple|mee|me}}
+* Merey: {{t-simple|meq|yam}}
+* Meroitic: {{t|xmr|𐦠𐦶|tr=ato|sc=Merc}}
+* Meru: {{t-simple|mer|ruuji}}
+* Mesaka: {{t|iyo|mɔ̀lɛ̀}}
+* Meyah: {{t-simple|mej|mei}}
+* Mfumte: {{t-needed|nfu}}
+* Mi'kmaq: {{t-simple|mic|samqwan}}
+* Miami: {{t-simple|mia|nipi}}
+* Mian: {{t-simple|mpt|aa}}
+* Michif: {{t-simple|crg|dilo}}
+* Middle Dutch: {{t-simple|dum|water}}
+* Middle English: {{t-simple|enm|water}}
+* Middle High German: {{t-simple|gmh|waʒʒer}}
+* Middle Low German: {{t-simple|gml|water}}
+* Middle Persian: {{t|pal|𐭠𐭯|tr=āp|sc=Phli}}
+* Middle Welsh: {{t-simple|wlm|dwfyr}}
+* Migaama: {{t|mmy|ammi|alt=àmmì}}
+* Mikasuki: {{t|mik|oki}}
+* Minangkabau: {{t-simple|min|aia}}
+* Mingrelian: {{t|xmf|წყარი}}
+* Minica Huitoto: {{t-simple|hto|jaɨnoi}}
+* Mirandese: {{t-simple|mwl|auga}}
+* Miship: {{t|mjs|əm|alt=ə̀m}}
+* Mising: {{t|mrg|asi}}
+* Miskito: {{t-simple|miq|li}}
+* Mitla Zapotec: {{t-simple|zaw|nis}}
+* Miya: {{t-simple|mkf|biy}}
+* Miyako: {{t|mvi|水|tr=みず, mizu, mikɯ}}
+* Mizo: {{t-simple|lus|tui}}
+* Mochi: {{t-simple|old|mringa}}
+* Mofu-Gudur: {{t-simple|mif|yam}}
+* Mogholi: {{t-simple|mhj|usun}}
+* Mohawk: {{t-simple|moh|ohné꞉ka'}}<!--ohneka-->
+* Mohegan-Pequot: {{t-simple|xpq|nupi}}
+* Moksha: {{t|mdf|ведь}}
+* Moloko: {{t-simple|mlw|yam}}
+* Mon: {{t|mnw|ဍာ်|tr=daik|sc=Mymr}}
+* Mongo: {{t-simple|lol|basi}}
+* Mongolian: {{t+|mn|ус}}
+*: Classical Mongolian: {{t|cmg|ᠤᠰᠤᠨ|tr=usun|sc=Mong}}
+* Monguor: {{t-simple|mjg|sdzu}}
+* Montana Salish: {{t-simple|fla|séwłkʷ}}
+* Montol: {{t|mtl|ham|alt=hàm}}
+* Monumbo: {{t-simple|mxk|tsū}}
+* Mopan Maya: {{t-simple|mop|ja'}}
+* More: {{t-simple|mos|koom}}
+* Mori Bawah: {{t-simple|xmz|uwoi}}
+* Moro: {{t-simple|mor|ŋawa}}
+* Mortlockese: {{t-simple|mrl|shaan}}
+* Mota: {{t-simple|mtt|pei}}
+* Motu: {{t-simple|meu|ranu}}
+* Movima: {{t-simple|mzp|tomi}}
+* Mpade: {{t|mpi|ame}}
+* Mpoto: {{t-simple|mpa|machi}}
+* Mpur: {{t-simple|akc|war}}
+* Mru: {{t-needed|mro}}
+* Mubi: {{t|mub|aam}}
+* Mudburra: {{t|dmw|nguku}}
+* Muduapa: {{t-simple|wiv|naru}}
+* Muinane: {{t|bmr|nɨ́ɸaiʔu}}, {{t|bmr|ɸaiʔu}}, {{t|bmr|nɨ́ɸáíʔu}}
+* Mulam: {{t|mlm|水|tr=nəm4}}
+* Muna: {{t-simple|mnb|oe}}, {{t|mnb|bai}}
+* Mundabli: {{t-simple|boe|ŋgi}}
+* Mundari: {{t|unr|दाः|tr=dā:|sc=Deva}}
+* Mundat: {{t-simple|mmf|hâm}}
+* Mungbam: {{t-simple|mij|anja}}
+* Munggui: {{t-simple|mth|mare}}
+* Munji: {{t-simple|mnj|yaogha}}
+* Muong: {{t-simple|mtq|đác}}
+* Murik (New Guinea): {{t|mtf|arɨm}}
+* Murui Huitoto: {{t-simple|huu|jɨnuì}}
+* Musgu: {{t|mug|yim}}
+* Mussau-Emira: {{t|emi|manu}}
+* Muyang: {{t-simple|muy|yàm}}
+* Muyuw: {{t-simple|myw|yevagam}}
+* Mwaghavul: {{t|sur|am|alt=àm}}
+* Mwan: {{t-simple|moa|yì}}
+* Mòcheno: {{t-simple|mhn|bòsser}}
+* Nafaanra: {{t|nfr|ñyu-mõ}}, {{t|nfr|ñyõ-mu}}
+* Nahuatl: {{t-simple|nah|atl}}
+* Nakanai: {{t-simple|nak|lalu}}
+* Naki: {{t-simple|mff|ngwɔ}} {{qualifier|Mashi}}
+* Nali: {{t|nss|dran}} {{qualifier|fresh water}}
+* Nama: {{t-simple|naq|ǁaḿ-i}}
+* Namakura: {{t-simple|nmk|ran}}
+* Nambikwara: {{t-simple|nab|ĩ̱³yau³sxu²}}
+* Namia: {{t-simple|nnm|ijo}}
+* Nanai: {{t|gld|муэ|tr=mu'e|sc=Cyrl}}
+* Nande: {{t-simple|nnb|amagetse}}
+* Nanticoke: {{t-simple|nnt|nip}}
+* Nar Phu: {{t-simple|npa|kyû}}
+* Narungga: {{t|nnr|kapi}}
+* Nasioi: {{t|nas|nto}}
+* Nataoran Amis: {{t-simple|ais|nanom}}
+* Natchez: {{t-simple|ncz|kuɴ}}
+* Nauna: {{t|ncn|cɨn}} {{qualifier|fresh water}}
+* Nauruan: {{t-simple|na|ebok}}
+* Navajo: {{t-simple|nv|tó}}
+* Navarro-Aragonese: {{t|roa-oan|agua}}
+* Ncane: {{t-simple|ncr|djɔ̀ɔ̀}}
+* Ndaktup: {{t-needed|ncp}}
+* Ndali: {{t-simple|ndh|mishi}}
+* Ndamba: {{t-simple|ndj|machi}}
+* Nde-Nsele-Nta: {{t|ndd|ànáp}} {{qualifier|Nde}}, {{t|ndd|ɑːlʌp}} {{qualifier|Nselle}}, {{t|ndd|ɑ̄ːlʌ́p}} {{qualifier|Nta}}
+* Ndemli: {{t-simple|nml|ndíbí}}
+* Ndengereko: {{t-simple|ndg|masi}}
+* Ndogo: {{t-simple|ndz|ngo}}
+* Ndonga: {{t-simple|ng|omeya}}
+* Ndyuka-Trio Pidgin: {{t|njt|wataa}}
+* Ndzwani Comorian: {{t-simple|wni|maji}}
+* Neapolitan: {{t-simple|nap|acqua}}
+* Nefusa: {{t-simple|jbn|aman}}
+* Negerhollands: {{t-simple|dcr|watu}}
+* Negidal: {{t|neg|му|tr=mu|sc=Cyrl}}
+* Nehan: {{t-simple|nsn|laur}}
+* Nemi: {{t-simple|nem|we}}
+* Nengone: {{t-simple|nen|köiö}}
+* Nepali: {{t+|ne|पानी|tr=pāni|sc=Deva}}, {{t+|ne|जल|tr=jal|sc=Deva}}
+* Newari: {{t|new|ला|tr=lā|sc=Deva}}
+* Nez Perce: {{t-simple|nez|kús}}
+* Ngad'a: {{t-simple|nxg|vacé}}
+* Ngaju: {{t-simple|nij|danum}}
+* Ngalakan: {{t|nig|weʔ}}
+* Ngambay: {{t-simple|sba|màn}}
+* Ngamo: {{t|nbh|hum|alt=hùm}}
+* Nganasan: {{t|nio|быˮ|tr=by¨|sc=Cyrl}}
+* Ngan'gityemerri: {{t-simple|nam|kuri}}
+* Ngarinyin: {{t-simple|ung|ŋabun}}
+* Ngarrindjeri: {{t|nay|nguk|alt=nguːk}}
+* Ngazidja Comorian: {{t-simple|zdj|madji}}
+* Ngbaka Ma'bo: {{t|nbm|ngo|alt=ngó}}
+* Ngeq: {{t-simple|ngt|dAAq}}
+* Ngie: {{t-simple|ngj|une}}
+* Ngiemboon: {{t-simple|nnh|ntse}}
+* Ngindo: {{t-simple|nnq|machi}}
+* Ngiyambaa: {{t-simple|wyb|kali}}
+* Ngizim: {{t-simple|ngi|âm}}
+* Ngoni: {{t-simple|ngo|manji}}
+* Ngulu: {{t-simple|ngp|mazi}}
+* Nias: {{t-simple|nia|idanö}}
+* Nicaraguan Creole: {{t|bzk|wáta}}
+* Nilamba: {{t-simple|nim|maaze}}
+* Nimboran: {{t-simple|nir|bu}}
+* Ningye: {{t-simple|nns|maʃir}}
+* Ninzo: {{t-simple|nin|masiri}}
+* Niuafo'ou: {{t-simple|num|vai}}
+* Niuean: {{t-simple|niu|vai}}
+* Nivkh: {{t|niv|ч’аӽ|tr=č'aẖ|sc=Cyrl}}
+* Nkem-Nkum: {{t|isi|àlāp}} {{qualifier|Nkem}}, {{t|isi|àlʌ́p}} {{qualifier|Nkum}}
+* Nkoroo: {{t-simple|nkx|mindi}}
+* Nkore (Runyakole): {{t-simple|nyn|amaizi}}
+* Nnam: {{t|nbp|ɑ́lɑ́p}}
+* Nobiin: {{t-simple|fia|aman}}
+* Nogai: {{t|nog|сув|tr=suv|sc=Cyrl}}
+* Nomatsiguenga: {{t-simple|not|nijá}}
+* Noone: {{t-simple|nhu|jòò}}
+* Nootka: {{t-simple|nuk|č̕aʔak}}
+* Norman: {{t-simple|nrf|iâo|f}} {{qualifier|France}}, {{t-simple|nrf|iaoue|f}} {{qualifier|Guernsey}}, {{t|nrf|ieau|f}} {{qualifier|Jersey}}, {{t|nrf|yo|f}} {{qualifier|Sark}}
+* North Efate: {{t-simple|llp|vai}}
+* North Frisian: {{t|frr|wååder|n}} {{qualifier|Mooring}}; {{t|frr|weeder|n}} {{qualifier|Föhr-Amrum}}
+* North Giziga: {{t|gis|yam}}
+* North Marquesan: {{t-simple|mrq|vai}}
+* North Tairora: {{t|tbg|namari}}
+* Northern Amami-Oshima: {{t|ryn|水|tr=むぃずぃ, mïzï}}
+* Northern Emberá: {{t-simple|emp|báido}}
+* Northern Kissi: {{t-simple|kqs|mɛ̀ŋ}}
+* Northern Ndebele: {{t-simple|nd|amanzi}}
+* Northern Paiute: {{t|pao|paa}}
+* Northern Pomo: {{t-simple|pej|ka}}
+* Northern Qiang: {{t-simple|cng|ze}}
+* Northern Sami: {{t-simple|se|čáhci}}
+* Northern Sierra Miwok: {{t|nsq|kik·yˀ}}
+* Northern Sotho: {{t-simple|nso|meetse}}
+* Northern Thai: {{t|nod|ᨶᩣᩴ᩶|tr=nam|sc=Lana}}
+* Northern Tujia: {{t-simple|tji|ce³}}
+* Northern Tutchone: {{t-simple|ttm|chu}}
+* Northern Yukaghir: {{t|ykg|лавйэ|tr=lawje|sc=Cyrl}}
+* Norwegian:
+*: Bokmål: {{t+|nb|vann|n}}
+*: Nynorsk: {{t|nn|vatn|n}}
+* Nottoway: {{t|ntw|awwa}}
+* Nottoway-Meherrin: {{t-simple|nwy|auwa}}
+* Novial: {{t-simple|nov|aque}}
+* Nsari: {{t-simple|asj|dzɔ̀ɔ}}
+* Nubi: {{t-simple|kcn|'moyo}}
+* Nuer: {{t-simple|nus|pi}}
+* Nuguria: {{t-simple|nur|vai}}
+* Nukak Makú: {{t|mbr|kaan²de¹}}
+* Nukunu: {{t-simple|nnv|kawi}}
+* Nukuoro: {{t-simple|nkr|vai}}
+* Numana-Nunku-Gbantu-Numbu: {{t-simple|nbr|àmàʃir}}
+* Nupe: {{t-simple|nup|nuwan}}
+* Nyakyusa: {{t-simple|nyy|amisi}}
+* Nyambo: {{t-simple|now|ameizi}}
+* Nyamwezi: {{t-simple|nym|minzi}}
+* Nyankole: {{t-simple|nyn|amaizi}}
+* Nyasa: {{t-simple|mgs|masi}}
+* Nyaturu: {{t-simple|rim|maji}}
+* Nyawaygi: {{t-simple|nyt|yagu}}
+* Nyiha: {{t-simple|nih|aminzi}}
+* Nyimang: {{t-simple|nyi|bong}}
+* Nyindrou: {{t|lid|gwa}}
+* Nyoro: {{t-simple|nyo|amaizi}}
+* Nyunga: {{t|nys|kep}} {{qualifier|southern dialects}}, {{t|nys|kapi}} {{qualifier|western dialects}}
+* Nyâlayu: {{t-simple|yly|we}}
+* Nzanyi: {{t-simple|nja|mbii}}
+* Nzima: {{t-simple|nzi|nzule}}
+* Nüpode Huitoto: {{t|hux|háɯnoi}}
+* Nǀuu: {{t-simple|ngh|ǃqhaa}}
+* O'odham: {{t-simple|ood|ṣu꞉dagĭ}}
+* Obolo: {{t-simple|ann|ḿmún̄}}
+* Ocaina: {{t-simple|oca|ñoon}}
+* Occitan: {{t-simple|oc|aiga}}
+* Odual: {{t-simple|odu|ə̀mʊ̀ʊ̀m}}
+* Ogbah: {{t-simple|ogc|mini}}
+* Ogbia: {{t|ogb|ə̀mʊ̀m}}
+* Ogbronuagum: {{t-simple|ogu|amʊ}}
+* Ojibwe: {{t-simple|oj|nibi}} {{qualifier|inanimate}}
+* Oki-No-Erabu: {{t|okn|水|tr=みじ, miji}}
+* Okinawan: {{t|ryu|水|tr=みじ, miji}}
+* Okodia: {{t-simple|okd|ḅeni}}
+* Oksapmin: {{t-simple|opm|tom}}
+* Old Armenian: {{t|xcl|ջուր}}
+* Old Catalan: {{t|roa-oca|aigua}}
+* Old Church Slavonic:
+*: Cyrillic: {{t|cu|вода|f}}
+*: Glagolitic: {{t|cu|ⰲⱁⰴⰰ|f||sc=Glag}}
+* Old Dutch: {{t|odt|watar|n}}
+* Old East Slavic: {{t|orv|вода|f}}
+* Old English: {{t+|ang|wæter|n}}; {{t|ang|ēa|f}}
+* Old Frisian: {{t|ofs|weter|n}}
+* Old High German: {{t-simple|goh|waʒʒar}}
+* Old Irish: {{t|sga|uisce|m}}, {{t|sga|dobur|m}}
+* Old Italian: {{t|roa-oit|acqua}}
+* Old Leonese: {{t|roa-ole|agua}}
+* Old Norse: {{t|non|vatn|n}}
+* Old Nubian: {{t|onw|ⲁⲥⲥⲉ|tr=asse|sc=Copt}}
+* Old Persian: {{t|peo|𐎠𐎱𐎡𐎹𐎠|tr=apiyā|sc=Xpeo}} {{qualifier|locative singular}}
+* Old Portuguese: {{t|roa-opt|agua|f}}
+* Old Provençal: {{t-simple|pro|agua}}
+* Old Prussian: {{t-simple|prg|wundan}}
+* Old Saxon: {{t|osx|watar|n}}, {{t|osx|aha|f}}
+* Old South Arabian: {{t|sem-srb|𐩣𐩥|tr=mw|sc=Sarb}}
+* Old Tupi: {{t-simple|tpw|y}}
+* Old Turkic: {{t-simple|otk|suv}}
+* Omba: {{t|omb|wai}}
+* Ongota: {{t-simple|bxe|č'aʿawa}}
+* Onin: {{t-simple|oni|were}}
+* Ontong Java: {{t-simple|ojv|vai}}
+* Orejón: {{t-simple|ore|oco ja̱}}
+* Oriya: {{t+|or|ପାଣି|tr=pāṇi|sc=Orya}}
+* Oro: {{t-simple|orx|mmọn̄}}
+* Oroch: {{t|oac|мӯ|tr=mū|sc=Cyrl}}
+* Orok: {{t|oaa|мӯ|tr=mū|sc=Cyrl}}
+* Oromo: {{t-simple|om|bishaan}}, {{t-simple|om|biye}}
+* Oroqen: {{t-simple|orh|muː}}
+* Oruma: {{t-simple|orr|ḅeni}}
+* Osage: {{t|osa|níi}}
+* Oscan: {{t|osc|𐌖𐌍𐌄|sc=Ital}}, {{t|osc|𐌖𐌕𐌖𐌓|sc=Ital}}
+* Ossetian: {{t|os|дон}}
+* Ot Danum: {{t|otd|danum}}
+* Otomi : {{t-simple|ote|dehe}}
+* Ottoman Turkish: {{t|ota|صو|tr=su|sc=ota-Arab}}
+* Owa: {{t-simple|stn|wai}}
+* Oyda: {{t-simple|oyd|hatsi}}
+* Ozumacín Chinantec: {{t|chz|jmɨɨ³}}
+* Pa'a: {{t|pqa|ambi}}
+* Paama: {{t-simple|pma|oai}}
+* Pacoh: {{t-simple|pac|daq}}
+* Paicî: {{t-simple|pri|jawé}}
+* Paiwan: {{t-simple|pwn|zalum}}
+* Pakanha: {{t-simple|pkn|ukulu}}
+* Palauan: {{t-simple|pau|ralm}}
+* Palenquero: {{t-simple|pln|agua}}
+* Pali: {{t-simple|pi|āpa}}, {{t-simple|pi|jala}}
+* Palikur: {{t|plu|un|n}}
+* Palu'e: {{t-simple|ple|vae}}
+* Pamona: {{t|pmf|we}}
+* Panare: {{t-simple|pbh|tïna}}
+* Pangasinan: {{t|pag|danum|alt=danúm}} ({{t-simple|pag|danom}})
+* Pangwa: {{t-simple|pbr|makasi}}
+* Panoan Katukína: {{t-simple|knt|waka}}
+* Papantla Totonac: {{t-simple|top|chuchut}}
+* Papiamentu: {{t-simple|pap|awa}}
+* Papuan Gimi: {{t-simple|gim|bene}}
+* Papuma: {{t-simple|ppm|mare}}
+* Parakanã: {{t-simple|pak|'y}}
+* Parauk: {{t-simple|prk|rɔm}}
+* Pareci: {{t-simple|pab|one}}
+* Pará Arára: {{t-simple|aap|paɾu}}
+* Pashto: {{t+|ps|اوبه|sc=ps-Arab}}
+* Pattani: {{t-simple|lae|ti}}
+* Paumarí: {{t-simple|pad|paha}}
+* Pawnee: {{t-simple|paw|kiicu'}}, {{t-simple|paw|kic}}
+* Pe: {{t-simple|pai|min}}
+* Pech: {{t-needed|pay}}
+* Pemon: {{t|aoc|tuna}}
+* Penchal: {{t|pek|tɨn}} {{qualifier|fresh water}}
+* Pennsylvania German: {{t-simple|pdc|Wasser}}
+* Penobscot: {{t-simple|aaq|nebi}}
+* Penrhyn: {{t-simple|pnh|vai}}
+* Pero: {{t|pip|am}}
+* Persian: {{t+|fa|آب|tr=âb|sc=fa-Arab}}, {{t+|fa|او|tr=ow, aw}} {{qualifier|dialectal}}
+* Phalura: {{t-simple|phl|wii}}
+* Phoenician: {{t|phn|𐤌𐤌|tr=mm|sc=Phnx}}
+* Phom: {{t-simple|nph|yóŋ}}
+* Phrygian: {{t|xpg|βέδυ|tr=bedu|sc=Grek}}
+* Piapoco: {{t-simple|pio|uni}}
+* Picard: {{t-simple|pcd|iau|f}}
+* Pichinglis: {{t-simple|fpe|wàtá}}
+* Piedmontese: {{t-simple|pms|eva}}, {{t-simple|pms|aqua|f}}
+* Pijao: {{t|pij|tána}}
+* Pije: {{t-simple|piz|we}}
+* Pijin: {{t|pis|wata}}
+* Pileni: {{t|piv|vai}}
+* Pima Bajo: {{t|pia|sudag}}
+* Pimbwe: {{t-simple|piw|amandi}}
+* Pinyin: {{t-simple|pny|nchiə}}
+* Pipil: {{t-simple|ppl|at}}
+* Pirahã: {{t-simple|myp|pi}}
+* Piratapuyo: {{t-simple|pir|ako}}
+* Pitcairn-Norfolk: {{t-simple|pih|worta}}
+* Pitjantjatjara: {{t-simple|pjt|kapi}}, {{t-simple|pjt|mina}}
+* Plains Apache: {{t|apk|kóó}}
+* Plains Miwok: {{t|pmw|ki·k}}
+* Plautdietsch: {{t+|pdt|Wota|n}}
+* Playero: {{t|gob|miní}}
+* Podoko: {{t-simple|pbi|yəwá}}
+* Pogolo: {{t-simple|poy|mashi}}
+* Pohnpeian: {{t-simple|pon|pihl}}
+* Pokangá: {{t|pok|ó'kó}}
+* Polabian: {{t|pox|vådă|f}}
+* Polish: {{t+|pl|woda|f}}
+* Pom: {{t-simple|pmo|dia}}
+* Pontic Greek: {{t-needed|pnt}}
+* Portuguese: {{t+|pt|água|f}}
+* Potawatomi: {{t-simple|pot|mbish}}
+* Powhatan: {{t-simple|pim|suckahanna}}
+* Principense: {{t-simple|pre|awa}}
+* Puinave: {{t-simple|pui|ɨt}}
+* Pumpokol: {{t-simple|xpm|ul}}
+* Punjabi: {{t+|pa|ਪਾਣੀ|tr=pāṇī|sc=Guru}}, {{t|pa|ਜਲ|sc=Guru}}, {{t+|pa|ਆਬ|sc=Guru}}
+* Purepecha: {{t-simple|pua|itsï}}
+* Puyuma: {{t-simple|pyu|ənay}}, {{t-simple|pyu|nanum}} {{qualifier|ritual term used by males}}, {{t-simple|pyu|bru}} {{qualifier|ritual term used by females}}
+* Páez: {{t-simple|pbb|yu'}}
+* Pévé: {{t-simple|lme|mbì}}
+* Q'anjob'al: {{t-simple|kjb|ej}}
+* Qimant: {{t|ahg|ኣዀ|tr=axw|sc=Ethi}}
+* Quapaw: {{t-simple|qua|nį}}
+* Quechua: {{t-simple|qu|yaku}}, {{t|qu|unu}}
+* Quiripi: {{t|qyp|nup|alt=núp}}
+* Rade: {{t-simple|rad|êa}}
+* Rapa Nui: {{t-simple|rap|vai}}
+* Rarotongan: {{t-simple|rar|vai}}
+* Ratahan: {{t-simple|rth|ake}}
+* Rawang: {{t|raw|thi}}
+* Rejang: {{t-simple|rej|bioa}}
+* Rennellese: {{t-simple|mnv|bai}}
+* Resígaro: {{t-simple|rgr|hooní}}
+* Riang: {{t-simple|ril|ˉom}}
+* Rikbaktsa: {{t-simple|rkb|pihik}}
+* Rohingya: {{t-simple|rhg|faní}}
+* Romagnol: {{t-simple|rgn|aqua}}, {{t-simple|rgn|acva}}
+* Romani: {{t-simple|rom|paji}}
+*: Sinte Romani: {{t|rmo|páni|m}}
+* Romanian: {{t+|ro|apă|f|alt=ápă}}
+*: Cyrillic: {{t|ro|апэ|f|alt=а́пэ|tr=apă|sc=Cyrl}}
+* Romansch: {{t-simple|rm|aua}}
+* Rombo: {{t-simple|rof|mringa}}
+* Ron: {{t-simple|cla|ham}} {{qualifier|all dialects, including Bokkos, Daffo-Butura, Shagawu}}<!--specified this in case we decide to consider these separate languages, like some linguists do-->
+* Ronga: {{t-simple|rng|mati}}
+* Roon: {{t-simple|rnn|rur}}
+* Roro: {{t-simple|rro|bei}}
+* Rotokas: {{t-simple|roo|uukoa}}
+* Rotuman: {{t-simple|rtm|tạnu}}, {{t|rtm|vai}}
+* Roviana: {{t-simple|rug|kolo}}
+* Rufiji: {{t-simple|rui|mase}}
+* Rukai: {{t-simple|dru|acilay}}
+* Rukiga: {{t-simple|cgg|amaizi}}
+* Rumu: {{t-simple|klq|ú}}
+* Rungwa: {{t-simple|rnw|amanzi}}
+* Russian: {{t+|ru|вода́|f}}
+* Rusyn: {{t|rue|вода́|f}}
+* Rutul: {{t|rut|хьед|tr=h'ed|sc=Cyrl}}
+* Rwa: {{t-simple|rwk|mura}}
+* S'gaw Karen: {{t|ksw|ထံ|tr=|sc=Mymr}}
+* Sa: {{t-simple|sax|wa}}
+* Sa'a: {{t|apb|wai}}
+* Saanich: {{t-simple|str|ḰO}}
+* Saaroa: {{t-simple|sxr|salumu}} / {{t-simple|sxr|salhumu}}
+* Sabir: {{t-simple|pml|agua}}, {{t-simple|pml|lagua}}
+* Sabu: {{t|hvn|ei}}
+* Safwa: {{t-simple|sbk|aminzi}}
+* Saisiyat: {{t-simple|xsy|ralom}}
+* Sakachep: {{t-needed|sch}}
+* Salar: {{t-simple|slr|سو|tr=su|sc=Arab}}
+* Salinan: {{t|sln|te'a'}}
+* Sambali: {{t|xsb|lanum|alt=lánum}} ({{t-simple|xsb|lanom}})
+* Sambe: {{t-simple|xab|àrì}}
+* Samoan: {{t-simple|sm|vai}}
+* Samogitian: {{t|sgs|ondou|m}}
+* Samtao: {{t-simple|stu|ʔúm}}
+* San Jerónimo Tecóatl Mazatec: {{t|maa|nandá}}
+* San Juan Atzingo Popoloca: {{t|poe|⁴nta⁴}}
+* San Pedro Amuzgos Amuzgo: {{t|azg|ndá}}
+* Sandawe: {{t-simple|sad|ts'â}}
+* Sangir: {{t-simple|sxn|akeˀ}}
+* Sango: {{t-simple|sg|ngu}}
+* Sangu: {{t-simple|sbp|amalenga}}
+* Sanskrit: {{t|sa|अप्}}, {{t|sa|जल}}, {{t|sa|पानीय}}
+* Santa María Quiegolani Zapotec: {{t-simple|zpi|nis}}
+* Santali: {{t|sat|ᱫᱟᱜ|tr=dag|sc=Olck}}
+* Santo Domingo Albarradas Zapotec: {{t|zas|nihs}}
+* Saramaccan: {{t|srm|wata|alt=wáta}}
+* Sarcee: {{t-simple|srs|tú}}
+* Sardinian: {{t-simple|sc|aba}}
+*: Campidanese: {{t|sc|àcua|f}}
+*: Nuorese: {{t|sc|abba|f}}
+* Sarikoli: {{t-simple|srh|xats}}
+* Sasak: {{t-simple|sas|aiq}}
+* Saterland Frisian: {{t-simple|stq|Woater}}
+* Sateré-Mawé: {{t-simple|mav|y'y}}
+* Saurashtra: {{t-simple|saz|pani}}
+* Savosavo: {{t|svs|piva}}
+* Sayula Popoluca: {{t-simple|pos|nʉ}}
+* Scots: {{t-simple|sco|watter}}
+* Scottish Gaelic: {{t+|gd|uisge|m}}
+* Sebat Bet Gurage: {{t|sgw|እኻ|tr=əxa|sc=Ethi}}
+* Secoya: {{t-simple|sey|oko}}
+* Sedang: {{t-simple|sed|tea}}
+* Seeku: {{t-simple|sos|jo}}
+* Seimat: {{t-simple|ssg|kan}}
+* Sekani: {{t-simple|sek|too}} {{qualifier|Kwadacha dialect}}, {{t-simple|sek|choo}} {{qualifier|some other dialects}}
+* Selaru: {{t|slu|wer}}
+* Selepet: {{t-simple|spl|to}}
+* Selkup: {{t|sel|ӱт|tr=üt|sc=Cyrl}}
+* Sema: {{t-simple|nsm|azü}}
+* Semai: {{t-simple|sea|teiu}}
+* Semelai: {{t-simple|sza|dak}}
+* Seneca: {{t-simple|see|o·nekanos|alt=(ˀ)o·nekanos}} / {{t-simple|see|o·nekanus|alt=(ˀ)o·nekanus}}
+* Sened: {{t-simple|sds|amän}}
+* Sentani: {{t-simple|set|bu}}
+* Sepa: {{t-simple|spe|ndanu}}
+* Serbo-Croatian:
+*: Arebica: {{t|sh|وۉدا|f|sc=Arab}}
+*: Cyrillic: {{t|sh|во̀да|f|sc=Cyrl}}
+*: Roman: {{t+|sh|vòda|f}}
+* Serer: {{t-simple|srr|foof}}
+* Seri: {{t-simple|sei|hax}}
+* Seru: {{t|szd|danom}}
+* Serui-Laut: {{t-simple|seu|marea}}
+* Seychellois Creole: {{t-simple|crs|delo}}
+* Seze: {{t-simple|sze|háans'i}}
+* Sha: {{t-simple|scw|ham}}
+* Shall-Zwall: {{t-simple|sha|jinen}}
+* Shambala: {{t-simple|ksb|mazi}}
+* Shan: {{t|shn|ၼမ်ႉ|tr=na̰m|sc=Mymr}}, {{t|shn|ဢႃႇပေႃႇ|tr='ā̀pɔ̀|sc=Mymr}}
+* Shanga: {{t-simple|sho|'í}}
+* Sharanahua: {{t-simple|mcd|unu}}
+* Shawnee: {{t|sjw|nepi}}
+* Shehri: {{t-simple|shv|míh}}
+* Sherpa: {{t|xsr|ཆུ|tr=chu|sc=Tibt}}
+* Shina: {{rfscript|scl|sc=Arab}} (wey)
+* Shipibo-Conibo: {{t-simple|shp|jene}}
+* Shona: {{t-simple|sn|mvura}}
+* Shor: {{t|cjs|суғ|tr=suğ|sc=Cyrl}}
+* Shoshone: {{t-simple|shh|baa'}}
+* Shuar: {{t-simple|jiv|entsa}}
+* Shubi: {{t-simple|suj|amaazi}}
+* Shughni: {{t-simple|sgh|x̌ats}}
+* Shuswap: {{t-simple|shs|séwλ-k°e}}
+* Siane: {{t|snp|no}}
+* Sichuan Yi: {{t|ii|ꒉ|tr=yy|sc=Yiii}}
+* Sicilian: {{t-simple|scn|acqua}}
+* Sidamo: {{t-simple|sid|waa}}
+* Sie: {{t-simple|erg|nu}}
+* Sika: {{t|ski|wair}}
+* Sikaiana: {{t-simple|sky|wai}}
+* Silacayoapan Mixtec: {{t|mks|ticui̱í}}
+* Silesian: {{t-simple|szl|woda}}
+* Silesian German: {{t|sli|Woasser}}
+* Silt'e: {{t|stv|መዪ|tr=mayi|sc=Ethi}}
+* Simbali: {{t-needed|smg}}
+* Simbo: {{t-simple|sbb|pie}}
+* Simeulue: {{t|smr|oil}}
+* Sinaugoro: {{t-simple|snc|nanu}}
+* Sindhi: {{t|sd|پاڻي|tr=pāṇī|sc=sd-Arab}}, {{t|sd|آب|tr=āb|sc=sd-Arab}}
+* Singpho: {{t-needed|sgp}}
+* Sinhalese: {{t+|si|ජලය}}, {{t+|si|වතුර}}
+* Sio: {{t-simple|xsi|lââ}}
+* Siona: {{t-simple|snn|oko}}
+* Siraya: {{t|fos|salom}}
+* Siriano: {{t-simple|sri|dekó}}
+* Sirionó: {{t-simple|srq|i}}
+* Siroi: {{t-simple|ssd|kule}}
+* Siwa: {{t-simple|siz|aman}}
+* Ske: {{t-simple|ske|ri}}
+* Skolt Sami: {{t-simple|sms|čää´čč}}
+* Slovak: {{t+|sk|voda|f}}
+* Slovene: {{t+|sl|vôda|f}}
+* Slovincian: {{t-simple|zlw-slv|vʉ̀ɵ̯dą}}
+* Sochiapam Chinantec: {{t|cso|hmáɨ²}}
+* Sokna: {{t-simple|swn|aman}}
+* Sokoro: {{t|sok|mbo}}
+* Solos: {{t-simple|sol|kua}}
+* Somali: {{t-simple|so|biyo}}, {{t-simple|so|waraabin}}
+* Somba-Siawari: {{t-simple|bmu|o}}
+* Sonaga: {{t|ysg|ʔa⁵⁵na⁵⁵}}
+* Soninke: {{t-simple|snk|ji}}
+* Sonsorolese: {{t-simple|sov|sarʉ}}
+* Soo: {{t-simple|teu|kwɛ}}
+* Soqotri: {{t-simple|sqt|rího}}
+* Sora: {{t|srb|𑃔|tr=da|sc=Sora}}
+* Sorbian:
+*: Lower Sorbian: {{t|dsb|wóda|f}}
+*: Upper Sorbian: {{t|hsb|woda|f}}
+* Sori-Harengan: {{t|sbh|gay}}
+* Sotho: {{t-simple|st|metsi}}
+* South Efate: {{t-simple|erk|vai}}
+* South Giziga: {{t-simple|giz|yam}}
+* South Marquesan: {{t-simple|mqm|vai}}
+* South Tairora: {{t|omw|namari}}
+* Southeast Ambrym: {{t-simple|tvk|oei}}
+* Southeast Ijo: {{t-simple|ijs|mindí}}
+* Southeastern Tepehuan: {{t-simple|stp|súdai'}}
+* Southern Altai: {{t|alt|суу|tr=suu|sc=Cyrl}}
+* Southern Amami-Oshima: {{t|ams|水|tr=むぃでぃ, mïdi}}
+* Southern Bobo Madaré: {{t-simple|bwq|ziō}}
+* Southern Kalinga: {{t|ksc|chanum}}
+* Southern Ndebele: {{t-simple|nr|amanzi}}
+* Southern Yukaghir: {{t|yux|оожии|tr=ōžī|sc=Cyrl}}
+* Sowa: {{t-simple|sww|rê}}
+* Spanish: {{t+|es|agua|f}}
+*: Old Spanish: {{t|osp|agua|f}}
+* Sranan Tongo: {{t-simple|srn|watra}}
+* Suarmin: {{t-needed|seo}}
+* Suba: {{t-simple|sxb|amanshe}}
+* Subtiaba: {{t|sut|íja}}
+* Sudest: {{t-simple|tgo|mbwa}}
+* Suena: {{t-simple|sue|ou}}
+* Sukuma: {{t-simple|suk|minzi}}
+* Sukur: {{t-simple|syk|yâm}}
+* Sumariup: {{t-needed|sip}}
+* Sumbwa: {{t-simple|suw|minzi}}
+* Sumerian: {{t|sux|𒀀|tr=a|sc=Xsux}}
+* Sundanese: {{t-simple|su|cai}}
+* Sur: {{t-simple|tdl|ryaŋ}}
+* Sursurunga: {{t-simple|sgz|dan}}
+* Susu: {{t-simple|sus|ye}}
+* Svan: {{t|sva|ლიც}}
+* Swahili: {{t+|sw|maji|p}}
+* Swazi: {{t-simple|ss|emanti}}
+* Swedish: {{t+|sv|vatten|n}}; {{t-simple|sv|vätur}} {{qualifier|obsolete}}
+* Sáliba: {{t-simple|slc|caha}}
+* Sãotomense: {{t-simple|cri|awa}}
+* Sô: {{t-simple|sss|dâ̱ːk}}
+* Tabasaran: {{t|tab|шид}}, {{t|tab|шар}}
+* Tabriak: {{t|tzx|arɨm}}
+* Tadaksahak: {{t-simple|dsq|aryen}}
+* Tae': {{t-simple|rob|wai}}
+* Tagalog: {{t-simple|tl|tubig}}
+* Tagish: {{t-simple|tgx|tū}}
+* Tagwana Senoufo: {{t|tgw|ñyu-mu}}
+* Tahaggart Tamahaq: {{t|thv|aman}}
+* Tahitian: {{t-simple|ty|pape}}, {{t-simple|ty|vai}}
+* Tai (New Guinea): {{t-needed|taw}}
+* Tai Dam: {{t|blt|ꪙꪾ꫁|tr=nam6|sc=Tavt}}
+* Tai Nüa: {{t|tdd|ᥘᥛᥳ|tr=lam5|sc=Tale}}
+* Taita: {{t-simple|dav|machi}}
+* Tajik: {{t-simple|tg|об}}
+* Takelma: {{t|tkm|xi}}
+* Takia: {{t-simple|tbc|you}}
+* Takuu: {{t-simple|nho|vai}}
+* Tal: {{t|tal|ham|alt=hàm}}
+* Taliabu: {{t|tlv|wayo}}
+* Talysh:
+*: Asalemi: {{t|tly|آو|tr=âv|sc=fa-Arab}}, {{t|tly|او|tr=ov|sc=fa-Arab}}
+* Tambas: {{t-simple|tdk|ham}}
+* Tambora: {{t-simple|xxt|naino}}
+* Tamil: {{t+|ta|தண்ணீர்}}, {{t+|ta|நீர்}}
+* Tampuan: {{t-simple|tpu|ti̤ək}}
+* Tanacross: {{t-simple|tcb|tu}}
+* Tangale: {{t|tan|am}}
+* Tangoa: {{t-simple|tgp|wai}}
+* Tangsa: {{t-simple|nst|kham}}
+* Tanimuca-Retuarã: {{t-simple|tnc|okoa}}
+* Tanjijili: {{t-simple|uji|ŋkwale}}
+* Taos: {{t-simple|twf|p’ȍ’óne}}
+* Tarantino: {{t|roa-tar|acqua|f}}
+* Tarao: {{t-simple|tro|nuy}}
+* Tariana: {{t-simple|tae|uni}} ({{t|tae|úuni|alt=(h)úuni}})
+* Tarifit: {{t-simple|rif|aman}}
+* Tarok: {{t-simple|yer|ǹdəng}}
+* Taroko: {{t-simple|trv|qsiya}}
+* Tashelhit: {{t-simple|shi|amane}}, {{t|shi|aman}}
+* Tasmanian: {{t-simple|xtz|lia}}
+* Tatar: {{t+|tt|су}}
+* Tatuyo: {{t-simple|tav|óko}}
+* Taushiro: {{t-simple|trr|vei}}
+* Tausug: {{t-simple|tsg|tubig}}
+* Tauya: {{t-simple|tya|ya'e}}
+* Tawala: {{t-simple|tbo|goila}}
+* Tawallammat Tamajaq: {{t|ttq|ⵎⵏ|m-p|tr=aman|sc=Tfng}}
+* Tawoyan: {{t|twy|danum}}
+* Tayo: {{t|cks|dolo}}, {{t|cks|delo}}
+* Tebul Ure Dogon: {{t-simple|dtu|ŋgyɛ}}
+* Tedaga: {{t-simple|tuq|yi}}
+* Tee: {{t-simple|tkq|máá}}
+* Tefaro: {{t-needed|tfo}}
+* Tehuelche: {{t-simple|teh|leʔ}}
+* Telugu: {{t+|te|నీరు}}, {{t+|te|జలము}}
+* Temein: {{t-simple|teq|múŋ}}
+* Temi: {{t-simple|soz|iba}}
+* Temiar: {{t-simple|tea|ong}}
+* Temne: {{t-simple|tem|ʌ mʌnt}}
+* Teop: {{t-simple|tio|ruene}}
+* Tera: {{t|ttr|ʔyim}}
+* Tereno: {{t|ter|une}}
+* Teressa: {{t-simple|tef|rak}}
+* Teribe: {{t-simple|tfr|di}}
+* Ternate: {{t-simple|tft|aki}}
+* Tese: {{t-simple|keg|imúŋ}}
+* Tetela: {{t-simple|tll|ashi}}
+* Tetum: {{t-simple|tet|bee}}
+* Tewa: {{t|tew|po}}
+* Tezoatlán Mixtec: {{t|mxb|ta̱cui̱í}}
+* Thai: {{t+|th|น้ำ|tr=nâm|sc=Thai}}, {{t+|th|ชล|tr=chon|sc=Thai}}
+* Thao: {{t|ssf|sazum}} ({{t-simple|ssf|sa꞉ðum}})
+* Tharaka: {{t-simple|thk|runji}}
+* Thracian: {{t-simple|txh|udrēnas}}
+* Tibetan: {{t|bo|ཆུ}}
+* Tigre: {{t|tig|ማይ|tr=may|sc=Ethi}}
+* Tigrinya: {{t+|ti|ማይ}}
+* Tikar: {{t-needed|tik}}
+* Tikopia: {{t-simple|tkp|vai}}
+* Tillamook: {{t-needed|til}}
+* Timor Pidgin: {{t-simple|tvy|agu}}
+* Timucua: {{t-simple|tjm|ibi}}
+* Timugon Murut: {{t-simple|tih|timug}}
+* Tindi: {{t|tin|лълъе̄ᵸ|tr=l"l"ēⁿ|sc=Cyrl}}
+* Tiri: {{t|cir|arroo|alt=arròò}}
+* Tiruray: {{t|tiy|wayeg}}
+* Tivi: {{t-simple|tiv|ŋgɛɾɛm}}
+* Tiwi: {{t-simple|tiw|kukuni}}
+* Tlacoapa Me'phaa: {{t|tpl|ijaʔ}}
+* Tlacoatzintepec Chinantec: {{t|ctl|hmãɨ̃³}}
+* Tlahuica: {{t|ocu|nda}}
+* Tlingit: {{qualifier|fresh water}} {{t-simple|tli|héen}}, {{qualifier|salt water}} {{t-simple|tli|éilʼ}}
+* To'abaita: {{t|mlu|kafo}}
+* Toba Batak: {{t|bbc|aek|sc=Latn}} / {{t|bbc|ᯀᯀᯩᯂ᯲|sc=Batk}}
+* Toba-Maskoy: {{t-needed|tmf}}
+* Tobian: {{t-simple|tox|carʉ}}
+* Tocantins Asurini: {{t-simple|asu|ýa}}
+* Tocharian A: {{t-simple|xto|wär}}
+* Tocharian B: {{t-simple|txb|war}}
+* Toda: {{t|tcx|நீர்|tr=nīr|sc=Taml}}
+* Tofa: {{t|kim|суғ|tr=suɣ|sc=Cyrl}}
+* Tok Pisin: {{t-simple|tpi|wara}}
+* Tokelauan: {{t-simple|tkl|vai}}
+* Tolai: {{t-simple|ksd|tava}}
+* Tolomako: {{t-simple|tlm|tei}}
+* Tomini: {{t-simple|txm|ogo}}
+* Tonga (Malawi): {{t-simple|tog|maji}}
+* Tonga (Zambia): {{t-simple|toi|maanzi}}
+* Tongan: {{t-simple|to|vai}}
+* Tonkawa: {{t-simple|tqw|ˀa·x}} / {{t|tqw|a꞉x}}
+* Tooro: {{t-simple|ttj|amaizi}}
+* Toro: {{t-simple|tdv|amunu}}
+* Torwali: {{t|trw|و|tr=ū|sc=Arab}}
+* Totoli: {{t-simple|txe|ogo}}
+* Totoro: {{t-simple|ttk|pi}}
+* Toura: {{t-simple|neb|yí}}
+* Transylvanian Saxon: {{t|gmw-tsx|Wåsser}}
+* Trimuris: {{t-needed|tip}}
+* Trinitario: {{t-simple|trn|une}}
+* Trió: {{t-simple|tri|tuna}}
+* Tsafiki: {{t-simple|cof|pi}}
+* Tsakhur: {{t|tkr|хьан|tr=h'an|sc=Cyrl}}
+* Tsamai: {{t-simple|tsb|ʕanɗe}}
+* Tsez: {{t|ddo|лъи|tr=l"i|sc=Cyrl}}
+* Tshiluba: {{t-simple|lua|mayi}}
+* Tsimshian: {{t|tsi|aks}}
+* Tsonga: {{t-simple|ts|mati}}
+* Tsou: {{t-simple|tsu|chumu}}
+* Tsuvadi: {{t-simple|tvd|moni}}
+* Tswa: {{t-simple|tsc|mati}}
+* Tswana: {{t-simple|tn|metsi}}
+* Tswapong: {{t-simple|two|maatsi}}
+* Tuareg: {{t-simple|tmh|aman}}
+* Tucano: {{t-simple|tuo|okó}}
+* Tukudede: {{t-simple|tkd|ee}}
+* Tulu: {{t|tcy|ನೀರ್|tr=nīr|sc=Knda}}
+* Tumak: {{t|tmc|nám}}
+* Tumbuka: {{t-simple|tum|maji}}
+* Tumtum: {{t-simple|tbr|bidhi}}
+* Tundra Nenets: {{t|yrk|иˮд|tr=i¨d|sc=Cyrl}}, {{t|yrk|иˮ|tr=i¨|sc=Cyrl}}
+* Tunen: {{t-needed|tvu}}
+* Tunica: {{t-simple|tun|wiši}}
+* Tunjung: {{t-simple|tjg|anum}}
+* Tupinambá: {{t-simple|tpn|'y}}
+* Turkana: {{t-simple|tuv|ngakipi}}
+* Turkic Khalaj: {{t-simple|klj|suv}}
+* Turkish: {{t-simple|tr|su}}, {{t-simple|tr|ma}} {{qualifier|regional}}, {{t-simple|tr|ab}} {{qualifier|scientific}}
+* Turkmen: {{t-simple|tk|suw}}
+* Turumsa: {{t-needed|tqm}}
+* Tuscarora: {{t|tus|à·węˀ}}
+* Tutelo: {{t-simple|tta|mani}}
+* Tuvaluan: {{t-simple|tvl|vai}}
+* Tuvan: {{t|tyv|суг}}
+* Tuwali Ifugao: {{t|ifk|danum}}
+* Tuyuca: {{t-simple|tue|okó}}
+* Tz'utujil: {{t-simple|tzj|ya'}}
+* Tzeltal: {{t-simple|tzh|ja'}}
+* Tzotzil: {{t-simple|tzo|vo'}}
+* U: {{t-simple|uuu|ʔumˉ}}
+* Uab Meto: {{t-simple|aoz|oe}}
+* Ubykh: {{t-simple|uby|bzə}}
+* Uda: {{t-simple|uda|mmọn̄}}
+* Udi: {{t|udi|хе|tr=khe|sc=Cyrl}}
+* Udihe: {{t|ude|ули|tr=uli|sc=Cyrl}}
+* Udmurt: {{t|udm|ву}}
+* Ugaritic: {{t|uga|𐎎𐎊|tr=my|sc=Ugar}}
+* Ugong: {{t-needed|ugo}}
+* Ujir: {{t|udj|way}}
+* Ukrainian: {{t+|uk|вода́|f}}
+* Ukwa: {{t-simple|ukq|mmọn̄}}
+* Ulch: {{t|ulc|мӯ|tr=mū|sc=Cyrl}}
+* Uldeme: {{t-simple|udl|yàm}}
+* Ulithian: {{t-simple|uli|cal}}
+* Umbindhamu: {{t-needed|umd}}
+* Umbrian: {{t|xum|𐌖𐌕𐌖𐌓|tr=utur|sc=Ital}}
+* Umbundu: {{t-simple|umb|ovava}}
+* Umbuygamu: {{t-needed|umg}}
+* Umeda: {{t-needed|upi}}
+* Unserdeutsch: {{t|uln|Wasser}}
+* Upper Necaxa Totonac: {{t|tku|xkaːn}}
+* Upper Tanana: {{t-simple|tau|tuu}}
+* Ura (Vanuatu): {{t-simple|uur|ne}}
+* Urapmin: {{t-needed|urm}}
+* Urartian: {{t-simple|xur|niki-du}}
+* Urdu: {{t+|ur|پانی|m|tr=pānī}}, {{t+|ur|آب|m|tr=āb}}, {{t|ur|جل|tr=jal}}
+* Urhobo: {{t-simple|urh|ame}}
+* Uruangnirin: {{t-simple|urn|were}}
+* Uruava: {{t-simple|urv|arakao}}
+* Urubú-Kaapor: {{t-simple|urb|y}}
+* Urum: {{t|uum|су|tr=su|sc=Cyrl}}
+* Ute: {{t|ute|pal}}
+* Uyghur: {{t+|ug|سۇ}}
+* Uzbek: {{t-simple|uz|suv}}
+* Vagla: {{t|vag|ñyõ}} {{qualifier|Siti}}
+* Vai: {{t|vai|ꕀ|tr=ji|sc=Vaii}}
+* Vaiphei: {{t-needed|vap}}
+* Vanimo: {{t-simple|vam|daa}}
+* Vayu: {{t-simple|vay|ti}}
+* Venda: {{t-simple|ve|maḓi}}
+* Venetian: {{t-simple|vec|aqua}}
+* Veps: {{t-simple|vep|vezi}}
+* Vietnamese: {{t-simple|vi|nước}}
+* Vilamovian: {{t|wym|wosser|n}}, {{t|wym|woser}}
+* Vinza: {{t-simple|vin|amazi}}
+* Viti: {{t|vit|wai}}
+* Volapük: {{t-simple|vo|vat}}
+* Votic: {{t-simple|vot|vesi}}
+* Vunjo: {{t-simple|vun|amanzi}}
+* Vurës: {{t-simple|msn|bē}}
+* Vute: {{t-simple|vut|mvúm}}
+* Võro: {{t-simple|vro|vesi}}
+* Waffa: {{t-simple|waj|nnóórí}}
+* Wageman: {{t-simple|waq|wahan}}
+* Waiwai: {{t-simple|waw|tuuna}}
+* Wakhi: {{t-simple|wbl|jupk}}
+* Walamo: {{t-simple|wal|hata}}
+* Walloon: {{t-simple|wa|aiwe}}
+* Walmajarri: {{t-simple|wmt|ngapa}}
+* Walo Kumbe Dogon: {{t-simple|dwl|nìì}}
+* Wambaya: {{t-simple|wmb|galyurringi}}
+* Wan: {{t-simple|wan|yí}}
+* Wancho: {{t-simple|nnp|tî}}
+* Wanda: {{t-simple|wbh|minzi}}
+* Wandala: {{t|mfi|jawe|tr=jàwè}}
+* Wandamen: {{t-simple|wad|maria}}
+* Wangkumara: {{t-simple|xwk|ngaka}}
+* Wanji: {{t-simple|wbi|malenga}}
+* Wantoat: {{t-simple|wnc|yanggä}}
+* Wanyi: {{t-simple|wny|warnami}}
+* Wapishana: {{t|wap|wę́nę}}
+* War-Jaintia: {{t-simple|aml|am}}
+* Waray-Waray: {{t-simple|war|tubig}}
+* Warekena: {{t|gae|weni|alt=wéni}}
+* Wari': {{t-simple|pav|com}}
+* Waris: {{t-simple|wrs|po}}
+* Warlpiri: {{t-simple|wbp|ngapa}}; {{qualifier|less commonly}} {{t-simple|wbp|kalyu}}, {{t-simple|wbp|kurrngalypa}}, {{t-simple|wbp|nguku}}
+* Waropen: {{t|wrp|ghai}}
+* Waskia: {{t-simple|wsk|yu}}
+* Wastek: {{t-simple|hus|ja'}}
+* Watakataui: {{t-needed|wtk}}
+* Watubela: {{t|wah|al}}
+* Wauja: {{t|wau|uno}} {{qualifier|newer orthography}}, {{t|wau|unɨ}} {{qualifier|older orthography}}
+* Wayampi: {{t-simple|oym|y|alt=y, yy}}
+* Wayana: {{t-simple|way|tuna}}
+* Wayuu: {{t-simple|guc|wüin}}
+* Wedau: {{t|wed|waira}}
+* Welsh: {{t+|cy|dŵr|m}}
+* West Central Banda: {{t-simple|bbp|ungu}}
+* West Coast Bajau: {{t-simple|bdr|bue'}}
+* West Flemish: {{t-simple|vls|woater}}
+* West Frisian: {{t-simple|fy|wetter}}
+* West Kewa: {{t-simple|kew|ipa}}, {{t-simple|kew|utyali}} {{qualifier|in pandanus avoidance language, literally "casuarina tree seedling"}}
+* West Makian: {{t-needed|mqs}}
+* Western Bukidnon Manobo: {{t|mbb|wahig}}
+* Western Lawa: {{t-simple|lcp|raʔaum}}
+* Western Sisaala: {{t-simple|ssl|niye}}
+* Western Yugur: {{t-simple|ybe|su}}
+* White Hmong: {{t-simple|mww|dej}}
+* Wik-Mungkan: {{t-simple|wim|ngak}}
+* Wikngenchera: {{t-needed|wua}}
+* Wintu: {{t-simple|wnw|me·m}}
+* Wiwa: {{t|mbp|di-ra}}, {{t|mbp|dʒíra}}
+* Wogeo: {{t-simple|woc|dan}} {{qualifier|fresh water}}
+* Woi: {{t-simple|wbw|maria}}
+* Woiwurrung: {{t-simple|wyi|baañ}}
+* Woleaian: {{t-simple|woe|shal}}
+* Wolio: {{t-simple|wlo|ue}}
+* Wolof: {{t-simple|wo|ndoh}}
+* Woun Meu: {{t|noa|dʊ}}
+* Wuvulu-Aua: {{t|wuv|xanu}} {{q|Wuvulu}}, {{t|wuv|ranu}} {{q|Aua}}
+* Wyandot: {{t-simple|wya|sandustee}}
+* Xamtanga: {{t|xan|ኣቘ|tr=aqw|sc=Ethi}}
+* Xanaguía Zapotec: {{t|ztg|nis}}
+* Xaragure: {{t-simple|axx|kwé}}
+* Xavante: {{t-simple|xav|â}}
+* Xhosa: {{t|xh|amanzi|p}}
+* Xibe: {{t|sjo|ᠮᡠᡣᡠ|tr=muku|sc=Mong}}
+* Xinca: {{t-simple|xin|uÿ}}
+* Xipaya: {{t-simple|xiy|ija}}
+* Xârâcùù: {{t-simple|ane|kwé}}
+* Yaa: {{t|iyx|máámba}}
+* Yagaria: {{t-simple|ygr|mni'}} {{qualifier|Hua}}
+* Yagnobi: {{t-simple|yai|op}}
+* Yagua: {{t-simple|yad|ja̱}}
+* Yakkha: {{t|ybh||tr=maŋcwa|sc=Deva}} {{rfscript|ybh|sc=Deva}}
+* Yakut: {{t|sah|уу}}
+* Yalunka: {{t-simple|yal|jee}}
+* Yami: {{t|tao|ranom}} ({{t-simple|tao|ranum}})
+* Yaminahua: {{t-simple|yaa|faka}}
+* Yana: {{t-simple|ynn|xana}}
+* Yanda Dom Dogon: {{t-simple|dym|ŋgyu}}
+* Yanesha': {{t-simple|ame|oñ}}
+* Yangkam: {{t-simple|bsx|woxʃi}}
+* Yankunytjatjara: {{t-simple|kdd|kapi}}
+* Yanyuwa: {{t-simple|jao|wabuda}}
+* Yao: {{t-simple|yao|meesi}}
+* Yaouré: {{t-simple|yre|yí}}
+* Yapese: {{t-simple|yap|raen}}
+* Yaqui: {{t-simple|yaq|baa'am}} / {{t-simple|yaq|baaʔam}}
+* Yareba: {{t-simple|yrb|ogo}}
+* Yarli: {{t-simple|yxl|ngapa}} {{qualifier|Yardliyawara, Wadikali}}, {{t|yxl|ngapa|alt=ngapːa}} {{qualifier|Wadikali}}
+* Yatzachi Zapotec: {{t-simple|zav|nis}}
+* Yavitero: {{t-simple|yvt|wéni}}
+* Yawa: {{t-simple|yva|mana}}
+* Yawarawarga: {{t-needed|yww}}
+* Yawuru: {{t-simple|ywr|wula}}
+* Yay: {{t-simple|pcc|ram⁶}}
+* Yazgulyam: {{t-simple|yah|xex}}
+* Yekhee: {{t|ets|àmɛ̀|tr=amɛ}}
+* Yemsa: {{t-simple|jnj|akà}}
+* Yendang: {{t-simple|yen|mí}}
+* Yeretuar: {{t-simple|gop|irembe}}
+* Yeskwa: {{t-simple|yes|àmɛ̀}}
+* Yessan-Mayo: {{t|yss|ok}}
+* Yeyi: {{t-simple|yey|ami}}
+* Yiddish: {{t+|yi|וואַסער|n|tr=vaser|sc=Hebr}}
+* Yidgha: {{t-simple|ydg|yaugh}}
+* Yidiny: {{t-simple|yii|bana}}
+* Yil: {{t-simple|yll|ni}}
+* Yimas: {{t|yee|arɨm}}
+* Yine: {{t-simple|pib|gonu}}
+* Yir-Yoront: {{t-simple|yiy|kawn}}
+* Yola: {{t-simple|yol|waudher}}
+* Yonaguni: {{t|yoi|水|tr=みん, min}}
+* Yopno: {{t-simple|yut|pakbi}}
+* Yoron: {{t|yox|水|tr=みじ, miji}}
+* Yoruba: {{t-simple|yo|omi}}
+* Yuaga: {{t-simple|nua|we}}
+* Yucatec Maya: {{t-simple|yua|ha’}}
+* Yucuna: {{t-simple|ycn|juni}}
+* Yugambal: {{t|yug|ur|alt=ūr}}
+* Yukpa: {{t-simple|yup|kúna}}
+* Yup'ik: {{t-simple|esu|meq}}
+* Yuracare: {{t-needed|yuz}}
+* Yurok: {{t-simple|yur|paˀah}}
+* Yurutí: {{t-simple|yui|óko}}
+* Yámana: {{t-simple|yag|sima}}
+* Zaghawa: {{t-simple|zag|bi}}
+* Zaiwa: {{t|atb|tʃat⁵⁵}}
+* Zakhring: {{t-needed|zkr}}
+* Zanaki: {{t-simple|zak|amanyi}}
+* Zande: {{t-simple|zne|ime}}
+* Zangskari: {{t|zau|ཆུ}}
+* Zangwal: {{t|zah|maal}}
+* Zarma: {{t|dje|hari}}
+* Zay: {{t-simple|zwa|maj}}
+* Zayse-Zergulla: {{t-simple|zay|waas̀é}}
+* Zazaki: {{t-simple|zza|ab}}
+* Zenaga: {{t-simple|zen|aman}}
+* Zhang-Zhung: {{t|xzh|ཏིང|tr=ting|sc=xzh-Tibt}}
+* Zhuang: {{t-simple|za|raemx}}
+* Zia: {{t-simple|zia|ou}}
+* Zigula: {{t-simple|ziw|mazi}}
+* Zinza: {{t-simple|zin|amaizi}}
+* Zoogocho Zapotec: {{t-simple|zpq|nis}}
+* Zulgo-Gemzek: {{t-simple|gnd|yām}}
+* Zulu: {{t+|zu|amanzi|c6}}
+* Zumbun: {{t|jmb|imbí}}
+* Zuni: {{t-simple|zun|k'a}}
+* Záparo: {{t-simple|zro|moriča}}
+* Àhàn: {{t-simple|ahn|onyi}}
+* Ömie: {{t-simple|aom|jove}}
+* Önge: {{t-simple|oon|inge}}
+* ǀXam: {{t-simple|xam|ǃkhwa꞉}}
+* ǁAni: {{t|hnh|tshàá}}
+* ǂKxʼauǁʼein: {{t-simple|aue|ǃgu꞉}}
+* ǃKung: {{t-simple|khi-kun|ǁgu꞉}}
+* ǃXóõ: {{t-simple|nmn|ǃqhàa}}
+{{trans-bottom}}
+
+{{trans-see|mineral water}}
+
+{{trans-top|spa water}}
+* Chinese:
+*: Mandarin: {{t|cmn|礦泉水|sc=Hani}}, {{t|cmn|矿泉水|tr=kuàngquánshuǐ|sc=Hani}}
+* Danish: {{t-simple|da|spabad}}
+* Dutch: {{t+|nl|bronwater|n}}, {{t|nl|spawater|n}}, {{t+|nl|water|n|alt=plat water}} {{qualifier|colloquial}}
+* Finnish: {{t-simple|fi|kylpy}}
+{{trans-mid}}
+* Italian: {{t+|it|acqua|f-p|alt=acque}}
+* Polish: {{t+|pl|wody|f-p}}
+* Russian: {{t|ru|во́ды|f-p}}
+{{trans-bottom}}
+
+{{trans-top|one of the basic elements}}
+* Armenian: {{t+|hy|ջուր}}
+* Catalan: {{t+|ca|aigua|f}}
+* Chinese:
+*: Cantonese: {{t|yue|水|tr=seoi2|sc=Hani}}
+*: Mandarin: {{t+|cmn|水|tr=shuǐ|sc=Hans}}
+* Czech: {{t-simple|cs|voda}}
+* Dutch: {{t+|nl|water|n}}
+* Faroese: {{t+|fo|vatn|n}}
+* Finnish: {{t-simple|fi|vesi}}
+* French: {{t+|fr|eau|f}}
+* Galician: {{t+|gl|auga|f}}
+* German: {{t+|de|Wasser|n}}
+* Hebrew: {{t+|he|מַיִם|m-p|tr=máyim|sc=Hebr}}
+* Irish: {{t+|ga|uisce|m}}
+* Italian: {{t+|it|acqua|f}}
+{{trans-mid}}
+* Latvian: {{t+|lv|ūdens|m}}
+* Lithuanian: {{t+|lt|vanduo|m}}
+* Polish: {{t+|pl|woda|f}}
+* Portuguese: {{t+|pt|água|f}}
+* Romanian: {{t+|ro|apă|f}}
+* Russian: {{t+|ru|вода́|f}}
+* Scottish Gaelic: {{t+|gd|uisge|m}}
+* Slovene: {{t+|sl|voda|f}}
+* Spanish: {{t+|es|agua|f}}
+* Swedish: {{t+|sv|vatten|n}}
+* Tagalog: {{t-simple|tl|tubig}}
+* Welsh: {{t+|cy|dŵr|m}}
+{{trans-bottom}}
+
+{{trans-top|body of water, or specific part of it}}
+* Arabic: {{t|ar|مِيَاه|p}}
+* Armenian: {{t|hy|ջրեր}}
+* Catalan: {{t+|ca|aigües|f-p}}
+* Dutch: {{t+|nl|wateren|p}}
+* Finnish: {{t+|fi|vesi|alt=vedet|p}}
+* French: {{t+|fr|eaux|f-p}}
+* German: {{t+|de|Gewässer|n-p}}
+* Greek: {{t|el|θαλάσσια ύδατα|n-p}}, {{t+|el|θάλασσα|f}}
+* Hebrew: {{t+|he|מַיִם|m-p|tr=máyim|sc=Hebr}}
+* Indonesian: {{t-simple|id|perairan}}
+* Italian: {{t+|it|acqua|f-p|alt=acque}}
+* Latvian: {{t+|lv|ūdeņi|m-p}}
+* Macedonian: {{t|mk|води|f-p}}
+{{trans-mid}}
+* Malay: {{t-simple|ms|perairan}}
+* Norwegian: {{t+|no|vann|m}}
+* Polish: {{t+|pl|wody|f-p}}, {{t+|pl|woda|f}}
+* Portuguese: {{t+|pt|águas|f-p}}
+* Romanian: {{t+|ro|apă|f}}
+* Russian: {{t|ru|во́ды|f-p}}
+* Serbo-Croatian: {{t|sh|vode|f-p}}
+* Slovene: {{t|sl|vode|f-p}}
+* Spanish: {{t+|es|aguas|f-p}}
+* Swedish: {{t+|sv|vatten|n-p}}, {{t+|sv|vatten|n}}
+* Telugu: {{t+|te|జలాలు|tr=jalālu|sc=Telu}}, {{t+|te|నీటిగుంట|tr=nīṭi gumṭa|sc=Telu}}
+* Tok Pisin: {{t-simple|tpi|wara}}, {{t-simple|tpi|raunwara}}, {{t-simple|tpi|solwara}}
+* Turkish: {{t-simple|tr|karasuyu}}
+{{trans-bottom}}
+
+{{trans-top|urine}}
+* Armenian: {{t|hy|չիշիկ}}
+* Danish: {{t-simple|da|tis}}
+* Dutch: {{t+|nl|water|n}} {{qualifier|colloquial}}
+* Faroese: {{t+|fo|vatn|n}}
+* Finnish: {{t-simple|fi|vesi}}
+* German: {{t+|de|Wasser|n}}
+* Hebrew: {{t+|he|שֶׁתֶן|m|tr=shéten|sc=Hebr}}
+* Hindi: {{t|hi|मूत्र|tr=mūtra|sc=Deva}}
+{{trans-mid}}
+* Italian: {{t+|it|acqua|f}}
+* Latvian: {{t-simple|lv|čura}}
+* Norwegian: {{t+|no|tiss|n}}
+* Portuguese: {{t+|pt|água|f}}
+* Spanish: {{t|es|aguas menores|f-p}}
+* Telugu: {{t+|te|మూత్రము|tr=mūtramu|sc=Telu}}
+* Turkish: {{t-simple|tr|idrar}}, {{t-simple|tr|çiş}}, {{t-simple|tr|sidik}}
+{{trans-bottom}}
+
+{{trans-see|amniotic fluid}}
+
+{{trans-top|figuratively: state of affairs; conditions}}
+* Finnish: {{t+|fi|tuuli|alt=tuulet|p}}
+{{trans-mid}}
+{{trans-bottom}}
+
+{{trans-top|serving of water}}
+* Dutch: {{t-simple|nl|watertje}}
+* Finnish: {{t-simple|fi|vesi}}
+* French: {{t|fr|[[bouteille]] [[d']][[eau]]|f}} {{qualifier|bottle of water}}, {{t|fr|[[verre]] [[d']][[eau]]|m}} {{qualifier|glass of water}}
+* German: {{t+|de|Wasser|n}}
+* Italian: {{t+|it|minerale|f}}, {{t|it|[[bottiglia]] [[d']][[acqua]]|f}} {{qualifier|bottle of water}}; {{t|it|[[bicchier]] [[d']][[acqua]]|m}} {{qualifier|glass of water}}
+{{trans-mid}}
+* Norwegian: {{t-simple|no|drikkevann}}
+* Portuguese: {{t+|pt|água|f}}
+* Spanish: {{t|es|[[botella]] [[de]] [[agua]]|f}} {{qualifier|bottle}}, {{t|es|[[vaso]] [[de]] [[agua]]|m}} {{qualifier|glass of water}}
+* Telugu: {{t|te|సీసా నీళ్ళు|tr=sīsa nīllu|sc=Telu}}
+* Turkish: {{t-simple|tr|su}}
+{{trans-bottom}}
+
+{{trans-top|medical: fluids in the body, especially when causing swelling}}
+* Finnish: {{t-simple|fi|vesi}}, {{t-simple|fi|neste}}
+* Portuguese: {{t+|pt|água|f}}
+{{trans-mid}}
+* Spanish: {{t|es|[[fluido]]s corporales|m-p}}, {{t+|es|humor|m}}, {{t+|es|fluido|m}}
+{{trans-bottom}}
+
+{{trans-top|finance: excess valuation of securities}}
+* Finnish: {{t-simple|fi|ilma}}
+{{trans-mid}}
+{{trans-bottom}}
+
+====Descendants====
+{{etymtree|en|ine-pro|*wódr̥}}
+
+===Verb===
+{{en-verb}}
+[[Image:To water the coffee tree in dry season.jpg|thumb|right|to water (1)]]
+
+# {{label|en|transitive}} To pour water into the soil surrounding (plants).
+#* {{quote-book|year=1900|author=L. Frank Baum|title=The Wonderful Wizard of Oz|chapter=24|passage=Aunt Em had just come out of the house to '''water''' the cabbages when she looked up and saw Dorothy running toward her.}}
+# {{label|en|transitive}} To wet or supply with water; to moisten; to overflow with water; to [[irrigate]].
+#* Milton
+#*: tears '''watering''' the ground
+#* Longfellow
+#*: Men whose lives glided on like rivers that '''water''' the woodlands.
+# {{label|en|transitive}} To provide (animals) with water for [[drink]]ing.
+#: ''I need to go '''water''' the cattle''.
+# {{label|en|intransitive}} To get or take in water.
+#: ''The ship put into port to '''water'''.''
+# {{label|en|transitive|colloquial}} To [[urinate]] onto.
+#: ''Nature called, so I stepped into the woods and '''watered''' a tree.''
+# {{label|en|transitive}} To [[dilute]].
+#: ''Can you '''water''' the whisky, please?''
+# {{label|en|transitive|dated|finance}} To overvalue (securities), especially through deceptive accounting.
+#* {{quote-news|title=Calls Rail Holding Companies Threat|work=The Sun|date=April 10, 1930|passage=such agencies would make it possible for the railroads to '''water''' stock and evade the law subjecting security issues to public regulation}}
+# {{label|en|intransitive}} To fill with or secrete water.
+#: ''Chopping onions makes my eyes '''water'''.''
+#: ''The smell of fried onions makes my mouth '''water'''.''
+# {{label|en|transitive}} To wet and [[calender]], as cloth, so as to impart to it a [[lustrous]] appearance in [[wavy]] lines; to diversify with wavelike lines.
+#: ''to '''water''' silk''
+
+====Synonyms====
+* {{sense|urinate}} {{qualifier|see the list of synonyms in the entry "[[urinate]]"}}
+* {{sense|dilute}} [[water down]]
+
+====Antonyms====
+* {{sense|dilute}} [[refine]]
+
+====Derived terms====
+{{rel-top4|Terms derived from the verb ''water''}}
+* {{l|en|bewater}}
+* {{l|en|dewater}}
+* {{l|en|rewater}}
+* {{l|en|unwater}}
+{{rel-mid4}}
+* {{l|en|unwaterable}}
+* {{l|en|unwatered}}
+* {{l|en|waterable}}
+{{rel-mid4}}
+* {{l|en|waterer}}
+* {{l|en|watering}}
+* {{l|en|watering can}}
+{{rel-mid4}}
+* {{l|en|watering hole}}
+* {{l|en|watering place}}
+* {{l|en|watering pot}}
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|to pour water into the soil surrounding (plants)}}
+* Arabic: {{t|ar|سَقَى}}
+* Armenian: {{t|hy|ջրել}}, {{t|hy|ոռոգել}}
+* Catalan: {{t-simple|ca|regar}}
+* Chinese:
+*: Mandarin: {{t+|cmn|澆水}}, {{t+|cmn|浇水|tr=jiāoshuǐ}}
+* Czech: {{t-simple|cs|zalít}}, {{t-simple|cs|zalévat}}
+* Dutch: {{t|nl|[[water]] [[geven]]}}, {{t-simple|nl|sproeien}}, {{t-simple|nl|begieten}}
+* Estonian: {{t-simple|et|kastma}}
+* Finnish: {{t-simple|fi|kastella}}
+* French: {{t-simple|fr|arroser}}
+*: Old French: {{t|fro|arouser}}
+* Galician: {{t-simple|gl|augar}}
+* German: {{t-simple|de|gießen}}, {{t-simple|de|bewässern}}
+* Greek: {{t|el|ποτίζω}}
+*: Ancient: {{t-simple|grc|ἄρδω}}
+* Hebrew: {{t|he|הִשְׁקָה|tr=hishká}}
+* Hungarian: {{t-simple|hu|locsol}}, {{t-simple|hu|meglocsol}}
+* Icelandic: {{t-simple|is|vökva}}
+* Ido: {{t+|io|arozar}}
+* Indonesian: {{t-simple|id|siram}}
+* Interlingua: {{t-simple|ia|aquar}}
+* Italian: {{t-simple|it|annaffiare}}
+* Japanese: {{t|ja|[[水]][[を]][[やる]]|tr=みずをやる, mizu o yaru}}
+{{trans-mid}}
+* Kurdish:
+*: Kurmanji: {{t+|kmr|avdan}}
+*: Sorani: {{t|ckb|ئاودان|tr=awdan}}
+* Latin: {{t-simple|la|irrigo}}
+* Latvian: {{t-simple|lv|laistīt}}
+* Macedonian: {{t|mk|наводнува|tr=navódnuva|sc=Cyrl}}, {{t|mk|полива|tr=póliva|sc=Cyrl}}, {{t|mk|вади|tr=vádi|sc=Cyrl}}
+* Norman: {{t-simple|nrf|arrouôser}}
+* Norwegian: {{t-simple|no|vanne}}
+* Polish: {{t+|pl|podlewać|impf}}, {{t+|pl|podlać|pf}}
+* Portuguese: {{t-simple|pt|regar}}, {{t-simple|pt|aguar}}
+* Romanian: {{t-simple|ro|uda}}, {{t+|ro|iriga}}
+* Russian: {{t+|ru|полива́ть|impf}}, {{t+|ru|поли́ть|pf}}
+* Serbo-Croatian:
+*: Roman: {{t|sh|zalevati}}, {{t|sh|zalijevati}}
+* Slovene: {{t-simple|sl|zalivati}}, {{t-simple|sl|zaliti}}
+* Spanish: {{t-simple|es|regar}}, {{t-simple|es|aguar}}
+* Swedish: {{t-simple|sv|vattna}}, {{t-simple|sv|ge vatten}}, {{t+|sv|vattna}}
+* Tagalog: {{t|tl|magdilig}}
+* Telugu: {{t|te|నీరుపోయుట|sc=Telu}}
+* Thai: {{t|th|รดน้ำ|tr=rót náam|sc=Thai}}
+* Turkish: {{t-simple|tr|sulamak}}
+* Volapük: {{t-simple|vo|vatön}}
+* West Frisian: {{t-simple|fy|wetter jaan}}
+{{trans-bottom}}
+
+{{trans-top|to provide (animals) with water}}
+* Armenian: {{t-simple|hy|ջուր տալ}}
+* Catalan: [[donar]] [[aigua]] a
+* Czech: {{t-simple|cs|napájet}}
+* Dutch: {{t-simple|nl|water geven}}
+* Esperanto: [[doni]] [[akvon]]
+* Estonian: {{t-simple|et|jootma}}
+* Finnish: {{t-simple|fi|juottaa}}
+* French: {{t-simple|fr|abreuver}}, {{t+|fr|faire boire}}
+* German: {{t-simple|de|tränken}}
+* Hungarian: {{t-simple|hu|itat}}
+* Indonesian: {{t-simple|id|beri minum}}
+* Italian: {{t-simple|it|abbeverare}}
+* Japanese: {{t|ja|[[水]][[を]][[やる]]|tr=みずをやる, mizu o yaru}}
+{{trans-mid}}
+* Latvian: {{t-simple|lv|dzirdīt}}
+* Ndzwani Comorian: {{t|wni|nosa|alt=hunosa}}
+* Norwegian: {{t-simple|no|vanne}}
+* Polish: {{t+|pl|poić|impf}}, {{t+|pl|napoić|pf}}
+* Portuguese: {{t|pt|[[dar]] [[água]] [[a]]}}
+* Romanian: {{t-simple|ro|adăpa}}
+* Russian: {{t+|ru|пои́ть|impf}}, {{t+|ru|напои́ть|pf}}
+* Serbo-Croatian:
+*: Roman: {{t-simple|sh|pojiti}}, {{t-simple|sh|napajati}}
+* Slovene: {{t-simple|sl|pojiti}}, {{t-simple|sl|napajati}}
+* Spanish: [[dar]] [[agua]] a
+* Swedish: {{t-simple|sv|vattna}}
+* Tagalog: {{t|tl|magpainom}}, {{t|tl|painumin}}
+* Telugu: {{t|te|నీరుపెట్టుట|sc=Telu}}
+* Turkish: {{t-simple|tr|su vermek}}
+{{trans-bottom}}
+
+{{trans-top|colloquial: to urinate}}
+* Armenian: {{t|hy|չիշիկ անել}}
+* Dutch: {{t-simple|nl|wateren}}, {{t-simple|nl|plassen}}
+* Finnish: {{t-simple|fi|heittää}} {{t-simple|fi|vesi|alt=vettä}}
+* German: {{t-simple|de|Harn lassen}}
+* Hebrew: {{t+|he|הִשְׁתִּין|tr=hishtín|sc=Hebr}}
+* Indonesian: {{t-simple|id|kencing}}, {{t-simple|id|buang air kecil}}
+* Japanese: {{t+|ja|おしっこ|alt=おしっこする|tr=oshikko suru}}, {{t+|ja|小便|alt=小便する|tr=shōben suru}}
+{{trans-mid}}
+* Latin: {{t-simple|la|mingo}}
+* Norwegian: {{t-simple|no|tisse}}
+* Portuguese: {{t+|pt|mijar}}
+* Russian: {{t+|ru|пи́сать|impf|sc=Cyrl}}, {{t+|ru|попи́сать|pf|sc=Cyrl}}
+* Swedish: {{t-simple|sv|kasta vatten}}
+* Telugu: {{t|te|మూత్రవిసర్జన|tr=mutravisarjana|sc=Telu}}
+* Turkish: {{t-simple|tr|işemek}}, {{t-simple|tr|çiş yapmak}}
+{{trans-bottom}}
+
+{{trans-top|dilute}}
+* Finnish: {{t-simple|fi|laimentaa}}
+* French: {{t-simple|fr|mouiller}} (literally, to wet)
+* Japanese: {{t|ja|[[水]][[で]][[割る]]|tr=mizu de waru}}, {{t|ja|[[水]][[で]][[薄める]]|tr=mizu de usumeru}}
+{{trans-mid}}
+* Russian: {{t+|ru|разбавля́ть|impf|sc=Cyrl}}, {{t+|ru|разба́вить|pf|sc=Cyrl}}
+* Swedish: {{t-simple|sv|späda ut}}
+* Tagalog: {{t|tl|magbanto}}, {{t+|tl|bantuan}}
+{{trans-bottom}}
+
+{{trans-top|to fill with or secrete water}}
+* Armenian: {{qualifier|eyes}} {{t-simple|hy|արտասվակալել}}
+* Dutch: {{t-simple|nl|wateren}}
+* Finnish: {{t-simple|fi|vuotaa}}, {{t-simple|fi|valua}}, {{t-simple|fi|kastua}}, {{t-simple|fi|kostua}}
+* French: {{t-simple|fr|pleurer}}
+* German: {{t-simple|de|tränen}}
+* Indonesian: {{t-simple|id|menangis}}
+* Japanese: {{t+|ja|濡れる|tr=nureru}} {{qualifier|sexual: to get wet}}, {{t|ja|[[分泌液]][[を]][[出す]]|tr=bunpitsueki o dasu}} {{qualifier|clinical: to secrete a liquid}}, {{t|ja|[[水]][[を]][[積み込む]]|tr=mizu o tsumikomu}} {{qualifier|to take on (drinking) water, as a ship in resupply}}
+{{trans-mid}}
+* Norwegian: {{t-simple|no|gråte}}, {{t-simple|no|felle tårer}}
+* Polish: {{qualifier|eyes}} {{t-simple|pl|łzawić}}
+* Portuguese: {{t|pt|[[encher]] [[de]] [[água]]}}
+* Tagalog: {{t|tl|magpaluha}}, {{t|tl|magluha}}, {{t|tl|lumuha}}, {{t|tl|mapaluha}}, {{t|tl|paluhain}} {{qualifier|eyes}}, {{t|tl|magtubig}}, {{t|tl|magkatubig}} {{qualifier|general}}, {{t|tl|maglaway}}, {{t|tl|papaglawayin}} {{qualifier|mouth}}
+* Telugu: {{t|te|పవిత్రజలము|tr=pavitrajalamu|sc=Telu}}
+* Turkish: {{t-simple|tr|sulanmak}}, {{t-simple|tr|sulandırmak}}
+{{trans-bottom}}
+
+<!--Remove this section once all of the translations below have been moved into the tables above.-->
+{{checktrans-top}}
+* Breton: {{t-check|br|dourañ}}
+* Guaraní: {{t-check|gn|mbo'y}}
+* Hausa: {{t-check|ha|zamzam}}
+* Interlingua: {{t-check|ia|aquar}}, {{t-check|ia|rigar}}
+* Lithuanian: {{t-check|lt|laistyti}}
+* Tupinambá: {{t-check|tpn|mbo'y}}
+{{trans-bottom}}
+
+===Statistics===
+* {{rank|next|poor|present|259|water|stood|large|within}}
+
+===Anagrams===
+* {{l|en|Ewart}}
+
+===References===
+* {{R:Century 1911}}
+* {{R:Webster 1913}}
+
+[[Category:100 English basic words]]
+[[Category:1000 English basic words]]
+[[Category:en:Water]]
+
+----
+
+==Afrikaans==
+{{wikipedia|lang=af}}
+
+===Etymology===
+From {{etyl|nl|af}} {{term|water|lang=nl}}. Ultimately from {{etyl|gem-pro|af}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|af}} {{m|ine-pro|*wódr̥}}.
+
+===Pronunciation===
+* {{IPA|/ˈvɑːtər/|lang=af}}
+
+===Noun===
+{{af-noun|waters}}
+
+# {{l|en|water}}
+# any artificial fluid similar to water
+# {{label|af|colloquial}} [[urine]]
+# any body of water, such as a river or a lake
+# a [[disease]] where water is accumulated; [[hydrops]]
+# {{label|af|in the plural}} a large quantity of water; [[inundation]]
+
+===Verb===
+{{af-verb}}
+
+# to [[urinate]]
+# to [[secrete]] [[liquid]]
+
+===Derived terms===
+* {{l|af|waterlemoen}}
+* {{l|af|ontwater}}
+
+===References===
+* Jan Kromhout, ''Afrikaans-English, English-Afrikaans Dictionary'' (2001)
+
+----
+
+==Dutch==
+{{wikipedia|lang=nl}}
+
+===Etymology===
+{{PIE root|nl|wed}}
+From {{inh|nl|dum|water}}, from {{inh|nl|odt|watar}}, {{m|odt|water}}, from {{inh|nl|gem-pro|*watōr}}, from {{etyl|ine-pro|nl}} {{m|ine-pro|*wódr̥}}.
+
+===Pronunciation===
+* {{a|BE}} {{IPA|/ˈwaːtər/|/ˈβ̞aːtər/|lang=nl}}
+* {{audio|Nl-water (Belgium).ogg|audio (Belgium, the first one)|lang=nl}}
+* {{a|NL}} {{IPA|/ˈʋaːtər/|lang=nl}}
+* {{audio|Nl-water (Netherlands).ogg|audio (Netherlands)|lang=nl}}
+* {{rhymes|aːtər|lang=nl}}
+* {{hyphenation|wa|ter}}
+
+===Noun===
+{{nl-noun|n|-s|pl2=-@en|watertje}}
+
+# {{l|en|water}} {{gloss|H<sub>2</sub>O}}
+#: ''Het '''water''' kookte.''
+#:: The '''water''' boiled.
+# body of water {{gloss|such as a [[lake]], [[ditch]] or [[stream]]}}
+# [[bodily]] [[fluid]] {{gloss|especially [[amniotic fluid]]}}
+
+====Derived terms====
+{{rel-top4|Terms derived from ''water''}}
+* {{l|nl|water naar de zee dragen}}
+* {{l|nl|waterbouwkunde}}
+* {{l|nl|waterdier}}
+* {{l|nl|waterdrager}}
+* {{l|nl|waterhoen}}
+* {{l|nl|waterhond}}
+* {{l|nl|waterhoos}}
+* {{l|nl|waterig}}
+* {{l|nl|waterijs}}
+* {{l|nl|waterjuffer}}
+* {{l|nl|waterkanon}}
+* {{l|nl|waterkering}}
+* {{l|nl|waterkoker}}
+{{rel-mid4}}
+* {{l|nl|waterleiding}}
+* {{l|nl|waterman}}
+* {{l|nl|watermeloen}}
+* {{l|nl|watermolen}}
+* {{l|nl|waterpas}}
+* {{l|nl|waterplaats}}
+* {{l|nl|waterpokken}}
+* {{l|nl|waterpolo}}
+* {{l|nl|waterput}}
+* {{l|nl|waterslang}}
+* {{l|nl|watersnood}}
+* {{l|nl|waterspuwer}}
+{{rel-mid4}}
+* {{l|nl|waterstaat}}
+* {{l|nl|waterstof}}
+* {{l|nl|watertanden}}
+* {{l|nl|watertoren}}
+* {{l|nl|waterval}}
+* {{l|nl|watervliegtuig}}
+* {{l|nl|watervogel}}
+* {{l|nl|watervrees}}
+* {{l|nl|waterzooi}}
+<!-- *water -->
+* {{l|nl|bronwater}}
+* {{l|nl|grondwater}}
+* {{l|nl|in het water vallen}}
+{{rel-mid4}}
+* {{l|nl|koningswater}}
+* {{l|nl|mineraalwater}}
+* {{l|nl|reukwater}}
+* {{l|nl|rozenwater}}
+* {{l|nl|smeltwater}}
+* {{l|nl|spawater}}
+* {{l|nl|suikerwater}}
+* {{l|nl|vaarwater}}
+* {{l|nl|vuurwater}}
+* {{l|nl|wijwater}}
+* {{l|nl|woelwater}}
+* {{l|nl|zeewater}}
+{{rel-bottom}}
+
+===Verb===
+{{nl-verb-form}}
+
+# {{nl-verb form of|p=1|n=sg|t=pres|m=ind|wateren}}
+# {{nl-verb form of|m=imp|wateren}}
+
+===Anagrams===
+* {{l|nl|tarwe}}
+
+[[Category:nl:Water]]
+
+----
+
+==Dutch Low Saxon==
+
+===Etymology===
+From {{etyl|osx|nds-nl}} {{m|osx|watar|sc=Latn}}, from {{etyl|gem-pro|nds-nl}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|nds-nl}} {{m|ine-pro|*wódr̥}}.
+
+===Noun===
+{{head|nds-nl|noun}}
+
+# {{label|nds-nl|Drents|Twents}} {{l|en|water}}
+
+----
+
+==French==
+
+===Noun===
+{{fr-noun|m}}
+
+# [[toilet]], [[bathroom]]
+
+----
+
+==Italian==
+
+===Pronunciation===
+* {{IPA|/ˈvater/|lang=it}}
+
+===Etymology===
+Shortened form of {{etyl|en|it}} {{m|en|water closet|sc=Latn}} (W.C.)
+
+===Noun===
+{{head|it|noun|g=m|invariable}}
+
+# {{label|it|colloquial}} [[water closet]], [[toilet]], [[rest room]]
+
+----
+
+==Limburgish==
+{{wikipedia|lang=li}}
+
+===Etymology===
+From {{etyl|gem-pro|li}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|li}} {{m|ine-pro|*wódr̥}}.
+
+===Noun===
+{{li-noun|g=n}}
+
+# {{l|en|water}}
+# body of water
+
+====Inflection====
+{{li-conj
+|water
+|watere
+|waeterke
+|waeterkes
+|waters
+|watere
+|waeterkes
+|waeterkes
+|wateves
+|watevese
+|waeterke
+|waeterkes
+|watevem
+|?
+|?
+|?
+|water
+|watere
+|?
+|?
+}}
+* Plural and diminutive only used for the meaning ''body of water''.
+
+====Derived terms====
+* {{l|li|móndjwater}}
+
+----
+
+==Middle Dutch==
+
+===Etymology===
+From {{inh|dum|odt|watar}}, from {{etyl|gem-pro|dum}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|dum}} {{m|ine-pro|*wódr̥}}.
+
+===Pronunciation===
+* {{IPA|lang=dum|/ˈwaːtər/}}
+
+===Noun===
+{{dum-noun|n}}
+
+# {{l|en|water}}
+
+====Descendants====
+* Dutch: {{l|nl|water}}
+
+[[Category:dum:Water]]
+
+----
+
+==Middle English==
+
+===Etymology===
+From {{etyl|ang|enm}} {{m|ang|wæter}}, from {{etyl|gem-pro|enm}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|enm}} {{m|ine-pro|*wódr̥}}.
+
+===Noun===
+{{enm-noun}}
+
+# {{l|en|water}} {{gloss|liquid H<sub>2</sub>O}}
+#* {{quote-book|year=c. 1190|author=Layamon|title=Brut|edition=MS. Cotton Caligula A ix|passage=al ſwa great ſwa a beam: / þe he leide in ane walle ſtream. / Þe ilke makeð þat '''water''' hot: / & þan folc halwende.}}
+
+====Quotations====
+* {{seeCites|lang=enm}}
+
+====Descendants====
+* English: {{l|en|water}}
+
+====Derived terms====
+* {{l|enm|waterlees}}
+
+----
+
+==Middle Low German==
+
+===Pronunciation===
+* {{IPA|/waːtɘr/|[wɑːtɘr]|lang=gml}} {{a|Westphalia; all regions in earlier periods}}
+* {{IPA|/wɒːtɘr/|[wɒːtɘr]|[wɔːtɘr]|lang=gml}} {{a|most regions in later times}}
+
+===Etymology===
+From {{etyl|osx|gml}} {{m|osx|watar|sc=Latn}}, from {{etyl|gem-pro|gml}} {{m|gem-pro|*watōr}}, from {{etyl|ine-pro|gml}} {{m|ine-pro|*wódr̥}}.
+
+===Noun===
+{{head|gml|noun}}
+
+# {{l|en|water}}
+#* {{quote-book|year=1537|author=Jürgen Richolff der Jüngere|title=Datt högeste unde öldeste water recht|section=xxviii|passage=Eyn schip effte twe effte meer liggen in einer hauen dar kleyn '''water''' is / vnde plecht dröge tho synde / also dat dat eyne schip hart by dem andern tho liggende kumpt {{...}}}}
+
+====Descendants====
+* German Low German: {{l|nds-de|Water}}
+
+----
+
+==Occitan==
+
+===Etymology===
+Shortened form of {{etyl|en|oc}} {{m|en|water closet|sc=Latn}} (W.C.)
+
+===Noun===
+{{head|oc|noun|g=m}}
+
+# {{label|oc|colloquial}} [[water closet]], [[toilet]], [[rest room]]
+
+[[af:water]]
+[[am:water]]
+[[ang:water]]
+[[ar:water]]
+[[an:water]]
+[[roa-rup:water]]
+[[ast:water]]
+[[ay:water]]
+[[az:water]]
+[[zh-min-nan:water]]
+[[be:water]]
+[[ca:water]]
+[[cs:water]]
+[[co:water]]
+[[cy:water]]
+[[da:water]]
+[[de:water]]
+[[dv:water]]
+[[et:water]]
+[[el:water]]
+[[es:water]]
+[[eo:water]]
+[[eu:water]]
+[[fa:water]]
+[[fr:water]]
+[[fy:water]]
+[[ga:water]]
+[[gv:water]]
+[[gd:water]]
+[[gl:water]]
+[[ko:water]]
+[[hy:water]]
+[[hi:water]]
+[[hsb:water]]
+[[hr:water]]
+[[io:water]]
+[[id:water]]
+[[ia:water]]
+[[iu:water]]
+[[zu:water]]
+[[it:water]]
+[[kn:water]]
+[[ks:water]]
+[[csb:water]]
+[[kk:water]]
+[[kw:water]]
+[[rw:water]]
+[[sw:water]]
+[[ku:water]]
+[[ky:water]]
+[[lo:water]]
+[[la:water]]
+[[lv:water]]
+[[lb:water]]
+[[lt:water]]
+[[li:water]]
+[[ln:water]]
+[[jbo:water]]
+[[hu:water]]
+[[mk:water]]
+[[mg:water]]
+[[ml:water]]
+[[mt:water]]
+[[mi:water]]
+[[mn:water]]
+[[my:water]]
+[[nah:water]]
+[[na:water]]
+[[fj:water]]
+[[nl:water]]
+[[ja:water]]
+[[no:water]]
+[[oc:water]]
+[[or:water]]
+[[om:water]]
+[[uz:water]]
+[[pa:water]]
+[[km:water]]
+[[tpi:water]]
+[[nds:water]]
+[[pl:water]]
+[[pt:water]]
+[[ro:water]]
+[[qu:water]]
+[[ru:water]]
+[[sm:water]]
+[[sg:water]]
+[[tn:water]]
+[[sq:water]]
+[[scn:water]]
+[[si:water]]
+[[simple:water]]
+[[sd:water]]
+[[sk:water]]
+[[sl:water]]
+[[so:water]]
+[[sr:water]]
+[[fi:water]]
+[[sv:water]]
+[[tl:water]]
+[[ta:water]]
+[[te:water]]
+[[th:water]]
+[[ti:water]]
+[[tg:water]]
+[[chr:water]]
+[[tr:water]]
+[[tk:water]]
+[[uk:water]]
+[[ur:water]]
+[[ug:water]]
+[[vec:water]]
+[[vi:water]]
+[[vo:water]]
+[[wa:water]]
+[[ts:water]]
+[[zh:water]]
