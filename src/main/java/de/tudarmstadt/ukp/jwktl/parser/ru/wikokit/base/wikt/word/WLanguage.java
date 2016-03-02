@@ -120,10 +120,10 @@ public class WLanguage {
 
         WLanguage[] dest = new WLanguage[source.length - duplication];
         int dest_i = 0;
-        for(int i=0; i<source.length; i++) {
-            if(null != source[i]) {
-                dest [dest_i] = source[i];
-                dest_i ++;
+        for (WLanguage s : source) {
+            if (null != s) {
+                dest[dest_i] = s;
+                dest_i++;
             }
         }
         return dest;
@@ -195,17 +195,17 @@ public class WLanguage {
     {
         boolean at_least_one_template = false;
 
-        for(int i=0; i<lang.length; i++) {
-            assert(null != lang[i]);
+        for (WLanguage aLang : lang) {
+            assert (null != aLang);
 
-            WPOS[] wpos = lang[i].getAllPOS();
-            for(int j=0; j<wpos.length; j++) {
+            WPOS[] wpos = aLang.getAllPOS();
+            for (WPOS wpo : wpos) {
 
-                assert(null != wpos[j]);
-                WMeaning[] wm = wpos[j].getAllMeanings();
+                assert (null != wpo);
+                WMeaning[] wm = wpo.getAllMeanings();
 
-                for(WMeaning m : wm) {
-                    if(!m.isFormOfInflection())
+                for (WMeaning m : wm) {
+                    if (!m.isFormOfInflection())
                         return false;
 
                     at_least_one_template = true;

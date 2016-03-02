@@ -50,13 +50,13 @@ public abstract class WiktionaryTestCase extends TestCase {
 	protected static boolean deleteDirectory(final File path) {
 		if (path.exists()) {
 			File[] files = path.listFiles();
-			for (int i = 0; i < files.length; i++)
-				if (files[i].isDirectory()) {
-					if (!deleteDirectory(files[i]))
-						System.err.println("Unable to delete dir: " + files[i]);
+			for (File file : files)
+				if (file.isDirectory()) {
+					if (!deleteDirectory(file))
+						System.err.println("Unable to delete dir: " + file);
 				} else {
-					if (!files[i].delete())
-						System.err.println("Unable to delete file: " + files[i]);
+					if (!file.delete())
+						System.err.println("Unable to delete file: " + file);
 				}
 		}
 		return path.delete();

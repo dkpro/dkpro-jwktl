@@ -42,23 +42,22 @@ public class WordListProcessor {
 		boolean inComment = false;
 		String commentStart = "";
 		String commentEnd = "";
-		char[] t = text.toCharArray();
-		for (int i = 0; i < t.length; i++) {
+		for (char c : text.toCharArray()) {
 			if (!inComment) {
 				// Find comment start markers.
-				if (t[i] == '[') {
+				if (c == '[') {
 					if ("[".equals(commentStart)) {
 						commentStart = "[[";
 						inComment = true;
 					} else
 						commentStart = "[";
-				} else if (t[i] == '{') {
+				} else if (c == '{') {
 					if ("{".equals(commentStart)) {
 						commentStart = "{{";
 						inComment = true;
 					} else
 						commentStart = "{";
-				} else if (t[i] == '\'') {
+				} else if (c == '\'') {
 					if ("'".equals(commentStart)) {
 						commentStart = "''";
 						inComment = true;
@@ -67,21 +66,21 @@ public class WordListProcessor {
 				}
 			} else {
 				// Find comment end markers.
-				if (t[i] == ']' && "[[".equals(commentStart)) {
+				if (c == ']' && "[[".equals(commentStart)) {
 					if ("]".equals(commentEnd)) {
 						commentEnd = "";
 						commentStart = "";
 						inComment = false;
 					} else
 						commentEnd = "]";
-				} else if (t[i] == '}' && "{{".equals(commentStart)) {
+				} else if (c == '}' && "{{".equals(commentStart)) {
 					if ("}".equals(commentEnd)) {
 						commentEnd = "";
 						commentStart = "";
 						inComment = false;
 					} else
 						commentEnd = "}";
-				} else if (t[i] == '\'' && "''".equals(commentStart)) {
+				} else if (c == '\'' && "''".equals(commentStart)) {
 					if ("'".equals(commentEnd)) {
 						commentEnd = "";
 						commentStart = "";
@@ -90,10 +89,10 @@ public class WordListProcessor {
 						commentEnd = "'";
 				}
 			}
-			
+
 			// Remove delimiters if in comment.
-			if (!inComment || t[i] != '⁋')
-				result.append(t[i]);					
+			if (!inComment || c != '⁋')
+				result.append(c);
 		}
 		return result.toString();
 	}

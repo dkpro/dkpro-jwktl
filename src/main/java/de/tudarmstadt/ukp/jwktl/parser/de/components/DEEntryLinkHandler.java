@@ -51,15 +51,15 @@ public class DEEntryLinkHandler extends DEBlockHandler {
 		if (!blockHeader.startsWith("{{"))
 			return false;
 
-		for (int i = 0; i < ENTRY_LINK_TEMPLATES.length; i++) {
-			String entryLinkTemplate = "{{" + ENTRY_LINK_TEMPLATES[i] + "|";
+		for (String template : ENTRY_LINK_TEMPLATES) {
+			String entryLinkTemplate = "{{" + template + "|";
 			if (blockHeader.startsWith(entryLinkTemplate)) {
 				entryLink = blockHeader.substring(entryLinkTemplate.length(),
 						blockHeader.length() - 2);
 				int idx = entryLink.indexOf('|');
 				if (idx >= 0)
 					entryLink = entryLink.substring(0, idx);
-				entryLinkType = ENTRY_LINK_TEMPLATES[i];
+				entryLinkType = template;
 				return true;
 			}
 		}

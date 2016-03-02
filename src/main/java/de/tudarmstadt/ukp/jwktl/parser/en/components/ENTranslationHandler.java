@@ -236,12 +236,12 @@ public class ENTranslationHandler extends ENBlockHandler {
 		
 		String[] result = new String[fields.length];
 		int idx = 0;
-		for (int i = 0; i < fields.length; i++) {
-			int j = fields[i].indexOf('=');
+		for (String field : fields) {
+			int j = field.indexOf('=');
 			if (j >= 0) {
-				String key = fields[i].substring(0, j);
-				String value = fields[i].substring(j + 1);
-				
+				String key = field.substring(0, j);
+				String value = field.substring(j + 1);
+
 //				namedParams.put(key, value);
 				if (namedParams.containsKey(key)) {
 					int suffix = 2;
@@ -249,9 +249,9 @@ public class ENTranslationHandler extends ENBlockHandler {
 						suffix++;
 					namedParams.put(key + suffix, value);
 				} else
-				namedParams.put(key, value);
+					namedParams.put(key, value);
 			} else
-				result[idx++] = fields[i];
+				result[idx++] = field;
 		}
 		
 		for (Entry<String, String> e : namedParams.entrySet())

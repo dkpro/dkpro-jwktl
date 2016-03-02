@@ -84,14 +84,12 @@ public /*static*/ final class StringUtils {
 		Set<Integer> result = new TreeSet<>();
 		int lastIdx = -1;
 		int currIdx = -1;
-		char[] text = indexedStr.toCharArray();
-		for (int i = 0; i < text.length; i++) {
-			if (text[i] >= '0' && text[i] <= '9') {
+		for (char c : indexedStr.toCharArray()) {
+			if (c >= '0' && c <= '9') {
 				if (currIdx < 0)
 					currIdx = 0;
-				currIdx = currIdx * 10 + (text[i] - '0');
-			} else
-			if (text[i] == ',' || text[i] == '.') {
+				currIdx = currIdx * 10 + (c - '0');
+			} else if (c == ',' || c == '.') {
 				if (lastIdx >= 0) {
 					for (int idx = lastIdx; idx <= currIdx; idx++)
 						result.add(idx);
@@ -99,8 +97,7 @@ public /*static*/ final class StringUtils {
 				} else
 					result.add(currIdx);
 				currIdx = 0;
-			} else
-			if (text[i] == '-' || text[i] == '–') {				
+			} else if (c == '-' || c == '–') {
 				lastIdx = currIdx;
 				currIdx = 0;
 			}

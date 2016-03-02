@@ -21,8 +21,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
-//import java.util.Comparator;
-//import java.io.UnsupportedEncodingException;
 
 public class StringUtil {
     
@@ -204,52 +202,51 @@ public class StringUtil {
     }
     
     /** Gets list of unique strings (case insensitive). */
-    public static List<String> getUnique(List<String> l) {
-        List<String> result = new ArrayList<>();
-        if(null == l)
-            return result;
-        
-        for(int i=0; i<l.size(); i++) {
-                boolean bunique = true;
-                String s = l.get(i);
-                for(int j=0; j<result.size(); j++) {
-                    if(result.get(j).equalsIgnoreCase(s)) {
-                        bunique = false;
-                        break;
-                    }
+    public static List<String> getUnique(List<String> list) {
+        List<String> results = new ArrayList<>();
+        if(null == list)
+            return results;
+
+        for (String l : list) {
+            boolean bunique = true;
+            for (String result : results) {
+                if (result.equalsIgnoreCase(l)) {
+                    bunique = false;
+                    break;
                 }
-                if(bunique)
-                    result.add(s);
+            }
+            if (bunique)
+                results.add(l);
         }
-        return result;
+        return results;
     }
-    
+
     /** Adds two lists to one, i.e. creates the list of unique strings (case insensitive). */
     public static List<String> addOR(List<String> a,List<String> b) {
-        
+
         if(a==null && b==null) {
             return NULL_STRING_LIST;
         }
-        
+
         List<String> result = new ArrayList<>();
-        
+
         if(a==null || 0==a.size()) {
             result.addAll(b);
         } else if(b==null || 0==b.size()) {
             result.addAll(a);
         } else {
             result.addAll(getUnique(a));
-                        
-            for(int i=0; i<b.size(); i++) {
+
+            for (String aB : b) {
                 boolean bunique = true;
-                String word = b.get(i);
-                for(int j=0; j<result.size(); j++) {
-                    if(result.get(j).equalsIgnoreCase(word)) {
+                String word = aB;
+                for (String aResult : result) {
+                    if (aResult.equalsIgnoreCase(word)) {
                         bunique = false;
                         break;
                     }
                 }
-                if(bunique)
+                if (bunique)
                     result.add(word);
             }
         }
@@ -271,10 +268,10 @@ public class StringUtil {
             result.addAll(Arrays.asList(a));
         } else {
             result.addAll(getUnique(Arrays.asList(a)));
-            
-            for(int i=0; i<b.length; i++) {
-                if(!result.contains(b[i]))
-                    result.add(b[i]);
+
+            for (String aB : b) {
+                if (!result.contains(aB))
+                    result.add(aB);
             }
         }
         return result.toArray(NULL_STRING_ARRAY);
