@@ -179,9 +179,11 @@ public abstract class WiktionaryDataTestCase extends WiktionaryTestCase {
 		super.tearDown();
 	}
 
+	@SuppressWarnings("unchecked")
 	protected <IterableType> void assertIterable(
-			final Iterable<IterableType> actual, 
+			final Iterable<IterableType> actual,
 			final IterableType... expected) {
+
 		Iterator<IterableType> iterator = actual.iterator();
 		for (IterableType e : expected) {
 			assertTrue(iterator.hasNext());
