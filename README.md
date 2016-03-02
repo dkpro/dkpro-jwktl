@@ -26,8 +26,8 @@ License
 JWKTL is available as open source software under the Apache License 
 2.0 (ASL). The software thus comes "as is" without any warranty (see
 license text for more details). JWKTL makes use of Berkeley DB Java
-Edition 5.0.73 (Sleepycat License), Apache Ant 1.7.1 (ASL), 
-Xerces 2.9.1 (ASL), JUnit 4.10 (CPL), Wikokit (New BSD license). 
+Edition 5.0.73 (Sleepycat License), Apache Ant 1.7.1 (ASL), JUnit 4.12 (CPL), 
+Wikokit (New BSD license). 
 
 
 Publications
