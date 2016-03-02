@@ -20,6 +20,7 @@ package de.tudarmstadt.ukp.jwktl.parser;
 import java.util.Arrays;
 import java.util.List;
 
+@FunctionalInterface
 public interface MultistreamFilter {
 	/** @return whether to include the page with pageId and pageTitle in the parse */
 	boolean accept(long pageId, String pageTitle);

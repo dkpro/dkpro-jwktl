@@ -25,6 +25,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
  * (i.e., accepted) or skipped (i.e., filtered out).
  * @author Christian M. Meyer
  */
+@FunctionalInterface
 public interface IWiktionaryPageFilter {
 
 	/** Return <code>true</code> if the given page should be accepted or 

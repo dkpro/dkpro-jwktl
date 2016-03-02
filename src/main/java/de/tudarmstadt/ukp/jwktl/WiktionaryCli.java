@@ -47,8 +47,8 @@ public class WiktionaryCli {
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, "UTF8"));
 		System.out.print(PROMPT);
-		String line = null;
 		try (IWiktionaryEdition wkt = JWKTL.openEdition(new File(wktPath))) {
+			String line;
 			while ((line = reader.readLine()) != null) {
 				if (line.equals(END))
 					break;

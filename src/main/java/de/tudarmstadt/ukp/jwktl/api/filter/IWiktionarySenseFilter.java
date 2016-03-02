@@ -25,6 +25,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
  * (i.e., accepted) or skipped (i.e., filtered out).
  * @author Christian M. Meyer
  */
+@FunctionalInterface
 public interface IWiktionarySenseFilter {
 
 	/** Return <code>true</code> if the given sense should be accepted or 
