@@ -18,6 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -62,17 +63,15 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 	public List<IWiktionaryEntry> getEntriesForWord(final String word,
 			final IWiktionaryEntryFilter filter, boolean normalize) {
 		ensureOpen();
-		List<IWiktionaryEntry> result = new ArrayList<>();
-		if (word == null || word.isEmpty())
-			return result;
-		
-		List<IWiktionaryPage> pages = getPagesForWord(word, normalize);
-		for (IWiktionaryPage page : pages)
-			result.addAll(page.getEntries().stream()
+		if (word == null || word.isEmpty()) {
+			return Collections.emptyList();
+		} else {
+			return getPagesForWord(word, normalize)
+				.stream()
+				.flatMap(page -> page.getEntries().stream())
 				.filter(entry -> filter == null || filter.accept(entry))
-				.collect(Collectors.toList()));
-		
-		return result;
+				.collect(Collectors.toList());
+		}
 	}
 
 	public IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
