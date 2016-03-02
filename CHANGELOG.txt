@@ -221,3 +221,5 @@ JWKTL-1.1.0 (forthcoming)
 - Modified: IWiktionaryTranslation.getRawSense() is now persistent (#23).
 - Fixed: Parsing of audio pronunciation with lang tag (#24). 
 - Fixed: Missing entry link templates for German forms (#21).
+- Added: Parse translation status
+- Fixed: Parse complete etymologies and relationships
