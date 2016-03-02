@@ -165,6 +165,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 					if (currentSense != null && currentSense.trim().length() > 0) {
 						trans.setRawSense(currentSense.trim());
 					}
+					trans.setCheckNeeded(determineCheckNeeded(fields));
 
 					String transliteration = namedParams.get("tr");
 					if (transliteration != null)
@@ -219,7 +220,15 @@ public class ENTranslationHandler extends ENBlockHandler {
 		
 		return true;
 	}
-	
+
+	protected boolean determineCheckNeeded(String[] fields) {
+		if (fields == null || fields.length == 0) {
+			return false;
+		} else {
+			return "t-check".equals(fields[0]) || "t+check".equals(fields[0]);
+		}
+	}
+
 	protected String[] reorderTemplateParams(final String[] fields,
 			Map<String, String> namedParams) {
 		if (fields == null)

@@ -51,4 +51,7 @@ public interface IWiktionaryTranslation {
 
 	/** @return the raw sense as specified in the translation section or null */
 	String getRawSense();
+
+	/** @return if the translation is marked as "needs checking" */
+	boolean isCheckNeeded();
 }

@@ -23,14 +23,65 @@ import java.util.List;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryTranslation;
+import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
+import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
+
+import static java.util.stream.Collectors.toList;
 
 /**
  * Test case for {@link ENTranslationHandler}.
  * @author Christian M. Meyer
  */
 public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
+	public void testHandleT() throws Exception {
+		IWiktionaryTranslation translation = processFirst("* German: {{t|de|german-translation}}");
+		assertEquals("german-translation", translation.getTranslation());
+		assertEquals(Language.GERMAN, translation.getLanguage());
+		assertFalse(translation.isCheckNeeded());
+	}
+
+	public void testHandleTPlus() throws Exception {
+		IWiktionaryTranslation translation = processFirst("* German: {{t+|de|german-translation}}");
+		assertEquals("german-translation", translation.getTranslation());
+		assertEquals(Language.GERMAN, translation.getLanguage());
+		assertFalse(translation.isCheckNeeded());
+	}
+
+	public void testHandleTMinusCheck() throws Exception {
+		assertTrue(processFirst("* German: {{t-check|de|german-translation-needs-checking}}").isCheckNeeded());
+	}
+
+	public void testHandleTPlusCheck() throws Exception {
+		assertTrue(processFirst("* German: {{t+check|de|german-translation-needs-checking}}").isCheckNeeded());
+	}
+
+	public void testRawSenseIsParsed() throws Exception {
+		assertEquals("raw-sense", processFirst(
+				"{{trans-top|raw-sense}}",
+				"* German: {{t-check|de|german-translation-needs-checking}}",
+				"{{trans-bottom}}"
+		).getRawSense());
+	}
+
+	public void testWater() throws Exception {
+		IWiktionaryPage page = parse("water.txt");
+		IWiktionaryEntry verb = page.getEntries().stream()
+				.filter(e -> Language.ENGLISH.equals(e.getWordLanguage()))
+				.filter(e -> e.getPartOfSpeech() == PartOfSpeech.VERB).findFirst().get();
+
+		List<IWiktionaryTranslation> translations = verb.getTranslations();
+		assertEquals(158, translations.size());
+
+		List<IWiktionaryTranslation> needChecking =
+				translations.stream().filter(IWiktionaryTranslation::isCheckNeeded).collect(toList());
+
+		assertEquals(7, needChecking.size());
+	}
 
 	/***/
 	public void testAborted() throws Exception {
@@ -270,6 +321,31 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 		}
 		assertEquals(rawSense, actual.getRawSense());
 		assertEquals(translation, actual.getTranslation());
+		assertEquals(false, actual.isCheckNeeded());
 	}
 
+	protected IWiktionaryTranslation processFirst(String... body) {
+		List<IWiktionaryTranslation> translations = process(body);
+		assertFalse(translations.isEmpty());
+		return translations.get(0);
+	}
+
+	protected List<IWiktionaryTranslation> process(String... body) {
+		final WiktionarySense sense = new WiktionarySense();
+		final WiktionaryEntry entry = new WiktionaryEntry();
+		entry.addSense(sense);
+		ParsingContext context = new ParsingContext(new WiktionaryPage(), new ENEntryFactory() {
+			@Override
+			public WiktionaryEntry findEntry(ParsingContext context) {
+				return entry;
+			}
+		});
+		ENTranslationHandler handler = new ENTranslationHandler();
+		handler.processHead("testing", context);
+		for (String line : body) {
+			handler.processBody(line, context);
+		}
+		handler.fillContent(context);
+		return entry.getTranslations();
+	}
 }

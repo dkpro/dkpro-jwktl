@@ -37,8 +37,9 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 	protected String transliteration;
 	protected String additionalInformation;
 	protected String rawSense;
-	
-	/** Creates a new, empty translation. */ 
+	protected boolean checkNeeded;
+
+	/** Creates a new, empty translation. */
 	public WiktionaryTranslation() {}
 	
 	/** Creates a new translation for the given language and translation 
@@ -84,6 +85,14 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 
 	public void setRawSense(String rawSense) {
 		this.rawSense = rawSense;
+	}
+
+	public boolean isCheckNeeded() {
+		return checkNeeded;
+	}
+
+	public void setCheckNeeded(boolean checkNeeded) {
+		this.checkNeeded = checkNeeded;
 	}
 
 	@Override
