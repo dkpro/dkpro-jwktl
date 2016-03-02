@@ -25,7 +25,11 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
+import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 import static de.tudarmstadt.ukp.jwktl.api.RelationType.DERIVED_TERM;
 import static de.tudarmstadt.ukp.jwktl.api.RelationType.DESCENDANT;
@@ -35,6 +39,58 @@ import static de.tudarmstadt.ukp.jwktl.api.RelationType.DESCENDANT;
  * @author Christian M. Meyer
  */
 public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
+
+	public void testParseRelation() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		IWiktionaryRelation relation = processFirst(handler, "* {{l|en|target}}");
+		assertEquals(DERIVED_TERM, relation.getRelationType());
+		assertEquals("target", relation.getTarget());
+		assertNull(relation.getLinkType());
+	}
+
+	public void testParseRelationLinkedWithTemplate() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		assertEquals("target", processFirst(handler, "* {{l|en|target}}").getTarget());
+	}
+
+	public void testParseRelationLinkedWithSquareBrackets() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		assertEquals("target", processFirst(handler, "* [[target]]").getTarget());
+	}
+
+	public void testParseRelationList() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		List<IWiktionaryRelation> relations = process(handler,
+			"* {{l|en|target1}}",
+			"* [[target2]]"
+		);
+		assertEquals(2, relations.size());
+		assertEquals("target1", relations.get(0).getTarget());
+		assertEquals("target2", relations.get(1).getTarget());
+	}
+
+	public void testParseRelationListWithTemplateHeaderAndFooter() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		List<IWiktionaryRelation> relations = process(handler,
+			"{{rel-top3|Terms derived from ''foo''}}",
+			"* {{l|en|target1}}",
+			"* [[target2]]",
+			"{{rel-mid3}}",
+			"* [[target3]]",
+			"* [[target4]]",
+			"{{rel-bottom}}"
+		);
+		assertEquals(4, relations.size());
+	}
+
+	public void testDerivedTermsMonday() throws Exception {
+		IWiktionaryPage page = parse("Monday.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		final List<IWiktionaryRelation> relations = entry.getRelations(DERIVED_TERM);
+		assertEquals(46, relations.size());
+		assertEquals("Ash Monday", relations.get(0).getTarget());
+		assertEquals("Whitsun Monday", relations.get(relations.size()-1).getTarget());
+	}
 
 	public void testDerivedTermsCasa() throws Exception {
 		IWiktionaryPage page = parse("casa.txt");
@@ -72,5 +128,30 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 										 final String target, final IWiktionaryRelation actual) {
 		assertEquals(relationType, actual.getRelationType());
 		assertEquals(target, actual.getTarget());
+	}
+
+	protected IWiktionaryRelation processFirst(ENRelationHandler handler, String... body) {
+		List<IWiktionaryRelation> relations = process(handler, body);
+		assertFalse(relations.isEmpty());
+		return relations.get(0);
+	}
+
+	protected List<IWiktionaryRelation> process(ENRelationHandler handler, String... body) {
+		final WiktionarySense sense = new WiktionarySense();
+		final WiktionaryEntry entry = new WiktionaryEntry();
+		entry.addSense(sense);
+		ParsingContext context = new ParsingContext(new WiktionaryPage(), new ENEntryFactory() {
+			@Override
+			public WiktionaryEntry findEntry(ParsingContext context) {
+				return entry;
+			}
+		});
+		handler.processHead("testing", context);
+		for (String line : body) {
+			handler.processBody(line, context);
+		}
+		handler.fillContent(context);
+
+		return entry.getRelations();
 	}
 }

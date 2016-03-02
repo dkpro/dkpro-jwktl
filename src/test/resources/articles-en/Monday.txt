@@ -1,0 +1,381 @@
+==English==
+{{wikipedia|dab=monday (disambiguation)|monday}}
+{{wikipedia|Week-day names}}
+
+===Etymology===
+From {{etyl|enm|en}} {{m|enm|Monday}}, {{m|enm|Monenday}}, from {{etyl|ang|en}} {{m|ang|mōnandæġ||day of the moon}}, from {{m|ang|mōna||moon}} + {{m|ang|dæg||day}}, late {{etyl|gem-pro|en}} {{m|gem-pro|*mēniniz dagaz}}, a translation ({{m|la|interpretātiō germānica}}) of {{etyl|la|-}} {{m|la|dies Lunae}}. Compare {{etyl|stq|-}} {{m|stq|Moundai||Monday}}, {{etyl|fy|-}} {{m|fy|moandei}}, {{etyl|nds|-}} {{m|nds|Maandag}}, {{m|nds|Maondag}}, {{etyl|nl|-}} {{m|nl|maandag}}, {{etyl|de|-}} {{m|de|Montag}}, {{etyl|da|-}} {{m|da|mandag}}, Norwegian Bokmål {{m|nb|mandag}}, Norwegian Nynorsk {{m|nn|måndag}}, Swedish {{m|sv|måndag}}.
+
+===Pronunciation===
+* {{IPA|/ˈmʌn.deɪ/|/ˈmʌn.di/|lang=en}}
+* {{audio|en-us-Monday.ogg|Audio (US)|lang=en}}
+* {{audio|En-uk-Monday.ogg|Audio (UK)|lang=en}}
+* {{rhymes|ʌndeɪ|lang=en}} ''or'' {{rhymes|ʌndi|lang=en}}
+
+===Noun===
+{{en-noun}}
+
+# The first day of the [[week]] in systems using the [[w:ISO 8601|ISO 8601]] norm and second day of the week in many religious traditions. It follows [[Sunday]] and precedes [[Tuesday]].
+#* {{RQ:Orwell Animal Farm|6}}
+#*: Mr. Whymper, a solicitor living in Willingdon, {{...|had agreed to act as intermediary between Animal Farm and the outside world, and}} would visit the farm every '''Monday''' morning to receive his instructions.
+#* ''Solomon Grundy,<br>Born on a '''Monday''',<br>Christened on Tuesday,<br>Married on Wednesday<br>ill on Thursday,<br>worse on Friday,<br>Died on Saturday,<br>Buried on Sunday.<br>Such was the life<br>Of Solomon Grundy.''
+
+====Derived terms====
+{{rel-top4|Derived terms}}
+* [[Ash Monday]]
+* [[Black Monday]]
+* [[Bloody Monday]]
+* [[blue Monday]]
+* [[Clean Monday]]
+* [[Collop Monday]]
+* [[Cyber Monday]]
+* [[Ducking Monday]]
+* [[Easter Monday]]
+* [[Fat Monday]]
+* [[Gang-Monday]]
+{{rel-mid4}}
+* [[Green Monday]]
+* [[Handsel Monday]]
+* [[Hock Monday]]
+* [[Holy Monday]]
+* [[Meal Monday]]
+* [[Mon]], [[Mon.]]
+* [[Monday Club]]
+* [[Monday disease]]
+* [[w:Monday demonstrations|Monday demonstrations]]
+* [[Monday effect]]
+* [[Monday fever]]
+{{rel-mid4}}
+* [[Monday hammer]]
+* [[Mondayish]]
+* [[Mondayitis]]
+* [[Mondayise]], [[Mondayize]]
+* [[Mondayman]]
+* [[Monday-morning]]<!--adjective-->
+* [[Monday pops]]
+* [[Mondays]]<!--adverb-->
+* [[Pentecost Monday]]
+* [[Plough-Monday]], [[Plow-Monday]]
+{{rel-mid4}}
+* [[Pure Monday]]
+* [[Rope Monday]]
+* [[Saint Monday]]
+* [[Saturday-to-Monday]]
+* [[Selection Monday]]
+* [[Shrove Monday]]
+* [[Trinity Monday]]
+* [[Wet Monday]]
+* [[Whit Monday]], [[Whit-Monday]]
+* [[Whitsun Monday]]
+{{rel-bottom}}
+
+====Translations====
+{{trans-top|day of the week}}
+* Abkhaz: {{t|ab|ашәахьа}}
+* Adyghe: {{t|ady|блыпэ}}
+* Afrikaans: {{t+|af|Maandag}}
+* Alabama: {{t|akz|nihtàllo inníhta}}
+* Albanian: {{t|sq|e hënë}}
+* Alutiiq: {{t|ems|Pekyun}}
+* American Sign Language: {{t|ase|M@Side-PalmBack CirclesHoriz}}
+* Amharic: {{t|am|ሰኞ}}
+* Amuzgo: {{t|amu|luñè}}
+* Arabic: {{t|ar|اَلْإِثْنَيْن|m}}, {{t|ar|يَوْم اَلْإِثْنَيْن|m}}
+*: Egyptian Arabic: {{t|arz|الإتنين|m|tr=letnēn|sc=Arab}}
+* Armenian: {{t+|hy|երկուշաբթի}}
+*: Old Armenian: {{t|xcl|երկշաբաթի}}
+* Aromanian: {{t|rup|luni}}
+* Asturian: {{t+|ast|llunes|m}}
+* Azeri: {{t+|az|bazar ertəsi}}
+* Bashkir: {{t|ba|дүшәмбе}}
+* Basque: {{t+|eu|astelehen}}
+* Belarusian: {{t+|be|панядзе́лак|m}}
+* Bengali: {{t+|bn|সোমবার|tr=shombar|sc=Beng}}
+* Blackfoot: {{t|bla|issikatoyiiksistsiko}}
+* Breton: {{t+|br|Lun|m}}
+* Bulgarian: {{t+|bg|понеде́лник|m}}
+* Burmese: {{t+|my|တနင်္လာ|sc=Mymr}}
+* Catalan: {{t+|ca|dilluns|m}}
+* Central Atlas Tamazight: {{t|tzm|ⴰⵔⵉⵎ}}
+* Central Dusun: {{t|dtp|Tontolu}}
+* Chechen: {{t|ce|оршот}}
+* Cherokee: {{t|chr|ᎤᎾᏙᏓᏉᏅᎯ}}
+* Chichewa: {{t|ny|lolemba}}
+* Chinese:
+*: Cantonese: {{t|yue|星期一|tr=sing1 kei4 jat1|sc=Hani}}, {{t|yue|禮拜一|sc=Hani}}, {{t|yue|礼拜一|tr=lai5 baai3 jat1|sc=Hani}}, {{t|yue|周一|tr=zau1 jat1|sc=Hani}}
+*: Mandarin: {{t+|cmn|星期一|tr=xīngqīyī|sc=Hani}}, {{t|cmn|禮拜一|sc=Hani}}, {{t+|cmn|礼拜一|tr=lǐbàiyī|sc=Hani}}, {{t|cmn|周一|tr=zhōuyī|sc=Hani}}
+*: Min Nan: {{t|nan|禮拜一|sc=Hani}}, {{t|nan|礼拜一|tr=lé-pài-it|sc=Hani}}, {{t+|nan|拜一|tr=pài-it|sc=Hani}}
+* Chuukese: {{t|chk|Sarifan}}
+* Chuvash: {{t|cv|тунтикун|sc=Cyrl}}
+* Classical Nahuatl: {{t|nci|lunes}}, {{t|nci|ic ōmilhuitl semana}}
+* Cornish: {{t|kw|Lun}}, {{t|kw|dy'Lun}}
+* Corsican: {{t+|co|luni}}
+* Crimean Tatar: {{t|crh|bazarertesi}}
+* Czech: {{t+|cs|pondělí|n}}
+* Dakota: {{t|dak|Aŋpetutokaheya}}
+* Danish: {{t+|da|mandag}}
+* Dutch: {{t+|nl|maandag|m}}
+* Esperanto: {{t+|eo|lundo}}
+* Estonian: {{t+|et|esmaspäev}}
+* Faroese: {{t+|fo|mánadagur|m}}
+* Fijian: {{t|fj|Moniti}}
+* Finnish: {{t+|fi|maanantai}}
+* French: {{t+|fr|lundi|m}}
+* Friulian: {{t|fur|lunis}}
+* Galician: {{t+|gl|luns|m}}, {{t+|gl|segunda feira|f}}
+* Georgian: {{t+|ka|ორშაბათი|sc=Geor}}
+* German: {{t+|de|Montag|m}}
+* Gilbertese: {{t|gil|Moanibong}}
+* Greek: {{t+|el|Δευτέρα|f}}
+* Greenlandic: {{t+|kl|Ataasinngorneq}}
+* Gujarati: {{t+|gu|સોમવાર|m|tr=somavār|sc=Gujr}}
+* Haitian Creole: {{t|ht|lendi}}
+* Hawaiian: {{t|haw|Pōʻakahi}}
+* Hebrew: {{t+|he|יוֹם שֵׁנִי|m|tr=yom shení|sc=Hebr}}, {{t|he|יוֹם ב'|m|tr=yom bet|sc=Hebr}}
+* Hiligaynon: {{t|hil|Lunes}}
+* Hindi: {{t+|hi|सोमवार|m|sc=Deva}}, {{t|hi|चन्द्रवार|m|sc=Deva}}
+* Hungarian: {{t+|hu|hétfő}}
+* Icelandic: {{t+|is|mánudagur|m}}
+* Ido: {{t+|io|lundio}}
+* Indonesian: {{t+|id|Senin}}
+* Ingush: {{t|inh|оршот}}
+* Interlingua: {{t|ia|lunedi}}
+* Irish: {{t+|ga|Luan|m}}
+* Italian: {{t+|it|lunedì|m}}
+* Japanese: {{t+|ja|月曜日|tr=げつようび, getsuyōbi|sc=Jpan}}, {{t|ja|月曜|tr=げつよう, getsuyō|sc=Jpan}}
+* Kalmyk: {{t|xal|сарң өдр}}
+* Kannada: {{t+|kn|ಸೋಮವಾರ}}
+* Kashubian: {{t+|csb|pòniedzôłk|m}}
+* Kazakh: {{t+|kk|дүйсенбі}}
+* Khmer: {{t+|km|ថ្ងៃច័ន្ទ|tr=tngai jŭn|sc=Khmr}}
+* Kinyarwanda: {{t|rw|Kwambere}}
+* Klamath-Modoc: {{t|kla|lobiini}}
+* Kongo: {{t|kg|Lumbu kia ntete}}
+* Korean: {{t+|ko|월요일|sc=Kore}} ({{t+|ko|月曜日|sc=Kore}})
+* Kurdish: {{t+|ku|duşem}}, {{t|ku|دووشه‌م}}, {{t|ku|دووشه‌مه‌}}
+* Kyrgyz: {{t+|ky|дүйшөмбү}}
+* Ladin: {{t|lld|lunesc}}
+* Lao: {{t+|lo|ວັນຈັນ|sc=Laoo}}
+* Latin: {{t+|la|dies Lunae}}
+* Latvian: {{t+|lv|pirmdiena|f}}
+* Lezgi: {{t|lez|ислен|sc=Cyrl}}
+* Lithuanian: {{t+|lt|pirmadienis|m}}
+* Livonian: {{t|liv|ežžõmpǟva}}
+* Lojban: {{t|jbo|pavdei}}
+* Low German: {{t+|nds|Maandag}}, {{t+|nds|Maondag}}
+* Lower Sorbian: {{t|dsb|pónjeźele|n}}
+* Luganda: {{t|lg|Kazooba}}, {{t|lg|Bbalaza}}
+* Luxembourgish: {{t+|lb|Méinden|m}}, {{t+|lb|Méindeg|m}}
+{{trans-mid}}
+* Lü: {{t|khb|ᦞᧃᦶᦈᧃ|sc=Lana}}
+* Macedonian: {{t+|mk|понеделник|m}}
+* Malay:
+*: Rumi: {{t+|ms|Isnin}}, {{t|ms|Senin}}, {{t|ms|Senayan}}
+*: Jawi: {{t|ms|اثنين|sc=Arab}}, {{t|ms|ثنين|sc=Arab}}
+* Maltese: {{t|mt|it-Tnejn|m}}
+* Maori: {{t|mi|Mane}}, {{t|mi|Rātahi}}, {{t|mi|Rāhina}}
+* Marathi: {{t+|mr|सोमवार|m|tr=somavār|sc=Deva}}
+* Mirandese: {{t|mwl|segunda-feira}}
+* Mongolian: {{t+|mn|даваа|sc=Cyrl}}
+* Navajo: {{t|nv|Damį́įgo Biiskání}}
+* Neapolitan: {{t|nap|lunnerì}}, {{t|nap|lunnedì}}
+* Ngazidja Comorian: {{t|zdj|mfumdraru}}
+* Norman: {{t|nrf|Lundi|m}}
+* North Frisian:
+*: Föhr-Amrum: {{t|frr|mundai}}
+*: Mooring: {{t|frr|moundi}}
+* Norwegian: {{t+|no|mandag}} {{qualifier|Bokmål}}
+*: Norwegian Nynorsk: {{t+|nn|måndag}}
+* Occitan: {{t+|oc|diluns}}
+* Ojibwe: {{t|oj|ishkwaa-anami'egiizhigad}}, {{t|oj|nitam-anokii-giizhigad}}
+* Old English: {{t|ang|mōnandæġ|m}}
+* Old Norse: {{t|non|mánudagr|m}}
+* Old Turkic: {{t|otk|ikinç}}
+* Ossetian:
+*: Digor: {{t|os|авдисæр|sc=Cyrl}}
+*: Iron: {{t|os|къуырисæр|sc=Cyrl}}
+* Papiamentu: {{t|pap|dialuna}}
+* Pashto: {{t|ps|دوشنبه|tr=dōšanbe|sc=ps-Arab}}, {{t+|ps|دوشنبې|tr=dōšanbe|sc=ps-Arab}}
+* Persian: {{t+|fa|دوشنبه|tr=došanbe|sc=fa-Arab}}
+* Polish: {{t+|pl|poniedziałek|m-in}}
+* Portuguese: {{t+|pt|segunda-feira|f}}, {{t+|pt|segunda|f}}
+* Quechua: {{t|qu|killachaw}}
+* Romani: {{t|rom|luja}}
+* Romanian: {{t+|ro|luni|f}}
+* Romansch: {{t|rm|glindesdi}}, {{t|rm|lündeschdi}}
+* Russian: {{t+|ru|понеде́льник|m}}
+* Sami:
+*: Inari: {{t|smn|vuossargâ}}
+*: Lule: {{t|ule|mánnodahka}}
+*: Northern: {{t|se|vuossárga}}, {{qualifier|in Sweden}} {{t|se|mánnodat}}
+*: Skolt: {{t|sms|vuõssargg}}
+*: Southern: {{t|sma|måanta}}
+* Samoan: {{t|sm|Aso Gafua}}
+* Sardinian: {{t|sc|lunis}}
+* Scots: {{t|sco|Monanday}}
+* Scottish Gaelic: {{t+|gd|Diluain|m}}
+* Serbo-Croatian:
+*: Cyrillic: {{t|sh|понедељак|m}}, {{t|sh|понедјељак|m}}
+*: Roman: {{t+|sh|ponedeljak|m}}, {{t+|sh|ponedjeljak|m}}
+* Shona: {{t|sn|Muvhuro}}
+* Sicilian: {{t+|scn|luni}}, {{t|scn|luneddì}}, {{t|scn|lunnidì}}, {{t+|scn|lunidìa}}
+* Sinhalese: {{t+|si|සඳුදා|sc=Sinh}}
+* Skolt Sami: {{t|sms|vuõssargg}}, {{t|sms|vuõsargg}}
+* Slovak: {{t+|sk|pondelok|m}}
+* Slovene: {{t+|sl|ponedéljek|m}}
+* Somali: {{t|so|Isniin}}
+* Sotho: {{t+|st|Mantaha}}
+* Spanish: {{t+|es|lunes|m}}
+* Swahili: {{t|sw|Jumatatu}}
+* Swedish: {{t+|sv|måndag|c}}
+* Tagalog: {{t|tl|Lunes}}, {{t|tl|lunes}}
+* Tahitian: {{t|ty|Monite}}
+* Tajik: {{t+|tg|душанбе}}
+* Tamil: {{t+|ta|திங்கள்|sc=Taml}}
+* Taos: {{t|twf|lúnąsi}}
+* Tarantino: {{t|roa-tar|lunedìe}}
+* Tatar: {{t+|tt|дүшәмбе}}
+* Telugu: {{t+|te|సోమవారము|sc=Telu}}
+* Tetum: {{t|tet|loron-segunda}}
+* Thai: {{t+|th|จันทร์|tr=jan}}
+* Tok Pisin: {{t|tpi|mande}}
+* Tongan: {{t|to|Monite}}
+* Tswana: {{t|tn|mosupologo}}
+* Turkish: {{t+|tr|pazartesi}}
+* Turkmen: {{t|tk|duşenbe}}, {{t|tk|başgün}}
+* Udmurt: {{t|udm|вордӥськон}}
+* Ukrainian: {{t+|uk|понеді́лок|m}}
+* Upper Sorbian: {{t|hsb|póndźela|f}}
+* Urdu: {{t|ur|پیر|tr=pir|sc=ur-Arab}}
+* Uyghur: {{t|ug|دۈشەنبە|sc=ug-Arab}}
+* Uzbek: {{t+|uz|dushanba}}
+* Venetian: {{t+|vec|luni|m}}
+* Vietnamese: {{t+|vi|thứ hai}}
+* Volapük: {{t+|vo|mudel}}, {{t|vo|telüdel}}, {{t|vo|mundel}}
+* Walloon: {{t+|wa|londi}}, {{t+|wa|dilon}}
+* Welsh: {{t+|cy|dydd Llun|m}}
+* West Frisian: {{t+|fy|moandei}}
+* Winnebago: {{t|win|Hąąpcek}}
+* Wolof: {{t|wo|Altine}}
+* Xhosa: {{t|xh|umvulo}}
+* Yiddish: {{t+|yi|מאָנטיק|m|sc=Hebr}}
+* Yoruba: {{t|yo|Ọjó ajé}}
+* Yup'ik: {{t|esu|Pekyun}}
+* Zazaki: {{t|zza|dışeme}}, {{t|zza|berarek}}, {{t|zza|bahdébazari}}
+* Zulu: {{t|zu|uMsombuluko}}
+{{trans-bottom}}
+
+{{checktrans-top}}
+* Tibetan: {{t-check|bo|གཟའ་ཟླ་བ་|sc=Tibt}}
+{{trans-mid}}
+{{trans-bottom}}
+
+===Adverb===
+{{en-adv|-}}
+
+# {{lb|en|US|Canada}} on Monday
+
+====Translations====
+{{trans-top|on Monday}}
+* Dutch: {{t+|nl|maandag|alt='s maandags}}
+* Finnish: {{t|fi|maanantaina}}
+* French: {{t+|fr|lundi}}
+* Galician: {{t|gl|o luns}}
+* German: {{t+|de|Montag}}, {{t|de|am Montag}}
+* Hungarian: {{t+|hu|hétfőn}}
+* Irish: {{t+|ga|Dé Luain}}
+* Italian: {{t+|it|lunedì}}
+* Khmer: {{t+|km|ថ្ងៃច័ន្ទ|tr=thngai chan|sc=Khmr}}
+* Latvian: {{t|lv|pirmdien}}
+* Lithuanian: {{t+|lt|pirmadienis}}
+{{trans-mid}}
+* Macedonian: {{t|mk|во понеделник}}, {{t|mk|понеделнички}}
+* Maltese: {{t|mt|nhar it-Tnejn}}
+* Norwegian: {{t+|no|på}} {{t+|no|mandag}}
+* Polish: {{t|pl|[[w]] [[poniedziałek]]}}
+* Portuguese: {{t+|pt|segunda-feira}}, {{t+|pt|segunda}}
+* Romanian: {{t+|ro|luni}}, {{t+|ro|lunea}}
+* Russian: {{t|ru|[[в]] [[понеде́льник]]}}
+* Scottish Gaelic: {{t|gd|Di-luain|m}}
+* Swedish: {{t+|sv|på}} {{t+|sv|måndag}}
+* Turkish: {{t+|tr|pazartesi}}
+* Volapük: {{t+|vo|mudelo}}, {{t|vo|telüdelo}}, {{t|vo|mundelo}}
+* Zazaki: {{t|zza|bahdébazari}}
+{{trans-bottom}}
+
+===See also===
+* {{list:days of the week/en}}
+
+===Anagrams===
+* [[dynamo#English|dynamo]]
+
+[[af:Monday]]
+[[ang:Monday]]
+[[an:Monday]]
+[[ast:Monday]]
+[[az:Monday]]
+[[bn:Monday]]
+[[zh-min-nan:Monday]]
+[[be:Monday]]
+[[bs:Monday]]
+[[ca:Monday]]
+[[cs:Monday]]
+[[cy:Monday]]
+[[da:Monday]]
+[[de:Monday]]
+[[et:Monday]]
+[[el:Monday]]
+[[es:Monday]]
+[[eo:Monday]]
+[[eu:Monday]]
+[[fr:Monday]]
+[[fy:Monday]]
+[[ga:Monday]]
+[[gd:Monday]]
+[[gl:Monday]]
+[[ko:Monday]]
+[[hy:Monday]]
+[[hr:Monday]]
+[[io:Monday]]
+[[id:Monday]]
+[[it:Monday]]
+[[kl:Monday]]
+[[kn:Monday]]
+[[ka:Monday]]
+[[kk:Monday]]
+[[sw:Monday]]
+[[ku:Monday]]
+[[lo:Monday]]
+[[la:Monday]]
+[[lv:Monday]]
+[[lb:Monday]]
+[[lt:Monday]]
+[[ln:Monday]]
+[[hu:Monday]]
+[[mk:Monday]]
+[[mg:Monday]]
+[[ml:Monday]]
+[[mn:Monday]]
+[[my:Monday]]
+[[nl:Monday]]
+[[ja:Monday]]
+[[no:Monday]]
+[[nn:Monday]]
+[[oc:Monday]]
+[[uz:Monday]]
+[[km:Monday]]
+[[nds:Monday]]
+[[pl:Monday]]
+[[pt:Monday]]
+[[ro:Monday]]
+[[ru:Monday]]
+[[sm:Monday]]
+[[simple:Monday]]
+[[fi:Monday]]
+[[sv:Monday]]
+[[ta:Monday]]
+[[tg:Monday]]
+[[tr:Monday]]
+[[uk:Monday]]
+[[vi:Monday]]
+[[vo:Monday]]
+[[zh:Monday]]
