@@ -17,8 +17,8 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.entry;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
@@ -41,11 +41,12 @@ public abstract class EntryFactory {
 		ILanguage language = context.getLanguage();
 		PartOfSpeech partOfSpeech = context.getPartOfSpeech();
 		
-		List<WiktionaryEntry> posEntryList = new ArrayList<>();
-		for (WiktionaryEntry entry : context.getPage().entries())
-			if (PartOfSpeech.equals(partOfSpeech, entry.getPartOfSpeech()) && Language.equals(language, entry.getWordLanguage()))
-				posEntryList.add(entry);			
-//		List<WiktionaryEntry> posEntryList = word.getPosEntries(partOfSpeech, language);
+		List<WiktionaryEntry> posEntryList = context.getPage().entries()
+			.stream()
+			.filter(entry -> PartOfSpeech.equals(partOfSpeech, entry.getPartOfSpeech()))
+			.filter(entry -> Language.equals(language, entry.getWordLanguage()))
+			.collect(Collectors.toList());
+		//		List<WiktionaryEntry> posEntryList = word.getPosEntries(partOfSpeech, language);
 		
 		if (posEntryList.size() == 0) {
 			WiktionaryEntry entry = createEntry(context);

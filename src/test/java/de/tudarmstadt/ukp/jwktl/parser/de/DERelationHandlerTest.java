@@ -43,11 +43,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		Set<String> expected = new HashSet<>();
 		expected.add("Unterabteilung");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.SYNONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.SYNONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -63,11 +61,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Schneemonat");
 		expected.add("Wolfsmonat");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.SYNONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.SYNONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -79,22 +75,18 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 			Set<String> expected = new HashSet<>();
 			expected.add("Aberratio");
 			List<IWiktionaryRelation> relations = entry.getSense(i).getRelations();
-			for (IWiktionaryRelation relation : relations) {
-				if (RelationType.SYNONYM == relation.getRelationType()) 
-					assertTrue("Invalid relation: " + relation.getTarget(),
-							expected.remove(relation.getTarget()));
-			}
+			relations.stream()
+				.filter(relation -> RelationType.SYNONYM == relation.getRelationType())
+				.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 			assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 		}
 		
 		Set<String> expected = new HashSet<>();
 		expected.add("geistige Verwirrung");
 		List<IWiktionaryRelation> relations = entry.getSense(4).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.SYNONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.SYNONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -141,11 +133,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Eibe");
 		expected.add("Tanne");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.ANTONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.ANTONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -158,11 +148,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Sprachvarietät");
 		expected.add("Varietät");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.HYPERNYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.HYPERNYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -192,11 +180,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		Set<String> expected = new HashSet<>();
 		expected.add("Zug");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.HYPONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-					expected.remove(relation.getTarget()));				
-		}
+		relations.stream()
+			.filter(relation -> RelationType.HYPONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 	
@@ -210,11 +196,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Gerundivum");
 		expected.add("Nomen actionis");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.HYPONYM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-					expected.remove(relation.getTarget()));				
-		}
+		relations.stream()
+			.filter(relation -> RelationType.HYPONYM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 	
@@ -233,10 +217,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Kieferspalte");
 		expected.add("Kiefersprerre");
 		List<IWiktionaryRelation> relations = entry.getUnassignedSense().getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.DERIVED_TERM == relation.getRelationType()) 
-				assertTrue(expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.DERIVED_TERM == relation.getRelationType())
+			.forEach(relation -> assertTrue(expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -268,11 +251,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Tierversuch");
 		expected.add("Tierzucht");
 		List<IWiktionaryRelation> relations = entry.getUnassignedSense().getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.DERIVED_TERM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-					expected.remove(relation.getTarget()));				
-		}
+		relations.stream()
+			.filter(relation -> RelationType.DERIVED_TERM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -285,11 +266,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		expected.add("Abscheu");
 		expected.add("Unbehagen");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.ETYMOLOGICALLY_RELATED_TERM == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.ETYMOLOGICALLY_RELATED_TERM == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 
@@ -301,11 +280,9 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		//expected.add("großes ''Hallo''");
 		expected.add("großes Hallo");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
-		for (IWiktionaryRelation relation : relations) {
-			if (RelationType.CHARACTERISTIC_WORD_COMBINATION == relation.getRelationType()) 
-				assertTrue("Invalid relation: " + relation.getTarget(),
-						expected.remove(relation.getTarget()));
-		}
+		relations.stream()
+			.filter(relation -> RelationType.CHARACTERISTIC_WORD_COMBINATION == relation.getRelationType())
+			.forEach(relation -> assertTrue("Invalid relation: " + relation.getTarget(), expected.remove(relation.getTarget())));
 		assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 	}
 

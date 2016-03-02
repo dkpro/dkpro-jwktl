@@ -143,10 +143,8 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 	/** Set the part of pseech tags and additional grammatical information. */
 	public void fillContent(final ParsingContext context) {
 		WiktionaryEntry entry = entryFactory.createEntry(context);
-		for (PartOfSpeech posLabel : posList)
-			entry.addPartOfSpeech(posLabel);
-		for (GrammaticalGender gender : genders)
-			entry.addGender(gender);
+		posList.forEach(entry::addPartOfSpeech);
+		genders.forEach(entry::addGender);
 		context.getPage().addEntry(entry);
 	}
 

@@ -72,17 +72,19 @@ public class Example4_ExtractInformationItems {
 	protected static void extractRelations(final IWiktionaryEdition wkt) {
 		// Synonyms of boat.
 		IWiktionaryPage page = wkt.getPageForWord("boat");
-		for (IWiktionaryEntry entry : page.getEntries())
-			if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
-				for (IWiktionaryRelation relation : entry.getRelations(RelationType.SYNONYM))
-					System.out.println(relation.getTarget());
+		page.getEntries().stream()
+				.filter(entry -> entry.getPartOfSpeech() == PartOfSpeech.NOUN)
+				.forEach(entry -> {
+			for (IWiktionaryRelation relation : entry.getRelations(RelationType.SYNONYM))
+				System.out.println(relation.getTarget());
+		});
 
 		// All relations of boat.
 		page = wkt.getPageForWord("boat");
-		for (IWiktionaryEntry entry : page.getEntries())
-			if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
-				for (IWiktionaryRelation relation : entry.getRelations())
-					System.out.println(relation.getRelationType() + ": " + relation.getTarget());
+		page.getEntries().stream().filter(entry -> entry.getPartOfSpeech() == PartOfSpeech.NOUN).forEach(entry -> {
+			for (IWiktionaryRelation relation : entry.getRelations())
+				System.out.println(relation.getRelationType() + ": " + relation.getTarget());
+		});
 
 		// Sense-disambiguated relations.
 		page = wkt.getPageForWord("boat");
@@ -102,17 +104,17 @@ public class Example4_ExtractInformationItems {
 	protected static void extractTranslations(final IWiktionaryEdition wkt) {
 		// German translations of boat.
 		IWiktionaryPage page = wkt.getPageForWord("boat");
-		for (IWiktionaryEntry entry : page.getEntries())
-			if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
-				for (IWiktionaryTranslation translation : entry.getTranslations(Language.GERMAN))
-					System.out.println(translation.getTranslation());
+		page.getEntries().stream().filter(entry -> entry.getPartOfSpeech() == PartOfSpeech.NOUN).forEach(entry -> {
+			for (IWiktionaryTranslation translation : entry.getTranslations(Language.GERMAN))
+				System.out.println(translation.getTranslation());
+		});
 
 		// All translations of boat.
 		page = wkt.getPageForWord("boat");
-		for (IWiktionaryEntry entry : page.getEntries())
-			if (entry.getPartOfSpeech() == PartOfSpeech.NOUN)
-				for (IWiktionaryTranslation translation : entry.getTranslations())
-					System.out.println(translation.getLanguage() + ": " + translation.getTranslation());
+		page.getEntries().stream().filter(entry -> entry.getPartOfSpeech() == PartOfSpeech.NOUN).forEach(entry -> {
+			for (IWiktionaryTranslation translation : entry.getTranslations())
+				System.out.println(translation.getLanguage() + ": " + translation.getTranslation());
+		});
 
 		// Sense-disambiguated translations.
 		page = wkt.getPageForWord("boat");

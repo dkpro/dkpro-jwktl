@@ -18,7 +18,9 @@
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import com.sleepycat.persist.model.Persistent;
 
@@ -164,12 +166,13 @@ public class WiktionarySense implements IWiktionarySense {
 	}
 	
 	public List<IWiktionaryRelation> getRelations(final RelationType relationType) {
-		List<IWiktionaryRelation> result = new ArrayList<>();
-		if (relations != null)
-			for (IWiktionaryRelation relation : relations)
-				if (relation.getRelationType() == relationType)
-					result.add(relation);
-		return result;
+		if (relations != null) {
+			return relations.stream()
+				.filter(relation -> relation.getRelationType() == relationType)
+				.collect(Collectors.toList());
+		} else {
+			return Collections.emptyList();
+		}
 	}
 	
 	/** Add the given translation to this sense. */
@@ -180,13 +183,13 @@ public class WiktionarySense implements IWiktionarySense {
 	}
 	
 	public List<IWiktionaryTranslation> getTranslations(final ILanguage language) {		
-		List<IWiktionaryTranslation> result = new ArrayList<>();
-		if (translations != null)
-			for (IWiktionaryTranslation trans : translations)
-				if (language == trans.getLanguage() 
-				|| (language != null && language.equals(trans.getLanguage())))
-					result.add(trans);
-		return result;
+		if (translations != null) {
+			return translations.stream()
+				.filter(trans -> language == trans.getLanguage() || (language != null && language.equals(trans.getLanguage())))
+				.collect(Collectors.toList());
+		} else {
+			return Collections.emptyList();
+		}
 	}
 	
 	public List<IWiktionaryTranslation> getTranslations() {

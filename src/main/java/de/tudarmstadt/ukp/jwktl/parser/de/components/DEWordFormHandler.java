@@ -290,8 +290,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	public void fillContent(final ParsingContext context) {
 		WiktionaryEntry posEntry = context.findEntry();
-		for (IWiktionaryWordForm wordForm : wordForms)
-			posEntry.addWordForm(wordForm);
+		wordForms.forEach(posEntry::addWordForm);
 	}
 
 }

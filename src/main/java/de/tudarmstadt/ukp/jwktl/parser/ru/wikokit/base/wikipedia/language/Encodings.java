@@ -250,9 +250,7 @@ public class Encodings {
     /** Prints available encodings to stdout */
     public static void printEncodings() {
         Map<String, Charset> availcs = Charset.availableCharsets();
-        for (Object o:availcs.keySet()) {
-                System.out.println(o);
-        }
+        availcs.keySet().forEach(System.out::println);
     }
     /** Gets available encodings */
     public static Map<String, Charset> getEncodings() {

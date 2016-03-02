@@ -216,8 +216,7 @@ public class ENSenseHandler extends ENBlockHandler {
 
 		List<IPronunciation> pronunciations = context.getPronunciations();
 		if (pronunciations != null)
-			for (IPronunciation pronunciation : pronunciations)
-				entry.addPronunciation(pronunciation);
+			pronunciations.forEach(entry::addPronunciation);
 		for (EnGlossEntry senseEntry : glossEntryList){
 			WiktionarySense sense = entry.createSense();
 			sense.setGloss(new WikiString(senseEntry.getDefinition()));
@@ -225,17 +224,14 @@ public class ENSenseHandler extends ENBlockHandler {
 				String translation = senseEntry.getExampleTranslation(exp);
 				sense.addExample(new WiktionaryExample(new WikiString(exp), translation == null ? null : new WikiString(translation)));
 			}
-			for(Quotation quotation : senseEntry.getQuotations())
-				sense.addQuotation(quotation);
+			senseEntry.getQuotations().forEach(sense::addQuotation);
 			entry.addSense(sense);
 		}
-		for (IWiktionaryWordForm wordForm : wordFormHandler.getWordForms())
-			entry.addWordForm(wordForm);
+		wordFormHandler.getWordForms().forEach(entry::addWordForm);
 
 		List<GrammaticalGender> genders = wordFormHandler.getGenders();
 		if (genders != null)
-			for (GrammaticalGender gender : genders)
-				entry.addGender(gender);
+			genders.forEach(entry::addGender);
 	}
 
 	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {

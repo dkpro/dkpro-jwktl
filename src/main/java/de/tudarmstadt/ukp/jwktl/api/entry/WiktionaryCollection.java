@@ -176,8 +176,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 	// -- Close --
 	
 	public void close() {
-		for (IWiktionaryEdition edition : editions)
-			edition.close();
+		editions.forEach(IWiktionaryEdition::close);
 	}
 
 	public boolean isClosed() {

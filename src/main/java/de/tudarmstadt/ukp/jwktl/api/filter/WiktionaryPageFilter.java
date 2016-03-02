@@ -72,9 +72,9 @@ public class WiktionaryPageFilter implements IWiktionaryPageFilter {
 	 * on the entry language will be cleared. */
 	public void setAllowedEntryLanguages(final Collection<ILanguage> allowedEntryLanguages) {
 		clearAllowedEntryLanguages();
-		if (allowedEntryLanguages != null)
-			for (ILanguage language : allowedEntryLanguages)
-				this.allowedEntryLanguages.add(language);
+		if (allowedEntryLanguages != null) {
+			this.allowedEntryLanguages.addAll(allowedEntryLanguages);
+		}
 	}
 
 	protected boolean acceptEntryLanguage(final IWiktionaryPage page) {

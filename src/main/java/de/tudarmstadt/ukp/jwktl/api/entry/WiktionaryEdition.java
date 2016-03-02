@@ -20,6 +20,7 @@ package de.tudarmstadt.ukp.jwktl.api.entry;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
@@ -67,9 +68,9 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 		
 		List<IWiktionaryPage> pages = getPagesForWord(word, normalize);
 		for (IWiktionaryPage page : pages)
-			for (IWiktionaryEntry entry : page.getEntries())
-				if (filter == null || filter.accept(entry))
-					result.add(entry);
+			result.addAll(page.getEntries().stream()
+				.filter(entry -> filter == null || filter.accept(entry))
+				.collect(Collectors.toList()));
 		
 		return result;
 	}

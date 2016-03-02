@@ -281,10 +281,8 @@ public class ENTranslationHandler extends ENBlockHandler {
 		if (posEntry != null) {
 			for (Entry<String, List<IWiktionaryTranslation>> trans : sensNum2trans.entrySet()) {
 				WiktionarySense targetSense = findSense(posEntry, trans.getKey());
-				
-				for (IWiktionaryTranslation translation : trans.getValue()) {
-					targetSense.addTranslation(translation);
-				}
+
+				trans.getValue().forEach(targetSense::addTranslation);
 			}
 		}
 	}

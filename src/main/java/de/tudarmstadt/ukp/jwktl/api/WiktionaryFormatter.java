@@ -17,9 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.TreeSet;
 
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
@@ -155,33 +153,30 @@ public class WiktionaryFormatter {
 				
 		if (sense.getQuotations() != null)
 			for (IQuotation quotation : sense.getQuotations()) {
-				result.append("  QTN [").append(senseIdx).append("] ")
-						.append(quotation.getSource().getText()).append("\n");
+				result.append("  QTN [")
+					.append(senseIdx).append("] ")
+					.append(quotation.getSource().getText())
+					.append("\n");
 				for (IWikiString ws : quotation.getLines())
 					result.append("    ").append(ws.getText()).append("\n");
 			}
 		
-		ArrayList<String> sortList = new ArrayList<>();
 		if (sense.getRelations() != null) {
-			sortList.clear();
-			for (IWiktionaryRelation relation : sense.getRelations())
-				sortList.add("  REL [" + senseIdx + "] " 
-						+ relation.getRelationType() + ": "
-						+ relation.getTarget());
-				Collections.sort(sortList);
-				for (String s : sortList)
-					result.append(s);
+			sense.getRelations().stream()
+				.map(relation -> "  REL [" + senseIdx + "] "
+					+ relation.getRelationType() + ": "
+					+ relation.getTarget())
+				.sorted()
+				.forEach(result::append);
 		}
 
 		if (sense.getTranslations() != null) {
-			sortList.clear();
-			for (IWiktionaryTranslation trans : sense.getTranslations())
-				sortList.add("  TRL [" + senseIdx + "] " 
-						+ formatLanguage(trans.getLanguage()) + ": "
-						+ trans.getTranslation());
-				Collections.sort(sortList);
-				for (String s : sortList)
-					result.append(s).append("\n");
+			sense.getTranslations().stream()
+				.map(trans -> "  TRL [" + senseIdx + "] "
+					+ formatLanguage(trans.getLanguage()) + ": "
+					+ trans.getTranslation())
+				.sorted()
+				.forEach(s -> result.append(s).append("\n"));
 		}
 		
 		return result.toString();

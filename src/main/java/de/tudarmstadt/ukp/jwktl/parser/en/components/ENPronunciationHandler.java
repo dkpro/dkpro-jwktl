@@ -66,16 +66,13 @@ public class ENPronunciationHandler extends ENBlockHandler {
 
 		final Matcher pronunMatcher = PRONUNCIATION.matcher(textLine);
 		while (pronunMatcher.find()) {
-			TemplateParser.parse(pronunMatcher.group(), new TemplateParser.ITemplateHandler() {
-				@Override
-				public String handle(TemplateParser.Template template) {
-					final PronunciationType type = PronunciationType.valueOf(template.getName());
-					for (int i = 0; i<template.getNumberedParamsCount(); i++) {
-						String pronunciation = template.getNumberedParam(i);
-						pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
-					}
-					return null;
+			TemplateParser.parse(pronunMatcher.group(), template -> {
+				final PronunciationType type = PronunciationType.valueOf(template.getName());
+				for (int i = 0; i<template.getNumberedParamsCount(); i++) {
+					String pronunciation = template.getNumberedParam(i);
+					pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
 				}
+				return null;
 			});
 		}
 		//TODO: english pronunciation key/AHD

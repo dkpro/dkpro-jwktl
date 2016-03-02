@@ -18,7 +18,6 @@
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
 import java.io.File;
-import java.io.FileFilter;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -43,7 +42,6 @@ import com.sleepycat.persist.model.Entity;
 import com.sleepycat.persist.model.PrimaryKey;
 import com.sleepycat.persist.model.Relationship;
 import com.sleepycat.persist.model.SecondaryKey;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
@@ -299,18 +297,16 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 	 *  there, nothing is changed. */
 	public static void deleteParsedWiktionary(final File targetDirectory) {
 		logger.info("Removing parsed Wiktionary from " + targetDirectory);
-		File[] files = targetDirectory.listFiles(new FileFilter(){
-			public boolean accept(File file) {
-				String name = file.getName();
-				if (name.endsWith(".jdb"))
-					return true;
-				if (name.equals("je.lck"))
-					return true;
-				if (name.equals("wiktionary.properties"))
-					return true;
+		File[] files = targetDirectory.listFiles(file -> {
+			String name = file.getName();
+			if (name.endsWith(".jdb"))
+				return true;
+			if (name.equals("je.lck"))
+				return true;
+			if (name.equals("wiktionary.properties"))
+				return true;
 
-				return false;
-			}			
+			return false;
 		});
 		for (File file : files)
 			if (!file.delete())
@@ -454,8 +450,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 			return; // DB already closed.
 				
 		try {
-			for (EntityCursor<?> cursor : openCursors)
-				cursor.close();
+			openCursors.forEach(EntityCursor::close);
 			openCursors.clear();
 
 			store.close();

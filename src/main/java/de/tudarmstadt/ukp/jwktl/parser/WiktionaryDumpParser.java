@@ -183,13 +183,11 @@ public class WiktionaryDumpParser extends XMLDumpParser implements IWiktionaryMu
 	}
 
 	protected void onPageStart() {
-		for (IWiktionaryPageParser pageParser : parserRegistry)
-			pageParser.onPageStart();
+		parserRegistry.forEach(IWiktionaryPageParser::onPageStart);
 	}
 	
 	protected void onPageEnd() {
-		for (IWiktionaryPageParser pageParser : parserRegistry)
-			pageParser.onPageEnd();
+		parserRegistry.forEach(IWiktionaryPageParser::onPageEnd);
 		
 		dumpInfo.incrementProcessedPages();
 		if (dumpInfo.getProcessedPages() % 25000 == 0)

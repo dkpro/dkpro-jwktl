@@ -161,8 +161,7 @@ public class DEPronunciationHandler extends DEBlockHandler {
 	public void fillContent(final ParsingContext context) {
 		WiktionaryEntry posEntry = context.findEntry();
 		if (pronunciations != null)
-			for (Pronunciation pronunciation : pronunciations)
-				posEntry.addPronunciation(pronunciation);
+			pronunciations.forEach(posEntry::addPronunciation);
 	}
 	
 	/** Returns the list of all extracted pronunctions. */

@@ -78,10 +78,14 @@ public class ENReferenceHandler extends ENBlockHandler {
 	public void fillContent(final ParsingContext context) {
 		// Add references to all previous entries of the same language.
 		WiktionaryEntry entry = context.findEntry();
-		for (WiktionaryEntry prevEntry : context.getPage().entries())
-			if (Language.equals(prevEntry.getWordLanguage(), entry.getWordLanguage()))
+		context.getPage().entries()
+			.stream()
+			.filter(e -> Language.equals(e.getWordLanguage(), entry.getWordLanguage()))
+			.map(WiktionaryEntry::getUnassignedSense)
+			.forEach(unassignedSense -> {
 				for (IWikiString reference : references)
-					prevEntry.getUnassignedSense().addReference(reference);
+					unassignedSense.addReference(reference);
+				}
+			);
 	}
-	
 }

@@ -18,6 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.api.filter;
 
 import java.util.Collection;
+import java.util.Collections;
 import java.util.Set;
 import java.util.TreeSet;
 
@@ -82,8 +83,7 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	 * on the word language will be cleared. */
 	public void setAllowedWordLanguages(final ILanguage... allowedWordLanguages) {
 		clearAllowedWordLanguages();
-		for (ILanguage language : allowedWordLanguages)
-			this.allowedWordLanguages.add(language);
+		Collections.addAll(this.allowedWordLanguages, allowedWordLanguages);
 	}
 	
 	/** Define the set of word languages which are allowed for a 
@@ -92,8 +92,7 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	public void setAllowedWordLanguages(final Collection<ILanguage> allowedWordLanguages) {
 		clearAllowedWordLanguages();
 		if (allowedWordLanguages != null)
-			for (ILanguage language : allowedWordLanguages)
-				this.allowedWordLanguages.add(language);
+			this.allowedWordLanguages.addAll(allowedWordLanguages);
 	}
 
 	protected boolean acceptWordLanguage(final IWiktionaryEntry entry) {
@@ -122,8 +121,7 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	 * on the parts of speech will be cleared. */
 	public void setAllowedPartsOfSpeech(final PartOfSpeech... allowedPartsOfSpeech) {
 		clearAllowedPartsOfSpeech();
-		for (PartOfSpeech pos : allowedPartsOfSpeech)
-			this.allowedPartsOfSpeech.add(pos);
+		Collections.addAll(this.allowedPartsOfSpeech, allowedPartsOfSpeech);
 	}
 
 	/** Define the set of parts of speech which are allowed for a 
@@ -131,9 +129,9 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	 * on the parts of speech will be cleared. */
 	public void setAllowedPartsOfSpeech(final Collection<PartOfSpeech> allowedPartsOfSpeech) {
 		clearAllowedPartsOfSpeech();
-		if (allowedPartsOfSpeech != null)
-			for (PartOfSpeech pos : allowedPartsOfSpeech)
-				this.allowedPartsOfSpeech.add(pos);
+		if (allowedPartsOfSpeech != null) {
+			this.allowedPartsOfSpeech.addAll(allowedPartsOfSpeech);
+		}
 	}
 	
 	protected boolean acceptPartOfSpeech(final IWiktionaryEntry entry) {

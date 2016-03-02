@@ -32,7 +32,6 @@ import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
-import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
@@ -226,9 +225,8 @@ public class WikisaurusArticleParser implements IWiktionaryPageParser {
 				System.err.println("Unable to find source word sense: " + wikisaurusEntry);
 				continue;
 			}
-			
-			for (WiktionaryRelation relation : wikisaurusEntry.getRelations())							
-					sense.addRelation(relation);
+
+			wikisaurusEntry.getRelations().forEach(sense::addRelation);
 		}
 		
 		wiktionaryDB.savePage(page);

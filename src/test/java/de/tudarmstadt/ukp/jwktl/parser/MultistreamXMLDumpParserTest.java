@@ -60,11 +60,8 @@ public class MultistreamXMLDumpParserTest extends TestCase {
 	}
 
 	public void testCollectOffsets() throws Exception {
-		final TreeSet<Long> offsets = subject.collectOffsets(multistreamDumpIndex, new MultistreamFilter() {
-			@Override public boolean accept(long pageId, String pageTitle) {
-				return pageTitle.equals("nonsense") || pageTitle.equals("abattoir");
-			}
-		});
+		final TreeSet<Long> offsets = subject.collectOffsets(multistreamDumpIndex, (pageId, pageTitle) ->
+				pageTitle.equals("nonsense") || pageTitle.equals("abattoir"));
 		assertEquals(2, offsets.size());
 		assertTrue(offsets.contains(654L));
 		assertTrue(offsets.contains(261373L));
