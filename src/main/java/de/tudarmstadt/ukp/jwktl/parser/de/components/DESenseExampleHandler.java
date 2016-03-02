@@ -49,7 +49,7 @@ public class DESenseExampleHandler extends DESenseIndexedBlockHandler<IWiktionar
 		if (example.isEmpty())
 			return null;
 
-		List<IWiktionaryExample> result = new ArrayList<IWiktionaryExample>();
+		List<IWiktionaryExample> result = new ArrayList<>();
 		result.add(new WiktionaryExample(new WikiString(example)));
 		return result;
 	}

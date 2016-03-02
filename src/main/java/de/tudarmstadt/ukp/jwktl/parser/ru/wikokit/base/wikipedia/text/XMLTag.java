@@ -30,10 +30,10 @@ public class XMLTag {
     private final String html;
     
     /** Map from glyph to HTML tag, e.g. '"' -> &quot; */
-    private static Map<Character, String> glyph_to_html = new HashMap<Character, String>();
+    private static Map<Character, String> glyph_to_html = new HashMap<>();
     
     /** vice versa: map from HTML tag to glyph, e.g. &quot; -> " */
-    private static Map<String, Character> html_to_glyph = new HashMap<String, Character>();
+    private static Map<String, Character> html_to_glyph = new HashMap<>();
     
     // list of tags sorted by length: STR_AMP_LT STR_AMP_GT STR_AMP_AMP STR_AMP_QUOT STR_AMP_39
     public static final XMLTag LT           = new XMLTag("&lt;",    '<' );

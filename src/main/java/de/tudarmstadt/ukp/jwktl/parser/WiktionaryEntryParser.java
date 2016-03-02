@@ -70,7 +70,7 @@ public abstract class WiktionaryEntryParser implements IWiktionaryEntryParser {
 	 *    redirections. */
 	public WiktionaryEntryParser(final ILanguage language,
 			final String redirectName) {
-		handlers = new LinkedList<IBlockHandler>();
+		handlers = new LinkedList<>();
 		this.language = language;
 		this.redirectTemplate = "#" + redirectName + " [[";
 		entryId = 0;

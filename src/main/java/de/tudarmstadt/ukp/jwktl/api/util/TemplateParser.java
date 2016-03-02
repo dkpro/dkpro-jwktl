@@ -51,8 +51,8 @@ public /*static*/ class TemplateParser {
 		/** Creates a new template with the given name. */
 		public Template(final String name) {
 			this.name = name;
-			namedParams = new LinkedHashMap<String, String>();
-			numberedParams = new ArrayList<String>();
+			namedParams = new LinkedHashMap<>();
+			numberedParams = new ArrayList<>();
 		}
 		
 		/** Returns the name of the template. */

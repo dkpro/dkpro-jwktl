@@ -65,9 +65,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 
 	/** Instanciates a new, empty page. */
 	public WiktionaryPage() {
-		entries = new ArrayList<WiktionaryEntry>();
-		categories = new ArrayList<String>();
-		interWikiLinks = new TreeSet<String>();
+		entries = new ArrayList<>();
+		categories = new ArrayList<>();
+		interWikiLinks = new TreeSet<>();
 	}
 	
 	/** Initialize the page and all of its entries. */

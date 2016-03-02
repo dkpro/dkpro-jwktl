@@ -41,7 +41,7 @@ public abstract class EntryFactory {
 		ILanguage language = context.getLanguage();
 		PartOfSpeech partOfSpeech = context.getPartOfSpeech();
 		
-		List<WiktionaryEntry> posEntryList = new ArrayList<WiktionaryEntry>();
+		List<WiktionaryEntry> posEntryList = new ArrayList<>();
 		for (WiktionaryEntry entry : context.getPage().entries())
 			if (PartOfSpeech.equals(partOfSpeech, entry.getPartOfSpeech()) && Language.equals(language, entry.getWordLanguage()))
 				posEntryList.add(entry);			

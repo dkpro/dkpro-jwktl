@@ -37,7 +37,7 @@ public class ENEntryFactory extends EntryFactory {
 	protected static final Map<String, PartOfSpeech> posMap;
 	
 	static {
-		posMap = new TreeMap<String, PartOfSpeech>();
+		posMap = new TreeMap<>();
 		posMap.put("ABBREVIATION", PartOfSpeech.ABBREVIATION);
 		posMap.put("ACRONYM", PartOfSpeech.ACRONYM);
 		posMap.put("ADJECTIVE", PartOfSpeech.ADJECTIVE);

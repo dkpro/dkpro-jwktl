@@ -94,7 +94,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 	
 	/***/
 	public void testParsedInformation() {
-		Queue<String> expectedValues = new LinkedList<String>();
+		Queue<String> expectedValues = new LinkedList<>();
 		expectedValues.offer("setBaseURL: http://de.wiktionary.org/wiki/Wiktionary:Hauptseite");
 		expectedValues.offer("addNamespace: Diskussion");
 		expectedValues.offer("onPageStart");
@@ -121,7 +121,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 	
 	/***/
 	public void testParseEmptyFields() {
-		Queue<String> expectedValues = new LinkedList<String>();
+		Queue<String> expectedValues = new LinkedList<>();
 		expectedValues.offer("onPageStart");
 			expectedValues.offer("setTitle: ");
 			expectedValues.offer("setPageId: 0");
@@ -149,7 +149,7 @@ public class WiktionaryDumpParserTest extends TestCase {
 	}
 
 	public void testParseMultistream() throws Exception {
-		final List<Long> pageIds = new ArrayList<Long>();
+		final List<Long> pageIds = new ArrayList<>();
 		final IDumpInfo[] siteInfo = new IDumpInfo[1];
 		final WiktionaryDumpParser parser = new WiktionaryDumpParser(new EmptyParser() {
 			@Override

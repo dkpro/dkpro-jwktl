@@ -96,7 +96,7 @@ public class POS {
 
     
     /* Set helps to check the presence of elements */
-    private static Map<String, POS> name2type = new HashMap<String, POS>();
+    private static Map<String, POS> name2type = new HashMap<>();
     //private static Set<String>  name_set = new HashSet<String>();
     
     private POS(String _name) {

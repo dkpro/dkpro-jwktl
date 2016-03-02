@@ -47,7 +47,7 @@ public class ENRelationHandler extends ENBlockHandler {
 
 	@Override
 	public boolean processHead(String textLine, ParsingContext context) {
-		relationList = new ArrayList<WordList>();
+		relationList = new ArrayList<>();
 		return super.processHead(textLine, context);
 	}
 

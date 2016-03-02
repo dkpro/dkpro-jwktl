@@ -40,7 +40,7 @@ public class ENNonEngWordFormHandler implements IWordFormHandler,
 
 	@Override
 	public boolean parse(String line) {
-		genders = new LinkedList<GrammaticalGender>();
+		genders = new LinkedList<>();
 		if (HEAD_PATTERN.matcher(line).find() || NOUN_PATTERN.matcher(line).find()) {
 			TemplateParser.parse(line, this);
 			return true;

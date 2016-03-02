@@ -55,7 +55,7 @@ public abstract class XMLDumpParser implements IWiktionaryDumpParser {
 
 		@Override
 		public void startDocument() throws SAXException {
-			tags = new Stack<String>();
+			tags = new Stack<>();
 			contentBuffer = new StringBuffer();
 			onParserStart();
 		}

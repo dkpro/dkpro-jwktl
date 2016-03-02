@@ -61,10 +61,10 @@ public class WikisaurusArticleParser implements IWiktionaryPageParser {
 	/** Instanciates the parser for the given database. */
 	public WikisaurusArticleParser(final IWritableWiktionaryEdition wiktionaryDB) {
 		this.wiktionaryDB = wiktionaryDB;
-		entryQueue = new LinkedList<WikisaurusEntry>();
+		entryQueue = new LinkedList<>();
 		
-		notFoundRelation = new HashMap<String, Integer>();
-		relTypeMap = new HashMap<String, RelationType>();
+		notFoundRelation = new HashMap<>();
+		relTypeMap = new HashMap<>();
 		relTypeMap.put("synonyms", RelationType.SYNONYM);
 		relTypeMap.put("synonym", RelationType.SYNONYM);
 		relTypeMap.put("ambiguous synonyms", RelationType.SYNONYM);
@@ -117,7 +117,7 @@ public class WikisaurusArticleParser implements IWiktionaryPageParser {
 
 	protected Set<WikisaurusEntry> parseWikisaurusEntries(final String title, 
 			final String text) {
-		Set<WikisaurusEntry> result = new HashSet<WikisaurusEntry>();		
+		Set<WikisaurusEntry> result = new HashSet<>();
 		BufferedReader reader = new BufferedReader(new StringReader(text));
 		String line;
 		ILanguage currentLang = null;

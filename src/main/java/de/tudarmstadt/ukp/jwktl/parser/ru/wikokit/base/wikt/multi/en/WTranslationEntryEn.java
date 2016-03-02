@@ -75,7 +75,7 @@ public class WTranslationEntryEn {
             return null;
 
         LanguageType prev_lang, lang = null;
-        List<String> translations = new ArrayList<String>();
+        List<String> translations = new ArrayList<>();
 
         // extract from text {{t,t+,t-,trad etc.|...}}:
         Matcher m = ptrn_t_template.matcher(lang_trans.trans);

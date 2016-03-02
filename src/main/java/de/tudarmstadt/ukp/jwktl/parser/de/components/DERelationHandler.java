@@ -49,7 +49,7 @@ public class DERelationHandler extends DESenseIndexedBlockHandler<IWiktionaryRel
 		if (delimitedText.isEmpty())
 			return null;
 		
-		List<IWiktionaryRelation> result = new ArrayList<IWiktionaryRelation>();		
+		List<IWiktionaryRelation> result = new ArrayList<>();
 		delimitedText = addDelimiters(delimitedText);
 //		System.out.println(delimitedText);		
 		int delim;

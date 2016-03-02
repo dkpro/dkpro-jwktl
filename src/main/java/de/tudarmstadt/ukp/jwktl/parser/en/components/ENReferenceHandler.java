@@ -45,7 +45,7 @@ public class ENReferenceHandler extends ENBlockHandler {
 
 	@Override
 	public boolean processHead(String textLine, ParsingContext context) {
-		references = new ArrayList<IWikiString>();
+		references = new ArrayList<>();
 		inTemplate = false;
 		return true;
 	}

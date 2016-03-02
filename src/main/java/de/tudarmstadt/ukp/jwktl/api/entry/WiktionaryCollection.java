@@ -48,7 +48,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 
 	/** Initializes the Wiktionary collection. */
 	public WiktionaryCollection() {
-		editions = new LinkedList<IWiktionaryEdition>();
+		editions = new LinkedList<>();
 	}
 
 	public void addEdition(final IWiktionaryEdition edition) {
@@ -69,7 +69,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 	// -- Pages --
 	
 	public List<IWiktionaryPage> getPagesForId(long id) {
-		List<IWiktionaryPage> result = new ArrayList<IWiktionaryPage>();
+		List<IWiktionaryPage> result = new ArrayList<>();
 		for (IWiktionaryEdition edition : editions) {
 			IWiktionaryPage page = edition.getPageForId(id);
 			if (page != null)
@@ -92,7 +92,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 	
 	public List<IWiktionaryPage> getPagesForWord(final String word,
 			final IWiktionaryPageFilter filter) {
-		List<IWiktionaryPage> result = new ArrayList<IWiktionaryPage>();
+		List<IWiktionaryPage> result = new ArrayList<>();
 		for (IWiktionaryEdition edition : editions) {
 			IWiktionaryPage page = edition.getPageForWord(word);
 			if (page != null && (filter == null || filter.accept(page)))
@@ -103,7 +103,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 	
 	public List<IWiktionaryPage> getPagesForWord(final String word,
 			final IWiktionaryPageFilter filter, boolean normalize) {
-		List<IWiktionaryPage> result = new ArrayList<IWiktionaryPage>();
+		List<IWiktionaryPage> result = new ArrayList<>();
 		for (IWiktionaryEdition edition : editions)
 			result.addAll(edition.getPagesForWord(word, filter, normalize));
 		return result;
@@ -125,7 +125,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 
 	public List<IWiktionaryEntry> getEntriesForWord(final String word,
 			final IWiktionaryEntryFilter filter, boolean normalize) {
-		List<IWiktionaryEntry> result = new ArrayList<IWiktionaryEntry>();
+		List<IWiktionaryEntry> result = new ArrayList<>();
 		for (IWiktionaryEdition edition : editions)
 			result.addAll(edition.getEntriesForWord(word, filter, normalize));
 		return result;
@@ -155,7 +155,7 @@ public class WiktionaryCollection extends AbstractWiktionary
 
 	public List<IWiktionarySense> getSensesForWord(final String word,
 			final IWiktionarySenseFilter filter, boolean normalize) {
-		List<IWiktionarySense> result = new ArrayList<IWiktionarySense>();
+		List<IWiktionarySense> result = new ArrayList<>();
 		for (IWiktionaryEdition edition : editions)
 			result.addAll(edition.getSensesForWord(word, filter, normalize));
 		return result;

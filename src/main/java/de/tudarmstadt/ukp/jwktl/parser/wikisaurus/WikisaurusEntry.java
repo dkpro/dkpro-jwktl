@@ -50,7 +50,7 @@ public class WikisaurusEntry {
 		this.partOfSpeech = partOfSpeech;
 		this.language = language;
 		this.senseDefinition = senseDefinition;
-		this.relations = new HashSet<WiktionaryRelation>();
+		this.relations = new HashSet<>();
 	}
 
 	/** Adds a new {@link WiktionaryRelation} to this entry based on the 

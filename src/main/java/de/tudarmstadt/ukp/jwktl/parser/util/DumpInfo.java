@@ -45,7 +45,7 @@ public class DumpInfo implements IDumpInfo {
 	}
 
 	public void reset() {
-		namespaces = new HashSet<String>();
+		namespaces = new HashSet<>();
 		processedPages = 0;
 	}
 	

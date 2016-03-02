@@ -32,9 +32,9 @@ public class POSLocal {
     /** POS corresponding to this name, e.g. POS.noun */
     protected POS pos;
     
-    protected final static Map<String, POS> name2pos = new HashMap<String, POS>();
-    protected final static Map<POS, String> pos2name = new HashMap<POS, String>();
-    protected final static Map<POS, String> pos2name_short = new HashMap<POS, String>();
+    protected final static Map<String, POS> name2pos = new HashMap<>();
+    protected final static Map<POS, String> pos2name = new HashMap<>();
+    protected final static Map<POS, String> pos2name_short = new HashMap<>();
 
     /** Remark: run the RelationTableAll.main() in order to check duplicates
      * of part of speech names and short names.

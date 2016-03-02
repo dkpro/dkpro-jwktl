@@ -73,7 +73,7 @@ public class WikiString implements IWikiString {
 	}
 
 	public List<String> getWikiLinks() {		
-		List<String> result = new ArrayList<String>();
+		List<String> result = new ArrayList<>();
 		int startIndex = text.indexOf("[[");
 		while (startIndex != -1) {
 			int endIndex = text.indexOf("]]", startIndex);

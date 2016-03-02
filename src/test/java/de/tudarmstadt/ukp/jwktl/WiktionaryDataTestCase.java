@@ -55,7 +55,7 @@ public abstract class WiktionaryDataTestCase extends WiktionaryTestCase {
 	protected static final DumpEntry EN_PLACE7 = new DumpEntry(7, "place", Language.ENGLISH, 11094);
 	
 	protected static WiktionaryTestData getSimpleDEDump() {
-		List<DumpEntry> entries = new ArrayList<DumpEntry>();
+		List<DumpEntry> entries = new ArrayList<>();
 		entries.add(DE_FRANCA1);
 		entries.add(DE_FRANCA2);
 		entries.add(DE_MOENCH);
@@ -67,7 +67,7 @@ public abstract class WiktionaryDataTestCase extends WiktionaryTestCase {
 	}
 
 	protected static WiktionaryTestData getSimpleENDump() {
-		List<DumpEntry> entries = new ArrayList<DumpEntry>();
+		List<DumpEntry> entries = new ArrayList<>();
 		entries.add(EN_PARAMETER);
 		entries.add(EN_PLACE1);
 		entries.add(EN_PLACE2);

@@ -34,8 +34,8 @@ public abstract class ContextLabel {
     /** Category associated with this label. */
 //    private final String category;
     
-    private static Map<String, String> label2name     = new HashMap<String, String>();
-    private static Map<String, String> label2category = new HashMap<String, String>();
+    private static Map<String, String> label2name     = new HashMap<>();
+    private static Map<String, String> label2category = new HashMap<>();
     
     protected ContextLabel(String label,String name,String category) { 
 //        this.label      = label; 

@@ -61,7 +61,7 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 	public List<IWiktionaryEntry> getEntriesForWord(final String word,
 			final IWiktionaryEntryFilter filter, boolean normalize) {
 		ensureOpen();
-		List<IWiktionaryEntry> result = new ArrayList<IWiktionaryEntry>();
+		List<IWiktionaryEntry> result = new ArrayList<>();
 		if (word == null || word.isEmpty())
 			return result;
 		
@@ -135,7 +135,7 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 			int entryIdx) {
 		ensureOpen();
 		IWiktionaryEntry entry = getEntryForWord(word, entryIdx);
-		List<IWiktionarySense> result = new ArrayList<IWiktionarySense>();
+		List<IWiktionarySense> result = new ArrayList<>();
 		for (IWiktionarySense sense : entry.getSenses())
 			result.add(sense);
 		return result;
@@ -152,7 +152,7 @@ public abstract class WiktionaryEdition extends AbstractWiktionary
 	public List<IWiktionarySense> getSensesForWord(final String word,
 			final IWiktionarySenseFilter filter, boolean normalize) {
 		ensureOpen();
-		List<IWiktionarySense> result = new ArrayList<IWiktionarySense>();
+		List<IWiktionarySense> result = new ArrayList<>();
 		if (word == null || word.isEmpty())
 			return result;
 		

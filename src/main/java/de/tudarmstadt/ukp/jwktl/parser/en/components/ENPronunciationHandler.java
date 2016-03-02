@@ -53,7 +53,7 @@ public class ENPronunciationHandler extends ENBlockHandler {
 	
 	@Override
 	public boolean processHead(final String textLine, final ParsingContext context) {
-		pronunciations = new ArrayList<IPronunciation>();
+		pronunciations = new ArrayList<>();
 		return super.processHead(textLine, context);
 	}
 

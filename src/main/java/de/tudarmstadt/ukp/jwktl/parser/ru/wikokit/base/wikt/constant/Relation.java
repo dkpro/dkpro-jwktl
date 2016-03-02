@@ -39,7 +39,7 @@ public class Relation {
 
 
     /* Set helps to check the presence of elements */
-    private static Map<String, Relation> name2relation = new HashMap<String, Relation>();
+    private static Map<String, Relation> name2relation = new HashMap<>();
     //private static Set<String>  name_set = new HashSet<String>();
 
     private Relation(String _name) {

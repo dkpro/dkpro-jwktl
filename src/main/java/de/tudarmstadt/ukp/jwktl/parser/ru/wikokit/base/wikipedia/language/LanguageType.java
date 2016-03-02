@@ -62,18 +62,18 @@ public class LanguageType {
      */
     private final String english_name;
     
-    private static Map<String, String>       code2name = new HashMap<String, String>();
-    private static Map<String, LanguageType> code2lang = new HashMap<String, LanguageType>();
+    private static Map<String, String>       code2name = new HashMap<>();
+    private static Map<String, LanguageType> code2lang = new HashMap<>();
 
     /** It is need for English Wiktionary */
-    private static Map<String, LanguageType> english2lang = new HashMap<String, LanguageType>();
+    private static Map<String, LanguageType> english2lang = new HashMap<>();
 
     // synonyms, alternate names, or closely related languages:
     /** If there are more than one English names for the language */
-    private static Map<String, LanguageType> multiple_names2type = new HashMap<String, LanguageType>();
+    private static Map<String, LanguageType> multiple_names2type = new HashMap<>();
  
     /** If there are more than one language code for the language */
-    private static Map<String, LanguageType> multiple_codes2type = new HashMap<String, LanguageType>();
+    private static Map<String, LanguageType> multiple_codes2type = new HashMap<>();
 
 
     private LanguageType(String code,String name,String english_name) {
@@ -288,8 +288,8 @@ public class LanguageType {
     /** The set of unknown language codes, which were found during parsing.
      * There is only one message for one uknown language code (for concise logging).
      */
-    private static Set<String> unknown_lang_code = new HashSet<String>();
-    private static Set<String> unknown_lang_name = new HashSet<String>();
+    private static Set<String> unknown_lang_code = new HashSet<>();
+    private static Set<String> unknown_lang_name = new HashSet<>();
 
     /** Checks weather exists the unknown language code 'code'. */
     public static boolean hasUnknownLangCode(String code) {

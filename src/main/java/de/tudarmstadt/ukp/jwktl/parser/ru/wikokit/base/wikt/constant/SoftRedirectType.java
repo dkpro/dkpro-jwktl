@@ -32,7 +32,7 @@ public class SoftRedirectType {
     public String  toString() { return name; }
 
     /* Set helps to check the presence of elements */
-    private static Map<String, SoftRedirectType> name2type = new HashMap<String, SoftRedirectType>();
+    private static Map<String, SoftRedirectType> name2type = new HashMap<>();
 
     private SoftRedirectType (String _name) {
         name = _name;

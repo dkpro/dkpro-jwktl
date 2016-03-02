@@ -44,7 +44,7 @@ public class WiktionaryArticleParserTest extends WiktionaryTestCase {
 		protected Map<WiktionaryPage, String> pages;
 		
 		public MyWiktionaryDumpParser() throws WiktionaryException {
-			pages = new LinkedHashMap<WiktionaryPage, String>();
+			pages = new LinkedHashMap<>();
 			register(new WiktionaryArticleParser(null, this));
 		}
 

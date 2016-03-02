@@ -102,7 +102,7 @@ public class WordListProcessor {
 	 *  removes multiple types of special characters and affixes. The
 	 *  resulting segments are returned as a list of strings. */
 	public List<String> splitWordList(final String text) {
-		List<String> result = new ArrayList<String>();
+		List<String> result = new ArrayList<>();
 		if (text == null)
 			return result;
 

@@ -40,7 +40,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testSynonymsSubdivisio() throws Exception {
 		IWiktionaryPage page = parse("Subdivisio.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Unterabteilung");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
 		for (IWiktionaryRelation relation : relations) {
@@ -55,7 +55,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testSynonymsJanuar() throws Exception {
 		IWiktionaryPage page = parse("Januar.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Jänner");
 		expected.add("Hartung");
 		expected.add("Eismonat");
@@ -76,7 +76,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 		IWiktionaryPage page = parse("Aberration.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		for (int i = 1; i <= 3; i++) {
-			Set<String> expected = new HashSet<String>();
+			Set<String> expected = new HashSet<>();
 			expected.add("Aberratio");
 			List<IWiktionaryRelation> relations = entry.getSense(i).getRelations();
 			for (IWiktionaryRelation relation : relations) {
@@ -87,7 +87,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 			assertTrue("Relations missing: " + Arrays.toString(expected.toArray()), expected.isEmpty());
 		}
 		
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("geistige Verwirrung");
 		List<IWiktionaryRelation> relations = entry.getSense(4).getRelations();
 		for (IWiktionaryRelation relation : relations) {
@@ -136,7 +136,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testAntonymsKiefer() throws Exception {
 		IWiktionaryPage page = parse("Kiefer.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Fichte");
 		expected.add("Eibe");
 		expected.add("Tanne");
@@ -153,7 +153,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testHypernymsSoziolekt() throws Exception {
 		IWiktionaryPage page = parse("Soziolekt.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Lekt");
 		expected.add("Sprachvarietät");
 		expected.add("Varietät");
@@ -189,7 +189,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testHyponymsZug() throws Exception {
 		IWiktionaryPage page = parse("Zug.txt");
 		IWiktionaryEntry entry = page.getEntry(1);		
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Zug");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();
 		for (IWiktionaryRelation relation : relations) {
@@ -204,7 +204,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testHyponymsVerbalsubstantiv() throws IOException {
 		IWiktionaryPage page = parse("Verbalsubstantiv.txt");
 		IWiktionaryEntry entry = page.getEntry(0);		
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Gerundium");
 		expected.add("Gerundiv");
 		expected.add("Gerundivum");
@@ -222,7 +222,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testDerivedTermsKiefer() throws Exception {
 		IWiktionaryPage page = parse("Kiefer.txt");
 		IWiktionaryEntry entry = page.getEntry(1);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Kieferanomalie");
 		expected.add("Kieferchirurgie");
 		expected.add("Kiefergelenk");
@@ -244,7 +244,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testDerivedTermsTier() throws Exception {
 		IWiktionaryPage page = parse("Tier.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Tierarzt");
 		expected.add("tierisch");
 		expected.add("tierlieb");
@@ -280,7 +280,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testRelatedTermsAblehnung() throws Exception {
 		IWiktionaryPage page = parse("Ablehnung.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		expected.add("Aversion");
 		expected.add("Abscheu");
 		expected.add("Unbehagen");
@@ -297,7 +297,7 @@ public class DERelationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testRelatedTermsHallo() throws Exception {
 		IWiktionaryPage page = parse("Hallo.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
-		Set<String> expected = new HashSet<String>();
+		Set<String> expected = new HashSet<>();
 		//expected.add("großes ''Hallo''");
 		expected.add("großes Hallo");
 		List<IWiktionaryRelation> relations = entry.getSense(1).getRelations();

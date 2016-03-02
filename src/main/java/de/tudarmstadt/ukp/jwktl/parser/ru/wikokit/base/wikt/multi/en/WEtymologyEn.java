@@ -98,7 +98,7 @@ public class WEtymologyEn {
             return lt_result;
         }
                                                         // there are more than one Etymology in this language in this word
-        List<LangText> etymology_sections = new ArrayList<LangText>();  // result will be stored to
+        List<LangText> etymology_sections = new ArrayList<>();  // result will be stored to
 
         boolean bfirst = true;
 

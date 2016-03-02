@@ -32,8 +32,8 @@ import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.language.Langua
  */
 public class LanguageTypeRu extends LanguageTypeLocal {
 
-    protected final static Map<String, LanguageType> name2type = new HashMap<String, LanguageType>();
-    protected final static Map<LanguageType, String> type2name = new HashMap<LanguageType, String>();
+    protected final static Map<String, LanguageType> name2type = new HashMap<>();
+    protected final static Map<LanguageType, String> type2name = new HashMap<>();
 
     /** Remark: run the RelationTableAll.main() in order to check duplicates
      * of language names and language codes of this locale. 

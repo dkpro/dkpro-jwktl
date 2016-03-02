@@ -38,7 +38,7 @@ public class WRelationRu {
     private final static WRelation[] NULL_WRELATION_ARRAY = new WRelation[0];
     //Map<Relation, WRelation[]> m = new HashMap<Relation, WRelation[]>>();
 
-    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<Relation, WRelation[]>();
+    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<>();
 
     /** Gets position after ==== Синонимы ==== */
     private final static Pattern ptrn_synonymy  = Pattern.compile("===?=?\\s*Синонимы\\s*===?=?\\s*\\n");
@@ -80,7 +80,7 @@ public class WRelationRu {
             return NULL_MAP_RELATION_WRELATION_ARRAY;
         }
 
-        Map<Relation, WRelation[]> m_rel = new HashMap<Relation, WRelation[]>();
+        Map<Relation, WRelation[]> m_rel = new HashMap<>();
         String text = text_source_sb.toString();
 
         WRelation[] r;
@@ -152,7 +152,7 @@ public class WRelationRu {
             return NULL_WRELATION_ARRAY;
         }
 
-        List<WRelation> wr_list = new ArrayList<WRelation>();
+        List<WRelation> wr_list = new ArrayList<>();
 
         // 2. split into lines: "\n" (not "\n#")
         // parse lines till the line which is not started from #

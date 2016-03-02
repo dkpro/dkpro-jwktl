@@ -83,7 +83,7 @@ public class WLanguageEn {
             return NULL_LANG_TEXT_ARRAY;
         }
 
-        List<LangText> lang_sections = new ArrayList<LangText>(); // result will be stored to
+        List<LangText> lang_sections = new ArrayList<>(); // result will be stored to
 
         Matcher m = ptrn_2nd_level.matcher(text.toString());
 

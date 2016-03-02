@@ -101,7 +101,7 @@ public class WTranslationRu {
             return NULL_WTRANSLATION_ARRAY;
         }
 
-        List<WTranslation> wt_list = new ArrayList<WTranslation>();
+        List<WTranslation> wt_list = new ArrayList<>();
 
         int prev_end = 0;           // previous end of previous translation box
         boolean to_continue = true;
@@ -213,7 +213,7 @@ public class WTranslationRu {
 
         String[] lines = t.split("\n\\|");
 
-        List<WTranslationEntry> wte_list = new ArrayList<WTranslationEntry>();
+        List<WTranslationEntry> wte_list = new ArrayList<>();
         for(String s : lines) {                                                         // for each language (for each line)
             WTranslationEntry wte = WTranslationEntry.parse(wikt_lang, page_title, s);
 

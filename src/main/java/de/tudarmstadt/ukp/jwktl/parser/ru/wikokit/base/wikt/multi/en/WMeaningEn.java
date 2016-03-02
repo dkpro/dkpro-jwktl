@@ -138,7 +138,7 @@ public class WMeaningEn {
                                 wikt_lang, page_title, lang_section, mean_lines);
             if(null != wm) {
                 if(null == wm_list)
-                    wm_list = new ArrayList<WMeaning>();
+                    wm_list = new ArrayList<>();
                 wm_list.add(wm);
             }
         }
@@ -187,7 +187,7 @@ public class WMeaningEn {
 
        "third-person singular of",
     };
-    private final static Set<String> FORM_OF = new HashSet<String>(Arrays.asList(STR_FORM_OF));
+    private final static Set<String> FORM_OF = new HashSet<>(Arrays.asList(STR_FORM_OF));
 
     /** Checks: whether the definition "text" is one of "form of" templates,
      * e.g.<br><br>

@@ -39,7 +39,7 @@ public class WRelationEn {
 
     private final static WRelation[] NULL_WRELATION_ARRAY = new WRelation[0];
 
-    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<Relation, WRelation[]>();
+    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<>();
 
     /** Gets position after       ====Synonyms==== */
     private final static Pattern ptrn_synonymy = Pattern.compile(
@@ -137,7 +137,7 @@ public class WRelationEn {
         else
             text = text_source_sb.substring(0, m.start());
 
-        Map<Relation, WRelation[]> m_rel = new HashMap<Relation, WRelation[]>();
+        Map<Relation, WRelation[]> m_rel = new HashMap<>();
         WRelation[] r;
 
         // synonymy
@@ -268,7 +268,7 @@ public class WRelationEn {
             return NULL_WRELATION_ARRAY;
         }
 
-        List<WRelation> wr_list = new ArrayList<WRelation>();
+        List<WRelation> wr_list = new ArrayList<>();
 
         // 2. split into lines: "\n" (not "\n*")
         // parse lines till the line which is not started from * (?to recheck?)

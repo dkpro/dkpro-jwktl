@@ -60,7 +60,7 @@ public class WRelation {
 
 
     //private final static WRelation[] NULL_WRELATION_ARRAY = new WRelation[0];
-    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<Relation, WRelation[]>();
+    private final static Map<Relation, WRelation[]> NULL_MAP_RELATION_WRELATION_ARRAY = new HashMap<>();
 
     public WRelation(String _meaning_summary, WikiText[] _phrases) {
         phrases = _phrases;

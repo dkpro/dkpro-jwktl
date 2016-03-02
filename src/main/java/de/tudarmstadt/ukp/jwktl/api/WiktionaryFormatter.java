@@ -100,7 +100,7 @@ public class WiktionaryFormatter {
 
 		for (String ws : page.getCategories())
 			result.append("  CAT: ").append(ws).append("\n");
-		TreeSet<String> iwl = new TreeSet<String>(page.getInterWikiLinks());
+		TreeSet<String> iwl = new TreeSet<>(page.getInterWikiLinks());
 		result.append("  INT: ").append(Arrays.toString(iwl.toArray())).append("\n");
 		
 		return result.toString();
@@ -161,7 +161,7 @@ public class WiktionaryFormatter {
 					result.append("    ").append(ws.getText()).append("\n");
 			}
 		
-		ArrayList<String> sortList = new ArrayList<String>();
+		ArrayList<String> sortList = new ArrayList<>();
 		if (sense.getRelations() != null) {
 			sortList.clear();
 			for (IWiktionaryRelation relation : sense.getRelations())

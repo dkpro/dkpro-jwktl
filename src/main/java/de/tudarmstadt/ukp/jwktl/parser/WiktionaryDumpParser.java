@@ -59,7 +59,7 @@ public class WiktionaryDumpParser extends XMLDumpParser implements IWiktionaryMu
 	public WiktionaryDumpParser(final IWiktionaryPageParser... pageParsers) {
 		timestampFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'", Locale.US);
 		timestampFormat.setTimeZone(TimeZone.getTimeZone("UTC"));
-		parserRegistry = new LinkedList<IWiktionaryPageParser>();
+		parserRegistry = new LinkedList<>();
 		for (IWiktionaryPageParser pageParser : pageParsers)
 			register(pageParser);
 	}

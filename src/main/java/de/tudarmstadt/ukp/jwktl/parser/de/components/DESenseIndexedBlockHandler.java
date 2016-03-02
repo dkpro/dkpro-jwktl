@@ -54,7 +54,7 @@ public abstract class DESenseIndexedBlockHandler<InformationType>
 
 	@Override
 	public boolean processHead(final String text, final ParsingContext context) {
-		indexedInformation = new TreeMap<Integer, List<String>>();
+		indexedInformation = new TreeMap<>();
 		return super.processHead(text, context);
 	}
 	
@@ -95,7 +95,7 @@ public abstract class DESenseIndexedBlockHandler<InformationType>
 				for (Integer idx : indexSet)
 					addIndexedLine(idx, text);
 			} else {
-				indexSet = new HashSet<Integer>();
+				indexSet = new HashSet<>();
 				indexSet.add(0);
 				addIndexedLine(0, text);
 			}
@@ -116,7 +116,7 @@ public abstract class DESenseIndexedBlockHandler<InformationType>
 		
 		List<String> lines = indexedInformation.get(index);
 		if (lines == null) {
-			lines = new ArrayList<String>();
+			lines = new ArrayList<>();
 			indexedInformation.put(index, lines);
 		}
 		lines.add(text);
@@ -130,7 +130,7 @@ public abstract class DESenseIndexedBlockHandler<InformationType>
 		
 		List<String> lines = indexedInformation.get(index);
 		if (lines == null) {
-			lines = new ArrayList<String>();
+			lines = new ArrayList<>();
 			indexedInformation.put(index, lines);
 		} 
 		if (lines.size() > 0) {

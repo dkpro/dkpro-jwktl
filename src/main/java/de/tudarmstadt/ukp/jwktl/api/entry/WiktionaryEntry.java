@@ -69,8 +69,8 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 
 	/** Instanciates a new, empty entry. */
 	public WiktionaryEntry() {
-		partsOfSpeech = new ArrayList<PartOfSpeech>();
-		senses = new ArrayList<WiktionarySense>();
+		partsOfSpeech = new ArrayList<>();
+		senses = new ArrayList<>();
 		senses.add(new WiktionarySense()); // Dummy sense for all unassigned information.
 	}
 
@@ -178,7 +178,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	/** Adds the given grammatical gender to the list of genders. */
 	public void addGender(final GrammaticalGender gender) {
 		if (genders == null)
-			genders = new LinkedList<GrammaticalGender>();
+			genders = new LinkedList<>();
 
 		genders.add(gender);
 	}
@@ -209,7 +209,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	/** Adds the given pronunciation. */
 	public void addPronunciation(final IPronunciation pronunciation) {
 		if (pronunciations == null)
-			pronunciations = new ArrayList<IPronunciation>();
+			pronunciations = new ArrayList<>();
 		pronunciations.add(pronunciation);
 	}
 
@@ -220,7 +220,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	/** Adds the given word form. */
 	public void addWordForm(final IWiktionaryWordForm wordForm) {
 		if (wordForms == null)
-			wordForms = new ArrayList<IWiktionaryWordForm>();
+			wordForms = new ArrayList<>();
 		wordForms.add(wordForm);
 	}
 
@@ -298,7 +298,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	// -- Combination --
 
 	public List<IWikiString> getGlosses() {
-		List<IWikiString> result = new ArrayList<IWikiString>();
+		List<IWikiString> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			IWikiString gloss = sense.getGloss();
 			if (gloss != null && gloss.getText().length() > 0)
@@ -308,7 +308,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWiktionaryExample> getExamples() {
-		List<IWiktionaryExample> result = new ArrayList<IWiktionaryExample>();
+		List<IWiktionaryExample> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWiktionaryExample> examples = sense.getExamples();
 			if (examples != null)
@@ -318,7 +318,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IQuotation> getQuotations() {
-		List<IQuotation> result = new ArrayList<IQuotation>();
+		List<IQuotation> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IQuotation> quotations = sense.getQuotations();
 			if (quotations != null)
@@ -328,7 +328,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWiktionaryRelation> getRelations() {
-		List<IWiktionaryRelation> result = new ArrayList<IWiktionaryRelation>();
+		List<IWiktionaryRelation> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWiktionaryRelation> relations = sense.getRelations();
 			if (relations != null)
@@ -338,7 +338,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWiktionaryRelation> getRelations(final RelationType relationType) {
-		List<IWiktionaryRelation> result = new ArrayList<IWiktionaryRelation>();
+		List<IWiktionaryRelation> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWiktionaryRelation> relations = sense.getRelations(relationType);
 			if (relations != null)
@@ -348,7 +348,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWikiString> getReferences() {
-		List<IWikiString> result = new ArrayList<IWikiString>();
+		List<IWikiString> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWikiString> references = sense.getReferences();
 			if (references != null)
@@ -358,7 +358,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWiktionaryTranslation> getTranslations() {
-		List<IWiktionaryTranslation> result = new ArrayList<IWiktionaryTranslation>();
+		List<IWiktionaryTranslation> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWiktionaryTranslation> translations = sense.getTranslations();
 			if (translations != null)
@@ -368,7 +368,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	public List<IWiktionaryTranslation> getTranslations(final ILanguage language) {
-		List<IWiktionaryTranslation> result = new ArrayList<IWiktionaryTranslation>();
+		List<IWiktionaryTranslation> result = new ArrayList<>();
 		for (IWiktionarySense sense : getSenses(true)) {
 			List<IWiktionaryTranslation> translations = sense.getTranslations(language);
 			if (translations != null)

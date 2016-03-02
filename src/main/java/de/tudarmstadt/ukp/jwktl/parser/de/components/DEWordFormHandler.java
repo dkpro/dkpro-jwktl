@@ -76,7 +76,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 	}
 
 	public boolean processHead(final String textLine, final ParsingContext context) {
-		wordForms = new ArrayList<IWiktionaryWordForm>();
+		wordForms = new ArrayList<>();
 		return true;
 	}
 

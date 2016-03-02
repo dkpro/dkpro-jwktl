@@ -115,9 +115,9 @@ public class Language implements ILanguage {
 		if (initialized)
 			return;
 		
-		languageIndex = new TreeMap<String, ILanguage>();
-		additionalCodeIndex = new TreeMap<String, String>();
-		additionalNameIndex = new TreeMap<String, String>();
+		languageIndex = new TreeMap<>();
+		additionalCodeIndex = new TreeMap<>();
+		additionalNameIndex = new TreeMap<>();
 		
 		try {
 			BufferedReader reader = new BufferedReader(new InputStreamReader(

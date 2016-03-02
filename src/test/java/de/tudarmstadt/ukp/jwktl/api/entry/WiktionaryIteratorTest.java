@@ -46,7 +46,7 @@ public class WiktionaryIteratorTest extends TestCase {
 	}
 	
 	protected boolean wasClosed;
-	protected Queue<String> queue = new LinkedList<String>();
+	protected Queue<String> queue = new LinkedList<>();
 	
 	/***/
 	public void testSimpleIterator() {

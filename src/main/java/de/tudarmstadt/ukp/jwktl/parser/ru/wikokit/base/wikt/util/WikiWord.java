@@ -154,7 +154,7 @@ public class WikiWord {
             return NULL_WIKIWORD_ARRAY;
         }
 
-        List<WikiWord> ww_list = new ArrayList<WikiWord>();
+        List<WikiWord> ww_list = new ArrayList<>();
 
         WikiWord w;
         Matcher m = ptrn_double_brackets.matcher(text.toString()); // [[(.+?)]]

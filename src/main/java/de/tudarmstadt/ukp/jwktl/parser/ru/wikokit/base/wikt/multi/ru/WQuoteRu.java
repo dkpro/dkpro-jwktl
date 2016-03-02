@@ -84,8 +84,8 @@ public class WQuoteRu {
 
         String[] pipe_chunks = text.split("\\|");
 
-        List<String> source_list  = new LinkedList<String>(Arrays.asList(pipe_chunks));
-        List<String> result_list  = new ArrayList<String>();
+        List<String> source_list  = new LinkedList<>(Arrays.asList(pipe_chunks));
+        List<String> result_list  = new ArrayList<>();
 
         // merge adjacent chunks if chunk.prev.contains("[[") and chunk.next.has("]]")
 
@@ -441,7 +441,7 @@ for_label:
             WQuote wq = parseQuoteParameters(page_title, sb_line);
             if(null != wq) {
                 if(null == quote_list)
-                    quote_list = new ArrayList<WQuote>();
+                    quote_list = new ArrayList<>();
                 quote_list.add(wq);
             }
         }

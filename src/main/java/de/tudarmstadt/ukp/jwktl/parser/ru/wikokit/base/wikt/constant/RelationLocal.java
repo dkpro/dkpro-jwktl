@@ -34,9 +34,9 @@ public class RelationLocal {
     private final Relation relation;
 
     
-    protected final static Map<String, Relation> name2rel = new HashMap<String, Relation>();
-    protected final static Map<Relation, String> rel2name = new HashMap<Relation, String>();
-    protected final static Map<Relation, String> rel2name_short = new HashMap<Relation, String>();
+    protected final static Map<String, Relation> name2rel = new HashMap<>();
+    protected final static Map<Relation, String> rel2name = new HashMap<>();
+    protected final static Map<Relation, String> rel2name_short = new HashMap<>();
     
     
     protected RelationLocal (String _name,String _short_name, Relation _rel) {

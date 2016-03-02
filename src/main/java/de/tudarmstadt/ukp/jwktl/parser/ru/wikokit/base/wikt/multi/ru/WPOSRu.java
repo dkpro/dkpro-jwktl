@@ -146,7 +146,7 @@ public class WPOSRu {
             return pos_section_alone;
         }
                                                                 // there are more than one POS in this language in this word
-        List<POSText> pos_sections = new ArrayList<POSText>();  // result will be stored to
+        List<POSText> pos_sections = new ArrayList<>();  // result will be stored to
         StringBuffer current_pos_section = new StringBuffer();
 
         int start, end; // "<start> == Verb I == ... <end> == Verb II ==" position of POS block in the lt.text
@@ -276,7 +276,7 @@ public class WPOSRu {
         if(!b_next) // there is no POS delimiter "{{заголовок|...|add=I}}"
             return NULL_POS_TEXT_ARRAY;
 
-        List<POSText> pos_sections = new ArrayList<POSText>();  // result will be stored to
+        List<POSText> pos_sections = new ArrayList<>();  // result will be stored to
         StringBuffer current_pos_section = new StringBuffer();
 
         int start, end; // "<start> {{заголовок|...|add=I}} ...

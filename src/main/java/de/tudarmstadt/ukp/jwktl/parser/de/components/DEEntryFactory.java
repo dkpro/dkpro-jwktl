@@ -47,7 +47,7 @@ public class DEEntryFactory extends EntryFactory {
 	
 	protected static final Map<String, PartOfSpeech> posMap;
 	static {
-		posMap = new TreeMap<String, PartOfSpeech>();
+		posMap = new TreeMap<>();
 		posMap.put("ABKÜRZUNG", PartOfSpeech.ABBREVIATION);
 		posMap.put("ABTRENNBARE_VERBPARTIKEL", PartOfSpeech.PARTICLE);
 		posMap.put("ADJEKTIV", PartOfSpeech.ADJECTIVE);

@@ -45,10 +45,10 @@ public class POSTemplateRu extends POSType {
     private final POS type; 
     
     //private static Map<String, String>  text2name = new HashMap<String, String>();
-    private static Map<String, POS> name_in_text2type = new HashMap<String, POS>();
+    private static Map<String, POS> name_in_text2type = new HashMap<>();
 
     /** E.g. noun -> "сущ", "падежи", "фам". It is used in POS statistics. */
-    private static Map<POS, Set<String>> type2name_in_text = new HashMap<POS, Set<String>>();
+    private static Map<POS, Set<String>> type2name_in_text = new HashMap<>();
 
     private final static String[] NULL_STRING_ARRAY = new String[0];
 
@@ -61,7 +61,7 @@ public class POSTemplateRu extends POSType {
         {   // store (POS, +=name_in_text) -> type2name_in_text
             Set<String> templates = type2name_in_text.get(type);
             if(null == templates)
-                templates = new HashSet<String>();
+                templates = new HashSet<>();
 
             templates.add(name_in_text);
             type2name_in_text.put(type, templates);

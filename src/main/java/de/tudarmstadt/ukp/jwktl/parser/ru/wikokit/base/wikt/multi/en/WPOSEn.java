@@ -56,7 +56,7 @@ public class WPOSEn {
 
     private final static POSText[] NULL_POS_TEXT_ARRAY = new POSText[0];
 
-    private final static List<POSText> NULL_POS_TEXT_LIST = new ArrayList<POSText>(0);
+    private final static List<POSText> NULL_POS_TEXT_LIST = new ArrayList<>(0);
 
     /** start of the POS block: [\w {}],
      * \s (space) since there is "===Proper noun==="
@@ -95,7 +95,7 @@ public class WPOSEn {
     private static List<POSText> cutHeaderFromAlonePOSSection (
                                     LangText lt, Matcher m)
     {
-        List<POSText> pos_section_alone = new ArrayList<POSText>(1);
+        List<POSText> pos_section_alone = new ArrayList<>(1);
         m.reset();
 
         while(m.find()) {
@@ -146,7 +146,7 @@ public class WPOSEn {
         boolean b_next = m.find();
         assert(b_next);
 
-        List<POSText> pos_sections = new ArrayList<POSText>(n_pos); // there is exactly n_pos POS headers
+        List<POSText> pos_sections = new ArrayList<>(n_pos); // there is exactly n_pos POS headers
 
         // position of POS block in the lt.text
         // "<start_old> ===Noun=== <end_old> ... <start_new> ===Verb=== <end_new>"
@@ -217,7 +217,7 @@ public class WPOSEn {
         if(etymology_sections.length == 0)
             return NULL_POS_TEXT_ARRAY;
 
-        List<POSText> pos_sections = new ArrayList<POSText>();
+        List<POSText> pos_sections = new ArrayList<>();
 
         for(LangText e : etymology_sections) {
             pos_sections.addAll( splitToPOSSections(page_title, e) );

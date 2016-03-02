@@ -42,7 +42,7 @@ public class SimilarityUtils {
    */
 	protected static Map<String, Integer> computeNGrams(int startOrder, 
 			int maxOrder, final String text) {
-		Map<String, Integer> ngram2count = new HashMap<String, Integer>();
+		Map<String, Integer> ngram2count = new HashMap<>();
 		String[] tokens = text.split("\\s");
 		
 		for (int order = startOrder; order <= maxOrder; ++order) {
@@ -79,7 +79,7 @@ public class SimilarityUtils {
 	 * @return a map of word to frequency.
 	 */
 	protected static Map<String, Integer> computeWord2count(final String text) {
-		Map<String, Integer> word2count = new HashMap<String, Integer>();
+		Map<String, Integer> word2count = new HashMap<>();
 		Pattern wordPattern = Pattern.compile("\\w+");
 		Matcher matcher = wordPattern.matcher(text);
 		while(matcher.find()) {
@@ -105,7 +105,7 @@ public class SimilarityUtils {
 		double b = 0d;
 		double common = 0;
 		double all = 0;
-		Map<String, Integer> ngramAll = new HashMap<String, Integer>();
+		Map<String, Integer> ngramAll = new HashMap<>();
 		ngramAll.putAll(ngramsB);
 		for (Entry<String, Integer> entry : ngramsA.entrySet()) {
 			int value = 0;

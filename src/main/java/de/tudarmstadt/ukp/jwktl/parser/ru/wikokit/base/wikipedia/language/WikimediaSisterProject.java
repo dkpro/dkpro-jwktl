@@ -36,7 +36,7 @@ public class WikimediaSisterProject {
 //    private final String name;
     
     /** Map from long_form and from shortcut to the project object */
-    private static Map<String, WikimediaSisterProject> code2project = new HashMap<String, WikimediaSisterProject>();
+    private static Map<String, WikimediaSisterProject> code2project = new HashMap<>();
     
     
     // list of projects:

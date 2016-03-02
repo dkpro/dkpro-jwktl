@@ -37,11 +37,11 @@ public class EnGlossEntry {
 	
 	private String definition = "";
 	// a list of examples
-	private List<String> exampleList = new ArrayList<String>();
-	private Map<String, String> exampleTranslations = new HashMap<String, String>();
+	private List<String> exampleList = new ArrayList<>();
+	private Map<String, String> exampleTranslations = new HashMap<>();
 
 	// a list of quotation
-	private List<Quotation> quotationList = new ArrayList<Quotation>();
+	private List<Quotation> quotationList = new ArrayList<>();
 	
 	/** Initializes the entry with the specified definition. */
 	public EnGlossEntry(String gloss){

@@ -67,7 +67,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 	@Override
 	public boolean processHead(final String text, final ParsingContext context) {
 		currentSense = "";
-		sensNum2trans = new TreeMap<String, List<IWiktionaryTranslation>>();
+		sensNum2trans = new TreeMap<>();
 		return true;			
 	}
 	
@@ -129,7 +129,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 				language = language.trim();
 				ILanguage translatedLang = Language.findByName(language);
 				
-				Map<String, String> namedParams = new TreeMap<String, String>();
+				Map<String, String> namedParams = new TreeMap<>();
 				String[] fields = null;
 				String translationText = translation;
 				if (usesTemplate) {
@@ -183,7 +183,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 					// Save the translation
 					List<IWiktionaryTranslation> translations = sensNum2trans.get(currentSense);
 					if (translations == null) {
-						translations = new ArrayList<IWiktionaryTranslation>();
+						translations = new ArrayList<>();
 						sensNum2trans.put(currentSense, translations);
 					}
 					translations.add(trans);

@@ -52,7 +52,7 @@ public class MultistreamXMLDumpParserTest extends TestCase {
 	}
 
 	public void testParseWithOffsets() throws Exception {
-		TreeSet<Long> offsets = new TreeSet<Long>();
+		TreeSet<Long> offsets = new TreeSet<>();
 		offsets.add(654L);
 		offsets.add(261373L);
 		subject.parse(multistreamDump, offsets);

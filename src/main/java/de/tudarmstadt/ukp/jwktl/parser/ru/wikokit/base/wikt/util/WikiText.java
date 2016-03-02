@@ -107,7 +107,7 @@ public class WikiText {
         // todo
         // ...
         
-        List<WikiText> wt_list = new ArrayList<WikiText>();
+        List<WikiText> wt_list = new ArrayList<>();
         for(String w : ww) {
             WikiText wt = WikiText.createOnePhrase(page_title, w.trim());
             if(null != wt) {

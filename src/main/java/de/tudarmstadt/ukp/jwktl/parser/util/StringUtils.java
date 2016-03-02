@@ -81,7 +81,7 @@ public /*static*/ final class StringUtils {
 	 *  or full-stop-separated numbers ("1,2. 4" -> {1,2,4}", and number
 	 *  ranges ("1-4" -> {1,2,3,4}). */
 	public static Set<Integer> compileIndexSet(final String indexedStr) {
-		Set<Integer> result = new TreeSet<Integer>();
+		Set<Integer> result = new TreeSet<>();
 		int lastIdx = -1;
 		int currIdx = -1;
 		char[] text = indexedStr.toCharArray();

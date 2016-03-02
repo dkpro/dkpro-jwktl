@@ -101,7 +101,7 @@ public class WMeaningRu {
             WMeaning wm = WMeaning.parseOneDefinition(wikt_lang, page_title, lang_section, line);
             if(null != wm) {
                 if(null == wm_list)
-                    wm_list = new ArrayList<WMeaning>();
+                    wm_list = new ArrayList<>();
                 wm_list.add(wm);
             }
             to_continue = next_eol < len-1 && (text.charAt(next_eol+1) == '#');

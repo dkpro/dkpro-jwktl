@@ -43,7 +43,7 @@ class WordList implements Iterable<String> {
 
 	public static WordList parse(final String text) {
 		String comment = null;
-		List<String> result = new ArrayList<String>();
+		List<String> result = new ArrayList<>();
 
 		int braceStartIndex = text.indexOf("(''");
 		if (braceStartIndex == -1) {

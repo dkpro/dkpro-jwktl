@@ -147,7 +147,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 		try {
 			// Saves a property file along with the database storage files that
 			// contains information about language and size of the parsed data.
-			Map<String, String> props = new LinkedHashMap<String, String>();
+			Map<String, String> props = new LinkedHashMap<>();
 			props.put("wiktionary.language", language.getCode());
 			props.put("wiktionary.dumpfile", dumpInfo.getDumpFile().toString());
 			

@@ -40,7 +40,7 @@ public class WiktionaryPageFilter implements IWiktionaryPageFilter {
 	
 	/** Initializes a page filter without any filter restrictions. */
 	public WiktionaryPageFilter() {
-		this.allowedEntryLanguages = new TreeSet<ILanguage>();
+		this.allowedEntryLanguages = new TreeSet<>();
 	}
 
 	/** Clears all filter options. */

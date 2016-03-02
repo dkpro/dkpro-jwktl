@@ -42,7 +42,7 @@ public class ENQuotationHandler extends ENBlockHandler {
 	
 	@Override
 	public boolean processHead(final String textLine, final ParsingContext context) {
-		quotations = new ArrayList<Quotation>();
+		quotations = new ArrayList<>();
 		return super.processHead(textLine, context);
 	}
 	

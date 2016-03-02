@@ -277,7 +277,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		entryById = store.getSecondaryIndex(entryByKey, Long.class, "entryId");
 		senseByKey = store.getPrimaryIndex(String.class, WiktionarySenseProxy.class);
 
-		openCursors = new HashSet<EntityCursor<?>>();
+		openCursors = new HashSet<>();
 	}
 
 	/** Creates the given target dictionary if necessary. Removes a previously
@@ -357,7 +357,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 			return null;
 		
 		try {
-			List<IWiktionaryPage> result = new ArrayList<IWiktionaryPage>();
+			List<IWiktionaryPage> result = new ArrayList<>();
 			if (normalize) {
 				String t = WiktionaryPage.normalizeTitle(word);
 				EntityCursor<WiktionaryPage> cursor = pageByNormalizedTitle

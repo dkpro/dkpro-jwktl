@@ -54,7 +54,7 @@ public class DEReferenceHandler extends DESenseIndexedBlockHandler<IWikiString> 
 		if (reference.isEmpty())
 			return null;
 		
-		List<IWikiString> result = new ArrayList<IWikiString>();
+		List<IWikiString> result = new ArrayList<>();
 		result.add(new WikiString(reference));
 		return result;
 	}

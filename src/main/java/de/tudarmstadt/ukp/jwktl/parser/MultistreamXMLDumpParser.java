@@ -80,7 +80,7 @@ class MultistreamXMLDumpParser {
 		BufferedReader bufferedReader = null;
 		try {
 			final long start = System.currentTimeMillis();
-			final TreeSet<Long> offsets = new TreeSet<Long>();
+			final TreeSet<Long> offsets = new TreeSet<>();
 			bufferedReader = new BufferedReader(new InputStreamReader(new ChainedCBZip2InputStream(indexFile)));
 			String line;
 			while ((line = bufferedReader.readLine()) != null) {

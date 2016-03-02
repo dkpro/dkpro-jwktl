@@ -122,7 +122,7 @@ public class WiktionarySense implements IWiktionarySense {
 	/** Add the given example to this sense. */
 	public void addExample(final IWiktionaryExample example) {
 		if (examples == null)
-			examples = new ArrayList<IWiktionaryExample>();
+			examples = new ArrayList<>();
 		examples.add(example);
 	}
 
@@ -133,7 +133,7 @@ public class WiktionarySense implements IWiktionarySense {
 	/** Add the given quotation to this sense. */
 	public void addQuotation(final IQuotation quotation) {
 		if (quotations == null)
-			quotations = new ArrayList<IQuotation>();
+			quotations = new ArrayList<>();
 		quotations.add(quotation);
 	}
 
@@ -144,7 +144,7 @@ public class WiktionarySense implements IWiktionarySense {
 	/** Add the given reference to this sense. */
 	public void addReference(final IWikiString reference) {
 		if (references == null)
-			references = new ArrayList<IWikiString>();
+			references = new ArrayList<>();
 		references.add(reference);
 	}
 	
@@ -155,7 +155,7 @@ public class WiktionarySense implements IWiktionarySense {
 	/** Add the given relation to this sense. */
 	public void addRelation(final IWiktionaryRelation relation) {
 		if (relations == null)
-			relations = new ArrayList<IWiktionaryRelation>();
+			relations = new ArrayList<>();
 		relations.add(relation);
 	}
 
@@ -164,7 +164,7 @@ public class WiktionarySense implements IWiktionarySense {
 	}
 	
 	public List<IWiktionaryRelation> getRelations(final RelationType relationType) {
-		List<IWiktionaryRelation> result = new ArrayList<IWiktionaryRelation>();
+		List<IWiktionaryRelation> result = new ArrayList<>();
 		if (relations != null)
 			for (IWiktionaryRelation relation : relations)
 				if (relation.getRelationType() == relationType)
@@ -175,12 +175,12 @@ public class WiktionarySense implements IWiktionarySense {
 	/** Add the given translation to this sense. */
 	public void addTranslation(final IWiktionaryTranslation translation) {
 		if (translations == null)
-			translations = new ArrayList<IWiktionaryTranslation>();
+			translations = new ArrayList<>();
 		translations.add(translation);
 	}
 	
 	public List<IWiktionaryTranslation> getTranslations(final ILanguage language) {		
-		List<IWiktionaryTranslation> result = new ArrayList<IWiktionaryTranslation>();
+		List<IWiktionaryTranslation> result = new ArrayList<>();
 		if (translations != null)
 			for (IWiktionaryTranslation trans : translations)
 				if (language == trans.getLanguage() 

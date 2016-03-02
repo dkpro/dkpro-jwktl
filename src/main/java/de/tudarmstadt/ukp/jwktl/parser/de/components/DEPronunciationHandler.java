@@ -42,7 +42,7 @@ public class DEPronunciationHandler extends DEBlockHandler {
 	
 	@Override
 	public boolean processHead(final String textLine, final ParsingContext context) {
-		pronunciations = new ArrayList<Pronunciation>();
+		pronunciations = new ArrayList<>();
 		return true;
 	}
 

@@ -41,8 +41,8 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 
 	protected DEEntryFactory entryFactory = new DEEntryFactory();
 
-	protected List<PartOfSpeech> posList = new LinkedList<PartOfSpeech>();
-	protected List<GrammaticalGender> genders = new LinkedList<GrammaticalGender>();
+	protected List<PartOfSpeech> posList = new LinkedList<>();
+	protected List<GrammaticalGender> genders = new LinkedList<>();
 
 	/** Check if the given text contains a part of speech header.
 	 */

@@ -41,8 +41,8 @@ public class WiktionaryEntryFilter extends WiktionaryPageFilter
 	/** Initializes a page filter without any filter restrictions. */
 	public WiktionaryEntryFilter() {
 		super();
-		allowedWordLanguages = new TreeSet<ILanguage>();
-		allowedPartsOfSpeech = new TreeSet<PartOfSpeech>();		
+		allowedWordLanguages = new TreeSet<>();
+		allowedPartsOfSpeech = new TreeSet<>();
 	}
 	
 	/** Shorthand for setting the allowed entry language, word language,

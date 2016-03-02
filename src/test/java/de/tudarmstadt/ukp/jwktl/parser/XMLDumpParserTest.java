@@ -59,7 +59,7 @@ public class XMLDumpParserTest extends TestCase {
 		  </element>
 		</dump_parser_test>*/
 		
-		Queue<String> expectedValues = new LinkedList<String>();
+		Queue<String> expectedValues = new LinkedList<>();
 		expectedValues.offer("onParserStart");
 		expectedValues.offer("onElementStart: dump_parser_test");
 			expectedValues.offer("onElementStart: header");
@@ -82,7 +82,7 @@ public class XMLDumpParserTest extends TestCase {
 	
 	/***/
 	public void testBzip2Stream() {
-		Queue<String> expectedValues = new LinkedList<String>();
+		Queue<String> expectedValues = new LinkedList<>();
 		expectedValues.offer("onParserStart");
 		expectedValues.offer("onElementStart: dump_parser_test");
 			expectedValues.offer("onElementStart: header");

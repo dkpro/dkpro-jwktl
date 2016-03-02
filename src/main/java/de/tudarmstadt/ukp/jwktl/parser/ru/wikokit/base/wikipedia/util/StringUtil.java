@@ -30,7 +30,7 @@ public class StringUtil {
     
     private final static String         NULL_STRING       = "";
     private final static String[]       NULL_STRING_ARRAY = new String[0];
-    private final static List<String>   NULL_STRING_LIST  = new ArrayList<String>(0);
+    private final static List<String>   NULL_STRING_LIST  = new ArrayList<>(0);
     private final static StringBuffer   NULL_STRINGBUFFER = new StringBuffer("");
     
     public static String join(String token, String[] strings )
@@ -68,7 +68,7 @@ public class StringUtil {
         if(null == s || 0 == s.length())
             return NULL_STRING_ARRAY;
                 
-        List<String> ls = new ArrayList<String>();
+        List<String> ls = new ArrayList<>();
         
         int previousLoc = 0;
         int loc = s.indexOf( token, previousLoc );
@@ -205,7 +205,7 @@ public class StringUtil {
     
     /** Gets list of unique strings (case insensitive). */
     public static List<String> getUnique(List<String> l) {
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
         if(null == l)
             return result;
         
@@ -231,7 +231,7 @@ public class StringUtil {
             return NULL_STRING_LIST;
         }
         
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
         
         if(a==null || 0==a.size()) {
             result.addAll(b);
@@ -263,7 +263,7 @@ public class StringUtil {
             return NULL_STRING_ARRAY;
         }
 
-        List<String> result = new ArrayList<String>();
+        List<String> result = new ArrayList<>();
 
         if(a==null || 0==a.length) {
             result.addAll(Arrays.asList(b));
@@ -302,7 +302,7 @@ public class StringUtil {
             return null;
         }
         
-        Map<String, Boolean> map1 = new HashMap<String, Boolean>();
+        Map<String, Boolean> map1 = new HashMap<>();
         
         for(String s:list1) {
             map1.put(s, false);

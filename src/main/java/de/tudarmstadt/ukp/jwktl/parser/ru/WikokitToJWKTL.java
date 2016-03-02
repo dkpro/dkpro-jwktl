@@ -56,7 +56,7 @@ public class WikokitToJWKTL {
 	/** Initializes the converter and its part of speech and relation type
 	 *  mappings. */
 	public WikokitToJWKTL() {
-		posMap = new HashMap<String, PartOfSpeech>();    
+		posMap = new HashMap<>();
 //		posMap.put("unknown", PartOfSpeech.UNKNOWN);
 		posMap.put("noun", PartOfSpeech.NOUN);
 		posMap.put("verb", PartOfSpeech.VERB);
@@ -128,7 +128,7 @@ public class WikokitToJWKTL {
 		posMap.put("prefix of compound words", PartOfSpeech.PREFIX);
 	    
 		
-		relationMap = new HashMap<Relation, RelationType>();
+		relationMap = new HashMap<>();
 		relationMap.put(Relation.synonymy, RelationType.SYNONYM);
 		relationMap.put(Relation.antonymy, RelationType.ANTONYM);
 		relationMap.put(Relation.hypernymy, RelationType.HYPERNYM);

@@ -67,7 +67,7 @@ public class DETranslationHandler extends DEBlockHandler {
 	
 	@Override
 	public boolean processHead(String text, ParsingContext context) {	
-		sensNum2trans = new TreeMap<Integer, List<IWiktionaryTranslation>>();
+		sensNum2trans = new TreeMap<>();
 		return true;
 	}
 	
@@ -178,7 +178,7 @@ public class DETranslationHandler extends DEBlockHandler {
 					for (Integer i : indexSet) {
 						List<IWiktionaryTranslation> translations = sensNum2trans.get(i);
 						if (translations == null) {
-							translations = new ArrayList<IWiktionaryTranslation>();
+							translations = new ArrayList<>();
 							sensNum2trans.put(i, translations);
 						}
 						translations.add(trans);

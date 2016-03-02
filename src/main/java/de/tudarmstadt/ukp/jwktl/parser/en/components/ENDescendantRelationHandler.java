@@ -41,7 +41,7 @@ public class ENDescendantRelationHandler extends ENRelationHandler {
 		String firstWord = wordList.get(0);
 		final int colon = (firstWord == null ? -1 : firstWord.indexOf(':'));
 		if (colon != -1) {
-			List<String> fixed = new ArrayList<String>(wordList.size());
+			List<String> fixed = new ArrayList<>(wordList.size());
 			fixed.add(firstWord);
 
 			String language = firstWord.substring(0, colon);

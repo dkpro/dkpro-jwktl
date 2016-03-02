@@ -108,7 +108,7 @@ public class ENSenseHandler extends ENBlockHandler {
 	 */
 	public boolean processHead(String text, ParsingContext context) {
 		context.setPartOfSpeech(partOfSpeech);
-		glossEntryList = new ArrayList<EnGlossEntry>();
+		glossEntryList = new ArrayList<>();
 		wordFormHandler = getWordFormHandler(context);
 		takeControl = true;
 		quotationHandler.processHead(text, context);

@@ -50,7 +50,7 @@ public class DESenseDefinitionHandler extends DEBlockHandler{
 
 	@Override
 	public boolean processHead(String text, ParsingContext context) {
-		definitions = new TreeMap<Integer, String>();
+		definitions = new TreeMap<>();
 		return true;
 	}
 	

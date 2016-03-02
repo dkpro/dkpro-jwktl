@@ -136,7 +136,7 @@ public class WiktionaryCollectionTest extends WiktionaryDataTestCase {
 		assertIterable(filter.getAllowedEntryLanguages(), Language.GERMAN);
 		filter.setAllowedEntryLanguages(Language.ENGLISH);
 		assertIterable(filter.getAllowedEntryLanguages(), Language.ENGLISH);
-		filter.setAllowedEntryLanguages(new HashSet<ILanguage>());
+		filter.setAllowedEntryLanguages(new HashSet<>());
 		assertIterable(filter.getAllowedEntryLanguages());
 		filter.setAllowedEntryLanguages(Language.GERMAN, Language.ENGLISH, Language.findByName("Romanian"));
 		assertIterable(filter.getAllowedEntryLanguages(), Language.GERMAN, Language.ENGLISH, Language.findByName("Romanian"));
@@ -182,7 +182,7 @@ public class WiktionaryCollectionTest extends WiktionaryDataTestCase {
 		assertIterable(filter.getAllowedWordLanguages(), Language.GERMAN);
 		filter.setAllowedWordLanguages(Language.ENGLISH);
 		assertIterable(filter.getAllowedWordLanguages(), Language.ENGLISH);
-		filter.setAllowedWordLanguages(new HashSet<ILanguage>());
+		filter.setAllowedWordLanguages(new HashSet<>());
 		assertIterable(filter.getAllowedWordLanguages());
 		filter.setAllowedWordLanguages(Language.GERMAN, Language.ENGLISH, Language.findByName("Romanian"));
 		assertIterable(filter.getAllowedWordLanguages(), Language.GERMAN, Language.ENGLISH, Language.findByName("Romanian"));
@@ -237,7 +237,7 @@ public class WiktionaryCollectionTest extends WiktionaryDataTestCase {
 		assertIterable(filter.getAllowedPartsOfSpeech(), PartOfSpeech.NOUN);
 		filter.setAllowedPartsOfSpeech(PartOfSpeech.VERB);
 		assertIterable(filter.getAllowedPartsOfSpeech(), PartOfSpeech.VERB);
-		filter.setAllowedPartsOfSpeech(new HashSet<PartOfSpeech>());
+		filter.setAllowedPartsOfSpeech(new HashSet<>());
 		assertIterable(filter.getAllowedPartsOfSpeech());
 		filter.setAllowedPartsOfSpeech(PartOfSpeech.NOUN, PartOfSpeech.VERB, PartOfSpeech.ABBREVIATION);
 		assertIterable(filter.getAllowedPartsOfSpeech(), PartOfSpeech.NOUN, PartOfSpeech.VERB, PartOfSpeech.ABBREVIATION);

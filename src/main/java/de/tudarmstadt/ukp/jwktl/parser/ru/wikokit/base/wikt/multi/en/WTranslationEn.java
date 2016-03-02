@@ -97,7 +97,7 @@ public class WTranslationEn {
         if(0 == len)
             return NULL_WTRANSLATION_ARRAY;
 
-        List<WTranslation> wt_list = new ArrayList<WTranslation>();
+        List<WTranslation> wt_list = new ArrayList<>();
 
         int prev_end = 1; // previous end of previous translation box + len("\n")=1
         boolean to_continue = true;
@@ -178,7 +178,7 @@ public class WTranslationEn {
 
             if(null != wte) {
                 if(null == wte_list)
-                    wte_list = new ArrayList<WTranslationEntry>();
+                    wte_list = new ArrayList<>();
                 wte_list.add(wte);
             }
         }

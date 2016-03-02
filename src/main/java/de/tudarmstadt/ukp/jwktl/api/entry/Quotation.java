@@ -44,7 +44,7 @@ public class Quotation implements IQuotation {
 	
 	/** Initializes the list of text lines. */
 	public Quotation() {
-		lines = new ArrayList<IWikiString>();
+		lines = new ArrayList<>();
 	}
 	
 	public IWikiString getSource() {

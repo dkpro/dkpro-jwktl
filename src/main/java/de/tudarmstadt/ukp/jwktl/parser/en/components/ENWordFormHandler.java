@@ -51,7 +51,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 	 *  that are to be added to the lemma. */
 	public ENWordFormHandler(final String lemma) {
 		this.lemma = lemma;
-		wordForms = new ArrayList<IWiktionaryWordForm>();
+		wordForms = new ArrayList<>();
 	}
 
 	public String handle(final Template template) {
