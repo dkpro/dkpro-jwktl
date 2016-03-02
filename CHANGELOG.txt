@@ -223,3 +223,4 @@ JWKTL-1.1.0 (forthcoming)
 - Fixed: Missing entry link templates for German forms (#21).
 - Added: Parse translation status
 - Fixed: Parse complete etymologies and relationships
+- Modified: Codebase now requires Java 1.8
