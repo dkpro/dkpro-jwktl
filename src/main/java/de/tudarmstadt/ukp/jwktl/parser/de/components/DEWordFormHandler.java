@@ -272,14 +272,20 @@ public class DEWordFormHandler extends DEBlockHandler {
 	}
 
 	protected void extractAdjectiveTable(final WiktionaryWordForm wordForm, final String label) {
-		if (label.equals("Positiv") || label.equals("Grundform"))
-			wordForm.setDegree(GrammaticalDegree.POSITIVE);
-		else
-		if (label.equals("Komparativ") || label.equals("1. Steigerung"))
-			wordForm.setDegree(GrammaticalDegree.COMPARATIVE);
-		else
-		if (label.equals("Superlativ") || label.equals("2. Steigerung"))
-			wordForm.setDegree(GrammaticalDegree.SUPERLATIVE);
+		switch (label) {
+			case "Positiv":
+			case "Grundform":
+				wordForm.setDegree(GrammaticalDegree.POSITIVE);
+				break;
+			case "Komparativ":
+			case "1. Steigerung":
+				wordForm.setDegree(GrammaticalDegree.COMPARATIVE);
+				break;
+			case "Superlativ":
+			case "2. Steigerung":
+				wordForm.setDegree(GrammaticalDegree.SUPERLATIVE);
+				break;
+		}
 	}
 
 	public void fillContent(final ParsingContext context) {

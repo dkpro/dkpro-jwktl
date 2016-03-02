@@ -222,9 +222,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		this.dbPath = parsedWiktionaryDump;
 		try {
 			connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
-		} catch (DatabaseException e) {
-			throw new WiktionaryException("Unable to establish a db connection", e);
-		} catch (IllegalArgumentException e) {
+		} catch (DatabaseException | IllegalArgumentException e) {
 			throw new WiktionaryException("Unable to establish a db connection", e);
 		}
 	}
@@ -252,11 +250,8 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		File propFile = new File(dbPath, PROPERTY_FILE_NAME);
 		if (propFile.exists()) {
 			try {
-				Reader reader = new InputStreamReader(new FileInputStream(propFile), "UTF-8");
-				try {
+				try (Reader reader = new InputStreamReader(new FileInputStream(propFile), "UTF-8")) {
 					properties.load(reader);
-				} finally {
-					reader.close();
 				}
 			} catch (IOException e) {
 				throw new DatabaseException("Unable to load property file", e){};

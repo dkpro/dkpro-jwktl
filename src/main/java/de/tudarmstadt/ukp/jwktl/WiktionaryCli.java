@@ -43,27 +43,24 @@ public class WiktionaryCli {
 		final String PROMPT = "> ";
 		final String END = "";
 		String wktPath = args[0];
-		IWiktionaryEdition wkt = JWKTL.openEdition(new File(wktPath));
 		WiktionaryFormatter formatter = WiktionaryFormatter.instance();
 		
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in, "UTF8"));
 		System.out.print(PROMPT);
 		String line = null;
-		try {
+		try (IWiktionaryEdition wkt = JWKTL.openEdition(new File(wktPath))) {
 			while ((line = reader.readLine()) != null) {
 				if (line.equals(END))
 					break;
-				
-				IWiktionaryPage page = wkt.getPageForWord(line);				
+
+				IWiktionaryPage page = wkt.getPageForWord(line);
 				if (page == null || page.getEntryCount() == 0)
 					System.out.println(line + " is not in Wiktionary");
 				else
 					System.out.println(formatter.formatPage(page));
-				
+
 				System.out.print(PROMPT);
 			}
-		} finally {
-			wkt.close();
 		}
 		System.out.println("exit");
 	}

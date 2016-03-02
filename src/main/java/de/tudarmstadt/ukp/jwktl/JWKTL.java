@@ -42,14 +42,11 @@ public class JWKTL {
 
 	/** Returns the software version. */
 	public static String getVersion() {
-		InputStream stream = JWKTL.class.getResourceAsStream("/META-INF/jwktl-version.properties");
 		try {
 			Properties properties = new Properties();
-			try {
+			try (InputStream stream = JWKTL.class.getResourceAsStream("/META-INF/jwktl-version.properties")) {
 				properties.load(stream);
 				return properties.getProperty("jwktl.version");
-			} finally {
-				stream.close();
 			}			
 		} catch (IOException e) {
 			throw new RuntimeException(e);

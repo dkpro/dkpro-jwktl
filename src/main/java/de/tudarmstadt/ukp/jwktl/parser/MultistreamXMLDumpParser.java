@@ -63,15 +63,12 @@ class MultistreamXMLDumpParser {
 		if (offsets.isEmpty()) {
 			throw new IOException("no valid offsets");
 		}
-		RandomAccessFile file = new RandomAccessFile(dumpFile, "r");
 		offsets.add(0L); // make sure header / siteInfo gets parsed
-		try {
+		try (RandomAccessFile file = new RandomAccessFile(dumpFile, "r")) {
 			for (long offset : offsets) {
-				logger.fine("parsing contents at offset "+offset);
+				logger.fine("parsing contents at offset " + offset);
 				parser.parseStream(getInputStreamAtOffset(file, offset));
 			}
-		} finally {
-			file.close();
 		}
 	}
 

@@ -64,7 +64,7 @@ public class ReferenceParser {
         boolean bfound = m.find();
         if(bfound) {
             StringBuffer result = new StringBuffer();
-            StringBuffer eo_text = new StringBuffer();  // end of text
+            StringBuilder eo_text = new StringBuilder();  // end of text
             while(bfound) {
                                                                    // group(1) := text within <ref>reference boundaries</ref>
                 StringBuffer sb = WikiParser.parseCurlyBrackets(

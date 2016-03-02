@@ -120,9 +120,8 @@ public class Language implements ILanguage {
 		additionalNameIndex = new TreeMap<>();
 		
 		try {
-			BufferedReader reader = new BufferedReader(new InputStreamReader(
-					Language.class.getResourceAsStream("language_codes.txt"), "UTF-8"));
-			try {
+			try (BufferedReader reader = new BufferedReader(new InputStreamReader(
+					Language.class.getResourceAsStream("language_codes.txt"), "UTF-8"))) {
 				String line;
 				while ((line = reader.readLine()) != null) {
 					// Extract the fields.
@@ -146,7 +145,7 @@ public class Language implements ILanguage {
 					languageIndex.put(language.getCode(), language);
 					additionalCodeIndex.put(language.getCode(), language.getCode());
 					additionalNameIndex.put(language.getName().toLowerCase(), language.getCode());
-					
+
 					// Save additional language codes.
 					String additionalCodes = fields[6];
 					if (!additionalCodes.isEmpty()) {
@@ -160,7 +159,7 @@ public class Language implements ILanguage {
 						} while (i >= 0);
 						additionalCodeIndex.put(additionalCodes, language.getCode());
 					}
-					
+
 					// Save additional language names.
 					String additionalNames = fields[7];
 					if (!additionalNames.isEmpty()) {
@@ -175,8 +174,6 @@ public class Language implements ILanguage {
 						additionalNameIndex.put(additionalNames.toLowerCase(), language.getCode());
 					}
 				}
-			} finally {
-				reader.close();
 			}
 			
 			initialized = true;
