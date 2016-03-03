@@ -68,9 +68,9 @@
     </licenses>
 
     <parent>
-        <groupId>de.tudarmstadt.ukp.dkpro.core</groupId>
+        <groupId>org.dkpro</groupId>
          <artifactId>dkpro-parent-pom</artifactId>
-        <version>11</version>
+        <version>12</version>
     </parent>
 
     <scm>

@@ -224,3 +224,4 @@ JWKTL-1.1.0 (forthcoming)
 - Added: Parse translation status
 - Fixed: Parse complete etymologies and relationships
 - Modified: Codebase now requires Java 1.8
+- Modified: Upgraded to dkpro-parent-pom 12.
