@@ -25,11 +25,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
-import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
-import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
-import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
-import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 import static de.tudarmstadt.ukp.jwktl.api.RelationType.DERIVED_TERM;
 import static de.tudarmstadt.ukp.jwktl.api.RelationType.DESCENDANT;
@@ -63,7 +59,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		List<IWiktionaryRelation> relations = process(handler,
 			"* {{l|en|target1}}",
 			"* [[target2]]"
-		);
+		).getRelations();
 		assertEquals(2, relations.size());
 		assertEquals("target1", relations.get(0).getTarget());
 		assertEquals("target2", relations.get(1).getTarget());
@@ -79,7 +75,7 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 			"* [[target3]]",
 			"* [[target4]]",
 			"{{rel-bottom}}"
-		);
+		).getRelations();
 		assertEquals(4, relations.size());
 	}
 
@@ -131,27 +127,8 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 	}
 
 	protected IWiktionaryRelation processFirst(ENRelationHandler handler, String... body) {
-		List<IWiktionaryRelation> relations = process(handler, body);
+		List<IWiktionaryRelation> relations = process(handler, body).getRelations();
 		assertFalse(relations.isEmpty());
 		return relations.get(0);
-	}
-
-	protected List<IWiktionaryRelation> process(ENRelationHandler handler, String... body) {
-		final WiktionarySense sense = new WiktionarySense();
-		final WiktionaryEntry entry = new WiktionaryEntry();
-		entry.addSense(sense);
-		ParsingContext context = new ParsingContext(new WiktionaryPage(), new ENEntryFactory() {
-			@Override
-			public WiktionaryEntry findEntry(ParsingContext context) {
-				return entry;
-			}
-		});
-		handler.processHead("testing", context);
-		for (String line : body) {
-			handler.processBody(line, context);
-		}
-		handler.fillContent(context);
-
-		return entry.getRelations();
 	}
 }
