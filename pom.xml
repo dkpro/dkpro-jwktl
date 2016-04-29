@@ -114,12 +114,10 @@
          <source>1.8</source>
          <target>1.8</target>
          <showWarnings>true</showWarnings>
-         <compilerArguments>
-          <Xlint:all/>
-          <Xlint:-options/>
-          <Xlint:-serial/>
-          <Werror />
-         </compilerArguments>
+         <compilerArgs>
+		   <arg>-Xlint:all,-options,-serial</arg>
+           <arg>-Werror</arg>
+		 </compilerArgs>
        </configuration>
       </plugin>
       <plugin>
