@@ -36,7 +36,7 @@ The latest version of JWKTL is available via [Maven Central](http://search.maven
 		<dependency>
 		  <groupId>de.tudarmstadt.ukp.jwktl</groupId>
 		  <artifactId>jwktl</artifactId>
-		  <version>1.0.1</version>
+		  <version>1.1.0</version>
 		</dependency>
 
 JWKTL is available as open source software under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) (ASL). The software thus comes "as is" without any warranty (see license text for more details). JWKTL makes use of [Berkeley DB Java Edition](http://www.oracle.com/technetwork/products/berkeleydb/downloads/index-098622.html) 5.0.73 ([Sleepycat License](http://download.oracle.com/maven/com/sleepycat/je/license.txt)), [Apache Ant](http://archive.apache.org/dist/ant/source/) 1.7.1 ([ASL](http://www.apache.org/licenses/LICENSE-2.0)), [Xerces](http://xerces.apache.org/xerces2-j/) 2.9.1 ([ASL](http://www.apache.org/licenses/LICENSE-2.0)), [JUnit](http://junit.org/) 4.10 ([CPL](http://www.opensource.org/licenses/cpl1.0.txt)).

@@ -1,0 +1,20 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Java Wiktionary Library (JWKTL)
+
+
+From: 'Apache Software Foundation'
+  - org.apache.tools.ant (http://ant.apache.org/ant/) org.apache.ant:ant:jar:1.7.1
+
+  - ant-launcher (http://ant.apache.org/ant-launcher/) org.apache.ant:ant-launcher:jar:1.7.1
+
+
+From: 'Oracle Corporation' (http://www.oracle.com/)
+  - Berkeley DB Java Edition (http://www.oracle.com/technetwork/products/berkeleydb/overview/index.html) com.sleepycat:je:jar:5.0.73
+    License: Sleepycat License  (http://download.oracle.com/maven/com/sleepycat/je/license.txt)
+
+
+
