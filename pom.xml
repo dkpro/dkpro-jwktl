@@ -21,7 +21,7 @@
 
     <groupId>org.dkpro.jwktl</groupId>
     <artifactId>dkpro-jwktl</artifactId>
-    <version>1.0.2-SNAPSHOT</version>
+    <version>1.1.0</version>
 
     <name>Java Wiktionary Library (JWKTL)</name>
     <url>http://dkpro.org/jwktl/</url>
@@ -77,7 +77,7 @@
         <connection>scm:git:git://github.com/dkpro/dkpro-jwktl</connection>
         <developerConnection>scm:git:git@github.com:dkpro/dkpro-jwktl.git</developerConnection>
         <url>https://github.com/dkpro/dkpro-jwktl</url>
-        <tag>head</tag>
+        <tag>dkpro-jwktl-1.1.0</tag>
     </scm>
 
     <issueManagement>
