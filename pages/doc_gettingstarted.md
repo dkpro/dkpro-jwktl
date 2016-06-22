@@ -48,7 +48,8 @@ Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database 
 
 {% highlight java %}
   // Connect to the Wiktionary database.
-  IWiktionaryEdition wkt = JWKTL.openEdition(WIKTIONARY_DIRECTORY);
+  File wiktionaryDirectory = new File(TARGET_DIRECTORY);
+  IWiktionaryEdition wkt = JWKTL.openEdition(wiktionaryDirectory);
 
   //TODO: Query the data you need.
 
@@ -56,7 +57,7 @@ Accessing the parsed Wiktionary data is straightforward: Setup a JWKTL database 
   wkt.close();
 {% endhighlight %}
 
-where `WIKTIONARY_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
+where `TARGET_DIRECTORY` is the directory containing the parsed Wiktionary data described in the previous section. If you're able to run this piece of code, you're ready to use JWKTL although nothing has happened (visually) so far.
 
 Using the JWKTL database connection, you can access the individual information types encoded in Wiktionary. Learn more about how to do that by taking a look at 
 * the [JWKTL architecture](/dkpro-jwktl/documentation/architecture/) overview,
