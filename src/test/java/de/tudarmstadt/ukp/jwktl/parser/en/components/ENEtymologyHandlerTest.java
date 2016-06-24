@@ -17,19 +17,21 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
 import static org.junit.Assert.assertNotEquals;
+
 /**
  * Test case for {@link ENEtymologyHandler}.
  * @author Christian M. Meyer
  */
 public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
-
 	/***/
 	public void testBass() throws Exception {
 		IWiktionaryPage page = parse("bass.txt");
@@ -128,5 +130,13 @@ public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
 			"{{m|hit|\uD808\uDE7F\uD808\uDC00\uD808\uDEFB|wa-a-tar|sc=Xsux}}.\n" +
 			"{{rel-bottom}}",
 			entry.getWordEtymology().getText());
+	}
+
+	public void testWhitespaceIsPreserved() throws Exception {
+		ENEtymologyHandler handler = new ENEtymologyHandler();
+		WiktionaryEntry entry = process(handler, "Foo\n", "\n", "Baz\n");
+		final IWikiString etymology = entry.getWordEtymology();
+		assertNotNull(etymology);
+		assertEquals("Foo\n\nBaz", etymology.getText());
 	}
 }

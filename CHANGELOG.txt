@@ -206,7 +206,7 @@ JWKTL-1.0.1 (2014-09-30)
 - Modified: Switched to dkpro-parent-pom 9.
 - Modified: Removed missing dependency xerces:xercesImpl:2.9.1-lucene; no longer needed (#7).
 
-JWKTL-1.1.0 (forthcoming)
+JWKTL-1.1.0 (2016-04-29)
 - Moved to GitHub.
 - Modified: Removed xerces (#6, #28)
 - Fixed: Dump parser is timezone dependent (#9).
@@ -219,9 +219,12 @@ JWKTL-1.1.0 (forthcoming)
 - Added: parsing of entry usage notes
 - Modified: Upgraded to dkpro-parent-pom 11 (#16).
 - Modified: IWiktionaryTranslation.getRawSense() is now persistent (#23).
-- Fixed: Parsing of audio pronunciation with lang tag (#24). 
+- Fixed: Parsing of audio pronunciation with lang tag (#24).
 - Fixed: Missing entry link templates for German forms (#21).
 - Added: Parse translation status
 - Fixed: Parse complete etymologies and relationships
 - Modified: Codebase now requires Java 1.8
 - Modified: Upgraded to dkpro-parent-pom 12.
+
+JWKTL-1.1.1 (forthcoming)
+-

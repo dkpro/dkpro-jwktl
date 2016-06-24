@@ -23,11 +23,15 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParser;
-import junit.framework.TestCase;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryEntryParser;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.ENBlockHandler;
+import de.tudarmstadt.ukp.jwktl.parser.en.components.ENEntryFactory;
+import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
+import junit.framework.TestCase;
 
 /**
  * Abstract test case for English Wiktionary parsers.
@@ -51,5 +55,16 @@ public abstract class ENWiktionaryEntryParserTest extends TestCase {
 		parser.parse(result, text.toString());
 		return result;
 	}
-	
+
+	protected WiktionaryEntry process(ENBlockHandler handler, String... body) {
+		ParsingContext context = new ParsingContext(new WiktionaryPage(), new ENEntryFactory());
+
+		handler.processHead("testing", context);
+		for (String line : body) {
+			handler.processBody(line, context);
+		}
+		handler.fillContent(context);
+
+		return context.findEntry();
+	}
 }
