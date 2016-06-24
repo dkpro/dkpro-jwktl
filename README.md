@@ -15,7 +15,7 @@ semantic relations, and many other lexical information types. The
 API was first described in an LREC 2008 paper.
 
 Further information and documentation is available from the project homepage:
-* http://dkpro.org/dkpro-jwktl/
+* https://dkpro.github.io/dkpro-jwktl/
 * https://www.ukp.tu-darmstadt.de/software/jwktl/
 
 
