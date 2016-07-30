@@ -74,17 +74,14 @@ class WordList implements Iterable<String> {
 			//CM for preventing bug added third
 			if(curlyStartIndex != -1 && curlyEndIndex != -1 && (curlyEndIndex >= curlyStartIndex)){
 				int midIndex = text.indexOf('|',curlyStartIndex);
-				if(midIndex != -1 && midIndex < curlyEndIndex){
+				if (midIndex != -1 && midIndex < curlyEndIndex) {
 					String templateName = text.substring(curlyStartIndex + 2, midIndex);
-					if ("l".equals(templateName) || templateName.startsWith("l/")) {
-						curlyEndIndex = -1;
-					} else
-						comment = text.substring(midIndex+1,curlyEndIndex);
-				}else{
-					comment = text.substring(curlyStartIndex+2,curlyEndIndex);
+					if (!"l".equals(templateName) && !templateName.startsWith("l/")) {
+						comment = text.substring(midIndex + 1, curlyEndIndex);
+					}
+				} else {
+					comment = text.substring(curlyStartIndex + 2, curlyEndIndex);
 				}
-				//startIndex = curlyStartIndex;		// bug fix: this would cause to jump into (startIndex>0) and parse the words before the curly brackets, i.e. empty syns or nothing
-				endIndex = curlyEndIndex + 2;
 			}
 		}
 

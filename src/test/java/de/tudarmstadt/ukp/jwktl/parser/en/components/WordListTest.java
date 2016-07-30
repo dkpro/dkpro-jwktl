@@ -17,6 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import java.util.Collections;
 import java.util.Iterator;
 
 import junit.framework.TestCase;
@@ -74,8 +75,19 @@ public class WordListTest extends TestCase {
 		assertEquals("sense one", parsed.comment);
 	}
 
+	public void testParseLineWithCommentFormattedAsTemplate() {
+		final WordList parsed = WordList.parse("{{sense|one|two}} [[foo]]");
+		assertEquals("one|two", parsed.comment);
+		assertEquals(Collections.singletonList("foo"), parsed.words);
+	}
+
 	public void testOnlyExtractLinkedComponentsOneItem() {
 		final WordList parsed = WordList.parse(" {{l/pt|casa}}");
+		assertEquals(singletonList("casa"), parsed.words);
+	}
+
+	public void testOnlyExtractLinkedComponentsOneItemWithoutInitialWhitespace() {
+		final WordList parsed = WordList.parse("{{l/pt|casa}}");
 		assertEquals(singletonList("casa"), parsed.words);
 	}
 

@@ -227,4 +227,4 @@ JWKTL-1.1.0 (2016-04-29)
 - Modified: Upgraded to dkpro-parent-pom 12.
 
 JWKTL-1.1.1 (forthcoming)
--
+- Fixed: handling of whitespace in ENRelationNHandler

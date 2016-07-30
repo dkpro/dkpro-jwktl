@@ -44,6 +44,18 @@ public class ENRelationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertNull(relation.getLinkType());
 	}
 
+	public void testParseRelationNoWhitespace() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		assertEquals("target", processFirst(handler, "*{{l|en|target}}").getTarget());
+		assertEquals("target", processFirst(handler, "*[[target]]").getTarget());
+	}
+
+	public void testParseRelationExtraWhitespace() throws Exception {
+		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
+		assertEquals("target", processFirst(handler, "*   {{l|en|target}}").getTarget());
+		assertEquals("target", processFirst(handler, "*  [[target]]").getTarget());
+	}
+
 	public void testParseRelationLinkedWithTemplate() throws Exception {
 		ENRelationHandler handler = new ENRelationHandler(DERIVED_TERM, "Derived terms");
 		assertEquals("target", processFirst(handler, "* {{l|en|target}}").getTarget());
