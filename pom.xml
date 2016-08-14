@@ -85,6 +85,16 @@
         <system>GitHub</system>
     </issueManagement>
 
+    <ciManagement>
+        <url>https://travis-ci.org/dkpro/dkpro-jwktl</url>
+        <system>travis</system>
+    </ciManagement>
+
+    <ciManagement>
+        <url>https://zoidberg.ukp.informatik.tu-darmstadt.de/jenkins/job/JWKTL%20-%20Java%20Wiktionary%20Library%20(GitHub)/</url>
+        <system>jenkins</system>
+    </ciManagement>
+
     <properties>
         <javadoc.opts>-Xdoclint:none</javadoc.opts>
     </properties>
