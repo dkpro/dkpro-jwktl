@@ -114,6 +114,12 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals(GrammaticalGender.FEMININE, page.getEntry(0).getGender());
 	}
 
+	public void testGetRawHeadwordLine() throws Exception {
+		assertEquals("{{pt-noun|m|s}}", parse("escritorio.txt").getEntry(0).getRawHeadwordLine());
+		assertEquals("{{de-noun|n|Boots|gen2=Bootes|Boote|Bötchen}}", parse("boot.txt").getEntry(0).getRawHeadwordLine());
+		assertEquals("{{es-noun|f}}", parse("bamba.txt").getEntry(0).getRawHeadwordLine());
+	}
+
 	public void testGetExamples() throws Exception {
 		IWiktionaryPage page = parse("cheio.txt");
 		final IWiktionaryEntry entry = page.getEntry(0);

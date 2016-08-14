@@ -70,6 +70,11 @@ public class ENNonEngWordFormHandlerTest extends TestCase {
 		assertGender(FEMININE, "{{head|pt|plural}} {{g|f}}");
 	}
 
+	public void testGetRawHeadwordLine() throws Exception {
+		handler.parse("{{head|fr|foo}}");
+		assertEquals("{{head|fr|foo}}", handler.getRawHeadwordLine());
+	}
+
 	private void assertGender(GrammaticalGender expectedGender, String line) {
 		assertTrue("could not parse " + line, handler.parse(line));
 		assertEquals(expectedGender, handler.getGenders().get(0));

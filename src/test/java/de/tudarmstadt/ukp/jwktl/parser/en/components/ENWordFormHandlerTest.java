@@ -521,7 +521,13 @@ public class ENWordFormHandlerTest extends ENWiktionaryEntryParserTest {
 //		assertWordFormNoun("kine", GrammaticalNumber.PLURAL, actualIter.next());		
 		assertFalse(actualIter.hasNext());
 	}
-	
+
+	public void testGetRawHeadwordLine() throws Exception {
+		ENWordFormHandler handler = new ENWordFormHandler("lemma");
+		handler.parse("{{en-verb}}");
+		assertEquals("{{en-verb}}", handler.getRawHeadwordLine());
+	}
+
 	/***/
 	public void testDictionary() throws Exception {
 		IWiktionaryPage page = parse("dictionary.txt");

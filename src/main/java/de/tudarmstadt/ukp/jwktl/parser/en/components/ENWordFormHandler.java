@@ -45,6 +45,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 
 	protected List<IWiktionaryWordForm> wordForms;
 	protected String lemma;
+	protected String rawHeadwordLine;
 
 	/** Initializes the handler for the specified lemma. The lemma is
 	 *  required since the inflection templates often defines only affixed
@@ -438,6 +439,7 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 
 	@Override
 	public boolean parse(final String line) {
+		rawHeadwordLine = line;
 		if (line.startsWith("{{en-")) {
 			TemplateParser.parse(line, this);
 			return true;
@@ -454,6 +456,11 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 	@Override
 	public List<GrammaticalGender> getGenders() {
 		return null;
+	}
+
+	@Override
+	public String getRawHeadwordLine() {
+		return rawHeadwordLine;
 	}
 
 	// TODO: Adverb!

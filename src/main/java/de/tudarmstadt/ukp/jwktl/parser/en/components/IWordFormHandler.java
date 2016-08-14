@@ -42,4 +42,10 @@ public interface IWordFormHandler {
 	 * @return the extracted genders (might be null).
 	 */
 	List<GrammaticalGender> getGenders();
+
+	/**
+	 * @return the unprocessed headline
+	 * @see <a href="https://en.wiktionary.org/wiki/Wiktionary:Entry_layout#Headword_line">WT:EL Headword line</a>
+	 */
+	String getRawHeadwordLine();
 }

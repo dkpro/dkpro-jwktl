@@ -23,7 +23,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
-import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
@@ -228,6 +227,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			entry.addSense(sense);
 		}
 		wordFormHandler.getWordForms().forEach(entry::addWordForm);
+		entry.setRawHeadwordLine(wordFormHandler.getRawHeadwordLine());
 
 		List<GrammaticalGender> genders = wordFormHandler.getGenders();
 		if (genders != null)

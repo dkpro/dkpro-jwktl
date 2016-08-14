@@ -66,6 +66,7 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	protected List<IWiktionaryWordForm> wordForms;
 
 	protected List<WiktionarySense> senses;
+	protected transient String rawHeadwordLine;
 
 	/** Instanciates a new, empty entry. */
 	public WiktionaryEntry() {
@@ -136,6 +137,14 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	 *  which normally correponds to a word's lemma). */
 	public void setHeader(final String header) {
 		this.header = header;
+	}
+
+	public String getRawHeadwordLine() {
+		return rawHeadwordLine;
+	}
+
+	public void setRawHeadwordLine(String rawHeadwordLine) {
+		this.rawHeadwordLine = rawHeadwordLine;
 	}
 
 	public ILanguage getWordLanguage() {

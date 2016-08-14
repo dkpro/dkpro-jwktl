@@ -37,10 +37,12 @@ public class ENNonEngWordFormHandler implements IWordFormHandler,
 	private static final Pattern HEAD_PATTERN = Pattern.compile("\\A\\{\\{head|");
 	private static final Pattern NOUN_PATTERN = Pattern.compile("\\A\\{\\{(\\w+)\\-noun");
 	private List<GrammaticalGender> genders;
+	private String rawHeadwordLine;
 
 	@Override
 	public boolean parse(String line) {
 		genders = new LinkedList<>();
+		rawHeadwordLine = line;
 		if (HEAD_PATTERN.matcher(line).find() || NOUN_PATTERN.matcher(line).find()) {
 			TemplateParser.parse(line, this);
 			return true;
@@ -57,6 +59,11 @@ public class ENNonEngWordFormHandler implements IWordFormHandler,
 	@Override
 	public List<GrammaticalGender> getGenders() {
 		return genders;
+	}
+
+	@Override
+	public String getRawHeadwordLine() {
+		return rawHeadwordLine;
 	}
 
 	@Override

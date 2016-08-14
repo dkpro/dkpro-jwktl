@@ -82,6 +82,14 @@ public interface IWiktionaryEntry {
 	 *  different header. */
 	String getHeader();
 
+	/**
+	 *  Returns the unparsed headword line. The format varies from
+	 *  language to language and can therefore not get completely
+	 *  processed. In simple cases the template used is
+	 *  <a href="https://en.wiktionary.org/wiki/Template:head">Template:head</a>.
+	 */
+	String getRawHeadwordLine();
+
 	/** Returns the language of this lexical entry. This does not necessarily
 	 *  correspond to the language of the {@link IWiktionaryEdition}; e.g.,
 	 *  for French entries within the English Wiktionary edition. */
