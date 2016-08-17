@@ -27,6 +27,8 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 
+import static java.util.Arrays.asList;
+
 /**
  * Test case for {@link ENSenseHandler}.
  * @author Christian M. Meyer
@@ -151,5 +153,11 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals(2, examples.size());
 		assertEquals("''Hit the nail on the '''head'''!''", examples.get(0).getText());
 		assertEquals("''The '''head''' of the compass needle is pointing due north.''", examples.get(1).getText());
+	}
+
+	public void testGetCategories() throws Exception {
+		IWiktionaryPage page = parse("head.txt");
+		final List<String> categories = page.getCategories();
+		assertEquals(asList("1000 English basic words", "Anatomy"), categories);
 	}
 }

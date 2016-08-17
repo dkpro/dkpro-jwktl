@@ -17,6 +17,8 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.components;
 
+import java.util.HashSet;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -28,36 +30,45 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author Christian M. Meyer
  */
 public class CategoryHandler extends BlockHandler {
-	
-	protected Pattern categoryPattern;
-	protected String category;
-	
-	/** Instanciate the category worker using the given category head. This
-	 *  is to be the prefix appearing in category templates (e.g., 
+	private Pattern categoryPattern;
+	private Set<String> categories = new HashSet<>();
+
+	/** Instantiate the categories worker using the given categories head. This
+	 *  is to be the prefix appearing in categories templates (e.g.,
 	 *  "Kategorie" for German). */
 	public CategoryHandler(final String categoryHead) {
 		categoryPattern = Pattern.compile(
-			"^\\[\\[" + categoryHead + ":(.+)\\]\\]$");
+			"\\[\\[:?" + categoryHead + ":([^\\]]+)\\]\\]");
 	}
 	
 	public boolean canHandle(String blockHeader) {
-		// Check if the category pattern matches.
-		return categoryPattern.matcher(blockHeader).matches();
+		return blockHeader != null && categoryPattern.matcher(blockHeader).find();
 	}
 	
 	public boolean processHead(final String textLine, final ParsingContext context) {
+		if (textLine == null) {
+			throw new IllegalStateException();
+		}
 		Matcher matcher = categoryPattern.matcher(textLine);
-		if (matcher.find()) {
-			category = matcher.group(1);
-			return true;
-		} else
-			throw new IllegalStateException("Category pattern did not match");		
+		while (matcher.find()) {
+			final String category = matcher.group(1);
+			final int sortKeyStart = category.indexOf("|");
+			if (sortKeyStart != -1) {
+				categories.add(category.substring(0, sortKeyStart));
+			} else {
+				categories.add(category);
+			}
+		}
+		if (categories.isEmpty()) {
+			throw new IllegalStateException("Category pattern did not match");
+		}
+		return true;
 	}
 
 	public void fillContent(final ParsingContext context) {
-		// Add the category to the current page.
-		if (category != null && !category.isEmpty())
+		for (String category : categories) {
 			context.getPage().addCategory(category);
+		}
+		categories.clear();
 	}
-	
 }
