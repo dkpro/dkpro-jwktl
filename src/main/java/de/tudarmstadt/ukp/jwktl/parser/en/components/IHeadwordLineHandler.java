@@ -17,10 +17,30 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
-public class ENWordFormHandlerTest extends WordFormHandlerTest {
-	@Override
-	public void setUp() throws Exception {
-		super.setUp();
-		handler = new ENWordFormHandler("lemma");
+import java.util.regex.Pattern;
+import java.util.stream.Stream;
+
+interface IHeadwordLineHandler {
+	Pattern LEGACY_PATTERN   = Pattern.compile("\\A'''[^']+'''");
+
+	default boolean isTemplate(String line) {
+		return line.startsWith("{{");
+	}
+
+	default boolean isExcludedTemplate(String line) {
+		return Stream.of(
+			"{{wikipedia",
+			"{{slim-wikipedia",
+			"{{attention",
+			"{{rfc-header"
+		).anyMatch(line::contains);
+	}
+
+	default boolean isLegacyHeader(String line) {
+		return LEGACY_PATTERN.matcher(line).find();
+	}
+
+	default boolean isHeadwordLine(String line) {
+		return isLegacyHeader(line) || (isTemplate(line) && !isExcludedTemplate(line));
 	}
 }

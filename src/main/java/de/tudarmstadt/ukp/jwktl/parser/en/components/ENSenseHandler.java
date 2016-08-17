@@ -132,7 +132,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			return takeControl;
 
 		boolean additionalLine = false;
-		if (!line.startsWith("#") && !line.startsWith("{")) {
+		if (lastPrefix != null && !line.startsWith("#") && !line.startsWith("{")) {
 			line = lastPrefix + line;
 			additionalLine = true;
 		}

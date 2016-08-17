@@ -17,15 +17,13 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
+
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.FEMININE;
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.MASCULINE;
 import static de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender.NEUTER;
-import junit.framework.TestCase;
-import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 
-public class ENNonEngWordFormHandlerTest extends TestCase {
-	private ENNonEngWordFormHandler handler;
-
+public class ENNonEngWordFormHandlerTest extends WordFormHandlerTest {
 	@Override
 	public void setUp() throws Exception {
 		super.setUp();
@@ -70,9 +68,14 @@ public class ENNonEngWordFormHandlerTest extends TestCase {
 		assertGender(FEMININE, "{{head|pt|plural}} {{g|f}}");
 	}
 
-	public void testGetRawHeadwordLine() throws Exception {
-		handler.parse("{{head|fr|foo}}");
+	public void testGetRawHeadwordLineHeadTemplate() throws Exception {
+		assertTrue(handler.parse("{{head|fr|foo}}"));
 		assertEquals("{{head|fr|foo}}", handler.getRawHeadwordLine());
+	}
+
+	public void testGetRawHeadwordLineNounTemplate() throws Exception {
+		assertTrue(handler.parse("{{de-noun|foo}}"));
+		assertEquals("{{de-noun|foo}}", handler.getRawHeadwordLine());
 	}
 
 	private void assertGender(GrammaticalGender expectedGender, String line) {

@@ -32,19 +32,25 @@ import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser.Template;
  * Support for parsing word forms for non-English entries in the English Wiktionary.
  */
 public class ENNonEngWordFormHandler implements IWordFormHandler,
+		IHeadwordLineHandler,
 		TemplateParser.ITemplateHandler {
 
-	private static final Pattern HEAD_PATTERN = Pattern.compile("\\A\\{\\{head|");
+	private static final Pattern HEAD_PATTERN = Pattern.compile("\\A\\{\\{head\\|");
 	private static final Pattern NOUN_PATTERN = Pattern.compile("\\A\\{\\{(\\w+)\\-noun");
 	private List<GrammaticalGender> genders;
 	private String rawHeadwordLine;
 
 	@Override
 	public boolean parse(String line) {
-		genders = new LinkedList<>();
-		rawHeadwordLine = line;
-		if (HEAD_PATTERN.matcher(line).find() || NOUN_PATTERN.matcher(line).find()) {
+		if (rawHeadwordLine != null) {
+			return false; // already done
+		} else if (canExtractGenderInformation(line)) {
+			rawHeadwordLine = line;
+			genders = new LinkedList<>();
 			TemplateParser.parse(line, this);
+			return true;
+		} else if (isHeadwordLine(line)) {
+			rawHeadwordLine = line;
 			return true;
 		} else {
 			return false;
@@ -120,5 +126,10 @@ public class ENNonEngWordFormHandler implements IWordFormHandler,
 		}
 		if (gender != null)
 			genders.add(gender);
+	}
+
+	private boolean canExtractGenderInformation(String line) {
+		return HEAD_PATTERN.matcher(line).find() ||
+				NOUN_PATTERN.matcher(line).find();
 	}
 }

@@ -39,7 +39,9 @@ import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser.Template;
  * the English Wiktionary.
  * @author Christian M. Meyer
  */
-public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
+public class ENWordFormHandler implements ITemplateHandler,
+		IWordFormHandler,
+		IHeadwordLineHandler {
 
 	private static final Logger logger = Logger.getLogger(ENWordFormHandler.class.getName());
 
@@ -439,9 +441,14 @@ public class ENWordFormHandler implements ITemplateHandler, IWordFormHandler {
 
 	@Override
 	public boolean parse(final String line) {
-		rawHeadwordLine = line;
-		if (line.startsWith("{{en-")) {
+		if (rawHeadwordLine != null) {
+			return false; // already done
+		} else if (line.startsWith("{{en-")) {
+			rawHeadwordLine = line;
 			TemplateParser.parse(line, this);
+			return true;
+		} else if (isHeadwordLine(line)) {
+			rawHeadwordLine = line;
 			return true;
 		} else {
 			return false;
