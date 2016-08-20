@@ -25,11 +25,34 @@ public abstract class WordFormHandlerTest extends TestCase {
 	public void testIgnoreWikipedia() {
 		assertFalse(handler.parse("{{wikipedia}}"));
 		assertFalse(handler.parse("{{wikipedia|lang=de}}"));
+		assertFalse(handler.parse("{{Wikipedia}}"));
 	}
 
 	public void testIgnoreSlimWikipedia() {
 		assertFalse(handler.parse("{{slim-wikipedia}}"));
 		assertFalse(handler.parse("{{slim-wikipedia|lang=de}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:wikispecies
+	public void testIgnoreWikispecies() {
+		assertFalse(handler.parse("{{wikispecies}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:examples
+	// https://en.wiktionary.org/wiki/Template:examples-right
+	public void testIgnoreExamples() {
+		assertFalse(handler.parse("{{examples|Foo}}"));
+		assertFalse(handler.parse("{{examples-right|Foo}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:enum
+	public void testIgnoreEnum() {
+		assertFalse(handler.parse("{{enum|Foo}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:no_entry
+	public void testIgnoreNoEntry() {
+		assertFalse(handler.parse("{{no entry|}}"));
 	}
 
 	public void testIgnoreImageLinks() {

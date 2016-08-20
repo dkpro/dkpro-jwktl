@@ -31,9 +31,13 @@ interface IHeadwordLineHandler {
 		return Stream.of(
 			"{{wikipedia",
 			"{{slim-wikipedia",
+			"{{wikispecies",
 			"{{attention",
-			"{{rfc-header"
-		).anyMatch(line::contains);
+			"{{rfc-header",
+			"{{examples",
+			"{{enum|",
+			"{{no entry"
+		).anyMatch(templ -> line.toLowerCase().contains(templ));
 	}
 
 	default boolean isLegacyHeader(String line) {
