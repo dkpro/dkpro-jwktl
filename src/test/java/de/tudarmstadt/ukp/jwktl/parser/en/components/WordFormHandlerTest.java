@@ -22,20 +22,40 @@ import junit.framework.TestCase;
 public abstract class WordFormHandlerTest extends TestCase {
 	protected IWordFormHandler handler;
 
+	// https://en.wiktionary.org/wiki/Template:wikipedia
 	public void testIgnoreWikipedia() {
 		assertFalse(handler.parse("{{wikipedia}}"));
 		assertFalse(handler.parse("{{wikipedia|lang=de}}"));
 		assertFalse(handler.parse("{{Wikipedia}}"));
 	}
 
+	// redirects Template:wikipedia
+	public void testIgnoreWiki() {
+		assertFalse(handler.parse("{{wiki}}"));
+		assertFalse(handler.parse("{{Wiki}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:slim-wikipedia
 	public void testIgnoreSlimWikipedia() {
 		assertFalse(handler.parse("{{slim-wikipedia}}"));
 		assertFalse(handler.parse("{{slim-wikipedia|lang=de}}"));
 	}
 
+	// https://en.wiktionary.org/wiki/Template:wikiquote
+	public void testIgnoreWikiquote() {
+		assertFalse(handler.parse("{{wikiquote}}"));
+	}
+
+
+	// https://en.wiktionary.org/wiki/Template:wikiversity
+	public void testIgnoreWikiversity() {
+		assertFalse(handler.parse("{{wikiversity}}"));
+	}
+
 	// https://en.wiktionary.org/wiki/Template:wikispecies
 	public void testIgnoreWikispecies() {
 		assertFalse(handler.parse("{{wikispecies}}"));
+		assertFalse(handler.parse("{{wikispecies|Popillia japonica}}"));
 	}
 
 	// https://en.wiktionary.org/wiki/Template:examples
@@ -59,10 +79,17 @@ public abstract class WordFormHandlerTest extends TestCase {
 		assertFalse(handler.parse("[[File:Foo.jpg|thumb|right|Bar]]"));
 	}
 
+	// https://en.wiktionary.org/wiki/Template:rfc-header
 	public void testIgnoreRfcHeader() {
 		assertFalse(handler.parse("{{rfc-header|Abbreviation}}"));
 	}
 
+	// https://en.wiktionary.org/wiki/Template:rfc
+	public void testIgnoreRfc() {
+		assertFalse(handler.parse("{{rfc|a reason}}"));
+	}
+
+	// https://en.wiktionary.org/wiki/Template:attention
 	public void testIgnoreAttentionHeader() {
 		assertFalse(handler.parse("{{attention|de|needs a headword}}"));
 	}

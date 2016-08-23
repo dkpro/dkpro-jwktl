@@ -31,9 +31,13 @@ interface IHeadwordLineHandler {
 		return Stream.of(
 			"{{wikipedia",
 			"{{slim-wikipedia",
+			"{{wiki}}",
 			"{{wikispecies",
+			"{{wikiversity",
+			"{{wikiquote",
+			"{{commons",
 			"{{attention",
-			"{{rfc-header",
+			"{{rfc",
 			"{{examples",
 			"{{enum|",
 			"{{no entry"
