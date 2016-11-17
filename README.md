@@ -1,6 +1,7 @@
 JWKTL
 -----
 [![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
+[![codecov.io](http://codecov.io/github/dkpro/dkpro-jwktl/coverage.svg?branch=master)](http://codecov.io/github/dkpro/dkpro-jwktl?branch=master)
 
 Summary
 -------
