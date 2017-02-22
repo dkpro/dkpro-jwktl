@@ -34,8 +34,8 @@ License and Availability
 The latest version of JWKTL is available via [Maven Central](http://search.maven.org/#search%7Cga%7C1%7Ca%3A%22jwktl%22). If you use Maven as your build tool, then you can add JWKTL as a dependency in your pom.xml file:
 
 		<dependency>
-		  <groupId>de.tudarmstadt.ukp.jwktl</groupId>
-		  <artifactId>jwktl</artifactId>
+		  <groupId>org.dkpro.jwktl</groupId>
+                  <artifactId>dkpro-jwktl</artifactId>
 		  <version>1.1.0</version>
 		</dependency>
 
