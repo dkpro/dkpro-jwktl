@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
+import de.tudarmstadt.ukp.jwktl.api.RelationType;
 import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
 
 /**
@@ -39,6 +40,8 @@ public class EnGlossEntry {
 	// a list of examples
 	private List<String> exampleList = new ArrayList<>();
 	private Map<String, String> exampleTranslations = new HashMap<>();
+	// relations
+	private Map<RelationType, List<String>> relations = new HashMap<>();
 
 	// a list of quotation
 	private List<Quotation> quotationList = new ArrayList<>();
@@ -79,6 +82,13 @@ public class EnGlossEntry {
 			exampleTranslations.put(exampleList.get(exampleList.size() - 1), translation);
 		}
 	}
+
+	public void addRelation(RelationType type, String term) {
+		List<String> terms = relations.getOrDefault(type, new ArrayList<>());
+		terms.add(term);
+		relations.put(type, terms);
+	}
+
 	/** Add specified quotation to the list. */
 	public void addQuotation(Quotation quotation){
 		quotationList.add(quotation);
@@ -99,5 +109,9 @@ public class EnGlossEntry {
 	public void setGloss(final String definition) {
 		this.definition = definition;
 	}
-	
+
+	/** Returns the parsed relations for this gloss */
+	public Map<RelationType,List<String>> getRelations() {
+		return new HashMap<>(relations);
+	}
 }
