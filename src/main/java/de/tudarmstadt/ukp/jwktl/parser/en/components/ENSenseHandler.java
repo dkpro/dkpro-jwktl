@@ -287,14 +287,17 @@ public class ENSenseHandler extends ENBlockHandler {
 	}
 
 	private RelationType getRelationType(TemplateParser.Template template) {
+		// https://en.wiktionary.org/wiki/Template:synonyms
+		// https://en.wiktionary.org/wiki/Template:antonyms
 		switch (template.getName()) {
 			case "syn":
-			case "synonym":
+			case "synonyms":
 				return RelationType.SYNONYM;
 			case "ant":
-			case "antonym":
+			case "antonyms":
 				return RelationType.ANTONYM;
-			default: return null;
+			default:
+				return null;
 		}
 	}
 }

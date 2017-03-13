@@ -30,8 +30,10 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
+import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 import static java.util.Arrays.asList;
 import static java.util.stream.Collectors.toList;
@@ -169,7 +171,37 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals(asList("1000 English basic words", "Anatomy"), categories);
 	}
 
-	public void testSynonymsAndAntonyms() throws Exception {
+	public void testParseSenseSynonyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{syn|en|foo|bar}}", context);
+		handler.processBody("#: {{synonyms|en|baz}}", context);
+		handler.fillContent(context);
+		assertEquals(1, page.getEntryCount());
+		assertEquals(1, page.getEntry(0).getSenseCount());
+		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.SYNONYM);
+		assertEquals(asList("foo", "bar", "baz"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseAntonyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{ant|en|foo|bar}}", context);
+		handler.processBody("#: {{antonyms|en|baz}}", context);
+		handler.fillContent(context);
+		assertEquals(1, page.getEntryCount());
+		assertEquals(1, page.getEntry(0).getSenseCount());
+		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
+		assertEquals(asList("foo", "bar", "baz"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSynonymsAndAntonymsCombined() throws Exception {
 		IWiktionaryPage page = parse("garçon.txt");
 		final IWiktionaryEntry entry = page.getEntry(0);
 
