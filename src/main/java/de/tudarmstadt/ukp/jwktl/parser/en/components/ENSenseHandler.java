@@ -35,7 +35,6 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
-import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
 import static de.tudarmstadt.ukp.jwktl.parser.util.StringUtils.cleanText;
 
