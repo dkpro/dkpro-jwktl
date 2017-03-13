@@ -197,8 +197,8 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		handler.fillContent(context);
 		assertEquals(1, page.getEntryCount());
 		assertEquals(1, page.getEntry(0).getSenseCount());
-		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
-		assertEquals(asList("foo", "bar", "baz"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
 	}
 
 	public void testParseSynonymsAndAntonymsCombined() throws Exception {
