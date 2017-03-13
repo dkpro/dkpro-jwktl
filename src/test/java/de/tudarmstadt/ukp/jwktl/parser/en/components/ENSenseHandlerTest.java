@@ -178,12 +178,12 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		handler.processHead("", context);
 		handler.processBody("# gloss", context);
 		handler.processBody("#: {{syn|en|foo|bar}}", context);
-		handler.processBody("#: {{synonyms|en|baz}}", context);
+		handler.processBody("#: {{synonyms|en|baz|[[quux]]}}", context);
 		handler.fillContent(context);
 		assertEquals(1, page.getEntryCount());
 		assertEquals(1, page.getEntry(0).getSenseCount());
 		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.SYNONYM);
-		assertEquals(asList("foo", "bar", "baz"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+		assertEquals(asList("foo", "bar", "baz", "quux"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
 	}
 
 	public void testParseSenseAntonyms() throws Exception {

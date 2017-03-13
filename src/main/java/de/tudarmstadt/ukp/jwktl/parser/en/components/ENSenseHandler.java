@@ -35,6 +35,9 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
+import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
+
+import static de.tudarmstadt.ukp.jwktl.parser.util.StringUtils.cleanText;
 
 /**
  * <p>Extract POS, gloss and inner-definition quotations. It checks if a string is in a predefined pos set,
@@ -279,7 +282,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			RelationType type = getRelationType(template);
 			if (type != null) {
 				for (int i=1; i<template.getNumberedParamsCount(); i++) {
-					glossEntry.addRelation(type, template.getNumberedParam(i));
+					glossEntry.addRelation(type, cleanText(template.getNumberedParam(i)));
 				}
 			}
 			return null;
