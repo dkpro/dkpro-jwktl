@@ -83,5 +83,12 @@ public class StringUtilsTest extends TestCase {
 		assertTrue(indexSet.remove(11));
 		assertTrue(indexSet.isEmpty());
 	}
-	
+
+	public void testCleanText() {
+		assertEquals("foo", StringUtils.cleanText("[[foo]] "));
+	}
+
+	public void testStripMarkup() {
+		assertEquals("foo", StringUtils.stripMarkup("[[foo]]"));
+	}
 }

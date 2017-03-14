@@ -230,3 +230,4 @@ JWKTL-1.1.1 (forthcoming)
 - Fixed: Handling of whitespace in ENRelationNHandler.
 - Added: Made the headword line available for further parsing.
 - Modified: Improved category parsing.
+- Modified: Improved synonym/antonym parsing.

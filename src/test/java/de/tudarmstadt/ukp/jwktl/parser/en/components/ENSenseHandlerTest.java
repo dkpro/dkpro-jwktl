@@ -17,17 +17,27 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.en.components;
 
+import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
+import de.tudarmstadt.ukp.jwktl.api.RelationType;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
+import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 import static java.util.Arrays.asList;
+import static java.util.stream.Collectors.toList;
+import static java.util.stream.Collectors.toSet;
 
 /**
  * Test case for {@link ENSenseHandler}.
@@ -159,5 +169,62 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		IWiktionaryPage page = parse("head.txt");
 		final List<String> categories = page.getCategories();
 		assertEquals(asList("1000 English basic words", "Anatomy"), categories);
+	}
+
+	public void testParseSenseSynonyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{syn|en|foo|bar}}", context);
+		handler.processBody("#: {{synonyms|en|baz|[[quux]]}}", context);
+		handler.fillContent(context);
+		assertEquals(1, page.getEntryCount());
+		assertEquals(1, page.getEntry(0).getSenseCount());
+		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.SYNONYM);
+		assertEquals(asList("foo", "bar", "baz", "quux"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseAntonyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{ant|en|foo|bar}}", context);
+		handler.processBody("#: {{antonyms|en|baz}}", context);
+		handler.fillContent(context);
+		assertEquals(1, page.getEntryCount());
+		assertEquals(1, page.getEntry(0).getSenseCount());
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSynonymsAndAntonymsCombined() throws Exception {
+		IWiktionaryPage page = parse("garçon.txt");
+		final IWiktionaryEntry entry = page.getEntry(0);
+
+		assertEquals(3, entry.getSenseCount());
+		final List<IWiktionaryExample> examples = entry.getExamples();
+		assertEquals(2, examples.size());
+		assertEquals("{{ux|fr|Il a deux '''garçons''' et une fille.|He has two '''boys''' and a daughter.}}", examples.get(0).getText());
+		assertEquals("{{ux|fr|'''Garçon''', l'addition s'il vous plaît.|'''Waiter''', the bill please.|inline=1}}", examples.get(1).getText());
+
+		final IWiktionarySense sense1 = entry.getSense(1);
+		final IWiktionarySense sense2 = entry.getSense(2);
+		final IWiktionarySense sense3 = entry.getSense(3);
+
+		Function<IWiktionarySense, Set<String>> synonyms = sense -> sense.getRelations(RelationType.SYNONYM).stream().map(IWiktionaryRelation::getTarget).collect(toSet());
+		Function<IWiktionarySense, Set<String>> antonyms = sense -> sense.getRelations(RelationType.ANTONYM).stream().map(IWiktionaryRelation::getTarget).collect(toSet());
+		// boy
+		assertEquals(new HashSet<>(asList("gamin", "fils")), synonyms.apply(sense1));
+		assertEquals(new HashSet<>(asList("adulte")), antonyms.apply(sense1));
+		// man
+		assertEquals(new HashSet<>(asList("homme")), synonyms.apply(sense2));
+		assertTrue(antonyms.apply(sense2).isEmpty());
+		// waiter
+		assertEquals(new HashSet<>(asList("serveur", "serviteur")), synonyms.apply(sense3));
+		assertTrue(antonyms.apply(sense3).isEmpty());
 	}
 }

@@ -36,6 +36,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
 import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
+import static de.tudarmstadt.ukp.jwktl.parser.util.StringUtils.cleanText;
 
 /**
  * Parser component for extracting translations from the English Wiktionary. 
@@ -256,20 +257,6 @@ public class ENTranslationHandler extends ENBlockHandler {
 		
 		for (Entry<String, String> e : namedParams.entrySet())
 			result[idx++] = e.getKey() + "=" + e.getValue();
-		return result;
-	}
-
-	protected String cleanText(final String text) {
-		String result = stripMarkup(text);
-		return result.trim();
-	}
-
-	private String stripMarkup(String text) {
-		String result = text;
-		result = result.replace("[[", "");
-		result = result.replace("]]", "");
-		result = result.replace("'''", "");
-		result = result.replace("''", "");
 		return result;
 	}
 

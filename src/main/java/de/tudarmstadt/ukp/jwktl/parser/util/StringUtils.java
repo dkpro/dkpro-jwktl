@@ -110,34 +110,18 @@ public /*static*/ final class StringUtils {
 			result.add(currIdx);
 		return result;
 	}
-	
 
-	/*
-	 * <p> Get all wikify words.
-	 * 
-	 * @param text text 
-	 * @param startIndex start index to find wikify words
-	 * @return a set of found wikify words. If nothing is found, empty set is returned.
-	 * /
-	public static Set<String> getLinkedWords(String text, int startIndex){
-		Set<String> result = new HashSet<String>();
-		int start = text.indexOf("[[",startIndex);
-		while(start!=-1){
-			int end = text.indexOf("]]",start);
-			if(end > (start+2)){
-				String word = text.substring(start+2,end);
-				int indexMid = word.lastIndexOf("|");
-				if(indexMid != -1){
-					result.add(word.substring(indexMid+1,word.length()));
-				}else{
-					result.add(word);
-				}
-				start = text.indexOf("[[",end);
-			}else{
-				start = -1;
-			}			
-		}
+	public static String cleanText(final String text) {
+		String result = stripMarkup(text);
+		return result.trim();
+	}
+
+	public static String stripMarkup(String text) {
+		String result = text;
+		result = result.replace("[[", "");
+		result = result.replace("]]", "");
+		result = result.replace("'''", "");
+		result = result.replace("''", "");
 		return result;
-	}*/
-	
+	}
 }

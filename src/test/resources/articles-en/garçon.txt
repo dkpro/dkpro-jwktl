@@ -1,0 +1,40 @@
+==French==
+
+===Etymology===
+From {{etyl|frm|fr}}, from {{etyl|fro|fr}} {{m|fro|garçun||servant}}, oblique case of {{m|fro|gars}}, from {{etyl|frk|fr}} {{m|frk|*wrakjō||servant, boy}} from {{etyl|gem-pro|fr}} {{m|gem-pro|*wrakjô||exile, driven one}}, from {{etyl|ine-pro|fr}} {{m|ine-pro|*wreg-||to drive}}. Cognate with {{cog|goh|wrecheo}}, {{m|goh|recko||exile, warrior, hero}} (Modern {{cog|de|Recke}}), {{cog|osx|wrekkio||a banished person, exile, stranger}}, {{cog|ang|wreċċa||a wretch, stranger, exile}}, and perhaps to {{cog|non|rekkr||man, warrior, hero}}. More at {{l|en|wretch}}, {{l|en|wreak}}.
+
+===Pronunciation===
+* {{audio|Fr-garçon.ogg|audio (un garçon)|lang=fr}}
+* {{IPA|/ɡaʁsɔ̃/|lang=fr}}
+
+===Noun===
+{{fr-noun|m}}
+
+# {{l|en|boy}}
+#: {{ux|fr|Il a deux '''garçons''' et une fille.|He has two '''boys''' and a daughter.}}
+#: {{syn|fr|gamin}}
+#: {{ant|fr|adulte}}
+# {{lb|fr|by extension}} {{l|en|[[young]] [[man]]}}; {{l|en|man}}
+#: {{syn|fr|homme}}
+# {{l|en|waiter}}
+#: {{ux|fr|'''Garçon''', l'addition s'il vous plaît.|'''Waiter''', the bill please.|inline=1}}
+#: {{syn|fr|serveur|serviteur}}
+
+
+====Synonyms====
+* {{sense|boy}} {{l|fr|fils}}
+
+====Derived terms====
+* {{l|fr|garçonnet}}
+
+====See also====
+* {{l|fr|fille}}
+* {{l|fr|fils}}
+
+===References===
+* ''Merriam-Webster's Collegiate Dictionary: Tenth Edition'' (1997)
+
+===External links===
+* {{R:TLFi}}
+
+----

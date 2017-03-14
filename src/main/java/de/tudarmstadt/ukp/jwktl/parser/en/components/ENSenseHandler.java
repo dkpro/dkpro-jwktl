@@ -24,14 +24,19 @@ import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
+import de.tudarmstadt.ukp.jwktl.api.RelationType;
 import de.tudarmstadt.ukp.jwktl.api.entry.Quotation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryExample;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
+
+import static de.tudarmstadt.ukp.jwktl.parser.util.StringUtils.cleanText;
 
 /**
  * <p>Extract POS, gloss and inner-definition quotations. It checks if a string is in a predefined pos set,
@@ -225,6 +230,11 @@ public class ENSenseHandler extends ENBlockHandler {
 			}
 			senseEntry.getQuotations().forEach(sense::addQuotation);
 			entry.addSense(sense);
+			senseEntry.getRelations()
+				.entrySet()
+				.stream()
+				.flatMap(e ->  e.getValue().stream().map(target -> new WiktionaryRelation(target, e.getKey())))
+				.forEach(sense::addRelation);
 		}
 		wordFormHandler.getWordForms().forEach(entry::addWordForm);
 		entry.setRawHeadwordLine(wordFormHandler.getRawHeadwordLine());
@@ -234,24 +244,62 @@ public class ENSenseHandler extends ENBlockHandler {
 			genders.forEach(entry::addGender);
 	}
 
+	private boolean isNym(String line) {
+		return line.contains("{{syn") || line.contains("{{ant");
+	}
+
 	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {
-		final String example = line.substring(currentPrefix.length()).trim();
+		final String lineContent = line.substring(currentPrefix.length()).trim();
 		if (!glossEntryList.isEmpty()) {
 			EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
-			final boolean translatedExample =
-					lastPrefix != null &&
-					EXAMPLE_PATTERN.matcher(lastPrefix).matches() &&
-					currentPrefix.length() > lastPrefix.length();
-
-			if (additionalLine) {
-				glossEntry.appendExample(example, " ");
-			} else if (translatedExample) {
-				glossEntry.appendExampleTranslation(example);
+			if (isNym(lineContent)) {
+				parseNym(lineContent, glossEntry);
 			} else {
-				glossEntry.addExample(example);
+				parseExample(lineContent, currentPrefix, additionalLine, glossEntry);
 			}
 		}
 		lastPrefix = currentPrefix;
 		takeControl = false;
+	}
+
+	private void parseExample(String lineContent, String currentPrefix, boolean additionalLine, EnGlossEntry glossEntry) {
+		final boolean translatedExample =  lastPrefix != null &&
+			EXAMPLE_PATTERN.matcher(lastPrefix).matches() &&
+			currentPrefix.length() > lastPrefix.length();
+
+		if (additionalLine) {
+			glossEntry.appendExample(lineContent, " ");
+		} else if (translatedExample) {
+			glossEntry.appendExampleTranslation(lineContent);
+		} else {
+			glossEntry.addExample(lineContent);
+		}
+	}
+
+	private void parseNym(String line, EnGlossEntry glossEntry) {
+		TemplateParser.parse(line, template -> {
+			RelationType type = getRelationType(template);
+			if (type != null) {
+				for (int i=1; i<template.getNumberedParamsCount(); i++) {
+					glossEntry.addRelation(type, cleanText(template.getNumberedParam(i)));
+				}
+			}
+			return null;
+		});
+	}
+
+	private RelationType getRelationType(TemplateParser.Template template) {
+		// https://en.wiktionary.org/wiki/Template:synonyms
+		// https://en.wiktionary.org/wiki/Template:antonyms
+		switch (template.getName()) {
+			case "syn":
+			case "synonyms":
+				return RelationType.SYNONYM;
+			case "ant":
+			case "antonyms":
+				return RelationType.ANTONYM;
+			default:
+				return null;
+		}
 	}
 }
