@@ -3,8 +3,7 @@ jdk:
   - oraclejdk8
 
 script:
-  - mvn install -DskipTests
   - mvn test
 
 after_success:
-    - bash <(curl -s https://codecov.io/bash)
+  - bash <(curl -s https://codecov.io/bash)
