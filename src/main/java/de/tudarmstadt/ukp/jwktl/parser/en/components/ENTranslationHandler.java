@@ -2,13 +2,13 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -26,40 +26,42 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryTranslation;
-import de.tudarmstadt.ukp.jwktl.api.entry.WikiString;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryTranslation;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
-import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
+import static de.tudarmstadt.ukp.jwktl.api.entry.WikiString.removeWikiLinks;
 import static de.tudarmstadt.ukp.jwktl.parser.en.components.ENSemanticRelationHandler.findMatchingSense;
 import static de.tudarmstadt.ukp.jwktl.parser.util.StringUtils.cleanText;
 
 /**
- * Parser component for extracting translations from the English Wiktionary. 
+ * Parser component for extracting translations from the English Wiktionary.
  * @author Christian M. Meyer
  * @author Lizhen Qu
  */
 public class ENTranslationHandler extends ENBlockHandler {
-	
-//	private static final String UNCATEGORIZED_TRANSLATIONS = "translations to be categorised";
+	private static final Pattern LANGUAGE = Pattern.compile("^\\*:?\\s*(.*?):\\s*");
+	private static final Pattern SEPARATOR = Pattern.compile("(?:]]|}}|\\))\\s*([;,])");
 
-	protected static final Pattern TRANSLATION_PATTERN = Pattern.compile(
-			"^\\*:?\\s*" + "(.*?):\\s*"
-			+ "(.*?)" + "(?:\\{\\{(t.*?)\\}\\}|\\[\\[(.*?)\\]\\])" + "(.*)$");
-	protected static final Pattern ADDITIONAL_TRANSLATION_PATTERN = Pattern.compile(
-			"^\\s*"
-			+ "(.*?)" + "(?:\\{\\{(t.*?)\\}\\}|\\[\\[(.*?)\\]\\])" + "(.*)$");
-	protected static final Pattern NEXT_TRANSLATION_PATTERN = Pattern.compile(
-			"^(.*?)(?:[,;]+|(\\{\\{t\\S*\\|))(.*)$");
-	
-	protected String currentSense; 		
-	protected Map<String, List<IWiktionaryTranslation>> sensNum2trans;
+	private static final Pattern WIKILINK_TRANSLATION = Pattern.compile("(?:\\[\\[.*?]]\\s*)+");
+	private static final Pattern TEMPLATE_TRANSLATION = Pattern.compile("\\{\\{t.*?}}");
 
-	/** Initializes the block handler for parsing all sections starting with 
+	private static final Pattern TRANSLATION = Pattern.compile(
+		"^" +
+		"(?<prefix>.*\\s+)??" +
+		"(?<content>" + WIKILINK_TRANSLATION + "|" + TEMPLATE_TRANSLATION + ")" +
+		"(?<postfix>.*)" +
+		"$"
+	);
+
+	private String currentSense;
+	private Map<String, List<IWiktionaryTranslation>> sensNum2trans;
+
+	/** Initializes the block handler for parsing all sections starting with
 	 *  one of the specified labels. */
 	public ENTranslationHandler() {
 		super("Translations");
@@ -69,13 +71,13 @@ public class ENTranslationHandler extends ENBlockHandler {
 	public boolean processHead(final String text, final ParsingContext context) {
 		currentSense = "";
 		sensNum2trans = new TreeMap<>();
-		return true;			
+		return true;
 	}
-	
+
 	@Override
 	public boolean processBody(String text, final ParsingContext context) {
 		text = text.trim();
-				
+
 		if (text.startsWith("{{trans-mid}}") || text.startsWith("{{mid}}"))
 			return true;
 		if (text.startsWith("{{trans-top|")) {
@@ -90,174 +92,101 @@ public class ENTranslationHandler extends ENBlockHandler {
 			return false;
 		if (text.startsWith("{{") || text.startsWith("==")) // Indicates that a new block has just started.
 			return false;
-		
-//		if (text.startsWith("*")) {
-		Matcher matcher = TRANSLATION_PATTERN.matcher(text);
-		if (matcher.find()) {
-			boolean usesTemplate = true;
-			String language = matcher.group(1);
-			String prefix = matcher.group(2);
-			String translation = matcher.group(3);
-			if (translation == null) {
-				translation = matcher.group(4);
-				usesTemplate = false;
-			}
-			String additionalInformation = matcher.group(5);
-						
-			String remainingText;
-			do {
-				// Check for additional translations.
-				remainingText = null;
-				matcher = NEXT_TRANSLATION_PATTERN.matcher(additionalInformation);
-				if (matcher.find()) {
-					additionalInformation = matcher.group(1).trim();
-					remainingText = matcher.group(2);
-					if (remainingText == null)
-						remainingText = matcher.group(3);
-					else
-						remainingText += matcher.group(3);
-					
-					if (additionalInformation.endsWith(":")) {
-						remainingText = additionalInformation + remainingText;
-						additionalInformation = "";
-					}
-				}			
 
-				// Prepare the translation.
-				language = language.replace("[", "");
-				language = language.replace("]", "");
-				language = language.replace("*", "");		
-				language = language.trim();
-				ILanguage translatedLang = Language.findByName(language);
-				
-				Map<String, String> namedParams = new TreeMap<>();
-				String[] fields = null;
-				String translationText = translation;
-				if (usesTemplate) {
-					fields = reorderTemplateParams(StringUtils.split(translation, '|'), namedParams);
-					if (fields != null && fields.length >= 3) {
-						if (translatedLang == null)
-							translatedLang = Language.findByCode(fields[1]);
-						translationText = WikiString.removeWikiLinks(fields[2]).trim();
-					} else
-						translationText = null;
-				} else {
-					int i = translation.indexOf('|'); // [[...|...]]
-					if (i >= 0)
-						translationText = cleanText(translation.substring(i + 1));
-				}
-
-				if (translationText != null && !translationText.isEmpty()) {
-					//TODO: sub languages.
-//					if (translatedLang == null && !language.isEmpty() && !"Roman".equals(language) && !"Cyrillic".equals(language))
-//						System.err.println("Unknown language for translation: " + language + " (" + context.getPage().getTitle() + ")");
-//						translatedLang = Language.UNKNOWN;
-
-					/*if (!usesTemplate && !additionalInformation.contains("{")) {
-						translationText = translationText + additionalInformation;
-						translationText = translationText.replace("[", "");
-						translationText = translationText.replace("]", "");
-//							translationText = CLEANUP_PATTERN.matcher(translationText).replaceAll("");
-						translationText = translationText.trim();
-						additionalInformation = "";
-					}*/
-
-					WiktionaryTranslation trans = new WiktionaryTranslation(translatedLang, translationText);
-					if (currentSense != null && currentSense.trim().length() > 0) {
-						trans.setRawSense(currentSense.trim());
-					}
-					trans.setCheckNeeded(determineCheckNeeded(fields));
-
-					String transliteration = namedParams.get("tr");
-					if (transliteration != null)
-						trans.setTransliteration(cleanText(transliteration));
-
-					String gender = null;
-					if (fields != null && fields.length > 3 && !fields[3].contains("="))
-						gender = "{{" + fields[3] + "}}";
-					if (gender != null)
-						additionalInformation = gender + " " + additionalInformation;
-
-					additionalInformation = cleanText(prefix + " " + additionalInformation);
-					trans.setAdditionalInformation(additionalInformation);
-
-					// Save the translation
-					List<IWiktionaryTranslation> translations = sensNum2trans.get(currentSense);
-					if (translations == null) {
-						translations = new ArrayList<>();
-						sensNum2trans.put(currentSense, translations);
-					}
-					translations.add(trans);
-				}
-			
-				// Perform another iteration if there is remaining text.
-				if (remainingText != null) {
-					do {
-						matcher = ADDITIONAL_TRANSLATION_PATTERN.matcher(remainingText);
-						if (matcher.find()) {
-							usesTemplate = true;
-							prefix = matcher.group(1);
-							translation = matcher.group(2);
-							if (translation == null) {
-								translation = matcher.group(3);
-								usesTemplate = false;
-							}
-							additionalInformation = matcher.group(4);
-							break;
-						} else {
-							matcher = NEXT_TRANSLATION_PATTERN.matcher(remainingText);
-							if (matcher.find()) {
-								String tmp = remainingText;
-								remainingText = matcher.group(2) + matcher.group(3);
-								if (tmp.equals(remainingText))
-									remainingText = null; // avoid infinite loop!
-							} else
-								remainingText = null;
-						}
-					} while (remainingText != null);
-				}				
-			} while (remainingText != null);			
+		Matcher matcher = LANGUAGE.matcher(text);
+		if (!matcher.find()) {
+			return false;
 		}
-		
+		final String languageText = removeWikiLinks(matcher.group(1).trim());
+		final ILanguage language = Language.findByName(languageText);
+
+		final int endOffSet = matcher.end();
+		if (endOffSet > text.length() - 1) {
+			return false;
+		}
+		final String remainingText = text.substring(endOffSet);
+
+		for (String part : splitTranslationParts(remainingText)) {
+			final IWiktionaryTranslation translation = parseTranslation(language, part);
+			if (translation != null) {
+				// Save the translation
+				List<IWiktionaryTranslation> translations = sensNum2trans.computeIfAbsent(currentSense, k -> new ArrayList<>());
+				translations.add(translation);
+			}
+		}
 		return true;
 	}
 
-	protected boolean determineCheckNeeded(String[] fields) {
-		if (fields == null || fields.length == 0) {
-			return false;
+	private IWiktionaryTranslation parseTranslation(ILanguage languageHeader, String text) {
+		Matcher matcher = TRANSLATION.matcher(text);
+		if (!matcher.matches()) {
+			return null;
+		}
+		final String prefix = matcher.group("prefix");
+		final String content = matcher.group("content");
+		final String postfix = matcher.group("postfix");
+
+		WiktionaryTranslation translation;
+		if (content.startsWith("{{")) {
+			translation = parseTemplate(content);
 		} else {
-			return "t-check".equals(fields[0]) || "t+check".equals(fields[0]);
+			translation = new WiktionaryTranslation(languageHeader, cleanText(removeWikiLinks(content)));
+		}
+
+		if (translation != null) {
+			String additionalInformation = "";
+			if (prefix != null) {
+				additionalInformation += prefix.trim();
+			}
+			if (translation.getGender() != null) {
+				additionalInformation += " {{" + translation.getGender() + "}} ";
+			}
+			additionalInformation += postfix;
+			translation.setAdditionalInformation(cleanText(additionalInformation.trim()));
+			if (currentSense != null && currentSense.trim().length() > 0) {
+				translation.setRawSense(currentSense.trim());
+			}
+			return translation;
+		} else {
+			return null;
 		}
 	}
 
-	protected String[] reorderTemplateParams(final String[] fields,
-			Map<String, String> namedParams) {
-		if (fields == null)
-			return null;
-		
-		String[] result = new String[fields.length];
-		int idx = 0;
-		for (String field : fields) {
-			int j = field.indexOf('=');
-			if (j >= 0) {
-				String key = field.substring(0, j);
-				String value = field.substring(j + 1);
-
-//				namedParams.put(key, value);
-				if (namedParams.containsKey(key)) {
-					int suffix = 2;
-					while (namedParams.containsKey(key + suffix))
-						suffix++;
-					namedParams.put(key + suffix, value);
-				} else
-					namedParams.put(key, value);
-			} else
-				result[idx++] = field;
+	static List<String> splitTranslationParts(String text) {
+		List<String> results = new ArrayList<>();
+		Matcher m = SEPARATOR.matcher(text);
+		int lastStart = 0;
+		while (m.find()) {
+			final String candidate = text.substring(lastStart, m.start(1)).trim();
+			if (TRANSLATION.matcher(candidate).matches()) {
+				results.add(candidate);
+				lastStart = m.end(1);
+			}
 		}
-		
-		for (Entry<String, String> e : namedParams.entrySet())
-			result[idx++] = e.getKey() + "=" + e.getValue();
-		return result;
+		results.add(text.substring(lastStart).trim());
+		return results;
+	}
+
+	private WiktionaryTranslation parseTemplate(String templateString) {
+		TemplateParser.Template template = TemplateParser.parseTemplate(templateString.substring(2, templateString.length() - 2));
+		if (template == null || template.getNumberedParamsCount() <= 1) {
+			return null;
+		}
+		String translationText = cleanText(removeWikiLinks(template.getNumberedParam(1)));
+		if (translationText.isEmpty()) {
+			return null;
+		}
+		String languageCode = template.getNumberedParam(0);
+		String transliteration = template.getNamedParam("tr");
+		WiktionaryTranslation translation = new WiktionaryTranslation(Language.findByCode(languageCode), translationText);
+		if (template.getNumberedParamsCount() > 2 && !template.getNumberedParam(2).contains("=")) {
+			translation.setGender(template.getNumberedParam(2));
+		}
+		translation.setCheckNeeded(template.getName().contains("check"));
+		if (transliteration != null) {
+			translation.setTransliteration(cleanText(transliteration));
+		}
+		return translation;
 	}
 
 	/**

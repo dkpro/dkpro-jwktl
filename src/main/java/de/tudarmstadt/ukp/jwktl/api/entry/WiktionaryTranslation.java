@@ -38,6 +38,7 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 	protected String additionalInformation;
 	protected String rawSense;
 	protected boolean checkNeeded;
+	protected String gender;
 
 	/** Creates a new, empty translation. */
 	public WiktionaryTranslation() {}
@@ -93,6 +94,14 @@ public class WiktionaryTranslation implements IWiktionaryTranslation {
 
 	public void setCheckNeeded(boolean checkNeeded) {
 		this.checkNeeded = checkNeeded;
+	}
+
+	public String getGender() {
+		return gender;
+	}
+
+	public void setGender(String gender) {
+		this.gender = gender;
 	}
 
 	@Override

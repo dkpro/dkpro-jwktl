@@ -232,3 +232,4 @@ JWKTL-1.1.1 (forthcoming)
 - Modified: Improved category parsing.
 - Modified: Improved synonym/antonym parsing.
 - Modified: Replace cobertura with jacoco
+- Modified: Improved translation parsing

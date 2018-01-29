@@ -75,7 +75,7 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 				.filter(e -> e.getPartOfSpeech() == PartOfSpeech.VERB).findFirst().get();
 
 		List<IWiktionaryTranslation> translations = verb.getTranslations();
-		assertEquals(158, translations.size());
+		assertEquals(157, translations.size());
 
 		List<IWiktionaryTranslation> needChecking =
 				translations.stream().filter(IWiktionaryTranslation::isCheckNeeded).collect(toList());
@@ -308,6 +308,48 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 
 		assertEquals("todo o possível", t1.getTranslation());
 		assertEquals("o máximo possível", t2.getTranslation());
+	}
+
+	// Where no idiomatic translation exists, a translation may be given as separate, square bracketed links instead of using the {{t+}} templates
+	// https://en.wiktionary.org/wiki/Wiktionary:Translations
+	public void testWikiLinkFormattedTranslations() {
+		final List<IWiktionaryTranslation> translations = process("* Finnish: [[kun]] [[itse]] [[tekee]], [[tietää]] [[mitä]] [[saa]]");
+		assertEquals(2, translations.size());
+
+		assertEquals("fin", translations.get(0).getLanguage().getCode());
+		assertEquals("kun itse tekee", translations.get(0).getTranslation());
+
+		assertEquals("fin", translations.get(1).getLanguage().getCode());
+		assertEquals("tietää mitä saa", translations.get(1).getTranslation());
+	}
+
+	public void testSplitTranslationsSingleItem() {
+		final List<String> results = ENTranslationHandler.splitTranslationParts("{{t+|fr|bas}}");
+		assertEquals(1, results.size());
+		assertEquals("{{t+|fr|bas}}", results.get(0));
+	}
+
+	public void testSplitTranslations() {
+		final List<String> results = ENTranslationHandler.splitTranslationParts("{{t+|fr|bas}}, {{t+|fr|grave}}");
+
+		assertEquals(2, results.size());
+		assertEquals("{{t+|fr|bas}}", results.get(0));
+		assertEquals("{{t+|fr|grave}}", results.get(1));
+	}
+
+	public void testSplitTranslations2() {
+		final List<String> results = ENTranslationHandler.splitTranslationParts("[[quiabeiro]] {{g|m}} (''plant''), [[quiabo]] {{g|m}} (''pods'')");
+
+		assertEquals(2, results.size());
+		assertEquals("[[quiabeiro]] {{g|m}} (''plant'')", results.get(0));
+		assertEquals("[[quiabo]] {{g|m}} (''pods'')", results.get(1));
+	}
+
+	public void testSplitTranslations3() {
+		final List<String> results = ENTranslationHandler.splitTranslationParts("{{t|ja|舟|tr=[[ふね]], fúne|sc=Jpan}}, {{t|ja|ボート|tr=bōto|sc=Jpan}}");
+		assertEquals(2, results.size());
+		assertEquals("{{t|ja|舟|tr=[[ふね]], fúne|sc=Jpan}}", results.get(0));
+		assertEquals("{{t|ja|ボート|tr=bōto|sc=Jpan}}", results.get(1));
 	}
 
 	protected static void assertTranslation(final String language,
