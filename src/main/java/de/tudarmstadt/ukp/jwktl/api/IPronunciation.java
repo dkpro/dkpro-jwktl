@@ -38,8 +38,9 @@ public interface IPronunciation {
 		/** Audio file of this pronunciation. */
 		AUDIO,
 		/** Suffix used to identify rhymes. */
-		RHYME;
-		
+		RHYME,
+		/** Unprocessed pronunciation template */
+		RAW
 	}
 	
 	/** Returns the type of this pronunciation, which can be audio files 

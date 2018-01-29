@@ -30,16 +30,17 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 
 /**
- * Parser component for extracting pronunciations from the English Wiktionary. 
+ * Parser component for extracting pronunciations from the English Wiktionary.
  * @author Christian M. Meyer
  */
-public class ENPronunciationHandler extends ENBlockHandler {	
-	
-	protected static final Pattern PRONUNCIATION_CONTEXT = Pattern.compile("\\{\\{(?:a|sense)\\|([^\\}\\|]+?)\\}\\}");
-	protected static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{(?:IPA|SAMPA)\\|.+?\\}\\}");
-	protected static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^\\}\\|]+?)(?:\\|([^\\}\\|]+?)(?:\\|lang=[^\\}\\|]+)?)?\\}\\}");
-	protected static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|([^\\}\\|]+?)\\}\\}");
-	
+public class ENPronunciationHandler extends ENBlockHandler {
+
+	private static final Pattern PRONUNCIATION_CONTEXT = Pattern.compile("\\{\\{(?:a|sense)\\|([^}|]+?)}}");
+	private static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{(?:IPA|SAMPA)\\|.+?}}");
+	private static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^}|]+?)(?:\\|([^}|]+?)(?:\\|lang=[^}|]+)?)?}}");
+	private static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|([^}|]+?)}}");
+	private static final Pattern PRONUNCIATION_RAW = Pattern.compile("\\{\\{\\w+-(?:IPA|pron)(?:\\|.*?)?}}");
+
 	protected List<IPronunciation> pronunciations;
 
 	public boolean canHandle(String blockHeader) {
@@ -75,6 +76,11 @@ public class ENPronunciationHandler extends ENBlockHandler {
 				return null;
 			});
 		}
+		matcher = PRONUNCIATION_RAW.matcher(textLine);
+		while (matcher.find()) {
+			pronunciations.add(new Pronunciation(PronunciationType.RAW, matcher.group(0), null));
+		}
+
 		//TODO: english pronunciation key/AHD
 		//TODO: separate property for sense
 		matcher = PRONUNCIATION_AUDIO.matcher(textLine); 

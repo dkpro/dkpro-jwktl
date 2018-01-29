@@ -24,6 +24,8 @@ import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation.PronunciationType;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.parser.en.ENWiktionaryEntryParserTest;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
@@ -201,24 +203,40 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertFalse(iter.hasNext());
 	}
 
+	public void testRawPronunciationType() {
+		final List<IPronunciation> pronunciations = process("* {{IPA|/budɛ̃/|lang=fr}}", "* {{fr-IPA|cauboille}}", "* {{zh-pron}}");
+		assertEquals(3, pronunciations.size());
+
+		assertEquals("/budɛ̃/", pronunciations.get(0).getText());
+		assertEquals(PronunciationType.IPA, pronunciations.get(0).getType());
+
+		assertEquals("{{fr-IPA|cauboille}}", pronunciations.get(1).getText());
+		assertEquals(PronunciationType.RAW, pronunciations.get(1).getType());
+
+		assertEquals("{{zh-pron}}", pronunciations.get(2).getText());
+		assertEquals(PronunciationType.RAW, pronunciations.get(2).getType());
+	}
+
 	protected static void assertPronunciation(final PronunciationType type,
-			final String text, final String note, final IPronunciation actual) {
+											  final String text, final String note, final IPronunciation actual) {
 		assertEquals("type does not match", type, actual.getType());
 		assertEquals("text does not match", text, actual.getText());
 		assertEquals("note does not match", note, actual.getNote());
 	}
 
-	protected static void printPronunciations(final IWiktionaryPage page) {
-		for (IWiktionaryEntry entry : page.getEntries()) {
-			System.out.println(entry.getWord() + "/" + entry.getPartOfSpeech() 
-					+ "/" + entry.getWordLanguage());
-			List<IPronunciation> pronunciations = entry.getPronunciations();
-			if (pronunciations != null)
-				for (IPronunciation pronunciation : pronunciations)
-					System.out.println("  " + pronunciation.getType() + ": "
-							+ pronunciation.getText() + " / " 
-							+ pronunciation.getNote());
+	protected List<IPronunciation> process(String... body) {
+		final WiktionaryEntry entry = new WiktionaryEntry();
+		ParsingContext context = new ParsingContext(new WiktionaryPage(), new ENEntryFactory() {
+			@Override
+			public WiktionaryEntry findEntry(ParsingContext context) {
+				return entry;
+			}
+		});
+		ENPronunciationHandler handler = new ENPronunciationHandler();
+		handler.processHead("testing", context);
+		for (String line : body) {
+			handler.processBody(line, context);
 		}
+		return handler.getPronunciations();
 	}
-
 }
