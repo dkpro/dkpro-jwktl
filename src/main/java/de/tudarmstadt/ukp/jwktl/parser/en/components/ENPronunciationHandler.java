@@ -71,7 +71,9 @@ public class ENPronunciationHandler extends ENBlockHandler {
 				final PronunciationType type = PronunciationType.valueOf(template.getName());
 				for (int i = 0; i<template.getNumberedParamsCount(); i++) {
 					String pronunciation = template.getNumberedParam(i);
-					pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
+					if (!pronunciation.trim().isEmpty()) {
+						pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
+					}
 				}
 				return null;
 			});

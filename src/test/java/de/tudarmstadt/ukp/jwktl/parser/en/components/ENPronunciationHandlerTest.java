@@ -217,6 +217,13 @@ public class ENPronunciationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals(PronunciationType.RAW, pronunciations.get(2).getType());
 	}
 
+	public void testFiltersEmptyPronunciations() {
+		final List<IPronunciation> pronunciations = process("* {{IPA|/ma.dam wa.ta.na.be/||lang=fr}}");
+
+		assertEquals(1, pronunciations.size());
+		assertEquals("/ma.dam wa.ta.na.be/", pronunciations.get(0).getText());
+	}
+
 	protected static void assertPronunciation(final PronunciationType type,
 											  final String text, final String note, final IPronunciation actual) {
 		assertEquals("type does not match", type, actual.getType());
