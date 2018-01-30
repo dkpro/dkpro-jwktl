@@ -32,6 +32,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryTranslation;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser;
+import de.tudarmstadt.ukp.jwktl.api.util.TemplateParser.Template;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 import static de.tudarmstadt.ukp.jwktl.api.entry.WikiString.removeWikiLinks;
@@ -80,8 +81,11 @@ public class ENTranslationHandler extends ENBlockHandler {
 
 		if (text.startsWith("{{trans-mid}}") || text.startsWith("{{mid}}"))
 			return true;
-		if (text.startsWith("{{trans-top|")) {
-			currentSense = text.substring(12, text.length() - 2);
+		if (text.startsWith("{{trans-top|") && text.contains("}}")) {
+			final Template template = TemplateParser.parseTemplate(text.substring(2, text.indexOf("}}")));
+			if (template != null && template.getNumberedParamsCount() >= 1) {
+				currentSense = template.getNumberedParam(0);
+			}
 			return true;
 		}
 		if (text.startsWith("{{top}}")) {
@@ -168,7 +172,7 @@ public class ENTranslationHandler extends ENBlockHandler {
 	}
 
 	private WiktionaryTranslation parseTemplate(String templateString) {
-		TemplateParser.Template template = TemplateParser.parseTemplate(templateString.substring(2, templateString.length() - 2));
+		Template template = TemplateParser.parseTemplate(templateString.substring(2, templateString.length() - 2));
 		if (template == null || template.getNumberedParamsCount() <= 1) {
 			return null;
 		}

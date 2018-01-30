@@ -352,6 +352,14 @@ public class ENTranslationHandlerTest extends ENWiktionaryEntryParserTest {
 		assertEquals("{{t|ja|ボート|tr=bōto|sc=Jpan}}", results.get(1));
 	}
 
+	public void testTransTopWithIdParameter() throws Exception {
+		assertEquals("raw-sense", processFirst(
+				"{{trans-top|id=Q12345|raw-sense}}",
+				"* German: {{t-check|de|german-translation-needs-checking}}",
+				"{{trans-bottom}}"
+		).getRawSense());
+	}
+
 	protected static void assertTranslation(final String language,
 			final String translation,
 			final String rawSense,
