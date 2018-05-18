@@ -1,9 +1,16 @@
 <aside>
 
 {% assign stable = (site.data.releases | where:"status", "stable" | first) %}
+
 {% if stable.version %}
 <div class="radius b20" style="text-align: center;">
 Latest release: {{ stable.version }} ({{ stable.date }})
+</div>
+{% endif %}
+
+{% if stable.groupId %}
+<div class="center radius b20">
+<a href="//maven-badges.herokuapp.com/maven-central/{{ stable.groupId }}/{{ stable.artifactId }}"><img src="//maven-badges.herokuapp.com/maven-central/{{ stable.groupId }}/{{ stable.artifactId }}/badge.svg"/></a>
 </div>
 {% endif %}
 
