@@ -1,6 +1,6 @@
 ---
 layout: page-fullwidth
-title: "JWKTL Architecture"
+title: "Architecture"
 permalink: "/documentation/architecture/"
 ---
 

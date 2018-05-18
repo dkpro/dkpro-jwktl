@@ -1,7 +1,7 @@
 ---
 layout: page-fullwidth
-title: "Info page"
+title: "About Us"
 permalink: "/info/"
 ---
 
-An empty info/about page.
+This project was initiated under the auspices of Prof. Iryna Gurevych, [Ubiquitous Knowledge Processing Lab (UKP)](http://www.ukp.tu-darmstadt.de/), Technische Universität Darmstadt.
