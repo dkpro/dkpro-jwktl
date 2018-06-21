@@ -22,8 +22,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
@@ -40,7 +38,6 @@ import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Persistent
 public class WiktionarySense implements IWiktionarySense {
 
 	protected int index;

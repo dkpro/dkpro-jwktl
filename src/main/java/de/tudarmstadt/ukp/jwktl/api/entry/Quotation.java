@@ -20,8 +20,6 @@ package de.tudarmstadt.ukp.jwktl.api.entry;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 
@@ -33,7 +31,6 @@ import de.tudarmstadt.ukp.jwktl.api.IWikiString;
  * @author Lizhen Qu
  *
  */
-@Persistent
 public class Quotation implements IQuotation {
 	
 	/** The source of a quotation, i.e. its author and publishing reference. */

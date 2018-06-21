@@ -124,11 +124,6 @@ public class WiktionaryDumpParserIntegrationTest {
 		}
 
 		@Override
-		public File getDBPath() {
-			return null;
-		}
-
-		@Override
 		public WiktionaryPage getPageForId(long id) {
 			return null;
 		}

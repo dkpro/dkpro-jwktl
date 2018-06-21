@@ -26,11 +26,6 @@ import java.util.Locale;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.sleepycat.persist.model.Entity;
-import com.sleepycat.persist.model.PrimaryKey;
-import com.sleepycat.persist.model.Relationship;
-import com.sleepycat.persist.model.SecondaryKey;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
@@ -41,15 +36,11 @@ import de.tudarmstadt.ukp.jwktl.api.util.Language;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Entity
 public class WiktionaryPage implements IWiktionaryPage {
 	
-	@PrimaryKey
 	protected long id;
 
-	@SecondaryKey(relate = Relationship.ONE_TO_ONE)
 	protected String title;
-	@SecondaryKey(relate = Relationship.MANY_TO_ONE)
 	protected String normalizedTitle;
 
 	protected Date timestamp;

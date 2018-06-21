@@ -29,6 +29,7 @@ import java.util.TimeZone;
 
 import de.tudarmstadt.ukp.jwktl.WiktionaryTestCase;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
+import de.tudarmstadt.ukp.jwktl.api.berkeley.WritableBerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;

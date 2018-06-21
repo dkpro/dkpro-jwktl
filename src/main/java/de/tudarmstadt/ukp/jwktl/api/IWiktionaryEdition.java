@@ -17,7 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api;
 
-import java.io.File;
 import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
@@ -32,9 +31,6 @@ public interface IWiktionaryEdition extends IWiktionary {
 	/** Returns the language of the Wiktionary edition, which is equivalent
 	 *  to the entry language of the contained entries. */
 	ILanguage getLanguage();
-
-	/** Returns the file path of the parsed database. */
-	File getDBPath();
 
 	
 	// -- Pages --

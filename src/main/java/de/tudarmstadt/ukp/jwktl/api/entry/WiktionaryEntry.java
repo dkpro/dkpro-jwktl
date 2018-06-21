@@ -21,8 +21,6 @@ import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IQuotation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
@@ -44,7 +42,6 @@ import de.tudarmstadt.ukp.jwktl.api.util.Language;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Persistent
 public class WiktionaryEntry implements IWiktionaryEntry {
 
 	protected long id;

@@ -17,8 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 
 /**
@@ -26,7 +24,6 @@ import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Persistent
 public class Pronunciation implements IPronunciation {
 		
 	protected PronunciationType type;

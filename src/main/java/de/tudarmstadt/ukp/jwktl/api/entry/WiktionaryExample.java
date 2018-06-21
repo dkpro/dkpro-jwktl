@@ -17,11 +17,9 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import com.sleepycat.persist.model.Persistent;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryExample;
 
-@Persistent
 public class WiktionaryExample implements IWiktionaryExample {
 	protected IWikiString example;
 	protected IWikiString translation;

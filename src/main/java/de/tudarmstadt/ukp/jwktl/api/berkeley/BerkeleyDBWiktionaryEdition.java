@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.entry;
+package de.tudarmstadt.ukp.jwktl.api.berkeley;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -47,6 +47,8 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEdition;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.filter.IWiktionaryPageFilter;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
@@ -235,12 +237,15 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		if (cacheSize != null)
 			envConfig.setCacheSize(cacheSize);
 		env = new Environment(dbPath, envConfig);
+		
+		BerkeleyConfigurationModel bcm = new BerkeleyConfigurationModel();
 
 		// Configure store.
 		StoreConfig storeConfig = new StoreConfig();
 		storeConfig.setAllowCreate(allowCreateNew);
 		storeConfig.setTransactional(false);
 		storeConfig.setReadOnly(isReadOnly);
+		storeConfig.setModel(bcm);
 		store = new EntityStore(env, DATABASE_NAME, storeConfig);
 
 		// Load properties.
