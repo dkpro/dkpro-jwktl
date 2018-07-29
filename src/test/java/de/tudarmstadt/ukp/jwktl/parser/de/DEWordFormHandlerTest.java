@@ -279,6 +279,24 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertFalse(actualIter.hasNext());
 	}
 	
+	/***/
+	public void testMaerz() throws Exception {
+		IWiktionaryPage page = parse("Maerz.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("März", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzes", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
 	protected void assertWordFormNoun(final String expectedForm,
 			final GrammaticalCase expectedCase,
 			final GrammaticalNumber expectedNumber,
