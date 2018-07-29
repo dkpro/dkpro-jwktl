@@ -43,7 +43,8 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  */
 public class DEWordFormHandler extends DEBlockHandler {
 	
-	private static final List<String> NOUN_TABLE_LABEL_SUFFIXES = Collections.unmodifiableList(Arrays.asList("**", "*", "1", "2", "3", "4")); 
+	private static final List<String> NOUN_TABLE_LABEL_SUFFIXES = 
+			Collections.unmodifiableList(Arrays.asList("**", "1*", "2*", "3*", "*", "1", "2", "3", "4")); 
 
 	protected enum TableType {
 		NOUN_TABLE,
