@@ -184,7 +184,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 //		if ("die Koseworte".equals(wordForm.getWordForm()))
 //			System.out.println("X");
 		if (label.endsWith("1") || label.endsWith("2")
-				|| label.endsWith("3") || label.endsWith("4"))
+				|| label.endsWith("3") || label.endsWith("4") || label.endsWith("*"))
 			label = label.substring(0, label.length() - 1).trim();
 
 		// Number.
