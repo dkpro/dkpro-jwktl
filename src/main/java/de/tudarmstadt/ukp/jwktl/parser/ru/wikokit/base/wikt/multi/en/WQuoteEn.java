@@ -21,7 +21,7 @@ public class WQuoteEn {
 
 
     /** Removes highlighted marks from a sentence.
-     * Sentence with '''words'''. -> Sentence with words.
+     * Sentence with '''words'''. -&gt; Sentence with words.
      */
     public static String removeHighlightedMarksFromSentence(String str)
     {

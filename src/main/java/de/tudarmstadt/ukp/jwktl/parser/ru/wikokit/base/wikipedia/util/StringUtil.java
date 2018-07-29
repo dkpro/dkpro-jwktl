@@ -130,9 +130,9 @@ public class StringUtil {
      * slash1 (true if prev prev is "\")                                
      *  slash2 (previous)                                               
      *   slash3 (current character)                                     <br>
-     *   $ -> \\$      if !slash1 && !slash2 then + "\\"                <br>
-     * \\  -> \\       if  slash1 &&  slash2 then skip                  <br>
-     * \\$ -> \\$
+     *   $ -&gt; \\$      if !slash1 &amp;&amp; !slash2 then + "\\"                <br>
+     * \\  -&gt; \\       if  slash1 &amp;&amp;  slash2 then skip                  <br>
+     * \\$ -&gt; \\$
      */
     public static StringBuffer escapeCharDollarAndBackslash(String text){
         if (null == text) {

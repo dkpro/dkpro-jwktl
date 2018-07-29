@@ -19,11 +19,11 @@ import java.util.Map;
 import java.util.HashMap;
 
 
-/** XML (HTML) tags, e.g. &nbsp; &quot; &lt;br />, etc.
+/** XML (HTML) tags, e.g. &nbsp; &quot; &lt;br /&gt;, etc.
  */
 public class XMLTag {
     
-    /** Glyph character, e.g. '>', ' ', etc. */
+    /** Glyph character, e.g. '&gt;', ' ', etc. */
     private final Character glyph;
     
     /** HTML tag, e.g. '&gt;', '&nbsp;', etc. */

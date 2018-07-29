@@ -17,7 +17,7 @@ package de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.text;
 
 import java.text.StringCharacterIterator;
 
-/** Parser of XML (HTML) tags, e.g. &nbsp; &quot; &lt;br />, etc.
+/** Parser of XML (HTML) tags, e.g. &nbsp; &quot; &lt;br /&gt;, etc.
  */
 public class XMLTagsParser {
     
@@ -62,7 +62,7 @@ public class XMLTagsParser {
     
     
     /** If the 'text' (from the position 'pos') is one of tags: 
-     * &lt;br />,&lt;br/>,&lt;br> then this tag is returned, 
+     * &lt;br /&gt;,&lt;br/&gt;,&lt;br&gt; then this tag is returned, 
      * else empty string will be returned.
      * 
      * @param  pos position in 'text' from which the tag will be extracted
@@ -116,11 +116,11 @@ public class XMLTagsParser {
     
     
     /** Removes the following characters from the text: 
-     * &lt;, >, &, ", also their expansions (&amp;lt;, &amp;gt;, &amp;amp;, 
+     * &lt;, &gt;, &amp;, ", also their expansions (&amp;lt;, &amp;gt;, &amp;amp;, 
      * &amp;quot;, &amp;#039;, &amp;nbsp;, &amp;ndash;, &amp;mdash;) 
      * by the 'replacement' character.<br><br>
      * 
-     * Replaces &lt;br />,&lt;br/>,&lt;br> by newline symbol.<br><br>
+     * Replaces &lt;br /&gt;,&lt;br/&gt;,&lt;br&gt; by newline symbol.<br><br>
      * 
      * Remains the character '.<br><br>
      * 
@@ -190,11 +190,11 @@ public class XMLTagsParser {
       * Escapes characters for text appearing as XML data by HTML tags.
       * 
       * <P>The following characters are replaced with corresponding character entities : 
-      * <table border='1' cellpadding='3' cellspacing='0'>
+      * <table border='1' cellpadding='3' cellspacing='0' summary="Characters to be replaced with entities">
       * <tr><th> Character </th><th> Encoding </th></tr>
-      * <tr><td> < </td><td> &amp;lt; </td></tr>
-      * <tr><td> > </td><td> &amp;gt; </td></tr>
-      * <tr><td> & </td><td> &amp;amp; </td></tr>
+      * <tr><td> &lt; </td><td> &amp;lt; </td></tr>
+      * <tr><td> &gt; </td><td> &amp;gt; </td></tr>
+      * <tr><td> &amp; </td><td> &amp;amp; </td></tr>
       * <tr><td> " </td><td> &amp;quot;</td></tr>
       * <tr><td> ' </td><td> &amp;#039;</td></tr>
       * </table>

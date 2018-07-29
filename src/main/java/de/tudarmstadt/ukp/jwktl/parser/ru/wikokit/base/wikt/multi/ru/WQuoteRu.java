@@ -111,8 +111,8 @@ public class WQuoteRu {
     }
 
     /** Removes highlighted marks from a sentence.
-     * 1) Sentence with '''words'''. -> Sentence with <start_replacement>words</end_replacement>.
-     * 2) Sentence with {{выдел|words}}. -> Sentence with <start_replacement>words</end_replacement>.
+     * 1) Sentence with '''words'''. -&gt; Sentence with &lt;start_replacement&gt;words&lt;/end_replacement&gt;.
+     * 2) Sentence with {{выдел|words}}. -&gt; Sentence with &lt;start_replacement&gt;words&lt;/end_replacement&gt;.
      */
     public static String removeHighlightedMarksFromSentence(String str,
                                                     String start_replacement,
@@ -132,9 +132,9 @@ public class WQuoteRu {
     }
 
     /** Additional treatment of the sentence text:
-     * 1) &nbsp;, &#160; -> " "
-     * 2) {{-}} -> " - "
-     * 3) poetry: "//" -> "\n"
+     * 1) &nbsp;, &#160; -&gt; " "
+     * 2) {{-}} -&gt; " - "
+     * 3) poetry: "//" -&gt; "\n"
      */
     public static String transformSentenceText(boolean is_sqlite, String str)
     {
@@ -156,9 +156,9 @@ public class WQuoteRu {
     }
 
     /** Additional treatment of the sentence text:
-     * 1) &nbsp;, &#160; -> " "
-     * 2) {{-}} -> "&nbsp;&mdash; " @see ru.wiktionary.org/wiki/template:-
-     * 3) poetry: "//" -> "<br>"
+     * 1) &nbsp;, &#160; -&gt; " "
+     * 2) {{-}} -&gt; "&nbsp;&mdash; " @see ru.wiktionary.org/wiki/template:-
+     * 3) poetry: "//" -&gt; "<br>"
      */
     public static String transformSentenceTextToHTML(boolean is_sqlite, String str)
     {
