@@ -30,7 +30,7 @@ import static de.tudarmstadt.ukp.jwktl.api.entry.WikiString.removeWikiLinks;
  * Parser component for extracting
  * <a href="https://en.wiktionary.org/wiki/Wiktionary:Semantic_relations">semantic relations</a>
  * from the English Wiktionary.
- * <p/>
+ * <p>
  * A semantic relation ship can specify a target sense. This handler tries to determine the target
  * sense using {@link #findMatchingSense(WiktionaryEntry, String)}.
  */

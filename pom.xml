@@ -138,6 +138,12 @@
         <version>3.0.1</version>
         <configuration>
           <additionalparam>${javadoc.opts}</additionalparam>
+          <additionalJOptions>
+            <additionalJOption>-Xmaxerrs</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+            <additionalJOption>-Xmaxwarns</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+          </additionalJOptions>
         </configuration>
         <executions>
           <execution>

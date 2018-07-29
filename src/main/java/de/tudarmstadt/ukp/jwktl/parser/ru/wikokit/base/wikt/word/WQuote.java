@@ -159,10 +159,10 @@ public class WQuote {
     }
 
     /** Removes highlighted marks from a sentence.
-     * English Wiktionary: Sentence with '''words'''. -> Sentence with words.
+     * English Wiktionary: Sentence with '''words'''. -&gt; Sentence with words.
      * Russian Wiktionary:
-     * 1) Sentence with '''words'''. -> Sentence with <start_replacement>words</end_replacement>.
-     * 2) Sentence with {{выдел|words}}. -> Sentence with <start_replacement>words</end_replacement>.
+     * 1) Sentence with '''words'''. -&gt; Sentence with &lt;start_replacement&gt;words&lt;/end_replacement&gt;.
+     * 2) Sentence with {{выдел|words}}. -&gt; Sentence with &lt;start_replacement&gt;words&lt;/end_replacement&gt;.
      */
     public static String removeHighlightedMarksFromSentence(
                                             LanguageType wikt_lang,
