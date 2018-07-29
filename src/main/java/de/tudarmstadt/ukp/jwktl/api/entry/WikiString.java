@@ -54,7 +54,7 @@ public class WikiString implements IWikiString {
 		this.text = text;
 	}
 	
-	/** @see #getText(). */
+	/** @see #getText() */
 	public String getTextIncludingWikiMarkup() {
 		return getText();
 	}

@@ -20,7 +20,7 @@ import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.parser.ru.wikokit.base.wikipedia.util.StringUtil;
 
-/** Parser of wiki references &lt;ref>...&lt;/ref>
+/** Parser of wiki references &lt;ref&gt;...&lt;/ref&gt;
  */
 public class ReferenceParser {
     
@@ -49,7 +49,7 @@ public class ReferenceParser {
     
     /** Expands texts of the refence, and adds it to the end of text.
      * 
-     * If the reference contains a template, e.g. &lt;ref>{{cite book |..&lt;/ref>
+     * If the reference contains a template, e.g. &lt;ref&gt;{{cite book |..&lt;/ref&gt;
      * then the whole reference will be deleted.
      */ 
     public static StringBuffer expandMoveToEndOfText(StringBuffer text)

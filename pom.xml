@@ -135,8 +135,15 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.0.1</version>
         <configuration>
           <additionalparam>${javadoc.opts}</additionalparam>
+          <additionalJOptions>
+            <additionalJOption>-Xmaxerrs</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+            <additionalJOption>-Xmaxwarns</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+          </additionalJOptions>
         </configuration>
         <executions>
           <execution>
@@ -152,7 +159,15 @@
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+      </plugin>
+
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.1.0</version>
         <executions>
           <execution>
             <phase>package</phase>

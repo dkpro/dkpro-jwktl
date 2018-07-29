@@ -1,0 +1,95 @@
+== Gelb ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Gelb
+|Nominativ Plural=Gelbs
+|Nominativ Plural*=Gelbtöne
+|Genitiv Singular=Gelbs
+|Genitiv Plural=Gelbs
+|Genitiv Plural*=Gelbtöne
+|Dativ Singular=Gelb
+|Dativ Plural=Gelbs
+|Dativ Plural*=Gelbtönen
+|Akkusativ Singular=Gelb
+|Akkusativ Plural=Gelbs
+|Akkusativ Plural*=Gelbtöne
+|Bild 1=Zeichen_306_-_Vorfahrtstraße,_StVO_1970.svg|200px|1|ein Verkehrszeichen mit Gelbanteilen
+|Bild 2=Andwil Oberarnegg Briefkasten.jpg|200px|1|Gelb ist die Farbe vieler Postbetriebe, hier ein Schweizer Briefkasten
+}}
+
+{{Worttrennung}}
+:Gelb, {{Pl.}} Gelbs
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡɛlp}}
+:{{Hörbeispiele}} {{Audio|De-gelb.ogg|Gelb}}
+:{{Reime}} {{Reim|ɛlp|Deutsch}}
+
+{{Bedeutungen}}
+:[1] Name des [[gelb]]en [[Farbton]]s, eines bestimmten [[Abschnitt]]s des sichtbaren [[Licht]]s im Spektrum der [[elektromagnetisch]]en [[Welle]]n, [[Malfarbe]], [[Streichfarbe]]
+:[2] ''kurz für'' die gelbe Karte
+:[3] ''kurz für'' [[Eigelb]]
+
+{{Herkunft}}
+:[[Substantivierung]] von [[gelb]]
+
+{{Synonyme}}
+:[1] [[Gelbton]]
+:[2] [[Gelbe Karte]]
+:[3] [[Eigelb]], [[Dotter]], [[Gelbes]]
+
+{{Gegenwörter}}
+:[1] [[Weiß]]; [[Blau]], [[Braun]], [[Grau]], [[Grün]], [[Magenta]], [[Orange]], [[Rosa]], [[Schwarz]], [[Türkis]], [[Violett]], [[Zyan]]
+
+{{Oberbegriffe}}
+:[1] [[Grundfarbe]], [[Spektralfarbe]], [[Farbe]]
+:[2] [[Karte]], [[Sport]]
+:[3] [[Ei]]
+
+{{Beispiele}}
+:[1] ein strahlendes ''Gelb''
+:[2] Meyer sah ''Gelb.''
+:[3] Der Kleine mag nur das ''Gelb.''
+
+{{Absatz}}
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{hy}}: [1] {{Üt|hy|դեղին|deghin}}
+*{{my}}: [1] {{Üt|my|အဝါ|a.wa}}
+*{{bs}}: [1] {{Ü|bs|žuta}}
+*{{zh-tw}}: [1] {{Üt|zh|黃色|huángsè}}; [3] {{Üt|zh|蛋黃|dànhuáng}}, {{Üt|zh|卵黃|luǎnhuáng}}
+*{{zh-cn}}: [1] {{Üt|zh|黄色|huángsè}}; [3] {{Üt|zh|蛋黄|dànhuáng}}, {{Üt|zh|卵黄|luǎnhuáng}}
+*{{en}}: [1] {{Ü|en|yellow}}; [3] {{Ü|en|yolk}}
+*{{et}}: [1] {{Ü|et|kollane}}
+*{{fi}}: [1] {{Ü|fi|keltainen}}, ''Gelb-, -gelb:'' {{Ü|fi|kelta}}
+*{{fr}}: [1, 3] {{Ü|fr|jaune}} {{m}}
+*{{el}}: [1] {{Üt|el|κίτρινος|kítrinos}} {{m}}
+*{{he}}: [1] {{Üt|he|צהוב|}}
+*{{id}}: [1] {{Ü|id|kuning}}
+*{{is}}: [1] {{Ü|is|gulur}}
+*{{it}}: [1] {{Ü|it|giallo}}; [3] {{Ü|it|rosso}}
+|Ü-rechts=
+*{{ja}}: [1] {{Üt|ja|黄色|きいろ, kiiro}};　[2] {{Üt|ja|イエローカード|ierô kâdo}}; [3] {{Üt|ja|黄身|きみ, kimi}}, {{Üt|ja|卵黄|らんおう, ran'ō}}
+*{{ko}}: [1] {{Üt|ko|노런색|}}
+*{{ku}}: [1] {{Üt|ku|زه‌رد|zerd}}
+*{{nl}}: [1, 3] {{Ü|nl|geel}}; [3] {{Ü|nl|dooier}}
+*{{no}}: [1] {{Ü|no|gul}}
+*{{pl}}: [1] {{Ü|pl|żółć}} {{f}}, {{Ü|pl|żółtosć}} {{f}}; [2] {{Ü|pl|żółta kartka}} {{f}}; [3] {{Ü|pl|żółtko}} {{n}}
+*{{pt}}: [1] {{Ü|pt|amarelo}} {{m}}
+*{{ru}}: [1] {{Üt|ru|жёлтый|shólty}}; [3] {{Üt|ru|желток|sheltók}}
+*{{sv}}: [1] {{Ü|sv|gul}}; [2] {{Ü|sv|gult kort}}; [3] {{Ü|sv|gula}}
+*{{sl}}: [1] {{Ü|sl|rumena}}
+*{{es}}: [1] {{Ü|es|amarillo}}
+*{{cs}}: [1] {{Ü|cs|žluť}} {{f}}, {{Ü|cs|žlutá barva}} {{f}}
+*{{tr}}: [1] {{Ü|tr|sarı}}
+*{{hu}}: [1] {{Ü|hu|sárga}}
+*{{vi}}: [1] {{Ü|vi|vàng}}, {{Ü|vi|màu vàng}}
+}}
+
+{{Referenzen}}
+:[1, 2] {{Wikipedia|Gelb}}
+:[1] {{Ref-UniLeipzig|Gelb}}
+
+{{Ähnlichkeiten 1|[[Gel]], [[Geld]], [[gell]], [[gelt]], [[Gilb]], [[Selb]]}}

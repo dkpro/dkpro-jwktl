@@ -86,8 +86,8 @@ public class WikiWord {
 
     /** Removes and expands wiki links in wiki texts.<PRE>
      * Expands wiki links by removing brackets. There are two cases:
-     * (1) remove brackets, e.g. [[run]] -> run and
-     * (2) [[run|running]] -> running, or [[Russian language|Russian]] -> Russian,
+     * (1) remove brackets, e.g. [[run]] -&gt; run and
+     * (2) [[run|running]] -&gt; running, or [[Russian language|Russian]] -&gt; Russian,
      * i.e. the visible (to reader) words will remain.
      *
      * It is recommended to call StringUtil.escapeCharDollarAndBackslash(text)
@@ -137,10 +137,10 @@ public class WikiWord {
      *
      * <PRE>
      * There are cases:
-     * (1) [[run]] => two words [run, run],         remove brackets
-     * (2) [[run]]ing => two words [run, runing]    extract, remove brackets
-     * (3) [[run|running]] => two words [run, running],
-     *     or [[Russian language|Russian]] => [Russian language, Russian].
+     * (1) [[run]] =&gt; two words [run, run],         remove brackets
+     * (2) [[run]]ing =&gt; two words [run, runing]    extract, remove brackets
+     * (3) [[run|running]] =&gt; two words [run, running],
+     *     or [[Russian language|Russian]] =&gt; [Russian language, Russian].
      * </PRE>
      *
      * @param page_title    word which are described in this article 'text'

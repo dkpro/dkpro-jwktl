@@ -77,9 +77,9 @@ public /*static*/ final class StringUtils {
 
 	/** Parses a string representation of index numbers and returns a set of
 	 *  integers containing all numbers of the specified range. The method 
-	 *  is capable of handling single numbers ("23" -> {23}), multiple comma-,
-	 *  or full-stop-separated numbers ("1,2. 4" -> {1,2,4}", and number
-	 *  ranges ("1-4" -> {1,2,3,4}). */
+	 *  is capable of handling single numbers ("23" -&gt; {23}), multiple comma-,
+	 *  or full-stop-separated numbers ("1,2. 4" -&gt; {1,2,4}", and number
+	 *  ranges ("1-4" -&gt; {1,2,3,4}). */
 	public static Set<Integer> compileIndexSet(final String indexedStr) {
 		Set<Integer> result = new TreeSet<>();
 		int lastIdx = -1;
