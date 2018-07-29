@@ -259,7 +259,26 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertFalse(actualIter.hasNext());
 	}
 
-
+	/***/
+	public void testGelb() throws Exception {
+		IWiktionaryPage page = parse("Gelb.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Gelb", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelb", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtönen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelb", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
+	
 	protected void assertWordFormNoun(final String expectedForm,
 			final GrammaticalCase expectedCase,
 			final GrammaticalNumber expectedNumber,
