@@ -43,19 +43,19 @@ public interface IPronunciation {
 		RAW
 	}
 	
-	/** Returns the type of this pronunciation, which can be audio files 
+	/** @return The type of this pronunciation, which can be audio files 
 	 *  or a specific notation schema used to represent pronunciation 
 	 *  information. */
 	PronunciationType getType();
 	
-	/** The representation of the pronunciation using a standardized
+	/** @return The representation of the pronunciation using a standardized
 	 *  notation such as IPA. In case of audio files, the file name of
 	 *  the sound file is returned. The corresponding URL of this sound file
 	 *  needs to be obtained by querying 
 	 *  http://[LANGUAGE].wiktionary.org/wiki/File:[FILENAME]. */
 	String getText();
 	
-	/** Returns additional information for this pronunciation, such as 
+	/** @return Additional information for this pronunciation, such as 
 	 *  a geographical reference. */
 	String getNote();
 	

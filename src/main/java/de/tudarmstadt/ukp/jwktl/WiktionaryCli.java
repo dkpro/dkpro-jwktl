@@ -19,6 +19,7 @@ package de.tudarmstadt.ukp.jwktl;
 
 import java.io.BufferedReader;
 import java.io.File;
+import java.io.IOException;
 import java.io.InputStreamReader;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
@@ -34,8 +35,9 @@ public class WiktionaryCli {
 
 	/**
 	 * @param args path to parsed Wiktionary data
+	 * @throws IOException in case system input cannot be read.
 	 */
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) throws IOException {
 		if (args.length != 1)
 			throw new IllegalArgumentException("Too few arguments. "
 						+ "Required arguments: <PARSED-WIKTIONARY>");

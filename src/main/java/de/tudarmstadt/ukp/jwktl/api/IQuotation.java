@@ -27,10 +27,10 @@ import java.util.List;
  */
 public interface IQuotation {
 
-	/** Returns the source of the quotation. */
+	/** @return The source of the quotation. */
 	IWikiString getSource();
 
-	/** Returns the text of the quotation as a list of {@link IWikiString}s. */
+	/** @return The text of the quotation as a list of {@link IWikiString}s. */
 	List<IWikiString> getLines();
 
 }

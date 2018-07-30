@@ -40,7 +40,7 @@ import de.tudarmstadt.ukp.jwktl.parser.wikisaurus.WikisaurusArticleParser;
  */
 public class JWKTL {
 
-	/** Returns the software version. */
+	/** @return The software version as string. */
 	public static String getVersion() {
 		try {
 			Properties properties = new Properties();
@@ -59,40 +59,60 @@ public class JWKTL {
 	/** Opens the parsed Wiktionary language edition stored at the given 
 	 *  locations and aggregated them in a {@link IWiktionaryCollection}. 
 	 *  This method uses a default cache size for the Berkeley DB.
-	 *  @throws WiktionaryException in case of any JWKTL-related error. */
+	 *  @param targetDirectories target directories with the parsed dumps.
+	 *  @throws WiktionaryException in case of any JWKTL-related error.
+	 *  @return Aggregated Wiktionary collection containing Wiktionary
+	 *  language editions stored at the given locations. 
+	 */
 	public static IWiktionaryCollection openCollection(
-			final File... parsedDumps) {
-		return openCollection(null, parsedDumps);
+			final File... targetDirectories) {
+		return openCollection(null, targetDirectories);
 	}
 	
 	/** Opens the parsed Wiktionary language edition stored at the given 
 	 *  locations and aggregated them in a {@link IWiktionaryCollection}. 
 	 *  This method uses the given cache size for connecting to the 
 	 *  Berkeley DB.
-	 *  @throws WiktionaryException in case of any JWKTL-related error. */
+	 * 	@param cacheSize the memory (in Bytes) that is used as database
+	 *     cache, which can be used to speed up the DB access. Use
+	 *     null as a default value.
+	 *  @param targetDirectories target directories with the parsed dumps.
+	 *  @throws WiktionaryException in case of any JWKTL-related error.
+	 *  @return Aggregated and parsed Wiktionary language edition stored at the given 
+	 *  locations.
+	 */
 	public static IWiktionaryCollection openCollection(
-			final Long cacheSize, final File... parsedDumps) {
+			final Long cacheSize, final File... targetDirectories) {
 		IWiktionaryCollection result = new WiktionaryCollection();
-		for (File parsedDump : parsedDumps)
-			result.addEdition(openEdition(parsedDump, cacheSize));
+		for (File targetDirectory : targetDirectories)
+			result.addEdition(openEdition(targetDirectory, cacheSize));
 		return result;
 	}
 	
 	/** Opens the parsed Wiktionary language edition stored at the given 
 	 *  location. This method uses a default cache size for the 
 	 *  Berkeley DB.
-	 *  @throws WiktionaryException in case of any JWKTL-related error. */
-	public static IWiktionaryEdition openEdition(final File parsedDump) {
-		return openEdition(parsedDump, null);
+	 *  @param targetDirectory target directory with the parsed dump.
+	 *  @throws WiktionaryException in case of any JWKTL-related error.
+	 *  @return Parsed Wiktionary language edition stored at the given location.
+	 */
+	public static IWiktionaryEdition openEdition(final File targetDirectory) {
+		return openEdition(targetDirectory, null);
 	}
 	
 	/** Opens the parsed Wiktionary language edition stored at the given 
 	 *  location. This method uses the given cache size for connecting 
 	 *  to the Berkeley DB.
-	 *  @throws WiktionaryException in case of any JWKTL-related error. */
-	public static IWiktionaryEdition openEdition(final File parsedDump,
+	 *  @param targetDirectory target directory with the parsed dump.
+	 * 	@param cacheSize the memory (in Bytes) that is used as database
+	 *     cache, which can be used to speed up the DB access. Use
+	 *     null as a default value.
+	 *  @throws WiktionaryException in case of any JWKTL-related error.
+	 *  @return Parsed Wiktionary language edition stored at the given location.
+	 */
+	public static IWiktionaryEdition openEdition(final File targetDirectory,
 			final Long cacheSize) {
-		return new BerkeleyDBWiktionaryEdition(parsedDump, cacheSize);
+		return new BerkeleyDBWiktionaryEdition(targetDirectory, cacheSize);
 	}
 	
 	
@@ -142,9 +162,11 @@ public class JWKTL {
 	
 	/** Deletes all files from a previously parsed Wiktionary from the
 	 *  specified directory. This method is equivalent to
-	 *  {@link BerkeleyDBWiktionaryEdition#deleteParsedWiktionary(File)}. */
-	public static void deleteEdition(final File parsedData) {
-		BerkeleyDBWiktionaryEdition.deleteParsedWiktionary(parsedData);
+	 *  {@link BerkeleyDBWiktionaryEdition#deleteParsedWiktionary(File)}.
+	 *  @param targetDirectory target directory with the parsed dump.
+	 */
+	public static void deleteEdition(final File targetDirectory) {
+		BerkeleyDBWiktionaryEdition.deleteParsedWiktionary(targetDirectory);
 	}
 
 }
