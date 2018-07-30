@@ -40,6 +40,9 @@ public interface IWiktionary extends Closeable {
 	 *  umlauts or accents are substituted by their canonical form. The
 	 *  word "prêt-à-porter" is, e.g., normalized to "pret-a-porter". Use
 	 *  <code>false</code> for exact matches.
+	 *  @param word word or title of the page.
+	 *  @return The page with the given title.
+	 *  @param normalize whether given title should be normalized. 
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionaryPage> getPagesForWord(final String word,
@@ -51,6 +54,11 @@ public interface IWiktionary extends Closeable {
 	 *  umlauts or accents are substituted by their canonical form. The
 	 *  word "prêt-à-porter" is, e.g., normalized to "pret-a-porter". Using the 
 	 *  given {@link IWiktionaryPageFilter}, unwanted pages can be ignored.
+	 *  @param word word or title of the page.
+	 *  @param filter filter for pages, may be <code>null</code> for no filtering.
+	 *  @param normalize whether given title should be normalized.
+	 *  @return The pages with the given title and pages,
+	 *  whose title matches in a case insensitive or string-normalized manner.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionaryPage> getPagesForWord(final String word,
@@ -58,18 +66,19 @@ public interface IWiktionary extends Closeable {
 										  boolean normalize);
 	
 	
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
-	 *  the Wiktionary edition. The pages are sorted by their page id. */
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
+	 *  the Wiktionary edition. The pages are sorted by their page id.
+	 */
 	IWiktionaryIterator<IWiktionaryPage> getAllPages();
 	
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
 	 *  the Wiktionary edition. 
 	 *  @param sortByTitle if <code>true</code> sort by page title 
 	 *    (case sensitive); otherwise by page id. */
 	IWiktionaryIterator<IWiktionaryPage> getAllPages(
 			final boolean sortByTitle);
 	
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
 	 *  the Wiktionary edition. 
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
@@ -78,25 +87,29 @@ public interface IWiktionary extends Closeable {
 	IWiktionaryIterator<IWiktionaryPage> getAllPages(
 			final boolean sortByTitle, final boolean normalize);
 
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
 	 *  the Wiktionary edition. The pages are sorted by their page id. 
 	 *  Using the given {@link IWiktionaryPageFilter}, unwanted pages 
-	 *  can be ignored. */
+	 *  can be ignored.
+	 *  @param filter filter for pages, may be <code>null</code> for no filtering.
+	 */
 	IWiktionaryIterator<IWiktionaryPage> getAllPages(
 			final IWiktionaryPageFilter filter);
 	
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
 	 *  the Wiktionary edition. Using the given {@link IWiktionaryPageFilter}, 
-	 *  unwanted pages can be ignored. 
+	 *  unwanted pages can be ignored.
+	 *  @param filter filter for pages, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title 
 	 *    (case sensitive); otherwise by page id. */
 	IWiktionaryIterator<IWiktionaryPage> getAllPages(
 			final IWiktionaryPageFilter filter,
 			final boolean sortByTitle);
 	
-	/** Returns an iterator over all {@link IWiktionaryPage}s within 
+	/** @return An iterator over all {@link IWiktionaryPage}s within 
 	 *  the Wiktionary edition. Using the given {@link IWiktionaryPageFilter}, 
 	 *  unwanted pages can be ignored. 
+	 *  @param filter filter for pages, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
 	 *  @param normalize if <code>true</code> sort case insensitive;
@@ -112,12 +125,16 @@ public interface IWiktionary extends Closeable {
 	 *  the given title. The method only returns an entry if the page title 
 	 *  matches exactly. Use {@link #getEntriesForWord(String, boolean)} for 
 	 *  case insensitive and string-normalized matching.
+	 *  @param word word or title of the page.
+	 *  @return A list of {@link IWiktionaryEntry}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionaryEntry> getEntriesForWord(final String word);
 	
-	/** Returns a list of {@link IWiktionaryEntry}s encoded on a page with 
+	/** @return A list of {@link IWiktionaryEntry}s encoded on a page with 
 	 *  the given title. 
+	 *  @param word word or title of the page.
 	 *  @param normalize if <code>true</code>, match the page title in a 
 	 *    case insensitive manner.
 	 *  @throws IllegalStateException if the connection has already been closed.
@@ -130,6 +147,10 @@ public interface IWiktionary extends Closeable {
 	 *  matches exactly. Use {@link #getEntriesForWord(String, boolean)} for 
 	 *  case insensitive and string-normalized matching. Using the given 
 	 *  {@link IWiktionaryEntryFilter}, unwanted entries can be ignored.
+	 *  @param word word or title of the page.
+	 *  @param filter filter for entries, may be <code>null</code> for no filtering.
+	 *  @return A list of {@link IWiktionaryEntry}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionaryEntry> getEntriesForWord(final String word,
@@ -138,8 +159,12 @@ public interface IWiktionary extends Closeable {
 	/** Returns a list of {@link IWiktionaryEntry}s encoded on a page with 
 	 *  the given title. Using the given  {@link IWiktionaryEntryFilter}, 
 	 *  unwanted entries can be ignored. 
+	 *  @param word word or title of the page.
+	 *  @param filter filter for entries, may be <code>null</code> for no filtering.
 	 *  @param normalize if <code>true</code>, match the page title in a 
 	 *    case insensitive manner.
+	 *  @return A list of {@link IWiktionaryEntry}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionaryEntry> getEntriesForWord(final String word,
@@ -151,7 +176,10 @@ public interface IWiktionary extends Closeable {
 	 *  pages using {@link IWiktionaryEdition#getAllPages()} and then
 	 *  over the page's entries using {@link IWiktionaryPage#getEntries()}.
 	 *  The pages are sorted by their page id; the entries by their
-	 *  index. */
+	 *  index.
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *  the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries();
 	
 	/** Returns an iterator over all {@link IWiktionaryEntry}s within 
@@ -161,7 +189,10 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries are sorted by their index.
 	 *  @param sortByTitle if <code>true</code> sort by page title 
-	 *    (case sensitive); otherwise by page id. */
+	 *    (case sensitive); otherwise by page id.
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *  the Wiktionary edition. 
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
 			final boolean sortByTitle);
 	
@@ -175,7 +206,10 @@ public interface IWiktionary extends Closeable {
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
 	 *  @param normalize if <code>true</code> sort case insensitive;
-	 *    otherwise case sensitive (only affects sorting by title). */
+	 *    otherwise case sensitive (only affects sorting by title).
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *    the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
 			final boolean sortByTitle, final boolean normalize);
 
@@ -185,7 +219,11 @@ public interface IWiktionary extends Closeable {
 	 *  over the page's entries using {@link IWiktionaryPage#getEntries()}.
 	 *  The pages are sorted by their page id; the entries by their
 	 *  index. Using the given  {@link IWiktionaryEntryFilter}, unwanted 
-	 *  entries can be ignored. */
+	 *  entries can be ignored.
+	 *  @param filter filter for entries, may be <code>null</code> for no filtering.
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *  the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
 			final IWiktionaryEntryFilter filter);
 	
@@ -196,8 +234,12 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries are sorted by their index. Using the given 
 	 *  {@link IWiktionaryEntryFilter}, unwanted entries can be ignored.
+	 *  @param filter filter for entries, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title 
-	 *    (case sensitive); otherwise by page id. */
+	 *    (case sensitive); otherwise by page id.
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *    the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
 			final IWiktionaryEntryFilter filter,
 			final boolean sortByTitle);
@@ -210,10 +252,14 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries are sorted by their index. Using the given 
 	 *  {@link IWiktionaryEntryFilter}, unwanted entries can be ignored. 
+	 *  @param filter filter for entries, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
 	 *  @param normalize if <code>true</code> sort case insensitive;
-	 *    otherwise case sensitive (only affects sorting by title). */
+	 *    otherwise case sensitive (only affects sorting by title).
+	 *  @return An iterator over all {@link IWiktionaryEntry}s within 
+	 *    the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionaryEntry> getAllEntries(
 			final IWiktionaryEntryFilter filter,
 			final boolean sortByTitle, final boolean normalize);
@@ -225,12 +271,17 @@ public interface IWiktionary extends Closeable {
 	 *  the given title. The method only returns the senses if the page title 
 	 *  matches exactly. Use {@link #getSensesForWord(String, boolean)} for 
 	 *  case insensitive and string-normalized matching.
+	 *  @param word word or title of the page.
+	 *  @return A list of {@link IWiktionarySense}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
-	 *  @throws WiktionaryException upon database errors. */
+	 *  @throws WiktionaryException upon database errors.
+	 */
 	List<IWiktionarySense> getSensesForWord(final String word);
 	
-	/** Returns a list of {@link IWiktionarySense}s encoded on a page with 
+	/** @return A list of {@link IWiktionarySense}s encoded on a page with 
 	 *  the given title. 
+	 *  @param word word or title of the page.
 	 *  @param normalize if <code>true</code>, match the page title in a 
 	 *    case insensitive manner.
 	 *  @throws IllegalStateException if the connection has already been closed.
@@ -243,6 +294,10 @@ public interface IWiktionary extends Closeable {
 	 *  matches exactly. Use {@link #getSensesForWord(String, boolean)} for 
 	 *  case insensitive and string-normalized matching. Using the given 
 	 *  {@link IWiktionarySenseFilter}, unwanted word senses can be ignored.
+	 *  @param word word or title of the page.
+	 *  @param filter filter for senses, may be <code>null</code> for no filtering.
+	 *  @return A list of {@link IWiktionarySense}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionarySense> getSensesForWord(final String word,
@@ -251,8 +306,12 @@ public interface IWiktionary extends Closeable {
 	/** Returns a list of {@link IWiktionarySense}s encoded on a page with 
 	 *  the given title. Using the given  {@link IWiktionarySenseFilter}, 
 	 *  unwanted word senses can be ignored. 
+	 *  @param word word or title of the page.
+	 *  @param filter filter for senses, may be <code>null</code> for no filtering.
 	 *  @param normalize if <code>true</code>, match the page title in a 
 	 *    case insensitive manner.
+	 *  @return A list of {@link IWiktionarySense}s encoded on a page with 
+	 *  the given title.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionarySense> getSensesForWord(final String word,
@@ -269,7 +328,10 @@ public interface IWiktionary extends Closeable {
 	 *  and then over the entry's senses using 
 	 *  {@link IWiktionaryEntry#getSenses()}.
 	 *  The pages are sorted by their page id; the entries and senses by 
-	 *  their index. */
+	 *  their index.
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses();
 	
 	/** Returns an iterator over all {@link IWiktionaryEntry}s within 
@@ -281,7 +343,10 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries and senses are sorted by their index.
 	 *  @param sortByTitle if <code>true</code> sort by page title 
-	 *    (case sensitive); otherwise by page id. */
+	 *    (case sensitive); otherwise by page id.
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition, sorted by title or page id.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses(
 			final boolean sortByTitle);
 	
@@ -296,7 +361,10 @@ public interface IWiktionary extends Closeable {
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
 	 *  @param normalize if <code>true</code> sort case insensitive;
-	 *    otherwise case sensitive (only affects sorting by title). */
+	 *    otherwise case sensitive (only affects sorting by title).
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition, sorted by title or page id.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses(
 			final boolean sortByTitle, final boolean normalize);
 
@@ -308,11 +376,15 @@ public interface IWiktionary extends Closeable {
 	 *  {@link IWiktionaryEntry#getSenses()}.
 	 *  The pages are sorted by their page id; the entries and senses by 
 	 *  their index. Using the given {@link IWiktionarySenseFilter}, unwanted 
-	 *  word senses can be ignored. */
+	 *  word senses can be ignored.
+	 *  @param filter filter for senses, may be <code>null</code> for no filtering.
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition, filtered with the provided optional filter.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses(
 			final IWiktionarySenseFilter filter);
 	
-	/** Returns an iterator over all {@link IWiktionaryEntry}s within 
+	/** Returns an iterator over all {@link IWiktionarySense}s within 
 	 *  the Wiktionary edition. This is equivalent to iterating over all 
 	 *  pages using {@link IWiktionaryEdition#getAllPages(boolean)} and then
 	 *  over the page's entries using {@link IWiktionaryPage#getEntries()}
@@ -321,13 +393,18 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries and senses are sorted by their index. Using the given 
 	 *  {@link IWiktionarySenseFilter}, unwanted word senses can be ignored.
+	 *  @param filter filter for senses, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title 
-	 *    (case sensitive); otherwise by page id. */
+	 *    (case sensitive); otherwise by page id.
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition, filtered with the provided optional filter,
+	 *  sorted by title or page id.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses(
 			final IWiktionarySenseFilter filter,
 			final boolean sortByTitle);
 	
-	/** Returns an iterator over all {@link IWiktionaryEntry}s within 
+	/** Returns an iterator over all {@link IWiktionarySense}s within 
 	 *  the Wiktionary edition. This is equivalent to iterating over all 
 	 *  pages using {@link IWiktionaryEdition#getAllPages(boolean, boolean)} 
 	 *  and then over the page's entries using 
@@ -336,10 +413,15 @@ public interface IWiktionary extends Closeable {
 	 *  The pages are sorted according to the method's parameters; the 
 	 *  entries and senses are sorted by their index. Using the given 
 	 *  {@link IWiktionarySenseFilter}, unwanted word senses can be ignored. 
+	 *  @param filter filter for senses, may be <code>null</code> for no filtering.
 	 *  @param sortByTitle if <code>true</code> sort by page title;
 	 *    otherwise by page id.  
 	 *  @param normalize if <code>true</code> sort case insensitive;
-	 *    otherwise case sensitive (only affects sorting by title). */
+	 *    otherwise case sensitive (only affects sorting by title).
+	 *  @return An iterator over all {@link IWiktionarySense}s within 
+	 *  the Wiktionary edition, filtered with the provided optional filter,
+	 *  sorted by title or page id.
+	 */
 	IWiktionaryIterator<IWiktionarySense> getAllSenses(
 			final IWiktionarySenseFilter filter,
 			final boolean sortByTitle, final boolean normalize);
@@ -354,8 +436,8 @@ public interface IWiktionary extends Closeable {
 	@Override
 	void close();
 
-	/** Returns <code>true</code> if the database connection has already been 
+	/** @return <code>true</code> if the database connection has already been 
 	 *  closed using the {@link #close()} method. */
 	boolean isClosed();
-	
+
 }
