@@ -71,38 +71,41 @@ public interface IWiktionaryWordForm {
 
 	/** Returns the word form or <code>null</code> if no such word form
 	 *  exists (but specified). An example for the latter is the English noun
-	 *  "information", which does not have a plural form. */
+	 *  "information", which does not have a plural form.
+	 *  @return The word form or <code>null</code> if no such word form
+	 *  exists (but specified).
+	 */
 	String getWordForm();
 	
-	/** Returns the {@link GrammaticalNumber} of this word form or 
+	/** @return The {@link GrammaticalNumber} of this word form or 
 	 *  <code>null</code> if no number is specified or applicable. */
 	GrammaticalNumber getNumber();
 	
-	/** Returns the {@link GrammaticalCase} of this word form or 
+	/** @return The {@link GrammaticalCase} of this word form or 
 	 *  <code>null</code> if no case is specified or applicable. */
 	GrammaticalCase getCase();
 	
-	/** Returns the {@link GrammaticalPerson} of this word form or 
+	/** @return The {@link GrammaticalPerson} of this word form or 
 	 *  <code>null</code> if no person is specified or applicable. */
 	GrammaticalPerson getPerson();
 	
-	/** Returns the {@link GrammaticalTense} of this word form or 
+	/** @return The {@link GrammaticalTense} of this word form or 
 	 *  <code>null</code> if no tense is specified or applicable. */
 	GrammaticalTense getTense();
 	
-	/** Returns the {@link GrammaticalMood} of this word form or 
+	/** @return The {@link GrammaticalMood} of this word form or 
 	 *  <code>null</code> if no mood is specified or applicable. */
 	GrammaticalMood getMood();
 	
-	/** Returns the {@link GrammaticalDegree} of this word form or 
+	/** @return The {@link GrammaticalDegree} of this word form or 
 	 *  <code>null</code> if no degree is specified or applicable. */
 	GrammaticalDegree getDegree();
 	
-	/** Returns the {@link GrammaticalAspect} of this word form or 
+	/** @return The {@link GrammaticalAspect} of this word form or 
 	 *  <code>null</code> if no aspect is specified or applicable. */
 	GrammaticalAspect getAspect();
 	
-	/** Returns the {@link NonFiniteForm} type of this word form or 
+	/** @return The {@link NonFiniteForm} type of this word form or 
 	 *  <code>null</code> if no type is specified or applicable. */
 	NonFiniteForm getNonFiniteForm();
 	

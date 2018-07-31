@@ -199,7 +199,10 @@ public enum PartOfSpeech {
 	/** Find the part of speech with the given name. The method only for its
 	 *  canonical English name. Use {@link #findByName(String, Map)} for 
 	 *  language-specific lookup. If no part of speech could be found,
-	 *  <code>null</code> is returned. */
+	 *  <code>null</code> is returned.
+	 *  @param name canonical English name of the part of speech.
+	 *  @return Part of speech with the given name or <code>null</code> if not found.
+	 */
 	public static PartOfSpeech findByName(final String name) {
 		return findByName(name, null);
 	}
@@ -208,7 +211,11 @@ public enum PartOfSpeech {
 	 *  for the canonical English name as well as alternative names in 
 	 *  other languages, which can be specified by passing a custom 
 	 *  additional map. If no part of speech could be found,
-	 *  <code>null</code> is returned. */
+	 *  <code>null</code> is returned.
+	 *  @param name canonical English name of the part of speech.
+	 *  @param additionalMap alternative names in other languages.
+	 *  @return Part of speech with the given name or <code>null</code> if not found.
+	 */
 	public static PartOfSpeech findByName(final String name, 
 			final Map<String, PartOfSpeech> additionalMap) {
 		if (name == null || name.isEmpty())
@@ -243,9 +250,12 @@ public enum PartOfSpeech {
 		return result;
 	}
 	
-	/** Tests if the specified parts of speech are equal. The method returns 
-	 * <code>true</code> if both parts of speech are <code>null</code>, but 
-	 * <code>false</code> if only one of them is <code>null</code>. */
+	/** Tests if the specified parts of speech are equal.
+	 * @param partOfSpeech1 first part of speech.
+	 * @param partOfSpeech2 second part of speech.
+	 * @return <code>true</code> if both parts of speech are <code>null</code>, but 
+	 * <code>false</code> if only one of them is <code>null</code>.
+	 */
 	public static boolean equals(final PartOfSpeech partOfSpeech1, 
 			final PartOfSpeech partOfSpeech2) {
 		if (partOfSpeech1 == partOfSpeech2)

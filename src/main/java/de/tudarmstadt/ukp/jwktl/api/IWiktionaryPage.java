@@ -41,30 +41,42 @@ public interface IWiktionaryPage {
 	/** Returns a unique ID for this page. The ID is unique for all 
 	 *  {@link IWiktionaryPage}s of the {@link IWiktionaryEdition} and 
 	 *  remains persistent regardless of the JWKTL software version or
-	 *  the date of the XML data dump of Wiktionary. */
+	 *  the date of the XML data dump of Wiktionary.
+	 *  @return A unique string ID for this page.
+	 */
 	String getKey();
 	
 	/** Returns the unique ID for this page. This method is equivalent
-	 *  to {@link #getKey()}, but returns the ID as a numerical value. */
+	 *  to {@link #getKey()}, but returns the ID as a numerical value.
+	 *  @return A unique numeric ID for this page.
+	 */
 	long getId();
 	
 	
 	// -- Page --
 	
 	/** Returns the title of this Wiktionary page which usually corresponds
-	 *  to the lemma of all lexical entries described on this page. */
+	 *  to the lemma of all lexical entries described on this page.
+	 *  @return The title of this Wiktionary page.
+	 */
 	String getTitle();
 	
 	/** Returns the timestamp of this revision - i.e., the date of the
-	 *  last change of the page. */
+	 *  last change of the page.
+	 *  @return The timestamp of this revision.
+	 */
 	Date getTimestamp();
 	
 	/** Returns the ID of this revision - i.e., a unique number of the 
-	 *  last change made to the page. */
+	 *  last change made to the page.
+	 *  @return The ID of this revision.
+	 */
 	long getRevision();
 	
 	/** Returns the author of this revision - i.e., the name of the user
-	 *  that made the last change to the page. */
+	 *  that made the last change to the page.
+	 *  @return The author of this revision.
+	 */
 	String getAuthor();
 	
 	/** Returns the language that this page is written in. This is always 
@@ -75,12 +87,17 @@ public interface IWiktionaryPage {
 	 *  a Wiktionary page "plant" in the German Wiktionary language edition
 	 *  that encodes a lexical entry on the word "plant" of the English 
 	 *  language. The entry language would be German and the word language 
-	 *  would be English in this case. */
+	 *  would be English in this case.
+	 *  @return The language that this page is written in.
+	 */
 	ILanguage getEntryLanguage();
 	
 	/** Returns all categories of the Wiktionary page that are manually 
 	 *  defined. Categories being derived automatically by using templates
-	 *  are not returned. The returned list is never <code>null</code>. */
+	 *  are not returned. The returned list is never <code>null</code>.
+	 *  @return All categories of the Wiktionary page that are manually 
+	 *  defined. The returned list is never <code>null</code>.
+	 */
 	List<String> getCategories();
 	
 	/** Returns a list of inter-wiki links of this Wiktionary page. Inter-wiki
@@ -88,30 +105,32 @@ public interface IWiktionaryPage {
 	 *  the English page "plant" to the German page "plant". Note that this 
 	 *  is not a translation, but always the same word form. Use 
 	 *  {@link IWiktionarySense#getTranslations()} for word translations. 
-	 *  The returned list is never <code>null</code>. */
+	 *  The returned list is never <code>null</code>.
+	 *  @return A list of inter-wiki links of this Wiktionary page.
+	 *  The returned list is never <code>null</code>.
+	 */
 	Set<String> getInterWikiLinks();
 
-	/** Returns the page title that a redirect page targets at. The method
+	/** @return The page title that a redirect page targets at. The method
 	 *  returns <code>null</code> if the page is not a redirection page. */
 	String getRedirectTarget();
 	
 	
 	// -- Entries --
 	
-	/** Returns the {@link IWiktionaryEntry} with the given index. The index
-	 *  is a running number starting at zero.
+	/** @return the {@link IWiktionaryEntry} with the given index.
+	 *  @param index index of the entry, a running number starting at zero.
 	 *  @throws ArrayIndexOutOfBoundsException if there is no entry with
 	 *    the given index. */
 	IWiktionaryEntry getEntry(int index);
 	
-	/** Returns the number of {@link IWiktionaryEntry}s encoded on this
+	/** @return the number of {@link IWiktionaryEntry}s encoded on this
 	 *  page. */
 	int getEntryCount();
 	
-	/** Returns the list of all {@link IWiktionaryEntry}s. The list is
+	/** @return The list of all {@link IWiktionaryEntry}s. The list is
 	 *  never <code>null</code> and yields equivalent results to using 
 	 *  {@link #getEntry(int)} for all indices from zero to 
 	 *  {@link #getEntryCount()}. */
 	List<? extends IWiktionaryEntry> getEntries();
-	
 }

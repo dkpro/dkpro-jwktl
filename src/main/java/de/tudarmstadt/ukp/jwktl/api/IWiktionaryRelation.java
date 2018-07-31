@@ -43,18 +43,21 @@ public interface IWiktionaryRelation {
 	}
 	
 		
-	/** Returns the target word form of this relation. */
+	/** @return The target word form of this relation. */
 	String getTarget();
 	
 	/** Returns additional information on the word sense of the relation's 
 	 *  target. This is not yet structured information, but the bare 
-	 *  piece of text encoded in Wiktionary. */
+	 *  piece of text encoded in Wiktionary.
+	 *  @return Additional information on the word sense of the relation's 
+	 *  target.
+	 */
 	String getTargetSense();
 	
-	/** Returns the type of this relation (never <code>null</code>). */
+	/** @return The type of this relation (never <code>null</code>). */
 	RelationType getRelationType();
 	
-	/** Returns the {@link LinkType} that is used to encode the relation's
+	/** @return The {@link LinkType} that is used to encode the relation's
 	 *  target. */
 	LinkType getLinkType();
 	

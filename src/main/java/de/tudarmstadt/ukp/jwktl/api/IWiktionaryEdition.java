@@ -29,25 +29,27 @@ import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
  */
 public interface IWiktionaryEdition extends IWiktionary {
 
-	/** Returns the language of the Wiktionary edition, which is equivalent
+	/** @return The language of the Wiktionary edition, which is equivalent
 	 *  to the entry language of the contained entries. */
 	ILanguage getLanguage();
 
-	/** Returns the file path of the parsed database. */
+	/** @return The file path of the parsed database. */
 	File getDBPath();
 
 	
 	// -- Pages --
 	
-	/** Returns the page with the given unique id.
+	/** @return The page with the given unique id.
+	 *  @param id numeric id of the page.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionaryPage getPageForId(long id);
 	
-	/** Returns the page with the given title. The method only returns the
+	/** @return The page with the given title. The method only returns the
 	 *  page if its title matches exactly. Use 
 	 *  {@link #getPagesForWord(String, boolean)} for case insensitive and
 	 *  string-normalized matching.
+	 *  @param word word or title of the page.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionaryPage getPageForWord(final String word);
@@ -55,23 +57,28 @@ public interface IWiktionaryEdition extends IWiktionary {
 	
 	// -- Entries --
 
-	/** Returns the {@link IWiktionaryEntry} with the given entry id. Note 
+	/** @return The {@link IWiktionaryEntry} with the given entry id. Note 
 	 *  that this id is only stable over the same XML dump and JWKTL version.
+	 *  @param entryId numeric id of the entry.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionaryEntry getEntryForId(long entryId);
 	
-	/** Returns the {@link IWiktionaryEntry} with the given page id and 
+	/** @return The {@link IWiktionaryEntry} with the given page id and 
 	 *  entry index. Note that this id combination is only stable over the 
 	 *  same XML dump and JWKTL version.
+	 *  @param pageId numeric id of the entry page.
+	 *  @param entryIdx entry index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionaryEntry getEntryForId(long pageId, int entryIdx);
 
-	/** Returns the {@link IWiktionaryEntry} encoded on a page with 
+	/** @return The {@link IWiktionaryEntry} encoded on a page with 
 	 *  the given title and being part of an entry with the specified entry
 	 *  index. The method only returns the entries if the page title 
 	 *  matches exactly.
+	 *  @param word word or title of the entry page.
+	 *  @param entryIdx entry index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionaryEntry getEntryForWord(final String word,
@@ -80,39 +87,50 @@ public interface IWiktionaryEdition extends IWiktionary {
 	
 	// -- Senses --
 
-	/** Returns the word sense with the given unique id. Note that this id
+	/** @return The word sense with the given unique id. Note that this id
 	 *  is only stable over the same XML dump and JWKTL version.
+	 *  @param id id of the word sense.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionarySense getSenseForKey(final String id);
 
-	/** Returns the word sense with the given entry id and sense index. Note 
+	/** @return The word sense with the given entry id and sense index. Note 
 	 *  that this id combination is only stable over the same XML dump and 
 	 *  JWKTL version.
+	 *  @param entryId id of the entry.
+	 *  @param senseIdx sense index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionarySense getSenseForId(long entryId, int senseIdx);
 	
-	/** Returns the word sense with the given page id, entry index, and sense 
+	/** @return The word sense with the given page id, entry index, and sense 
 	 *  index. Note that this id combination is only stable over the same XML 
 	 *  dump and JWKTL version.
+	 *  @param pageId numeric id of the entry page.
+	 *  @param entryIdx entry index.
+	 *  @param senseIdx sense index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionarySense getSenseForId(long pageId, int entryIdx, int senseIdx);
 
-	/** Returns a list of {@link IWiktionarySense}s encoded on a page with 
+	/** @return A list of {@link IWiktionarySense}s encoded on a page with 
 	 *  the given title and being part of an entry with the specified entry
 	 *  index. The method only returns the senses if the page title 
 	 *  matches exactly.
+	 *  @param word word or title of the page.
+	 *  @param entryIdx entry index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	List<IWiktionarySense> getSensesForWord(final String word,
 											int entryIdx);
 
-	/** Returns the {@link IWiktionarySense} encoded on the page with 
+	/** @return The {@link IWiktionarySense} encoded on the page with 
 	 *  the given title and being part of the entry with the specified entry 
 	 *  index at the specified sense index. The method only returns the 
 	 *  sense if the page title matches exactly.
+	 *  @param word word or title of the page.
+	 *  @param entryIdx entry index.
+	 *  @param senseIdx sense index.
 	 *  @throws IllegalStateException if the connection has already been closed.
 	 *  @throws WiktionaryException upon database errors. */
 	IWiktionarySense getSensesForWord(final String word,
