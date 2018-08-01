@@ -35,7 +35,7 @@ public class WiktionaryFormatter {
 	
 	private static WiktionaryFormatter instance;
 	
-	/** Returns the static singleton reference. */
+	/** @return The static singleton reference. */
 	public static WiktionaryFormatter instance() {
 		if (instance == null)
 			instance = new WiktionaryFormatter();
@@ -45,7 +45,9 @@ public class WiktionaryFormatter {
 	
 	// -- Format methods --
 
-	/** Returns the ID and the title of the given page. */
+	/** @return The ID and the title of the given page.
+	 *  @param page the page, may be <code>null</code>.
+	 */
 	public String formatHeader(final IWiktionaryPage page) {
 		if (page == null)
 			return "";
@@ -54,8 +56,10 @@ public class WiktionaryFormatter {
 				.append(page.getTitle()).toString();
 	}
 	
-	/** Returns the entry key, word, word language, and part of speech
-	 *  of the given entry. */
+	/** @return The entry key, word, word language, and part of speech
+	 *  of the given entry.
+	 *  @param entry the entry, may be <code>null</code>.
+	 */
 	public String formatHeader(final IWiktionaryEntry entry) {
 		if (entry == null)
 			return "";
@@ -66,8 +70,10 @@ public class WiktionaryFormatter {
 				.append(entry.getPartOfSpeech()).append(")").toString();
 	}
 
-	/** Returns the sense key, word, sense index, and definition of
-	 *  the given word sense. */
+	/** @return The sense key, word, sense index, and definition of
+	 *  the given word sense.
+	 *  @param sense the sense, may not be <code>null</code>.
+	 */
 	public String formatHeader(final IWiktionarySense sense) {
 		return new StringBuilder()
 				.append(sense.getKey()).append(" ")
@@ -76,8 +82,11 @@ public class WiktionaryFormatter {
 				.append(sense.getGloss().getPlainText()).toString();
 	}
 
-	/** Returns a string representation of the given page using separate 
-	 *  prefixed lines for each information type. */
+	/** @return A string representation of the given page using separate 
+	 *  prefixed lines for each information type.
+	 *  @param page the page, may not be <code>null</code>.
+	 *  @param languages languages, may be <code>null</code> for no language restriction.
+	 *  */
 	public String formatPage(final IWiktionaryPage page, final ILanguage... languages) {
 		StringBuilder result = new StringBuilder();
 		for (IWiktionaryEntry entry : page.getEntries()) {
@@ -104,8 +113,10 @@ public class WiktionaryFormatter {
 		return result.toString();
 	}
 	
-	/** Returns a string representation of the given entry using separate 
-	 *  prefixed lines for each information type. */
+	/** @return A string representation of the given entry using separate 
+	 *  prefixed lines for each information type.
+	 *  @param entry the entry, may not be <code>null</code>.
+	 */
 	public String formatEntry(final IWiktionaryEntry entry) {
 		StringBuilder result = new StringBuilder();
 		result.append(entry.getWord()).append("/")
@@ -134,8 +145,10 @@ public class WiktionaryFormatter {
 		return result.toString();
 	}
 		
-	/** Returns a string representation of the given word sense using separate 
-	 *  prefixed lines for each information type. */
+	/** @return A string representation of the given word sense using separate 
+	 *  prefixed lines for each information type.
+	 *  @param sense the sense, may not be <code>null</code>.
+	 */
 	public String formatSense(final IWiktionarySense sense) {
 		StringBuilder result = new StringBuilder();
 		String senseIdx = (sense.getIndex() == 0 

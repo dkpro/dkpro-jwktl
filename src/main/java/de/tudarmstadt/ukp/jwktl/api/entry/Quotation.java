@@ -52,12 +52,16 @@ public class Quotation implements IQuotation {
 	}
 	
 	/** Assigns the given {@link WikiString} as the source of the quotation,
-	 *  i.e. its author and publishing reference. */
+	 *  i.e. its author and publishing reference.
+	 *  @param source source of the quotation.
+	 */
 	public void setSource(final IWikiString source) {
 		this.source = source;
 	}
 	
-	/** Add a quotation line, i.e. the text of a quotation. */
+	/** Add a quotation line.
+	 * @param line quotation line, i.e. the text of a quotation.
+	 */
 	public void addLine(final IWikiString line) {
 		lines.add(line);
 	}

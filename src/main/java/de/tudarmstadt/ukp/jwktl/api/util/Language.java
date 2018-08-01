@@ -186,7 +186,10 @@ public class Language implements ILanguage {
 	 *  internal codes roughly correspond to ISO 639-3 code, but also model
 	 *  some extensions to this. Use {@link #findByCode(String)} if you are
 	 *  unsure about your code. If no language could be found, 
-	 *  <code>null</code> is returned. */
+	 *  <code>null</code> is returned.
+	 *  @param code language code.
+	 *  @return The language with the given internal code.
+	 */
 	public static ILanguage get(final String code) {
 		initialize();
 		return (code == null ? null : languageIndex.get(code));
@@ -194,7 +197,10 @@ public class Language implements ILanguage {
 	
 	/** Find the language with the given code. The method checks both for the
 	 *  internal language codes and for any ISO 639 code. If no language 
-	 *  could be found, <code>null</code> is returned. */
+	 *  could be found, <code>null</code> is returned.
+	 *  @param code language code.
+	 *  @return The language with the given internal or ISO 639 code.
+	 */
 	public static ILanguage findByCode(final String code) {
 		initialize();
 		return get(additionalCodeIndex.get(code));
@@ -203,7 +209,10 @@ public class Language implements ILanguage {
 	/** Find the language with the given name. The method checks both for the
 	 *  canonical English name as well as alternative names in other languages
 	 *  or spelling errors found in Wiktionary. If no language could be found,
-	 *  <code>null</code> is returned. */
+	 *  <code>null</code> is returned.
+	 *  @param name language name.
+	 *  @return The language with the given name.
+	 */
 	public static ILanguage findByName(final String name) {
 		if (name == null)
 			return null;
@@ -211,8 +220,10 @@ public class Language implements ILanguage {
 		return get(additionalNameIndex.get(name.trim().toLowerCase()));
 	}
 
-	/** Tests if the specified languages are equal. The method returns 
-	 * <code>true</code> if both languages are <code>null</code>, but 
+	/** Tests if the specified languages are equal.
+	 * @param language1 first language.
+	 * @param language2 second language.
+	 * @return <code>true</code> if both languages are <code>null</code>, but 
 	 * <code>false</code> if only one of them is <code>null</code>. */
 	public static boolean equals(final ILanguage language1, 
 			final ILanguage language2) {

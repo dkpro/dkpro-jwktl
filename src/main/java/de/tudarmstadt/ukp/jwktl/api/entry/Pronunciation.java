@@ -38,7 +38,12 @@ public class Pronunciation implements IPronunciation {
 	
 	/** Creates a new pronunciation for the given representation text, 
 	 *  notation type and addition information. For audio files, the 
-	 *  representation text refers to an audio file name. */
+	 *  representation text refers to an audio file name.
+	 *  @param type notation type. 
+	 *  @param text representation text. For audio files, the 
+	 *  representation text refers to an audio file name.
+	 *  @param note additional information. 
+	 */
 	public Pronunciation(final PronunciationType type,
 			final String text, final String note) {
 		this.type = type;

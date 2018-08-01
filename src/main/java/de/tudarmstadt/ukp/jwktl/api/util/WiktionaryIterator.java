@@ -55,9 +55,11 @@ public abstract class WiktionaryIterator<Type>
 			throw new NoSuchElementException();
 	}
 
-	/** Hotspot for fetching the next element for iteration. If there are no
-	 *  elements left, <code>null</code> is to be returned, which causes the 
-	 *  iterator to return <code>false</code> for the next {@link #hasNext()}. */
+	/** Hotspot for fetching the next element for iteration.
+	 * @return If there are no elements left, <code>null</code> is to be
+	 * returned, which causes the iterator to return <code>false</code>
+	 * for the next {@link #hasNext()}.
+	 */
 	protected abstract Type fetchNext();
 
     /** Hotspot that is invoked after closing the iteration, i.e. either all

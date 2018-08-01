@@ -36,22 +36,24 @@ public interface ILanguage extends Comparable<ILanguage> {
 
 	/** Returns the internal language code used by JWTKL. These codes roughly 
 	 *  correspond to ISO 639-3, but also include language families, 
-	 *  deprecated classifications, and not yet classified languages. */
+	 *  deprecated classifications, and not yet classified languages.
+	 *  @return The internal language code used by JWTKL.
+	 */
 	String getCode();
 	
-	/** Returns the language name (in English language). */
+	/** @return The language name (in English language). */
 	String getName();
 	
-	/** Returns the ISO 639-1 code or an empty string if none. */
+	/** @return The ISO 639-1 code or an empty string if none. */
 	String getISO639_1();
 	
-	/** Returns the ISO 639-2b code or an empty string if none. */
+	/** @return The ISO 639-2b code or an empty string if none. */
 	String getISO639_2B();
 	
-	/** Returns the ISO 639-2t code or an empty string if none. */
+	/** @return The ISO 639-2t code or an empty string if none. */
 	String getISO639_2T();
 	
-	/** Returns the ISO 639-3 code or an empty string if none. */
+	/** @return The ISO 639-3 code or an empty string if none. */
 	String getISO639_3();
 	
 }
