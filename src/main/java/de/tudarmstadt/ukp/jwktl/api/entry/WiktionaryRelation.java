@@ -39,7 +39,10 @@ public class WiktionaryRelation implements IWiktionaryRelation {
 	/** Creates a new, empty relation. */ 
 	public WiktionaryRelation() {}
 	
-	/** Creates a new relation for the given target and relation type. */
+	/** Creates a new relation for the given target and relation type.
+	 * @param target target of the relation;
+	 * @param type relation type.
+	 */
 	public WiktionaryRelation(final String target, final RelationType type) {
 		this.target = target;
 		this.type = type;
@@ -58,7 +61,9 @@ public class WiktionaryRelation implements IWiktionaryRelation {
 		return targetSense;
 	}
 
-	/** Specifies additional information on the target word sense. */
+	/** Specifies additional information on the target word sense.
+	 * @param targetSense additional target sense.
+	 */
 	public void setTargetSense(final String targetSense){
 		this.targetSense = targetSense;
 	}
@@ -67,7 +72,9 @@ public class WiktionaryRelation implements IWiktionaryRelation {
 		return linkType;
 	}
 	
-	/** Assigns a new link type for this relation. */
+	/** Assigns a new link type for this relation.
+	 * @param linkType type of the link for this relation. 
+	 */
 	public void setLinkType(final LinkType linkType) {
 		this.linkType = linkType;
 	}

@@ -44,7 +44,10 @@ public class BerkeleyDBWiktionaryIterator<OutputType, InputType extends OutputTy
 	protected BerkeleyDBWiktionaryEdition edition;
 	protected EntityCursor<InputType> cursor;
 
-	/** Initializes the iterator for the specified cursor. */
+	/** Initializes the iterator for the specified cursor.
+	 * @param edition base edition for this iterator.
+	 * @param cursor cursor for this iterator.
+	 */
 	public BerkeleyDBWiktionaryIterator(final BerkeleyDBWiktionaryEdition edition,
 			final EntityCursor<InputType> cursor) {
 		this.edition = edition;
@@ -74,7 +77,10 @@ public class BerkeleyDBWiktionaryIterator<OutputType, InputType extends OutputTy
 	}
 
 	/** Hotspot that is invoked when returning an entity. It can, e.g.,
-	 *  be used to initialize the entity before usage. */
+	 *  be used to initialize the entity before usage.
+	 *  @param entity input entity.
+	 *  @return Processed (ex. initialized) output entity.
+	 */
 	protected OutputType loadEntity(final InputType entity) {
 		return entity;
 	}
