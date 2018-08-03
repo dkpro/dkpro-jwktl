@@ -17,6 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
@@ -25,6 +26,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
@@ -302,6 +304,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testMockumentary() throws Exception {
 		IWiktionaryPage page = parse("Mockumentary.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.NEUTER, GrammaticalGender.FEMININE), entry.getGenders()); 
 		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
 		assertWordFormNoun("Mockumentary", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
 		assertWordFormNoun("Mockumentary", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
