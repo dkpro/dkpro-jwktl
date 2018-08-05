@@ -1,0 +1,186 @@
+== Verkehrspädagoge ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Verkehrspädagoge 
+|Nominativ Plural=Verkehrspädagogen
+|Genitiv Singular=Verkehrspädagogen
+|Genitiv Plural=Verkehrspädagogen
+|Dativ Singular=Verkehrspädagogen
+|Dativ Plural=Verkehrspädagogen
+|Akkusativ Singular=Verkehrspädagogen
+|Akkusativ Plural=Verkehrspädagogen
+}}
+
+{{Worttrennung}}
+:Ver·kehrs·pä·d·a·go·ge, {{Pl.}} Ver·kehrs·pä·d·a·go·gen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fɛɐ̯ˈkeːɐ̯spɛdaˌɡoːɡə}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Person, die beruflich in Forschung und Lehre im akademischen Bildungsbereich [[Verkehrspädagogik]] tätig ist
+:[2] Person, die sich (beruflich) als [[Verkehrserzieher]] im praktischen Lehrbetrieb betätigt
+
+{{Herkunft}}
+:[[Determinativkompositum]], zusammengesetzt aus dem Substantiv ''[[Verkehr]]'', dem [[Fugenelement]] ''[[-s]]'' und dem Substantiv ''[[Pädagoge]]''
+
+{{Sinnverwandte Wörter}}
+:[2] [[Fahrlehrer]], [[Verkehrserzieher]]
+
+{{Weibliche Wortformen}}
+:[[Verkehrspädagogin]]
+
+{{Oberbegriffe}}
+:[1] [[Pädagoge]], [[Wissenschaftler]]
+:[2] [[Berater]], [[Erzieher]], [[Lehrer]], [[Trainer]]
+
+{{Beispiele}}
+:[1] „Das fordern die ''Verkehrspädagogen'' Bongard und Winterfeld von der Pädagogischen Hochschule Berlin, die jetzt im Auftrag des Bundesverkehrsministeriums das Verkehrswissen und das Verkehrsverständnis von fünf- und sechsjährigen Kindern vor deren Schuleintritt untersuchten.“&lt;ref>Die Zeit, 16. Januar 1978, Nr. 03, zitiert n. [https://www.dwds.de/?q=Verkehrsp%C3%A4dagoge&amp;from=wb Verkehrspädagoge]&lt;/ref>
+:[1] „Ein von ''Verkehrspädagogen'' und -psychologen betreuter Durchgang dauert etwa 1,5 Stunden.“&lt;ref>Die Welt, 17. August 2004, zitiert n. [https://www.dwds.de/?q=Verkehrsp%C3%A4dagoge&amp;from=wb Verkehrspädagoge]&lt;/ref>
+:[1] „Der ''Verkehrspädagoge'' Wolfgang Stern ergänzte, dass mangelnde Fahrpraxis und die fehlende Beherrschung der Maschine Probleme darstellten, die durch Trainings behoben werden könnten.“&lt;ref>{{Internetquelle|url=https://www.dvr.de/download/jahresbericht-2016.pdf|titel=PDF, Jahresbericht 2016 Deutscher Verkehrssicherheitsrat|zugriff=2018-03-19}}&lt;/ref>
+:[2] „Schon in Kitas und Schulen soll durch ''Verkehrspädagogen'' ‚eine Saat‘ für verantwortungsbewußtes Verhalten im Verkehr gelegt, die Problemgruppe der jungen Erwachsenen im Alter von 18 bis 25 Jahren, die die meisten Unfälle verursachen, sollen in ihrer eigenen Sprache angesprochen werden.“&lt;ref>{{Per-Tagesspiegel Online | Online=https://www.tagesspiegel.de/themen/brandenburg/polizei-setzt-auf-abschreckung-todesvideo-soll-rasern-eine-lehre-sein/62412.html | Autor=Alexander Pajevic | Titel= Polizei setzt auf Abschreckung: „Todesvideo“ soll Rasern eine Lehre sein| Tag=14 | Monat= 10| Jahr=1998 | Zugriff=2018-03-19}}&lt;/ref>
+:[2] „So sehr den ''Verkehrspädagogen'' Erfolg zu wünschen wäre – die vielfältigen Anreize zum Übertreten der Verkehrsregeln sind offenbar stärker.“&lt;ref>{{Per-Zeit Online | Online=http://www.zeit.de/1987/47/wenn-der-nebel-wieder-steigt/komplettansicht | Autor= Hans Schuh| Titel=  Wenn der Nebel wieder steigt …| Tag= 13| Monat=11| Jahr=1987 | Zugriff=2018-03-19}}&lt;/ref>
+:[2] „Angehende ''Verkehrspädagogen'' sind schon auf der Schulbank umworben.“&lt;ref> [http://fahrschul.tv/tag/verkehrspaedagogen/ Verkehrspädagogen]&lt;/ref>
+:[2] „Deshalb besteht seit Herbst 2014 für die erfolgreichen Absolventen der vorgesehenen Ausbildungskriterien die Möglichkeit, mit den jeweiligen Verbandsprüfungen abzuschließen und die Berechtigung zur Bezeichnung "Geprüfter ''Verkehrspädagoge'' / MPU-Berater (DVPK) bzw. "Geprüfter Kraftfahreignungsberater (DVPK)" (Deutscher Verband der Psychologen und Kraftfahreignungsberater e.V.)“&lt;ref>[http://www.mpu-beratung-vorbereitung.de/mpu_berater_ausbildung_kraftfahreignungsberater.html Ausbildung zum MPU-Berater, Fahreignungsberater, ''Verkehrspädagogen'']&lt;/ref>
+:[2] „Alexander K. ist seit 1992 Fahrlehrer und ''Verkehrspädagoge.'' Sein Fachwissen gibt er mit einem großen Maß an Kompetenz an seine Kursteilnehmer weiter.“&lt;ref>{{Internetquelle|url=https://www.fahrschule-keinath.de/ueber-uns-in-augsburg/das-keinath-team/alexander-keinath-teamleitung/|titel=Fahrschule, Augsburg|zugriff=2018-03-19}}&lt;/ref>
+
+{{Wortbildungen}}
+:[[Verkehrspädagogenausbildung]], [[Verkehrspädagogenkongress]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+*{{el}}: [1] {{Üt|el|}} 
+*{{it}}: [1] {{Ü|it|}}
+|Ü-rechts=
+*{{ru}}: [1] {{Üt|}}
+*{{sv}}: [1] {{Ü|}}
+*{{es}}: [1] {{Ü|es|}}
+*{{cs}}: [1] {{Ü|cs|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Verkehrspädagoge}}
+:[*] {{Ref-DWDS|Verkehrspädagoge}}
+
+{{Quellen}}
+</textarea><div class="templatesUsed"></div><p id="mw-returnto">Zurück zur Seite <a href="/wiki/Verkehrsp%C3%A4dagoge" title="Verkehrspädagoge">Verkehrspädagoge</a>.</p>
+<noscript><img src="//de.wiktionary.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Abgerufen von „<a dir="ltr" href="https://de.wiktionary.org/wiki/Verkehrspädagoge">https://de.wiktionary.org/wiki/Verkehrspädagoge</a>“					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigationsmenü</h2>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Meine Werkzeuge</h3>
+						<ul>
+							<li id="pt-anonuserpage">Nicht angemeldet</li><li id="pt-anontalk"><a href="/wiki/Spezial:Meine_Diskussionsseite" title="Diskussion über Änderungen von dieser IP-Adresse [n]" accesskey="n">Diskussionsseite</a></li><li id="pt-anoncontribs"><a href="/wiki/Spezial:Meine_Beitr%C3%A4ge" title="Eine Liste der Bearbeitungen, die von dieser IP-Adresse gemacht wurden [y]" accesskey="y">Beiträge</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Spezial:Benutzerkonto_anlegen&amp;returnto=Verkehrsp%C3%A4dagoge&amp;returntoquery=action%3Dedit%26section%3D1" title="Wir ermutigen dich dazu, ein Benutzerkonto zu erstellen und dich anzumelden. Es ist jedoch nicht zwingend erforderlich.">Benutzerkonto erstellen</a></li><li id="pt-login"><a href="/w/index.php?title=Spezial:Anmelden&amp;returnto=Verkehrsp%C3%A4dagoge&amp;returntoquery=action%3Dedit%26section%3D1" title="Sich anzumelden wird gerne gesehen, ist jedoch nicht zwingend erforderlich. [o]" accesskey="o">Anmelden</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namensräume</h3>
+						<ul>
+							<li id="ca-nstab-main" class="selected"><span><a href="/wiki/Verkehrsp%C3%A4dagoge" title="Seiteninhalt anzeigen [c]" accesskey="c">Eintrag</a></span></li><li id="ca-talk"><span><a href="/wiki/Diskussion:Verkehrsp%C3%A4dagoge" rel="discussion" title="Diskussion zum Seiteninhalt [t]" accesskey="t">Diskussion</a></span></li>						</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-variants-label" />
+						<h3 id="p-variants-label">
+							<span>Varianten</span>
+						</h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Diese Seite</h3>
+						<ul>
+							<li id="ca-view" class="collapsible"><span><a href="/wiki/Verkehrsp%C3%A4dagoge">Lesen</a></span></li><li id="ca-edit" class="collapsible selected"><span><a href="/w/index.php?title=Verkehrsp%C3%A4dagoge&amp;action=edit" title="Diese Seite bearbeiten">Bearbeiten</a></span></li><li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Verkehrsp%C3%A4dagoge&amp;action=history" title="Frühere Versionen dieser Seite [h]" accesskey="h">Versionsgeschichte</a></span></li>						</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<input type="checkbox" class="vectorMenuCheckbox" aria-labelledby="p-cactions-label" />
+						<h3 id="p-cactions-label"><span>Mehr</span></h3>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Suche</label>
+						</h3>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+								<input type="search" name="search" placeholder="Wiktionary durchsuchen" title="Wiktionary durchsuchen [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Spezial:Suche" name="title"/><input type="submit" name="fulltext" value="Volltext" title="Suche nach Seiten, die diesen Text enthalten" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Seite" title="Gehe direkt zu der Seite mit genau diesem Namen, falls sie vorhanden ist." id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Wiktionary:Hauptseite"  title="Hauptseite"></a></div>
+						<div class="portal" role="navigation" id="p-navigation" aria-labelledby="p-navigation-label">
+			<h3 id="p-navigation-label">Navigation</h3>
+			<div class="body">
+								<ul>
+					<li id="n-mainpage-text"><a href="/wiki/Wiktionary:Hauptseite">Hauptseite</a></li><li id="n-verzeichnisse"><a href="/wiki/Verzeichnis:%C3%9Cbersicht">Themenportale</a></li><li id="n-randompage"><a href="/wiki/Spezial:Zuf%C3%A4llige_Seite" title="Zufällige Seite aufrufen [x]" accesskey="x">Zufällige Seite</a></li><li id="n-contents"><a href="/wiki/Spezial:Alle_Seiten">Inhaltsverzeichnis</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-contribution" aria-labelledby="p-contribution-label">
+			<h3 id="p-contribution-label">Mitarbeit</h3>
+			<div class="body">
+								<ul>
+					<li id="n-new-entry"><a href="/wiki/Wiktionary:Eintrag_erstellen">Eintrag erstellen</a></li><li id="n-portal"><a href="/wiki/Wiktionary:Autorenportal" title="Über das Projekt, was du tun kannst, wo was zu finden ist">Autorenportal</a></li><li id="n-Wunschliste"><a href="/wiki/Wiktionary:Wunschliste">Wunschliste</a></li><li id="n-Literaturliste"><a href="/wiki/Wiktionary:Literaturliste">Literaturliste</a></li><li id="n-recentchanges"><a href="/wiki/Spezial:Letzte_%C3%84nderungen" title="Liste der letzten Änderungen in diesem Wiki [r]" accesskey="r">Letzte Änderungen</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-support" aria-labelledby="p-support-label">
+			<h3 id="p-support-label">Hilfe</h3>
+			<div class="body">
+								<ul>
+					<li id="n-help"><a href="/wiki/Wiktionary:Hilfe" title="Hilfeseite anzeigen">Hilfe</a></li><li id="n-Spenden"><a href="//donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_de.wiktionary.org&amp;uselang=de">Spenden</a></li><li id="n-disclaimer"><a href="/wiki/Hilfe:Hinweise_f%C3%BCr_Leser">Hinweise für Leser</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-tb" aria-labelledby="p-tb-label">
+			<h3 id="p-tb-label">Werkzeuge</h3>
+			<div class="body">
+								<ul>
+					<li id="t-whatlinkshere"><a href="/wiki/Spezial:Linkliste/Verkehrsp%C3%A4dagoge" title="Liste aller Seiten, die hierher verlinken [j]" accesskey="j">Was linkt hierher?</a></li><li id="t-recentchangeslinked"><a href="/wiki/Spezial:%C3%84nderungen_an_verlinkten_Seiten/Verkehrsp%C3%A4dagoge" rel="nofollow" title="Letzte Änderungen an Seiten, die von hier verlinkt sind [k]" accesskey="k">Änderungen an verlinkten Seiten</a></li><li id="t-upload"><a href="//commons.wikimedia.org/wiki/Special:UploadWizard?uselang=de" title="Dateien hochladen [u]" accesskey="u">Bild lokal hochladen</a></li><li id="t-specialpages"><a href="/wiki/Spezial:Spezialseiten" title="Liste aller Spezialseiten [q]" accesskey="q">Spezialseiten</a></li><li id="t-info"><a href="/w/index.php?title=Verkehrsp%C3%A4dagoge&amp;action=info" title="Weitere Informationen über diese Seite">Seiten­informationen</a></li>				</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id="p-lang" aria-labelledby="p-lang-label">
+			<h3 id="p-lang-label">In anderen Sprachen</h3>
+			<div class="body">
+								<ul>
+									</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+				<div id="footer" role="contentinfo">
+						<ul id="footer-places">
+								<li id="footer-places-privacy"><a href="https://meta.wikimedia.org/wiki/Privacy_policy/de" class="extiw" title="m:Privacy policy/de">Datenschutz</a></li>
+								<li id="footer-places-about"><a href="/wiki/Wiktionary:%C3%9Cber_das_Wiktionary" title="Wiktionary:Über das Wiktionary">Über Wiktionary™</a></li>
+								<li id="footer-places-disclaimer"><a href="/wiki/Wiktionary:Impressum" title="Wiktionary:Impressum">Haftungsausschluss</a></li>
+								<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Entwickler</a></li>
+								<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Stellungnahme zu Cookies</a></li>
+								<li id="footer-places-mobileview"><a href="//de.m.wiktionary.org/w/index.php?title=Verkehrsp%C3%A4dagoge&amp;action=edit&amp;section=1&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile Ansicht</a></li>
+							</ul>
+										<ul id="footer-icons" class="noprint">
+										<li id="footer-copyrightico">
+						<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>					</li>
+										<li id="footer-poweredbyico">
+						<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>					</li>
+									</ul>
+						<div style="clear: both;"></div>
+		</div>
+		
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":147,"wgHostname":"mw1320"});});</script>
+	</body>
+</html>
