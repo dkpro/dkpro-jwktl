@@ -151,7 +151,6 @@ public class DETranslationHandler extends DEBlockHandler {
 								translationText = fields[2].trim();
 							}
 							else {
-								System.out.println("Invalid Üt template in word [" + context.getPage().getTitle() + "].");
 								translationText = null;
 							}
 						else
