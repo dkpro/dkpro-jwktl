@@ -226,11 +226,16 @@ JWKTL-1.1.0 (2016-04-29)
 - Modified: Codebase now requires Java 1.8
 - Modified: Upgraded to dkpro-parent-pom 12.
 
-JWKTL-1.1.1 (forthcoming)
+JWKTL-1.2.0 (forthcoming)
 - Fixed: Handling of whitespace in ENRelationNHandler.
 - Added: Made the headword line available for further parsing.
 - Modified: Improved category parsing.
 - Modified: Improved synonym/antonym parsing.
-- Modified: Replace cobertura with jacoco
-- Modified: Improved translation parsing
-- Added: Made raw pronunciation line available for further parsing
+- Modified: Replace cobertura with jacoco.
+- Modified: Improved translation parsing.
+- Added: Made raw pronunciation line available for further parsing.
+- Modified: switch to maven-javadoc-plugin 3.0.1 (#52).
+- Fixed: Javadoc issues (#53).
+- Fixed: Translation parsing (#60).
+- Added: Maven central badge to readme.
+- Added: Contributing guidelines and contributor list (#62).

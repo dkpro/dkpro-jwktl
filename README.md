@@ -1,5 +1,7 @@
 JWKTL
 -----
+
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dkpro.jwktl/dkpro-jwktl/badge.svg)
 [![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
 [![codecov.io](http://codecov.io/github/dkpro/dkpro-jwktl/coverage.svg?branch=master)](http://codecov.io/github/dkpro/dkpro-jwktl?branch=master)
 
@@ -17,7 +19,6 @@ API was first described in an LREC 2008 paper.
 
 Further information and documentation is available from the project homepage:
 * https://dkpro.github.io/dkpro-jwktl/
-* https://www.ukp.tu-darmstadt.de/software/jwktl/
 
 
 License
@@ -27,6 +28,9 @@ JWKTL is available as open source software under the Apache License
 2.0 (ASL). The software thus comes "as is" without any warranty (see
 the license text for more details). JWKTL makes use of Berkeley DB Java
 Edition 5.0.73 (Sleepycat License), Apache Ant 1.7.1 (ASL), JUnit 4.12 (CPL), and Wikokit (New BSD license). 
+
+This product includes software from third parties. See the respective 
+license agreements in the `lib` subdirectory for details.
 
 
 Publications
@@ -60,16 +64,11 @@ Project Background
 
 Prior to being available as open source software, JWKTL was a research 
 project at the Ubiquitous Knowledge Processing (UKP) Lab of Technische 
-Universität Darmstadt, Germany. The following people are main contributors 
-to this project (in alphabetical order):
+Universität Darmstadt, Germany under the auspices of Prof. Iryna Gurevych.
+Since being open source software, JWKTL is developed by multiple contributors 
+(see CONTRIBUTORS.txt for details).
 
-* Jan Berkel
-* Yevgen Chebotar
-* Iryna Gurevych
-* Christian M. Meyer
-* Christof Müller
-* Lizhen Qu
-* Torsten Zesch 
+Contact
+-------
 
-This product includes software from third parties. See the respective 
-license agreements in the `lib` subdirectory for details.
+In case of any questions, please contact [Christian M. Meyer](https://www.chmeyer.de).
