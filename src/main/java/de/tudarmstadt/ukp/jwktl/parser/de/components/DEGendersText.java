@@ -25,7 +25,7 @@ import java.util.Objects;
 
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 
-public enum DEGrammaticalGendersText {
+public enum DEGendersText {
 	
 	M("m", GrammaticalGender.MASCULINE),
 	F("f", GrammaticalGender.FEMININE),
@@ -43,7 +43,7 @@ public enum DEGrammaticalGendersText {
 	private final String genderText;
 	private final List<GrammaticalGender> genders;
 
-	private DEGrammaticalGendersText(String genderText, GrammaticalGender... genders) {
+	private DEGendersText(String genderText, GrammaticalGender... genders) {
 		this.genderText = genderText;
 		this.genders = Collections.unmodifiableList(Arrays.asList(genders));
 	}
@@ -52,9 +52,9 @@ public enum DEGrammaticalGendersText {
 		return this.genders;
 	}
 
-	public static DEGrammaticalGendersText of(String genderText) {
+	public static DEGendersText of(String genderText) {
 		Objects.requireNonNull(genderText, "genderText must not be null");
-		for (DEGrammaticalGendersText value : values()) {
+		for (DEGendersText value : values()) {
 			if (Objects.equals(genderText, value.genderText)) {
 				return value;
 			}

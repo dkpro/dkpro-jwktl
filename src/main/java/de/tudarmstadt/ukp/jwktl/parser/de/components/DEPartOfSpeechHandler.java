@@ -101,7 +101,7 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 		while (matcher.find()) {
 			String genderText = matcher.group(1);
 			try {
-				List<GrammaticalGender> gendersFromGenderText = DEGrammaticalGendersText.of(genderText)
+				List<GrammaticalGender> gendersFromGenderText = DEGendersText.of(genderText)
 						.asGrammaticalGenders();
 				genders.addAll(gendersFromGenderText);
 			} catch (IllegalArgumentException unrecognizedGenderTextException) {
