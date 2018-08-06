@@ -17,6 +17,8 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de;
 
+import java.util.Arrays;
+
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
@@ -64,4 +66,20 @@ public class DEPartOfSpeechHandlerTest extends DEWiktionaryEntryParserTest {
 		assertEquals(GrammaticalGender.NEUTER, entry.getGenders().get(2));
 	}
 
+	/***/
+	public void testTetragraph() throws Exception {
+		IWiktionaryPage page = parse("Tetragraph.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertEquals(GrammaticalGender.MASCULINE, entry.getGender());
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.NEUTER), entry.getGender());
+	}
+	
+	/***/
+	public void testFlipchart() throws Exception {
+		IWiktionaryPage page = parse("Flipchart.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertEquals(GrammaticalGender.MASCULINE, entry.getGender());
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.FEMININE, GrammaticalGender.NEUTER), entry.getGender());
+	}
+	
 }
