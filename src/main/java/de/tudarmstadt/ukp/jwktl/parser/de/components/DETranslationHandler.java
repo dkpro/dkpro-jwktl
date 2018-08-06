@@ -147,7 +147,12 @@ public class DETranslationHandler extends DEBlockHandler {
 					fields = StringUtils.split(translation, '|');
 					if (fields != null && fields.length > 0) {
 						if ("Üt".equals(fields[0]))
-							translationText = fields[2].trim();
+							if (fields.length >= 3) {
+								translationText = fields[2].trim();
+							}
+							else {
+								translationText = null;
+							}
 						else
 							translationText = fields[fields.length - 1].trim();
 					} else
