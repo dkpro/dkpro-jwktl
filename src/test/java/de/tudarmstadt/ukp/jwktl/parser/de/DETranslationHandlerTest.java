@@ -227,6 +227,8 @@ public class DETranslationHandlerTest extends DEWiktionaryEntryParserTest {
 	public void testParsesVerkehrspaedagoge() throws Exception {
 		IWiktionaryPage page = parse("Verkehrspaedagoge.txt");
 		assertEquals(1, page.getEntryCount());
+		assertTrue(page.getEntry(0).getTranslations().isEmpty());
+		
 	}
 
 	protected static void assertTranslation(final String language,
