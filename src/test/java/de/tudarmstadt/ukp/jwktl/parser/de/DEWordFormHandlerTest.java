@@ -17,6 +17,7 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de;
 
+import java.util.Arrays;
 import java.util.Iterator;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
@@ -25,6 +26,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
@@ -259,6 +261,98 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertFalse(actualIter.hasNext());
 	}
 
+	/***/
+	public void testGelb() throws Exception {
+		IWiktionaryPage page = parse("Gelb.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Gelb", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelb", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtönen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelb", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Gelbs", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Gelbtöne", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
+	
+	/***/
+	public void testMaerz() throws Exception {
+		IWiktionaryPage page = parse("Maerz.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("März", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzes", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märzen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("März", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Märze", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
+
+	/***/
+	public void testMockumentary() throws Exception {
+		IWiktionaryPage page = parse("Mockumentary.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.NEUTER, GrammaticalGender.FEMININE), entry.getGenders()); 
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Mockumentary", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentary", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Mockumentarys", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+
+		assertFalse(actualIter.hasNext());
+	}
+	
+	/***/
+	public void testKeks() throws Exception {
+		IWiktionaryPage page = parse("Keks.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Keks", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Keks", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekse", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+
+		assertWordFormNoun("Kekses", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekses", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekse", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, actualIter.next());
+
+		assertWordFormNoun("Keks", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekse", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Keks", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekse", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Keksen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+		
+		assertWordFormNoun("Keks", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Keks", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, actualIter.next());
+		assertWordFormNoun("Kekse", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, actualIter.next());
+
+		assertFalse(actualIter.hasNext());
+	}
 
 	protected void assertWordFormNoun(final String expectedForm,
 			final GrammaticalCase expectedCase,

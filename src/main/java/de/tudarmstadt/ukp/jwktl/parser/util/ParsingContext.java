@@ -17,7 +17,9 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.util;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.IPronunciation;
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
@@ -25,6 +27,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.PartOfSpeech;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
 import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryEntryParser;
@@ -48,6 +51,7 @@ public class ParsingContext {
 	protected String header;
 	protected IWikiString etymology;
 	protected List<IPronunciation> pronunciations;
+	protected Map<Integer, GrammaticalGender> grammaticGendersIndex;
 
 	/** Create a new parsing context for the given Wiktionary page. */
 	public ParsingContext(final WiktionaryPage page) {
@@ -136,4 +140,30 @@ public class ParsingContext {
 		this.pronunciations = pronunciations;
 	}
 	
+	public GrammaticalGender getDefaultGenderByIndex() {
+		return getGenderByIndex(null);
+	}
+	
+	public GrammaticalGender getGenderByIndex(int index) {
+		return getGenderByIndex(Integer.valueOf(index));
+	}
+
+	private GrammaticalGender getGenderByIndex(Integer index) {
+		return this.grammaticGendersIndex == null ? null : this.grammaticGendersIndex.get(index);
+	}
+	
+	public void addDefaultGenderToIndex(GrammaticalGender gender) {
+		addGenderToIndex(gender, null);
+	}
+	
+	public void addGenderToIndex(GrammaticalGender gender, int index) {
+		addGenderToIndex(gender, Integer.valueOf(index));
+	}
+
+	private void addGenderToIndex(GrammaticalGender gender, Integer index) {
+		if (this.grammaticGendersIndex == null) {
+			this.grammaticGendersIndex = new HashMap<>();
+		}
+		this.grammaticGendersIndex.put(index, gender);
+	}
 }

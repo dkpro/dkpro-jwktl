@@ -1,0 +1,64 @@
+== Mockumentary ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mfn}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=m
+|Genus 2=f
+|Genus 3=n
+|Nominativ Singular 1=Mockumentary
+|Nominativ Singular 2=Mockumentary
+|Nominativ Singular 3=Mockumentary
+|Nominativ Plural=Mockumentarys
+|Genitiv Singular 1=Mockumentary
+|Genitiv Singular 2=Mockumentary
+|Genitiv Singular 2*=Mockumentarys
+|Genitiv Singular 3=Mockumentary
+|Genitiv Singular 3*=Mockumentarys
+|Genitiv Plural=Mockumentarys
+|Dativ Singular 1=Mockumentary
+|Dativ Singular 2=Mockumentary
+|Dativ Singular 3=Mockumentary
+|Dativ Plural=Mockumentarys
+|Akkusativ Singular 1=Mockumentary
+|Akkusativ Singular 2=Mockumentary
+|Akkusativ Singular 3=Mockumentary
+|Akkusativ Plural=Mockumentarys
+}}
+
+{{Worttrennung}}
+:Mo·cku·men·ta·ry, {{Pl.}} Mo·cku·men·ta·rys
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|mɔkjuˈmɛntəʀi}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Film, der eine Dokumentation oder das Genre selbst parodiert
+
+{{Herkunft}}
+:von gleichbedeutend englisch ''{{Ü|en|mockumentary}}'' entlehnt, das ein Kofferwort aus ''{{Ü|en|mock}}'' „unecht“ und ''{{Ü|en|documentary}}'' „Dokumentatarfilm“ ist&lt;ref>{{Ref-Duden}}&lt;/ref>
+
+{{Oberbegriffe}}
+:[1] [[Film]]
+
+{{Beispiele}}
+:[1] „Zuletzt lief von Stein eine ''Mockumentary'' über das "wahre" Ende der DDR im Fernsehen.“&lt;ref>{{Per-Spiegel Online | Online=http://www.spiegel.de/kultur/tv/tatort-hal-aus-stuttgart-big-data-in-little-stuttgart-a-1103576.html | Autor=Christian Buß | Titel=Stuttgart-"Tatort" über künstliche Intelligenz: Mensch, Technik, Katastrophe | Tag=26 | Monat=08 | Jahr=2016 | Zugriff=2017-08-24 }}&lt;/ref>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|mockumentary}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia}}
+:[*] {{Ref-DWDS}}
+:[1] {{Ref-Duden}}
+:[*] {{Ref-UniLeipzig}}
+
+{{Quellen}}
+
+[[Kategorie:Entlehnung aus dem Englischen (Deutsch)]]

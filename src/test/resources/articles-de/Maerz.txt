@@ -1,0 +1,162 @@
+== März ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=März
+|Nominativ Plural=Märze
+|Genitiv Singular=März
+|Genitiv Singular*=Märzes
+|Genitiv Singular**=Märzen
+|Genitiv Plural=Märze
+|Dativ Singular=März
+|Dativ Singular*=Märzen
+|Dativ Plural=Märzen
+|Akkusativ Singular=März
+|Akkusativ Plural=Märze
+}}
+
+{{Anmerkung}}
+:die Form des/dem ''Märzen'' ist dichterisch
+
+{{Worttrennung}}
+:März, {{Pl.}} Mär·ze
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|mɛʁʦ}}
+:{{Hörbeispiele}} {{Audio|De-März.ogg}}
+:{{Reime}} {{Reim|ɛʁʦ|Deutsch}}
+
+{{Bedeutungen}}
+:[1] der dritte Monat im Jahr
+
+{{Abkürzungen}}
+:[1] [[Mrz.]], 3., 03., III.
+
+{{Herkunft}}
+:mittelhochdeutsch „merz(e)“, althochdeutsch von „marceo, merzo“, die auf einer Entlehnung von lateinisch {{Ü|la|Martius}} (nach dem Gott ''Mars'') beruhen. Das Wort ist seit dem 8. Jahrhundert belegt.&lt;ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „März“, Seite 601.&lt;/ref>
+
+{{Synonyme}}
+:[1] [[Dritte]]r, ''veraltet:'' [[Lenzing]], [[Frühlingsmonat]]
+
+{{Gegenwörter}}
+:[1] [[Januar]]/[[Jänner]], [[Februar]]/[[Feber]], [[April]], [[Mai]], [[Juni]], [[Juli]], [[August]], [[September]], [[Oktober]], [[November]], [[Dezember]]
+
+{{Oberbegriffe}}
+:[1] [[Monat]], ''siehe auch:'' [[Verzeichnis:Deutsch/Zeit_und_Kalender|Verzeichnis: Zeit und Kalender]]
+
+{{Beispiele}}
+:[1] Der ''März'' folgt auf den Februar.
+:[1] „Im ''Märzen'' der Bauer die Rösslein anspannt…“ (Beginn eines Volksliedes)
+:[1] „Dabei durchläuft die Sonne um den 21. ''März'' und den 23. September die Schnittpunkte der Ekliptik mit dem Himmelsäquator; es ist dies die Zeit der Tagundnachtgleichen (Äquinoktien), die beiden Schnittpunkte werden Frühlings- und Herbstpunkt genannt.“&lt;ref>{{Lit-Das Gesicht der Erde (Band 2)}}, Seite 574&lt;/ref>
+
+{{Wortbildungen}}
+:[[ausmerzen]], [[Märzenbecher]], [[Märzente]], [[Märzhase]], [[Märzrevolution]], [[Märztag]], [[Vormärz]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{af}}: [1] {{Ü|af|maart}}
+*{{sq}}: [1] {{Ü|sq|marsi}}
+*{{ar}}: [1] {{Üt|ar|آذار|ādhār}}, {{Üt|ar|مارس|māris, mārs}}
+*{{an}}: [1] {{Ü|an|marzo}}
+*{{hy}}: [1] {{Üt|hy|մարտ|mart}}
+*{{ast}}: [1] {{Ü|ast|marzu}}
+*{{eu}}: [1] {{Ü|eu|martxo}}
+*{{bs}}: [1] {{Ü|bs|mart}} {{m}}, {{Ü|bs|ožujak}} {{m}}
+*{{br}}: [1] {{Ü|br|Meurzh}}
+*{{bg}}: [1] {{Üt|bg|март|mart}} {{m}}
+*{{zh}}: [1] {{Üt|zh|三月|sānyuè}}
+*{{da}}: [1] {{Ü|da|marts}}, {{Ü|da|tordmåned}}
+*{{en}}: [1] {{Ü|en|March}}
+**{{ang}}: [1] {{Ü|ang|hrēþmōnaþ}}
+*{{eo}}: [1] {{Ü|eo|marto}}
+*{{et}}: [1] {{Ü|et|märts}}
+*{{fo}}: [1] {{Ü|fo|mars}}
+*{{fi}}: [1] {{Ü|fi|maaliskuu}}
+*{{fr}}: [1] {{Ü|fr|mars}} {{m}}
+*{{fur}}: [1] {{Ü|fur|marč}} {{m}}
+*{{gl}}: [1] {{Ü|gl|marzo}}
+*{{ka}}: [1] {{Üt|ka|მარტი|marti}}
+*{{el}}: [1] {{Üt|el|μάρτιος|mártios}} {{m}}
+*{{kl}}: [1] {{Ü|kl|marsi}}, {{Ü|kl|martsi}}
+*{{he}}: [1] {{Üt|he|מרץ|m?rtz}}
+*{{io}}: [1] {{Ü|io|marto}}
+*{{id}}: [1] {{Ü|id|maret}}
+*{{ia}}: [1] {{Ü|ia|martio}}
+*{{ie}}: [1] {{Ü|ie|marte}}
+*{{ga}}: [1] {{Ü|ga|Márta}}
+*{{is}}: [1] {{Ü|is|mars}}
+*{{it}}: [1] {{Ü|it|marzo}} {{m}}
+*{{ja}}: [1] {{Üt|ja|三月|さんがつ, sangatsu}}
+*{{jv}}: [1] {{Ü|jv|maret}}
+*{{csb}}: [1] {{Ü|csb|strumiannik}}
+*{{ca}}: [1] {{Ü|ca|març}} {{m}}
+*{{ko}}: [1] {{Üt|ko|삼월|sam.wol}}
+*{{kw}}: [1] {{Ü|kw|mys merth}}
+*{{co}}: [1] {{Ü|co|marzu}}
+*{{hr}}: [1] {{Ü|hr|ožujak}}
+*{{ku}}: [1] {{Ü|ku|adar}}
+*{{lo}}: [1] {{Üt|lo|ເດື່ອນມິ້ນາ|}}
+*{{la}}: [1] {{Ü|la|martius}} {{m}}
+*{{lv}}: [1] {{Ü|lv|marts}} {{m}}
+*{{li}}: [1] {{Ü|li|miert}}
+|Ü-rechts=
+*{{lt}}: [1] {{Ü|lt|kovas}} {{m}}
+*{{lb}}: [1] {{Ü|lb|Mäerz}}
+*{{ms}}: [1] {{Ü?|ms|Mac}}, {{Ü?|ms|مچ}}
+*{{gv}}: [1] {{Ü|gv|Mayrnt}}
+*{{mi}}: [1] {{Ü|mi|Poutū te rangi}}, {{Ü|mi|Maehe}}
+*{{mr}}: [1] {{Üt|mr|मार्च|mārc}}
+*{{nl}}: [1] {{Ü|nl|maart}} {{m}}, {{Ü|nl|lentemaand}} {{m}}, {{Ü|nl|buienmaand}} {{m}}, {{Ü|nl|guldenmaand}} {{m}}, {{Ü|nl|dorremaand}} {{m}}
+*{{se}}: [1] {{Ü|se|njukčamánnu}}
+*{{no}}: [1] {{Ü|no|mars}}
+*{{nov}}: [1] {{Ü|nov|marte}}
+*{{oc}}: [1] {{Ü|oc|març}} {{m}}
+*{{fa}}: [1] {{Üt|fa|مارس|mārs}}
+*{{pl}}: [1] {{Ü|pl|marzec}} {{m}}
+*{{pt}}: [1] {{Ü|pt|março}} {{m}}
+*{{rm}}: [1] {{Ü|rm|mars}}
+*{{ro}}: [1] {{Ü|ro|martie}}
+*{{ru}}: [1] {{Üt|ru|март|mart}} {{m}}
+*{{sc}}: [1] {{Ü|sc|martzu}}
+*{{gd}}: [1] {{Ü|gd|Màrt}}
+*{{sv}}: [1] {{Ü|sv|mars}}
+*{{sr}}: [1] {{Üt|sr|март|[[mart]]}} {{m}}
+*{{st}}: [1] {{Ü|st|Hlakubele}}
+*{{scn}}: [1] {{Ü|scn|marzu}} {{m}}
+*{{sk}}: [1] {{Ü|sk|marec}} {{m}}
+*{{sl}}: [1] {{Ü|sl|marec}} {{m}}
+*{{wen}}:
+**{{dsb}}: [1] {{Ü|dsb|měrc}} {{m}}, {{Ü|dsb|pózymski}}
+**{{hsb}}: [1] {{Ü|hsb|měrc}}, ''veraltend:'' {{Ü|hsb|nalětnik}}
+*{{es}}: [1] {{Ü|es|marzo}} {{m}}
+*{{tl}}: [1] {{Ü|tl|Marso}}
+*{{tt}}: [1] {{Ü|tt|mart}}
+*{{th}}: [1] {{Üt|th|มีนาคม|}}
+*{{tpi}}: [1] {{Ü|tpi|mas}}
+*{{cs}}: [1] {{Ü|cs|březen}} {{m}}
+*{{cv}}: [1] {{Üt|cv|пуш|pusch}}
+*{{tr}}: [1] {{Ü|tr|mart}}
+*{{uk}}: [1] {{Üt|uk|березень|beresen’}} {{m}}
+*{{hu}}: [1] {{Ü|hu|március}}
+*{{ur}}: [1] {{Üt|ur|مارچ|mārč}}
+*{{vi}}: [1] {{Ü|vi|tháng Ba}}, {{Ü|vi|tháng ba}}
+*{{vo}}: [1] {{Ü|vo|mäzul}}
+*{{cy}}: [1] {{Ü|cy|mawrth}}
+*{{wa}}: [1] {{Ü|wa|måss}}
+*{{be}}: [1] {{Üt|be|сакавік|sakavik}} {{m}}
+*{{fy}}: [1] {{Ü|fy|maart}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|März}}
+:[1] {{Ref-Grimm|März}}
+:[1] {{Ref-DWDS|März}}
+:[1] {{Ref-Canoo|März}}
+:[*] {{Ref-UniLeipzig|März}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Erz]], [[Mär]], [[Metz]], [[Nerz]]}}
+
+{{Monate (Deutsch)}}
