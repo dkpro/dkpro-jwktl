@@ -270,6 +270,8 @@
                       <!-- release generated artifact -->
                       <exclude>release.properties</exclude>
                       <exclude>CHANGELOG.txt</exclude>
+                      <exclude>CONTRIBUTING.md</exclude>
+                      <exclude>CONTRIBUTORS.txt</exclude>
                       <exclude>NOTICE.txt</exclude>
                       <exclude>README.md</exclude>
                       <exclude>license/**/*</exclude>
