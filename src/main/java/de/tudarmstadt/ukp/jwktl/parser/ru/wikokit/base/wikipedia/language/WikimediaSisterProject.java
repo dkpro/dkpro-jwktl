@@ -109,7 +109,7 @@ public class WikimediaSisterProject {
 
     
     /** Gets texts of interwikimedia link. E.g. 
-     * [[wikt:Wiktionary:Statistics#Detail|statistics]]  -> "statistics"
+     * [[wikt:Wiktionary:Statistics#Detail|statistics]]  -&gt; "statistics"
      * 
      * @param text_inside_link  e.g. "wikipedia:" in [[wikipedia:]]
      */
@@ -127,7 +127,7 @@ public class WikimediaSisterProject {
     }
     
     /** Gets texts of interwikimedia link. E.g. 
-     * [[wikt:Wiktionary:Statistics#Detail|statistics]]  -> "statistics"
+     * [[wikt:Wiktionary:Statistics#Detail|statistics]]  -&gt; "statistics"
      * 
      * @param before the text before the first column, e.g. "wikipedia" in [[wikipedia:]]
      * @param after e.g. "Wikipedia:Wikimedia_sister_projects" in [[w:Wikipedia:Wikimedia_sister_projects]]

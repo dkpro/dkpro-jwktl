@@ -44,9 +44,9 @@ public class WikiParser {
     private final static Pattern ptrn_pre_code     = Pattern.compile("<pre>.+?</pre>",      Pattern.DOTALL);
     private final static Pattern ptrn_source_code  = Pattern.compile("<source.+?</source>", Pattern.DOTALL);
     
-    // 1. simple wikilink without '|' inside link, e.g. [[Tsar]] -> Tsar
+    // 1. simple wikilink without '|' inside link, e.g. [[Tsar]] -&gt; Tsar
     private final static Pattern ptrn_remove_brackets_in_wikilinks = Pattern.compile("\\[\\[([^:|]+?)\\]\\]");
-    // 2. with '|' inside link, e.g. [[The Russian language|Russian]] -> Russian
+    // 2. with '|' inside link, e.g. [[The Russian language|Russian]] -&gt; Russian
     // [^[:|]| - not '[', ':' till first '|'
     //private final static Pattern ptrn_remove_brackets_in_wikilinks_vertical_line = Pattern.compile("\\[\\[[^[:]*?|(.+?)\\]\\]");
     //private final static Pattern ptrn_remove_brackets_in_wikilinks_vertical_line = Pattern.compile("\\[\\[[^\Q:]\E]*?|(.+?)\\]\\]");
@@ -77,7 +77,7 @@ public class WikiParser {
     /** Creates a new instance of WikiParser */
     //public WikiParser() {    }
     
-    /** Removes interwiki, e.g. "[[et:Talvepalee]] text" -> " text", 
+    /** Removes interwiki, e.g. "[[et:Talvepalee]] text" -&gt; " text", 
      * where language code (e.g. 'et') can have two or three letters.
      */
     public static StringBuffer removeInterwiki(StringBuffer text) {
@@ -86,7 +86,7 @@ public class WikiParser {
     }
     
     /** Expands interwiki by removing interwiki brackets and language code, 
-     * e.g. "[[et:Talvepalee]] text" -> "Talvepalee text".
+     * e.g. "[[et:Talvepalee]] text" -&gt; "Talvepalee text".
      */
     public static StringBuffer removeBracketsInInterwiki(StringBuffer text) {
         Matcher m = ptrn_remove_brackets_in_interwiki.matcher(text.toString());
@@ -102,8 +102,8 @@ public class WikiParser {
     }
     
     /** Removes categories for selected language, 
-     * e.g. English: "[[Category:Russia]] text" -> " text", 
-     * or Esperanto: "[[Kategorio:Galaksioj]] text" -> " text".
+     * e.g. English: "[[Category:Russia]] text" -&gt; " text", 
+     * or Esperanto: "[[Kategorio:Galaksioj]] text" -&gt; " text".
      */
     public static StringBuffer removeCategory(StringBuffer text, LanguageType lang) {
         Matcher m = null;
@@ -129,25 +129,25 @@ public class WikiParser {
     }
     
     /** Removes XML tag <code> with text till the next </code>.
-     * e.g. "a <code>x+y</code> b" -> "a  b". */
+     * e.g. "a <code>x+y</code> b" -&gt; "a  b". */
     public static StringBuffer removeXMLTagCode(StringBuffer text) {
         Matcher m = ptrn_tag_code.matcher(text.toString());
         return new StringBuffer(m.replaceAll(""));
     }
     
-    /** Removes all comments: &lt;!-- ... -->. */
+    /** Removes all comments: &lt;!-- ... --&gt;. */
     public static StringBuffer removeHTMLComments(StringBuffer text) {
         Matcher m = ptrn_html_comment.matcher(text.toString());
         return new StringBuffer(m.replaceAll(""));
     }
     
-    /** Removes preformatted code (e.g. xml): &lt;pre> ... &lt;/pre>.*/
+    /** Removes preformatted code (e.g. xml): &lt;pre&gt; ... &lt;/pre&gt;.*/
     public static StringBuffer removePreCode(StringBuffer text) {
         Matcher m = ptrn_pre_code.matcher(text.toString());
         return new StringBuffer(m.replaceAll(""));
     }
     
-    /** Removes all source codes: &lt;source ... &lt;/source>.*/
+    /** Removes all source codes: &lt;source&gt; ... &lt;/source&gt;.*/
     public static StringBuffer removeSourceCode(StringBuffer text) {
         Matcher m = ptrn_source_code.matcher(text.toString());
         return new StringBuffer(m.replaceAll(""));
@@ -155,8 +155,8 @@ public class WikiParser {
     
     
     /** Expands wiki links removing brackets. There are two cases: 
-     * (1) remove brackets, e.g. [[run]] -> run and 
-     * (2) (todo) [[run|running]] -> run, or [[Russian language|Russian] -> Russian, 
+     * (1) remove brackets, e.g. [[run]] -&gt; run and 
+     * (2) (todo) [[run|running]] -&gt; run, or [[Russian language|Russian] -&gt; Russian, 
      * i.e. the visible (to reader) words will remain.
      */
 	@Deprecated
@@ -186,7 +186,7 @@ public class WikiParser {
     }
     
     /** Expands / removes hyperlinks. Expands hyperlinks with text, e.g. 
-     * "[http:site name of site]" -> "name of site". 
+     * "[http:site name of site]" -&gt; "name of site". 
      * Removes links without text, e.g. [www.site].
      */
     public static StringBuffer parseSingleBrackets(StringBuffer text)
@@ -227,25 +227,25 @@ public class WikiParser {
     /** Removes and expands interwiki, categories, and wiki links in wiki texts.<br>
      * 
      * 1. expands links to Wikimedia sister projects, 
-     * see [[w:Wikipedia:Interwikimedia_links|text to expand]] -> "text to expand"
+     * see [[w:Wikipedia:Interwikimedia_links|text to expand]] -&gt; "text to expand"
      * 
      * 2. interwiki
      * @param b_remove_not_expand_iwiki if true then 
-     * Removes interwiki, e.g. "[[et:Talvepalee]] text" -> " text";<br>
+     * Removes interwiki, e.g. "[[et:Talvepalee]] text" -&gt; " text";<br>
      *                                  if false then
      * expands interwiki by removing interwiki brackets and language code,
-     * e.g. "[[et:Talvepalee]] text" -> "Talvepalee text".
+     * e.g. "[[et:Talvepalee]] text" -&gt; "Talvepalee text".
      *
      * @param  lang defines parsed wiki language, it is needed to remove 
      * category for the selected language, e.g. English (Category) or Esperanto 
      * (Kategorio).<br><br>
      *
      * 3. Removes categories for selected language, 
-     * e.g. English: "[[Category:Russia]] text" -> " text".<br><br>
+     * e.g. English: "[[Category:Russia]] text" -&gt; " text".<br><br>
      *
      * 4. Expands wiki links by removing brackets. There are two cases: 
-     * (1) remove brackets, e.g. [[run]] -> run and 
-     * (2) [[run|running]] -> running, or [[Russian language|Russian]] -> Russian, 
+     * (1) remove brackets, e.g. [[run]] -&gt; run and 
+     * (2) [[run|running]] -&gt; running, or [[Russian language|Russian]] -&gt; Russian, 
      * i.e. the visible (to reader) words will remain.<br><br>
      * 
      * It is recommended to call StringUtil.escapeCharDollarAndBackslash(text) 
@@ -345,7 +345,7 @@ public class WikiParser {
     
     
     /** Removes boundaries of something (e.g. double or triple apostrophes) 
-     * used in pairs, e.g. ''italics'' -> italics. .<br><br>
+     * used in pairs, e.g. ''italics'' -&gt; italics. .<br><br>
      * 
      * It is recommended to call StringUtil.escapeCharDollarAndBackslash(text) 
      * before this function.
@@ -374,7 +374,7 @@ public class WikiParser {
         return text;
     }
     
-    /** Removes douple apostrophes used in pairs, e.g. ''italics'' -> italics.
+    /** Removes douple apostrophes used in pairs, e.g. ''italics'' -&gt; italics.
      * It is recommended to call StringUtil.escapeCharDollarAndBackslash(text) 
      * before this function.
      */
@@ -383,7 +383,7 @@ public class WikiParser {
         return parseBounds(text, ptrn_double_apostrophe);
     }
     
-    /** Removes triple apostrophes used in pairs, e.g. '''bold''' -> bold.
+    /** Removes triple apostrophes used in pairs, e.g. '''bold''' -&gt; bold.
      * It is recommended to call StringUtil.escapeCharDollarAndBackslash(text) 
      * before this function.
      */
@@ -394,7 +394,7 @@ public class WikiParser {
     
         
     /** Removes sign of acute accent "'" for Russian wiki texts, 
-     * it is placed in the begin of article often e.g. '''itálics''' -> '''italics'''.
+     * it is placed in the begin of article often e.g. '''itálics''' -&gt; '''italics'''.
      */
     public static StringBuffer removeAcuteAccent(
             StringBuffer text,LanguageType wiki_lang)
@@ -414,20 +414,20 @@ public class WikiParser {
     /** Removes / expands interwiki, removes categories, expands wiki links.
      * 
      * @param b_remove_not_expand_iwiki if true then removes interwiki, 
-     * e.g. "[[et:Talvepalee]] text" -> " text"; else expands interwiki by 
+     * e.g. "[[et:Talvepalee]] text" -&gt; " text"; else expands interwiki by 
      * removing interwiki brackets and language code, 
-     * e.g. "[[et:Talvepalee]] text" -> "Talvepalee text".
+     * e.g. "[[et:Talvepalee]] text" -&gt; "Talvepalee text".
      *
      * @param  lang defines parsed wiki language, it is needed to remove 
      * category for the selected language, e.g. English (Category) or Esperanto 
      * (Kategorio).<br><br>
      *
      * 2. Removes categories for selected language, 
-     * e.g. English: "[[Category:Russia]] text" -> " text".<br><br>
+     * e.g. English: "[[Category:Russia]] text" -&gt; " text".<br><br>
      *
      * 3. Expands wiki links by removing brackets. There are two cases: 
-     * (1) remove brackets, e.g. [[run]] -> run and <br> 
-     * (2) [[run|running]] -> running, or [[Russian language|Russian]] -> Russian, 
+     * (1) remove brackets, e.g. [[run]] -&gt; run and <br> 
+     * (2) [[run|running]] -&gt; running, or [[Russian language|Russian]] -&gt; Russian, 
      * i.e. the visible (to reader) words will remain.
      */
     public static StringBuffer convertWikiToText(
