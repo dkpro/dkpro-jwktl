@@ -17,8 +17,10 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de.components;
 
+import java.text.MessageFormat;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -35,6 +37,8 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author Lizhen Qu
  */
 public class DEPartOfSpeechHandler extends DEBlockHandler {
+
+	private static final Logger logger = Logger.getLogger(DEPartOfSpeechHandler.class.getName());
 
 	protected static final Pattern POS_PATTERN = Pattern.compile("\\{\\{Wortart\\|([^\\|\\}]+)(?:\\|([^\\|\\}]+))?\\}\\}");
 	protected static final Pattern GENDER_PATTERN = Pattern.compile("\\b(?:\\{\\{)?([mfnw]+\\.?|sächlich)(?:\\}\\})?\\.?\\b");
@@ -96,45 +100,14 @@ public class DEPartOfSpeechHandler extends DEBlockHandler {
 		Matcher matcher = GENDER_PATTERN.matcher(textLine);
 		while (matcher.find()) {
 			String genderText = matcher.group(1);
-			if ("m".equals(genderText))
-				genders.add(GrammaticalGender.MASCULINE);
-			else
-			if ("f".equals(genderText) || "w".equals(genderText))
-				genders.add(GrammaticalGender.FEMININE);
-			else
-			if ("n".equals(genderText) || "sächlich".equals(genderText))
-				genders.add(GrammaticalGender.NEUTER);
-			else
-			if ("mf".equals(genderText)) {
-				genders.add(GrammaticalGender.MASCULINE);
-				genders.add(GrammaticalGender.FEMININE);
+			try {
+				List<GrammaticalGender> gendersFromGenderText = DEGrammaticalGendersText.of(genderText)
+						.asGrammaticalGenders();
+				genders.addAll(gendersFromGenderText);
+			} catch (IllegalArgumentException unrecognizedGenderTextException) {
+				logger.warning(MessageFormat.format("Page [{0}] contains unrecognized gender text [{1}].",
+						context.getPage().getTitle(), genderText));
 			}
-			else
-			if ("mn.".equals(genderText)) {
-				genders.add(GrammaticalGender.MASCULINE);
-				genders.add(GrammaticalGender.NEUTER);
-			}
-			else
-			if ("fm".equals(genderText)) {
-				genders.add(GrammaticalGender.FEMININE);
-				genders.add(GrammaticalGender.MASCULINE);
-			}
-			else
-			if ("fn".equals(genderText)) {
-				genders.add(GrammaticalGender.FEMININE);
-				genders.add(GrammaticalGender.NEUTER);
-			}
-			else
-			if ("nm".equals(genderText)) {
-				genders.add(GrammaticalGender.NEUTER);
-				genders.add(GrammaticalGender.MASCULINE);
-			}
-			else
-			if ("nf".equals(genderText)) {
-				genders.add(GrammaticalGender.NEUTER);
-				genders.add(GrammaticalGender.FEMININE);
-			}
-
 		}
 
 		return true;

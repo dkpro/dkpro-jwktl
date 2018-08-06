@@ -71,7 +71,7 @@ public class DEPartOfSpeechHandlerTest extends DEWiktionaryEntryParserTest {
 		IWiktionaryPage page = parse("Tetragraph.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		assertEquals(GrammaticalGender.MASCULINE, entry.getGender());
-		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.NEUTER), entry.getGender());
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.NEUTER), entry.getGenders());
 	}
 	
 	/***/
@@ -79,7 +79,6 @@ public class DEPartOfSpeechHandlerTest extends DEWiktionaryEntryParserTest {
 		IWiktionaryPage page = parse("Flipchart.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		assertEquals(GrammaticalGender.MASCULINE, entry.getGender());
-		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.FEMININE, GrammaticalGender.NEUTER), entry.getGender());
+		assertEquals(Arrays.asList(GrammaticalGender.MASCULINE, GrammaticalGender.FEMININE, GrammaticalGender.NEUTER), entry.getGenders());
 	}
-	
 }
