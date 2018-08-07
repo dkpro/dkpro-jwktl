@@ -18,6 +18,8 @@
 package de.tudarmstadt.ukp.jwktl.parser.de.components;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
@@ -40,6 +42,9 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author Lizhen Qu
  */
 public class DEWordFormHandler extends DEBlockHandler {
+	
+	private static final List<String> NOUN_TABLE_LABEL_SUFFIXES = 
+			Collections.unmodifiableList(Arrays.asList("**", "1*", "2*", "3*", "*", "1", "2", "3", "4")); 
 
 	protected enum TableType {
 		NOUN_TABLE,
@@ -183,9 +188,12 @@ public class DEWordFormHandler extends DEBlockHandler {
 	protected void extractNounTable(final WiktionaryWordForm wordForm, String label) {
 //		if ("die Koseworte".equals(wordForm.getWordForm()))
 //			System.out.println("X");
-		if (label.endsWith("1") || label.endsWith("2")
-				|| label.endsWith("3") || label.endsWith("4"))
-			label = label.substring(0, label.length() - 1).trim();
+		for (String labelSuffix: NOUN_TABLE_LABEL_SUFFIXES) {
+			if (label.endsWith(labelSuffix)) {
+				label = label.substring(0, label.length() - labelSuffix.length()).trim();
+				break;
+			}
+		}
 
 		// Number.
 		if (label.endsWith(" Singular") || label.endsWith("SINGULAR") || label.endsWith(" (Einzahl)"))
