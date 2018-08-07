@@ -29,6 +29,7 @@ public enum DEGendersText {
 	
 	M("m", GrammaticalGender.MASCULINE),
 	F("f", GrammaticalGender.FEMININE),
+	W("w", GrammaticalGender.FEMININE),
 	N("n", GrammaticalGender.NEUTER),
 	SAECHLICH("sächlich", GrammaticalGender.NEUTER),
 	MF("mf", GrammaticalGender.MASCULINE, GrammaticalGender.FEMININE),
