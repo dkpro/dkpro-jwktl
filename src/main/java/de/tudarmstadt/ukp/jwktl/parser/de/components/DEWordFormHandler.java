@@ -18,8 +18,6 @@
 package de.tudarmstadt.ukp.jwktl.parser.de.components;
 
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
@@ -42,9 +40,6 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
  * @author Lizhen Qu
  */
 public class DEWordFormHandler extends DEBlockHandler {
-	
-	private static final List<String> NOUN_TABLE_LABEL_SUFFIXES = 
-			Collections.unmodifiableList(Arrays.asList("**", "1*", "2*", "3*", "*", "1", "2", "3", "4")); 
 
 	protected enum TableType {
 		NOUN_TABLE,
@@ -54,7 +49,8 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	protected List<IWiktionaryWordForm> wordForms;
 	protected TableType tableType;
-
+	protected DEWordFormNounTableExtractor nounTableExtractor = new DEWordFormNounTableExtractor();
+	
 	public boolean canHandle(final String blockHeader) {
 		if (blockHeader == null || blockHeader.isEmpty())
 			return false;
@@ -82,6 +78,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	public boolean processHead(final String textLine, final ParsingContext context) {
 		wordForms = new ArrayList<>();
+		nounTableExtractor.reset();
 		return true;
 	}
 
@@ -145,7 +142,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 				boolean skip = false;
 				if (tableType == TableType.NOUN_TABLE) {
 					// Inflection table for nouns.
-					extractNounTable(wordForm, label);
+					extractNounTable(wordForm, label, wordFormStr, context);
 					if (wordForm.getCase() == null && wordForm.getNumber() == null)
 						skip = true;
 
@@ -185,22 +182,9 @@ public class DEWordFormHandler extends DEBlockHandler {
 		return true;
 	}
 
-	protected void extractNounTable(final WiktionaryWordForm wordForm, String label) {
-//		if ("die Koseworte".equals(wordForm.getWordForm()))
-//			System.out.println("X");
-		for (String labelSuffix: NOUN_TABLE_LABEL_SUFFIXES) {
-			if (label.endsWith(labelSuffix)) {
-				label = label.substring(0, label.length() - labelSuffix.length()).trim();
-				break;
-			}
-		}
-
-		// Number.
-		if (label.endsWith(" Singular") || label.endsWith("SINGULAR") || label.endsWith(" (Einzahl)"))
-			wordForm.setNumber(GrammaticalNumber.SINGULAR);
-		else
-		if (label.endsWith(" Plural") || label.endsWith("PLURAL") || label.endsWith(" (Mehrzahl)"))
-			wordForm.setNumber(GrammaticalNumber.PLURAL);
+	protected void extractNounTable(final WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+		
+		nounTableExtractor.extractNounTable(wordForm, label, value, context);
 
 		// Case.
 		if (label.startsWith("Nominativ") || label.startsWith("Wer oder was?"))
