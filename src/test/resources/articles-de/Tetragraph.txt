@@ -1,0 +1,58 @@
+== Tetragraph ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mn}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=m
+|Genus 2=n
+|Nominativ Singular 1=Tetragraph
+|Nominativ Singular 2=Tetragraph
+|Nominativ Plural=Tetragraphen
+|Genitiv Singular 1=Tetragraphen
+|Genitiv Singular 2=Tetragraphs
+|Genitiv Plural=Tetragraphen
+|Dativ Singular 1=Tetragraphen
+|Dativ Singular 2=Tetragraph
+|Dativ Plural=Tetragraphen
+|Akkusativ Singular 1=Tetragraphen
+|Akkusativ Singular 2=Tetragraph
+|Akkusativ Plural=Tetragraphen
+}}
+
+{{Alternative Schreibweisen}}
+:[[Tetragraf]]
+
+{{Worttrennung}}
+:Te·t·ra·graph, {{Pl.}}  Te·t·ra·gra·phen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|tetʀaˈɡʀaːf}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|aːf|Deutsch}}
+
+{{Bedeutungen}}
+:[1] ''[[Linguistik]]:'' Folge von vier Buchstaben, die einen einzigen Laut repräsentieren
+
+{{Gegenwörter}}
+:[1] [[Digraph]], [[Trigraph]]
+
+{{Oberbegriffe}}
+:[1] [[Graph]]
+
+{{Beispiele}}
+:[1] Im Deutschen steht der ''Tetragraph'' "tsch" für den Laut [ʧ].
+:[1] „»Der obligatorische Wechsel zum Kyrillischen hat groteske Verrenkungen erforderlich gemacht, so die Verwendung von diakritischen Zeichen, von Digraphen, Trigraphen und sogar - zur Darstellung des entstimmten aspirierten labialisierten uvularen Plosivs im Kabardinischen - von einem ''Tetragraphen''«.“&lt;ref>{{Literatur | Autor=Jonathan Littell | Titel=Die Wohlgesinnten | Verlag=Berliner Taschenbuch Verlag | Ort=Berlin | Jahr=2009 (französisches Original 2006)| ISBN=978-3-8333-0628-0}}, Seite 306f.&lt;/ref>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Digraph (Linguistik)#Trigraph, Tetragraph, …}}
+
+{{Quellen}}
+
+[[Kategorie:Fremdwort]]

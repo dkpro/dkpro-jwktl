@@ -1,0 +1,61 @@
+== Flipchart ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mfn}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=n
+|Genus 2=m
+|Genus 3=f
+|Nominativ Singular 1=Flipchart
+|Nominativ Singular 2=Flipchart
+|Nominativ Singular 3=Flipchart
+|Nominativ Plural=Flipcharts
+|Genitiv Singular 1=Flipcharts
+|Genitiv Singular 2=Flipcharts
+|Genitiv Singular 3=Flipchart
+|Genitiv Plural=Flipcharts
+|Dativ Singular 1=Flipchart
+|Dativ Singular 2=Flipchart
+|Dativ Singular 3=Flipchart
+|Dativ Plural=Flipcharts
+|Akkusativ Singular 1=Flipchart
+|Akkusativ Singular 2=Flipchart
+|Akkusativ Singular 3=Flipchart
+|Akkusativ Plural=Flipcharts
+|Bild=Flipchart1-Asio.JPG|180px|1|Ein Flipchart
+}}
+
+{{Alternative Schreibweisen}}
+:[[Flip-Chart]]
+
+{{Worttrennung}}
+:Flip·chart, {{Pl.}}  Flip·charts
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈflɪpʧaːɐ̯t}}, {{Lautschrift|ˈflɪpʧaʁt}}
+:{{Hörbeispiele}} {{Audio|De-Flipchart.ogg}}
+
+{{Bedeutungen}}
+:[1] ein großer auf einem Gestell befestigter Papierblock, dessen Blätter man beschreiben und nach hinten umblättern kann
+
+{{Herkunft}}
+:von dem englischen Begriff [[flip chart]] (deutsch: [[Umblätterdiagramm]]) mit gleicher Bedeutung
+
+{{Beispiele}}
+:[1] Während des Vortrags zeichnete er den neuen Arbeitsablauf auf einem ''Flipchart'' auf.
+
+{{Absatz}}
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|flip chart}}
+|Ü-rechts=
+*{{fr}}: [] {{Ü|fr|}}
+*{{sv}}: [1] {{Ü|sv|blädderblock}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Flipchart}}
+:[*] {{Ref-Canoo|Flipchart}}
+:[1] {{Ref-UniLeipzig|Flipchart}}
+:[1] {{Ref-Duden|Flipchart}}
+
+[[Kategorie:Entlehnung aus dem Englischen (Deutsch)]]
