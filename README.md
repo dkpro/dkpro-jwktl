@@ -1,5 +1,5 @@
 JWKTL
------
+=====
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dkpro.jwktl/dkpro-jwktl/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dkpro.jwktl/dkpro-jwktl/badge.svg)
 [![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
@@ -27,10 +27,9 @@ License
 JWKTL is available as open source software under the Apache License 
 2.0 (ASL). The software thus comes "as is" without any warranty (see
 the license text for more details). JWKTL makes use of Berkeley DB Java
-Edition 5.0.73 (Sleepycat License), Apache Ant 1.7.1 (ASL), JUnit 4.12 (CPL), and Wikokit (New BSD license). 
-
-This product includes software from third parties. See the respective 
-license agreements in the `lib` subdirectory for details.
+Edition 5.0.73 (Sleepycat License), Apache Ant 1.7.1 (ASL), JUnit 4.12 (CPL),
+and Wikokit (New BSD license). For the respective third party licenses,
+see NOTICE.txt.
 
 
 Publications

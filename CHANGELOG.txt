@@ -239,3 +239,5 @@ JWKTL-1.2.0 (forthcoming)
 - Fixed: Translation parsing (#60).
 - Added: Maven central badge to readme.
 - Added: Contributing guidelines and contributor list (#62).
+- Added: Alternative word forms (#50).
+- Fuxed: Parsing grammatical gender for German words (#63).
