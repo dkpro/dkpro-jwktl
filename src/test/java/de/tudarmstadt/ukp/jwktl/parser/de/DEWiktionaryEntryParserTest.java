@@ -45,6 +45,7 @@ public abstract class DEWiktionaryEntryParserTest extends TestCase {
 			text.append(line).append("\n");
 		reader.close();
 		WiktionaryPage result = new WiktionaryPage();
+		result.setTitle(fileName);
 		WiktionaryEntryParser parser = new DEWiktionaryEntryParser();
 		parser.parse(result, text.toString());
 		return result;
