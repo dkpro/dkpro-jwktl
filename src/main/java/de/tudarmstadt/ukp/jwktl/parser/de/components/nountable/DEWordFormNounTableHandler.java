@@ -17,7 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
-import java.text.MessageFormat;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
@@ -28,25 +27,33 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableExtractor {
+public class DEWordFormNounTableHandler {
 
-	private static final Logger logger = Logger.getLogger(DEWordFormNounTableExtractor.class.getName());
+	private static final Logger logger = Logger.getLogger(DEWordFormNounTableHandler.class.getName());
 
 	public void reset() {
 		this.genera = new HashMap<>();
 	}
 
-	private List<DEWordFormNounTablePatternIndexParameterHandler> handlers = Arrays.asList(
+	private List<? extends PatternBasedParameterHandler> handlers = Arrays.asList(
 			// Genus
-			new DEWordFormNounTableGenusHandler(this),
+			new GenusHandler(this),
 			// Singular
-			new DEWordFormNounTableSingularHandler(this),
+			new SingularHandler(this),
 			// Einzahl
-			new DEWordFormNounTableEinzahlHandler(this),
+			new EinzahlHandler(this),
 			// Plural
-			new DEWordFormNounTablePluralHandler(this),
+			new PluralHandler(this),
 			// Mehrzahl
-			new DEWordFormNounTableMehrzahlHandler(this));
+			new MehrzahlHandler(this),
+			// Nominative
+			new NominativeHandler(),
+			// Genitive
+			new GenitiveHandler(),
+			// Dative
+			new DativeHandler(),
+			// Accusative
+			new AccusativeHandler());
 
 	protected Map<Integer, DEGenderText> genera = new HashMap<>();
 
@@ -66,16 +73,11 @@ public class DEWordFormNounTableExtractor {
 		this.genera.put(index, genderText);
 	}
 
-	public boolean extractNounTable(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
-
-		for (DEWordFormNounTablePatternIndexParameterHandler handler : this.handlers) {
+	public void extractNounTable(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+		for (PatternBasedParameterHandler handler : this.handlers) {
 			if (handler.canHandle(wordForm, label, value, context)) {
 				handler.handle(wordForm, label, value, context);
-				return true;
 			}
 		}
-		logger.warning(MessageFormat.format("Page for word [{0}] has an unrecognized label [{1}].",
-				context.getPage().getTitle(), label));
-		return false;
 	}
 }

@@ -26,9 +26,9 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableSingularHandler extends DEWordFormNounTablePatternIndexParameterHandler {
+public class SingularHandler extends PatternBasedIndexedParameterHandler {
 
-	private static final Logger logger = Logger.getLogger(DEWordFormNounTableSingularHandler.class.getName());
+	private static final Logger logger = Logger.getLogger(SingularHandler.class.getName());
 
 	protected static final String SINGULAR_PATTERN =
 			// equals("Singular")
@@ -60,7 +60,7 @@ public class DEWordFormNounTableSingularHandler extends DEWordFormNounTablePatte
 					// endsWith(" Singular* 3") || endsWith(" Singular* 4")
 					"\\sSingular\\*\\s([1-4])$";
 
-	public DEWordFormNounTableSingularHandler(DEWordFormNounTableExtractor nounTableHandler) {
+	public SingularHandler(DEWordFormNounTableHandler nounTableHandler) {
 		super(nounTableHandler, SINGULAR_PATTERN);
 	}
 

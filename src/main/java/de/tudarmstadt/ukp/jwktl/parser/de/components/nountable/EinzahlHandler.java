@@ -17,41 +17,33 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
-import java.text.MessageFormat;
-import java.util.logging.Logger;
 import java.util.regex.Matcher;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableGenusHandler extends DEWordFormNounTablePatternIndexParameterHandler {
+public class EinzahlHandler extends PatternBasedIndexedParameterHandler {
 
-	private static final Logger logger = Logger.getLogger(DEWordFormNounTableGenusHandler.class.getName());
+	protected static final String EINZAHL_PATTERN =
+			// endsWith(" (Einzahl)")
+			" \\(Einzahl\\)$|" +
+			// endsWith(" (Einzahl 1)") || endsWith(" (Einzahl 2)") ||
+			// endsWith(" (Einzahl 3)") || endsWith(" (Einzahl 4)")
+					" \\(Einzahl\\s([1-4])\\)$";
 
-	protected static final String GENUS_PATTERN =
-			// equals("Genus")
-			"^Genus$|" +
-			// equals("Genus 1") || equals("Genus 2") ||
-			// equals("Genus 3") || equals("Genus 4") ||
-					"^Genus\\s([1-4])$";
-
-	public DEWordFormNounTableGenusHandler(DEWordFormNounTableExtractor nounTableHandler) {
-		super(nounTableHandler, GENUS_PATTERN);
+	public EinzahlHandler(DEWordFormNounTableHandler nounTableHandler) {
+		super(nounTableHandler, EINZAHL_PATTERN);
 	}
 
 	@Override
 	public void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
 			ParsingContext context) {
-		try {
-			final DEGenderText genderText = DEGenderText.of(value);
-			nounTableHandler.setGenus(genderText, index);
-		} catch (IllegalArgumentException unrecognizedGenderTextException) {
-			logger.warning(MessageFormat.format("Page for word [{0}] has an unrecognized genus [{1}].",
-					context.getPage().getTitle(), value));
-		} catch (NullPointerException nullGenderTextException) {
-			logger.warning(MessageFormat.format("Page for word [{0}] has a null genus [{1}].",
-					context.getPage().getTitle(), value));
+		wordForm.setNumber(GrammaticalNumber.SINGULAR);
+		final DEGenderText genderText = this.nounTableHandler.findGenusByIndex(index);
+		if (genderText != null) {
+			wordForm.setGender(genderText.asGrammaticalGender());
 		}
 	}
 }

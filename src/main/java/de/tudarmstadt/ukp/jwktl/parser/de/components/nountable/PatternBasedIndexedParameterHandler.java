@@ -19,27 +19,19 @@ package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
 import java.util.Objects;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 import de.tudarmstadt.ukp.jwktl.parser.util.PatternUtils;
 
-public abstract class DEWordFormNounTablePatternIndexParameterHandler {
+public abstract class PatternBasedIndexedParameterHandler extends PatternBasedParameterHandler {
 
-	protected final Pattern pattern;
-	protected final DEWordFormNounTableExtractor nounTableHandler;
+	protected final DEWordFormNounTableHandler nounTableHandler;
 
-	public DEWordFormNounTablePatternIndexParameterHandler(DEWordFormNounTableExtractor nounTableHandler, String regex) {
+	public PatternBasedIndexedParameterHandler(DEWordFormNounTableHandler nounTableHandler, String regex) {
+		super(regex);
 		Objects.requireNonNull(nounTableHandler, "nounTableHandler must not be null.");
-		Objects.requireNonNull(regex, "regex must not be null.");
 		this.nounTableHandler = nounTableHandler;
-		this.pattern = Pattern.compile(regex);
-	}
-
-	public boolean canHandle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
-		Matcher matcher = pattern.matcher(label);
-		return matcher.find();
 	}
 
 	public void handle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {

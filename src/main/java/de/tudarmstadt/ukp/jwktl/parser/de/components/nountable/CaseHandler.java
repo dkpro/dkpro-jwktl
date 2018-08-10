@@ -17,33 +17,24 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
-import java.util.regex.Matcher;
+import java.util.Objects;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
-import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
-import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableEinzahlHandler extends DEWordFormNounTablePatternIndexParameterHandler {
+public abstract class CaseHandler extends PatternBasedParameterHandler {
 
-	protected static final String EINZAHL_PATTERN =
-			// endsWith(" (Einzahl)")
-			" \\(Einzahl\\)$|" +
-			// endsWith(" (Einzahl 1)") || endsWith(" (Einzahl 2)") ||
-			// endsWith(" (Einzahl 3)") || endsWith(" (Einzahl 4)")
-					" \\(Einzahl\\s([1-4])\\)$";
+	private GrammaticalCase grammaticalCase;
 
-	public DEWordFormNounTableEinzahlHandler(DEWordFormNounTableExtractor nounTableHandler) {
-		super(nounTableHandler, EINZAHL_PATTERN);
+	public CaseHandler(String regex, GrammaticalCase grammaticalCase) {
+		super(regex);
+		Objects.requireNonNull(grammaticalCase, "grammaticalCase must not be null");
+		this.grammaticalCase = grammaticalCase;
 	}
 
 	@Override
-	public void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
-			ParsingContext context) {
-		wordForm.setNumber(GrammaticalNumber.SINGULAR);
-		final DEGenderText genderText = this.nounTableHandler.findGenusByIndex(index);
-		if (genderText != null) {
-			wordForm.setGender(genderText.asGrammaticalGender());
-		}
+	public void handle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+		wordForm.setCase(grammaticalCase);
 	}
 }

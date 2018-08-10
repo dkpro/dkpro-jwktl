@@ -23,38 +23,17 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTablePluralHandler extends DEWordFormNounTablePatternIndexParameterHandler {
+public class MehrzahlHandler extends PatternBasedIndexedParameterHandler {
 
-	protected static final String PLURAL_PATTERN =
-			// equals("Plural")
-			"^Plural$|" +
-			// equals("PLURAL")
-					"^PLURAL$|" +
-					// endsWith(" Plural")
-					"\\sPlural$|" +
-					// endsWith(" Plural*")
-					"\\sPlural\\*$|" +
-					// endsWith(" Plural**")
-					"\\sPlural\\*\\*$|" +
-					// endsWith(" Plural?")
-					"\\sPlural\\?$|" +
-					// endsWith(" Plural *")
-					"\\sPlural\\s\\*$|" +
-					// endsWith(" Plural 1") || endsWith(" Plural 2") ||
-					// endsWith(" Plural 3") || endsWith(" Plural 4")
-					"\\sPlural\\s([1-4])$|" +
-					// endsWith(" Plural 1*") || endsWith(" Plural 2*") ||
-					// endsWith(" Plural 3*") || endsWith(" Plural 4*")
-					"\\sPlural\\s([1-4])\\*$|" +
-					// endsWith(" Plural 1**") || endsWith(" Plural 2**") ||
-					// endsWith(" Plural 3**") || endsWith(" Plural 4**")
-					"\\sPlural\\s([1-4])\\*\\*$|" +
-					// endsWith(" Plural* 1") || endsWith(" Plural* 2") ||
-					// endsWith(" Plural* 3") || endsWith(" Plural* 4")
-					"\\sPlural\\*\\s([1-4])$";
+	protected static final String MEHRZAHL_PATTERN =
+			// endsWith(" (Mehrzahl)")
+			"\\s\\(Mehrzahl\\)$|" +
+			// endsWith(" (Mehrzahl 1)") || endsWith(" (Mehrzahl 2)") ||
+			// endsWith(" (Mehrzahl 3)") || endsWith(" (Mehrzahl 4)")
+					"\\s\\(Mehrzahl\\s([1-4])\\)$";
 
-	public DEWordFormNounTablePluralHandler(DEWordFormNounTableExtractor nounTableHandler) {
-		super(nounTableHandler, PLURAL_PATTERN);
+	public MehrzahlHandler(DEWordFormNounTableHandler nounTableHandler) {
+		super(nounTableHandler, MEHRZAHL_PATTERN);
 	}
 
 	@Override
