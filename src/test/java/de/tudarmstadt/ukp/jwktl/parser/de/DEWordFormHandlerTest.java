@@ -422,6 +422,16 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun("Unschlitte", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
+	
+	/***/
+	public void testFote() throws Exception {
+		IWiktionaryPage page = parse("Fote.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("de Fote", null, GrammaticalNumber.SINGULAR, null, actualIter.next());
+		assertWordFormNoun("de Foten", null, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
 
 	protected void assertWordFormNoun(final String expectedForm,
 			final GrammaticalCase expectedCase,
