@@ -433,6 +433,30 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertFalse(actualIter.hasNext());
 	}
 
+	/***/
+	public void testGeneraladmiral() throws Exception {
+		IWiktionaryPage page = parse("Generaladmiral.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Generaladmiral", GrammaticalCase.NOMINATIVE, GrammaticalNumber.SINGULAR, GrammaticalGender.MASCULINE, actualIter.next());
+		assertWordFormNoun("Generaladmirale", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertWordFormNoun("Generaladmiräle", GrammaticalCase.NOMINATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+
+		assertWordFormNoun("Generaladmirals", GrammaticalCase.GENITIVE, GrammaticalNumber.SINGULAR, GrammaticalGender.MASCULINE, actualIter.next());
+		assertWordFormNoun("Generaladmirale", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertWordFormNoun("Generaladmiräle", GrammaticalCase.GENITIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+
+		assertWordFormNoun("Generaladmiral", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, GrammaticalGender.MASCULINE, actualIter.next());
+		assertWordFormNoun("Generaladmirale", GrammaticalCase.DATIVE, GrammaticalNumber.SINGULAR, GrammaticalGender.MASCULINE, actualIter.next());
+		assertWordFormNoun("Generaladmiralen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertWordFormNoun("Generaladmirälen", GrammaticalCase.DATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+
+		assertWordFormNoun("Generaladmiral", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.SINGULAR, GrammaticalGender.MASCULINE, actualIter.next());
+		assertWordFormNoun("Generaladmirale", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertWordFormNoun("Generaladmiräle", GrammaticalCase.ACCUSATIVE, GrammaticalNumber.PLURAL, null, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
+	
 	protected void assertWordFormNoun(final String expectedForm,
 			final GrammaticalCase expectedCase,
 			final GrammaticalNumber expectedNumber,
