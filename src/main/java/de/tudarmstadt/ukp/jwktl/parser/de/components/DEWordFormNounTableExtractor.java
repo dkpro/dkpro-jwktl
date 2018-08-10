@@ -27,32 +27,14 @@ import java.util.regex.Pattern;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
+import de.tudarmstadt.ukp.jwktl.parser.util.PatternUtils;
 
 public class DEWordFormNounTableExtractor {
 
 	private static final Logger logger = Logger.getLogger(DEWordFormNounTableExtractor.class.getName());
 
-	protected Map<Integer, DEGenderText> genera = new HashMap<>();
-
 	public void reset() {
 		this.genera = new HashMap<>();
-	}
-
-	private DEGenderText findGenusByIndex(Integer index) {
-		DEGenderText genderText = this.genera.get(index);
-		if (genderText == null) {
-			if (index == null) {
-				genderText = this.genera.get(1);
-			} else if (index.intValue() == 1) {
-				// TODO Add test Generaladmiral
-				genderText = this.genera.get(null);
-			}
-		}
-		return genderText;
-	}
-
-	private void setGenus(DEGenderText genderText, Integer index) {
-		this.genera.put(index, genderText);
 	}
 
 	protected static final Pattern GENUS_PATTERN = Pattern.compile(
@@ -64,10 +46,10 @@ public class DEWordFormNounTableExtractor {
 
 	protected static final Pattern SINGULAR_PATTERN = Pattern.compile(
 			// equals("Singular")
-			// TODO "^Singular$|" +
+			"^Singular$|" +
 			// equals("SINGULAR")
-			"^SINGULAR$|" +
-			// endsWith(" Singular")
+					"^SINGULAR$|" +
+					// endsWith(" Singular")
 					"\\sSingular$|" +
 					// endsWith(" Singular*")
 					"\\sSingular\\*$|" +
@@ -83,15 +65,14 @@ public class DEWordFormNounTableExtractor {
 					"\\sSingular\\s([1-4])$|" +
 					// endsWith(" Singular 1*") || endsWith(" Singular 2*") ||
 					// endsWith(" Singular 3*") || endsWith(" Singular 4*")
-					"\\sSingular\\s([1-4])\\*$|" + 
+					"\\sSingular\\s([1-4])\\*$|" +
 					// endsWith(" Singular 1**") || endsWith(" Singular 2**") ||
 					// endsWith(" Singular 3**") || endsWith(" Singular 4**")
 					"\\sSingular\\s([1-4])\\*\\*$|" +
 					// This was a mistake in Unschlitt and Einzelteil.
 					// endsWith(" Singular* 1") || endsWith(" Singular* 2") ||
 					// endsWith(" Singular* 3") || endsWith(" Singular* 4")
-					"\\sSingular\\*\\s([1-4])$"
-					);
+					"\\sSingular\\*\\s([1-4])$");
 
 	protected static final Pattern EINZAHL_PATTERN = Pattern.compile(
 			// endsWith(" (Einzahl)")
@@ -137,16 +118,60 @@ public class DEWordFormNounTableExtractor {
 			// endsWith(" (Mehrzahl 3)") || endsWith(" (Mehrzahl 4)")
 					" \\(Mehrzahl\\s([1-4])\\)$");
 
-	public void extractNounTable(final WiktionaryWordForm wordForm, String label, String value,
+	protected Map<Integer, DEGenderText> genera = new HashMap<>();
+
+	DEGenderText findGenusByIndex(Integer index) {
+		DEGenderText genderText = this.genera.get(index);
+		if (genderText == null) {
+			if (index == null) {
+				genderText = this.genera.get(1);
+				if (genderText != null) {
+					System.out.println("here");
+				}
+			} else if (index.intValue() == 1) {
+				genderText = this.genera.get(null);
+			}
+		}
+		return genderText;
+	}
+
+	private void setGenus(DEGenderText genderText, Integer index) {
+		this.genera.put(index, genderText);
+	}
+
+	public boolean extractNounTable(WiktionaryWordForm wordForm, String label, String value,
 			ParsingContext context) {
 
+		if (handleGenus(wordForm, label, value, context))
+			return true;
+		if (handleSingular(wordForm, label, value, context))
+			return true;
+		if (handleEinzahl(wordForm, label, value, context))
+			return true;
+		if (handlePlural(wordForm, label, value, context))
+			return true;
+		if (handleMehrzahl(wordForm, label, value, context))
+			return true;
+
+		logger.warning(MessageFormat.format("Page for word [{0}] has an unrecognized label [{1}].",
+				context.getPage().getTitle(), label));
+		return false;
+	}
+
+	private boolean handleGenus(WiktionaryWordForm wordForm, String label, String value,
+			ParsingContext context) {
 		final Matcher genusMatcher = GENUS_PATTERN.matcher(label);
 		if (genusMatcher.find()) {
-			final Integer index = extracIndex(genusMatcher);
+			final Integer index = PatternUtils.extractIndex(genusMatcher);
 			extractGenus(label, index, value, context);
-			return;
+			return true;
+		} else {
+			return false;
 		}
+	}
 
+	private boolean handleSingular(WiktionaryWordForm wordForm, String label, String value,
+			ParsingContext context) {
 		final Matcher singularPatternMatcher = SINGULAR_PATTERN.matcher(label);
 		if (singularPatternMatcher.find()) {
 			wordForm.setNumber(GrammaticalNumber.SINGULAR);
@@ -157,40 +182,47 @@ public class DEWordFormNounTableExtractor {
 				logger.warning(MessageFormat.format("Page for word [{0}] has a label [{1}] without genus entry.",
 						context.getPage().getTitle(), label));
 			}
+			return true;
 		} else {
-			final Matcher einzahlPatternMatcher = EINZAHL_PATTERN.matcher(label);
-			if (einzahlPatternMatcher.find()) {
-				wordForm.setNumber(GrammaticalNumber.SINGULAR);
-				final DEGenderText genderText = extractGenderText(einzahlPatternMatcher);
-				if (genderText != null) {
-					wordForm.setGender(genderText.asGrammaticalGender());
-				}
-			} else {
-				final Matcher pluralPatternMatcher = PLURAL_PATTERN.matcher(label);
-				if (pluralPatternMatcher.find()) {
-					wordForm.setNumber(GrammaticalNumber.PLURAL);
-				} else {
-					final Matcher mehrzahlPatternMatcher = MEHRZAHL_PATTERN.matcher(label);
-					if (mehrzahlPatternMatcher.find()) {
-						wordForm.setNumber(GrammaticalNumber.PLURAL);
-					} else {
-
-						logger.warning(MessageFormat.format("Page for word [{0}] has an unrecognized case label [{1}].",
-								context.getPage().getTitle(), label));
-					}
-				}
-			}
+			return false;
 		}
 	}
 
-	private static Integer extracIndex(Matcher labelMatcher) {
-		for (int index = 1; index <= labelMatcher.groupCount(); index++) {
-			String group = labelMatcher.group(index);
-			if (group != null) {
-				return Integer.valueOf(group);
+	private boolean handleEinzahl(WiktionaryWordForm wordForm, String label, String value,
+			ParsingContext context) {
+		final Matcher einzahlPatternMatcher = EINZAHL_PATTERN.matcher(label);
+		if (einzahlPatternMatcher.find()) {
+			wordForm.setNumber(GrammaticalNumber.SINGULAR);
+			final DEGenderText genderText = extractGenderText(einzahlPatternMatcher);
+			if (genderText != null) {
+				wordForm.setGender(genderText.asGrammaticalGender());
 			}
+			return true;
+		} else {
+			return false;
 		}
-		return null;
+	}
+
+	private boolean handlePlural(WiktionaryWordForm wordForm, String label, String value,
+			ParsingContext context) {
+		final Matcher pluralPatternMatcher = PLURAL_PATTERN.matcher(label);
+		if (pluralPatternMatcher.find()) {
+			wordForm.setNumber(GrammaticalNumber.PLURAL);
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	private boolean handleMehrzahl(WiktionaryWordForm wordForm, String label, String value,
+			ParsingContext context) {
+		final Matcher mehrzahlPatternMatcher = MEHRZAHL_PATTERN.matcher(label);
+		if (mehrzahlPatternMatcher.find()) {
+			wordForm.setNumber(GrammaticalNumber.PLURAL);
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 	private void extractGenus(String label, Integer index, String value, ParsingContext context) {
@@ -206,7 +238,7 @@ public class DEWordFormNounTableExtractor {
 	}
 
 	private DEGenderText extractGenderText(final Matcher patternMatcher) {
-		final Integer index = extracIndex(patternMatcher);
+		final Integer index = PatternUtils.extractIndex(patternMatcher);
 		final DEGenderText genderText = findGenusByIndex(index);
 		return genderText;
 	}
