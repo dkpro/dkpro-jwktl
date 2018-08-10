@@ -32,12 +32,17 @@ public class PatternUtilsTest extends TestCase {
 	/***/
 	public void testExtractIndex() {
 		Pattern pattern = Pattern.compile("^Group$|^Group\\s([1-9,a-z])$");
-//		assertEquals(null, PatternUtils.extractIndex(matcher(pattern, "Puorg")));
+		try {
+			assertEquals(null, PatternUtils.extractIndex(matcher(pattern, "Puorg")));
+			fail("Extracting index from non-matched matcher must fail.");
+		} catch (IllegalArgumentException iaex) {
+			assertTrue(true);
+		}
 		assertEquals(null, PatternUtils.extractIndex(matcher(pattern, "Group")));
 		assertEquals(Integer.valueOf(1), PatternUtils.extractIndex(matcher(pattern, "Group 1")));
 		assertEquals(Integer.valueOf(8), PatternUtils.extractIndex(matcher(pattern, "Group 8")));
 		try {
-			assertEquals(null, PatternUtils.extractIndex(matcher(pattern, "Group q")));
+			PatternUtils.extractIndex(matcher(pattern, "Group q"));
 			fail("Extracting index from non-integer group must fail.");
 		} catch (NumberFormatException nfex) {
 			assertTrue(true);
