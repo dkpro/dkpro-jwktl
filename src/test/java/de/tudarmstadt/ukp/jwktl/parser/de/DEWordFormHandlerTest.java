@@ -380,7 +380,7 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 
 	/***/
 	public void testFreischurf() throws Exception {
-		IWiktionaryPage page = parse("Freischurf.txt ");
+		IWiktionaryPage page = parse("Freischurf.txt");
 		IWiktionaryEntry entry = page.getEntry(0);
 		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
 		assertWordFormNoun("Freischurf", NOMINATIVE, SINGULAR, MASCULINE, actualIter.next());
