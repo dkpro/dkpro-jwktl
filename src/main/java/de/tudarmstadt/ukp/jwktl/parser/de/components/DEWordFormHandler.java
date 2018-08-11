@@ -24,7 +24,6 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
-import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
@@ -32,6 +31,7 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalTense;
 import de.tudarmstadt.ukp.jwktl.api.util.NonFiniteForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.nountable.DEWordFormNounTableHandler;
+import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
@@ -50,7 +50,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	protected List<IWiktionaryWordForm> wordForms;
 	protected TableType tableType;
-	protected DEWordFormNounTableHandler nounTableHandler = new DEWordFormNounTableHandler();
+	protected ITemplateParameterHandler nounTableHandler = new DEWordFormNounTableHandler();
 	
 	public boolean canHandle(final String blockHeader) {
 		if (blockHeader == null || blockHeader.isEmpty())
@@ -143,8 +143,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 				boolean skip = false;
 				if (tableType == TableType.NOUN_TABLE) {
 					// Inflection table for nouns.
-					final WiktionaryWordForm wordForm1 = wordForm;
-					nounTableHandler.extractNounTable(wordForm1, label, wordFormStr, context);
+					nounTableHandler.handle(label, wordFormStr, wordForm, context);
 					if (wordForm.getCase() == null && wordForm.getNumber() == null)
 						skip = true;
 

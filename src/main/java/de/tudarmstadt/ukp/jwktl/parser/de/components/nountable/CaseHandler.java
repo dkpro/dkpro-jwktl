@@ -34,7 +34,7 @@ public abstract class CaseHandler extends PatternBasedParameterHandler {
 	}
 
 	@Override
-	public void handle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
 		wordForm.setCase(grammaticalCase);
 	}
 }

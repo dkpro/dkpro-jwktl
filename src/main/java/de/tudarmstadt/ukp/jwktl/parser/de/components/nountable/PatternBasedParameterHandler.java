@@ -22,9 +22,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
+import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public abstract class PatternBasedParameterHandler {
+public abstract class PatternBasedParameterHandler implements ITemplateParameterHandler {
 
 	protected final Pattern pattern;
 
@@ -32,11 +33,14 @@ public abstract class PatternBasedParameterHandler {
 		Objects.requireNonNull(regex, "regex must not be null.");
 		this.pattern = Pattern.compile(regex);
 	}
+	
+	@Override
+	public void reset() {
+		// Nothing to do
+	}
 
-	public boolean canHandle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
 		Matcher matcher = pattern.matcher(label);
 		return matcher.find();
 	}
-
-	public abstract void handle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context);
 }

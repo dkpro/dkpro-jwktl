@@ -34,7 +34,7 @@ public abstract class PatternBasedIndexedParameterHandler extends PatternBasedPa
 		this.nounTableHandler = nounTableHandler;
 	}
 
-	public void handle(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
+	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
 		Matcher matcher = pattern.matcher(label);
 		if (matcher.find()) {
 			final Integer index = PatternUtils.extractIndex(matcher);

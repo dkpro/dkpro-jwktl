@@ -21,21 +21,19 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.logging.Logger;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
+import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableHandler {
-
-	private static final Logger logger = Logger.getLogger(DEWordFormNounTableHandler.class.getName());
+public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 
 	public void reset() {
 		this.genera = new HashMap<>();
 	}
 
-	private List<? extends PatternBasedParameterHandler> handlers = Arrays.asList(
+	private List<? extends ITemplateParameterHandler> handlers = Arrays.asList(
 			// Genus
 			new GenusHandler(this),
 			// Singular
@@ -73,10 +71,16 @@ public class DEWordFormNounTableHandler {
 		this.genera.put(index, genderText);
 	}
 
-	public void extractNounTable(WiktionaryWordForm wordForm, String label, String value, ParsingContext context) {
-		for (PatternBasedParameterHandler handler : this.handlers) {
-			if (handler.canHandle(wordForm, label, value, context)) {
-				handler.handle(wordForm, label, value, context);
+	@Override
+	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
+		return this.handlers.stream().anyMatch(handler -> handler.canHandle(label, value, wordForm, context));
+	}
+	
+	@Override
+	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
+		for (ITemplateParameterHandler handler : this.handlers) {
+			if (handler.canHandle(label, value, wordForm, context)) {
+				handler.handle(label, value, wordForm, context);
 			}
 		}
 	}
