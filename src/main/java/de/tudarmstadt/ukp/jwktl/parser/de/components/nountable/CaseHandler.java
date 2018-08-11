@@ -25,7 +25,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 public abstract class CaseHandler extends PatternBasedParameterHandler {
 
-	private GrammaticalCase grammaticalCase;
+	private final GrammaticalCase grammaticalCase;
 
 	public CaseHandler(String regex, GrammaticalCase grammaticalCase) {
 		super(regex);

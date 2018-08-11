@@ -35,7 +35,7 @@ public abstract class PatternBasedIndexedParameterHandler extends PatternBasedPa
 	}
 
 	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
-		Matcher matcher = pattern.matcher(label);
+		final Matcher matcher = pattern.matcher(label);
 		if (matcher.find()) {
 			final Integer index = PatternUtils.extractIndex(matcher);
 			handleIfFound(wordForm, label, index, value, matcher, context);
