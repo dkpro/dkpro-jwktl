@@ -19,11 +19,48 @@ package de.tudarmstadt.ukp.jwktl.parser.util;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 
+/**
+ * Implementation of this interface are used to handle parameters of templates.
+ * 
+ * @author Alexey Valikov
+ */
 public interface ITemplateParameterHandler {
-	
+
+	/**
+	 * Parameter handlers may keep state while processing Wiktionary entries. This
+	 * method will be called for each new Wiktionary entry before handling.
+	 */
 	public void reset();
 
+	/**
+	 * Checks if this handler can handle the given template parameter.
+	 * 
+	 * @param label
+	 *            parameter label.
+	 * @param value
+	 *            parameter value, may be <code>null</code>.
+	 * @param wordForm
+	 *            word form.
+	 * @param context
+	 *            parsing context.
+	 * @return <code>true<code> if this handler can handle the given parameter,
+	 *         <code>false<code> otherwise.
+	 */
 	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context);
 
+	/**
+	 * Handles the given parameter. This should only be called if
+	 * {@see #canHandle(String, String, WiktionaryWordForm, ParsingContext)}
+	 * returned true.
+	 * 
+	 * @param label
+	 *            parameter label.
+	 * @param value
+	 *            parameter value, may be <code>null</code>.
+	 * @param wordForm
+	 *            word form.
+	 * @param context
+	 *            parsing context.
+	 */
 	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context);
 }

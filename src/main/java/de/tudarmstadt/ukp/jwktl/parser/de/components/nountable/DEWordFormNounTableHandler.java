@@ -53,6 +53,12 @@ public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 
 	protected DEGenderText[] genera = new DEGenderText[4];
 
+	/**
+	 * Returns genus by index.
+	 * @param index index of the genus, must be between 1 and 4.
+	 * @return Genus by index or <code>null</code> if genus by this index was not set yet.
+	 * @throws IllegalArgumentException If index is not between 1 and 4.
+	 */
 	DEGenderText getGenusByIndex(int index) {
 		if (index < 1 || index > 4) {
 			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
@@ -60,6 +66,12 @@ public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 		return genera[index - 1];
 	}
 
+	/**
+	 * Sets genus by index
+	 * @param genderText genus.
+	 * @param index index of the genus, must be between 1 and 4.
+	 * @throws IllegalArgumentException If index is not between 1 and 4.
+	 */
 	void setGenusByIndex(DEGenderText genderText, Integer index) {
 		if (index < 1 || index > 4) {
 			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
