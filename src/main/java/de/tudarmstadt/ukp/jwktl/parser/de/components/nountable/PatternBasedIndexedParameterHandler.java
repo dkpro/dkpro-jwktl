@@ -38,11 +38,12 @@ public abstract class PatternBasedIndexedParameterHandler extends PatternBasedPa
 		final Matcher matcher = pattern.matcher(label);
 		if (matcher.find()) {
 			final Integer index = PatternUtils.extractIndex(matcher);
-			handleIfFound(wordForm, label, index, value, matcher, context);
+			final int i = index == null ? 1 : index.intValue(); 
+			handleIfFound(wordForm, label, i, value, matcher, context);
 		}
 	}
 
-	public abstract void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
+	public abstract void handleIfFound(WiktionaryWordForm wordForm, String label, int index, String value, Matcher matcher,
 			ParsingContext context);
 
 }

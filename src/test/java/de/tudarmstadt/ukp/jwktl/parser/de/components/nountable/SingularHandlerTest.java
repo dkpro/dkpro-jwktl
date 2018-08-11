@@ -111,7 +111,7 @@ public class SingularHandlerTest extends TestCase {
 		genusHandler.handle("Genus 3", "x", wordForm, null);
 		singularHandler.handle("Nominativ Singular 3**", "test", wordForm, null);
 		assertEquals(GrammaticalNumber.SINGULAR, wordForm.getNumber());
-		assertEquals(DEGenderText.X, nounTableHandler.findGenusByIndex(3));
+		assertEquals(DEGenderText.X, nounTableHandler.getGenusByIndex(3));
 		assertNull(wordForm.getGender());
 	}
 	
@@ -120,7 +120,7 @@ public class SingularHandlerTest extends TestCase {
 		genusHandler.handle("Genus 4", "pl", wordForm, null);
 		singularHandler.handle("Nominativ Singular* 4", "test", wordForm, null);
 		assertEquals(GrammaticalNumber.SINGULAR, wordForm.getNumber());
-		assertEquals(DEGenderText.PL, nounTableHandler.findGenusByIndex(4));
+		assertEquals(DEGenderText.PL, nounTableHandler.getGenusByIndex(4));
 		assertNull(wordForm.getGender());
 	}
 }

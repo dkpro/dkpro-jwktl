@@ -18,9 +18,7 @@
 package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
@@ -30,7 +28,7 @@ import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 
 	public void reset() {
-		this.genera = new HashMap<>();
+		this.genera = new DEGenderText[4];
 	}
 
 	private List<? extends ITemplateParameterHandler> handlers = Arrays.asList(
@@ -53,29 +51,27 @@ public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 			// Accusative
 			new AccusativeHandler());
 
-	protected Map<Integer, DEGenderText> genera = new HashMap<>();
+	protected DEGenderText[] genera = new DEGenderText[4];
 
-	DEGenderText findGenusByIndex(Integer index) {
-		DEGenderText genderText = this.genera.get(index);
-		if (genderText == null) {
-			if (index == null) {
-				genderText = this.genera.get(1);
-			} else if (index.intValue() == 1) {
-				genderText = this.genera.get(null);
-			}
+	DEGenderText getGenusByIndex(int index) {
+		if (index < 1 || index > 4) {
+			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
 		}
-		return genderText;
+		return genera[index - 1];
 	}
 
-	void setGenus(DEGenderText genderText, Integer index) {
-		this.genera.put(index, genderText);
+	void setGenusByIndex(DEGenderText genderText, Integer index) {
+		if (index < 1 || index > 4) {
+			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
+		}
+		this.genera[index - 1] = genderText;
 	}
 
 	@Override
 	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
 		return this.handlers.stream().anyMatch(handler -> handler.canHandle(label, value, wordForm, context));
 	}
-	
+
 	@Override
 	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
 		for (ITemplateParameterHandler handler : this.handlers) {

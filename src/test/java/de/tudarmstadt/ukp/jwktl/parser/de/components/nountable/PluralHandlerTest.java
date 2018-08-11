@@ -139,7 +139,7 @@ public class PluralHandlerTest extends TestCase {
 		genusHandler.handle("Genus 3", "x", wordForm, null);
 		pluralHandler.handle("Nominativ Plural 3**", "test", wordForm, null);
 		assertEquals(GrammaticalNumber.PLURAL, wordForm.getNumber());
-		assertEquals(DEGenderText.X, nounTableHandler.findGenusByIndex(3));
+		assertEquals(DEGenderText.X, nounTableHandler.getGenusByIndex(3));
 		assertNull(wordForm.getGender());
 	}
 	
@@ -148,7 +148,7 @@ public class PluralHandlerTest extends TestCase {
 		genusHandler.handle("Genus 4", "pl", wordForm, null);
 		pluralHandler.handle("Nominativ Plural* 4", "test", wordForm, null);
 		assertEquals(GrammaticalNumber.PLURAL, wordForm.getNumber());
-		assertEquals(DEGenderText.PL, nounTableHandler.findGenusByIndex(4));
+		assertEquals(DEGenderText.PL, nounTableHandler.getGenusByIndex(4));
 		assertNull(wordForm.getGender());
 	}
 }

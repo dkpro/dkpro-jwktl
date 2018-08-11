@@ -47,35 +47,32 @@ public class GenusHandlerTest extends TestCase {
 	
 	public void testGenus() {
 		genusHandler.handle("Genus", "m", null, null);
-		assertEquals(DEGenderText.M, nounTableHandler.findGenusByIndex(null));
-		assertEquals(DEGenderText.M, nounTableHandler.findGenusByIndex(1));
-		assertNull(nounTableHandler.findGenusByIndex(2));
+		assertEquals(DEGenderText.M, nounTableHandler.getGenusByIndex(1));
+		assertNull(nounTableHandler.getGenusByIndex(2));
 	}
 
 	public void testGenus1() {
 		genusHandler.handle("Genus 1", "n", null, null);
-		assertEquals(DEGenderText.N, nounTableHandler.findGenusByIndex(null));
-		assertEquals(DEGenderText.N, nounTableHandler.findGenusByIndex(1));
-		assertNull(nounTableHandler.findGenusByIndex(2));
+		assertEquals(DEGenderText.N, nounTableHandler.getGenusByIndex(1));
+		assertNull(nounTableHandler.getGenusByIndex(2));
 	}
 
 	public void testGenus2() {
 		genusHandler.handle("Genus 2", "pl", null, null);
-		assertNull(nounTableHandler.findGenusByIndex(1));
-		assertEquals(DEGenderText.PL, nounTableHandler.findGenusByIndex(2));
-		assertNull(nounTableHandler.findGenusByIndex(3));
+		assertNull(nounTableHandler.getGenusByIndex(1));
+		assertEquals(DEGenderText.PL, nounTableHandler.getGenusByIndex(2));
+		assertNull(nounTableHandler.getGenusByIndex(3));
 	}
 	
 	public void testGenus3() {
 		genusHandler.handle("Genus 3", "0", null, null);
-		assertNull(nounTableHandler.findGenusByIndex(2));
-		assertEquals(DEGenderText._0, nounTableHandler.findGenusByIndex(3));
-		assertNull(nounTableHandler.findGenusByIndex(4));
+		assertNull(nounTableHandler.getGenusByIndex(2));
+		assertEquals(DEGenderText._0, nounTableHandler.getGenusByIndex(3));
+		assertNull(nounTableHandler.getGenusByIndex(4));
 	}
 	public void testGenus4() {
 		genusHandler.handle("Genus 4", "x", null, null);
-		assertNull(nounTableHandler.findGenusByIndex(3));
-		assertEquals(DEGenderText.X, nounTableHandler.findGenusByIndex(4));
-		assertNull(nounTableHandler.findGenusByIndex(5));
+		assertNull(nounTableHandler.getGenusByIndex(3));
+		assertEquals(DEGenderText.X, nounTableHandler.getGenusByIndex(4));
 	}
 }

@@ -37,7 +37,7 @@ public class MehrzahlHandler extends PatternBasedIndexedParameterHandler {
 	}
 
 	@Override
-	public void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
+	public void handleIfFound(WiktionaryWordForm wordForm, String label, int index, String value, Matcher matcher,
 			ParsingContext context) {
 		wordForm.setNumber(GrammaticalNumber.PLURAL);
 	}

@@ -41,11 +41,11 @@ public class GenusHandler extends PatternBasedIndexedParameterHandler {
 	}
 
 	@Override
-	public void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
+	public void handleIfFound(WiktionaryWordForm wordForm, String label, int index, String value, Matcher matcher,
 			ParsingContext context) {
 		try {
 			final DEGenderText genderText = DEGenderText.of(value);
-			nounTableHandler.setGenus(genderText, index);
+			nounTableHandler.setGenusByIndex(genderText, index);
 		} catch (IllegalArgumentException unrecognizedGenderTextException) {
 			logger.warning(MessageFormat.format("Page for word [{0}] has an unrecognized genus [{1}].",
 					context.getPage().getTitle(), value));

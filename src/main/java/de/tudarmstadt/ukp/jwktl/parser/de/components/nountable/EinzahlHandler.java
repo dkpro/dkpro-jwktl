@@ -38,10 +38,10 @@ public class EinzahlHandler extends PatternBasedIndexedParameterHandler {
 	}
 
 	@Override
-	public void handleIfFound(WiktionaryWordForm wordForm, String label, Integer index, String value, Matcher matcher,
+	public void handleIfFound(WiktionaryWordForm wordForm, String label, int index, String value, Matcher matcher,
 			ParsingContext context) {
 		wordForm.setNumber(GrammaticalNumber.SINGULAR);
-		final DEGenderText genderText = this.nounTableHandler.findGenusByIndex(index);
+		final DEGenderText genderText = this.nounTableHandler.getGenusByIndex(index);
 		if (genderText != null) {
 			wordForm.setGender(genderText.asGrammaticalGender());
 		}
