@@ -40,7 +40,10 @@ public abstract class PatternBasedParameterHandler implements ITemplateParameter
 	}
 
 	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
-		Matcher matcher = pattern.matcher(label);
+		if (label == null) {
+			return false;
+		}
+		final Matcher matcher = pattern.matcher(label);
 		return matcher.find();
 	}
 }
