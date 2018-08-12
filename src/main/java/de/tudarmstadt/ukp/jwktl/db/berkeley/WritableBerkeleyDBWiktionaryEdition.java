@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.berkeley;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.io.File;
 import java.io.IOException;
@@ -83,7 +83,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 
 	@Override
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws DatabaseException {
+			boolean overwriteExisting, final Long cacheSize) throws Exception {
 		if (allowCreateNew)
 			prepareTargetDirectory(dbPath, overwriteExisting);
 		super.connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
@@ -108,7 +108,11 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 		Long cacheSize = env.getConfig().getCacheSize();
 		//env.sync();
 		doClose();
-		connect(isReadOnly, false, false, cacheSize);
+		try {
+			connect(isReadOnly, false, false, cacheSize);			
+		} catch (Exception e) {
+			throw new WiktionaryException(e);
+		}
 	}
 	
 //	public void saveProperties(final WiktionaryArticleParser parser)

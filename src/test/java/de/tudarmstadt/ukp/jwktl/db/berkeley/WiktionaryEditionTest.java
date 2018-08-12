@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.berkeley;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.io.File;
 import java.util.Iterator;
@@ -25,8 +25,8 @@ import com.sleepycat.persist.EntityStore;
 import de.tudarmstadt.ukp.jwktl.WiktionaryDataTestCase;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
-import de.tudarmstadt.ukp.jwktl.api.berkeley.BerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.db.berkeley.BerkeleyDBWiktionaryEdition;
 
 /**
  * Test case for {@link BerkeleyDBWiktionaryEdition}.

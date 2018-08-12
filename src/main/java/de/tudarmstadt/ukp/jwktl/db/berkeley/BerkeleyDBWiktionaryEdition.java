@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.berkeley;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -222,13 +222,13 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		this.dbPath = parsedWiktionaryDump;
 		try {
 			connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
-		} catch (DatabaseException | IllegalArgumentException e) {
+		} catch (Exception e) {
 			throw new WiktionaryException("Unable to establish a db connection", e);
 		}
 	}
 
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws DatabaseException {
+			boolean overwriteExisting, final Long cacheSize) throws Exception {
 		// Configure DB environment.
 		EnvironmentConfig envConfig = new EnvironmentConfig();
 		envConfig.setAllowCreate(allowCreateNew);

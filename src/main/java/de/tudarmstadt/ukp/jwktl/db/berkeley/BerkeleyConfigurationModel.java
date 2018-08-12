@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.berkeley;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -53,8 +53,9 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 
 	/**
 	 * Constructs a model for annotated entity classes.
+	 * @throws Exception 
 	 */
-	public BerkeleyConfigurationModel() {
+	public BerkeleyConfigurationModel() throws Exception {
 		super();
 		classMap = new HashMap<String, ClassMetadata>();
 		entityMap = new HashMap<String, EntityInfo>();
@@ -69,12 +70,7 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 		addPersistentMetadata(WiktionaryTranslation.class.getName());
 		addPersistentMetadata(WiktionaryWordForm.class.getName());
 
-		try {
-			addClassMetadata(WiktionaryPage.class.getName());
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		addClassMetadata(WiktionaryPage.class.getName());
 	}
 
 	@Override
