@@ -42,6 +42,7 @@ public class WiktionaryWordForm implements IWiktionaryWordForm {
 	protected GrammaticalNumber grammaticalNumber;
 	protected GrammaticalCase grammaticalCase;
 	protected GrammaticalGender grammaticalGender;
+	protected int inflectionGroup = -1;
 	protected GrammaticalPerson grammaticalPerson;
 	protected GrammaticalTense grammaticalTense;
 	protected GrammaticalMood grammaticalMood;
@@ -91,6 +92,18 @@ public class WiktionaryWordForm implements IWiktionaryWordForm {
 	/** Assign the given grammatical gender to this word form. */
 	public void setGender(final GrammaticalGender grammaticalGender) {
 		this.grammaticalGender = grammaticalGender;
+	}
+	
+	@Override
+	public int getInflectionGroup() {
+		return this.inflectionGroup;
+	}
+	
+	/** Assigns the given inflection group to this word form.
+	 * @param inflectionGroup index of the inflection group.
+	 */
+	public void setInflectionGroup(int inflectionGroup) {
+		this.inflectionGroup = inflectionGroup;
 	}
 	
 	public GrammaticalPerson getPerson() {
