@@ -40,7 +40,9 @@ public class WikiString implements IWikiString {
 	// For persistence.
 	public WikiString() {}
 	
-	/** Create a new wiki string for the given wiki markup text. */
+	/** Create a new wiki string for the given wiki markup text.
+	 *  @param text text as wiki markup. 
+	 */
 	public WikiString(final String text) {
 		this.text = text;
 	}
@@ -49,12 +51,16 @@ public class WikiString implements IWikiString {
 		return text;
 	}
 
-	/** Assign the given text as the new wiki markup text. */
+	/** Assign the given text as the new wiki markup text.
+	 *  @param text text as wiki markup. 
+	 */
 	public void setText(final String text) {
 		this.text = text;
 	}
 	
-	/** @see #getText() */
+	/** @see #getText()
+	 *  @return The result of <code>getText()</code>. 
+	 */
 	public String getTextIncludingWikiMarkup() {
 		return getText();
 	}
@@ -139,7 +145,10 @@ public class WikiString implements IWikiString {
 
 	/** Transforms the given wiki markup text into a plain text version. 
 	 *  That is, wiki links, templates, and typographic markers are being 
-	 *  removed or substituted in order to obtain a human-readable text. */
+	 *  removed or substituted in order to obtain a human-readable text.
+	 *  @param wikiText wiki markup text.
+	 *  @return Plain text version of the given wiki markup text.
+	 */
 	public static String makePlainText(final String wikiText) {
 		String result = wikiText;
 		result = result.replace("\t", " ");

@@ -76,7 +76,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 			entry.init(this);
 	}
 
-	/** Factory method for creating a new entry. */
+	/** Factory method for creating a new entry.
+	 * @return New entry initialized with this page as the parent page; title of the pages is set as header of the entry.
+	 */
 	public WiktionaryEntry createEntry() {
 		WiktionaryEntry result = new WiktionaryEntry();
 		result.init(this);
@@ -95,7 +97,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return id;
 	}
 	
-	/** Assign the specified page ID. */
+	/** Assign the specified page ID.
+	 * @param id numeric id of the page. 
+	 */
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -107,7 +111,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return title;
 	}
 
-	/** Assigns the given title to this page. */
+	/** Assigns the given title to this page.
+	 * @param title title of the page.
+	 */
 	public void setTitle(final String title)  {
 		this.title = title;
 		this.normalizedTitle = normalizeTitle(title);
@@ -117,7 +123,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return timestamp;
 	}
 	
-	/** Assigns the given timestamp to this page. */
+	/** Assigns the given timestamp to this page.
+	 * @param timestamp timestamp of the page.
+	 */
 	public void setTimestamp(final Date timestamp) {
 		this.timestamp = timestamp;
 	}
@@ -126,7 +134,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return revision;
 	}
 	
-	/** Assigns the given revision ID to this page. */
+	/** Assigns the given revision ID to this page.
+	 * @param revision revision ID of the page.
+	 */
 	public void setRevision(long revision) {
 		this.revision = revision;
 	}
@@ -135,7 +145,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return author;
 	}
 	
-	/** Assigns the given author name to this page. */
+	/** Assigns the given author name to this page.
+	 * @param author author of the page.
+	 */
 	public void setAuthor(String author) {
 		this.author = author;
 	}
@@ -146,14 +158,18 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return entryLanguage;
 	}
 	
-	/** Assigns the given entry language to this page. */
+	/** Assigns the given entry language to this page.
+	 * @param entryLanguage the language that this page is written in.
+	 */
 	public void setEntryLanguage(final ILanguage entryLanguage) {
 		this.entryLanguage = entryLanguage;
 		if (entryLanguage != null)
 			entryLanguageStr = entryLanguage.getCode();
 	}
 
-	/** Add the given category to the list of categories. */
+	/** Add the given category to the list of categories.
+	 *  @param category category of the page.
+	 */
 	public void addCategory(final String category) {
 		categories.add(category);
 	}
@@ -162,7 +178,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return categories;
 	}
 
-	/** Add the given interwiki link to the list of interwiki links. */
+	/** Add the given interwiki link to the list of interwiki links.
+	 * @param language link to other language editions of Wiktionary.
+	 */
 	public void addInterWikiLink(final String language) {
 		interWikiLinks.add(language);
 	}
@@ -175,7 +193,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return redirectTarget;
 	}
 	
-	/** Assigns the given redirect target to this page. */
+	/** Assigns the given redirect target to this page.
+	 * @param redirectTarget page title that a redirect page targets at.
+	 */
 	public void setRedirectTarget(final String redirectTarget) {
 		this.redirectTarget = redirectTarget;
 	}
@@ -183,7 +203,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 	
 	// -- Entries --
 	
-	/** Add the given entry to the list of senses. */
+	/** Add the given entry to the list of entries.
+	 * @param entry entry.
+	 */
 	public void addEntry(WiktionaryEntry entry) {
 		entry.index = entries.size();
 		entry.setId(entry.getIndex());
@@ -202,7 +224,9 @@ public class WiktionaryPage implements IWiktionaryPage {
 		return entries;
 	}
 	
-	/** Internal interface that is used by the parsers. */
+	/** Internal interface that is used by the parsers.
+	 * @return The list of all {@link WiktionaryEntry}s.
+	 */
 	public List<WiktionaryEntry> entries()  {
 		return entries;
 	}
@@ -216,7 +240,10 @@ public class WiktionaryPage implements IWiktionaryPage {
 	// -- Normalize --
 
 	/** Static helper method for normalizing the title. That is, the title
-	 *  is converted into lower case and non-ASCII characters are removed. */
+	 *  is converted into lower case and non-ASCII characters are removed.
+	 *  @param title title to normalize.
+	 *  @return Normalized title.
+	 */
 	public static String normalizeTitle(final String title) {
 		if (title == null)
 			return null;

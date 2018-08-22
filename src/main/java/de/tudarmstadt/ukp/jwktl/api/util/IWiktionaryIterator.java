@@ -52,7 +52,7 @@ public interface IWiktionaryIterator<IterableType>
 	 *  {@link #hasNext()} will always result in <code>false</code>. */
 	void close();
 	
-	/** Returns true if the iterator has been closed, which is the case
+	/** @return <code>true</code> if the iterator has been closed, which is the case
 	 *  after {@link #close()} has been called or after the last element
 	 *  has been retrieved using the {@link #next()} method. */
 	boolean isClosed();

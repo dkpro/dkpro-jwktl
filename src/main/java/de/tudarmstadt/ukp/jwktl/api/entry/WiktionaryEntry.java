@@ -77,7 +77,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 
 	/** Initialize the entry using the given Wiktionary page. This is necessary
 	 *  to initialize the back references to the parent page, which are not
-	 *  explicitly stored in the database. */
+	 *  explicitly stored in the database.
+	 *  @param page parent page.
+	 */
 	public void init(final WiktionaryPage page) {
 		this.page = page;
 		this.pageId = page.getId();
@@ -85,7 +87,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 			sense.init(this);
 	}
 
-	/** Factory method for creating a new word sense. */
+	/** Factory method for creating a new word sense.
+	 *  @return New word sense initialized with this entry.
+	 */
 	public WiktionarySense createSense() {
 		WiktionarySense result = new WiktionarySense();
 		result.init(this);
@@ -103,7 +107,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return id;
 	}
 
-	/** Assign the specified entry ID. */
+	/** Assign the specified entry ID.
+	 *  @param id numeric ID of the entry.
+	 */
 	public void setId(long id) {
 		this.id = id;
 	}
@@ -134,7 +140,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 	}
 
 	/** Assigns the given header text (i.e., the first headline of the entry,
-	 *  which normally correponds to a word's lemma). */
+	 *  which normally correponds to a word's lemma).
+	 *  @param header header of the entry.
+	 */
 	public void setHeader(final String header) {
 		this.header = header;
 	}
@@ -153,7 +161,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return wordLanguage;
 	}
 
-	/** Assigns the given word language. */
+	/** Assigns the given word language.
+	 *  @param wordLanguage language of the word.
+	 */
 	public void setWordLanguage(final ILanguage wordLanguage) {
 		this.wordLanguage = wordLanguage;
 		if (wordLanguage != null)
@@ -168,7 +178,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return partsOfSpeech;
 	}
 
-	/** Adds the given part of speech to the list of part of speech tags. */
+	/** Adds the given part of speech to the list of part of speech tags.
+	 *  @param partOfSpeech part of speech.
+	 */
 	public void addPartOfSpeech(final PartOfSpeech partOfSpeech) {
 		partsOfSpeech.add(partOfSpeech);
 	}
@@ -184,7 +196,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return genders;
 	}
 
-	/** Adds the given grammatical gender to the list of genders. */
+	/** Adds the given grammatical gender to the list of genders.
+	 * @param gender grammatical gender.
+	 */
 	public void addGender(final GrammaticalGender gender) {
 		if (genders == null)
 			genders = new LinkedList<>();
@@ -196,7 +210,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return etymology;
 	}
 
-	/** Assigns the given etymology text. */
+	/** Assigns the given etymology text.
+	 * @param etymology etymology of the word.
+	 */
 	public void setWordEtymology(final IWikiString etymology) {
 		this.etymology = etymology;
 	}
@@ -209,13 +225,18 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return entryLinkType;
 	}
 
-	/** Assigns the given entry link. */
+	/** Assigns the given entry link.
+	 * @param entryLink entry link.
+	 * @param entryLinkType type of the entry link.
+	 */
 	public void setEntryLink(final String entryLink, final String entryLinkType) {
 		this.entryLink = entryLink;
 		this.entryLinkType = entryLinkType;
 	}
 
-	/** Adds the given pronunciation. */
+	/** Adds the given pronunciation.
+	 * @param pronunciation pronunciation.
+	 */
 	public void addPronunciation(final IPronunciation pronunciation) {
 		if (pronunciations == null)
 			pronunciations = new ArrayList<>();
@@ -226,7 +247,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 		return pronunciations;
 	}
 
-	/** Adds the given word form. */
+	/** Adds the given word form.
+	 * @param wordForm word form.
+	 */
 	public void addWordForm(final IWiktionaryWordForm wordForm) {
 		if (wordForms == null)
 			wordForms = new ArrayList<>();
@@ -240,7 +263,9 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 
 	// -- Senses --
 
-	/** Add the given sense to the list of senses. */
+	/** Add the given sense to the list of senses.
+	 * @param sense sense.
+	 */
 	public void addSense(final WiktionarySense sense) {
 		sense.setIndex(senses.size());
 		senses.add(sense);
@@ -289,12 +314,16 @@ public class WiktionaryEntry implements IWiktionaryEntry {
 			return senses.subList(1, senses.size());
 	}
 
-	/** Internal interface that is used by the parsers. */
+	/** Internal interface that is used by the parsers.
+	 * @return Senses of the entry.
+	 */
 	public List<WiktionarySense> senses() {
 		return senses;
 	}
 
-	/** Identify the first sense of this entry with the given marker. */
+	/** @return The first sense of this entry with the given marker.
+	 *  @param marker marker.
+	 */
 	public WiktionarySense findSenseByMarker(final String marker) {
 		for (WiktionarySense sense : senses)
 			if (marker.equals(sense.getMarker()))

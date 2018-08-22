@@ -58,7 +58,9 @@ public class WiktionarySense implements IWiktionarySense {
 
 	/** Initialize the sense using the given Wiktionary entry. This is necessary
 	 *  to initialize the back references to the parent entry, which are not 
-	 *  explicitly stored in the database. */
+	 *  explicitly stored in the database.
+	 *  @param entry parent Wiktionary entry.
+	 */
 	public void init(final WiktionaryEntry entry) {
 		this.entry = entry;
 		entryId = entry.getId();
@@ -75,7 +77,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return Integer.toString(index);
 	}
 	
-	/** Shorthand for <code>getEntry().getId()</code>. */
+	/** Shorthand for <code>getEntry().getId()</code>.
+	 * @return Numberic id of the parent entry.
+	 */
 	public long getEntryId() {
 		return entryId;
 	}
@@ -84,7 +88,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return index;
 	}
 	
-	/** Assigns the given index to this sense. */
+	/** Assigns the given index to this sense.
+	 * @param index index of the entry.
+	 */
 	protected void setIndex(int index) {
 		this.index = index;
 	}
@@ -93,7 +99,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return marker;
 	}
 	
-	/** Assigns the given sense marker to this sense. */
+	/** Assigns the given sense marker to this sense.
+	 * @param marker sense marker.
+	 */
 	public void setMarker(final String marker) {
 		this.marker = marker;
 	}
@@ -116,12 +124,16 @@ public class WiktionarySense implements IWiktionarySense {
 		return gloss;
 	}
 	
-	/** Add the given sense definition to this sense. */
+	/** Add the given sense definition to this sense.
+	 * @param gloss sense definition.
+	 */
 	public void setGloss(final IWikiString gloss) {
 		this.gloss = gloss;
 	}
 
-	/** Add the given example to this sense. */
+	/** Add the given example to this sense.
+	 * @param example an example for the sense.
+	 */
 	public void addExample(final IWiktionaryExample example) {
 		if (examples == null)
 			examples = new ArrayList<>();
@@ -132,7 +144,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return examples;
 	}
 	
-	/** Add the given quotation to this sense. */
+	/** Add the given quotation to this sense.
+	 * @param quotation quotation for the sense.
+	 */
 	public void addQuotation(final IQuotation quotation) {
 		if (quotations == null)
 			quotations = new ArrayList<>();
@@ -143,7 +157,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return quotations;
 	}
 	
-	/** Add the given reference to this sense. */
+	/** Add the given reference to this sense.
+	 * @param reference reference fo the sense.
+	 */
 	public void addReference(final IWikiString reference) {
 		if (references == null)
 			references = new ArrayList<>();
@@ -154,7 +170,9 @@ public class WiktionarySense implements IWiktionarySense {
 		return references;
 	}
 	
-	/** Add the given relation to this sense. */
+	/** Add the given relation to this sense.
+	 * @param relation relation for the sense.
+	 */
 	public void addRelation(final IWiktionaryRelation relation) {
 		if (relations == null)
 			relations = new ArrayList<>();
@@ -175,7 +193,9 @@ public class WiktionarySense implements IWiktionarySense {
 		}
 	}
 	
-	/** Add the given translation to this sense. */
+	/** Add the given translation to this sense.
+	 * @param translation translation of the sense.
+	 */
 	public void addTranslation(final IWiktionaryTranslation translation) {
 		if (translations == null)
 			translations = new ArrayList<>();
