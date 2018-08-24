@@ -22,10 +22,10 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
-import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
+import de.tudarmstadt.ukp.jwktl.parser.util.IWiktionaryWordFormTemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public abstract class PatternBasedParameterHandler implements ITemplateParameterHandler {
+public abstract class PatternBasedParameterHandler implements IWiktionaryWordFormTemplateParameterHandler {
 
 	protected final Pattern pattern;
 

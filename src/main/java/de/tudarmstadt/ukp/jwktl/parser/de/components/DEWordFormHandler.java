@@ -31,7 +31,7 @@ import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalTense;
 import de.tudarmstadt.ukp.jwktl.api.util.NonFiniteForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.nountable.DEWordFormNounTableHandler;
-import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
+import de.tudarmstadt.ukp.jwktl.parser.util.IWiktionaryWordFormTemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
@@ -50,7 +50,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	protected List<IWiktionaryWordForm> wordForms;
 	protected TableType tableType;
-	protected ITemplateParameterHandler nounTableHandler = new DEWordFormNounTableHandler();
+	protected IWiktionaryWordFormTemplateParameterHandler nounTableHandler = new DEWordFormNounTableHandler();
 	
 	public boolean canHandle(final String blockHeader) {
 		if (blockHeader == null || blockHeader.isEmpty())

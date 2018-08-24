@@ -24,7 +24,7 @@ import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
  * 
  * @author Alexey Valikov
  */
-public interface ITemplateParameterHandler {
+public interface IWiktionaryWordFormTemplateParameterHandler {
 
 	/**
 	 * Parameter handlers may keep state while processing Wiktionary entries. This

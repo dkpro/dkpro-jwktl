@@ -22,16 +22,16 @@ import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
-import de.tudarmstadt.ukp.jwktl.parser.util.ITemplateParameterHandler;
+import de.tudarmstadt.ukp.jwktl.parser.util.IWiktionaryWordFormTemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
-public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
+public class DEWordFormNounTableHandler implements IWiktionaryWordFormTemplateParameterHandler {
 
 	public void reset() {
 		this.genera = new DEGenderText[4];
 	}
 
-	private List<? extends ITemplateParameterHandler> handlers = Arrays.asList(
+	private List<? extends IWiktionaryWordFormTemplateParameterHandler> handlers = Arrays.asList(
 			// Genus
 			new GenusHandler(this),
 			// Singular
@@ -86,7 +86,7 @@ public class DEWordFormNounTableHandler implements ITemplateParameterHandler {
 
 	@Override
 	public void handle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context) {
-		for (ITemplateParameterHandler handler : this.handlers) {
+		for (IWiktionaryWordFormTemplateParameterHandler handler : this.handlers) {
 			if (handler.canHandle(label, value, wordForm, context)) {
 				handler.handle(label, value, wordForm, context);
 			}
