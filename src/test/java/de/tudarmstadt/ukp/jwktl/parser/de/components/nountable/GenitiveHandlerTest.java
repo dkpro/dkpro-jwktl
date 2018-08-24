@@ -47,7 +47,7 @@ public class GenitiveHandlerTest extends TestCase {
 		assertEquals(GrammaticalCase.GENITIVE, wordForm.getCase());
 	}
 	
-	public void testWerOderWasEinzahl() {
+	public void testWessenEinzahl() {
 		WiktionaryWordForm wordForm = new WiktionaryWordForm("test");
 		genitiveHandler.handle("Wessen? (Einzahl)", "test", wordForm, null);
 		assertEquals(GrammaticalCase.GENITIVE, wordForm.getCase());

@@ -41,13 +41,13 @@ public class DativeHandlerTest extends TestCase {
 		assertFalse(dativeHandler.canHandle(" Wem? (Einzahl)", null, null, null));
 	}
 
-	public void testGenitivSingular() {
+	public void testDativeSingular() {
 		WiktionaryWordForm wordForm = new WiktionaryWordForm("test");
 		dativeHandler.handle("Dativ Singular", "test", wordForm, null);
 		assertEquals(GrammaticalCase.DATIVE, wordForm.getCase());
 	}
 
-	public void testWerOderWasEinzahl() {
+	public void testWemEinzahl() {
 		WiktionaryWordForm wordForm = new WiktionaryWordForm("test");
 		dativeHandler.handle("Wem? (Einzahl)", "test", wordForm, null);
 		assertEquals(GrammaticalCase.DATIVE, wordForm.getCase());

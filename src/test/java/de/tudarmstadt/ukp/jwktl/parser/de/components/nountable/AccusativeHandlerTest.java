@@ -41,13 +41,13 @@ public class AccusativeHandlerTest extends TestCase {
 		assertFalse(accusativeHandler.canHandle(" Wen? (Einzahl)", null, null, null));
 	}
 
-	public void testGenitivSingular() {
+	public void testAkkusativSingular() {
 		WiktionaryWordForm wordForm = new WiktionaryWordForm("test");
 		accusativeHandler.handle("Akkusativ Singular", "test", wordForm, null);
 		assertEquals(GrammaticalCase.ACCUSATIVE, wordForm.getCase());
 	}
 
-	public void testWerOderWasEinzahl() {
+	public void testWenEinzahl() {
 		WiktionaryWordForm wordForm = new WiktionaryWordForm("test");
 		accusativeHandler.handle("Wen? (Einzahl)", "test", wordForm, null);
 		assertEquals(GrammaticalCase.ACCUSATIVE, wordForm.getCase());

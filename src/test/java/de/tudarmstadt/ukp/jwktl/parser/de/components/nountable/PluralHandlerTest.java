@@ -35,35 +35,6 @@ public class PluralHandlerTest extends TestCase {
 		pluralHandler = new PluralHandler(nounTableHandler);
 	}
 	
-	protected static final String PLURAL_PATTERN =
-			// equals("Plural")
-			"^Plural$|" +
-			// equals("PLURAL")
-					"^PLURAL$|" +
-					// endsWith(" Plural")
-					"\\sPlural$|" +
-					// endsWith(" Plural*")
-					"\\sPlural\\*$|" +
-					// endsWith(" Plural**")
-					"\\sPlural\\*\\*$|" +
-					// endsWith(" Plural?")
-					"\\sPlural\\?$|" +
-					// endsWith(" Plural *")
-					"\\sPlural\\s\\*$|" +
-					// endsWith(" Plural 1") || endsWith(" Plural 2") ||
-					// endsWith(" Plural 3") || endsWith(" Plural 4")
-					"\\sPlural\\s([1-4])$|" +
-					// endsWith(" Plural 1*") || endsWith(" Plural 2*") ||
-					// endsWith(" Plural 3*") || endsWith(" Plural 4*")
-					"\\sPlural\\s([1-4])\\*$|" +
-					// endsWith(" Plural 1**") || endsWith(" Plural 2**") ||
-					// endsWith(" Plural 3**") || endsWith(" Plural 4**")
-					"\\sPlural\\s([1-4])\\*\\*$|" +
-					// endsWith(" Plural* 1") || endsWith(" Plural* 2") ||
-					// endsWith(" Plural* 3") || endsWith(" Plural* 4")
-					"\\sPlural\\*\\s([1-4])$";
-
-	
 	public void testCanHandle() {
 		assertFalse(pluralHandler.canHandle(null, null, null, null));
 		assertFalse(pluralHandler.canHandle("Larulp", null, null, null));
