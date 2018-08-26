@@ -18,7 +18,9 @@
 package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
@@ -26,9 +28,11 @@ import de.tudarmstadt.ukp.jwktl.parser.util.IWiktionaryWordFormTemplateParameter
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 public class DEWordFormNounTableHandler implements IWiktionaryWordFormTemplateParameterHandler {
+	
+	public static final int MAX_INFLECTION_GROUP_COUNT = 4;
 
 	public void reset() {
-		this.genera = new DEGenderText[4];
+		this.genera = new HashMap<>(DEWordFormNounTableHandler.MAX_INFLECTION_GROUP_COUNT);
 	}
 
 	private List<? extends IWiktionaryWordFormTemplateParameterHandler> handlers = Arrays.asList(
@@ -51,32 +55,24 @@ public class DEWordFormNounTableHandler implements IWiktionaryWordFormTemplatePa
 			// Accusative
 			new AccusativeHandler());
 
-	protected DEGenderText[] genera = new DEGenderText[4];
+	protected Map<Integer, DEGenderText> genera = new HashMap<>(DEWordFormNounTableHandler.MAX_INFLECTION_GROUP_COUNT);
 
 	/**
 	 * Returns genus by index.
-	 * @param index index of the genus, must be between 1 and 4.
+	 * @param index index of the genus.
 	 * @return Genus by index or <code>null</code> if genus by this index was not set yet.
-	 * @throws IllegalArgumentException If index is not between 1 and 4.
 	 */
 	DEGenderText getGenusByIndex(int index) {
-		if (index < 1 || index > 4) {
-			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
-		}
-		return genera[index - 1];
+		return genera.get(index - 1);
 	}
 
 	/**
 	 * Sets genus by index
 	 * @param genderText genus.
-	 * @param index index of the genus, must be between 1 and 4.
-	 * @throws IllegalArgumentException If index is not between 1 and 4.
+	 * @param index index of the genus.
 	 */
-	void setGenusByIndex(DEGenderText genderText, Integer index) {
-		if (index < 1 || index > 4) {
-			throw new IllegalArgumentException("Genus index must be 1, 2, 3 or 4.");
-		}
-		this.genera[index - 1] = genderText;
+	void setGenusByIndex(DEGenderText genderText, int index) {
+		this.genera.put(index - 1, genderText);
 	}
 
 	@Override

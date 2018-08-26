@@ -516,6 +516,31 @@ public class DEWordFormHandlerTest extends DEWiktionaryEntryParserTest {
 		assertWordFormNoun("Gamsen", ACCUSATIVE, PLURAL, null, 1, actualIter.next());
 		assertFalse(actualIter.hasNext());
 	}
+	
+	/***/
+	public void testApfelschorle() throws Exception {
+		IWiktionaryPage page = parse("Apfelschorle.txt");
+		IWiktionaryEntry entry = page.getEntry(0);
+		Iterator<IWiktionaryWordForm> actualIter = entry.getWordForms().iterator();
+		assertWordFormNoun("Apfelschorle", NOMINATIVE, SINGULAR, NEUTER, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorles", NOMINATIVE, PLURAL, null, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorles", GENITIVE, SINGULAR, NEUTER, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorles", GENITIVE, PLURAL, null, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorle", DATIVE, SINGULAR, NEUTER, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorles", DATIVE, PLURAL, null, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorle", ACCUSATIVE, SINGULAR, NEUTER, 1, actualIter.next());
+		assertWordFormNoun("Apfelschorles", ACCUSATIVE, PLURAL, null, 1, actualIter.next());
+
+		assertWordFormNoun("Apfelschorle", NOMINATIVE, SINGULAR, FEMININE, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorlen", NOMINATIVE, PLURAL, null, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorle", GENITIVE, SINGULAR, FEMININE, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorlen", GENITIVE, PLURAL, null, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorle", DATIVE, SINGULAR, FEMININE, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorlen", DATIVE, PLURAL, null, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorle", ACCUSATIVE, SINGULAR, FEMININE, 5, actualIter.next());
+		assertWordFormNoun("Apfelschorlen", ACCUSATIVE, PLURAL, null, 5, actualIter.next());
+		assertFalse(actualIter.hasNext());
+	}
 
 	protected void assertWordFormNoun(final String expectedForm, final GrammaticalCase expectedCase,
 			final GrammaticalNumber expectedNumber, GrammaticalGender expectedGender,

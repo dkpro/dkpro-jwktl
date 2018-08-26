@@ -37,35 +37,4 @@ public class DEWordFormNounTableHandlerTest extends TestCase {
 	public void testGetsNotSetGenus() {
 		assertNull(nounTableHandler.getGenusByIndex(3));
 	}
-
-	public void testThrowsExceptionSettingGenusWithInvalidIndex() {
-		try {
-			nounTableHandler.setGenusByIndex(DEGenderText.F, 0);
-			fail();
-		} catch (IllegalArgumentException expected) {
-			assertTrue(true);
-		}
-		try {
-			nounTableHandler.setGenusByIndex(DEGenderText.F, 5);
-			fail();
-		} catch (IllegalArgumentException expected) {
-			assertTrue(true);
-		}
-	}
-
-	public void testThrowsExceptionGettingGenusWithInvalidIndex() {
-		try {
-			nounTableHandler.getGenusByIndex(0);
-			fail();
-		} catch (IllegalArgumentException expected) {
-			assertTrue(true);
-		}
-		try {
-			nounTableHandler.getGenusByIndex(5);
-			fail();
-		} catch (IllegalArgumentException expected) {
-			assertTrue(true);
-		}
-	}
-
 }
