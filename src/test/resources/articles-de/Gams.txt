@@ -1,0 +1,74 @@
+{{Siehe auch|[[gams]]}}
+== Gams ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{mfn}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=f
+|Genus 2=m
+|Genus 3=n
+|Nominativ Singular 1=Gams
+|Nominativ Singular 2=Gams
+|Nominativ Singular 3=Gams
+|Genitiv Singular 3=Gams
+|Genitiv Singular 2=Gams
+|Genitiv Singular 2*=Gamsen
+|Dativ Singular 2*=Gamsen
+|Akkusativ Singular 2*=Gamsen
+|Genitiv Singular 3*=Gamsen
+|Dativ Singular 3*=Gamsen
+|Akkusativ Singular 3*=Gamsen
+|Dativ Singular 3=Gams
+|Dativ Singular 2=Gams
+|Akkusativ Singular 3=Gams
+|Akkusativ Singular 2=Gams
+|Nominativ Plural=Gams
+|Nominativ Plural*=Gamsen
+|Genitiv Singular=Gams
+|Genitiv Plural=Gams
+|Genitiv Plural*=Gamsen
+|Dativ Singular=Gams
+|Dativ Plural=Gams
+|Dativ Plural*=Gamsen
+|Akkusativ Singular=Gams
+|Akkusativ Plural=Gams
+|Akkusativ Plural*=Gamsen
+|Bild=Rupicapra rupicapra 2.jpg|250px|1|''Gams''bock im Profil
+}}
+
+{{Worttrennung}}
+:Gams, {{Pl.1}} Gams, {{Pl.2}} Gam·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡams}}
+:{{Hörbeispiele}} {{Audio|}}
+:{{Reime}} {{Reim|ams|Deutsch}}
+
+{{Bedeutungen}}
+:[1] horntragendes Tier der höheren Gebirge Europas und Kleinasiens: ''Rupicapra rupicapra''
+
+{{QS Herkunft|fehlt}}
+
+{{Synonyme}}
+:[1] [[Gämse]]
+
+{{Beispiele}}
+:[1] „‚Von den Zahlen her ist die ''Gams'' sicher nicht gefährdet‘, sagt Kinser.“&lt;ref>{{Per-Süddeutsche Online | Online=http://www.sueddeutsche.de/bayern/jagd-in-den-alpen-rottet-bayern-gerade-die-gaemsen-aus-1.3307995| Autor= Christian Sebald| Titel= Rottet Bayern gerade die Gämsen aus? | Tag=28| Monat=12| Jahr=2016| Zugriff=2017-12-02 }}&lt;/ref>
+:[1] „Dann wollte ich, von der Seite her kommend, das ''Gams'' holen.“&lt;ref>{{Literatur | Autor=Meyden Gerd H. | Titel= All das ist Jagd| Verlag= Leopold Stocker| Jahr= 2014| Online=Zitiert nach {{GBS|tTt6DAAAQBAJ|PT104|Hervorhebung="Dann wollte ich, von der Seite her kommend, das Gams holen."}}}}&lt;/ref>
+:[1] „Jetzt galt es den ''Gams'', jetzt wollten wir die erste ''Gams'' meines Lebens erlegen.“&lt;ref>{{Literatur | Autor=Lothar C Rilinger | Titel= Die Magie der Jagd … | Verlag= Leopold Stocke| Jahr=2015 | Online=Zitiert nach {{GBS|9Al7DAAAQBAJ|PT232|Hervorhebung="Jetzt galt es den Gams, jetzt wollten wir die erste Gams meines Lebens erlegen."}}}}&lt;/ref>
+:[1] „Gut, dachte ich, wo es den ''Gamsen'' wild genug ist, kann sich theoretisch auch ein Bär aufhalten.“&lt;ref>{{Literatur|Autor=Gerhard Falkner|Titel=Bruno|Verlag=Berlin|Jahr=2008|Seiten=78|Online=Zitiert nach {{GBS|P28hAQAAIAAJ|P|Hervorhebung="Gut, dachte ich, wo es den Gamsen wild genug ist, kann sich theoretisch auch ein Bär aufhalten."}}}}&lt;/ref>
+:[1] „Der beste Theil von seiner Kraft und seinen Gedanken ist anderswo und fliegt wahrscheinlich in der weiten Welt um einander … vermuthlich bei dem ''Gamsen'' am Gewand und bei den Hirschen im Wald!“&lt;ref>{{Literatur |  Titel= Herman Schmid's Gesammelte Schriften | Band=Zwanzigster Band | Verlag=Ernst Keil| Ort=Leipzig | Jahr=1870 | Seiten=61| Online=Zitiert nach {{GBS|zptTAAAAcAAJ|PA61|Hervorhebung="Gamsen am Gewand"}}}}&lt;/ref>
+
+{{Wortbildungen}}
+:[[Gamsbart]], [[Gamskitz]]
+
+{{Lemmaverweis|Gämse}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Gämse}}
+:[1] {{Ref-DWDS|Gams}}
+:[*] {{Ref-Canoo|Gams}}
+:[*] {{Ref-OWID|elexiko|190759}}
+:[1] {{Ref-FreeDictionary|Gams}}
+:[1] {{Ref-Duden|Gams}}
+
+{{Quellen}}

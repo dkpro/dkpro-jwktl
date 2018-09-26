@@ -1,0 +1,78 @@
+== Unschlitt ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{nm}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=n
+|Genus 2=m
+|Nominativ Singular 1=Unschlitt
+|Nominativ Singular 2=Unschlitt
+|Nominativ Plural=Unschlitte
+|Genitiv Singular 1=Unschlitts
+|Genitiv Singular* 1=Unschlittes
+|Genitiv Singular 2=Unschlitts
+|Genitiv Singular* 2=Unschlittes
+|Genitiv Plural=Unschlitte
+|Dativ Singular 1=Unschlitt
+|Dativ Singular 2=Unschlitt
+|Dativ Plural=Unschlitten
+|Akkusativ Singular 1=Unschlitt
+|Akkusativ Singular 2=Unschlitt
+|Akkusativ Plural=Unschlitte
+}}
+
+{{Anmerkung|zum Genus}}
+:Das Maskulinum wird von Grimm in Klammer und vom Österreichischen Wörterbuch ohne Wertung angegeben.
+
+{{Worttrennung}}
+:Un·schlitt, {{Pl.}} Un·schlit·te
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈʊnʃlɪt}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] {{va.|:}} aus [[Wiederkäuer]]n gewonnenes, festes [[Körperfett]]
+
+{{Synonyme}}
+:[1] [[Talg]]
+
+{{Beispiele}}
+:[1] „Da wir nun an den Ort kamen, wo das Duell ausgetragen werden sollte, hatte ich meine Muskete bereits mit zwei Kugeln geladen, frisches Zündkraut aufgerührt und den Deckel auf der Zündpfanne mit ''Unschlitt'' verschmiert, wie es vorsichtige Musketiere zu tun pflegen, wenn sie das Zündloch und Pulver auf der Pfanne im Regenwetter vor Wasser schützen wollen.“&lt;ref>Simplicissimus, 3. Buch, 9. Kapitel&lt;/ref>
+:[1] „Und nahm das ganze ''Unschlitt,'' das an dem Eingeweide und das Netz an der Leber und die beiden Nieren und deren Fett, und Mosche ließ es in Dampf aufgehen auf dem Altar.“&lt;ref>Leviticus 8.16 Tanach&lt;/ref>
+:[1] „Viel gemeiner und wohlfeiler ist der ''Unschlitt'', der aus der Frucht des so genannten Unschlittbaums bereitet wird.“&lt;ref>{{Literatur | Autor=Christoph Meiners | Titel=Betrachtungen über die Fruchtbarkeit, oder Unfruchtbarkeit, über den vormahligen und gegenwärtigen Zustand der vornehmsten Länder in Asien|Ort=Lübeck und Leipzig | Band=Erster Band | Verlag= Bohn und Compagnie| Jahr=1795 | Seiten=145| Online=Zitiert nach {{GBS|IUZDAAAAYAAJ|RA1-PA145|Hervorhebung="Viel gemeiner und wohlfeiler ist der Unschlitt, der aus der Frucht des so genannten Unschlittbaums bereitet wird. "}}}}&lt;/ref>
+:[1] „Man kann den ''Unschlitt'' erst zergehen lassen, und alsdann das Oel nachschütten, und eben so verfahren, als bei der Baumölseiffe erinnert worden.“&lt;ref>{{Literatur | Autor= | Titel= Lehrbegrif sämmtlicher oeconomischer und Cameralwissenschaften | Band=  Des dritten Bandes erster Theil| Verlag= E. F. Schwan| Ort=Mannheim | Jahr=1777 | Seiten=419| Online=Zitiert nach {{GBS|Q1dPAAAAcAAJ|PA419|Hervorhebung="Man kann den Unschlitt erst zergehen lassen, und alsdann das Oelnachschütten, und eben so verfahren, als bei der Baumölseiffe erinnert worden."}}}}&lt;/ref>
+:[1] „Da der ''Unschlitt'' oft auch der Herstellung von Talglichtern (Kerzen) diente, wurden die Berufe des Seifensieders und des Lichtziehers nicht selten von ein und demselben Handwerker ausgeübt.“&lt;ref>{{Ref-Wien Geschichte Wiki |Seifensieder|oldid=307388}}&lt;/ref>
+
+{{Wortbildungen}}
+:[[Unschlitthandlungsamt]], [[Unschlittlicht]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|tallow}}
+*{{fr}}: [1] {{Ü|fr|suif}} {{m}}
+*{{el}}: [1] {{Üt|el|ξίγκι|xínki}} {{n}}
+*{{it}}: [1] {{Ü|it|sego}} {{m}}, {{Ü|it|sevo}} {{m}}
+|Ü-rechts=
+*{{ca}}: [1] {{Ü|ca|sèu}} {{m}}
+*{{la}}: [1] {{Ü|la|sebum}} {{n}}, ''nachklassisch:'' {{Ü|la|sevum}} {{n}}, {{Ü|la|saevum}} {{n}}
+*{{pl}}: [1] {{Ü|pl|łój}} {{m}}
+*{{hu}}: [1] {{Ü|hu|faggyú}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Unschlitt}}
+:[1] {{Ref-DWDS|Unschlitt}}
+:[1] {{Ref-Canoo|Unschlitt}}
+:[1] {{Ref-UniLeipzig|Unschlitt}}
+:[1] {{Ref-FreeDictionary|Unschlitt}}
+:[1] {{Ref-Duden|Unschlitt}}
+:[1] {{Ref-PONS|Unschlitt}}
+:[1] {{Ref-Grimm|Unschlitt}}
+:[1] {{Ref-Adelung|Unschlitt}}
+:[1] {{Lit-ÖBV: Österreichisches Wörterbuch|A=38 (Schulausgabe)}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Schlitten]]}}
+
+{{veralteter Wortschatz|Deutsch}}

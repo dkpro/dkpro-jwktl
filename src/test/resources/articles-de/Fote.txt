@@ -1,0 +1,35 @@
+=== {{Wortart|Substantiv|Deutsch}}, {{f}} ===
+
+{{Deutsch Substantiv Dialekt
+|Singular=de Fote
+|Plural=de Foten
+}}
+
+{{Worttrennung}}
+:Fo·te, {{Pl.}} Fo·ten
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈfoːtə}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] ''[[berlinisch]]:'' Pfote, Pote; Hand, Fuß
+
+{{Oberbegriffe}}
+:[1] [[Körperteil]]
+
+{{Beispiele}}
+:[1] Sach ma, biste noch janz reene oda wat!? Du kannst do nich eenfach da Katze uff de ''Foten'' tippeln.
+:[1] Quatsch nich! Nu mach ma hinne! Ick will da nich ständich uff de ''Foten'' kieken müssen.
+:[1] Ick gloob, ick hab ma meene ''Fote'' jeknackst.
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+:*{{Übersetzungen umleiten|1|Pfote|1, 2}} {{f}}, {{Übersetzungen umleiten||Pote|}} {{f}}; {{Übersetzungen umleiten||Hand|1}} {{f}}, {{Übersetzungen umleiten||Fuß|1}} {{m}}
+|Ü-rechts=
+}}
+
+{{Referenzen}}
+:[1] Hans Meyer, Siegfried Mauermann, Walther Kiaulehn: ''Der richtige Berliner in Wörtern und Redensarten'', Neuausgabe der 10. Auflage, C. H. Beck, München 1985. Seite 100. ISBN 3-406-30611-X
+
+{{Ähnlichkeiten 1|[[Pfote]]}}
