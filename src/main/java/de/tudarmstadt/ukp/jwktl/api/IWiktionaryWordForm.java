@@ -92,7 +92,7 @@ public interface IWiktionaryWordForm {
 	 * Semantics of this property may differ from language to language.
 	 * Roughly speaking, inflection group corresponds to the column in
 	 * the inflection table.
-	 * @return Index of the inflection group, <code>-1<code> if there this word form
+	 * @return Index of the inflection group, <code>-1</code> if there this word form
 	 * does not belong to an inflection group.
 	 */
 	int getInflectionGroup();

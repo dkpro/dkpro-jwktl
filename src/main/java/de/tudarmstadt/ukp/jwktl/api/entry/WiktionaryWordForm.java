@@ -94,7 +94,6 @@ public class WiktionaryWordForm implements IWiktionaryWordForm {
 		this.grammaticalGender = grammaticalGender;
 	}
 	
-	@Override
 	public int getInflectionGroup() {
 		return this.inflectionGroup;
 	}
