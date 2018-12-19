@@ -1,0 +1,71 @@
+== Apfelschorle ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{fn}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Apfelschorle
+|Nominativ Plural=Apfelschorles
+|Genitiv Singular=Apfelschorles
+|Genitiv Plural=Apfelschorles
+|Dativ Singular=Apfelschorle
+|Dativ Plural=Apfelschorles
+|Akkusativ Singular=Apfelschorle
+|Akkusativ Plural=Apfelschorles
+}}
+
+{{Deutsch Substantiv Übersicht
+|Genus=f
+|Nominativ Singular=Apfelschorle
+|Nominativ Plural=Apfelschorlen
+|Genitiv Singular=Apfelschorle
+|Genitiv Plural=Apfelschorlen
+|Dativ Singular=Apfelschorle
+|Dativ Plural=Apfelschorlen
+|Akkusativ Singular=Apfelschorle
+|Akkusativ Plural=Apfelschorlen
+}}
+
+{{Anmerkung}}
+:''Genus:'' Das Substantiv ''Apfelschorle'' wird in der Regel als weiblich betrachtet und entsprechend gebeugt. Selten kommt auch neutrales Genus vor, landschaftlich gebräuchlich ist das maskuline Geschlecht.
+
+{{Worttrennung}}
+:Ap·fel·schor·le, {{Pl.}} Ap·fel·schor·len (Ap·fel·schor·les)
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈapfl̩ˌʃɔʁlə}}
+:{{Hörbeispiele}} {{Audio|De-Apfelschorle.ogg}}
+
+{{Bedeutungen}}
+:[1] Mischgetränk, das aus [[Apfelsaft]] und [[Mineralwasser]] hergestellt wird
+
+{{Herkunft}}
+:[[Determinativkompositum]], zusammengesetzt aus ''[[Apfel]]'' und ''[[Schorle]]''
+
+{{Synonyme}}
+:[1] [[Apfelsaftschorle]], ''in Österreich:'' [[Apfelsaft gespritzt]], [[Obi gespritzt]]
+
+{{Oberbegriffe}}
+:[1] [[Getränk]]
+
+{{Beispiele}}
+:[1] „Ich habe etwa zwei Liter ''Apfelschorle'' im Ziel zu mir genommen, dazu nochmal einen Liter Joghurtdrinks.“&lt;ref>Internetbeleg&lt;/ref>
+
+{{Charakteristische Wortkombinationen}}
+:[1] eine ~ [[trinken]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|apple spritzer}}, {{Ü|en|apple juice spritzer}}, {{Ü|en|appletiser}}
+*{{it}}: [1] ''(keine wörtliche Übersetzung:)'' una bevanda fatta da succo di mele ed acqua gassata
+|Ü-rechts=
+*{{es}}: [1] ''(keine wörtliche Übersetzung:)'' una bebida hecha de zumo de manzana y agua mineral
+*{{cs}}: [1] {{Ü|cs|jablečný střik}} {{m}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Apfelschorle}}
+:[1] {{Ref-DWDS|Apfelschorle}}
+:[1] {{Ref-Canoo|Apfelschorle}}
+:[1] {{Ref-UniLeipzig|Apfelschorle}}
+
+{{Quellen}}

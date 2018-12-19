@@ -86,6 +86,16 @@ public interface IWiktionaryWordForm {
 	/** Returns the {@link GrammaticalGender} of this word form or 
 	 *  <code>null</code> if no gender is specified or applicable. */
 	GrammaticalGender getGender();
+	
+	/**
+	 * Returns the index of the inflection group this word form belong to.
+	 * Semantics of this property may differ from language to language.
+	 * Roughly speaking, inflection group corresponds to the column in
+	 * the inflection table.
+	 * @return Index of the inflection group, <code>-1</code> if there this word form
+	 * does not belong to an inflection group.
+	 */
+	int getInflectionGroup();
 
 	/** Returns the {@link GrammaticalPerson} of this word form or 
 	 *  <code>null</code> if no person is specified or applicable. */

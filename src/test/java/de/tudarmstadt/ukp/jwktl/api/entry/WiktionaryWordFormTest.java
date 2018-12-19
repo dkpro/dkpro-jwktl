@@ -15,26 +15,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser.de.components.nountable;
+package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import de.tudarmstadt.ukp.jwktl.parser.de.components.DEGenderText;
+import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import junit.framework.TestCase;
 
-public class DEWordFormNounTableHandlerTest extends TestCase {
+public class WiktionaryWordFormTest extends TestCase {
 
-	private DEWordFormNounTableHandler nounTableHandler;
-
-	@Override
-	protected void setUp() throws Exception {
-		nounTableHandler = new DEWordFormNounTableHandler();
-	}
-
-	public void testGetsSetGenus() {
-		nounTableHandler.setGenusByIndex(DEGenderText.F, 2);
-		assertEquals(DEGenderText.F, nounTableHandler.getGenusByIndex(2));
-	}
-
-	public void testGetsNotSetGenus() {
-		assertNull(nounTableHandler.getGenusByIndex(3));
+	public void testDefaultInflectionGroupValue() {
+		IWiktionaryWordForm wordForm = new WiktionaryWordForm("test");
+		assertEquals(-1, wordForm.getInflectionGroup());
 	}
 }
