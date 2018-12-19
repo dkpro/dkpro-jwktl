@@ -43,14 +43,14 @@ public interface IWiktionaryWordFormTemplateParameterHandler {
 	 *            word form.
 	 * @param context
 	 *            parsing context.
-	 * @return <code>true<code> if this handler can handle the given parameter,
-	 *         <code>false<code> otherwise.
+	 * @return <code>true</code> if this handler can handle the given parameter,
+	 *         <code>false</code> otherwise.
 	 */
 	public boolean canHandle(String label, String value, WiktionaryWordForm wordForm, ParsingContext context);
 
 	/**
 	 * Handles the given parameter. This should only be called if
-	 * {@see #canHandle(String, String, WiktionaryWordForm, ParsingContext)}
+	 * @see #canHandle(String, String, WiktionaryWordForm, ParsingContext)
 	 * returned true.
 	 * 
 	 * @param label
