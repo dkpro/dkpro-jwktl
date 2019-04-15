@@ -2,13 +2,13 @@
  * Copyright 2013
  * Ubiquitous Knowledge Processing (UKP) Lab
  * Technische Universität Darmstadt
- * 
+ *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
- * 
+ *
  *   http://www.apache.org/licenses/LICENSE-2.0
- * 
+ *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
  * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -180,8 +180,6 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		handler.processBody("#: {{syn|en|foo|bar}}", context);
 		handler.processBody("#: {{synonyms|en|baz|[[quux]]}}", context);
 		handler.fillContent(context);
-		assertEquals(1, page.getEntryCount());
-		assertEquals(1, page.getEntry(0).getSenseCount());
 		final List<IWiktionaryRelation> synonyms = page.getEntry(0).getSense(1).getRelations(RelationType.SYNONYM);
 		assertEquals(asList("foo", "bar", "baz", "quux"), synonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
 	}
@@ -195,9 +193,84 @@ public class ENSenseHandlerTest extends ENWiktionaryEntryParserTest {
 		handler.processBody("#: {{ant|en|foo|bar}}", context);
 		handler.processBody("#: {{antonyms|en|baz}}", context);
 		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseHyponyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{hypo|en|foo|bar}}", context);
+		handler.processBody("#: {{hyponyms|en|baz}}", context);
+		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.HYPONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseHypernyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{hypernyms|en|foo|bar}}", context);
+		handler.processBody("#: {{hyper|en|baz}}", context);
+		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.HYPERNYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseHolonyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{holonyms|en|foo|bar|baz}}", context);
+		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.HOLONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseMeronyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{meronyms|en|foo|bar|baz}}", context);
+		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.MERONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseTroponyms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{troponyms|en|foo|bar|baz}}", context);
+		handler.fillContent(context);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.TROPONYM);
+		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
+	}
+
+	public void testParseSenseCoordinateTerms() throws Exception {
+		ENSenseHandler handler = new ENSenseHandler();
+		WiktionaryPage page = new WiktionaryPage();
+		final ParsingContext context = new ParsingContext(page);
+		handler.processHead("", context);
+		handler.processBody("# gloss", context);
+		handler.processBody("#: {{coordinate terms|en|foo|bar}}", context);
+		handler.processBody("#: {{cot|en|baz}}", context);
+		handler.fillContent(context);
 		assertEquals(1, page.getEntryCount());
 		assertEquals(1, page.getEntry(0).getSenseCount());
-		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.ANTONYM);
+		final List<IWiktionaryRelation> antonyms = page.getEntry(0).getSense(1).getRelations(RelationType.COORDINATE_TERM);
 		assertEquals(asList("foo", "bar", "baz"), antonyms.stream().map(IWiktionaryRelation::getTarget).collect(toList()));
 	}
 

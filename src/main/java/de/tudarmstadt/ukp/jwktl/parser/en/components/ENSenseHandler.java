@@ -52,6 +52,10 @@ public class ENSenseHandler extends ENBlockHandler {
 			+ "([^=]+?)"
 			+ ")\\s*\\d*\\s*=?===$");
 
+	protected static final Pattern SEMANTIC_RELATION_PATTERN = Pattern.compile(
+			"\\{\\{\\s*(syn|ant|synonyms|antonyms|hypernyms|hyper|hyponyms|hypo|holonyms|meronyms|troponyms|cot|coordinate terms)\\s*\\|"
+	);
+
 	/**
 	 * Extracted pos string
 	 */
@@ -244,16 +248,16 @@ public class ENSenseHandler extends ENBlockHandler {
 			genders.forEach(entry::addGender);
 	}
 
-	private boolean isNym(String line) {
-		return line.contains("{{syn") || line.contains("{{ant");
+	private boolean isSemanticRelation(String line) {
+		return SEMANTIC_RELATION_PATTERN.matcher(line).find();
 	}
 
 	private void processExampleLine(String line, String currentPrefix, boolean additionalLine) {
 		final String lineContent = line.substring(currentPrefix.length()).trim();
 		if (!glossEntryList.isEmpty()) {
 			EnGlossEntry glossEntry = glossEntryList.get(glossEntryList.size() - 1);
-			if (isNym(lineContent)) {
-				parseNym(lineContent, glossEntry);
+			if (isSemanticRelation(lineContent)) {
+				parseSemanticRelation(lineContent, glossEntry);
 			} else {
 				parseExample(lineContent, currentPrefix, additionalLine, glossEntry);
 			}
@@ -276,7 +280,7 @@ public class ENSenseHandler extends ENBlockHandler {
 		}
 	}
 
-	private void parseNym(String line, EnGlossEntry glossEntry) {
+	private void parseSemanticRelation(String line, EnGlossEntry glossEntry) {
 		TemplateParser.parse(line, template -> {
 			RelationType type = getRelationType(template);
 			if (type != null) {
@@ -289,8 +293,7 @@ public class ENSenseHandler extends ENBlockHandler {
 	}
 
 	private RelationType getRelationType(TemplateParser.Template template) {
-		// https://en.wiktionary.org/wiki/Template:synonyms
-		// https://en.wiktionary.org/wiki/Template:antonyms
+		// https://en.wiktionary.org/wiki/Category:Semantic_relation_templates
 		switch (template.getName()) {
 			case "syn":
 			case "synonyms":
@@ -298,6 +301,21 @@ public class ENSenseHandler extends ENBlockHandler {
 			case "ant":
 			case "antonyms":
 				return RelationType.ANTONYM;
+			case "hypo":
+			case "hyponyms":
+				return RelationType.HYPONYM;
+			case "hyper":
+			case "hypernyms":
+				return RelationType.HYPERNYM;
+			case "holonyms":
+				return RelationType.HOLONYM;
+			case "meronyms":
+				return RelationType.MERONYM;
+			case "troponyms":
+				return RelationType.TROPONYM;
+			case "coordinate terms":
+			case "cot":
+				return RelationType.COORDINATE_TERM;
 			default:
 				return null;
 		}
