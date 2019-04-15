@@ -4,6 +4,7 @@ jdk:
 
 script:
   - mvn test
+  - mvn install
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
