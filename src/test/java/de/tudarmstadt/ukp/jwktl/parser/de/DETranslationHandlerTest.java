@@ -228,7 +228,20 @@ public class DETranslationHandlerTest extends DEWiktionaryEntryParserTest {
 		IWiktionaryPage page = parse("Verkehrspaedagoge.txt");
 		assertEquals(1, page.getEntryCount());
 		assertTrue(page.getEntry(0).getTranslations().isEmpty());
-		
+	}
+
+	public void testWohnzimmer() throws Exception {
+		IWiktionaryPage page = parse("Wohnzimmer.txt");
+		assertEquals(1, page.getEntryCount());
+		assertFalse(page.getEntry(0).getTranslations().isEmpty());
+		List<IWiktionaryTranslation> trans = page.getEntry(0).getSense(1).getTranslations(Language.findByCode("jpn"));
+		assertEquals(6, trans.size());
+		assertTranslation("Japanese", "居間", trans.get(0));
+		assertTranslation("Japanese", "居室", trans.get(1));
+		assertTranslation("Japanese", "茶の間", trans.get(2));
+		assertTranslation("Japanese", "シッティングルーム", trans.get(3));
+		assertTranslation("Japanese", "リビングルーム", trans.get(4));
+		assertTranslation("Japanese", "リビング", trans.get(5));
 	}
 
 	protected static void assertTranslation(final String language,
