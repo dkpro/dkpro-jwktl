@@ -42,6 +42,7 @@ import com.sleepycat.persist.model.Entity;
 import com.sleepycat.persist.model.PrimaryKey;
 import com.sleepycat.persist.model.Relationship;
 import com.sleepycat.persist.model.SecondaryKey;
+
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
@@ -228,7 +229,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 	}
 
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws Exception {
+			boolean overwriteExisting, final Long cacheSize) throws WiktionaryException {
 		// Configure DB environment.
 		EnvironmentConfig envConfig = new EnvironmentConfig();
 		envConfig.setAllowCreate(allowCreateNew);
@@ -257,7 +258,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 					properties.load(reader);
 				}
 			} catch (IOException e) {
-				throw new DatabaseException("Unable to load property file", e){};
+				throw new WiktionaryException("Unable to load property file", e);
 			}
 
 			String lang = properties.getProperty("wiktionary.language");

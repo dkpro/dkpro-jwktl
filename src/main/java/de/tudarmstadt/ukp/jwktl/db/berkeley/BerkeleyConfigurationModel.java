@@ -40,6 +40,7 @@ import com.sleepycat.persist.model.Relationship;
 import com.sleepycat.persist.model.SecondaryKey;
 import com.sleepycat.persist.model.SecondaryKeyMetadata;
 
+import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 import de.tudarmstadt.ukp.jwktl.api.entry.*;
 
 public class BerkeleyConfigurationModel extends AnnotationModel {
@@ -55,7 +56,7 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 	 * Constructs a model for annotated entity classes.
 	 * @throws Exception 
 	 */
-	public BerkeleyConfigurationModel() throws Exception {
+	public BerkeleyConfigurationModel() throws WiktionaryException {
 		super();
 		classMap = new HashMap<String, ClassMetadata>();
 		entityMap = new HashMap<String, EntityInfo>();
@@ -102,7 +103,7 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 		updateEntityInfo(metadata);
 	}
 
-	private ClassMetadata addClassMetadata(String className) throws Exception {
+	private ClassMetadata addClassMetadata(String className) throws WiktionaryException {
 		boolean isEntity = true;
 		int version = 0;
 		String proxiedClassName = null;
@@ -127,28 +128,32 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 			nonDefaultFields = Collections.unmodifiableCollection(nonDefaultFields);
 		}
 
-		Field foundField = type.getDeclaredField("id");
-		PrimaryKeyMetadata pkMD = new PrimaryKeyMetadata(foundField.getName(), foundField.getType().getName(), type.getName(), null);
+		try {
+			Field foundField = type.getDeclaredField("id");
+			PrimaryKeyMetadata pkMD = new PrimaryKeyMetadata(foundField.getName(), foundField.getType().getName(), type.getName(), null);
 
-		Map<String, SecondaryKeyMetadata> mapSK = new HashMap<String, SecondaryKeyMetadata>();
+			Map<String, SecondaryKeyMetadata> mapSK = new HashMap<String, SecondaryKeyMetadata>();
 
-		Field field = WiktionaryPage.class.getDeclaredField("title");
-		String elemClassName = null; // getElementClass(field);
-		SecondaryKeyMetadata metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), elemClassName, field.getName(),
-				Relationship.ONE_TO_ONE, null, null);
-		mapSK.put(field.getName(), metadataSK);
+			Field field = WiktionaryPage.class.getDeclaredField("title");
+			SecondaryKeyMetadata metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), null, field.getName(),
+					Relationship.ONE_TO_ONE, null, null);
+			mapSK.put(field.getName(), metadataSK);
 
-		field = WiktionaryPage.class.getDeclaredField("normalizedTitle");
-		elemClassName = null; // getElementClass(field);
-		metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), elemClassName, field.getName(), Relationship.MANY_TO_ONE, null, null);
-		mapSK.put(field.getName(), metadataSK);
+			field = WiktionaryPage.class.getDeclaredField("normalizedTitle");
+			metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), null, field.getName(), Relationship.MANY_TO_ONE, null, null);
+			mapSK.put(field.getName(), metadataSK);
 
-		
-		/* Get the rest of the metadata and save it. */
-		metadata = new ClassMetadata(className, version, proxiedClassName, isEntity, pkMD, Collections.unmodifiableMap(mapSK), null, nonDefaultFields);
-		classMap.put(className, metadata);
-		/* Add any new information about entities. */
-		updateEntityInfo(metadata);
+			
+			/* Get the rest of the metadata and save it. */
+			metadata = new ClassMetadata(className, version, proxiedClassName, isEntity, pkMD, Collections.unmodifiableMap(mapSK), null, nonDefaultFields);
+			classMap.put(className, metadata);
+			/* Add any new information about entities. */
+			updateEntityInfo(metadata);
+			
+		} catch (NoSuchFieldException | SecurityException e) {
+			throw new WiktionaryException(e);
+		}
+
 		return metadata;
 	}
 

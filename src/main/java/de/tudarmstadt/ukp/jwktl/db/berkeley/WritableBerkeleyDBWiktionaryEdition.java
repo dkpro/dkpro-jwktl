@@ -83,7 +83,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 
 	@Override
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws Exception {
+			boolean overwriteExisting, final Long cacheSize) throws WiktionaryException {
 		if (allowCreateNew)
 			prepareTargetDirectory(dbPath, overwriteExisting);
 		super.connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
@@ -108,11 +108,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 		Long cacheSize = env.getConfig().getCacheSize();
 		//env.sync();
 		doClose();
-		try {
-			connect(isReadOnly, false, false, cacheSize);			
-		} catch (Exception e) {
-			throw new WiktionaryException(e);
-		}
+		connect(isReadOnly, false, false, cacheSize);			
 	}
 	
 //	public void saveProperties(final WiktionaryArticleParser parser)
