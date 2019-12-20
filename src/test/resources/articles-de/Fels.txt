@@ -1,0 +1,100 @@
+== Fels ({{Sprache|Deutsch}}) ==
+{{überarbeiten|Homonym, also Bedeutung 2, in einen eigenen Abschnitt verschieben (für Unterschiede siehe Duden)|Deutsch}}
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=m
+|Genus 2=m
+|Nominativ Singular 1=Fels
+|Nominativ Singular 2=Fels
+|Nominativ Plural=Felsen
+|Genitiv Singular 1=Fels
+|Genitiv Singular 1*=Felses
+|Genitiv Singular 1**=Felsens
+|Genitiv Singular 2=Felsen
+|Genitiv Plural=Felsen
+|Dativ Singular 1=Fels
+|Dativ Singular 2=Felsen
+|Dativ Plural=Felsen
+|Akkusativ Singular 1=Fels
+|Akkusativ Singular 2=Felsen
+|Akkusativ Plural=Felsen
+|Bild=Balve-Reckenhoehle3-Asio.JPG|mini|2|ein ''Fels''
+}}
+
+{{Worttrennung}}
+:Fels, {{Pl.}} Fel·sen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fɛls}}
+:{{Hörbeispiele}} {{Audio|De-Fels.ogg}}
+
+{{Bedeutungen}}
+:[1] ''nur Singular:'' [[zusammenhängend]]e [[Masse]] [[fest]]en [[Gestein]]s
+:[2] {{geh.|:}} größere [[Erhebung]] aus hartem Gestein
+
+{{Herkunft}}
+:mittelhochdeutsch ''vels(e)'', althochdeutsch ''felis'', belegt seit dem 8. Jahrhundert&lt;ref>{{Lit-Kluge: Etymologisches Wörterbuch|A=24}}, Stichwort: „Fels“, Seite 285.&lt;/ref>
+
+{{Synonyme}}
+:[2] [[Felsen]], (schweizerisch) [[Fluh]]
+
+{{Unterbegriffe}}
+:[2] [[Basaltfels]], [[Granitfels]], [[Quarzfels]], [[Sandsteinfels]], [[Schieferfels]]
+
+{{Beispiele}}
+:[1] Der unterirdische Gang wurde vom Schlosskeller aus durch den ''Fels'' geschlagen und endete am Fluss.
+:[1] Die beiden Jungen sind früh losgezogen und klettern jetzt im ''Fels.''
+:[2] Ursache des Unglücks war ein ''Fels,'' der auf die Gleisen gefallen war.
+:[2] Danke, dass du immer wie ein ''Fels'' an meiner Seite standest.
+
+{{Charakteristische Wortkombinationen}}
+:[2] ''Fels'' in der [[Brandung]]
+
+{{Wortbildungen}}
+:{{Wortbildung|Sub}} [[Felsabbruch]], [[Felsbild]], [[Felsblock]], [[Felsbrocken]], [[Felsenkapelle]], [[Felsenkeller]], [[Felsenkirche]], [[Felsenpinguin]], [[Felsgestein]], [[Felsgrat]], [[Felshöhle]], [[Felsit]], [[Felsklettern]], [[Felsklippe]], [[Felskuppe]], [[Felsmalerei]], [[Felsmasse]], [[Felsmassiv]], [[Felsnadel]], [[Felsnische]], [[Felsplatte]], [[Felsritze]], [[Felsritzung]], [[Felsrücken]], [[Felsschicht]], [[Felsspalt]], [[Felsspalte]], [[Felssturz]], [[Felsvorsprung]], [[Felswand]], [[Felszeichnung]]
+:{{Wortbildung|Adj}} [[felsig]]
+:[[-fels]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{ar}}: [1] {{Üt|ar|صخرة|}}
+*{{zh}}: [1] {{Üt|zh|岩石|yánshí}}
+*{{en}}: [1] {{Ü|en|rock}}
+*{{et}}: [1] {{Ü|et|kalju}}
+*{{fi}}: [1] {{Ü|fi|kallio}}
+*{{fr}}: [1] {{Ü|fr|rocher}} {{m}}
+*{{ka}}: [1] {{Üt|ka|კლდე|klde}}
+*{{el}}: [1] {{Üt|el|βράχος|vráchos}} {{m}}
+*{{it}}: [1] {{Ü|it|roccia}} {{f}}
+*{{ca}}: [1] {{Ü|ca|roca}} {{f}}
+*{{la}}: [1] {{Ü|la|saxum}} {{n}}, {{Ü|la|petra}} {{f}}
+|Ü-rechts=
+*{{nl}}: [1] {{Ü|nl|rots}}
+*{{no}}: [1] {{Ü|no|fjell}} {{n}}
+*{{oc}}: [1] {{Ü|oc|pèira}}
+*{{pl}}: [1] {{Ü|pl|skała}}
+*{{pt}}: [1] {{Ü|pt|rocha}}
+*{{ru}}: [1] {{Üt|ru|скала|skalá}} {{f}}, {{Üt|ru|утёс|utjós}} {{m}}
+*{{sv}}: [1] {{Ü|sv|berghäll}}, {{Ü|sv|berg}}; [1, 2] {{Ü|sv|klippa}}
+*{{sl}}: [1] {{Ü|sl|skala}}
+*{{es}}: [1] {{Ü|es|roca}} {{f}}
+*{{cs}}: [1] {{Ü|cs|skála}} {{f}}
+*{{tr}}: [1] {{Ü|tr|kaya}}
+|Dialekttabelle=
+*Eiflerisch: Ley
+|D-rechts=
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Fels}}
+:[1, 2] {{Ref-Grimm|Fels}}
+:[1, 2] {{Ref-Goethe|Fels}}
+:[1, 2] {{Ref-DWDS|Fels}}
+:[*] {{Ref-Canoo|Fels}}
+:[1, 2] {{Ref-UniLeipzig|Fels}}
+:[1, 2] {{Ref-FreeDictionary|Fels}}
+:[1] {{Ref-Duden|Fels_Gestein_Felsblock|Fels (nur Singular)}}
+:[2] {{Ref-Duden|Fels_Berg_Anhoehe_Huegel|Fels (gehoben)}}
+
+{{Quellen}}

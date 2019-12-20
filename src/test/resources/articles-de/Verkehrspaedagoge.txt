@@ -1,0 +1,70 @@
+== Verkehrspädagoge ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Verkehrspädagoge 
+|Nominativ Plural=Verkehrspädagogen
+|Genitiv Singular=Verkehrspädagogen
+|Genitiv Plural=Verkehrspädagogen
+|Dativ Singular=Verkehrspädagogen
+|Dativ Plural=Verkehrspädagogen
+|Akkusativ Singular=Verkehrspädagogen
+|Akkusativ Plural=Verkehrspädagogen
+}}
+
+{{Worttrennung}}
+:Ver·kehrs·pä·d·a·go·ge, {{Pl.}} Ver·kehrs·pä·d·a·go·gen
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|fɛɐ̯ˈkeːɐ̯spɛdaˌɡoːɡə}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] Person, die beruflich in Forschung und Lehre im akademischen Bildungsbereich [[Verkehrspädagogik]] tätig ist
+:[2] Person, die sich (beruflich) als [[Verkehrserzieher]] im praktischen Lehrbetrieb betätigt
+
+{{Herkunft}}
+:[[Determinativkompositum]], zusammengesetzt aus dem Substantiv ''[[Verkehr]]'', dem [[Fugenelement]] ''[[-s]]'' und dem Substantiv ''[[Pädagoge]]''
+
+{{Sinnverwandte Wörter}}
+:[2] [[Fahrlehrer]], [[Verkehrserzieher]]
+
+{{Weibliche Wortformen}}
+:[[Verkehrspädagogin]]
+
+{{Oberbegriffe}}
+:[1] [[Pädagoge]], [[Wissenschaftler]]
+:[2] [[Berater]], [[Erzieher]], [[Lehrer]], [[Trainer]]
+
+{{Beispiele}}
+:[1] „Das fordern die ''Verkehrspädagogen'' Bongard und Winterfeld von der Pädagogischen Hochschule Berlin, die jetzt im Auftrag des Bundesverkehrsministeriums das Verkehrswissen und das Verkehrsverständnis von fünf- und sechsjährigen Kindern vor deren Schuleintritt untersuchten.“&lt;ref>Die Zeit, 16. Januar 1978, Nr. 03, zitiert n. [https://www.dwds.de/?q=Verkehrsp%C3%A4dagoge&amp;from=wb Verkehrspädagoge]&lt;/ref>
+:[1] „Ein von ''Verkehrspädagogen'' und -psychologen betreuter Durchgang dauert etwa 1,5 Stunden.“&lt;ref>Die Welt, 17. August 2004, zitiert n. [https://www.dwds.de/?q=Verkehrsp%C3%A4dagoge&amp;from=wb Verkehrspädagoge]&lt;/ref>
+:[1] „Der ''Verkehrspädagoge'' Wolfgang Stern ergänzte, dass mangelnde Fahrpraxis und die fehlende Beherrschung der Maschine Probleme darstellten, die durch Trainings behoben werden könnten.“&lt;ref>{{Internetquelle|url=https://www.dvr.de/download/jahresbericht-2016.pdf|titel=PDF, Jahresbericht 2016 Deutscher Verkehrssicherheitsrat|zugriff=2018-03-19}}&lt;/ref>
+:[2] „Schon in Kitas und Schulen soll durch ''Verkehrspädagogen'' ‚eine Saat‘ für verantwortungsbewußtes Verhalten im Verkehr gelegt, die Problemgruppe der jungen Erwachsenen im Alter von 18 bis 25 Jahren, die die meisten Unfälle verursachen, sollen in ihrer eigenen Sprache angesprochen werden.“&lt;ref>{{Per-Tagesspiegel Online | Online=https://www.tagesspiegel.de/themen/brandenburg/polizei-setzt-auf-abschreckung-todesvideo-soll-rasern-eine-lehre-sein/62412.html | Autor=Alexander Pajevic | Titel= Polizei setzt auf Abschreckung: „Todesvideo“ soll Rasern eine Lehre sein| Tag=14 | Monat= 10| Jahr=1998 | Zugriff=2018-03-19}}&lt;/ref>
+:[2] „So sehr den ''Verkehrspädagogen'' Erfolg zu wünschen wäre – die vielfältigen Anreize zum Übertreten der Verkehrsregeln sind offenbar stärker.“&lt;ref>{{Per-Zeit Online | Online=http://www.zeit.de/1987/47/wenn-der-nebel-wieder-steigt/komplettansicht | Autor= Hans Schuh| Titel=  Wenn der Nebel wieder steigt …| Tag= 13| Monat=11| Jahr=1987 | Zugriff=2018-03-19}}&lt;/ref>
+:[2] „Angehende ''Verkehrspädagogen'' sind schon auf der Schulbank umworben.“&lt;ref> [http://fahrschul.tv/tag/verkehrspaedagogen/ Verkehrspädagogen]&lt;/ref>
+:[2] „Deshalb besteht seit Herbst 2014 für die erfolgreichen Absolventen der vorgesehenen Ausbildungskriterien die Möglichkeit, mit den jeweiligen Verbandsprüfungen abzuschließen und die Berechtigung zur Bezeichnung "Geprüfter ''Verkehrspädagoge'' / MPU-Berater (DVPK) bzw. "Geprüfter Kraftfahreignungsberater (DVPK)" (Deutscher Verband der Psychologen und Kraftfahreignungsberater e.V.)“&lt;ref>[http://www.mpu-beratung-vorbereitung.de/mpu_berater_ausbildung_kraftfahreignungsberater.html Ausbildung zum MPU-Berater, Fahreignungsberater, ''Verkehrspädagogen'']&lt;/ref>
+:[2] „Alexander K. ist seit 1992 Fahrlehrer und ''Verkehrspädagoge.'' Sein Fachwissen gibt er mit einem großen Maß an Kompetenz an seine Kursteilnehmer weiter.“&lt;ref>{{Internetquelle|url=https://www.fahrschule-keinath.de/ueber-uns-in-augsburg/das-keinath-team/alexander-keinath-teamleitung/|titel=Fahrschule, Augsburg|zugriff=2018-03-19}}&lt;/ref>
+
+{{Wortbildungen}}
+:[[Verkehrspädagogenausbildung]], [[Verkehrspädagogenkongress]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+*{{el}}: [1] {{Üt|el|}} 
+*{{it}}: [1] {{Ü|it|}}
+|Ü-rechts=
+*{{ru}}: [1] {{Üt|}}
+*{{sv}}: [1] {{Ü|}}
+*{{es}}: [1] {{Ü|es|}}
+*{{cs}}: [1] {{Ü|cs|}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Verkehrspädagoge}}
+:[*] {{Ref-DWDS|Verkehrspädagoge}}
+
+{{Quellen}}

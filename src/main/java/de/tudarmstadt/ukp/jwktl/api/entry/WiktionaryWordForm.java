@@ -21,6 +21,7 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
@@ -37,6 +38,7 @@ public class WiktionaryWordForm implements IWiktionaryWordForm {
 	protected String wordForm;
 	protected GrammaticalNumber grammaticalNumber;
 	protected GrammaticalCase grammaticalCase;
+	protected GrammaticalGender grammaticalGender;
 	protected GrammaticalPerson grammaticalPerson;
 	protected GrammaticalTense grammaticalTense;
 	protected GrammaticalMood grammaticalMood;
@@ -77,6 +79,15 @@ public class WiktionaryWordForm implements IWiktionaryWordForm {
 	/** Assign the given grammatical case to this word form. */
 	public void setCase(final GrammaticalCase grammaticalCase) {
 		this.grammaticalCase = grammaticalCase;
+	}
+
+	public GrammaticalGender getGender() {
+		return grammaticalGender;
+	}
+	
+	/** Assign the given grammatical gender to this word form. */
+	public void setGender(final GrammaticalGender grammaticalGender) {
+		this.grammaticalGender = grammaticalGender;
 	}
 	
 	public GrammaticalPerson getPerson() {

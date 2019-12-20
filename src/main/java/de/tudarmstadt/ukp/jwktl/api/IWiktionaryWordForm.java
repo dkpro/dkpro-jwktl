@@ -20,6 +20,7 @@ package de.tudarmstadt.ukp.jwktl.api;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
+import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalGender;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
@@ -82,6 +83,10 @@ public interface IWiktionaryWordForm {
 	 *  <code>null</code> if no case is specified or applicable. */
 	GrammaticalCase getCase();
 	
+	/** Returns the {@link GrammaticalGender} of this word form or 
+	 *  <code>null</code> if no gender is specified or applicable. */
+	GrammaticalGender getGender();
+
 	/** Returns the {@link GrammaticalPerson} of this word form or 
 	 *  <code>null</code> if no person is specified or applicable. */
 	GrammaticalPerson getPerson();

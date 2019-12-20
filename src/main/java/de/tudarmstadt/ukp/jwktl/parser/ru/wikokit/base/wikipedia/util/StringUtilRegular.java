@@ -99,7 +99,7 @@ public class StringUtilRegular {
     }
     
     /** Strips non-word letters in source array "words".
-     * E.g. {"\nword1", "\t word-long2\r\n"} -> {"word1", "word-long2"}.
+     * E.g. {"\nword1", "\t word-long2\r\n"} -&gt; {"word1", "word-long2"}.
      */
     public static void stripNonWordLetters(String words[]) {
         
@@ -128,7 +128,7 @@ public class StringUtilRegular {
     private final static String NULL_STRING = new String();
     
     /** Gets first letters till space.
-     * E.g. "word1 " -> "word1", "\t word-long2\r\n" -> "word-long2"
+     * E.g. "word1 " -&gt; "word1", "\t word-long2\r\n" -&gt; "word-long2"
      */
     public static String getLettersTillSpace(String text) {
         
@@ -140,7 +140,7 @@ public class StringUtilRegular {
     }
 
     /** Gets first letters till space " ", ... or pipe "|" (shortest string).
-     * E.g. "word1 " -> "word1", "\t word-long2\r\n" -> "word-long2"
+     * E.g. "word1 " -&gt; "word1", "\t word-long2\r\n" -&gt; "word-long2"
      * This functions is used by WPOSRu.guessPOS().
      */
     public static String getLettersTillSpaceHyphenOrPipe(String text) {
@@ -205,7 +205,7 @@ public class StringUtilRegular {
     }
 
     /** Gets first letters till first hyphen "-".
-     * E.g. "word1 " -> "word1", "\t word-long2\r\n" -> "word-long2"
+     * E.g. "word1 " -&gt; "word1", "\t word-long2\r\n" -&gt; "word-long2"
      */
     public static String getLettersTillHyphen(String text) {
 
@@ -217,7 +217,7 @@ public class StringUtilRegular {
     }
     
     
-    /** Encodes the text to latinitsa, e.g.: женьшень -> zhen'shen' (Russian) */
+    /** Encodes the text to latinitsa, e.g.: женьшень -&gt; zhen'shen' (Russian) */
     // public static String encodeRussianToLatinitsa (String text) {
     //
     // Latin1ToUTF8

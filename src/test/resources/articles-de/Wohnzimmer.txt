@@ -1,0 +1,87 @@
+== Wohnzimmer ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=n
+|Nominativ Singular=Wohnzimmer
+|Nominativ Plural=Wohnzimmer
+|Genitiv Singular=Wohnzimmers
+|Genitiv Plural=Wohnzimmer
+|Dativ Singular=Wohnzimmer
+|Dativ Plural=Wohnzimmern
+|Akkusativ Singular=Wohnzimmer
+|Akkusativ Plural=Wohnzimmer
+|Bild=JvM haeufigstesWohnzimmer.jpg|270px|1|ein typisch eingerichtetes Wohnzimmer (Ende des 20. Jahrhunderts)
+}}
+
+{{Worttrennung}}
+:Wohn·zim·mer, {{Pl.}} Wohn·zim·mer
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈvoːnˌt͡sɪmɐ}}
+:{{Hörbeispiele}} {{Audio|De-Wohnzimmer.ogg}}
+
+{{Bedeutungen}}
+:[1] [[Raum]] in einem Haus oder einer Wohnung, der für den Aufenthalt von Personen am Tag bestimmt ist
+:[2] Einrichtung eines Wohnzimmers<sup>[1]</sup>
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus dem Stamm des Verbs ''[[wohnen]]'' und ''[[Zimmer]]''
+
+{{Synonyme}}
+:[1] [[Wohnstube]]
+:[2] [[Wohnzimmereinrichtung]]
+
+{{Gegenwörter}}
+:[1] [[Schlafzimmer]]
+
+{{Oberbegriffe}}
+:[1] [[Wohnraum]], [[Raum]], [[Zimmer]]
+
+{{Beispiele}}
+:[1] Das ''Wohnzimmer'' ist meist der größte Wohnraum.
+:[1] „Er stand auf, ließ Hugo und mich im Arbeitszimmer zurück und ging ins ''Wohnzimmer,'' wo er sich einen Whiskey aus der Hausbar einschenken würde, einen großen.“<ref>{{Literatur|Autor=Edgar Rai|Titel=Nächsten Sommer. 3. Auflage|Verlag=Aufbau Verlag|Ort= Berlin |Jahr=2011|}}, Seite 56. ISBN 978-3-458-7466-2732-8.</ref>
+:[1] „Morell saß, an einem Glas Brandy nippend, in dem warmen ''Wohnzimmer'' in Westminster, dem seine Frau eine echt weibliche Note gegeben hatte.“<ref>{{Literatur|Autor=Nicholas Monsarrat|Titel=Grausamer Atlantik|Verlag=Wissen|Ort=Herrsching|Jahr= 1989|Kommentar=Der Roman erschien zuerst englisch unter dem Titel ''The Cruel Sea''.|ISBN= 3-8075-0002-2}}, Zitat: Seite 186.</ref>
+:[1] „Sie rannte mit wehender Pelerine ins ''Wohnzimmer'' und warf Aschenbecher unter das Klavier.“<ref>{{Literatur|Autor= Walter Kempowski |Titel= Tadellöser & Wolff |TitelErg= Ein bürgerlicher Roman |Verlag= CW Niemeyer |Ort= Hameln| Jahr= 1991| ISBN= 3-87585-911-1}}, Seite 245. Das Buch ist erstmals 1971 erschienen.</ref>
+:[1] „Neben ihrer Schlafcouch im ''Wohnzimmer'' hängt ein Wandteppich mit einer idyllischen Waldszene.“<ref>{{Literatur | Autor= Sonya Winterberg | Titel= Wir sind die Wolfskinder |TitelErg= Verlassen in Ostpreußen |Verlag= Piper | Ort= München/Zürich  |Jahr= 2014| Seiten = 265.| ISBN= 978-3-492-30264-7|}}</ref>
+:[1] „Er beobachtete den unten schmiedeeisernen, oben grüngekachelten Ofen im ''Wohnzimmer'' wie ein widerspenstiges, gefährliches Biest.“<ref>{{Literatur | Autor= Ralph Giordano | Titel= Die Bertinis | TitelErg= Roman | Auflage= 22 | Verlag= Fischer Taschenbuch Verlag| Ort= Frankfurt/M. |Jahr= 2008| Seiten= 143. | ISBN= 978-3-596-25961-8 }} </ref>
+:[2] Wir haben uns endlich entschlossen, ein neues ''Wohnzimmer'' zu kaufen.
+
+{{Wortbildungen}}
+:[1] [[Wohnzimmeratmosphäre]], [[Wohnzimmerboden]], [[Wohnzimmercouch]], [[Wohnzimmerfenster]], [[Wohnzimmergarnitur]], [[wohnzimmergroß]], [[Wohnzimmerkasten]], [[Wohnzimmerlampe]], [[Wohnzimmermöbel]], [[Wohnzimmerofen]], [[Wohnzimmerregal]], [[Wohnzimmerschrank]], [[Wohnzimmerschrankwand]], [[Wohnzimmersessel]], [[Wohnzimmersofa]], [[Wohnzimmertapete]], [[wohnzimmertauglich]], [[Wohnzimmerteppich]], [[Wohnzimmertisch]], [[Wohnzimmertür]], [[Wohnzimmerwand]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{ar|DMG}}:
+**{{MHA}}: [1] {{Üxx4|ar|مجلس|v=مَجْلِس|d=maǧlis|DMG=0}} {{m}}, {{Üxx4|ar|حجرة الجلوس|v=حُجْرَةُ ٱلْجُلُوسِ / حُجْرَة أَلْجُلُوس|d=ḥuǧratu 'l-ǧulūsi / ''[[Pausalform|Pausa]]:'' ḥuǧrat al-ǧulūs|DMG=0}} {{f}}, {{Üxx4|ar|غرفة الجلوس|v=غُرْفَةُ ٱلْجُلُوسِ / غُرْفَة أَلْجُلُوس|d=ġurfatu 'l-ǧulūsi / ''[[Pausalform|Pausa]]:'' ġurfat al-ǧulūs|DMG=0}} {{f}}, {{Üxx4|ar|غرفة معيشة|v=غُرْفَةُ ٱلْمَعِيشَةِ / غُرْفَة أَلْمَعِيشَة|d=ġurfatu 'l-maʿīšati / ''[[Pausalform|Pausa]]:'' ġurfat al-maʿīša|DMG=0}} {{f}}
+*{{en}}: [1] {{Ü|en|living room}}; {{vatd.|:}} {{Ü|en|parlor}} / {{Ü|en|parlour}}; ''[[Großbritannien]]:'' {{Ü|en|front room}}, {{Ü|en|lounge}}, {{Ü|en|sitting room}}; ''[[Nordamerika]]:'' {{Ü|en|family room}}, {{Ü|en|fitting room}}, {{Ü|en|front room}}
+*{{fi}}: [1] {{Ü|fi|olohuone}}
+*{{fr}}: [1] {{Ü|fr|salle de séjour}} {{f}}, {{Ü|fr|salon}} {{m}}, {{Ü|fr|séjour}} {{m}}; ''[[Frankreich]]:'' {{Ü|fr|living}} {{m}}, {{Ü|fr|living-room}} {{m}}; ''[[Kanada]]:'' {{Ü|fr|salle familiale}} {{f}}, {{vatd.|,}} ''sonst [[schriftsprachlich]]:'' {{Ü|fr|vivoir}} {{m}}; ''[[USA]] ([[Louisiana]]):'' {{Ü|fr|chambre de devant}} {{f}}, {{Ü|fr|chambre en avant}} {{f}}
+*{{el}}: [1] {{Üt|el|καθιστικό|kathistikó}} {{n}}, {{Üt|el|σαλόνι|salóni}} {{n}}
+*{{ia}}: [1] {{Ü|ia|salon}}
+*{{is}}: [1] {{Ü|is|dagstofa}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|soggiorno}}, {{Ü|it|salone}}, {{Ü|it|salotto}}
+*{{ja|Hepburn}}: [1] {{Üt|ja|居間|いま, ima}}, {{Üt|ja|居室|きょしつ, kyoshitsu}}, {{Üt|ja|茶の間|ちゃ･の･ま,
+cha·no·ma}}; ''[[Anglizismus|Anglizismen]]:'' {{Üt|ja|シッティングルーム|しってぃんぐ･るーむ, shittingu·rūmu}}, {{Üt|ja|リビングルーム|りびんぐ･るーむ, ribingu·rūmu}} / {{Üt|ja|リビング|りびんぐ, ribingu}}
+*{{hr}}: [1] {{Ü|hr|dnevna soba}}, {{Ü|hr|soba za stanovanje}}, {{Ü|hr|dnevni boravak}}
+*{{nl}}: [1] {{Ü|nl|woonkamer}}
+*{{no}}: [1] {{Ü|no|stuen}}
+*{{pl}}: [1] {{Ü|pl|duży pokój}} {{m}}, {{Ü|pl|pokój gościnny}} {{m}}, {{Ü|pl|salon}} {{m}}
+*{{ru}} <small>([[w:ISO 9|ISO 9]])</small>: [1] {{Üt|ru|гостиная|gostinaâ}} {{f}}
+*{{sv}}: [1] {{Ü|sv|vardagsrum}}
+*{{sl}}: [1] {{Ü|sl|dnevna soba}} {{f}}
+*{{es}}: [1] {{Ü|es|cuarto de estar}}, {{Ü|es|sala de estar}}, {{Ü|es|salón}}, ''Am.'' {{Ü|es|living}}
+*{{cs}}: [1] {{Ü|cs|obývací pokoj}} {{m}}, {{Ü|cs|obývák}} {{m}}, {{Ü|cs|obytný pokoj}} {{m}}, {{Ü|cs|světnice}} {{f}}, {{Ü|cs|jizba}} {{f}}, {{Ü|cs|obytná místnost}} {{f}}
+*{{hu}}: [1] {{Ü|hu|nappali}}, {{Ü|hu|lakószoba}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia|Wohnzimmer}}
+:[1, 2] {{Ref-DWDS|Wohnzimmer}}
+:[1] {{Ref-Canoo|Wohnzimmer}}
+:[1] {{Ref-UniLeipzig|Wohnzimmer}}
+:[1] {{Ref-FreeDictionary|Wohnzimmer}}
+:[1, 2] {{Ref-Duden|Wohnzimmer}}
+
+{{Quellen}}

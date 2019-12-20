@@ -58,6 +58,10 @@ public class DETranslationHandler extends DEBlockHandler {
 	protected static final Pattern PREPARATION_PATTERN = Pattern.compile("(\\s\\[([^\\[\\]]+?)\\]\\s)");
 	
 	protected Map<Integer, List<IWiktionaryTranslation>> sensNum2trans;
+
+	protected String remainingPreviousLine;
+	protected String previousLanguage;
+	protected String previousIndex;
 	
 	/** Initializes the block handler for parsing all sections starting with 
 	 *  one of the specified labels. */
@@ -68,14 +72,56 @@ public class DETranslationHandler extends DEBlockHandler {
 	@Override
 	public boolean processHead(String text, ParsingContext context) {	
 		sensNum2trans = new TreeMap<>();
+		remainingPreviousLine = "";
+		previousLanguage = "";
+		previousIndex = "";
 		return true;
 	}
 	
 	@Override
 	public boolean processBody(String text, final ParsingContext context) {
-		// start of a translation line		
 		text = text.trim();
-				
+		if (remainingPreviousLine.isEmpty())
+			return extractFirstTranslation(text, context);
+		else
+			return extractFurtherTranslation(text, context);
+	}
+
+	protected boolean extractFurtherTranslation(String text, final ParsingContext context) {
+		text = LITERATURE_PATTERN.matcher(text).replaceAll("");
+		text = PREPARATION_PATTERN.matcher(text).replaceAll(";$1");
+
+		text = remainingPreviousLine + " " + text;
+		text = text.trim();
+		remainingPreviousLine = "";
+
+		String language = previousLanguage;
+		String index = previousIndex;
+		previousLanguage = "";
+		previousIndex = "";
+		boolean usesTemplate;
+		String translation;
+
+		Matcher matcher = ADDITIONAL_TRANSLATION_PATTERN.matcher(text);
+		if (matcher.find()) {
+			usesTemplate = true;
+			String indexTmp = matcher.group(1);
+			if (indexTmp != null)
+				index = indexTmp; // otherwise, use the index of the previous translation!
+			String prefix = matcher.group(2);
+			translation = matcher.group(3);
+			if (translation == null) {
+				translation = matcher.group(4);
+				usesTemplate = false;
+			}
+			String additionalInformation = matcher.group(5);
+
+			doExtractFurtherTranslations(language, index, translation, usesTemplate, prefix, additionalInformation);
+		}
+		return true;
+	}
+
+	protected boolean extractFirstTranslation(String text, final ParsingContext context) {
 		if (text.startsWith("{{Ü-links}}")
 				|| text.startsWith("{{Ü-Tabelle|Ü-links=")
 				|| text.startsWith("|Ü-links="))
@@ -91,7 +137,7 @@ public class DETranslationHandler extends DEBlockHandler {
 
 		text = LITERATURE_PATTERN.matcher(text).replaceAll("");
 		text = PREPARATION_PATTERN.matcher(text).replaceAll(";$1");
-		
+
 		Matcher matcher = TRANSLATION_PATTERN.matcher(text);
 		if (matcher.find()) {
 			boolean usesTemplate = true;
@@ -104,118 +150,145 @@ public class DETranslationHandler extends DEBlockHandler {
 				usesTemplate = false;
 			}
 			String additionalInformation = matcher.group(6);
-						
-			String remainingText;
-			do {
-				// Check for additional translations.
-				remainingText = null;
-				matcher = NEXT_TRANSLATION_PATTERN.matcher(additionalInformation);
-				if (matcher.find()) {
-					additionalInformation = matcher.group(1).trim();
-					remainingText = matcher.group(2);
-					if (remainingText == null)
-						remainingText = matcher.group(3);
-					else
-						remainingText += matcher.group(3);
-					
-					if (additionalInformation.endsWith(":")) {
-						remainingText = additionalInformation + remainingText;
-						additionalInformation = "";
-					}
-				}			
-				
-				// Compile index set.
-				Set<Integer> indexSet = StringUtils.compileIndexSet(index);
 
-				// Prepare the translation.
-				if (language != null) {
-					int i = language.indexOf('|');
-					if (i > 0)
-						language = language.substring(0, i);
-					language = language.trim();
+			doExtractFurtherTranslations(language, index, translation, usesTemplate, prefix, additionalInformation);
+		}
+		return true;
+	}
+
+	protected void doExtractFurtherTranslations(final String language, String index, String translation,
+			boolean usesTemplate, String prefix, String additionalInformation) {
+		String remainingText;
+		do {
+			// Check for additional translations and separate additional information from remaining text.
+			remainingText = null;
+			Matcher matcher = NEXT_TRANSLATION_PATTERN.matcher(additionalInformation);
+			if (matcher.find()) {
+				additionalInformation = matcher.group(1).trim();
+				remainingText = matcher.group(2);
+				if (remainingText == null)
+					remainingText = matcher.group(3);
+				else
+					remainingText += matcher.group(3);
+
+				if (additionalInformation.endsWith(":")) {
+					remainingText = additionalInformation + remainingText;
+					additionalInformation = "";
 				}
-				ILanguage translatedLang = Language.findByCode(language);
-				if (translatedLang == null)
-					translatedLang = Language.findByName(language);
+			}
+
+			saveTranslation(language, index, translation, usesTemplate, prefix, additionalInformation);
+
+			// Perform another iteration if there is remaining text.
+			if (remainingText != null) {
+				do {
+					matcher = ADDITIONAL_TRANSLATION_PATTERN.matcher(remainingText);
+					if (matcher.find()) {
+						usesTemplate = true;
+						String indexTmp = matcher.group(1);
+						if (indexTmp != null)
+							index = indexTmp; // otherwise, use the index of the previous translation!
+						prefix = matcher.group(2);
+						translation = matcher.group(3);
+						if (translation == null) {
+							translation = matcher.group(4);
+							usesTemplate = false;
+						}
+						additionalInformation = matcher.group(5);
+						break;
+					} else {
+						String oldRemainingText = remainingText;
+						matcher = NEXT_TRANSLATION_PATTERN.matcher(remainingText);
+						if (matcher.find())
+							remainingText = matcher.group(2) + matcher.group(3);
+						else
+							remainingText = null;
+						// If the remaining text is unchanged, let's save the text for later processing with the
+						// next line and exit the loop for now.
+						if (remainingText != null && remainingText.equals(oldRemainingText)) {
+							remainingPreviousLine = remainingText;
+							previousLanguage = language;
+							previousIndex = index;
+							remainingText = null;
+						}
+					}
+				} while (remainingText != null);
+			}
+		} while (remainingText != null);
+	}
+
+	protected void saveTranslation(String language, final String index, final String translation,
+			final boolean usesTemplate, final String prefix, String additionalInformation) {
+		if (prefix.equals("''") && additionalInformation.equals(":''") && !usesTemplate)
+			return; // Avoid saving prefixes!
+
+		// Compile index set.
+		Set<Integer> indexSet = StringUtils.compileIndexSet(index);
+
+		// Prepare the translation.
+		if (language != null) {
+			int i = language.indexOf('|');
+			if (i > 0)
+				language = language.substring(0, i);
+			language = language.trim();
+		}
+		ILanguage translatedLang = Language.findByCode(language);
+		if (translatedLang == null)
+			translatedLang = Language.findByName(language);
 //				if (translatedLang == null && !"UNSPECIFIED".equals(language))
 //					System.err.println("Unknown language of translation: " + language + " (" + context.getPage().getTitle() + ")");
 //					translatedLang = Language.UNKNOWN;
-				
-				String[] fields = null;
-				String translationText = translation;
-				if (usesTemplate) {
-					fields = StringUtils.split(translation, '|');
-					if (fields != null && fields.length > 0) {
-						if ("Üt".equals(fields[0]))
-							translationText = fields[2].trim();
-						else
-							translationText = fields[fields.length - 1].trim();
-					} else
+
+		String[] fields = null;
+		String translationText = translation;
+		if (usesTemplate) {
+			fields = StringUtils.split(translation, '|');
+			if (fields != null && fields.length > 0) {
+				if ("Üt".equals(fields[0]))
+					if (fields.length >= 3) {
+						translationText = fields[2].trim();
+					}
+					else {
 						translationText = null;
-				} else {
-					int i = translation.indexOf('|'); // [[...|...]]
-					if (i >= 0)
-						translationText = translation.substring(i + 1);
-				}
-				
-				if (translationText != null && !translationText.isEmpty()) {
-					if (!usesTemplate && !additionalInformation.contains("{")) {
-						translationText = cleanText(translationText + additionalInformation);
-						additionalInformation = "";
 					}
+				else
+					translationText = fields[fields.length - 1].trim();
+			} else
+				translationText = null;
+		} else {
+			int i = translation.indexOf('|'); // [[...|...]]
+			if (i >= 0)
+				translationText = translation.substring(i + 1);
+		}
 
-					WiktionaryTranslation trans = new WiktionaryTranslation(translatedLang, translationText);
+		if (translationText != null && !translationText.isEmpty()) {
+			if (!usesTemplate && !additionalInformation.contains("{")) {
+				translationText = cleanText(translationText + additionalInformation);
+				additionalInformation = "";
+			}
 
-					additionalInformation = cleanText(prefix + " " + additionalInformation);
-					trans.setAdditionalInformation(additionalInformation);
+			WiktionaryTranslation trans = new WiktionaryTranslation(translatedLang, translationText);
 
-					if (fields != null && fields.length >= 4 && fields[0].equals("Üxx"))
-						trans.setTransliteration(cleanText(fields[2]));
-					if (fields != null && fields.length >= 4 && fields[0].equals("Üt"))
-						trans.setTransliteration(cleanText(fields[3]));
+			additionalInformation = cleanText(prefix + " " + additionalInformation);
+			trans.setAdditionalInformation(additionalInformation);
 
-					// Save the translation
-					for (Integer i : indexSet) {
-						List<IWiktionaryTranslation> translations = sensNum2trans.get(i);
-						if (translations == null) {
-							translations = new ArrayList<>();
-							sensNum2trans.put(i, translations);
-						}
-						translations.add(trans);
-					}
+			if (fields != null && fields.length >= 4 && fields[0].equals("Üxx"))
+				trans.setTransliteration(cleanText(fields[2]));
+			if (fields != null && fields.length >= 4 && fields[0].equals("Üt"))
+				trans.setTransliteration(cleanText(fields[3]));
+
+			// Save the translation
+			for (Integer i : indexSet) {
+				List<IWiktionaryTranslation> translations = sensNum2trans.get(i);
+				if (translations == null) {
+					translations = new ArrayList<>();
+					sensNum2trans.put(i, translations);
 				}
-				
-				// Perform another iteration if there is remaining text.
-				if (remainingText != null) {
-					do {
-						matcher = ADDITIONAL_TRANSLATION_PATTERN.matcher(remainingText);
-						if (matcher.find()) {
-							usesTemplate = true;
-							String indexTmp = matcher.group(1);
-							if (indexTmp != null)
-								index = indexTmp; // otherwise, use the index of the previous translation! 
-							prefix = matcher.group(2);
-							translation = matcher.group(3);
-							if (translation == null) {
-								translation = matcher.group(4);
-								usesTemplate = false;
-							}
-							additionalInformation = matcher.group(5);
-							break;
-						} else {
-							matcher = NEXT_TRANSLATION_PATTERN.matcher(remainingText);
-							if (matcher.find())
-								remainingText = matcher.group(2) + matcher.group(3);
-							else
-								remainingText = null;
-						}
-					} while (remainingText != null);
-				}
-			} while (remainingText != null);
-		}			
-		return true;
+				translations.add(trans);
+			}
+		}
 	}
-	
+
 	protected String cleanText(final String text) {
 		String result = text;
 		result = result.replace("[[", "");

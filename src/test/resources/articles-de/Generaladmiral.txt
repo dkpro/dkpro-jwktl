@@ -1,0 +1,65 @@
+== Generaladmiral ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Generaladmiral
+|Nominativ Plural 1=Generaladmirale
+|Nominativ Plural 2=Generaladmiräle
+|Genitiv Singular=Generaladmirals
+|Genitiv Plural 1=Generaladmirale
+|Genitiv Plural 2=Generaladmiräle
+|Dativ Singular=Generaladmiral
+|Dativ Singular*=Generaladmirale
+|Dativ Plural 1=Generaladmiralen
+|Dativ Plural 2=Generaladmirälen
+|Akkusativ Singular 1=Generaladmiral
+|Akkusativ Plural 1=Generaladmirale
+|Akkusativ Plural 2=Generaladmiräle
+|Bild=Generaladmiral Ehrensvärd.gif|mini|2|Der schwedische ''Generaladmiral'' Carl August Ehrensvärd
+}}
+
+{{Worttrennung}}
+:Ge·ne·ral·ad·mi·ral, {{Pl.}} Ge·ne·ral·ad·mi·ra·le
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ɡenəˈʀaːlʔatmiˌʀaːl}}
+:{{Hörbeispiele}} {{Audio|De-Generaladmiral.ogg}}
+
+{{Bedeutungen}}
+:[1] {{K|Kaiserliche Marine|Kriegsmarine|Reichsmarine}} Zweithöchster Admiralsrang, unter dem [[Großadmiral]] und dem [[Admiral]]
+:[3] {{K|Marine}} Titel des jeweilig ältesten Admirals im 17. und 18. Jahrhundert
+:[2] {{K|Kaiserliche Marine|Kriegsmarine|Reichsmarine}} Admiral im Range eines Generaladmirals
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus den [[Substantiven]] ''[[General]]'' und ''[[Admiral]]''
+
+{{Synonyme}}
+:[1] ''[[Heer]], [[Luftwaffe]]:'' [[Generaloberst]]
+
+{{Oberbegriffe}}
+:[1] [[Admiralsrang]]
+:[2] [[Admiral]]
+
+{{Beispiele}}
+:[1] Die Deutsche Marine kennt keinen ''Großadmiral.''
+:[2] Nicht viele schafften es, ''Großadmiral'' zu werden.
+:[3] Gegen Mittag trifft der Führer gemeinsam mit ''Generaladmiral'' Raeder ein.&lt;ref>o. A.: ''1939'', in: Manfred Overresch und Friedrich Wilhelm Saal (Hgg.): ''Deutsche Geschichte von Tag zu Tag 1918-1949'', 2000 [1983], S. 2772&lt;/ref>
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[1–3] {{Wikipedia|Generaladmiral}}
+:[1–3] {{Ref-DWDS|Generaladmiral}}
+:[*] {{Ref-Canoo|Generaladmiral}}
+:[*] {{Ref-OWID|Generaladmiral}}
+:[1–3] {{Ref-Duden|Generaladmiral}}
+
+{{Quellen}}

@@ -363,7 +363,7 @@ public class WPOSRu {
      *
      * {{прил ia}}
      *
-     * {{парадигма-рус  // old formatting (>500, < 1000 pages)
+     * {{парадигма-рус  // old formatting (&gt; 500, &lt; 1000 pages)
      * |шаблон=Гл11b/c
      * {{Гл1a</PRE>
      */

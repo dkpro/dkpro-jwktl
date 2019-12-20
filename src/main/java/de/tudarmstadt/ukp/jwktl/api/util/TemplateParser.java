@@ -76,13 +76,13 @@ public /*static*/ class TemplateParser {
 				namedParams.put(key, value);
 		}
 
-		/** Return the numbered parameter with the given index or <code>null/<code> 
+		/** Return the numbered parameter with the given index or <code>null</code> 
 		 *  if no such parameter exists. */
 		public String getNumberedParam(int idx) {
 			return numberedParams.get(idx);
 		}
 		
-		/** Return the named parameter with the given key or <code>null/<code> 
+		/** Return the named parameter with the given key or <code>null</code> 
 		 *  if no such parameter exists. */
 		public String getNamedParam(final String key) {
 			return namedParams.get(key);

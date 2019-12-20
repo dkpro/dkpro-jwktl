@@ -24,13 +24,14 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
-import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalDegree;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalMood;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalNumber;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalPerson;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalTense;
 import de.tudarmstadt.ukp.jwktl.api.util.NonFiniteForm;
+import de.tudarmstadt.ukp.jwktl.parser.de.components.nountable.DEWordFormNounTableHandler;
+import de.tudarmstadt.ukp.jwktl.parser.util.IWiktionaryWordFormTemplateParameterHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
 /**
@@ -49,7 +50,8 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	protected List<IWiktionaryWordForm> wordForms;
 	protected TableType tableType;
-
+	protected IWiktionaryWordFormTemplateParameterHandler nounTableHandler = new DEWordFormNounTableHandler();
+	
 	public boolean canHandle(final String blockHeader) {
 		if (blockHeader == null || blockHeader.isEmpty())
 			return false;
@@ -77,6 +79,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 
 	public boolean processHead(final String textLine, final ParsingContext context) {
 		wordForms = new ArrayList<>();
+		nounTableHandler.reset();
 		return true;
 	}
 
@@ -140,7 +143,7 @@ public class DEWordFormHandler extends DEBlockHandler {
 				boolean skip = false;
 				if (tableType == TableType.NOUN_TABLE) {
 					// Inflection table for nouns.
-					extractNounTable(wordForm, label);
+					nounTableHandler.handle(label, wordFormStr, wordForm, context);
 					if (wordForm.getCase() == null && wordForm.getNumber() == null)
 						skip = true;
 
@@ -178,34 +181,6 @@ public class DEWordFormHandler extends DEBlockHandler {
 		}
 
 		return true;
-	}
-
-	protected void extractNounTable(final WiktionaryWordForm wordForm, String label) {
-//		if ("die Koseworte".equals(wordForm.getWordForm()))
-//			System.out.println("X");
-		if (label.endsWith("1") || label.endsWith("2")
-				|| label.endsWith("3") || label.endsWith("4"))
-			label = label.substring(0, label.length() - 1).trim();
-
-		// Number.
-		if (label.endsWith(" Singular") || label.endsWith("SINGULAR") || label.endsWith(" (Einzahl)"))
-			wordForm.setNumber(GrammaticalNumber.SINGULAR);
-		else
-		if (label.endsWith(" Plural") || label.endsWith("PLURAL") || label.endsWith(" (Mehrzahl)"))
-			wordForm.setNumber(GrammaticalNumber.PLURAL);
-
-		// Case.
-		if (label.startsWith("Nominativ") || label.startsWith("Wer oder was?"))
-			wordForm.setCase(GrammaticalCase.NOMINATIVE);
-		else
-		if (label.startsWith("Genitiv") || label.startsWith("Wessen?"))
-			wordForm.setCase(GrammaticalCase.GENITIVE);
-		else
-		if (label.startsWith("Dativ") || label.startsWith("Wem?"))
-			wordForm.setCase(GrammaticalCase.DATIVE);
-		else
-		if (label.startsWith("Akkusativ") || label.startsWith("Wen?"))
-			wordForm.setCase(GrammaticalCase.ACCUSATIVE);
 	}
 
 	protected void extractVerbTable(final WiktionaryWordForm wordForm, final String label) {

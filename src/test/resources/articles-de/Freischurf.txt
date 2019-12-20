@@ -1,0 +1,52 @@
+== Freischurf ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus=m
+|Nominativ Singular=Freischurf
+|Nominativ Plural=Freischürfe
+|Genitiv Singular=Freischurfes
+|Genitiv Singular?=Freischurfs
+|Genitiv Plural=Freischürfe
+|Dativ Singular=Freischurf
+|Dativ Plural=Freischürfen
+|Akkusativ Singular=Freischurf
+|Akkusativ Plural=Freischürfe
+}}
+
+{{Worttrennung}}
+:Frei·schurf, {{Pl.}} Frei·schür·fe
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|ˈfʀaɪ̯ˌʃʊʁf}}
+:{{Hörbeispiele}} {{Audio|}}
+
+{{Bedeutungen}}
+:[1] {{K|Bergbau|österr.}} Kegel mit einem Radius von 425 Metern an der Erdoberfläche und der Spitze im Erdmittelpunkt&lt;ref>{{Wikipedia|Berechtsame|spr=de|oldid=141637925}}&lt;/ref>
+
+{{Herkunft}}
+:[[Determinativkompositum]] aus dem [[Adjektiv]] ''[[frei]]'' und dem [[Substantiv]] ''[[Schurf]]''
+
+{{Beispiele}}
+:[1] „Durch die Schurfberechtigung wird das ausschließliche Recht erworben, außer in fremden Bergbaugebieten (§ 153 Abs. 1) sowie in Gewinnungsfeldern auf Vorkommen von Kohlenwasserstoffen, es sei denn, die in diesen Gewinnungs- oder Speicherberechtigten stimmen zu, in einem nach der Tiefe nicht beschränkten Raum (''Freischurf''), dessen Schnittfigur im Projektionsniveau des Systems der Landesvermessung ein Kreis mit einem Halbmesser von 425 m ist (Freischurfkreis), nach von der Behörde zu genehmigenden Arbeitsprogrammen natürliche Vorkommen bergfreier mineralischer Rohstoffe und solche mineralischen Rohstoffe enthaltende verlassene Halden zum Feststellen der Abbauwürdigkeit zu erschließen und zu untersuchen, soweit ältere Schurfberechtigungen anderer nicht entgegenstehen.“&lt;ref>[https://www.ris.bka.gv.at/GeltendeFassung/Bundesnormen/10008040/MinroG%2c%20Fassung%20vom%2030.12.2016.pdf Österreichisches Bundesgesetz über mineralische Rohstoffe], § 9. (1), abgerufen am 30. Dezember 2016&lt;/ref>
+:[1] „Dass aus dem § 16 Abs. 3 des Berggesetzes abzuleiten sei, die Verleihung eines Grubenmaßes könne durch Streckung eines Vorbehaltsfeldes von einem nach Einbringen des Verleihungsgesuches angemeldeten ''Freischurf'' verhindert werden, hielt die Behörde nicht für zutreffend, denn ihrer Meinung nach sei der Zweck der Bestimmung über das Recht des Freischürfers auf Streckung eines Vorbehaltsfeldes heute wie zur Zeit der Geltung des allgemeinen Berggesetzes, BGBl. Nr. 146/1954, der, dem Freischürfer in Anbetracht der geleisteten, oft mit einem ansehnlichen Kostenaufwand verbundenen Schurfarbeiten einen bestimmten Raum zur Gewinnung bergfreier Mineralien ausschließlich zu sichern, womit es unvereinbar wäre, wenn auch ein Freischürfer, der erst nach Einlangen des Verleihungsgesuches einen ''Freischurf'' angemeldet und, da der Verleihungswerber bereits fündig gewesen sei, keine Schurfarbeit vorgenommen habe, das Recht hätte, die Verleihung eines begehrten Grubenmaßes zu verhindern, würde doch dann der Verleihungswerber und nicht der Freischürfer um die Früchte seiner Mühen und Arbeiten gebracht werden, die er vor Einbringung des Verleihungsgesuches in einem freien Feld geleistet habe.“&lt;ref>[https://www.ris.bka.gv.at/Dokumente/Vwgh/JWT_1965001154_19660208X00/JWT_1965001154_19660208X00.pdf Erkenntnis des österreichischen Verwaltungsgerichtshofs vom 8. Februar 1966]&lt;/ref>
+:[1] „Zu den mit Ende 1867 bestandenen 48 ''Freischürfen'' sind im Laufe des Jahres 1868 zugewachsen 12 ''Freischürfe''.“&lt;ref>{{Literatur |  Titel=Der Bergwerks-Betrieb in den im Reichsrathe vertretenen Königreichen und Ländern der Österreichisch-Ungarischen Monarchie |  Verlag=Kaiserlich-königliche Hof- und Staatsdruckerei | Ort=Wien | Jahr=1869 | Seiten=19| Online=Zitiert nach {{GBS|_YdQAAAAcAAJ|PA19|Hervorhebung=Freischürfe}}| Zugriff=2016-12-29}}&lt;/ref>
+:[1] „Die Gebühr je ''Freischurf'' ist mit 5 S[chilling] festgesetzt und muß, wie erwähnt, halbjährig im voraus entrichtet werden.“&lt;ref>{{Literatur | Titel=Leobener Bergmannstag 1967 | Verlag=Julius Springer | Ort=Wien | Jahr=1937 | Seiten=161| Online=Zitiert nach {{GBS|yTK1BgAAQBAJ|PA161|Hervorhebung=Freischurf }}| Zugriff=2016-12-29}}&lt;/ref>
+
+{{Wortbildungen}}
+:[[Freischurfgebühr]], [[Freischürfer]], [[Freischurfkreis]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|}}
+*{{fr}}: [1] {{Ü|fr|}}
+|Ü-rechts=
+*{{it}}: [1] {{Ü|it|}}
+*{{es}}: [1] {{Ü|es|}}
+}}
+
+{{Referenzen}}
+:[*] {{Wikipedia-Suche|Freischurf}}
+:[*] {{Ref-DWDS|Freischurf}}
+
+{{Quellen}}

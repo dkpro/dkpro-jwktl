@@ -16,7 +16,9 @@
         See the License for the specific language governing permissions and
         limitations under the License.
 -->
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.dkpro.jwktl</groupId>
@@ -25,7 +27,11 @@
 
     <name>Java Wiktionary Library (JWKTL)</name>
     <url>https://dkpro.github.io/dkpro-jwktl</url>
-    <description>JWKTL (Java Wiktionary Library) is a Java-based API that enables efficient and structured access to the information encoded in the English and the German Wiktionary edition, including sense definitions, part of speech tags, etymology, example sentences, translations, semantic relations and many other lexical information types.</description>
+    <description>JWKTL (Java Wiktionary Library) is a Java-based API that enables efficient and
+        structured access to the information encoded in the English and the German Wiktionary edition,
+        including sense definitions, part of speech tags, etymology, example sentences, translations,
+        semantic relations and many other lexical information types.
+    </description>
 
     <organization>
         <name>Ubiquitous Knowledge Processing (UKP) Lab</name>
@@ -135,8 +141,15 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
+        <version>3.0.1</version>
         <configuration>
           <additionalparam>${javadoc.opts}</additionalparam>
+          <additionalJOptions>
+            <additionalJOption>-Xmaxerrs</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+            <additionalJOption>-Xmaxwarns</additionalJOption>
+            <additionalJOption>1000</additionalJOption>
+          </additionalJOptions>
         </configuration>
         <executions>
           <execution>
@@ -152,7 +165,14 @@
 
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-jar-plugin</artifactId>
+        <version>3.1.0</version>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-assembly-plugin</artifactId>
+        <version>3.1.0</version>
         <executions>
           <execution>
             <phase>package</phase>
@@ -196,6 +216,12 @@
                 </goals>
             </execution>
         </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>findbugs-maven-plugin</artifactId>
+        <version>3.0.5</version>
       </plugin>
     </plugins>
 
@@ -255,6 +281,8 @@
                       <!-- release generated artifact -->
                       <exclude>release.properties</exclude>
                       <exclude>CHANGELOG.txt</exclude>
+                      <exclude>CONTRIBUTING.md</exclude>
+                      <exclude>CONTRIBUTORS.txt</exclude>
                       <exclude>NOTICE.txt</exclude>
                       <exclude>README.md</exclude>
                       <exclude>license/**/*</exclude>

@@ -1,0 +1,96 @@
+== Keks ({{Sprache|Deutsch}}) ==
+=== {{Wortart|Substantiv|Deutsch}}, {{m}}, {{n}} ===
+
+{{Deutsch Substantiv Übersicht
+|Genus 1=m
+|Genus 2=n
+|Nominativ Singular 1=Keks
+|Nominativ Singular 2=Keks
+|Nominativ Plural=Kekse
+|Genitiv Singular 1= Kekses
+|Genitiv Singular 2= Kekses
+|Genitiv Plural=Kekse
+|Dativ Singular 1=Keks
+|Dativ Singular 1*=Kekse
+|Dativ Singular 2=Keks
+|Dativ Singular 2*=Kekse
+|Dativ Plural= Keksen
+|Akkusativ Singular 1=Keks
+|Akkusativ Singular 2=Keks
+|Akkusativ Plural=Kekse
+|Bild=Fourrékoeken.jpg|280px|1|ein Teller mit ''Keksen''
+}}
+
+{{Anmerkungen|zum Genus}}
+:In Österreich und sonst selten [[Neutrum]] (''das'' Keks), häufiger [[maskulin]] (''der'' Keks)&lt;!--&lt;ref name="Duden">-->
+
+{{Nicht mehr gültige Schreibweisen}}
+:[[Cakes]]
+
+{{Worttrennung}}
+:Keks, {{Pl.}} Kek·se
+
+{{Aussprache}}
+:{{IPA}} {{Lautschrift|keːks}}
+:{{Hörbeispiele}} {{Audio|De-Keks.ogg}}
+
+{{Bedeutungen}}
+:[1] [[handlich]]e, [[brüchig]]e und [[gebacken]]e [[Süßigkeit]]
+
+{{Herkunft}}
+:von englisch ''[[cake]]s'', ein gängiges [[Fremdwort]] im Deutschen zu Beginn des 20.&amp;nbsp;Jahrhunderts, [[phonetische Umschrift]] damals [keks], im Ersten Weltkrieg zum [[Lehnwort]], seit 1915 im [[Duden]]&lt;ref>{{Ref-Meyers|Cakes}}, Band&amp;nbsp;3, Leipzig 1905, S.&amp;nbsp;692&lt;/ref>&lt;ref>{{Ref-Brockhaus1911|Cakes}}, Band&amp;nbsp;1, S.&amp;nbsp;300&lt;/ref>&lt;ref name="Duden">{{Ref-Duden|Keks}}&lt;/ref>
+
+{{Synonyme}}
+:[1] [[Biskuit]], [[Plätzchen]]
+
+{{Oberbegriffe}}
+:[1] [[Dauergebäck]], [[Feingebäck]], [[Kleingebäck]]
+
+{{Unterbegriffe}}
+:[1] [[Butterkeks]], [[Doppelkeks]], [[Glückskeks]], [[Patisserie-Keks]], [[Schokokeks]], [[Weihnachtskeks]]
+
+{{Beispiele}}
+:[1] Es gab ''Kekse'' zum Kaffee bei Großmutters Geburtstag.
+:[1] „Aufgrund mangelnder Englisch-Kenntnisse der Deutschen sprachen diese das Wort Cakes aber so aus, wie es geschrieben wird, daher änderte [Bahlsen] das Wort in ''Keks''.“&lt;ref>{{Wikipedia|Keks|spr=de|oldid=149171100}}&lt;/ref>
+
+{{Redewendungen}}
+:einen weichen Keks haben &lt;!--&lt;ref name="Duden">--> – ein [[Schwachkopf]] sein
+:[[jemandem auf den Keks gehen]] – [[auf den Geist gehen]]
+
+{{Wortbildungen}}
+:[[Anstandskeks]], [[Keksdose]], [[Keksfabrik]], [[Keksfüllung]], [[Kekskrümel]], [[Keksmischung]], [[Keksregal]], [[Keksrolle]]
+
+==== {{Übersetzungen}} ====
+{{Ü-Tabelle|Ü-links=
+*{{en}}: [1] {{Ü|en|biscuit}}, {{amer.}} {{Ü|en|cookie}}
+*{{fi}}: [1] {{Ü|fi|keksi}}
+*{{fr}}: [1] {{Ü|fr|biscuit}}, [[gâteau]]&amp;nbsp;{{Ü|fr|sec}}
+*{{el}}: [1] {{Üt|el|μπισκότο|biskóto}} {{n}}
+*{{it}}: [1] {{Ü|it|biscotto}}
+*{{ca}}: [1] {{Ü|ca|galeta}}
+*{{nl}}: [1] {{Ü|nl|koekje}}
+*{{no}}: [1] {{Ü|no|kjeks}}
+*{{oc}}: [1] {{Ü|oc|galeta}}
+|Ü-rechts=
+*{{pl}}: [1] {{Ü|pl|ciastko}} {{n}}
+*{{pt}}: [1] {{Ü|pt|bolacha}} {{f}}, {{Ü|pt|biscoito}} {{m}}
+*{{ru}}: [1] {{Üt|ru|печенье|petschenje}}
+*{{sv}}: [1] {{Ü|sv|kex}} {{n}}, {{Ü|sv|käx}} {{n}}, {{Ü|sv|kaka}} {{u}}
+*{{es}}: [1] {{Ü|es|galleta}} {{f}}
+*{{cs}}: [1] {{Ü|cs|sušenka}} {{f}}, {{Ü|cs|keks}} {{m}}
+*{{tr}}: [1] {{Ü|tr|bisküvi}}
+*{{hu}}: [1] {{Ü|hu|keksz}}
+}}
+
+{{Referenzen}}
+:[1] {{Wikipedia}}
+:[1] {{Ref-DWDS}}
+:[1] {{Ref-Canoo}}
+:[1] {{Ref-UniLeipzig}}
+:[1] {{Ref-Duden}}
+
+{{Quellen}}
+
+{{Ähnlichkeiten 1|[[Koks]]}}
+
+[[Kategorie:Entlehnung aus dem Englischen (Deutsch)]]

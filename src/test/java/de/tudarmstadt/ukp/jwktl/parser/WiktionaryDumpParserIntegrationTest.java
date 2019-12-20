@@ -59,8 +59,8 @@ public class WiktionaryDumpParserIntegrationTest {
 
 	static {
 		try {
-			DE_DUMP_URL = new URL("http://dumps.wikimedia.org/dewiktionary/20151102/dewiktionary-20151102-pages-articles.xml.bz2");
-			EN_DUMP_URL = new URL("http://dumps.wikimedia.org/enwiktionary/20151102/enwiktionary-20151102-pages-articles.xml.bz2");
+			DE_DUMP_URL = new URL("https://dumps.wikimedia.org/dewiktionary/20180801/dewiktionary-20180801-pages-articles.xml.bz2");
+			EN_DUMP_URL = new URL("https://dumps.wikimedia.org/enwiktionary/20180801/enwiktionary-20180801-pages-articles.xml.bz2");
 		} catch (MalformedURLException e) {
 			throw new RuntimeException();
 		}

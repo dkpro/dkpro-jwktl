@@ -111,7 +111,7 @@ public class Relation {
     }
 
     /** Gets all relations (as Array[]).
-     * Rem: We are waiting a marvellous day when JavaFX will support Collection<>.
+     * Rem: We are waiting a marvellous day when JavaFX will support Collection&lt;&gt;.
      *      Then this function will be deleted.
      */
     public static Relation[] getAllRelationsOrderedArray() {
