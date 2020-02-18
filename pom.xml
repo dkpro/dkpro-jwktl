@@ -74,9 +74,9 @@
     </licenses>
 
     <parent>
-        <groupId>org.dkpro</groupId>
+         <groupId>org.dkpro</groupId>
          <artifactId>dkpro-parent-pom</artifactId>
-        <version>12</version>
+         <version>19</version>
     </parent>
 
     <scm>
@@ -102,10 +102,6 @@
         <system>jenkins</system>
     </ciManagement>
     -->
-
-    <properties>
-        <javadoc.opts>-Xdoclint:none</javadoc.opts>
-    </properties>
 
   <build>
     <filters>
@@ -141,11 +137,12 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-javadoc-plugin</artifactId>
-        <version>3.0.1</version>
+        <version>3.1.1</version>
         <configuration>
-          <additionalparam>${javadoc.opts}</additionalparam>
-          <additionalJOptions>
-            <additionalJOption>-Xmaxerrs</additionalJOption>
+            <source>8</source>
+            <additionalJOptions>
+             <additionalJOption>-Xdoclint:none</additionalJOption>
+             <additionalJOption>-Xmaxerrs</additionalJOption>
             <additionalJOption>1000</additionalJOption>
             <additionalJOption>-Xmaxwarns</additionalJOption>
             <additionalJOption>1000</additionalJOption>
@@ -201,7 +198,7 @@
       <plugin>
         <groupId>org.jacoco</groupId>
         <artifactId>jacoco-maven-plugin</artifactId>
-        <version>0.7.9</version>
+        <version>0.8.5</version>
         <executions>
             <execution>
                 <goals>
