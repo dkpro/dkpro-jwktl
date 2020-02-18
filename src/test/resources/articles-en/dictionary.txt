@@ -6,10 +6,10 @@
 {{etyl|ML.|en}} {{term|dictionarium|lang=la}} from {{etyl|la|en}} {{term|dictionarius|lang=la}} from {{term|dictio||speaking|lang=la}} from {{term|dictus|lang=la}}, perfect past participle of {{term|dico|dīcō|speak|lang=la}} + {{term|-arium||room, place|lang=la}}.
 
 ===Pronunciation===
-* {{a|UK}} {{IPA|/ˈdɪkʃən(ə)ɹi/}}, {{SAMPA|/"dIkS@n(@)ri/}}
-* {{a|North America}} {{enPR|dĭk'shə-nĕr-ē}}, {{IPA|/ˈdɪkʃənɛɹi/}}, {{SAMPA|/"dIkS@nEri/}}
-* {{audio|en-us-dictionary.ogg|Audio (US)}}
-* {{audio|en-uk-dictionary.ogg|Audio (UK)}}
+* {{a|UK}} {{IPA|en|/ˈdɪkʃən(ə)ɹi/}}
+* {{a|North America}} {{enPR|dĭk'shə-nĕr-ē}}, {{IPA|en|/ˈdɪkʃənɛɹi/}}
+* {{audio|en|en-us-dictionary.ogg|Audio (US)}}
+* {{audio|en|en-uk-dictionary.ogg|Audio (UK)}}
 
 ===Noun===
 {{en-noun|dictionaries}}

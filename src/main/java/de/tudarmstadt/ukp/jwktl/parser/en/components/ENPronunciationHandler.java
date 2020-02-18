@@ -36,10 +36,11 @@ import de.tudarmstadt.ukp.jwktl.parser.util.StringUtils;
 public class ENPronunciationHandler extends ENBlockHandler {
 
 	private static final Pattern PRONUNCIATION_CONTEXT = Pattern.compile("\\{\\{(?:a|sense)\\|([^}|]+?)}}");
-	private static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{(?:IPA|SAMPA)\\|.+?}}");
-	private static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|([^}|]+?)(?:\\|([^}|]+?)(?:\\|lang=[^}|]+)?)?}}");
-	private static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|([^}|]+?)}}");
-	private static final Pattern PRONUNCIATION_RAW = Pattern.compile("\\{\\{\\w+-(?:IPA|pron)(?:\\|.*?)?}}");
+	private static final Pattern PRONUNCIATION = Pattern.compile("\\{\\{IPA\\|.+?}}");
+	private static final Pattern PRONUNCIATION_AUDIO = Pattern.compile("\\{\\{audio\\|.+?}}");
+	private static final Pattern PRONUNCIATION_RYHME = Pattern.compile("\\{\\{rhymes\\|.+?}}");
+	private static final Pattern PRONUNCIATION_RAW = Pattern.compile("\\{\\{\\w+-(?:IPA|pron(?:unciation)?)(?:\\|.*?)?}}");
+	private static final String LANG = "lang";
 
 	protected List<IPronunciation> pronunciations;
 
@@ -69,10 +70,12 @@ public class ENPronunciationHandler extends ENBlockHandler {
 		while (pronunMatcher.find()) {
 			TemplateParser.parse(pronunMatcher.group(), template -> {
 				final PronunciationType type = PronunciationType.valueOf(template.getName());
-				for (int i = 0; i<template.getNumberedParamsCount(); i++) {
-					String pronunciation = template.getNumberedParam(i);
-					if (!pronunciation.trim().isEmpty()) {
-						pronunciations.add(new Pronunciation(type, pronunciation, ctx.toString().trim()));
+				final String deprecatedLang = template.getNamedParam(LANG);
+				final int firstIndex = deprecatedLang == null ? 1 : 0;
+				for (int i = firstIndex; i<template.getNumberedParamsCount(); i++) {
+					final String pronunciation = template.getNumberedParam(i);
+					if (pronunciation != null && !pronunciation.trim().isEmpty()) {
+						pronunciations.add(new Pronunciation(type, pronunciation.trim(), ctx.toString().trim()));
 					}
 				}
 				return null;
@@ -85,26 +88,34 @@ public class ENPronunciationHandler extends ENBlockHandler {
 
 		//TODO: english pronunciation key/AHD
 		//TODO: separate property for sense
-		matcher = PRONUNCIATION_AUDIO.matcher(textLine); 
+		matcher = PRONUNCIATION_AUDIO.matcher(textLine);
 		if (matcher.find()) {
-			String note = ctx + " " + matcher.group(2);
-			pronunciations.add(new Pronunciation(PronunciationType.AUDIO, 
-					matcher.group(1), note.trim()));
+			TemplateParser.parse(matcher.group(), template -> {
+				final String deprecatedLang = template.getNamedParam(LANG);
+				final int firstIndex = deprecatedLang == null ? 1 : 0;
+				final String file = template.getNumberedParam(0 + firstIndex);
+				final String note = template.getNumberedParam(1 + firstIndex);
+				pronunciations.add(new Pronunciation(PronunciationType.AUDIO, file, note == null ? null : note.trim()));
+				return null;
+			});
 		}
-		matcher = PRONUNCIATION_RYHME.matcher(textLine); 
+		matcher = PRONUNCIATION_RYHME.matcher(textLine);
 		if (matcher.find())
-			pronunciations.add(new Pronunciation(PronunciationType.RHYME, 
-					matcher.group(1), ctx.toString().trim()));
-		
-		/*System.out.println(">>>>" + textLine);
-		for (Pronunciation p : pronunciations)
-			System.out.println(p.getType() + ": " + p.getText() + " " + p.getNote());
-		pronunciations.clear();*/
-		
+			TemplateParser.parse(matcher.group(), template -> {
+				final String deprecatedLang = template.getNamedParam(LANG);
+				final int firstIndex = deprecatedLang == null ? 1 : 0;
+				for (int i = firstIndex; i<template.getNumberedParamsCount(); i++) {
+					final String rhyme = template.getNumberedParam(i);
+					if (rhyme != null) {
+						pronunciations.add(new Pronunciation(PronunciationType.RHYME, rhyme.trim(), ctx.toString().trim()));
+					}
+				}
+				return null;
+			});
 		return false;
 	}
-	
-	public void fillContent(final ParsingContext context) {		
+
+	public void fillContent(final ParsingContext context) {
 		// There is no PosEntry yet - store the pronunciations in the context
 		// and add them later on (in ENWordLanguageHandler).
 		context.setPronunciations(pronunciations);
