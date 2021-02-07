@@ -53,7 +53,7 @@ public class ENSenseHandler extends ENBlockHandler {
 			+ ")\\s*\\d*\\s*=?===$");
 
 	protected static final Pattern SEMANTIC_RELATION_PATTERN = Pattern.compile(
-			"\\{\\{\\s*(syn|ant|synonyms|antonyms|hypernyms|hyper|hyponyms|hypo|holonyms|meronyms|troponyms|cot|coordinate terms)\\s*\\|"
+			"\\{\\{\\s*(syn|ant|synonyms|antonyms?|hypernyms|hyper|hyponyms|hypo|holonyms|meronyms|troponyms|cot|coordinate terms)\\s*\\|"
 	);
 
 	/**
@@ -300,6 +300,7 @@ public class ENSenseHandler extends ENBlockHandler {
 				return RelationType.SYNONYM;
 			case "ant":
 			case "antonyms":
+			case "antonym":
 				return RelationType.ANTONYM;
 			case "hypo":
 			case "hyponyms":
