@@ -6,10 +6,10 @@
 From {{etyl|ang}} {{term|wifmenn|wīfmenn}}, from {{term|wif|wīf|xs=ang}} + {{term|menn||xs=ang}}.
 
 ===Pronunciation===
-* {{a|RP}} {{IPA|/ˈwɪmɪn/}}
-* {{a|US}} {{IPA|/ˈwɪmən/}}
-* {{audio|en-uk-women.ogg|Audio (UK)}}
-* {{rhymes|ɪmɪn}}
+* {{a|RP}} {{IPA|en|/ˈwɪmɪn/}}
+* {{a|US}} {{IPA|en|/ˈwɪmən/}}
+* {{audio|en|en-uk-women.ogg|Audio (UK)}}
+* {{rhymes|en|ɪmɪn}}
 * {{hyphenation|wom|en}}
 
 ===Noun===
@@ -95,7 +95,7 @@ From {{etyl|ang}} {{term|wifmenn|wīfmenn}}, from {{term|wif|wīf|xs=ang}} + {{t
 {{suffix|lang=cmn|wo|men}}
 
 ===Pronunciation===
-* {{audio|zh-wǒmen.ogg|audio}}
+* {{audio|zh|zh-wǒmen.ogg|audio}}
 * {{IPA|[ wo˨˩mən ]|lang=cmn}}
 
 ===Pronoun===

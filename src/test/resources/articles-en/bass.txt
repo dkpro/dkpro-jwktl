@@ -6,8 +6,8 @@
 {{etyl|it}} {{term|basso||low|lang=it}}, from {{etyl|la}} {{term|bassus||low|lang=la}}.
 
 ====Pronunciation====
-* {{enPR|bās}}, {{IPA|/beɪs/}}, {{SAMPA|/beIs/}}
-* {{audio|en-us-bass-low.ogg|Audio (US)}}
+* {{enPR|bās}}, {{IPA|en|/beɪs/}}
+* {{audio|en|en-us-bass-low.ogg|Audio (US)}}
 * {{homophones|base}}
 
 ====Adjective====
@@ -155,8 +155,8 @@
 From {{etyl|enm}} {{term|bas|lang=enm}}, alteration of {{term|bars|lang=enm}}, from {{etyl|ang}} {{term|bærs||a fish, perch|lang=ang}}, from {{proto|Germanic|barsaz|perch", literally "prickly fish|lang=en}}, from {{proto|Indo-European|bhars-||bharst-|prickle, thorn, scale|lang=en}}. Cognate with {{etyl|nl|-}} {{term|baars||baars|perch, bass|lang=nl}}, {{etyl|de|-}} {{term|Barsch||perch|lang=de}}. More at {{l|en|barse}}.
 
 ====Pronunciation====
-* {{enPR|băs}}, {{IPA|/bæs/}}, {{SAMPA|/b{s/}}
-* {{audio|en-us-bass.ogg|Audio (US)}}
+* {{enPR|băs}}, {{IPA|en|/bæs/}}
+* {{audio|en|en-us-bass.ogg|Audio (US)}}
 
 ====Noun====
 {{en-noun|es|pl2=bass}}

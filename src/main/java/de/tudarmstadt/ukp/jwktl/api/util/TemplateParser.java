@@ -79,7 +79,7 @@ public /*static*/ class TemplateParser {
 		/** Return the numbered parameter with the given index or <code>null</code> 
 		 *  if no such parameter exists. */
 		public String getNumberedParam(int idx) {
-			return numberedParams.get(idx);
+			return idx < numberedParams.size() ? numberedParams.get(idx) : null;
 		}
 		
 		/** Return the named parameter with the given key or <code>null</code> 

@@ -8,10 +8,10 @@ From {{etyl|enm|en}} &lt; {{etyl|ang|en}} {{term|lang=ang|word}} &lt; {{proto|Ge
 
 ===Pronunciation===
 {{wikipedia}}
-* {{a|RP}} {{IPA|/wɜːd/}}, {{SAMPA|/w3:d/}}
-* {{a|US}} {{enPR|wûrd}}, {{IPA|/wɝd/}}, {{SAMPA|/w3`d/}}
-*: {{audio|en-us-word.ogg|Audio (US)}}
-*: {{rhymes|ɜː(r)d}}
+* {{a|RP}} {{IPA|en|/wɜːd/}}
+* {{a|US}} {{enPR|wûrd}}, {{IPA|en|/wɝd/}}
+*: {{audio|en|en-us-word.ogg|Audio (US)}}
+*: {{rhymes|en|ɜː(r)d}}
 
 ===Noun===
 {{en-noun}}
@@ -346,7 +346,7 @@ From {{etyl|enm|en}} &lt; {{etyl|ang|en}} {{term|lang=ang|word}} &lt; {{proto|Ge
 ==Dutch==
 
 ===Pronunciation===
-* {{audio|Nl-word.ogg|audio}}
+* {{audio|nl|Nl-word.ogg|audio}}
 
 ===Verb===
 {{infl|nl}}
