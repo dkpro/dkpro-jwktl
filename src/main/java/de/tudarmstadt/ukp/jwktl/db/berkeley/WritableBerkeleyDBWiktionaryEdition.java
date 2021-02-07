@@ -106,12 +106,10 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 	public void commit() throws WiktionaryException {
 		boolean isReadOnly = env.getConfig().getReadOnly();
 		Long cacheSize = env.getConfig().getCacheSize();
-		//env.sync();
 		doClose();
 		connect(isReadOnly, false, false, cacheSize);			
 	}
 	
-//	public void saveProperties(final WiktionaryArticleParser parser)
 	public void saveProperties(final IDumpInfo dumpInfo)
 			throws WiktionaryException {
 		// Assign numeric id's to the WiktionaryEntry:s in alphabetical
@@ -127,8 +125,6 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 				if (page.getEntryCount() > 0) {
 					for (WiktionaryEntry entry : page.entries())
 						entry.setId(entryId++);
-					//pageCursor.update(page);
-					//pageById.put(page); // Save
 					pageById.putNoReturn(page);
 				}
 
@@ -184,30 +180,6 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
     		} finally {
     			writer.close();
     		}
-				/*
-			properties.put("wiktionary.language", language.getCode());
-			properties.put("wiktionary.dumpfile", dumpInfo.getDumpFile().toString());
-			
-			properties.put("database.creation", new SimpleDateFormat("yyyy-MM-dd kk:mm").format(new Date()));
-			properties.put("database.path", dbPath.toString());
-			properties.put("database.pages", Long.toString(pageCount));
-			properties.put("database.entries", Long.toString(entryCount));
-			properties.put("database.sense", Long.toString(senseCount));
-			
-			properties.put("jwktl.version", JWKTL.getVersion());
-			int i = 1;
-			for (IWiktionaryPageParser pageParser : dumpInfo.getParser().getPageParsers()) {
-				properties.put("jwktl.parser_" + i, pageParser.getClass().getName());
-				i++;
-			}
-			
-			FileOutputStream stream = new FileOutputStream(
-					new File(dbPath, PROPERTY_FILE_NAME));
-    		try {
-    			properties.store(stream, null);
-    		} finally {
-    			stream.close();
-    		}*/
 		} catch (IOException e) {
 			throw new WiktionaryException("Unable to save property file", e);
 		}
@@ -230,8 +202,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 				}
 				pageCount++;
 			}
-		}
-		catch (DatabaseException e) {
+		} catch (DatabaseException e) {
 			throw new WiktionaryException("Unable to save page " + page.getTitle(), e);			
 		}		
 	}

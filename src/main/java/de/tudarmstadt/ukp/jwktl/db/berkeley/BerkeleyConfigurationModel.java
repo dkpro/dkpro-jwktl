@@ -46,20 +46,20 @@ import de.tudarmstadt.ukp.jwktl.api.entry.*;
 public class BerkeleyConfigurationModel extends AnnotationModel {
 	private static class EntityInfo {
 		PrimaryKeyMetadata priKey;
-		Map<String, SecondaryKeyMetadata> secKeys = new HashMap<String, SecondaryKeyMetadata>();
+		Map<String, SecondaryKeyMetadata> secKeys = new HashMap<>();
 	}
 
-	private Map<String, ClassMetadata> classMap;
-	private Map<String, EntityInfo> entityMap;
+	private final Map<String, ClassMetadata> classMap;
+	private final Map<String, EntityInfo> entityMap;
 
 	/**
 	 * Constructs a model for annotated entity classes.
-	 * @throws Exception 
+	 * @throws WiktionaryException configuration error
 	 */
 	public BerkeleyConfigurationModel() throws WiktionaryException {
 		super();
-		classMap = new HashMap<String, ClassMetadata>();
-		entityMap = new HashMap<String, EntityInfo>();
+		classMap = new HashMap<>();
+		entityMap = new HashMap<>();
 
 		addPersistentMetadata(Pronunciation.class.getName());
 		addPersistentMetadata(Quotation.class.getName());
@@ -71,7 +71,7 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 		addPersistentMetadata(WiktionaryTranslation.class.getName());
 		addPersistentMetadata(WiktionaryWordForm.class.getName());
 
-		addClassMetadata(WiktionaryPage.class.getName());
+		addClassMetadata(WiktionaryPage.class);
 	}
 
 	@Override
@@ -97,64 +97,56 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 	}
 
 	private void addPersistentMetadata(String className) {
-		ClassMetadata metadata = new ClassMetadata(className, 0, null, false, null, null, null, null);
+		ClassMetadata metadata = new ClassMetadata(className, 0, null, false,
+				null, null, null, null);
 		classMap.put(className, metadata);
 		/* Add any new information about entities. */
 		updateEntityInfo(metadata);
 	}
 
-	private ClassMetadata addClassMetadata(String className) throws WiktionaryException {
-		boolean isEntity = true;
-		int version = 0;
-		String proxiedClassName = null;
-
-		ClassMetadata metadata;
-		Class<?> type;
-		try {
-			type = resolveClass(className);
-		} catch (ClassNotFoundException e) {
-			return null;
-		}
-
+	private void addClassMetadata(Class<?> type) throws WiktionaryException {
 		/* Get instance fields. */
-		List<Field> fields = new ArrayList<Field>();
+		List<Field> fields = new ArrayList<>();
 		boolean nonDefaultRules = getInstanceFields(fields, type);
 		Collection<FieldMetadata> nonDefaultFields = null;
 		if (nonDefaultRules) {
-			nonDefaultFields = new ArrayList<FieldMetadata>(fields.size());
+			nonDefaultFields = new ArrayList<>(fields.size());
 			for (Field field : fields) {
 				nonDefaultFields.add(new FieldMetadata(field.getName(), field.getType().getName(), type.getName()));
 			}
 			nonDefaultFields = Collections.unmodifiableCollection(nonDefaultFields);
 		}
 
+		Field idField, titleField, normalizedTitleField;
 		try {
-			Field foundField = type.getDeclaredField("id");
-			PrimaryKeyMetadata pkMD = new PrimaryKeyMetadata(foundField.getName(), foundField.getType().getName(), type.getName(), null);
-
-			Map<String, SecondaryKeyMetadata> mapSK = new HashMap<String, SecondaryKeyMetadata>();
-
-			Field field = WiktionaryPage.class.getDeclaredField("title");
-			SecondaryKeyMetadata metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), null, field.getName(),
-					Relationship.ONE_TO_ONE, null, null);
-			mapSK.put(field.getName(), metadataSK);
-
-			field = WiktionaryPage.class.getDeclaredField("normalizedTitle");
-			metadataSK = new SecondaryKeyMetadata(field.getName(), field.getType().getName(), type.getName(), null, field.getName(), Relationship.MANY_TO_ONE, null, null);
-			mapSK.put(field.getName(), metadataSK);
-
-			
-			/* Get the rest of the metadata and save it. */
-			metadata = new ClassMetadata(className, version, proxiedClassName, isEntity, pkMD, Collections.unmodifiableMap(mapSK), null, nonDefaultFields);
-			classMap.put(className, metadata);
-			/* Add any new information about entities. */
-			updateEntityInfo(metadata);
-			
+			idField = type.getDeclaredField("id");
+			titleField = type.getDeclaredField("title");
+			normalizedTitleField = type.getDeclaredField("normalizedTitle");
 		} catch (NoSuchFieldException | SecurityException e) {
 			throw new WiktionaryException(e);
 		}
 
-		return metadata;
+		PrimaryKeyMetadata pkMD = new PrimaryKeyMetadata(idField.getName(), idField.getType().getName(),
+				type.getName(), null);
+
+		Map<String, SecondaryKeyMetadata> mapSK = new HashMap<>();
+
+		SecondaryKeyMetadata metadataSK = new SecondaryKeyMetadata(titleField.getName(), titleField.getType().getName(),
+				type.getName(), null, titleField.getName(), Relationship.ONE_TO_ONE, null,
+				null);
+		mapSK.put(titleField.getName(), metadataSK);
+
+		metadataSK = new SecondaryKeyMetadata(normalizedTitleField.getName(), normalizedTitleField.getType().getName(),
+				type.getName(), null, normalizedTitleField.getName(), Relationship.MANY_TO_ONE,
+				null, null);
+		mapSK.put(normalizedTitleField.getName(), metadataSK);
+
+		/* Get the rest of the metadata and save it. */
+		ClassMetadata metadata = new ClassMetadata(type.getName(), 0, null, true, pkMD,
+				Collections.unmodifiableMap(mapSK), null, nonDefaultFields);
+		classMap.put(type.getName(), metadata);
+		/* Add any new information about entities. */
+		updateEntityInfo(metadata);
 	}
 
 	/**
@@ -179,7 +171,9 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 				fields.add(field);
 			} else {
 				/* If non-persistent, no other annotations should be used. */
-				if (field.getAnnotation(PrimaryKey.class) != null || field.getAnnotation(SecondaryKey.class) != null || field.getAnnotation(KeyField.class) != null) {
+				if (field.getAnnotation(PrimaryKey.class) != null ||
+					field.getAnnotation(SecondaryKey.class) != null ||
+					field.getAnnotation(KeyField.class) != null) {
 					throw new IllegalArgumentException("@PrimaryKey, @SecondaryKey and @KeyField not " + "allowed on non-persistent field");
 				}
 			}
@@ -201,7 +195,7 @@ public class BerkeleyConfigurationModel extends AnnotationModel {
 		 */
 		String entityClass = null;
 		PrimaryKeyMetadata priKey = null;
-		Map<String, SecondaryKeyMetadata> secKeys = new HashMap<String, SecondaryKeyMetadata>();
+		Map<String, SecondaryKeyMetadata> secKeys = new HashMap<>();
 		for (ClassMetadata data = metadata; data != null;) {
 			if (data.isEntityClass()) {
 				if (entityClass != null) {

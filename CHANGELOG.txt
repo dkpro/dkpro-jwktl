@@ -243,3 +243,4 @@ JWKTL-1.2.0 (forthcoming)
 - Fixed: Parsing grammatical gender for German words (#63).
 - Modified: Improved semantic relation parsing.
 - Fixed: Improved pronunciation parsing
+- Modified: Isolation of BerkeleyDB for better usage of other DBs (#49)
