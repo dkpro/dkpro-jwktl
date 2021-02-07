@@ -139,4 +139,21 @@ public class ENEtymologyHandlerTest extends ENWiktionaryEntryParserTest {
 		assertNotNull(etymology);
 		assertEquals("Foo\n\nBaz", etymology.getText());
 	}
+
+	public void testFileTagInEtymologySection() throws Exception {
+		IWiktionaryPage page = parse("cambrian_explosion.txt");
+		IWiktionaryEntry entry;
+
+		entry = page.getEntry(0);
+		assertEquals(Language.ENGLISH, entry.getWordLanguage());
+		assertEquals("[[File:Archaeocyatha.jpg|thumb|An artist’s impression of various species of class " +
+			"{{taxlink|Archaeocyatha|class|noshow=1|ver=170227}}, [[sponge#Noun|sponge]]-like [[marine]] animals from " +
+			"the [[Cambrian]] period]]\n" +
+			"\n" +
+			"The word {{m|en|Cambrian}} was first used in this context by British [[geologist]] {{w|Adam Sedgwick}} " +
+			"(1785–1873) who named it after [[Cambria]], the [[Latinize]]d form of {{der|en|cy|Cymru||Wales}}, " +
+			"where Britain's Cambrian rocks are best exposed. The term and concept was popularized by " +
+			"{{w|Stephen Jay Gould}} in the book {{w|Wonderful Life (book)|Wonderful Life}} (1989).",
+			entry.getWordEtymology().getText());
+	}
 }

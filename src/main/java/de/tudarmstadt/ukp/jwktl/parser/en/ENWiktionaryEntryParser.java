@@ -38,6 +38,8 @@ import de.tudarmstadt.ukp.jwktl.parser.en.components.ENUsageNotesHandler;
 import de.tudarmstadt.ukp.jwktl.parser.en.components.ENWordLanguageHandler;
 import de.tudarmstadt.ukp.jwktl.parser.util.ParsingContext;
 
+import java.util.Locale;
+
 /**
  * An implementation of the {@link IWiktionaryEntryParser} interface for 
  * parsing the contents of article pages from the English Wiktionary. 
@@ -89,12 +91,14 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 		if (line.startsWith("----")) {
 			return true;
 		}
-		if (line.startsWith("="))
+		else if (line.startsWith("="))
 			return true;
-		if (line.startsWith("[[") && line.endsWith("]]"))
-			return true;
-		
-		return false;
+		else if (line.startsWith("[[") && line.endsWith("]]")) {
+			final String lower = line.toLowerCase(Locale.ENGLISH);
+			return !lower.contains("[file:") && !lower.contains("[image:");
+		} else {
+			return false;
+		}
 	}
 
 }

@@ -1,0 +1,82 @@
+==English==
+{{was wotd|2017|November|24}}
+
+===Etymology===
+[[File:Archaeocyatha.jpg|thumb|An artist’s impression of various species of class {{taxlink|Archaeocyatha|class|noshow=1|ver=170227}}, [[sponge#Noun|sponge]]-like [[marine]] animals from the [[Cambrian]] period]]
+
+The word {{m|en|Cambrian}} was first used in this context by British [[geologist]] {{w|Adam Sedgwick}} (1785–1873) who named it after [[Cambria]], the [[Latinize]]d form of {{der|en|cy|Cymru||Wales}}, where Britain's Cambrian rocks are best exposed.<ref>{{cite-journal|author=[Adam] Sedgwick|authorlink=Adam Sedgwick|author2=R[oderick] I[mpey] Murchison|authorlink2=Roderick Murchison|title=On the Silurian and Cambrian Systems, Exhibiting the Order in which the Older Sedimentary Strata Succeed each other in England and Wales|journal=Notices of Communications to the [[w:British Science Association|British Association for the Advancement of Science]]; at Dublin in August 1835|location=London|publisher=[[w:John  Murray (publisher)|John Murray]], {{w|Albemarle Street}}|year=1835|year_published=1836|pages=59–61|pageurl=https://archive.org/stream/reportannualmee03meetgoog#page/n398/mode/1up/|oclc=31097972}}.</ref> The term and concept was popularized by {{w|Stephen Jay Gould}} in the book {{w|Wonderful Life (book)|Wonderful Life}} (1989).
+
+===Pronunciation===
+* {{a|RP}} {{IPA|en|/ˈkam.bɹɪ.ən ɪkˈspləʊ.ʒən/}}
+* {{a|GA}} {{IPA|en|/ˈkæm.bɹi.ən ɛkˈsploʊ.ʒən/}}
+* {{audio|en|en-au-Cambrian explosion.ogg|Audio (AU)}}
+* {{hyphenation|en|Cam|bri|an ex|plo|sion}}
+
+===Proper noun===
+{{en-proper noun|s}}
+
+# {{lb|en|evolutionary|_|biology}} The relatively [[rapid]] appearance, during the [[Cambrian]] [[period|Period]] around 541 million years ago, of most major [[animal]] [[phyla]], as demonstrated in the [[fossil record]].
+#* {{quote-book|en|chapter=Evolution of the Earliest Animals|editor=[[w:J. William Schopf|J[ames] William Schopf]]|title=Major Events in the History of Life [Proceedings from a Symposium Convened by the IGPP Center for the Study of Evolution and the Origin of Life at the University of California, Los Angeles, Held January 11, 1991]|location=Sudbury, Mass.; London|publisher=[[w:Jones & Bartlett Learning|Jones and Bartlett Publishers]]|year=1992|page=87|pageurl=https://books.google.com/books?id=py01HMuAIh4C&pg=PA87|isbn=978-0-86720-268-7|passage=Alternatively, if animals had a relatively long Precambrian history, why do so many kinds appear abruptly and more or less synchronously in the fossil record during Early Cambran time? Was there an external environmental factor that either prevented animals from becoming fossilizable (i.e., large muscular, and/or mineralized) prior to the beginning of the Cambrian, or did some biological or environmental event trigger the metazoan radiation? Hypotheses that have been advanced to explain these questions tend to focus on either an external environmental control on, or an internal property of, the organisms that participated in the '''Cambrian explosion'''.}}
+#* {{quote-book|en|chapter=Affected Environment|title=Draft Programmatic Environmental Impact Statement for Geothermal Leasing in the Western United States|series=DES 08-22|location=[Washington, D.C.]|publisher=[[w:United States Department of the Interior|US Department of the Interior]], {{w|Bureau of Land Management}}; [[w:United States Department of Agriculture|US Department of Agriculture]], {{w|United States Forest Service}}|month=May|year=2008|volume=I (Programmatic Analysis)|section=paragraph 3.5.4|pages=3-49–3-50|pageurl=https://books.google.com/books?id=9RExAQAAMAAJ&pg=SA3-PA49|oclc=232119141|passage=A major adaptive radiation took place during the Cambrian Period that resulted in the evolution of most of the known phyla (broad groupings of organisms) as well as other phyla that have since become extinct. This geologically rapid appearance of diverse multicellular life is referred to as the '''Cambrian explosion''', and is best documented in the fauna of the Burgess Shale (Middle Cambrian-age Stephan Formation) of British Columbia.}}
+#* {{quote-book|en|author=Michael Ebifegha|chapter=Introduction|title=Creation or Evolution?: Origin of Species in Light of Science’s Limitations and Historical Records|location=Bloomington, Ind.|publisher={{w|iUniverse}}|year=2011|page=7|pageurl=https://books.google.com/books?id=gw_YNFnbGkUC&pg=PA7|isbn=978-1-4502-8902-3|passage=Evidence of transitional stages is missing both in the living world and in the "'''Cambrian explosions'''" at Burgess Shale in the Canadian Rockies and at the Chengjiang site in China. It is only proper at this point that we demand hard evidence of transitional stages. To wait millions of years for it to appear is simply a scientism of the gaps.}}
+#* {{quote-book|en|author=Jan Zalasiewicz|author2=Mark R. F. Williams|chapter=Water in the Cosmos|chapterurl=https://books.google.com/books?id=okxuBAAAQBAJ&pg=PT154|title=Ocean Worlds|location=Oxford|publisher={{w|Oxford University Press}}|year=2014|isbn=978-0-19-967288-2|passage=A few worlds may have made this giant leap, invented sex (or some equivalent), and produced planets with sponge-like organisms to filter-clean their seas as a precedent to the evolution of more complex life. Here and there, and likely very rarely, a few planets may have undergone their own '''Cambrian explosions'''.}}
+#* {{quote-book|en|author=Andrew H[erbert] Knoll|authorlink=Andrew H. Knoll|chapter=In the Beginning?|title=Life on a Young Planet: The First Three Billion Years of Evolution on Earth|edition=new Princeton Science Library paperback|location=Princeton, N.J.; Woodstock, Oxfordshire|publisher={{w|Princeton University Press}}|year=2015|page=8|pageurl=https://books.google.com/books?id=OXIVBgAAQBAJ&pg=PA8|isbn=978-0-691-16553-0|passage=[T]hese cliffs, cut over the millennia by the Kotuikan as it winds toward the Arctic Ocean, record one of Earth history's great turning points. As well as any rocks known anywhere, they document the remarkable diversification of animal life popularly known as the '''Cambrian Explosion'''. In the broadest possible sense, the Kotuikan cliffs record the beginnings of the modern world, a world in which animals swim, crawl, or walk beneath an atmosphere of breathable air. That's really what brought us here.}}
+
+====Translations====
+{{trans-top|the rapid appearance, around 541 million years ago, of most major animal phyla}}
+* Arabic: {{t|ar|انفجار كامبري}}
+* Azerbaijani: {{t|az|kembri partlayışı}}
+* Basque: {{t|eu|Kanbriarreko leherketa}}
+* Catalan: {{t|ca|explosió cambriana|f}}
+* Chinese:
+*: Mandarin: {{t+|cmn|寒武纪大爆发|tr=Hánwǔjì dàbàofā}}
+*: Min Nan: {{t|nan|Cambria po̍k-hoat}}
+* Czech: {{t|cs|Kambrická exploze|f}}
+* Danish: {{t|da|Kambriske Eksplosion}}
+* Dutch: {{t|nl|Cambrische explosie|f}}
+* Esperanto: {{t|eo|kambria eksplodo}}
+* Finnish: {{t|fi|[[kambrikauden]] [[räjähdys]]}}
+* French: {{t+|fr|explosion cambrienne|f}}
+* Galician: {{t|gl|explosión cámbrica|f}}
+* German: {{t|de|kambrische Explosion|f}}, {{t|de|kambrische Artenexplosion}}, {{t|de|kambrische Radiation}}
+* Hebrew: {{t|he|הפיצוץ הקמבריוני}}
+* Hindi: {{t|hi|कैम्ब्रियाई विस्तार}}
+* Hungarian: {{t|hu|kambriumi robbanás}}
+* Indonesian: {{t|id|letusan Kambrium}}, {{t|id|radiasi Kambrium}}
+* Italian: {{t|it|esplosione cambriana|f}}
+{{trans-mid}}
+* Japanese: {{t|ja|カンブリア爆発}}
+* Korean: {{t|ko|캄브리아기 폭발}}
+* Lithuanian: {{t|lt|Kambro sprogimas}}
+* Norwegian:
+*: Bokmål: {{t|no|den kambriske eksplosjon|m}}
+*: Nynorsk: {{t|nn|den kambriske eksplosjonen|m}}
+* Persian: {{t|fa|انفجار کامبرین}}
+* Polish: {{t|pl|eksplozja kambryjska|f}}
+* Portuguese: {{t|pt|explosão cambriana|f}}, {{t|pt|explosão do Cambriano|f}}
+* Romanian: {{t|ro|explozia cambriană}}
+* Russian: {{t|ru|кембрийский взрыв|m}}, {{t|ru|взрыв скелетной фауны|m}}
+* Serbo-Croatian: {{t|sh|Kambrijska eksplozija|f}}, {{t|sh|Камбријумска експлозија|f}}
+* Slovak: {{t|sk|kambrická explózia}}
+* Spanish: {{t|es|explosión cámbrica|f}}, {{t|es|radiación evolutiva del Cámbrico|f}}
+* Swedish: {{t|sv|kambriska explosionen}}
+* Turkish: {{t|tr|Kambriyen patlaması}}
+* Ukrainian: {{t|uk|кембрійський вибух|m}}
+* Vietnamese: {{t|vi|bùng nổ kỷ Cambri}}
+{{trans-bottom}}
+
+===Noun===
+{{en-noun}}
+
+# {{lb|en|by extension}} The [[rapid]] [[appearance]] of anything.
+#: {{ux|en|There has been a '''Cambrian explosion''' of cryptocurrencies.}}
+#* {{quote-book|en|author=W[illiam] Brian Arthur|authorlink=W. Brian Arthur|chapter=|title=The Nature of Technology: What It Is and How It Evolves|location=London|publisher=Allen Lane, [[w:Penguin Books|Penguin Group]]|year=2009|isbn=978-1-84614-017-4|passage=When we examined the detailed history of the evolution, we fond large gaps of time in which little happened at all. Then we saw the sudden appearance of a key circuit (an enabling technology) and quick use of this for further technologies. A full adder circuit might appear after say 32,000 steps; and 2-, 3-, and 4-bit adders fairly quickly after that. In other words, we found periods of quiescence, followed by miniature "'''Cambrian explosions'''" of rapid evolution.}}
+#* {{quote-book|en|author=Gary Hamel|authorlink=Gary Hamel|chapter=Gary Hamel on ‘Hacking Management 2.0’|chapterurl=https://www.saba.com/us/blogs/2011/11/16/gary-hamel-on-hacking-management-2-0/|title=Saba Software|date=16 November 2011|newversion=quoted in|2ndauthor=Marco Minghetti|chapter2=Foreword|title2=Collaborative Intelligence: Towards the Social Organization|location2=Newcastle upon Tyne|publisher2=Cambridge Scholars Publishing|year2=2014|page2=xxix|pageurl2=https://books.google.com/books?id=9coxBwAAQBAJ&pg=PR29|isbn2=978-1-4438-6022-2|passage=Before the Web, it was hard to imagine alternatives to management orthodoxy. But the Internet has spawned a '''Cambrian explosion''' of new organizational life forms—where coordination occurs without centralization, {{...}}}}
+#* {{quote-book|en|author=Don Tapscott|authorlink=Don Tapscott|author2=Anthony D. Williams|authorlink2=Anthony D. Williams (author)|chapter=Five Principles for the Age of Networked Intelligence|chapterurl=https://books.google.com/books?id=L41v_bFBkEMC&pg=PT35|title=Macrowikinomics: New Solutions for a Connected Planet|edition=paperback|location=London|publisher=Portfolio/[[w:Penguin Books|Penguin]]|year=2012|section=part I (From Wikinomics to Macrowikinomics)|isbn=978-1-59184-428-0|passage=The men and women of the Renaissance period likely had little inkling of the truly titanic changes that were unfolding around them, let alone the ability to predict where it would all end up. Nevertheless, many of their legacies remain with us today: the birth of modern nation-states; the expansion of political rights and freedoms; the rise of the university, the media, and the industrial corporation; and a '''Cambrian explosion''' of science, medicine, knowledge, and cultural expression.}}
+#* {{quote-book|en|author=Jan-Benedict Steenkamp|authorlink=Jan-Benedict Steenkamp|chapter=The Cambrian Explosion of Brands|title=Global Brand Strategy: World-wise Marketing in the Age of Branding|location=London|publisher={{w|Palgrave Macmillan}}|year=2017|page=2|pageurl=https://books.google.com/books?id=wSvVDQAAQBAJ&pg=PA2|doi=10.1057/978-1-349-94994-6|isbn=978-1-349-94993-9|passage=With the advent of mass media in the 1960s, immortalized in the TV series {{w|Mad Men}}, the pace of brand introduction, sophistication, and importance accelerated dramatically. The world has witnessed a "'''Cambrian explosion'''" of brands.}}
+
+===References===
+* {{pedia|i=1}}
+<references />
+
+[[Category:en:Evolutionary theory]]

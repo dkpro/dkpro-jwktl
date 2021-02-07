@@ -244,3 +244,4 @@ JWKTL-1.2.0 (forthcoming)
 - Modified: Improved semantic relation parsing.
 - Fixed: Improved pronunciation parsing
 - Modified: Isolation of BerkeleyDB for better usage of other DBs (#49)
+- Fixed: Parser: don't treat images/media as block start
