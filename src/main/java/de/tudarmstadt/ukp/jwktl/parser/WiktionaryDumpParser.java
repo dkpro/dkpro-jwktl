@@ -190,7 +190,7 @@ public class WiktionaryDumpParser extends XMLDumpParser implements IWiktionaryMu
 		parserRegistry.forEach(IWiktionaryPageParser::onPageEnd);
 		
 		dumpInfo.incrementProcessedPages();
-		if (dumpInfo.getProcessedPages() % 25000 == 0)
+		if (dumpInfo.getProcessedPages() % IWiktionaryDumpParser.BATCH_SIZE == 0)
 			logger.info("Parsed " + dumpInfo.getProcessedPages() + " pages");
 	}
 

@@ -26,11 +26,11 @@ import de.tudarmstadt.ukp.jwktl.api.IWiktionaryCollection;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
+import de.tudarmstadt.ukp.jwktl.db.berkeley.WritableBerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryDumpParser;
 import de.tudarmstadt.ukp.jwktl.parser.IWritableWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryArticleParser;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryDumpParser;
-import de.tudarmstadt.ukp.jwktl.parser.WritableBerkeleyDBWiktionaryEdition;
 
 /**
  * Abstract test case for {@link IWiktionaryEdition} and 

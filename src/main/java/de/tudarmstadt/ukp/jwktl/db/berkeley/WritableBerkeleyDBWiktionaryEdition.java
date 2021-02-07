@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.parser;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.io.File;
 import java.io.IOException;
@@ -32,11 +32,12 @@ import com.sleepycat.persist.EntityCursor;
 import de.tudarmstadt.ukp.jwktl.JWKTL;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
-import de.tudarmstadt.ukp.jwktl.api.entry.BerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
+import de.tudarmstadt.ukp.jwktl.parser.IWiktionaryPageParser;
+import de.tudarmstadt.ukp.jwktl.parser.IWritableWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.util.IDumpInfo;
 
 /**
@@ -82,7 +83,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 
 	@Override
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws DatabaseException {
+			boolean overwriteExisting, final Long cacheSize) throws WiktionaryException {
 		if (allowCreateNew)
 			prepareTargetDirectory(dbPath, overwriteExisting);
 		super.connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
@@ -107,7 +108,7 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 		Long cacheSize = env.getConfig().getCacheSize();
 		//env.sync();
 		doClose();
-		connect(isReadOnly, false, false, cacheSize);
+		connect(isReadOnly, false, false, cacheSize);			
 	}
 	
 //	public void saveProperties(final WiktionaryArticleParser parser)
@@ -215,19 +216,24 @@ public class WritableBerkeleyDBWiktionaryEdition extends BerkeleyDBWiktionaryEdi
 	/** Adds the given Wiktionary page to the database. 
 	 *  @throws DatabaseException if the page could not be stored, which is,
 	 *      i.e. the case if the DB is in read-only mode. */
-	public void savePage(final WiktionaryPage page) throws DatabaseException {
-		WiktionaryPage existing = pageById.put(page);
-		if (existing == null) {
-			for (WiktionaryEntry entry : page.entries()) {
-				entryByKey.put(new WiktionaryEntryProxy(entry));
-				for (WiktionarySense sense : entry.senses()) {
-					senseByKey.put(new WiktionarySenseProxy(sense));
-					senseCount++;
+	public void savePage(final WiktionaryPage page) throws WiktionaryException {
+		try {
+			WiktionaryPage existing = pageById.put(page);
+			if (existing == null) {
+				for (WiktionaryEntry entry : page.entries()) {
+					entryByKey.put(new WiktionaryEntryProxy(entry));
+					for (WiktionarySense sense : entry.senses()) {
+						senseByKey.put(new WiktionarySenseProxy(sense));
+						senseCount++;
+					}
+					entryCount++;
 				}
-				entryCount++;
+				pageCount++;
 			}
-			pageCount++;
 		}
+		catch (DatabaseException e) {
+			throw new WiktionaryException("Unable to save page " + page.getTitle(), e);			
+		}		
 	}
 	
 }

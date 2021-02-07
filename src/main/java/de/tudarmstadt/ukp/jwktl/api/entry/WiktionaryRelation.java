@@ -17,8 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryRelation;
 import de.tudarmstadt.ukp.jwktl.api.RelationType;
 
@@ -27,7 +25,6 @@ import de.tudarmstadt.ukp.jwktl.api.RelationType;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Persistent
 public class WiktionaryRelation implements IWiktionaryRelation {
 
 	protected String target;

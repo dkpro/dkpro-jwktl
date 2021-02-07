@@ -21,8 +21,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IWikiString;
 
 /**
@@ -31,7 +29,6 @@ import de.tudarmstadt.ukp.jwktl.api.IWikiString;
  * in the database. Note that this used to be different prior to JWKTL 0.15.4. 
  * @author Christian M. Meyer
  */
-@Persistent
 public class WikiString implements IWikiString {
 
 	protected String text;

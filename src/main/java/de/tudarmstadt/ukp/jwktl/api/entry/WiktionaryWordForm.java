@@ -17,8 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryWordForm;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalAspect;
 import de.tudarmstadt.ukp.jwktl.api.util.GrammaticalCase;
@@ -35,7 +33,6 @@ import de.tudarmstadt.ukp.jwktl.api.util.NonFiniteForm;
  * of this class represent inflected word forms.
  * @author Christian M. Meyer
  */
-@Persistent
 public class WiktionaryWordForm implements IWiktionaryWordForm {
 
 	protected String wordForm;

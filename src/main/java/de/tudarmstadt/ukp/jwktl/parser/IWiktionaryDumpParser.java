@@ -27,6 +27,8 @@ import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
  * @author Christian M. Meyer 
  */
 public interface IWiktionaryDumpParser {
+	public static final int BATCH_SIZE = 25000;
+	
 	/**
 	 * Starts the parsing of the given dump file. The file can be either
 	 * bzip2-compressed or the extracted XML version.

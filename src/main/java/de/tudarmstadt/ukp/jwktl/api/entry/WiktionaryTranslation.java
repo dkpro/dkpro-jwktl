@@ -17,8 +17,6 @@
  ******************************************************************************/
 package de.tudarmstadt.ukp.jwktl.api.entry;
 
-import com.sleepycat.persist.model.Persistent;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryTranslation;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
@@ -28,7 +26,6 @@ import de.tudarmstadt.ukp.jwktl.api.util.Language;
  * See there for details.
  * @author Christian M. Meyer
  */
-@Persistent
 public class WiktionaryTranslation implements IWiktionaryTranslation {
 
 	protected transient ILanguage language;

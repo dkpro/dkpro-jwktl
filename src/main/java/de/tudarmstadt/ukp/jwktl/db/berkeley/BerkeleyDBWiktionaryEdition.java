@@ -15,7 +15,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  ******************************************************************************/
-package de.tudarmstadt.ukp.jwktl.api.entry;
+package de.tudarmstadt.ukp.jwktl.db.berkeley;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -42,11 +42,14 @@ import com.sleepycat.persist.model.Entity;
 import com.sleepycat.persist.model.PrimaryKey;
 import com.sleepycat.persist.model.Relationship;
 import com.sleepycat.persist.model.SecondaryKey;
+
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEntry;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionarySense;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryEdition;
+import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.filter.IWiktionaryPageFilter;
 import de.tudarmstadt.ukp.jwktl.api.util.ILanguage;
 import de.tudarmstadt.ukp.jwktl.api.util.Language;
@@ -220,13 +223,13 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		this.dbPath = parsedWiktionaryDump;
 		try {
 			connect(isReadOnly, allowCreateNew, overwriteExisting, cacheSize);
-		} catch (DatabaseException | IllegalArgumentException e) {
+		} catch (Exception e) {
 			throw new WiktionaryException("Unable to establish a db connection", e);
 		}
 	}
 
 	protected void connect(boolean isReadOnly, boolean allowCreateNew,
-			boolean overwriteExisting, final Long cacheSize) throws DatabaseException {
+			boolean overwriteExisting, final Long cacheSize) throws WiktionaryException {
 		// Configure DB environment.
 		EnvironmentConfig envConfig = new EnvironmentConfig();
 		envConfig.setAllowCreate(allowCreateNew);
@@ -235,12 +238,15 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 		if (cacheSize != null)
 			envConfig.setCacheSize(cacheSize);
 		env = new Environment(dbPath, envConfig);
+		
+		BerkeleyConfigurationModel bcm = new BerkeleyConfigurationModel();
 
 		// Configure store.
 		StoreConfig storeConfig = new StoreConfig();
 		storeConfig.setAllowCreate(allowCreateNew);
 		storeConfig.setTransactional(false);
 		storeConfig.setReadOnly(isReadOnly);
+		storeConfig.setModel(bcm);
 		store = new EntityStore(env, DATABASE_NAME, storeConfig);
 
 		// Load properties.
@@ -252,7 +258,7 @@ public class BerkeleyDBWiktionaryEdition extends WiktionaryEdition {
 					properties.load(reader);
 				}
 			} catch (IOException e) {
-				throw new DatabaseException("Unable to load property file", e){};
+				throw new WiktionaryException("Unable to load property file", e);
 			}
 
 			String lang = properties.getProperty("wiktionary.language");

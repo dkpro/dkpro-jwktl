@@ -19,8 +19,6 @@ package de.tudarmstadt.ukp.jwktl.parser;
 
 import java.util.logging.Logger;
 
-import com.sleepycat.je.DatabaseException;
-
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryPage;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryPage;
@@ -115,11 +113,8 @@ public class WiktionaryArticleParser extends WiktionaryPageParser<WiktionaryPage
 		wiktionaryDB.saveProperties(dumpInfo);
 		
 		// It is important to close the Berkeley DB handler to avoid data loss.
-		try {			
-			wiktionaryDB.close();
-		} catch (DatabaseException e) {
-			throw new WiktionaryException("Unable to close Wiktionary DB", e);
-		}
+		wiktionaryDB.commit();
+		wiktionaryDB.close();
 	}
 	
 	protected WiktionaryPage createPage() {
@@ -144,17 +139,9 @@ public class WiktionaryArticleParser extends WiktionaryPageParser<WiktionaryPage
 		if (wiktionaryDB == null)
 			return;
 		
-		try {
-//			long time = System.nanoTime();
-			wiktionaryDB.savePage(page);
-//			time = System.nanoTime() - time;
-//			System.out.println("saveWiktionaryPage " + (time / 1000) + "ms");
-			
-			if (dumpInfo.getProcessedPages() % 25000 == 0)
-				wiktionaryDB.commit();
-		} catch (DatabaseException e) {
-			throw new WiktionaryException("Unable to save page " + page.getTitle(), e);
-		}
+		wiktionaryDB.savePage(page);
+		if (dumpInfo.getProcessedPages() % IWiktionaryDumpParser.BATCH_SIZE == 0)
+			wiktionaryDB.commit();
 	}
 
 	protected boolean isAllowed(final IWiktionaryPage page) {

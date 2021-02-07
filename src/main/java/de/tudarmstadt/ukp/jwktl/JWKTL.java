@@ -25,12 +25,12 @@ import java.util.Properties;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryCollection;
 import de.tudarmstadt.ukp.jwktl.api.IWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.WiktionaryException;
-import de.tudarmstadt.ukp.jwktl.api.entry.BerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.api.entry.WiktionaryCollection;
+import de.tudarmstadt.ukp.jwktl.db.berkeley.BerkeleyDBWiktionaryEdition;
+import de.tudarmstadt.ukp.jwktl.db.berkeley.WritableBerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.IWritableWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryArticleParser;
 import de.tudarmstadt.ukp.jwktl.parser.WiktionaryDumpParser;
-import de.tudarmstadt.ukp.jwktl.parser.WritableBerkeleyDBWiktionaryEdition;
 import de.tudarmstadt.ukp.jwktl.parser.wikisaurus.WikisaurusArticleParser;
 
 /**
