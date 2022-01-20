@@ -57,7 +57,7 @@ public abstract class WiktionaryEntryParser implements IWiktionaryEntryParser {
 	private static Logger logger = Logger.getLogger(WiktionaryEntryParser.class.getName());
 	
 	protected static final Pattern COMMENT_PATTERN = Pattern.compile("\\<!--((?!--\\>)[^\0])*?--\\>");
-	protected static final Pattern IMAGE_PATTERN = Pattern.compile("\\[\\[Image:([^\\]]+?)\\|[^\\]]+?\\]\\]");
+	protected static final Pattern IMAGE_PATTERN = Pattern.compile("\\[\\[(Image|File):([^\\]]+?)\\|[^\\]]+?\\]\\]");
 	protected static final Pattern REFERENCES_PATTERN = Pattern.compile("<ref[^>]*>.+?</ref>");
 	
 	protected ILanguage language;
