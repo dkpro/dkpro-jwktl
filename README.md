@@ -2,7 +2,6 @@ JWKTL
 =====
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.dkpro.jwktl/dkpro-jwktl/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.dkpro.jwktl/dkpro-jwktl/badge.svg)
-[![Build Status](https://travis-ci.org/dkpro/dkpro-jwktl.svg)](https://travis-ci.org/dkpro/dkpro-jwktl)
 [![codecov.io](http://codecov.io/github/dkpro/dkpro-jwktl/coverage.svg?branch=master)](http://codecov.io/github/dkpro/dkpro-jwktl?branch=master)
 
 Summary
