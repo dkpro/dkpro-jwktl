@@ -63,6 +63,7 @@ public class ENWiktionaryEntryParser extends WiktionaryEntryParser {
 		register(new ENSemanticRelationHandler(RelationType.TROPONYM, "Troponyms"));
 		register(new ENSemanticRelationHandler(RelationType.COORDINATE_TERM, "Coordinate terms"));
 		register(new ENSemanticRelationHandler(RelationType.SEE_ALSO, "See also"));
+		register(new ENRelationHandler(RelationType.ALTERNATIVE_FORMS, "Alternative forms"));
 		register(new ENRelationHandler(RelationType.DERIVED_TERM, "Derived terms"));
 		register(new ENRelationHandler(RelationType.ETYMOLOGICALLY_RELATED_TERM, "Related terms"));
 		register(new ENDescendantRelationHandler("Descendants"));

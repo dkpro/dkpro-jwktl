@@ -93,6 +93,9 @@ public enum RelationType {
 	 *  Note: $LINK can be a phrase including $ARTICLE (e.g., "strong tea") 
 	 *  or just a single word without $ARTICLE (e.g., "strong") that co-occurs
 	 *  anywhere with the word $ARTICLE. */	
-	CHARACTERISTIC_WORD_COMBINATION;
+	CHARACTERISTIC_WORD_COMBINATION,
+
+	/** Altenative writing - $LINK another way to write $ARTICLE */
+	ALTERNATIVE_FORMS;
 	
 }
