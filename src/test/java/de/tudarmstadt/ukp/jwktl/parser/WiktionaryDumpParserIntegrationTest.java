@@ -25,6 +25,7 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.nio.file.Files;
 import java.util.List;
 
 import de.tudarmstadt.ukp.jwktl.IntegrationTest;
@@ -95,7 +96,7 @@ public class WiktionaryDumpParserIntegrationTest {
 		File dumpFile = new File(file);
 		if (!dumpFile.exists()) {
 			System.err.println("downloading "+url);
-			final File tempFile = File.createTempFile("download-" + file, "jwktl");
+			final File tempFile = Files.createTempFile("download-" + file, "jwktl").toFile();
 			OutputStream fos = new BufferedOutputStream(new FileOutputStream(tempFile));
 			InputStream is = url.openStream();
 
